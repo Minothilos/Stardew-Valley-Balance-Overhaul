@@ -1,0 +1,56 @@
+{
+    "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Leaves": {"Price": "40"},
+				"Aimon111.WitchSwampOverhaulCP_Vile_Ancient_Fruit": {"Price": "110"},		
+			},		
+            "When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Crops": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Aimon111.WitchSwampOverhaulCP_Void_Minnow": {"Price": "50"},
+				"Aimon111.WitchSwampOverhaulCP_Swamp_Leech": {"Price": "55"},
+				"Aimon111.WitchSwampOverhaulCP_Purple_Algae": {"Price": "50"},	
+				"Aimon111.WitchSwampOverhaulCP_Giant_Horsehoe_Crab": {"Price": "200"},					
+			},		
+            "When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Fish": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Aimon111.WitchSwampOverhaulCP_Mushroom_Kebab": {"Price": "290"},
+				"Aimon111.WitchSwampOverhaulCP_Crayfish_Soup": {"Price": "325"},	
+				"Aimon111.WitchSwampOverhaulCP_Pemmican": {"Price": "145"},
+				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Tea": {"Price": "220"},
+				"Aimon111.WitchSwampOverhaulCP_Suspicious_Pie": {"Price": "625"},				
+			},		
+            "When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Food": true}		
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {	
+				"Aimon111.WitchSwampOverhaulCP_Mushroom_Kebab": { 
+				"Buffs": [{"Duration": "500","IsDebuff": false,"CustomAttributes": {"ForagingLevel": "2", "MagneticRadius": "1"}}],
+				},
+				"Aimon111.WitchSwampOverhaulCP_Crayfish_Soup": { 
+				"Buffs": [{"Duration": "500","IsDebuff": false,"CustomAttributes": {"FishingLevel": "2", "LuckLevel": "1"}}],
+				},
+				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Tea": { 
+				"Buffs": [{"Duration": "500","IsDebuff": false,"CustomAttributes": {"MaxStamina": "30", "Speed": "2"}}],
+				},
+				"Aimon111.WitchSwampOverhaulCP_Suspicious_Pie": { 
+				"Buffs": [{"Id": "Suspicious_Bun_dark", "Duration": "300", "BuffId": "26", "IsDebuff": true,},
+						  {"Id": "Suspicious_Bun_Adrenaline", "Duration": "300", "BuffId": "22", "IsDebuff": false, "CustomAttributes":  {"Speed": "1"}}],
+				},					
+			},
+			"When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Food Buffs": true}
+		},
+	]
+}
