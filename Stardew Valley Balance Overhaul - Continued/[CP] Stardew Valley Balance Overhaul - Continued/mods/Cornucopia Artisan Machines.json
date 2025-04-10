@@ -4211,6 +4211,7 @@
       "Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
+        "HasMod|contains=Cornucopia.MoreCrops": true,
         "Cornucopia Extended Crops": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
@@ -4229,6 +4230,7 @@
       "Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
+        "HasMod|contains=Cornucopia.MoreCrops": true,
         "Cornucopia Herbs Pack": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
