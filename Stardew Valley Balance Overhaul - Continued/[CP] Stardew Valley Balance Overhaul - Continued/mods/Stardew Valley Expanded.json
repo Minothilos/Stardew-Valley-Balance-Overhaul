@@ -59,11 +59,11 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Fields": {
-        "FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "250" },
+        "FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "290" },
         "FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "1000" },
         "FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "300" },
         "FlashShifter.StardewValleyExpandedCP_Honey_Jar": { "Price": "500" },
-        "FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "550" },
+        "FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "630" },
         "FlashShifter.StardewValleyExpandedCP_Yarn": { "Price": "600" },
         "FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "100" }
       },
@@ -107,7 +107,7 @@
         "FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Price": "500" },
         "FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": { "Price": "110" },
         "FlashShifter.StardewValleyExpandedCP_Shark_Tooth": { "Price": "175" },
-        "FlashShifter.StardewValleyExpandedCP_Swamp_Flower": { "Price": "175" }
+        "FlashShifter.StardewValleyExpandedCP_Swamp_Flower": { "Price": "90" }
       },
       "When": {
         "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
@@ -225,24 +225,6 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Fields": {
-        "FlashShifter.StardewValleyExpandedCP_Baked_Potato": { "Price": "265" },
-        "FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie": { "Price": "760" },
-        "FlashShifter.StardewValleyExpandedCP_Glazed_Pear": { "Price": "350" },
-        "FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": { "Price": "660" },
-        "FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": { "Price": "435" },
-        "FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": { "Price": "560" }
-      },
-      "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
-        "Food": true,
-        "HasMod|contains=Cornucopia.ArtisanMachines": true
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "Fields": {
         "FlashShifter.StardewValleyExpandedCP_Glazed_Pear": { "Price": "440" },
         "FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": { "Price": "455" },
         "FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": { "Price": "330" },
@@ -252,21 +234,6 @@
         "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
         "Stardew Valley Expanded": true,
         "Food": true,
-        "Fruit Trees": "More Valuable Produce"
-      }
-    },
-    {
-      "Action": "EditData",
-      "Target": "Data/Objects",
-      "Fields": {
-        "FlashShifter.StardewValleyExpandedCP_Glazed_Pear": { "Price": "490" },
-        "FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": { "Price": "690" }
-      },
-      "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
-        "Food": true,
-        "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Fruit Trees": "More Valuable Produce"
       }
     },
@@ -631,7 +598,7 @@
       "Target": "Data/CraftingRecipes",
       "Fields": {
         "Seed Cookie": {
-          "0": "FlashShifter.StardewValleyExpandedCP_Fir_Cone 1 FlashShifter.StardewValleyExpandedCP_Birch_Seed 1 309 1 310 1 311 1//FlashShifter.StardewValleyExpandedCP_Seed_Cookie",
+          "0": "FlashShifter.StardewValleyExpandedCP_Fir_Cone 1 FlashShifter.StardewValleyExpandedCP_Birch_Seed 1 309 1 310 1 311 1",
           "2": "FlashShifter.StardewValleyExpandedCP_Seed_Cookie 2"
         }
       },
@@ -669,6 +636,25 @@
         "Miscellaneous Items": true
       }
     },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_DarkAle": { "Price": "225" }, //Dark Ale
+        "Cornucopia_Porter": { "Price": "195" }, //Porter
+        "Cornucopia_Stout": { "Price": "210" } //Stout
+      },
+
+      "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Stardew Valley Expanded": true,
+        "HasSeenEvent: anyPlayer| contains=5407917": true,
+        "HasMod|contains=Cornucopia.MoreCrops": true,
+        "Cornucopia More Crops": true,
+        "Cornucopia Extended Crops": true,
+        "Crops": true
+      }
+    },
     //Andy Special Order
     {
       "Action": "EditData",
@@ -702,7 +688,7 @@
         "289": { "Price": "1155" }, //Ostrich Egg
         "174": { "Price": "135" }, //Large Egg
         "182": { "Price": "135" }, //Large Egg
-        "444": { "Price": "210" }, //Duck Feather
+        "444": { "Price": "500" }, //Duck Feather
         "446": { "Price": "670" }, //Rabbit's Foot
         "186": { "Price": "155" }, //Large Milk
         "438": { "Price": "315" }, //L. Goat Milk
@@ -712,10 +698,18 @@
         "307": { "Price": "480" }, //Duck Mayonnaise
         "428": { "Price": "735" }, //Cloth
         "807": { "Price": "2100" }, //Dinosaur Mayonnaise
-        "6480.blueegg_GoldenMayo": { "Price": "420" }, //Golden Mayonnaise
+        "6480.blueegg_GoldenMayo": { "Price": "650" }, //Golden Mayonnaise
+        "6480.blueegg_OstrichMayo": { "Price": "2400" }, //Golden Mayonnaise
         "424": { "Price": "170" }, //Cheese
         "426": { "Price": "345" }, //Goat Cheese
-        "432": { "Price": "435" } //Truffle Oil
+        "432": { "Price": "435" }, //Truffle Oil
+        "FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "325" },
+        "FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "1100" },
+        "FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "325" },
+        "FlashShifter.StardewValleyExpandedCP_Honey_Jar": { "Price": "550" },
+        "FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "690" },
+        "FlashShifter.StardewValleyExpandedCP_Yarn": { "Price": "700" },
+        "FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "110" }
       },
       "When": {
         "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
@@ -724,12 +718,61 @@
         "Animals": true
       }
     },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Mizu.Quail_QuailEgg": { "Price": "45" }, // Small Quail Egg
+        "Mizu.Quail_LargeQuailEgg": { "Price": "90" }, // Large Quail Egg
+        "Mizu.Quail_QuailMayonnaise": { "Price": "135" } // Quail Mayonnaise
+      },
+      "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Stardew Valley Expanded": true,
+        "HasSeenEvent: anyPlayer| contains=5978939": true,
+        "HasMod|contains=Mizu.Quail": true,
+        "Mizu's Quail": true,
+        "Animals": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Mizu.Turkey_TurkeyEgg": { "Price": "325" }, // Turkey Egg
+        "Mizu.Turkey_TurkeyFeather": { "Price": "510" }, // Turkey Feather
+        "Mizu.Turkey_TurkeyMayonnaise": { "Price": "770" } // Turkey Mayonnaise
+      },
+      "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Stardew Valley Expanded": true,
+        "HasSeenEvent: anyPlayer| contains=5978939": true,
+        "HasMod|contains=Mizu.Turkey": true,
+        "Animals": true,
+        "Mizu's Turkey": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_Butter": { "Price": "110" }, // Butter
+      },
+      "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Stardew Valley Expanded": true,
+        "HasSeenEvent: anyPlayer| contains=5978939": true,
+        "Animals": true,
+        "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true
+      }
+    },
     //Sofia Event
     {
       "Action": "EditData",
       "Target": "Data/Objects",
       "Fields": {
-        "398": { "Price": "75" } //Grape
+        "398": { "Price": "100" } //Grape
       },
       "When": {
         "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
@@ -737,6 +780,24 @@
         "HasSeenEvent: anyPlayer| contains=8185300": true,
         "Spouse": "Sophia",
         "Crops": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_WhiteGrape": { "Price": "70" }, // White Grape
+        "Cornucopia_SparklingWine": { "Price": "275" }, // Sparkling Wine
+      },
+      "When": {
+        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+        "Stardew Valley Expanded": true,
+        "HasSeenEvent: anyPlayer| contains=8185300": true,
+        "Spouse": "Sophia",
+        "Crops": true,
+        "HasMod|contains=Cornucopia.MoreCrops": true,
+        "Cornucopia Extended Crops": true,
+        "Cornucopia More Crops": true
       }
     },
     //Apples Event

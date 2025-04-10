@@ -176,7 +176,27 @@
 			"Default": "true",
 			"Section": "Cornucopia Mods"
 		},
+		"Cornucopia Extended Crops": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Cornucopia Mods"
+		},
+		"Cornucopia Extended Trees": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Cornucopia Mods"
+		},
+		"Cornucopia Herbs Pack": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Cornucopia Mods"
+		},
 		"Cornucopia More Flowers": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Cornucopia Mods"
+		},
+		"Cornucopia Extended Flowers": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Cornucopia Mods"
@@ -303,7 +323,7 @@
 				"289": { "Price": "1100" }, //Ostrich Egg
 				"174": { "Price": "130" }, //Large Egg
 				"182": { "Price": "130" }, //Large Egg
-				"444": { "Price": "200" }, //Duck Feather
+				"444": { "Price": "475" }, //Duck Feather
 				"446": { "Price": "640" }, //Rabbit's Foot
 				"186": { "Price": "150" }, //Large Milk
 				"438": { "Price": "300" }, //L. Goat Milk
@@ -2812,21 +2832,21 @@
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)16", "OutputRules", "Default_LargeGoatMilk", "OutputItem", "#0" ], //Cheese Press - Large Goat Milk
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Animals": true, "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Animals": true, "Artisan Goods": "Large Animal Products Make 2", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)16", "OutputRules", "Default_LargeMilk", "OutputItem", "#0" ], //Cheese Press - Large Milk
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Animals": true, "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Animals": true, "Artisan Goods": "Large Animal Products Make 2", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [ "(BC)24", "OutputRules", "Default_LargeEgg", "OutputItem", "#0" ], //Mayonnaise Machine - Large Egg
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Animals": true, "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Animals": true, "Artisan Goods": "Large Animal Products Make 2", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",

@@ -16,9 +16,9 @@
         "Cornucopia_Chrysanthemum": { "Price": "160" }, // Chrysanthemum
         "Cornucopia_Iris": { "Price": "140" }, // Iris
         "Cornucopia_MorningGlorySeeds": { "Price": "30" }, // MorningGlory Seeds
-        "Cornucopia_RoseSeeds": { "Price": "50" }, // Rose Seeds
+        "Cornucopia_RoseSeeds": { "Price": "35" }, // Rose Seeds
         "Cornucopia_LilySeeds": { "Price": "35" }, // Lily Seeds
-        "Cornucopia_OrchidSeeds": { "Price": "50" } // Orchid Seeds
+        "Cornucopia_OrchidSeeds": { "Price": "45" } // Orchid Seeds
       },
       "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Flowers": true }
     },
@@ -65,9 +65,10 @@
         "Cornucopia_RoseSummerSeeds": { "Price": "80" }, // Rose, Summer Seeds
         "Cornucopia_ClematisSeeds": { "Price": "20" }, // Clematis Seeds
         "Cornucopia_RoseFallSeeds": { "Price": "80" }, // Rose, Fall Seeds
-        "Cornucopia_RoseWinterSeeds": { "Price": "80" } // Rose, Winter Seeds
+        "Cornucopia_RoseWinterSeeds": { "Price": "80" }, // Rose, Winter Seeds
+        "Cornucopia_CorpseFlowerPetal": { "Price": "185" } // Corpse Flower Petal
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
     {
       "Action": "EditData",
@@ -84,7 +85,7 @@
         "Cornucopia_YlangYlangSapling": { "Price": "350" }, // Ylang Ylang Sapling
         "Cornucopia_JasmineSapling": { "Price": "425" } // Jasmine Sapling
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Fruit Trees": "Cheaper Saplings" }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Fruit Trees": "Cheaper Saplings" }
     },
     {
       "Action": "EditData",
@@ -176,7 +177,7 @@
         { "Id": "minothilos.rosefall", "BeforeId": "GrassStarter" },
         { "Id": "minothilos.rosewinter", "BeforeId": "GrassStarter" }
       ],
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Remove Seeds from Shops": false, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Remove Seeds from Shops": false, "Flowers": true }
     },
     {
       "Action": "EditData",
@@ -185,7 +186,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
     {
       "Action": "EditData",
@@ -194,7 +195,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
     {
       "Action": "EditData",
@@ -203,7 +204,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
     {
       "Action": "EditData",
@@ -212,7 +213,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
     {
       "Action": "EditData",
@@ -221,7 +222,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
     {
       "Action": "EditData",
@@ -230,7 +231,7 @@
       "Fields": {
         "Cornucopia_HoneysuckleSeeds": { "Price": "240", "IgnoreShopPriceModifiers": true } //Honeysuckle seeds shop price change
       },
-      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true, "Flowers": true }
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     }
   ]
 }

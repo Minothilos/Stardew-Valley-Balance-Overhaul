@@ -155,7 +155,7 @@
         "Cornucopia_WholeGrainFlour": { "Price": "60" }, // Semolina Flour
         "Cornucopia_Molasses": { "Price": "25" } // Molasses
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -185,7 +185,7 @@
         "Cornucopia_BayLeaves": { "Price": "40" } // Bay Leaves
 
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Herbs Pack": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -203,7 +203,7 @@
         "Cornucopia_CamphorLeavesSapling": { "Price": "500" }, // Camphor Leaves Sapling
         "Cornucopia_CinnamonSticksSapling": { "Price": "550" } // Cinnamon Sticks Sapling
       },
-      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true, "Fruit Trees": "Cheaper Saplings", "Cornucopia More Crops": true }
+      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Herbs Pack": true, "Fruit Trees": "Cheaper Saplings", "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -214,7 +214,7 @@
         "Cornucopia_PapayaSapling": { "TradeItemAmount": "5", "IgnoreShopPriceModifiers": true }, // Papaya Sapling
         "Cornucopia_PlantainSapling": { "TradeItemAmount": "5", "IgnoreShopPriceModifiers": true } // Plantain Sapling
       },
-      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true, "Fruit Trees": "Cheaper Saplings", "Cornucopia More Crops": true }
+      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Trees": true, "Fruit Trees": "Cheaper Saplings", "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -225,7 +225,7 @@
         "Cornucopia_PapayaSapling": { "TradeItemAmount": "10", "IgnoreShopPriceModifiers": true }, // Papaya Sapling
         "Cornucopia_PlantainSapling": { "TradeItemAmount": "5", "IgnoreShopPriceModifiers": true } // Plantain Sapling
       },
-      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true, "Fruit Trees": "More Valuable Produce", "Cornucopia More Crops": true }
+      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Trees": true, "Fruit Trees": "More Valuable Produce", "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -238,7 +238,7 @@
         "Cornucopia_CamphorLeaves": { "Price": "220" }, // Camphor Leaves
         "Cornucopia_CinnamonSticks": { "Price": "230" } // Cinnamon Sticks
       },
-      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true, "Fruit Trees": "More Valuable Produce" }
+      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Herbs Pack": true, "Fruit Trees": "More Valuable Produce" }
     },
     {
       "Action": "EditData",
@@ -282,7 +282,7 @@
         "Cornucopia_PomeloSapling": { "Price": "550" }, // Pomelo
         "Cornucopia_YuzuSapling": { "Price": "525" } // Yuzu
       },
-      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true, "Fruit Trees": "Cheaper Saplings", "Cornucopia More Crops": true }
+      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Trees": true, "Fruit Trees": "Cheaper Saplings", "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -310,7 +310,7 @@
         "Cornucopia_Sapodilla": { "Price": "40" }, // Sapodilla
         "Cornucopia_ChicleRubber": { "Price": "275" } // Chicle Rubber
       },
-      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true, "Fruit Trees": "More Valuable Produce", "Cornucopia More Crops": true }
+      "When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Trees": true, "Fruit Trees": "More Valuable Produce", "Cornucopia More Crops": true }
     },
     //Shops
     {
@@ -440,7 +440,7 @@
         { "Id": "minothilos.kidneybeans", "BeforeId": "GrassStarter" },
         { "Id": "minothilos.butternut", "BeforeId": "GrassStarter" }
       ],
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Remove Seeds from Shops": false, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Remove Seeds from Shops": false, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -485,7 +485,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -494,7 +494,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -503,7 +503,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -512,7 +512,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -521,7 +521,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -530,7 +530,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -539,7 +539,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -548,7 +548,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -557,7 +557,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -566,7 +566,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -575,7 +575,7 @@
       "Entries": {
         "#-1": "cornucopia_shop_pierre_generic_banned"
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",
@@ -584,7 +584,7 @@
       "Fields": {
         "Cornucopia_BambooSeeds": { "Price": "80", "IgnoreShopPriceModifiers": true } //Bamboo Shoots shop price change
       },
-      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cornucopia More Crops": true }
+      "When": { "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true, "Cornucopia More Crops": true }
     },
     {
       "Action": "EditData",

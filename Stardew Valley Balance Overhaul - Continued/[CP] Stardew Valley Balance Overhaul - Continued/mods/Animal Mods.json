@@ -175,8 +175,8 @@
       "Target": "Data/Objects",
       "Fields": {
         "Mizu.Turkey_TurkeyEgg": { "Price": "300", "Edibility": "15" }, // Turkey Egg
-        "Mizu.Turkey_TurkeyFeather": { "Price": "210" }, // Turkey Feather
-        "Mizu.Turkey_TurkeyMayonnaise": { "Price": "800", "Edibility": "35" } // Turkey Mayonnaise
+        "Mizu.Turkey_TurkeyFeather": { "Price": "500" }, // Turkey Feather
+        "Mizu.Turkey_TurkeyMayonnaise": { "Price": "700", "Edibility": "35" } // Turkey Mayonnaise
       },
       "When": {
         "HasMod|contains=Mizu.Turkey": true,
