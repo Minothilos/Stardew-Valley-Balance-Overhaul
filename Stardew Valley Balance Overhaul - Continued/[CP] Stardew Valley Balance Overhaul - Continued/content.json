@@ -295,7 +295,7 @@
 				"376": { "Price": "140" }, //Poppy
 				"593": { "Price": "145" }, //Summer Spangle
 				"595": { "Price": "160" }, //Fairy Rose
-				"421": { "Price": "110" }, //Sunflower
+				"421": { "Price": "125" }, //Sunflower
 				"429": { "Price": "40" }, //Blue Jazz Seed
 				"427": { "Price": "35" }, //Tulip Seed
 				"453": { "Price": "40" }, //Poppy Seed
@@ -340,6 +340,14 @@
 				"6480.blueegg_OstrichMayo": { "Price": "2200" } //Ostrich Mayo
 			},
 			"When": { "Animals": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"428": { "Price": "550" } //Cloth
+			},
+			"When": { "Animals": true, "HasMod|contains=DaLion.Professions": true }
 		},
 		{
 			"Action": "EditData",

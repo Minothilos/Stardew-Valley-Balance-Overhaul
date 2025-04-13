@@ -37,7 +37,7 @@
         "Cornucopia_CornFlour": { "Price": "50" }, // Corn Flour
         "Cornucopia_ChiliOil": { "Price": "250" }, // Chili Oil
         "Cornucopia_CoconutOil": { "Price": "300" }, // Coconut Oil
-        "Cornucopia_FishOil": { "Price": "325" }, // Fish Oil
+        "Cornucopia_FishOil": { "Price": "250" }, // Fish Oil
         "Cornucopia_CenturyEgg": { "Price": "480" }, // Century Egg
         "Cornucopia_FishSauce": { "Price": "550" }, // Fish Sauce
         "Cornucopia_Garum": { "Price": "550" }, // Garum
