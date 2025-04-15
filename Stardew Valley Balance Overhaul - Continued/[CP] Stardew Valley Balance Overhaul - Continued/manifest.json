@@ -1,9 +1,9 @@
 {
-	"Name": "Stardew Valley Balance Overhaul - Continued",
+	"Name": "[CP] Stardew Valley Balance Overhaul - Continued",
 	"Author": "Minothilos (Original Author: Theoddon)",
-	"Version": "1.1.0",
+	"Version": "1.2.0",
 	"Description": "Rebalances just about everything.",
-	"UniqueID": "minothilos.BalanceOverhaulContinued",
+	"UniqueID": "minothilos.BalanceOverhaulContinued.CP",
 	"UpdateKeys": [ "Nexus:32757" ],
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"Dependencies": [
@@ -57,6 +57,34 @@
 		},
 		{
 			"UniqueID": "DaLion.Professions",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "radm.milkdasheep",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "OchoLinda.UpgradeSprinklers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "selph.ExtraTappers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "selph.Aquaponics",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "blueberry.LoveOfCooking.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "drbirbdev.BinningSkill.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "ApryllForever.CPPolyamorySweet",
 			"IsRequired": false
 		}
 	]

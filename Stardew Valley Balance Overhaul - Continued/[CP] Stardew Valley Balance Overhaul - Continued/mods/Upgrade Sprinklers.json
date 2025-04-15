@@ -1,0 +1,30 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Sprinkler to Quality": "599 1 336 1 335 1/Home/621/false/Farming 6" //Changed from refined quartz to iron bar
+            },
+            "When": { "Upgrade Sprinklers": true, "HasMod|contains=OchoLinda.UpgradeSprinklers": true, "Machines": "Normal" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Sprinkler to Quality": "599 1 336 2 335 2/Home/621/false/Farming 6", //Changed from refined quartz to iron bar
+                "Quality to Iridium": "621 1 337 2 787 1/Home/645/false/Farming 9" //Now requires 2 iridium bars
+            },
+            "When": { "Upgrade Sprinklers": true, "HasMod|contains=OchoLinda.UpgradeSprinklers": true, "Machines": "Hard" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Sprinkler to Quality": "599 1 336 2 335 3/Home/621/false/Farming 6", //Changed from refined quartz to iron bar
+                "Quality to Iridium": "621 1 336 1 337 2 787 1/Home/645/false/Farming 9" //Now requires 2 iridium bars and one gold bar
+            },
+            "When": { "Upgrade Sprinklers": true, "HasMod|contains=OchoLinda.UpgradeSprinklers": true, "Machines": "Very Hard" }
+        }
+    ]
+}

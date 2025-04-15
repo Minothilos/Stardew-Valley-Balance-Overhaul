@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        // Walk of Life
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "DaLion.Professions_SlimeMayo": { "Price": "150" }, // Slime Mayonnaise
+                "DaLion.Professions_SlimeCheese": { "Price": "370" } // Slime Cheese
+            },
+            "When": {
+                "HasMod|contains=DaLion.Professions": true,
+                "Mines": true
+            }
+        }
+    ]
+}

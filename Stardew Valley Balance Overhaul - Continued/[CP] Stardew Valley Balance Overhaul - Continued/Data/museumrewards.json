@@ -1,0 +1,80 @@
+{
+    "Changes": [
+        //Museum Rewards
+        {
+            "Action": "EditData",
+            "Target": "Data/MuseumRewards",
+            "Fields": {
+                "museum5": { "RewardItemId": "(O)474", "RewardItemCount": "9" }, //Cauliflower Seeds
+                "museum10": { "RewardItemId": "(O)479", "RewardItemCount": "9" }, //Melon Seeds
+                "museum15": { "RewardItemId": "(O)486", "RewardItemCount": "5" }, //Starfruit Seeds
+                "museum20": { "RewardItemId": "(O)681", "RewardItemCount": "2" }, //Rain Totem
+                "museum25": { "RewardItemId": "(O)490", "RewardItemCount": "9" }, //Pumpkin Seeds
+                "museum30": { "RewardItemId": "(O)253", "RewardItemCount": "10" }, //Triple Shot Espresso
+                "museum35": { "RewardItemId": "(F)1541", "RewardItemCount": "1" }, //A Night On Eco-Hill Painting
+                "museum60": { "RewardItemId": "(O)797", "RewardItemCount": "1" }, //Pearl
+                "museum70": { "RewardItemId": "(F)1554", "RewardItemCount": "1" }, //Jade Hills Painting
+                "museum80": { "RewardItemId": "(F)1669", "RewardItemCount": "1" }, //Lg. Futan Bear
+                "museum90": { "RewardItemId": "(O)279", "RewardItemCount": "1" } //Magic Rock Candy
+            },
+            "When": { "Museum Rewards": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MuseumRewards",
+            "Entries": {
+                "museum45": {
+                    "TargetContextTags": [ { "Tag": "", "Count": "45" } ],
+                    "RewardItemId": "(O)688", //Warp Totem: Farm
+                    "RewardItemCount": "5",
+                    "RewardItemIsSpecial": false,
+                    "RewardItemIsRecipe": false,
+                    "RewardActions": null,
+                    "FlagOnCompletion": true,
+                    "CustomFields": null
+                },
+                "museum55": {
+                    "TargetContextTags": [ { "Tag": "", "Count": "55" } ],
+                    "RewardItemId": "(O)872", //Fairy Dust
+                    "RewardItemCount": "10",
+                    "RewardItemIsSpecial": false,
+                    "RewardItemIsRecipe": false,
+                    "RewardActions": null,
+                    "FlagOnCompletion": true,
+                    "CustomFields": null
+                },
+                "museum65": {
+                    "TargetContextTags": [ { "Tag": "", "Count": "65" } ],
+                    "RewardItemId": "(O)MysteryBox", //Mystery Box
+                    "RewardItemCount": "5",
+                    "RewardItemIsSpecial": false,
+                    "RewardItemIsRecipe": false,
+                    "RewardActions": null,
+                    "FlagOnCompletion": true,
+                    "CustomFields": null
+                },
+                "museum75": {
+                    "TargetContextTags": [ { "Tag": "", "Count": "75" } ],
+                    "RewardItemId": "(O)PrizeTicket", //Prize Ticket
+                    "RewardItemCount": "3",
+                    "RewardItemIsSpecial": false,
+                    "RewardItemIsRecipe": false,
+                    "RewardActions": null,
+                    "FlagOnCompletion": true,
+                    "CustomFields": null
+                },
+                "museum85": {
+                    "TargetContextTags": [ { "Tag": "", "Count": "85" } ],
+                    "RewardItemId": "(O)StardropTea", //Stardrop Tea
+                    "RewardItemCount": "3",
+                    "RewardItemIsSpecial": false,
+                    "RewardItemIsRecipe": false,
+                    "RewardActions": null,
+                    "FlagOnCompletion": true,
+                    "CustomFields": null
+                }
+            },
+            "When": { "Museum Rewards": true }
+        }
+    ]
+}

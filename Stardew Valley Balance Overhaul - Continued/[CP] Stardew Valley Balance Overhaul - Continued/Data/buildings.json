@@ -1,0 +1,149 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Fields": {
+                "Coop": {
+                    "BuildCost": "2000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "250" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "100" } //Stone
+                    ]
+                },
+                "Big Coop": {
+                    "BuildCost": "12000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "300" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "125" } //Stone
+                    ]
+                },
+                "Deluxe Coop": {
+                    "BuildCost": "25000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "350" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "150" } //Stone
+                    ]
+                },
+                "Barn": {
+                    "BuildCost": "3000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "300" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "100" } //Stone
+                    ]
+                },
+                "Big Barn": {
+                    "BuildCost": "15000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "350" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "125" } //Stone
+                    ]
+                },
+                "Deluxe Barn": {
+                    "BuildCost": "30000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "400" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "150" } //Stone
+                    ]
+                },
+                "Silo": {
+                    "BuildCost": "1000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)390", "Amount": "100" }, //Stone
+                        { "ItemId": "(O)330", "Amount": "10" }, //Clay
+                        { "ItemId": "(O)334", "Amount": "5" } //Copper Bar
+                    ]
+                },
+                "Mill": {
+                    "BuildCost": "5000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "150" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "100" }, //Stone
+                        { "ItemId": "(O)709", "Amount": "20" } //Hardwood
+                    ]
+                },
+                "Stable": {
+                    "BuildCost": "10000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)709", "Amount": "100" }, //Hardwood
+                        { "ItemId": "(O)335", "Amount": "10" } //Iron Bar
+                    ]
+                },
+                "Well": {
+                    "BuildCost": "500",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)390", "Amount": "50" } //Stone
+                    ]
+                },
+                "Shipping Bin": {
+                    "BuildCost": "250",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "100" } //Wood
+                    ]
+                },
+                "Pet Bowl": {
+                    "BuildCost": "2500",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)709", "Amount": "10" } //Hardwood
+                    ]
+                },
+                "Slime Hutch": {
+                    "BuildCost": "10000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)390", "Amount": "300" }, //Stone
+                        { "ItemId": "(O)338", "Amount": "10" }, //Refined Quartz
+                        { "ItemId": "(O)336", "Amount": "5" } //Gold Bar
+                    ]
+                },
+                "Shed": {
+                    "BuildCost": "10000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "250" } //Wood
+                    ]
+                },
+                "Big Shed": {
+                    "BuildCost": "15000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)388", "Amount": "500" }, //Wood
+                        { "ItemId": "(O)390", "Amount": "200" } //Stone
+                    ]
+                },
+                "Fish Pond": {
+                    "BuildCost": "5000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)390", "Amount": "150" }, //Stone
+                        { "ItemId": "(O)152", "Amount": "5" }, //Seaweed
+                        { "ItemId": "(O)153", "Amount": "5" } //Green Algae
+                    ]
+                },
+                "Junimo Hut": {
+                    "BuildCost": "30000",
+                    "BuildMaterials": [
+                        { "ItemId": "(O)390", "Amount": "200" }, //Stone
+                        { "ItemId": "(O)268", "Amount": "20" }, //Starfruit
+                        { "ItemId": "(O)771", "Amount": "100" } //Fiber
+                    ]
+                }
+            },
+            "When": { "Buildings": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Fields": {
+                "Silo": {
+                    "HayCapacity": "1000"
+                }
+            },
+            "When": { "Increased Silo Size": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/TV/TipChannel",
+            "Entries": {
+                "74": "Winter's almost here. Make sure you're prepared to feed your animals hay over the winter, because they don't like going outside in the cold. Also, your grass won't keep growing after that first frost. Each silo can hold 1000 pieces of hay, so make sure to do the math and figure out if you need to build any more!"
+            },
+            "When": { "Increased Silo Size": true }
+        }
+    ]
+}

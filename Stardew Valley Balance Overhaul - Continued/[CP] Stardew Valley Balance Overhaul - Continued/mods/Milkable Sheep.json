@@ -1,0 +1,104 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "radm.milkdasheep_SheepMilk": { "Price": "200" }, //Sheep Milk
+                "radm.milkdasheep_LargeSheepMilk": { "Price": "400" }, //Large Sheep Milk
+                "radm.milkdasheep_SheepCheese": { "Price": "460" } //Sheep Cheese
+            },
+            "When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true }
+        },
+        {
+            "Logname": "Modify sheep produce!!",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Fields": {
+                "Sheep": {
+                    "DaysToProduce": 2,
+                    "ProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 100,
+                            "ItemId": "440",
+                        },
+                        {
+                            "Id": "Sheep's Milk",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "{{ModID}}_SheepMilk"
+                        }
+                    ],
+                    "DeluxeProduceItemIds": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "MinimumFriendship": 100,
+                            "ItemId": "440"
+                        },
+                        {
+                            "Id": "Large Sheep's Milk",
+                            "Condition": null,
+                            "MinimumFriendship": 200,
+                            "ItemId": "{{ModID}}_LargeSheepMilk"
+                        }
+                    ]
+                }
+            },
+            "When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0" ], //Cheese Press - Large Sheep Milk
+            "Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
+            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Artisan Goods": "Large Animal Products Make 2" /*, "HasMod|contains=DaLion.Professions": false*/ }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)16", "OutputRules", "radm.milkdasheep_SheepMilk", "OutputItem", "#0" ], //Cheese Press - Sheep Milk
+            "Entries": {
+                "Quality": "0",
+                "StackModifiers": [
+                    {
+                        "Id": "DoubleQuality",
+                        "Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+                        "Modification": "Multiply",
+                        "Amount": "2",
+                        "RandomAmount": null
+                    }
+                ]
+            },
+            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Artisan Goods": "Artisan Goods Gain Quantity" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0" ], //Cheese Press - Large Sheep Milk
+            "Entries": {
+                "MinStack": "2",
+                "Quality": "0",
+                "StackModifiers": [
+                    {
+                        "Id": "DoubleQuality1",
+                        "Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+                        "Modification": "Add",
+                        "Amount": "1",
+                        "RandomAmount": null
+                    },
+                    {
+                        "Id": "DoubleQuality2",
+                        "Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+                        "Modification": "Add",
+                        "Amount": "1",
+                        "RandomAmount": null
+                    }
+                ]
+            },
+            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Artisan Goods": "Artisan Goods Gain Quantity" }
+        }
+    ]
+}

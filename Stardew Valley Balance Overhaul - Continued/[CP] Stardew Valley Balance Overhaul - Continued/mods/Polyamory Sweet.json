@@ -1,0 +1,53 @@
+{
+    "Changes": [
+        //Prices
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "ApryllForever.CPPolyamorySweet_AineFlower": { "Price": "135" }, //Aine Flower
+                "ApryllForever.CPPolyamorySweet_AphroditeFlower": { "Price": "115" }, //Aphrodite Flower
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { "Price": "40" }, //Aine Flower Seed
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { "Price": "30" } //Aphrodite Flower Seed
+            },
+            "When": { "Flowers": true, "Polyamory Sweet": true, "HasMod|contains=ApryllForever.CPPolyamorySweet": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "ApryllForever.CPPolyamorySweet_MermaidBouquet": { "Category": 0 }, //Mermaid Bouquet isn't a flower
+                "ApryllForever.CPPolyamorySweet_AtagartisPendant": { "Category": 0 }, //Atagartis Pendant isn't a flower
+                "ApryllForever.CPPolyamorySweet_RoomieBGone": { "Category": 0 }, //RoomieBGone isn't a flower
+                "ApryllForever.CPPolyamorySweet_LilithToken": { "Category": 0 } //Lilith Token isn't a flower
+            },
+            "When": { "Polyamory Sweet": true, "HasMod|contains=ApryllForever.CPPolyamorySweet": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+                    "Id": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+                    "ItemId": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+                    "Price": 80
+                }
+            },
+            "When": { "Flowers": true, "Polyamory Sweet": true, "HasMod|contains=ApryllForever.CPPolyamorySweet": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
+                    "Id": "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds",
+                    "ItemId": "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds",
+                    "Price": 60
+                }
+            },
+            "When": { "Flowers": true, "Polyamory Sweet": true, "HasMod|contains=ApryllForever.CPPolyamorySweet": true }
+        }
+    ]
+}

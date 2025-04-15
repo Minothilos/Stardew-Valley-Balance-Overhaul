@@ -1,0 +1,33 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Fields": {
+                "White Chicken": { "PurchasePrice": "750", "SellPrice": "1500" },
+                "Brown Chicken": { "SellPrice": "1500" },
+                "Blue Chicken": { "SellPrice": "1500" },
+                "Void Chicken": { "SellPrice": "1500" },
+                "Golden Chicken": { "SellPrice": "8000" },
+                "Duck": { "PurchasePrice": "1000", "SellPrice": "2000" },
+                "Rabbit": { "PurchasePrice": "2000", "SellPrice": "4000" },
+                "Dinosaur": { "SellPrice": "4000" },
+                "White Cow": { "PurchasePrice": "1000", "SellPrice": "2000" },
+                "Brown Cow": { "SellPrice": "2000" },
+                "Goat": { "PurchasePrice": "1500", "SellPrice": "3000" },
+                "Sheep": { "PurchasePrice": "2000", "SellPrice": "4000" },
+                "Pig": { "PurchasePrice": "4000", "SellPrice": "8000" },
+                "Ostrich": { "SellPrice": "8000" }
+            },
+            "When": { "Animals": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Fields": {
+                "Sheep": { "ShopDescription": "{{i18n:Sheep}}", "FriendshipForFasterProduce": "-1" }
+            },
+            "When": { "Animals": true }
+        }
+    ]
+}
