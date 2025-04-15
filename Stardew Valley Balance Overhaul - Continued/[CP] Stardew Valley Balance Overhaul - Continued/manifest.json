@@ -3,7 +3,7 @@
 	"Author": "Minothilos (Original Author: Theoddon)",
 	"Version": "1.2.0",
 	"Description": "Rebalances just about everything.",
-	"UniqueID": "minothilos.BalanceOverhaulContinued.CP",
+	"UniqueID": "minothilos.BalanceOverhaulContinuedCP",
 	"UpdateKeys": [ "Nexus:32757" ],
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"Dependencies": [
@@ -69,10 +69,6 @@
 		},
 		{
 			"UniqueID": "selph.ExtraTappers",
-			"IsRequired": false
-		},
-		{
-			"UniqueID": "selph.Aquaponics",
 			"IsRequired": false
 		},
 		{
