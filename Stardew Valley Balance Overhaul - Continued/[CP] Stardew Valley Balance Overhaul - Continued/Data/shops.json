@@ -3,17 +3,6 @@
         {
             "Action": "EditData",
             "Target": "Data/Shops",
-            "TargetField": [ "Joja", "Items" ],
-            "Fields": {
-                "RandomWallpaper": { "Price": "50" }, //Wallpaper
-                "RandomFlooring": { "Price": "50" }, //Flooring
-                "(BC)272": { "Price": "50000" } //Auto-Petter
-            },
-            "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false, "Shops": true }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
             "TargetField": [ "Saloon", "Items" ],
             "Fields": {
                 "(O)346": { "Price": "400", "IgnoreShopPriceModifiers": true }, //Beer
@@ -173,7 +162,7 @@
                 "RandomFlooring": { "Price": "50" }, //Flooring
                 "(BC)272": { "Price": "75000" } //Auto-Petter
             },
-            "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false, "Flowers": true }
+            "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false, "Shops": true }
         },
         {
             "Action": "EditData",
@@ -204,7 +193,7 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "Fields": {
-                "(O)629": { "PriceMultiplier": "4000", "IgnoreShopPriceModifiers": true }, //Apricot Sapling
+                "(O)629": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Apricot Sapling
                 "(O)628": { "Price": "6000", "IgnoreShopPriceModifiers": true }, //Cherry Sapling
                 "(O)630": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Orange Sapling
                 "(O)631": { "Price": "6000", "IgnoreShopPriceModifiers": true }, //Peach Sapling

@@ -111,6 +111,11 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
+		"Cask Aging": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Balance Changes"
+		},
 		"Buildings": {
 			"AllowValues": "false, true",
 			"Default": "true",
@@ -172,21 +177,6 @@
 			"Section": "Fully Supported Mods"
 		},
 		"Cornucopia More Crops": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Cornucopia Mods"
-		},
-		"Cornucopia Extended Crops": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Cornucopia Mods"
-		},
-		"Cornucopia Extended Trees": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Cornucopia Mods"
-		},
-		"Cornucopia Herbs Pack": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Cornucopia Mods"

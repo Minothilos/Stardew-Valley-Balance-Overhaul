@@ -22,13 +22,13 @@
                             "Id": "Default",
                             "Condition": null,
                             "MinimumFriendship": 100,
-                            "ItemId": "440",
+                            "ItemId": "440"
                         },
                         {
                             "Id": "Sheep's Milk",
                             "Condition": null,
                             "MinimumFriendship": 0,
-                            "ItemId": "{{ModID}}_SheepMilk"
+                            "ItemId": "radm.milkdasheep_SheepMilk"
                         }
                     ],
                     "DeluxeProduceItemIds": [
@@ -42,12 +42,23 @@
                             "Id": "Large Sheep's Milk",
                             "Condition": null,
                             "MinimumFriendship": 200,
-                            "ItemId": "{{ModID}}_LargeSheepMilk"
+                            "ItemId": "radm.milkdasheep_LargeSheepMilk"
                         }
                     ]
                 }
             },
             "When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true }
+        },
+        //Machine Processing
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "radm.milkdasheep_SheepCheese", "OutputItem", "#0" ], //Cask - Cheese
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "2.33"
+                } },
+            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Animals": true, "Cask Aging": "true" },
+            "Priority": "Late +1",
         },
         {
             "Action": "EditData",

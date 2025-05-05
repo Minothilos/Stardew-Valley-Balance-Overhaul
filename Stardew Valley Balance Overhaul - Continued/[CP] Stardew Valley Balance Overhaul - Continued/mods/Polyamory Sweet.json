@@ -27,12 +27,8 @@
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
-            "Entries": {
-                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
-                    "Id": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
-                    "ItemId": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
-                    "Price": 80
-                }
+            "Fields": {
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { "Price": "80", "IgnoreShopPriceModifiers": true }
             },
             "When": { "Flowers": true, "Polyamory Sweet": true, "HasMod|contains=ApryllForever.CPPolyamorySweet": true }
         },
@@ -41,11 +37,7 @@
             "Target": "Data/Shops",
             "TargetField": [ "SeedShop", "Items" ],
             "Entries": {
-                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
-                    "Id": "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds",
-                    "ItemId": "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds",
-                    "Price": 60
-                }
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { "Price": "60", "IgnoreShopPriceModifiers": true }
             },
             "When": { "Flowers": true, "Polyamory Sweet": true, "HasMod|contains=ApryllForever.CPPolyamorySweet": true }
         }

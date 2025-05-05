@@ -651,7 +651,7 @@
         "HasSeenEvent: anyPlayer| contains=5407917": true,
         "HasMod|contains=Cornucopia.MoreCrops": true,
         "Cornucopia More Crops": true,
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "Crops": true
       }
     },
@@ -756,7 +756,7 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Fields": {
-        "Cornucopia_Butter": { "Price": "110" }, // Butter
+        "Cornucopia_Butter": { "Price": "110" } // Butter
       },
       "When": {
         "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
@@ -787,7 +787,7 @@
       "Target": "Data/Objects",
       "Fields": {
         "Cornucopia_WhiteGrape": { "Price": "70" }, // White Grape
-        "Cornucopia_SparklingWine": { "Price": "275" }, // Sparkling Wine
+        "Cornucopia_SparklingWine": { "Price": "275" } // Sparkling Wine
       },
       "When": {
         "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
@@ -796,7 +796,7 @@
         "Spouse": "Sophia",
         "Crops": true,
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "Cornucopia More Crops": true
       }
     },
@@ -1039,7 +1039,7 @@
         "OutputItem",
         "#0" ], // Yarn Spooler
       "Entries": {
-        "CopyQuality": false,
+        "CopyQuality": false
       },
       "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
         "Stardew Valley Expanded": true, "Artisan Goods": "Large Animal Products Make 2" }
@@ -1313,7 +1313,7 @@
       "TargetField": [ "(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules" ],
       "Entries": { "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_NoQuality": null, "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_SilverQuality": null, "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_GoldQuality": null, "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_IridiumQuality": null },
       "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Artisan Goods|contains=Off": "false" }
-    },
+    }
     /* {
       "Action": "EditData",
       "Target": "Data/Machines",

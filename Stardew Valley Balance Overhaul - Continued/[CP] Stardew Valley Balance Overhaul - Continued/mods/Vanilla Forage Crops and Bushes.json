@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        // Food
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "ZoeyHoshi.ForageCrops_CaveCarrotSeeds": { "Price": "20" }, //Cave Carrot Seed
+                "ZoeyHoshi.ForageCrops_DaffodilSeeds": { "Price": "5" }, //Daffodil Seeds
+                "ZoeyHoshi.ForageCrops_DandelionSeeds": { "Price": "10" }, //Dandelion Seeds
+                "ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": { "Price": "25" }, //Fiddlehead Fern Seeds
+                "ZoeyHoshi.ForageCrops_LeekSeeds": { "Price": "20" }, //Cave Carrot Seeds
+                "ZoeyHoshi.ForageCrops_SeaweedSeeds": { "Price": "50" }, //Seaweed Seeds
+                "ZoeyHoshi.ForageCrops_SnowYamSeeds": { "Price": "5" }, //Snow Yam Seeds
+                "ZoeyHoshi.ForageCrops_WildHorseradishSeeds": { "Price": "15" }, //Wild Horseradish Seeds
+                "ZoeyHoshi.ForageCrops_WinterRootSeeds": { "Price": "15" }, //Winter Root Seeds
+            },
+            "When": {
+                "HasMod|contains=ZoeyHoshi.ForageCrops": true,
+                "Forage": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "Entries": {
+                "Cornucopia_CommonMushroomSeeds": { "Price": 600 },
+                "Cornucopia_ChanterelleSeeds": { "Price": 1000 },
+                "Cornucopia_MorelSeeds": { "Price": 1000 }
+            },
+            "When": {
+                "HasMod|contains=ZoeyHoshi.ForageCrops": true,
+                "Forage": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+                "Cornucopia_HollySeeds": { "Price": 500 },
+                "Cornucopia_SalmonberrySeeds": { "Price": 600 },
+                "Cornucopia_MorelSeeds": { "Price": 750 }
+            },
+            "When": {
+                "HasMod|contains=ZoeyHoshi.ForageCrops": true,
+                "Forage": true
+            }
+        }
+    ]
+}

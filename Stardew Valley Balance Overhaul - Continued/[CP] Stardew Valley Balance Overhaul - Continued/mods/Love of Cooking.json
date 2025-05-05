@@ -39,7 +39,7 @@
                 "blueberry.LoveOfCooking_summersalad": { "Price": "380" }, //Summer Salad
                 "blueberry.LoveOfCooking_unagi": { "Price": "275" }, //Eel Sushi
                 "blueberry.LoveOfCooking_waffles": { "Price": "265" }, //Berry Waffles
-                "blueberry.LoveOfCooking_blueberry.LoveOfCooking_chocolate": { "Price": "200" } //Cooking Chocolate
+                "blueberry.LoveOfCooking_chocolate": { "Price": "200" } //Cooking Chocolate
             },
             "When": { "Food": true, "HasMod|contains=blueberry.LoveOfCooking": true, "Love of Cooking": true }
         },

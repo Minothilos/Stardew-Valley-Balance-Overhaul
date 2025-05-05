@@ -89,12 +89,77 @@
         {
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": [ "(BC)12", "OutputRules", "Default_Honey" ], //Keg - Mead Processing Time
-            "Entries": { "MinutesUntilReady": "3000"
+            "TargetField": [ "(BC)12", "OutputRules", "Default_Honey" ], //Keg - Mead Processing Time with Flavored Meads
+            "Entries": { "MinutesUntilReady": "6000"
 
             },
             "When": { "Miscellaneous Items": true, "HasMod|contains=selph.FlavoredMead": true }
         },
+        // Cask aging multiplier
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "Cheese", "OutputItem", "#0" ], //Cask - Cheese
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "4"
+                } },
+            "When": { "Animals": true, "Cask Aging": "true" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "GoatCheese", "OutputItem", "#0" ], //Cask - Goat Cheese
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "2.66"
+                } },
+            "When": { "Animals": true, "Cask Aging": "true" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "Wine", "OutputItem", "#0" ], //Cask - Wine
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "1.33"
+                } },
+            "When": { "Crops": true, "Cask Aging": "true" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "Mead", "OutputItem", "#0" ], //Cask - Mead
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "2.66"
+                } },
+            "When": { "Miscellaneous Items": true, "Cask Aging": "true" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "Mead", "OutputItem", "#0" ], //Cask - Mead with Flavored Mead
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "1.33"
+                } },
+            "When": { "Miscellaneous Items": true, "Cask Aging": "true", "HasMod|contains=selph.FlavoredMead": true }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "PaleAle", "OutputItem", "#0" ], //Cask - Pale Ale
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "4"
+                } },
+            "When": { "Crops": true, "Cask Aging": "true" }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC)163", "OutputRules", "Beer", "OutputItem", "#0" ], //Cask - Beer
+            "Entries": { "CustomData": {
+                    "AgingMultiplier": "3.5"
+                } },
+            "When": { "Crops": true, "Cask Aging": "true" }
+        },
+        // Artisan Good settings
         {
             "Action": "EditData",
             "Target": "Data/Machines",

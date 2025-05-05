@@ -124,14 +124,14 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
-                "Mizu.Quail_StuffedQuail": { "Price": "1100" } // Stuffed Quail with Cornucopia Extended Trees
+                "Mizu.Quail_StuffedQuail": { "Price": "1100" } // Stuffed Quail with Extended Trees
             },
             "When": {
                 "HasMod|contains=Mizu.Quail": true,
                 "Food": true,
                 "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
                 "HasMod|contains=Cornucopia.MoreCrops": true,
-                "Cornucopia Extended Trees": true,
+                "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
                 "Mizu's Quail": true
             }
         },

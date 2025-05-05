@@ -14,40 +14,93 @@
         "Cornucopia_HoneyButter": { "Price": "315" }, // Honey Butter
         "Cornucopia_MapleButter": { "Price": "450" }, // Maple Butter
         "Cornucopia_Margarine": { "Price": "175" }, // Margarine
-        "Cornucopia_Applesauce": { "Price": "325" }, // Applesauce
-        "Cornucopia_ChiliPowder": { "Price": "100" }, // ChiliSauce
-        "Cornucopia_GellingPowder": { "Price": "175" }, // GellingPowder
-        "Cornucopia_PineNuts": { "Price": "200" }, // Pine Nuts
-        "Cornucopia_Saffron": { "Price": "300" }, // Saffron
-        "Cornucopia_Salt": { "Price": "140" }, // Salt
-        "Cornucopia_ShrimpPaste": { "Price": "210" }, // Shrimp Paste
+        "Cornucopia_ChiliPowder": { "Price": "100" }, // ChiliPowder
         "Cornucopia_RoastedGarlic": { "Price": "230" }, // Roasted Garlic
         "Cornucopia_RoastedPumpkinSeeds": { "Price": "150" }, // Roasted Pumpkin Seeds
         "Cornucopia_RoastedSunflowerSeeds": { "Price": "175" }, // Roasted Sunflower Seeds
-        "Cornucopia_SmokedSalmon": { "Price": "200" }, // Smoked Salmon
-        "Cornucopia_DriedSquid": { "Price": "275" }, // Dried Sqiud
-        "Cornucopia_Beeswax": { "Price": "200" }, // Beeswax
         "Cornucopia_GlassNoodles": { "Price": "250" }, // Glass Noodles
         "Cornucopia_RiceNoodles": { "Price": "250" }, // Rice Noodles
         "Cornucopia_WheatNoodles": { "Price": "190" }, // Wheat Noodles
-        "Cornucopia_CoconutMilk": { "Price": "325" }, // Coconut Milk
         "Cornucopia_GarlicMayonnaise": { "Price": "315" }, // Garlic Mayonnaise
         "Cornucopia_SpicyMayonnaise": { "Price": "275" }, // Spicy Mayonnaise
-        "Cornucopia_TruffleMayonnaise": { "Price": "410" }, // Truffle Mayonnaise
         "Cornucopia_CornFlour": { "Price": "50" }, // Corn Flour
         "Cornucopia_ChiliOil": { "Price": "250" }, // Chili Oil
-        "Cornucopia_CoconutOil": { "Price": "300" }, // Coconut Oil
-        "Cornucopia_FishOil": { "Price": "250" }, // Fish Oil
-        "Cornucopia_CenturyEgg": { "Price": "480" }, // Century Egg
-        "Cornucopia_FishSauce": { "Price": "550" }, // Fish Sauce
-        "Cornucopia_Garum": { "Price": "550" }, // Garum
         "Cornucopia_Sauerkraut": { "Price": "320" }, // Sauerkraut
-        "Cornucopia_PlainYogurt": { "Price": "100" }, // Plain Yogurt
         "Cornucopia_Starmite": { "Price": "250" } // Starmite
       },
       "When": {
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true
+        "Cornucopia Artisan Machines": true, "Crops": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_ShrimpPaste": { "Price": "210" }, // Shrimp Paste
+        "Cornucopia_SmokedSalmon": { "Price": "200" }, // Smoked Salmon
+        "Cornucopia_DriedSquid": { "Price": "275" }, // Dried Sqiud
+        "Cornucopia_FishOil": { "Price": "250" }, // Fish Oil
+        "Cornucopia_FishSauce": { "Price": "550" }, // Fish Sauce
+        "Cornucopia_Garum": { "Price": "550" } // Garum
+      },
+      "When": {
+        "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Fish": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_Butter": { "Price": "100" }, // Butter
+        "Cornucopia_TruffleMayonnaise": { "Price": "410" }, // Truffle Mayonnaise
+        "Cornucopia_CenturyEgg": { "Price": "480" }, // Century Egg
+        "Cornucopia_PlainYogurt": { "Price": "100" } // Plain Yogurt
+      },
+      "When": {
+        "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Animals": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_PrismaticEssence": { "Price": "2500" }, // Prismatic Essence
+        "Cornucopia_GellingPowder": { "Price": "175" } // GellingPowder
+      },
+      "When": {
+        "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Mines": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_Saffron": { "Price": "300" }, // Saffron
+        "Cornucopia_Salt": { "Price": "140" }, // Salt
+        "Cornucopia_CoconutMilk": { "Price": "325" }, // Coconut Milk
+        "Cornucopia_CoconutOil": { "Price": "300" } // Coconut Oil
+      },
+      "When": {
+        "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Forage": true
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Fields": {
+        "Cornucopia_HoneyButter": { "Price": "315" }, // Honey Butter
+        "Cornucopia_MapleButter": { "Price": "450" }, // Maple Butter
+        "Cornucopia_PineNuts": { "Price": "200" }, // Pine Nuts
+        "Cornucopia_Beeswax": { "Price": "200" } // Beeswax
+      },
+      "When": {
+        "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Miscellaneous Items": true
       }
     },
     {
@@ -94,15 +147,12 @@
       "Action": "EditData",
       "Target": "Data/Objects",
       "Fields": {
-        "Cornucopia_CocoaButter": { "Price": "440" }, // Cocoa Butter
         "Cornucopia_PeanutButter": { "Price": "125" }, // Peanut Butter
         "Cornucopia_MisoPaste": { "Price": "410" }, // Miso Paste
         "Cornucopia_Pepper": { "Price": "150" }, // Pepper
         "Cornucopia_Zoodles": { "Price": "100" }, // Zoodles
-        "Cornucopia_AvocadoMayonnaise": { "Price": "475" }, // Avocado Mayonnaise
         "Cornucopia_BlackPepperMayonnaise": { "Price": "280" }, // Black Pepper Mayonnaise
         "Cornucopia_OliveOilMayonnaise": { "Price": "400" }, // Olive Oil Mayonnaise
-        "Cornucopia_AvocadoOil": { "Price": "500" }, // Avocado Oil
         "Cornucopia_BrinedOlives": { "Price": "240" }, // Brined Olives
         "Cornucopia_Kimchi": { "Price": "200" }, // Kimchi
         "Cornucopia_PickleSpears": { "Price": "225" }, // Pickle Spears
@@ -112,7 +162,7 @@
       "When": {
         "HasMod|contains=Cornucopia.MoreCrops": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true
+        "Cornucopia Artisan Machines": true, "Crops": true
       }
     },
     {
@@ -157,9 +207,9 @@
       },
       "When": {
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true
+        "Cornucopia Artisan Machines": true, "Crops": true
       }
     },
     // Extended Trees Goods
@@ -174,7 +224,7 @@
       },
       "When": {
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Trees": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true,
         "Fruit Trees": "Cheaper Saplings"
@@ -191,7 +241,7 @@
       },
       "When": {
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Trees": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true,
         "Fruit Trees": "More Valuable Produce"
@@ -207,9 +257,9 @@
       },
       "When": {
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true
+        "Cornucopia Artisan Machines": true, "Crops": true
       }
     },
     {
@@ -220,7 +270,7 @@
       },
       "When": {
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true
+        "Cornucopia Artisan Machines": true, "Animals": true
       }
     },
     {
@@ -265,7 +315,7 @@
         "Cornucopia_DillMayonnaise": { "Category": "-18" } //Dill Mayonnaise
       },
       "When": { "Item Categories": true, "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Herbs Pack": true }
+        "Cornucopia Artisan Machines": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true }
     },
     {
       "Action": "EditData",
@@ -274,7 +324,7 @@
         "Cornucopia_WasabiMayonnaise": { "Category": "-18" } //Wasabi Mayonnaise
       },
       "When": { "Item Categories": true, "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia Extended Crops": true }
+        "Cornucopia Artisan Machines": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true }
     },
     {
       "Action": "EditData",
@@ -561,7 +611,7 @@
     },
 
     // -----------------------------------------------------------------------------------------
-    // Machines
+    // Machine processing
     {
       "Action": "EditData",
       "Target": "Data/Machines",
@@ -677,7 +727,7 @@
             "Amount": 1.75
           },
           {
-            "Id": "BeeswaxBase",
+            "Id": "YogurtBase",
             "Modification": "Add",
             "Amount": 100
           }
@@ -706,7 +756,7 @@
             "Amount": 1.75
           },
           {
-            "Id": "BeeswaxBase",
+            "Id": "YogurtBase",
             "Modification": "Add",
             "Amount": 100
           }
@@ -735,7 +785,7 @@
             "Amount": 1.75
           },
           {
-            "Id": "BeeswaxBase",
+            "Id": "YogurtBase",
             "Modification": "Add",
             "Amount": 100
           }
@@ -835,6 +885,57 @@
         "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
         "Animal Husbandry Mod": true
       }
+    },
+    //Cask Aging Multiplier
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC)163", "OutputRules", "Cornucopia_AgedCenturyEgg", "OutputItem", "#0" ], //Cask - Century Egg
+      "Entries": { "CustomData": {
+          "AgingMultiplier": "1.75"
+        } },
+      "When": { "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Animals": true, "Cask Aging": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC)163", "OutputRules", "Cornucopia_AgedNutCheese", "OutputItem", "#0" ], //Cask - Nut Cheese
+      "Entries": { "CustomData": {
+          "AgingMultiplier": "1.55"
+        } },
+      "When": { "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Cask Aging": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC)163", "OutputRules", "Cornucopia_AgedSmokedCheese", "OutputItem", "#0" ], //Cask - Smoked Cheese
+      "Entries": { "CustomData": {
+          "AgingMultiplier": "1.55"
+        } },
+      "When": { "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Cask Aging": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC)163", "OutputRules", "Cornucopia_AgedSoySauce", "OutputItem", "#0" ], //Cask - Soy Sauce
+      "Entries": { "CustomData": {
+          "AgingMultiplier": "2.33"
+        } },
+      "When": { "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cask Aging": "true" }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Machines",
+      "TargetField": [ "(BC)163", "OutputRules", "Cornucopia_AgedStinkyTofu", "OutputItem", "#0" ], //Cask - Stinky Tofu
+      "Entries": { "CustomData": {
+          "AgingMultiplier": "1.64"
+        } },
+      "When": { "HasMod|contains=Cornucopia.ArtisanMachines": true,
+        "Cornucopia Artisan Machines": true, "Crops": true, "HasMod|contains=Cornucopia.MoreCrops": true, "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true, "Cask Aging": "true" }
     },
     //--------------------------------------------------------------------------------------------
     // Artisan Goods Gain Quantity
@@ -1788,7 +1889,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Trees": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
       }
     },
     {
@@ -1818,7 +1919,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Trees": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
       }
     },
     {
@@ -1848,7 +1949,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Trees": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
       }
     },
     {
@@ -2151,7 +2252,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     {
@@ -2181,7 +2282,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     {
@@ -2211,7 +2312,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     {
@@ -2241,7 +2342,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Trees": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
       }
     },
     {
@@ -2748,7 +2849,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Herbs Pack": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
       }
     },
     {
@@ -2778,7 +2879,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Herbs Pack": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
       }
     },
     {
@@ -2810,7 +2911,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     {
@@ -2840,7 +2941,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     {
@@ -3300,7 +3401,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     {
@@ -3330,7 +3431,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     {
@@ -3354,7 +3455,7 @@
         "Cornucopia Artisan Machines": true,
         "Artisan Goods": "Artisan Goods Gain Quantity",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Trees": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
       }
     },
     {
@@ -4212,7 +4313,7 @@
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -4231,7 +4332,7 @@
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -4954,7 +5055,7 @@
       "Entries": { "RequiredCount": "2" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -4966,7 +5067,7 @@
       "Entries": { "MinutesUntilReady": "240" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -4978,7 +5079,7 @@
       "Entries": { "InvalidCountMessage": "{{i18n: MayonnaiseMachineInvalidCount_Wasabi}}" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -4997,7 +5098,7 @@
       "Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5020,7 +5121,7 @@
       },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5038,7 +5139,7 @@
       "Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5061,7 +5162,7 @@
       },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Extended Crops": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5075,7 +5176,7 @@
       "Entries": { "RequiredCount": "2" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5087,7 +5188,7 @@
       "Entries": { "MinutesUntilReady": "240" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5099,7 +5200,7 @@
       "Entries": { "InvalidCountMessage": "{{i18n: MayonnaiseMachineInvalidCount_Dill}}" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5118,7 +5219,7 @@
       "Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5141,7 +5242,7 @@
       },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5159,7 +5260,7 @@
       "Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }
@@ -5182,7 +5283,7 @@
       },
       "When": {
         "Artisan Goods": "Large Animal Products Make 2",
-        "Cornucopia Herbs Pack": true,
+        "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true
       }

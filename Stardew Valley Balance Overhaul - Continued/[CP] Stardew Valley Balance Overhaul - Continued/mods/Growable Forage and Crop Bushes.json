@@ -1,0 +1,47 @@
+{
+    "Changes": [
+        // Food
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Fields": {
+                "Cornucopia_SpringOnionSeeds": { "Price": "5" }, //Spring Onion Seeds
+                "399": { "Price": "10" }, //Spring Onion
+                "Cornucopia_CrocusSeeds": { "Price": "10" }, //Crocus Seeds
+                "Cornucopia_SweetPeaSeeds": { "Price": "5" } //Crocus Seeds
+            },
+            "When": {
+                "HasMod|contains=Cornucopia.GrowableForage": true,
+                "Forage": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "Dwarf", "Items" ],
+            "Entries": {
+                "Cornucopia_CommonMushroomSeeds": { "Price": 600 },
+                "Cornucopia_ChanterelleSeeds": { "Price": 1000 },
+                "Cornucopia_MorelSeeds": { "Price": 1000 }
+            },
+            "When": {
+                "HasMod|contains=Cornucopia.GrowableForage": true,
+                "Forage": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [ "SeedShop", "Items" ],
+            "Entries": {
+                "Cornucopia_HollySeeds": { "Price": 500 },
+                "Cornucopia_SalmonberrySeeds": { "Price": 600 },
+                "Cornucopia_MorelSeeds": { "Price": 750 }
+            },
+            "When": {
+                "HasMod|contains=Cornucopia.GrowableForage": true,
+                "Forage": true
+            }
+        }
+    ]
+}

@@ -48,14 +48,14 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
-                "Mizu.Turkey_RoastTurkey": { "Price": "1220" } // Roast Turkey with Cornucopia Herbs Pack
+                "Mizu.Turkey_RoastTurkey": { "Price": "1220" } // Roast Turkey with Herbs Pack
             },
             "When": {
                 "HasMod|contains=Mizu.Turkey": true,
                 "Food": true,
                 "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
                 "HasMod|contains=Cornucopia.MoreCrops": true,
-                "Cornucopia Herbs Pack": true,
+                "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
                 "Mizu's Turkey": true
             }
         },

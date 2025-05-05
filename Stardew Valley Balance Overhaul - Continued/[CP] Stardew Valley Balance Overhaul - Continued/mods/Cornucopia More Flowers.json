@@ -125,10 +125,24 @@
     },
     {
       "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "Joja", "Items" ],
+      "Entries":
+      { "minothilos.morningglory": {
+          "Id": "minothilos.morningglory",
+          "ItemId": "Cornucopia_MorningGlorySeeds",
+          "Condition": "SEASON Spring",
+          "Price": "240",
+          "IgnoreShopPriceModifiers": true }
+      },
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Remove Seeds from Shops": false, "Flowers": true }
+    },
+    {
+      "Action": "EditData",
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_MorningGlorySeeds", "ContextTags" ], // Morning Glory Seed dupe removed
       "Entries": {
-        "#-1": "cornucopia_shop_pierre_generic_banned"
+        "cornucopia_shop_pierre": null
       },
       "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Flowers": true }
     },
@@ -181,10 +195,48 @@
     },
     {
       "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "Joja", "Items" ],
+      "Entries":
+      { "minothilos.rosespring": {
+          "Id": "minothilos.rosespring",
+          "ItemId": "Cornucopia_RoseSpringSeeds",
+          "Condition": "SEASON Spring, YEAR 2",
+          "Price": "310",
+          "IgnoreShopPriceModifiers": true },
+        "minothilos.rosesummer": {
+          "Id": "minothilos.rosesummer",
+          "ItemId": "Cornucopia_RoseSummerSeeds",
+          "Condition": "SEASON Summer, YEAR 2",
+          "Price": "300",
+          "IgnoreShopPriceModifiers": true },
+        "minothilos.clematis": {
+          "Id": "minothilos.clematis",
+          "ItemId": "Cornucopia_ClematisSeeds",
+          "Condition": "SEASON Fall, YEAR 2",
+          "Price": "90",
+          "IgnoreShopPriceModifiers": true },
+        "minothilos.rosefall": {
+          "Id": "minothilos.rosefall",
+          "ItemId": "Cornucopia_RoseFallSeeds",
+          "Condition": "SEASON Fall, YEAR 2",
+          "Price": "280",
+          "IgnoreShopPriceModifiers": true },
+        "minothilos.rosewinter": {
+          "Id": "minothilos.rosewinter",
+          "ItemId": "Cornucopia_RoseWinterSeeds",
+          "Condition": "SEASON Winter, YEAR 2",
+          "Price": "340",
+          "IgnoreShopPriceModifiers": true }
+      },
+      "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Remove Seeds from Shops": false, "Flowers": true }
+    },
+    {
+      "Action": "EditData",
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_RoseSpringSeeds", "ContextTags" ], // Spring Rose Seed dupe removed
       "Entries": {
-        "#-1": "cornucopia_shop_pierre_generic_banned"
+        "cornucopia_shop_pierre": null
       },
       "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
@@ -193,7 +245,7 @@
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_RoseSummerSeeds", "ContextTags" ], // Summer Rose Seed dupe removed
       "Entries": {
-        "#-1": "cornucopia_shop_pierre_generic_banned"
+        "cornucopia_shop_pierre": null
       },
       "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
@@ -202,7 +254,7 @@
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_ClematisSeeds", "ContextTags" ], // Cematis Seed dupe removed
       "Entries": {
-        "#-1": "cornucopia_shop_pierre_generic_banned"
+        "cornucopia_shop_pierre": null
       },
       "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
@@ -211,7 +263,7 @@
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_RoseFallSeeds", "ContextTags" ], // Fall Rose Seed dupe removed
       "Entries": {
-        "#-1": "cornucopia_shop_pierre_generic_banned"
+        "cornucopia_shop_pierre": null
       },
       "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },
@@ -220,7 +272,7 @@
       "Target": "Data/Objects",
       "TargetField": [ "Cornucopia_RoseWinterSeeds", "ContextTags" ], // Winter Rose Seed dupe removed
       "Entries": {
-        "#-1": "cornucopia_shop_pierre_generic_banned"
+        "cornucopia_shop_pierre": null
       },
       "When": { "HasMod|contains=Cornucopia.MoreFlowers": true, "Cornucopia More Flowers": true, "Cornucopia Extended Flowers": true, "Flowers": true }
     },

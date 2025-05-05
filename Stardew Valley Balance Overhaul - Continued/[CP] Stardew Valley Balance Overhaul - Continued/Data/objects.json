@@ -345,6 +345,7 @@
                 "257": { "Price": "120" }, //Morel
                 "88": { "Price": "100" }, //Coconut
                 "791": { "Price": "200" }, //Golden Coconut
+                "829": { "Price": "90" }, //Ginger
                 "399": { "Price": "15" } //Spring Onion
             },
             "When": { "Forage": true }
@@ -370,7 +371,6 @@
                 "310": { "Price": "10" }, //Maple Seed
                 "311": { "Price": "10" }, //Pine Cone
                 "292": { "Price": "50" }, //Mahogany Seed
-                "829": { "Price": "90" }, //Ginger
                 "78": { "Price": "75" }, //Cave Carrot
                 "812": { "Price": "100" }, //Roe
                 "447": { "Price": "200" }, //Aged Roe
