@@ -3632,13 +3632,12 @@
       "TargetField": [
         "(BC)Cornucopia_YogurtJar",
         "OutputRules",
-        "Cornucopia_PlainYogurtGoatGold",
+        "Cornucopia_PlainYogurtGold",
         "OutputItem",
         "#0"
       ], //Yogurt Jar - Plain Yogurt (Large Milk)
       "Entries": {
-        "MinStack": "1",
-        "MaxStack": "1",
+        "MinStack": "2",
         "Quality": "0",
         "StackModifiers": [
           {
@@ -3676,7 +3675,6 @@
       ], //Yogurt Jar - Plain Yogurt (Large Milk)
       "Entries": {
         "MinStack": "2",
-        "MaxStack": "2",
         "Quality": "0",
         "StackModifiers": [
           {
@@ -3714,7 +3712,6 @@
       ], //Yogurt Jar - Plain Yogurt (Goat Milk)
       "Entries": {
         "MinStack": "2",
-        "MaxStack": "2",
         "Quality": "0",
         "StackModifiers": [
           {
@@ -3750,8 +3747,7 @@
         "#0"
       ], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
       "Entries": {
-        "MinStack": "2",
-        "MaxStack": "2",
+        "MinStack": "4",
         "Quality": "0",
         "StackModifiers": [
           {
@@ -3803,7 +3799,6 @@
       ], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
       "Entries": {
         "MinStack": "4",
-        "MaxStack": "4",
         "Quality": "0",
         "StackModifiers": [
           {
@@ -3860,7 +3855,7 @@
       "When": {
         "HasMod|contains=Cornucopia.ArtisanMachines": true,
         "Cornucopia Artisan Machines": true,
-        "Artisan Goods": "Artisan Goods Gain Quantity"
+        "Artisan Goods|contains=Off": "false"
       }
     },
     {

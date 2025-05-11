@@ -269,7 +269,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Stardew Valley Expanded.json, mods/Ridgeside Village.json, mods/Distant Lands.json, mods/East Scarp.json, mods/Cornucopia Artisan Machines.json, mods/Cornucopia More Crops.json, mods/Cornucopia More Flowers.json, mods/Mizu's Quail.json, mods/Mizu's Turkey.json, mods/Walk of Life.json, mods/Animal husbandry Mod.json, mods/Upgrade Sprinklers.json, mods/Milkable Sheep.json, mods/Additional Tree Equipment.json, mods/Love of Cooking.json, mods/Binning Skill.json, mods/Polyamory Sweet.json"
+			"FromFile": "mods/Stardew Valley Expanded.json, mods/Ridgeside Village.json, mods/Distant Lands.json, mods/East Scarp.json, mods/Cornucopia Artisan Machines.json, mods/Cornucopia More Crops.json, mods/Cornucopia More Flowers.json, mods/Mizu's Quail.json, mods/Mizu's Turkey.json, mods/Walk of Life.json, mods/Animal husbandry Mod.json, mods/Upgrade Sprinklers.json, mods/Milkable Sheep.json, mods/Additional Tree Equipment.json, mods/Love of Cooking.json, mods/Binning Skill.json, mods/Polyamory Sweet.json, mods/Vanilla Forage Crops and Bushes.json, mods/Growable Forage and Crop Bushes.json, mods/Spooky Skill.json"
 		}
 	]
 }

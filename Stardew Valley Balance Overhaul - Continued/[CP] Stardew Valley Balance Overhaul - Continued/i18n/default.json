@@ -3,7 +3,7 @@
 	"config.Crops.description": "Changes crops and crop-related sell prices.",
 	"config.Flowers.description": "Changes flowers sell prices and flower seed shop prices. This also affects flower honey.",
 	"config.Animals.description": "Changes animal product sell prices and mechanics of some animals.",
-	"config.Fruit Trees.description": "Changes fruit tree ptoduce sell prices and fruit tree sapling shop prices. Cheaper Saplings make Fruit Trees more accessible early game while More Valuable Produce makes Fruit Trees more viable late game.",
+	"config.Fruit Trees.description": "Changes fruit tree produce sell prices and fruit tree sapling shop prices. Cheaper Saplings make Fruit Trees more accessible early game while More Valuable Produce makes Fruit Trees more viable late game.",
 	"config.Mines.description": "Changes gems, ores, bars, monster drops, artifacts, and geode minerals sell prices. This also changes crystalarium processing times.",
 	"config.Forage.description": "Changes forage sell prices.",
 	"config.Fish.description": "Changes fish sell prices.",
