@@ -20,7 +20,7 @@
                 "Forage": true
             }
         },
-        {
+        /*    {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Dwarf", "Items" ],
@@ -47,6 +47,6 @@
                 "HasMod|contains=ZoeyHoshi.ForageCrops": true,
                 "Forage": true
             }
-        }
+        }*/
     ]
 }

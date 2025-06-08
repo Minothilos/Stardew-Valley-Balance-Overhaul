@@ -8,14 +8,19 @@
                 "Cornucopia_SpringOnionSeeds": { "Price": "5" }, //Spring Onion Seeds
                 "399": { "Price": "10" }, //Spring Onion
                 "Cornucopia_CrocusSeeds": { "Price": "10" }, //Crocus Seeds
-                "Cornucopia_SweetPeaSeeds": { "Price": "5" } //Crocus Seeds
+                "Cornucopia_SweetPeaSeeds": { "Price": "5" }, //Sweet Pea Seeds
+                "Cornucopia_CommonMushroomSeeds": { "Price": "300" },
+                "Cornucopia_ChanterelleSeeds": { "Price": "500" },
+                "Cornucopia_MorelSeeds": { "Price": "500" },
+                "Cornucopia_HollySeeds": { "Price": "250" },
+                "Cornucopia_SalmonberrySeeds": { "Price": "300" }
             },
             "When": {
                 "HasMod|contains=Cornucopia.GrowableForage": true,
                 "Forage": true
             }
         },
-        {
+        /*    {
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [ "Dwarf", "Items" ],
@@ -42,6 +47,6 @@
                 "HasMod|contains=Cornucopia.GrowableForage": true,
                 "Forage": true
             }
-        }
+        }*/
     ]
 }
