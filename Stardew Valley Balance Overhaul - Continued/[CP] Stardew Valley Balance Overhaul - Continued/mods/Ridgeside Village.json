@@ -15,7 +15,6 @@
 			},
 			"When": {
 				"HasMod|contains=Rafseazz.RSVCP": true,
-				"Ridgeside Village": true,
 				"Fruit Trees": "Cheaper Saplings"
 			}
 		},
