@@ -38,7 +38,7 @@
             "Entries": {
                 "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { "Price": "60", "IgnoreShopPriceModifiers": true }
             },
-            "When": { "Flowers": true, "Polyamory Sweet": true, "HasMod|contains=ApryllForever.CPPolyamorySweet": true }
+            "When": { "Flowers": true }
         }
     ]
 }
