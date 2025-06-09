@@ -9,7 +9,6 @@
                 "DaLion.Professions_SlimeCheese": { "Price": "370" } // Slime Cheese
             },
             "When": {
-                "HasMod|contains=DaLion.Professions": true,
                 "Mines": true
             }
         }
