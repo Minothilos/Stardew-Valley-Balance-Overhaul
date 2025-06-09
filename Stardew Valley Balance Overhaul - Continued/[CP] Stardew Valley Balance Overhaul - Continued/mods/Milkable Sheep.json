@@ -8,7 +8,7 @@
                 "radm.milkdasheep_LargeSheepMilk": { "Price": "400" }, //Large Sheep Milk
                 "radm.milkdasheep_SheepCheese": { "Price": "460" } //Sheep Cheese
             },
-            "When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true }
+            "When": { "Animals": true }
         },
         {
             "Logname": "Modify sheep produce!!",
@@ -47,7 +47,7 @@
                     ]
                 }
             },
-            "When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true }
+            "When": { "Animals": true }
         },
         //Machine Processing
         {
@@ -57,7 +57,7 @@
             "Entries": { "CustomData": {
                     "AgingMultiplier": "2.33"
                 } },
-            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Animals": true, "Cask Aging": "true" },
+            "When": { "Animals": true, "Cask Aging": "true" },
             "Priority": "Late +1",
         },
         {
@@ -65,7 +65,7 @@
             "Target": "Data/Machines",
             "TargetField": [ "(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0" ], //Cheese Press - Large Sheep Milk
             "Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Artisan Goods": "Large Animal Products Make 2" /*, "HasMod|contains=DaLion.Professions": false*/ }
+            "When": { "Artisan Goods": "Large Animal Products Make 2" /*, "HasMod|contains=DaLion.Professions": false*/ }
         },
         {
             "Action": "EditData",
@@ -83,7 +83,7 @@
                     }
                 ]
             },
-            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Artisan Goods": "Artisan Goods Gain Quantity" }
+            "When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
         },
         {
             "Action": "EditData",
@@ -109,7 +109,7 @@
                     }
                 ]
             },
-            "When": { "HasMod|contains=radm.milkdasheep": true, "Milkable Sheep": true, "Artisan Goods": "Artisan Goods Gain Quantity" }
+            "When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
         }
     ]
 }
