@@ -161,41 +161,6 @@
 			"Default": "true",
 			"Section": "Quality of Life Changes"
 		},
-		"Stardew Valley Expanded": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Ridgeside Village": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Distant Lands": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Cornucopia More Crops": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Cornucopia Mods"
-		},
-		"Cornucopia More Flowers": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Cornucopia Mods"
-		},
-		"Cornucopia Extended Flowers": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Cornucopia Mods"
-		},
-		"Cornucopia Artisan Machines": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Cornucopia Mods"
-		},
 		/*	"Cotton per Cloth": {
 			"AllowValues": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
 			"Default": "8",
@@ -206,61 +171,6 @@
 			"Default": "false",
 			"Section": "Cornucopia Mods"
 		},
-		"Animal Husbandry Mod": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Mizu's Quail": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Mizu's Turkey": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Milkable Sheep": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Upgrade Sprinklers": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Additional Tree Equipment": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Fish Pond Aquaponics": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Love of Cooking": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Binning Skill": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"Polyamory Sweet": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Fully Supported Mods"
-		},
-		"East Scarp": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Partially Supported Mods"
-		}
 	},
 	"Changes": [
 		{
