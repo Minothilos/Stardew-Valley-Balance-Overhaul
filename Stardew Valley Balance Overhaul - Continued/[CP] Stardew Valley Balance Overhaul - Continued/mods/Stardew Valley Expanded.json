@@ -18,8 +18,6 @@
         "FlashShifter.StardewValleyExpandedCP_Gold_Carrot": { "Price": "750" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Crops": true
       }
     },
@@ -34,8 +32,6 @@
         "FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Fruit Trees": "Cheaper Saplings"
       }
     },
@@ -50,8 +46,6 @@
         "FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Fruit Trees": "More Valuable Produce"
       }
     },
@@ -68,8 +62,6 @@
         "FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "100" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Animals": true
       }
     },
@@ -82,8 +74,6 @@
         "FlashShifter.StardewValleyExpandedCP_Bear": { "PurchasePrice": "6000", "SellPrice": "12000" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Animals": true
       }
     },
@@ -110,8 +100,6 @@
         "FlashShifter.StardewValleyExpandedCP_Swamp_Flower": { "Price": "90" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Forage": true
       }
     },
@@ -123,11 +111,8 @@
         "FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Price": "400" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Forage": true,
-        "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true
+        "HasMod|contains=Cornucopia.ArtisanMachines": true
       }
     },
     {
@@ -180,8 +165,6 @@
         "FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": { "Price": "3000" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Fish": true
       }
     },
@@ -216,8 +199,6 @@
         "FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": { "Price": "600" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Food": true
       }
     },
@@ -231,8 +212,6 @@
         "FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": { "Price": "640" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Food": true,
         "Fruit Trees": "More Valuable Produce"
       }
@@ -261,8 +240,6 @@
         "FlashShifter.StardewValleyExpandedCP_Seed_Cookie": { "Price": "35" } // Seed Cookie
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Miscellaneous Items": true
       }
     },
@@ -274,8 +251,6 @@
         "FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { "Price": "2000" } // Mega Purple Mushroom
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Miscellaneous Items": true, "HasMod|contains=Cornucopia.ArtisanMachines": true
       }
     },
@@ -292,8 +267,6 @@
         "FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba": { "Price": "1000" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Mines": true
       }
     },
@@ -416,8 +389,6 @@
         }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Food Buffs": true
       }
     },
@@ -440,8 +411,6 @@
         } // Persimmon Sapling
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Fruit Trees": "Cheaper Saplings"
       }
     },
@@ -464,8 +433,6 @@
         } // Persimmon Sapling
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Fruit Trees": "More Valuable Produce"
       }
     },
@@ -477,8 +444,6 @@
         "(BC)272": { "Price": "75000" } //Auto-Petter
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Flowers": true
       }
     },
@@ -493,8 +458,6 @@
         }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Shops": true
       }
     },
@@ -521,8 +484,6 @@
         }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Shops": true
       }
     },
@@ -549,8 +510,6 @@
         }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Limited Shop Inventories": true
       }
     },
@@ -562,8 +521,6 @@
         "Yarn Spooler": { "0": "709 25 787 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Machines": "Normal"
       }
     },
@@ -575,8 +532,6 @@
         "Yarn Spooler": { "0": "709 35 787 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 2" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Machines": "Hard"
       }
     },
@@ -588,8 +543,6 @@
         "Yarn Spooler": { "0": "709 40 787 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 3" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Machines": "Very Hard"
       }
     },
@@ -602,10 +555,6 @@
           "2": "FlashShifter.StardewValleyExpandedCP_Seed_Cookie 2"
         }
       },
-      "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true
-      }
     },
     //Susan Special Order
     {
@@ -617,8 +566,6 @@
       },
 
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5407917": true,
         "Crops": true
       }
@@ -630,8 +577,6 @@
         "459": { "Price": "330" } //Mead
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5407917": true,
         "Miscellaneous Items": true
       }
@@ -646,11 +591,8 @@
       },
 
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5407917": true,
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "Cornucopia More Crops": true,
         "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
         "Crops": true
       }
@@ -663,8 +605,6 @@
         "400": { "Price": "85" } //Strawberry
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5407915": true,
         "Crops": true
       }
@@ -712,8 +652,6 @@
         "FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "110" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5978939": true,
         "Animals": true
       }
@@ -727,11 +665,8 @@
         "Mizu.Quail_QuailMayonnaise": { "Price": "135" } // Quail Mayonnaise
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5978939": true,
-        "HasMod|contains=Mizu.Quail": true,
-        "Mizu's Quail": true,
+        "HasMod|contains=Mizu.Quail": true
         "Animals": true
       }
     },
@@ -744,12 +679,9 @@
         "Mizu.Turkey_TurkeyMayonnaise": { "Price": "770" } // Turkey Mayonnaise
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5978939": true,
         "HasMod|contains=Mizu.Turkey": true,
-        "Animals": true,
-        "Mizu's Turkey": true
+        "Animals": true
       }
     },
     {
@@ -759,12 +691,9 @@
         "Cornucopia_Butter": { "Price": "110" } // Butter
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=5978939": true,
         "Animals": true,
-        "HasMod|contains=Cornucopia.ArtisanMachines": true,
-        "Cornucopia Artisan Machines": true
+        "HasMod|contains=Cornucopia.ArtisanMachines": true
       }
     },
     //Sofia Event
@@ -775,8 +704,6 @@
         "398": { "Price": "100" } //Grape
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=8185300": true,
         "Spouse": "Sophia",
         "Crops": true
@@ -790,14 +717,11 @@
         "Cornucopia_SparklingWine": { "Price": "275" } // Sparkling Wine
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=8185300": true,
         "Spouse": "Sophia",
         "Crops": true,
         "HasMod|contains=Cornucopia.MoreCrops": true,
-        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-        "Cornucopia More Crops": true
+        "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
       }
     },
     //Apples Event
@@ -808,8 +732,6 @@
         "268": { "Price": "250" } //Starfruit
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=7776009": true,
         "Crops": true
       }
@@ -824,8 +746,6 @@
         "Cask": { "0": "388 15 709 1" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=1000083": true,
         "Machines": "Normal"
       }
@@ -839,8 +759,6 @@
         "Cask": { "0": "388 20 709 2 726 1" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=1000083": true,
         "Machines": "Hard"
       }
@@ -854,8 +772,6 @@
         "Cask": { "0": "388 40 709 3 726 2" }
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "HasSeenEvent: anyPlayer| contains=1000083": true,
         "Machines": "Very Hard"
       }
@@ -877,8 +793,6 @@
         "RequiredTags": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -899,8 +813,6 @@
         "StackModifierMode": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -919,8 +831,6 @@
         "RequiredTags": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -941,8 +851,6 @@
         "StackModifierMode": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -961,8 +869,6 @@
         "RequiredTags": [ "large_milk_item" ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -983,8 +889,6 @@
         "StackModifierMode": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -1003,8 +907,6 @@
         "RequiredTags": [ "milk_item" ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -1025,8 +927,6 @@
         "StackModifierMode": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Large Animal Products Make 2"
       }
     },
@@ -1041,8 +941,7 @@
       "Entries": {
         "CopyQuality": false
       },
-      "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true, "Artisan Goods": "Large Animal Products Make 2" }
+      "When": { "Artisan Goods": "Large Animal Products Make 2" }
     },
     //----------------------------------------------------------------------------------------
     // Artisan Goods Gain Quantity
@@ -1070,8 +969,6 @@
         ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1091,8 +988,6 @@
         "RequiredTags": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1127,8 +1022,6 @@
         ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1147,8 +1040,6 @@
         "RequiredTags": null
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1198,8 +1089,6 @@
         ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1218,8 +1107,6 @@
         "RequiredTags": [ "large_milk_item" ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1254,8 +1141,6 @@
         ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1274,8 +1159,6 @@
         "RequiredTags": [ "milk_item" ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1302,8 +1185,6 @@
         ]
       },
       "When": {
-        "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-        "Stardew Valley Expanded": true,
         "Artisan Goods": "Artisan Goods Gain Quantity"
       }
     },
@@ -1312,28 +1193,28 @@
       "Target": "Data/Machines",
       "TargetField": [ "(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules" ],
       "Entries": { "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_NoQuality": null, "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_SilverQuality": null, "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_GoldQuality": null, "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_IridiumQuality": null },
-      "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Artisan Goods|contains=Off": "false" }
+      "When": { "Artisan Goods|contains=Off": "false" }
     }
     /* {
       "Action": "EditData",
       "Target": "Data/Machines",
       "TargetField": [ "(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules" ],
       "Entries": { "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_SilverQuality": null },
-      "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Artisan Goods": "Large Animal Products Make 2" }
+      "When": { "Artisan Goods": "Large Animal Products Make 2" }
     },
     {
       "Action": "EditData",
       "Target": "Data/Machines",
       "TargetField": [ "(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules" ],
       "Entries": { "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_GoldQuality": null },
-      "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Artisan Goods": "Large Animal Products Make 2" }
+      "When": { "Artisan Goods": "Large Animal Products Make 2" }
     },
     {
       "Action": "EditData",
       "Target": "Data/Machines",
       "TargetField": [ "(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules" ],
       "Entries": { "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_IridiumQuality": null },
-      "When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true, "Stardew Valley Expanded": true, "Artisan Goods": "Large Animal Products Make 2" }
+      "When": { "Artisan Goods": "Large Animal Products Make 2" }
     },*/
   ]
 }
