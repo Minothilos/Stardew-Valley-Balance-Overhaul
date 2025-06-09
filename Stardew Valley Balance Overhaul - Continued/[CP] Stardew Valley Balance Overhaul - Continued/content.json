@@ -416,7 +416,7 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Growable Forage and Crop Bushes.json, mods/Spooky Skill.json"
+			"FromFile": "mods/Growable Forage and Crop Bushes.json"
 		}
 	]
 }
