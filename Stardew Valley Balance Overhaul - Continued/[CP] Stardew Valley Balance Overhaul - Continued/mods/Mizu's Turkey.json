@@ -10,9 +10,7 @@
                 "Mizu.Turkey_TurkeyMayonnaise": { "Price": "700", "Edibility": "35" } // Turkey Mayonnaise
             },
             "When": {
-                "HasMod|contains=Mizu.Turkey": true,
-                "Animals": true,
-                "Mizu's Turkey": true
+                "Animals": true
             }
         },
         {
@@ -22,9 +20,7 @@
                 "Mizu.Turkey_BrownTurkey": { "PurchasePrice": "1000", "SellPrice": "2000" }
             },
             "When": {
-                "HasMod|contains=Mizu.Turkey": true,
-                "Animals": true,
-                "Mizu's Turkey": true
+                "Animals": true
             }
         },
         {
@@ -38,10 +34,8 @@
                 "Mizu.Turkey_TurkeyLeg": { "Price": "550" } // Turkey Leg
             },
             "When": {
-                "HasMod|contains=Mizu.Turkey": true,
                 "Food": true,
-                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "Mizu's Turkey": true
+                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
             }
         },
         {
@@ -51,12 +45,10 @@
                 "Mizu.Turkey_RoastTurkey": { "Price": "1220" } // Roast Turkey with Herbs Pack
             },
             "When": {
-                "HasMod|contains=Mizu.Turkey": true,
                 "Food": true,
                 "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
                 "HasMod|contains=Cornucopia.MoreCrops": true,
-                "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
-                "Mizu's Turkey": true
+                "HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
             }
         },
         {
@@ -114,10 +106,8 @@
                 }
             },
             "When": {
-                "HasMod|contains=Mizu.Turkey": true,
                 "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "Food Buffs": true,
-                "Mizu's Turkey": true
+                "Food Buffs": true
             }
         }
     ]
