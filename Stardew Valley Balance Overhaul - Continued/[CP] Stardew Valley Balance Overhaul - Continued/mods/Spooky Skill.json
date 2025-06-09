@@ -10,7 +10,6 @@
                 "moonslime.Spooky.carrot_cake": { "Price": "325" } // Carrot Cake
             },
             "When": {
-                "HasMod|contains=moonslime.SpookySkill.CP": true,
                 "Food": true
             }
         }
