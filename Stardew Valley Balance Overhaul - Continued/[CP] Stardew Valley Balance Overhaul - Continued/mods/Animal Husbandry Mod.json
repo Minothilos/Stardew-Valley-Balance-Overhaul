@@ -13,11 +13,7 @@
                 "643": { "Price": "1000" }, // Rabbit
                 "620": { "Price": "8000" } // Ostrich
             },
-            "When": {
-                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "Animal Husbandry Mod": true,
-                "Animals": true
-            }
+            "When": { "Animals": true }
         },
         // Food Prices
         {
@@ -40,11 +36,7 @@
                 "664": { "Price": "1150" }, // Steak with Mushrooms
                 "665": { "Price": "1020" } // Cowboy Dinner
             },
-            "When": {
-                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "Animal Husbandry Mod": true,
-                "Food": true
-            }
+            "When": { "Food": true }
         },
         // More Valuable Produce
         {
@@ -55,8 +47,6 @@
                 "663": { "Price": "1330" } // Winter Duck
             },
             "When": {
-                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "Animal Husbandry Mod": true,
                 "Food": true,
                 "Fruit Trees": "More Valuable Produce"
             }
