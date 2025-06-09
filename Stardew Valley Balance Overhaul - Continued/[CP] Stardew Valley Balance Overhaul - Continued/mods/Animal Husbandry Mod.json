@@ -47,8 +47,7 @@
                 "663": { "Price": "1330" } // Winter Duck
             },
             "When": {
-                "Food": true,
-                "Fruit Trees": "More Valuable Produce"
+                "Food": true, "Fruit Trees": "More Valuable Produce"
             }
         }
     ]
