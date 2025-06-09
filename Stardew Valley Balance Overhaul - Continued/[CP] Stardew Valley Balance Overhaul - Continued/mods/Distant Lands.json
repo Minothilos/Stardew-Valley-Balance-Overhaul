@@ -7,7 +7,7 @@
 				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Leaves": {"Price": "40"},
 				"Aimon111.WitchSwampOverhaulCP_Vile_Ancient_Fruit": {"Price": "110"},		
 			},		
-            "When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Crops": true}		
+            "When": { "Crops": true }		
 		},
 		{
 			"Action": "EditData",
@@ -18,7 +18,7 @@
 				"Aimon111.WitchSwampOverhaulCP_Purple_Algae": {"Price": "50"},	
 				"Aimon111.WitchSwampOverhaulCP_Giant_Horsehoe_Crab": {"Price": "200"},					
 			},		
-            "When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Fish": true}		
+            "When": { "Fish": true }		
 		},
 		{
 			"Action": "EditData",
@@ -30,7 +30,7 @@
 				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Tea": {"Price": "220"},
 				"Aimon111.WitchSwampOverhaulCP_Suspicious_Pie": {"Price": "625"},				
 			},		
-            "When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Food": true}		
+            "When": { "Food": true }		
 		},
 		{
 			"Action": "EditData",
@@ -50,7 +50,7 @@
 						  {"Id": "Suspicious_Bun_Adrenaline", "Duration": "300", "BuffId": "22", "IsDebuff": false, "CustomAttributes":  {"Speed": "1"}}],
 				},					
 			},
-			"When": {"HasMod|contains=Aimon111.WitchSwampOverhaulCP": true, "Distant Lands": true, "Food Buffs": true}
+			"When": { "Food Buffs": true }
 		},
 	]
 }
