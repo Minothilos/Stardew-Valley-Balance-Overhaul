@@ -8,7 +8,7 @@
 				"EastScarp_Bird_Of_Paradise": {"Price": "150"},
 				"EastScarp_Serruria": {"Price": "170"},
 			},		
-            "When": {"HasMod|contains=LemurKat.EastScarpe.CP": true, "East Scarp": true, "Flowers": true}		
+            "When": {"HasMod|contains=LemurKat.EastScarpe.CP": true, "Flowers": true}		
 		},
 		{
 			"Action": "EditData",
@@ -25,7 +25,7 @@
 				"EastScarp_Obsidian_Maw": {"Price": "150"},
 				"EastScarp_Slime_Barbel": {"Price": "150"},
 			},		
-            "When": {"HasMod|contains=LemurKat.EastScarpe.CP": true, "East Scarp": true, "Fish": true}		
+            "When": {"HasMod|contains=LemurKat.EastScarpe.CP": true, "Fish": true}		
 		},
 	]
 }
