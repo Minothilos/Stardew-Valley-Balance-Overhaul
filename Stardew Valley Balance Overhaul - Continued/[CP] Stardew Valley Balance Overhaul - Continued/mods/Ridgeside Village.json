@@ -14,7 +14,6 @@
 				"Rafseazz.RSVCP_Ember_Blood_Lime": { "Price": "105" }
 			},
 			"When": {
-				"HasMod|contains=Rafseazz.RSVCP": true,
 				"Fruit Trees": "Cheaper Saplings"
 			}
 		},
@@ -33,7 +32,6 @@
 				"Rafseazz.RSVCP_Mountain_Chico": { "Price": "70" },
 				"Rafseazz.RSVCP_Sierra_Wintergreen": { "Price": "45" }
 			},
-			"When": { "HasMod|contains=Rafseazz.RSVCP": true, 
 				  "Forage": true
 			}
 		},
@@ -60,8 +58,7 @@
 				"Rafseazz.RSVCP_Deep_Ridge_Angler": { "Price": "2500" },
 				"Rafseazz.RSVCP_Sockeye_Salmon": { "Price": "2500" },
 				"Rafseazz.RSVCP_Waterfall_Snakehead": { "Price": "2500" }
-			},
-			"When": { "HasMod|contains=Rafseazz.RSVCP": true, 
+			}, 
 				  "Fish": true 
 			}
 		},
@@ -115,7 +112,6 @@
 				"Rafseazz.RSVCP_Winter_Night_Feast": { "Price": "320" },
 				"Rafseazz.RSVCP_Zesty_Tuna": { "Price": "390" }
 			},
-			"When": { "HasMod|contains=Rafseazz.RSVCP": true, 
 				  "Food": true 
 			}
 		},
@@ -126,7 +122,6 @@
 				"Rafseazz.RSVCP_Spiritual_Essence": { "Price": "75" }
 			},
 			"When": {
-				"HasMod|contains=Rafseazz.RSVCP": true,
 				"Miscellaneous Items": true
 			}
 		},
@@ -447,8 +442,6 @@
 					"CritChance": ".10"
 				}
 			},
-			"When": { "HasMod|contains=Rafseazz.RSVCP": true
-			}
 		},
 		{
 			"Action": "EditData",
@@ -796,7 +789,6 @@
 				}
 			},
 			"When": {
-				"HasMod|contains=Rafseazz.RSVCP": true,
 				"Food Buffs": true
 			}
 		},
@@ -815,7 +807,6 @@
 				"Rafseazz.RSVCP.KimpoiShopItem8": { "Price": "2300", "IgnoreShopPriceModifiers": true } //Ember Blood Lime
 			},
 			"When": {
-				"HasMod|contains=Rafseazz.RSVCP": true,
 				"Fruit Trees": "Cheaper Saplings"
 			}
 		},
@@ -828,8 +819,6 @@
 				}
 			},
 			"When": {
-				"HasMod|contains=Rafseazz.RSVCP": true,
-				"Ridgeside Village": true,
 				"Warp Totems": true
 			}
 		}
