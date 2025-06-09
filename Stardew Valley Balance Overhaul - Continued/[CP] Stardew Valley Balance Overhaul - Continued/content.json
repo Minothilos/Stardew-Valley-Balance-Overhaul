@@ -265,7 +265,7 @@
 	"Changes": [
 		{
 			"Action": "Include",
-			"FromFile": "Data/buildings.json, mods/Ridgeside Village.json, Data/craftingrecipes.json, Data/farmanimals.json, Data/machines.json, Data/monsters.json, Data/museumrewards.json, Data/objects.json, Data/shops.json"
+			"FromFile": "Data/buildings.json, Data/craftingrecipes.json, Data/farmanimals.json, Data/machines.json, Data/monsters.json, Data/museumrewards.json, Data/objects.json, Data/shops.json"
 		},
 		{
 			"Action": "Include",
