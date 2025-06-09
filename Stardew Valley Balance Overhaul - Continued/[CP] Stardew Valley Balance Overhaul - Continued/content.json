@@ -269,14 +269,154 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "mods/Stardew Valley Expanded.json",
 			"When": {
-				"HasMod": "Cornucopia.MoreCrops"
-			},
-			"FromFile": "mods/Cornucopia More Crops.json"
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Stardew Valley Expanded.json, mods/Ridgeside Village.json, mods/Distant Lands.json, mods/East Scarp.json, mods/Cornucopia Artisan Machines.json, mods/Cornucopia More Crops.json, mods/Cornucopia More Flowers.json, mods/Mizu's Quail.json, mods/Mizu's Turkey.json, mods/Walk of Life.json, mods/Animal husbandry Mod.json, mods/Upgrade Sprinklers.json, mods/Milkable Sheep.json, mods/Additional Tree Equipment.json, mods/Love of Cooking.json, mods/Binning Skill.json, mods/Polyamory Sweet.json, mods/Vanilla Forage Crops and Bushes.json, mods/Growable Forage and Crop Bushes.json, mods/Spooky Skill.json"
+			"FromFile": "mods/Ridgeside Village.json",
+			"When": {
+				"HasMod": "Rafseazz.RSVCP"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/East Scarp.json",
+			"When": {
+				"HasMod": "LemurKat.EastScarpe.CP"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Distant Lands.json",
+			"When": {
+				"HasMod": "Aimon111.WitchSwampOverhaulCP"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Cornucopia More Crops.json",
+			"When": {
+				"HasMod": "Cornucopia.MoreCrops"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Cornucopia More Flowers.json",
+			"When": {
+				"HasMod": "Cornucopia.MoreFlowers"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Cornucopia Artisan Machines.json",
+			"When": {
+				"HasMod": "Cornucopia.ArtisanMachines"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Mizu's Quail.json",
+			"When": {
+				"HasMod": "Mizu.Quail"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Mizu's Turkey.json",
+			"When": {
+				"HasMod": "Mizu.Turkey"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Walk of Life.json",
+			"When": {
+				"HasMod": "DaLion.Professions"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Animal Husbandry Mod.json",
+			"When": {
+				"HasMod": "DIGUS.ANIMALHUSBANDRYMOD"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Animal Husbandry Mod.json",
+			"When": {
+				"HasMod": "DIGUS.ANIMALHUSBANDRYMOD"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Upgrade Sprinklers.json",
+			"When": {
+				"HasMod": "OchoLinda.UpgradeSprinklers"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Milkable Sheep.json",
+			"When": {
+				"HasMod": "radm.milkdasheep"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Additional Tree Equipment.json",
+			"When": {
+				"HasMod": "selph.ExtraTappers"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Love of Cooking.json",
+			"When": {
+				"HasMod": "blueberry.LoveOfCooking"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Binning Skill.json",
+			"When": {
+				"HasMod": "drbirbdev.BinningSkill.CP"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Polyamory Sweet.json",
+			"When": {
+				"HasMod": "ApryllForever.CPPolyamorySweet"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Vanilla Forage Crops and Bushes.json",
+			"When": {
+				"HasMod": "ZoeyHoshi.ForageCrops"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Growable Forage and Crop Bushes.json",
+			"When": {
+				"HasMod": "Cornucopia.GrowableForage"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Spooky Skill.json",
+			"When": {
+				"HasMod": "moonslime.SpookySkill.CP"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Growable Forage and Crop Bushes.json, mods/Spooky Skill.json"
 		}
 	]
 }
