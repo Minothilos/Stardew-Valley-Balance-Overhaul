@@ -41,7 +41,7 @@
                 "blueberry.LoveOfCooking_waffles": { "Price": "265" }, //Berry Waffles
                 "blueberry.LoveOfCooking_chocolate": { "Price": "200" } //Cooking Chocolate
             },
-            "When": { "Food": true, "HasMod|contains=blueberry.LoveOfCooking": true, "Love of Cooking": true }
+            "When": { "Food": true }
         },
         { // Food prices (Fruit Trees = More Valuable Produce)
             "Action": "EditData",
@@ -52,7 +52,7 @@
                 "blueberry.LoveOfCooking_crepes": { "Price": "485" }, //Crepes Suzette
                 "blueberry.LoveOfCooking_fruity": { "Price": "275" } //Cherry Syllabub
             },
-            "When": { "Food": true, "Fruit Trees": "More Valuable Produce", "HasMod|contains=blueberry.LoveOfCooking": true, "Love of Cooking": true }
+            "When": { "Food": true, "Fruit Trees": "More Valuable Produce" }
         },
         { // Food prices (Cornucopia Artisan Machines)
             "Action": "EditData",
@@ -61,7 +61,7 @@
                 "blueberry.LoveOfCooking_burrito": { "Price": "215" }, //Burrito
                 "blueberry.LoveOfCooking_kebab": { "Price": "270" } //Kebab
             },
-            "When": { "Food": true, "HasMod|contains=blueberry.LoveOfCooking": true, "Love of Cooking": true, "HasMod|contains=Cornucopia.ArtisanMachines": true }
+            "When": { "Food": true, "HasMod|contains=Cornucopia.ArtisanMachines": true }
         },
         { // Food prices (base, no Cornucopia + Cheaper Saplings)
             "Action": "EditData",
@@ -296,7 +296,7 @@
                         }
                     ] } //Berry Waffles
             },
-            "When": { "Food Buffs": true, "HasMod|contains=blueberry.LoveOfCooking": true, "Love of Cooking": true }
+            "When": { "Food Buffs": true }
         },
         { // Chocolate is cooking with Cornucopia More Crops
             "Action": "EditData",
@@ -307,7 +307,7 @@
                     "Category": -7
                 }
             },
-            "When": { "HasMod|contains=blueberry.LoveOfCooking": true, "Love of Cooking": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia More Crops": true }
+            "When": { "HasMod|contains=Cornucopia.MoreCrops": true }
         },
         { // Make chocolate with Cornucopia Cocoa Pod
             "Action": "EditData",
@@ -316,7 +316,7 @@
                 "minothilos.BalanceOverhaulContinuedCP_chocolate": "Cornucopia_CocoaPod 1//blueberry.LoveOfCooking_chocolate/blueberry.LoveOfCooking.CookingSkill 1"
             },
 
-            "When": { "HasMod|contains=blueberry.LoveOfCooking": true, "Love of Cooking": true, "HasMod|contains=Cornucopia.MoreCrops": true, "Cornucopia More Crops": true }
+            "When": { "HasMod|contains=Cornucopia.MoreCrops": true }
         }
     ]
 }
