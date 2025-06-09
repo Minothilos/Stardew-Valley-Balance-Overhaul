@@ -10,9 +10,7 @@
                 "Mizu.Quail_QuailMayonnaise": { "Price": "120", "Edibility": "20" } // Quail Mayonnaise
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
-                "Animals": true,
-                "Mizu's Quail": true
+                "Animals": true
             }
         },
         {
@@ -22,9 +20,7 @@
                 "Mizu.Quail_PlumedQuail": { "PurchasePrice": "500", "SellPrice": "1000" }
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
-                "Animals": true,
-                "Mizu's Quail": true
+                "Animals": true
             }
         },
         {
@@ -33,9 +29,7 @@
             "TargetField": [ "(BC)24", "OutputRules", "QuailMayonnaiseQuailty", "OutputItem", "(O)Mizu.Quail_QuailMayonnaise" ], // Large Quail Egg make 2 Mayo
             "Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
             "When": {
-                "Artisan Goods": "Large Animal Products Make 2",
-                "HasMod|contains=Mizu.Quail": true,
-                "Mizu's Quail": true
+                "Artisan Goods": "Large Animal Products Make 2"
             }
         },
         {
@@ -55,8 +49,6 @@
                 ]
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
-                "Mizu's Quail": true,
                 "Artisan Goods": "Artisan Goods Gain Quantity"
             }
         },
@@ -86,8 +78,6 @@
                 ]
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
-                "Mizu's Quail": true,
                 "Artisan Goods": "Artisan Goods Gain Quantity"
             }
         },
@@ -100,10 +90,8 @@
                 "Mizu.Quail_StuffedQuail": { "Price": "840" } // Stuffed Quail
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
                 "Animals": true,
-                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "Mizu's Quail": true
+                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
             }
         },
         {
@@ -113,11 +101,9 @@
                 "Mizu.Quail_SpatchcockedQuailandGreens": { "Price": "880" } // Spatchcocked Quail and Greens with Cornucopia
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
                 "Food": true,
                 "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "HasMod|contains=Cornucopia.MoreCrops": true,
-                "Mizu's Quail": true
+                "HasMod|contains=Cornucopia.MoreCrops": true
             }
         },
         {
@@ -127,12 +113,10 @@
                 "Mizu.Quail_StuffedQuail": { "Price": "1100" } // Stuffed Quail with Extended Trees
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
                 "Food": true,
                 "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
                 "HasMod|contains=Cornucopia.MoreCrops": true,
-                "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-                "Mizu's Quail": true
+                "HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
             }
         },
         {
@@ -163,10 +147,8 @@
                 }
             },
             "When": {
-                "HasMod|contains=Mizu.Quail": true,
                 "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-                "Food Buffs": true,
-                "Mizu's Quail": true
+                "Food Buffs": true
             }
         }
     ]
