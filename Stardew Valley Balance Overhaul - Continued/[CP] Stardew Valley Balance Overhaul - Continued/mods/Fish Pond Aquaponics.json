@@ -13,8 +13,7 @@
                     { "ItemId": "(O)338", "Amount": "5" } //Refined Quartz
                 ]
             },
-
-            "When": { "HasMod|contains=selph.Aquaponics": true, "Fish Pond Aquaponics": true, "Buildings": true }
+            "When": { "Buildings": true }
         }
     ]
 }
