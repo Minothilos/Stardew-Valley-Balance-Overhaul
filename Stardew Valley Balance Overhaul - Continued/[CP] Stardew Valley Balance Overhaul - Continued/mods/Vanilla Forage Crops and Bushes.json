@@ -16,7 +16,6 @@
                 "ZoeyHoshi.ForageCrops_WinterRootSeeds": { "Price": "15" } //Winter Root Seeds
             },
             "When": {
-                "HasMod|contains=ZoeyHoshi.ForageCrops": true,
                 "Forage": true
             }
         },
@@ -30,7 +29,6 @@
                 "Cornucopia_MorelSeeds": { "Price": 1000 }
             },
             "When": {
-                "HasMod|contains=ZoeyHoshi.ForageCrops": true,
                 "Forage": true
             }
         },
@@ -44,7 +42,6 @@
                 "Cornucopia_MorelSeeds": { "Price": 750 }
             },
             "When": {
-                "HasMod|contains=ZoeyHoshi.ForageCrops": true,
                 "Forage": true
             }
         }*/
