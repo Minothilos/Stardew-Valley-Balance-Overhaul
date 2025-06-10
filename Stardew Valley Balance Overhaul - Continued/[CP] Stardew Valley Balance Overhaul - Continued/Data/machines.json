@@ -846,7 +846,7 @@
                     }
                 ]
             },
-            "When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+            "When": { "Increased Bait Maker Output": "true" }
         },
         {
             "Action": "EditData",
@@ -877,7 +877,7 @@
                     }
                 ]
             },
-            "When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+            "When": { "Increased Seed Maker Output": "true" }
         },
         {
             "Action": "EditData",
