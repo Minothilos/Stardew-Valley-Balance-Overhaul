@@ -17,8 +17,8 @@
 			"Section": "Price Changes"
 		},
 		"Fruit Trees": {
-			"AllowValues": "Off, Recommended, More Valuable",
-			"Default": "Recommended",
+			"AllowValues": "false, true",
+			"Default": "true",
 			"Section": "Price Changes"
 		},
 		"Mines": {
@@ -186,6 +186,11 @@
 			"Default": "false",
 			"Section": "Cornucopia Mods"
 		},
+		"Minothilos Tweaks": {
+			"AllowValues": "false, true",
+			"Default": "false",
+			"Section": "Miscellaneous"
+		},
 	},
 	"Changes": [
 		{
@@ -337,6 +342,13 @@
 			"FromFile": "mods/Spooky Skill.json",
 			"When": {
 				"HasMod": "moonslime.SpookySkill.CP"
+			}
+		}
+		{
+			"Action": "Include",
+			"FromFile": "mods/Minothilos Tweaks.json",
+			"When": {
+				"Minothilos Tweaks": true 
 			}
 		},
 		{
