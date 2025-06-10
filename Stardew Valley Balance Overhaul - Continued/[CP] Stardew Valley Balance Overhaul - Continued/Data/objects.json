@@ -481,7 +481,6 @@
             },
             "When": { "Fish": true }
         },
-        //Cheaper Sapling/Off + No Artisan Machines
         {
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -573,7 +572,6 @@
             },
             "When": { "Food": true }
         },
-        //More Valuable Produce + No Artisan Machines
         {
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -585,7 +583,6 @@
             },
             "When": { "Food": true, "Fruit Trees": "More Valuable Produce" }
         },
-        //Cheaper Sapling/Off + Cornucopia More Crops
         {
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -594,11 +591,9 @@
             },
             "When": {
                 "Food": true,
-                "HasMod|contains=Cornucopia.MoreCrops": true,
-                "Cornucopia More Crops": true
+                "HasMod|contains=Cornucopia.MoreCrops": true
             }
         },
-        //More Valuable Produce + Cornucopia More Crops
         {
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -608,7 +603,6 @@
             "When": {
                 "Food": true,
                 "HasMod|contains=Cornucopia.MoreCrops": true,
-                "Cornucopia More Crops": true,
                 "Fruit Trees": "More Valuable Produce"
             }
         },
@@ -630,7 +624,6 @@
             "When": {
                 "Food": true,
                 "HasMod|contains=Cornucopia.ArtisanMachines": true,
-                "Cornucopia Artisan Machines": true
             }
         },
         //More Valuable Produce + Artisan Machines
@@ -643,7 +636,6 @@
             "When": {
                 "Food": true,
                 "HasMod|contains=Cornucopia.ArtisanMachines": true,
-                "Cornucopia Artisan Machines": true,
                 "Fruit Trees": "More Valuable Produce"
             }
         },
