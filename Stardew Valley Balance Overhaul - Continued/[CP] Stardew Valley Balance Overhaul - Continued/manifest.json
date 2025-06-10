@@ -1,15 +1,15 @@
 {
-	"Name": "[CP] Stardew Valley Balance Overhaul - Continued",
-	"Author": "Minothilos (Original Author: Theoddon)",
-	"Version": "1.3.4",
+	"Name": "Stardew Valley Balance Overhaul",
+	"Author": "Theoddon & Minothilos",
+	"Version": "3.0",
 	"Description": "Rebalances just about everything.",
-	"UniqueID": "minothilos.BalanceOverhaulContinuedCP",
-	"UpdateKeys": [ "Nexus:32757" ],
+	"UniqueID": "Theoddon.BalanceOverhaul",
+	"UpdateKeys": [ "Nexus:13426" ],
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"Dependencies": [
 		{
 			"UniqueID": "6480.blueegg",
-			"IsRequired": true
+			"IsRequired": false
 		},
 		{
 			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
