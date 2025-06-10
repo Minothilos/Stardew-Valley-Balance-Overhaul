@@ -51,6 +51,11 @@
 			"Default": "Normal",
 			"Section": "Recipe Changes"
 		},
+		"Sprinklers": {
+			"AllowValues": "Off, Normal, Hard, Very Hard",
+			"Default": "Normal",
+			"Section": "Recipe Changes"
+		},
 		"Fertilizers": {
 			"AllowValues": "false, true",
 			"Default": "true",
