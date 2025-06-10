@@ -17,8 +17,8 @@
 			"Section": "Price Changes"
 		},
 		"Fruit Trees": {
-			"AllowValues": "Cheaper Saplings, More Valuable Produce, Off",
-			"Default": "Cheaper Saplings",
+			"AllowValues": "Off, Recommended, More Valuable",
+			"Default": "Recommended",
 			"Section": "Price Changes"
 		},
 		"Mines": {
@@ -136,9 +136,9 @@
 			"Default": "true",
 			"Section": "Gameplay Changes"
 		},
-		"Artisan Goods": {
-			"AllowValues": "Artisan Goods Gain Quantity, Large Animal Products Make 2, Off",
-			"Default": "Large Animal Products Make 2",
+		"Machine Processing": {
+			"AllowValues": "Off, Recommended, Large Animal Products Only",
+			"Default": "Recommended",
 			"Section": "Gameplay Changes"
 		},
 		"Merchants Buy More Items": {
