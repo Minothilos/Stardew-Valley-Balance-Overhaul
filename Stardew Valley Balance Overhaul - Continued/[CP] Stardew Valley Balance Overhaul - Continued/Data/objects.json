@@ -148,28 +148,7 @@
                 "633": { "Price": "500" }, //Apple Sapling
                 "632": { "Price": "550" } //Pomegranate Sapling
             },
-            "When": { "Fruit Trees": "Cheaper Saplings" }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "634": { "Price": "215" }, //Apricot
-                "638": { "Price": "225" }, //Cherry
-                "91": { "Price": "240" }, //Banana
-                "834": { "Price": "230" }, //Mango
-                "635": { "Price": "215" }, //Orange
-                "636": { "Price": "225" }, //Peach
-                "613": { "Price": "215" }, //Apple
-                "637": { "Price": "225" }, //Pomegranate
-                "629": { "Price": "1000" }, //Apricot Sapling
-                "628": { "Price": "1500" }, //Cherry Sapling
-                "630": { "Price": "1000" }, //Orange Sapling
-                "631": { "Price": "1500" }, //Peach Sapling
-                "633": { "Price": "1000" }, //Apple Sapling
-                "632": { "Price": "1500" } //Pomegranate Sapling
-            },
-            "When": { "Fruit Trees": "More Valuable Produce" }
+            "When": { "Fruit Trees": true }
         },
         {
             "Action": "EditData",

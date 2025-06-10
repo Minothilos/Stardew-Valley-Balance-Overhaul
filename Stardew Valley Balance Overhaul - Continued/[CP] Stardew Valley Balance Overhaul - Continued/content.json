@@ -166,7 +166,7 @@
 			"Default": "true",
 			"Section": "Quality of Life Changes"
 		},
-                "Increased Bait Maker Output": {
+		"Increased Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Quality of Life Changes"
@@ -190,7 +190,7 @@
 			"AllowValues": "false, true",
 			"Default": "false",
 			"Section": "Miscellaneous"
-		},
+		}
 	},
 	"Changes": [
 		{
@@ -343,18 +343,20 @@
 			"When": {
 				"HasMod": "moonslime.SpookySkill.CP"
 			}
-		}
+		},
 		{
 			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
-				"When": { "Minothilos": true }
-        },
+				"Minothilos": true
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Growable Forage and Crop Bushes.json"
+			"FromFile": "mods/Growable Forage and Crop Bushes.json",
+			"When": {
+				"HasMod": "Cornucopia.GrowableForage"
+			}
 		}
 	]
 }
