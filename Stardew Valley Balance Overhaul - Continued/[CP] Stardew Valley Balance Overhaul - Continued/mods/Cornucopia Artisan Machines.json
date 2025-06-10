@@ -807,7 +807,7 @@
 				"(BC)Cornucopia_DryingRack",
 				"OutputRules",
 				"Cornucopia_DriedHerb"
-			], //Dried Flower take longer
+			], //Dried Herb take longer
 			"Entries": { "MinutesUntilReady": "2250" }
 		},
 		{
