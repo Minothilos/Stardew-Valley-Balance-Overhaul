@@ -348,7 +348,8 @@
 			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
-				"Minothilos Tweaks": true 
+				"When": { "Minothilos": true }
+        },
 			}
 		},
 		{
