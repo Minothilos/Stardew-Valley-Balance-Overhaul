@@ -5,21 +5,15 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": { "Price": "45" },
-				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": {
-					"Price": "275"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {
-					"Price": "175"
-				},
+				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": { "Price": "275" },
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": { "Price": "175" },
 				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": { "Price": "20" },
 				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": { "Price": "45" },
 				"FlashShifter.StardewValleyExpandedCP_Void_Root": { "Price": "125" },
 				"FlashShifter.StardewValleyExpandedCP_Joja_Berry": { "Price": "250" },
 				"FlashShifter.StardewValleyExpandedCP_Joja_Veggie": { "Price": "500" },
 				"FlashShifter.StardewValleyExpandedCP_Cucumber": { "Price": "25" },
-				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": {
-					"Price": "125"
-				},
+				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": { "Price": "125" },
 				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato": { "Price": "250" },
 				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": { "Price": "750" }
 			},
