@@ -568,17 +568,7 @@
 			},
 			"When": { "Food": true }
 		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"904": { "Price": "380" }, //Banana Pudding
-				"612": { "Price": "330" }, //Cranberry Candy
-				"610": { "Price": "480" }, //Fruit Salad
-				"905": { "Price": "475" } //Mango Sticky Rice
-			},
-			"When": { "Food": true, "Fruit Trees": "More Valuable Produce" }
-		},
+		//More Crops
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -588,18 +578,6 @@
 			"When": {
 				"Food": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"220": { "Price": "400" } //Chocolate Cake
-			},
-			"When": {
-				"Food": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": "More Valuable Produce"
 			}
 		},
 		//Artisan Machines
@@ -620,19 +598,6 @@
 			"When": {
 				"Food": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
-			}
-		},
-		//More Valuable Produce + Artisan Machines
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"905": { "Price": "720" } //Mango Sticky Rice
-			},
-			"When": {
-				"Food": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
-				"Fruit Trees": "More Valuable Produce"
 			}
 		},
 		//Food Buffs

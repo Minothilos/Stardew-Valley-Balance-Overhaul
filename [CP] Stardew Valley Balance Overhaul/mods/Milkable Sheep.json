@@ -53,13 +53,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)163",
-				"OutputRules",
-				"radm.milkdasheep_SheepCheese",
-				"OutputItem",
-				"#0"
-			], //Cask - Cheese
+			"TargetField": ["(BC)163", "OutputRules", "radm.milkdasheep_SheepCheese", "OutputItem", "#0"], //Cask - Cheese
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.33"
@@ -68,87 +62,20 @@
 			"When": { "Animals": true, "Cask Aging": "true" },
 			"Priority": "Late +1"
 		},
+		//Large Animal Products Only
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"radm.milkdasheep_LargeSheepMilk",
-				"OutputItem",
-				"#0"
-			], //Cheese Press - Large Sheep Milk
+			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0"], //Cheese Press - Large Sheep Milk
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"radm.milkdasheep_SheepMilk",
-				"OutputItem",
-				"#0"
-			], //Cheese Press - Sheep Milk
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Artisan Goods": "Recommended" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"radm.milkdasheep_LargeSheepMilk",
-				"OutputItem",
-				"#0"
-			], //Cheese Press - Large Sheep Milk
-			"Entries": {
-				"MinStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "DoubleQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Artisan Goods": "Recommended" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"radm.milkdasheep_SheepMilk",
-				"OutputItem",
-				"#0"
-			], //Cheese Press - Sheep Milk
+			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_SheepMilk", "OutputItem", "#0"], //Cheese Press - Sheep Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -161,21 +88,12 @@
 					}
 				]
 			},
-			"When": {
-				"Artisan Goods": "Recommended",
-				"HasMod|contains=DaLion.Professions": true
-			}
+			"When": { "Machine Processing": "Recommended" }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"radm.milkdasheep_LargeSheepMilk",
-				"OutputItem",
-				"#0"
-			], //Cheese Press - Large Sheep Milk
+			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0"], //Cheese Press - Large Sheep Milk
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -196,10 +114,51 @@
 					}
 				]
 			},
-			"When": {
-				"Artisan Goods": "Recommended",
-				"HasMod|contains=DaLion.Professions": true
-			}
+			"When": { "Machine Processing": "Recommended" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_SheepMilk", "OutputItem", "#0"], //Cheese Press - Sheep Milk
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0"], //Cheese Press - Large Sheep Milk
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
 		}
 	]
 }

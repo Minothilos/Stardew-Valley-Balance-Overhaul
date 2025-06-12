@@ -32,7 +32,8 @@
 				"Rafseazz.RSVCP_Mountain_Chico": { "Price": "70" },
 				"Rafseazz.RSVCP_Sierra_Wintergreen": { "Price": "45" }
 			},
-				  "Forage": true
+			"When": {
+				"Forage": true
 			}
 		},
 		{
@@ -58,8 +59,9 @@
 				"Rafseazz.RSVCP_Deep_Ridge_Angler": { "Price": "2500" },
 				"Rafseazz.RSVCP_Sockeye_Salmon": { "Price": "2500" },
 				"Rafseazz.RSVCP_Waterfall_Snakehead": { "Price": "2500" }
-			}, 
-				  "Fish": true 
+			},
+			"When": {
+				"Fish": true
 			}
 		},
 		{
@@ -112,7 +114,8 @@
 				"Rafseazz.RSVCP_Winter_Night_Feast": { "Price": "320" },
 				"Rafseazz.RSVCP_Zesty_Tuna": { "Price": "390" }
 			},
-				  "Food": true 
+			"When": {
+				"Food": true
 			}
 		},
 		{
@@ -441,7 +444,7 @@
 					"MaxDamage": "120",
 					"CritChance": ".10"
 				}
-			},
+			}
 		},
 		{
 			"Action": "EditData",
@@ -466,9 +469,7 @@
 					]
 				},
 				"Rafseazz.RSVCP_Autumn_Dew_Drop_Juice": {
-					"Buffs": [
-						{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "MiningLevel": "2" } }
-					]
+					"Buffs": [{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "MiningLevel": "2" } }]
 				},
 				"Rafseazz.RSVCP_Clementine_Cake": {
 					"Buffs": [
@@ -507,9 +508,7 @@
 					]
 				},
 				"Rafseazz.RSVCP_Forest_Halva": {
-					"Buffs": [
-						{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "MaxStamina": "30" } }
-					]
+					"Buffs": [{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "MaxStamina": "30" } }]
 				},
 				"Rafseazz.RSVCP_Fried_Fish_a_la_Ridge": {
 					"Buffs": [
@@ -557,9 +556,7 @@
 					]
 				},
 				"Rafseazz.RSVCP_Highland_Ice_Cream": {
-					"Buffs": [
-						{ "Duration": "800", "IsDebuff": false, "CustomAttributes": { "Defense": "1" } }
-					]
+					"Buffs": [{ "Duration": "800", "IsDebuff": false, "CustomAttributes": { "Defense": "1" } }]
 				},
 				"Rafseazz.RSVCP_Highland_Revani": {
 					"Buffs": [
@@ -571,9 +568,7 @@
 					]
 				},
 				"Rafseazz.RSVCP_Holiday_Ice": {
-					"Buffs": [
-						{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "FishingLevel": "2" } }
-					]
+					"Buffs": [{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "FishingLevel": "2" } }]
 				},
 				"Rafseazz.RSVCP_Honey_Ginger_Whitefish": {
 					"Buffs": [
@@ -665,9 +660,7 @@
 					]
 				},
 				"Rafseazz.RSVCP_Pumpkin_Darling_Slice": {
-					"Buffs": [
-						{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "Defense": "2" } }
-					]
+					"Buffs": [{ "Duration": "600", "IsDebuff": false, "CustomAttributes": { "Defense": "2" } }]
 				},
 				"Rafseazz.RSVCP_Ridge_Apple_Cake": {
 					"Buffs": [
@@ -688,9 +681,7 @@
 					]
 				},
 				"Rafseazz.RSVCP_Ridge_Mosaic_Cake": {
-					"Buffs": [
-						{ "Duration": "800", "IsDebuff": false, "CustomAttributes": { "Defense": "1" } }
-					]
+					"Buffs": [{ "Duration": "800", "IsDebuff": false, "CustomAttributes": { "Defense": "1" } }]
 				},
 				"Rafseazz.RSVCP_Ridgeside_Shaketini": {
 					"Buffs": [

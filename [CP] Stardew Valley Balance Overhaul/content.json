@@ -179,7 +179,7 @@
 		"Remove Seeds from Shops": {
 			"AllowValues": "false, true",
 			"Default": "false",
-			"Section": "Cornucopia Mods"
+			"Section": "Miscellaneous"
 		},
 		"Minothilos Tweaks": {
 			"AllowValues": "false, true",
@@ -357,7 +357,7 @@
 			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
-				"Minothilos": true
+				"Minothilos Tweaks": true
 			}
 		}
 	]

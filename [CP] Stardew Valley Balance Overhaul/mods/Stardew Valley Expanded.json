@@ -201,20 +201,6 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": { "Price": "440" },
-				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": { "Price": "455" },
-				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": { "Price": "330" },
-				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": { "Price": "640" }
-			},
-			"When": {
-				"Food": true,
-				"Fruit Trees": "More Valuable Produce"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": { "Price": "300" }, // Void Pebble
 				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { "Price": "150" }, // Birch Water
 				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { "Price": "350" }, // Fir Wax
@@ -778,7 +764,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -792,7 +778,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -804,7 +790,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -818,7 +804,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -830,7 +816,7 @@
 				"RequiredTags": ["large_milk_item"]
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -844,7 +830,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -856,7 +842,7 @@
 				"RequiredTags": ["milk_item"]
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -870,7 +856,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Artisan Goods": "Large Animal Products Only"
+				"Machine Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -880,7 +866,7 @@
 			"Entries": {
 				"CopyQuality": false
 			},
-			"When": { "Artisan Goods": "Large Animal Products Only" }
+			"When": { "Machine Processing": "Large Animal Products Only" }
 		},
 		//Recommended with WoL
 		{
@@ -901,7 +887,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		// Butter Churner
@@ -914,7 +900,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		{
@@ -942,7 +928,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		{
@@ -954,7 +940,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		{
@@ -997,7 +983,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		{
@@ -1009,7 +995,7 @@
 				"RequiredTags": ["large_milk_item"]
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		{
@@ -1037,7 +1023,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		{
@@ -1049,7 +1035,7 @@
 				"RequiredTags": ["milk_item"]
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		{
@@ -1069,7 +1055,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended"
+				"Machine Processing": "Recommended"
 			}
 		},
 		//Recommended Wwithout WoL
@@ -1091,7 +1077,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1105,7 +1091,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1134,7 +1120,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1147,7 +1133,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1191,7 +1177,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1204,7 +1190,7 @@
 				"RequiredTags": ["large_milk_item"]
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1233,7 +1219,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1246,7 +1232,7 @@
 				"RequiredTags": ["milk_item"]
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1267,7 +1253,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Recommended",
+				"Machine Processing": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1282,7 +1268,7 @@
 				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_GoldQuality": null,
 				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_IridiumQuality": null
 			},
-			"When": { "Artisan Goods|contains=Off": "false" }
+			"When": { "Machine Processing|contains=Off": "false" }
 		}
 	]
 }

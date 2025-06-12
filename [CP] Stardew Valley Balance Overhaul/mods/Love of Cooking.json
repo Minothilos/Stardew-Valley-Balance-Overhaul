@@ -1,322 +1,358 @@
 {
-    "Changes": [
-        { // Food prices (base, no Cornucopia + Cheaper Saplings)
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "blueberry.LoveOfCooking_admiralpie": { "Price": "315" }, //Admiral Pie
-                "blueberry.LoveOfCooking_applepie": { "Price": "345" }, //Apple Pie
-                "blueberry.LoveOfCooking_arancini": { "Price": "125" }, //Arancini
-                "blueberry.LoveOfCooking_bakedpotato": { "Price": "285" }, //Baked Potato
-                "blueberry.LoveOfCooking_breakfast": { "Price": "290" }, //Quick Breakfast
-                "blueberry.LoveOfCooking_burger": { "Price": "375" }, //Beet Burger
-                "blueberry.LoveOfCooking_burrito": { "Price": "235" }, //Burrito
-                "blueberry.LoveOfCooking_carrotcake": { "Price": "290" }, //Carrot Cake
-                "blueberry.LoveOfCooking_cherrypie": { "Price": "365" }, //Cherry Pie
-                "blueberry.LoveOfCooking_chocoflan": { "Price": "1065" }, //Hazelnut Bakewell
-                "blueberry.LoveOfCooking_cocococktail": { "Price": "145" }, //Coconut Cocktail
-                "blueberry.LoveOfCooking_craymornay": { "Price": "400" }, //Cray Mornay Cauliflower
-                "blueberry.LoveOfCooking_crepes": { "Price": "485" }, //Crepes Suzette
-                "blueberry.LoveOfCooking_curry": { "Price": "370" }, //Curry Diablo
-                "blueberry.LoveOfCooking_eggsando": { "Price": "290" }, //Egg Sandwich
-                "blueberry.LoveOfCooking_fruity": { "Price": "275" }, //Cherry Syllabub
-                "blueberry.LoveOfCooking_hotcocoa": { "Price": "520" }, //Hot Cocoa
-                "blueberry.LoveOfCooking_hunters": { "Price": "280" }, //Hunter's Plate
-                "blueberry.LoveOfCooking_kebab": { "Price": "290" }, //Kebab
-                "blueberry.LoveOfCooking_lasagna": { "Price": "605" }, //Lasagna Ricotta
-                "blueberry.LoveOfCooking_leeks": { "Price": "335" }, //Braised Leeks
-                "blueberry.LoveOfCooking_lobster": { "Price": "270" }, //Baked Lobster
-                "blueberry.LoveOfCooking_nigiri": { "Price": "260" }, //Roe Roll
-                "blueberry.LoveOfCooking_oceanplatter": { "Price": "760" }, //Ocean Platter
-                "blueberry.LoveOfCooking_paella": { "Price": "375" }, //Paella
-                "blueberry.LoveOfCooking_parfait": { "Price": "205" }, //Plum Parfait
-                "blueberry.LoveOfCooking_pilaf": { "Price": "395" }, //Mushroom Pilaf
-                "blueberry.LoveOfCooking_profiteroles": { "Price": "530" }, //Profiteroles
-                "blueberry.LoveOfCooking_quiche": { "Price": "390" }, //Quiche Provencale
-                "blueberry.LoveOfCooking_roast": { "Price": "570" }, //Hot Pot Roast
-                "blueberry.LoveOfCooking_saladsando": { "Price": "425" }, //Salad Sandwich
-                "blueberry.LoveOfCooking_seafoodsando": { "Price": "370" }, //Seafood Sandwich
-                "blueberry.LoveOfCooking_summersalad": { "Price": "380" }, //Summer Salad
-                "blueberry.LoveOfCooking_unagi": { "Price": "275" }, //Eel Sushi
-                "blueberry.LoveOfCooking_waffles": { "Price": "265" }, //Berry Waffles
-                "blueberry.LoveOfCooking_chocolate": { "Price": "200" } //Cooking Chocolate
-            },
-            "When": { "Food": true }
-        },
-        { // Food prices (Fruit Trees = More Valuable Produce)
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "blueberry.LoveOfCooking_applepie": { "Price": "345" }, //Apple Pie
-                "blueberry.LoveOfCooking_cherrypie": { "Price": "365" }, //Cherry Pie
-                "blueberry.LoveOfCooking_crepes": { "Price": "485" }, //Crepes Suzette
-                "blueberry.LoveOfCooking_fruity": { "Price": "275" } //Cherry Syllabub
-            },
-            "When": { "Food": true, "Fruit Trees": "More Valuable Produce" }
-        },
-        { // Food prices (Cornucopia Artisan Machines)
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "blueberry.LoveOfCooking_burrito": { "Price": "215" }, //Burrito
-                "blueberry.LoveOfCooking_kebab": { "Price": "270" } //Kebab
-            },
-            "When": { "Food": true, "HasMod|contains=Cornucopia.ArtisanMachines": true }
-        },
-        { // Food prices (base, no Cornucopia + Cheaper Saplings)
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "blueberry.LoveOfCooking_admiralpie": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FishingLevel": 2,
-                                "MaxStamina": 50
-                            }
-                        }
-                    ] }, //Admiral Pie
-                "blueberry.LoveOfCooking_applepie": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "ForagingLevel": 3,
-                                "MaxStamina": 30
-                            }
-                        }
-                    ] }, //Apple Pie
-                "blueberry.LoveOfCooking_arancini": { "Buffs": [
-                        {
-                            "Duration": 400,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "ForagingLevel": 1
-                            }
-                        }
-                    ] }, //Arancini
-                "blueberry.LoveOfCooking_breakfast": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FarmingLevel": 2,
-                                "Speed": 1
-                            }
-                        }
-                    ] }, //Quick Breakfast
-                "blueberry.LoveOfCooking_burger": { "Buffs": [
-                        {
-                            "Duration": 600,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "MagneticRadius": 32,
-                                "Defense": 2
-                            }
-                        }
-                    ] }, //Beet Burger
-                "blueberry.LoveOfCooking_carrotcake": { "Buffs": [
-                        {
-                            "Duration": 600,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "Speed": 1
-                            }
-                        }
-                    ] }, //Carrot Cake
-                "blueberry.LoveOfCooking_cherrypie": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "MiningLevel": 2,
-                                "MaxStamina": 20
-                            }
-                        }
-                    ] }, //Cherry Pie
-                "blueberry.LoveOfCooking_chocoflan": { "Buffs": [
-                        {
-                            "Duration": 800,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "LuckLevel": 2,
-                                "MaxStamina": 100
-                            }
-                        }
-                    ] }, //Hazelnut Bakewell
-                "blueberry.LoveOfCooking_cocococktail": { "Buffs": [
-                        {
-                            "Duration": 400,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "ForagingLevel": 1,
-                                "Speed": 1
-                            }
-                        },
-                        {
-                            "Id": "Tipsy",
-                            "BuffId": "17"
-                        }
-                    ] }, //Coconut Cocktail
-                "blueberry.LoveOfCooking_craymornay": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FishingLevel": 2
-                            }
-                        }
-                    ] }, //Cray Mornay
-                "blueberry.LoveOfCooking_crepes": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FarmingLevel": 2,
-                                "LuckLevel": 1
-                            }
-                        },
-                        {
-                            "Id": "Tipsy",
-                            "BuffId": "17"
-                        }
-                    ] }, //Crepes Suzette
-                "blueberry.LoveOfCooking_fruity": { "Buffs": [
-                        {
-                            "Duration": 400,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "Attack": 2
-                            }
-                        },
-                        {
-                            "Id": "Tipsy",
-                            "BuffId": "17"
-                        }
-                    ] }, //Sherry Syllabub
-                "blueberry.LoveOfCooking_hunters": { "Buffs": [
-                        {
-                            "Duration": 600,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FarmingLevel": 1,
-                                "ForagingLevel": 2
-                            }
-                        }
-                    ] }, //Hunter's Plate
-                "blueberry.LoveOfCooking_lobster": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "LuckLevel": 1,
-                                "Defense": 2
-                            }
-                        }
-                    ] }, //Baked Lobster
-                "blueberry.LoveOfCooking_nigiri": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FishingLevel": 1,
-                                "MaxStamina": 30,
-                                "MagneticRadius": 32
-                            }
-                        }
-                    ] }, //Roe Roll
-                "blueberry.LoveOfCooking_oceanplatter": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FishingLevel": 4
-                            }
-                        }
-                    ] }, //Ocean Platter
-                "blueberry.LoveOfCooking_parfait": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "Speed": 2
-                            }
-                        }
-                    ] }, //Plum Parfait
-                "blueberry.LoveOfCooking_roast": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0,
-                                "FishingLevel": 0,
-                                "MiningLevel": 2,
-                                "LuckLevel": 0,
-                                "ForagingLevel": 2,
-                                "MaxStamina": 20,
-                                "MagneticRadius": 0,
-                                "Speed": 0,
-                                "Defense": 0,
-                                "Attack": 0
-                            }
-                        }
-                    ] }, //Hot Pot Roast
-                "blueberry.LoveOfCooking_summersalad": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "MiningLevel": 3,
-                                "MagneticRadius": 32,
-                                "Defense": 3
-                            }
-                        }
-                    ] }, //Summer Salad
-                "blueberry.LoveOfCooking_unagi": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3,
-                                "LuckLevel": 1
-                            }
-                        }
-                    ] }, //Eel Sushi
-                "blueberry.LoveOfCooking_waffles": { "Buffs": [
-                        {
-                            "Duration": 500,
-                            "IsDebuff": false,
-                            "CustomAttributes": {
-                                "FarmingLevel": 1,
-                                "MiningLevel": 1,
-                                "ForagingLevel": 1,
-                                "MaxStamina": 30
-                            }
-                        }
-                    ] } //Berry Waffles
-            },
-            "When": { "Food Buffs": true }
-        },
-        { // Chocolate is cooking with Cornucopia More Crops
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "blueberry.LoveOfCooking_chocolate": {
-                    "Type": "Cooking",
-                    "Category": -7
-                }
-            },
-            "When": { "HasMod|contains=Cornucopia.MoreCrops": true }
-        },
-        { // Make chocolate with Cornucopia Cocoa Pod
-            "Action": "EditData",
-            "Target": "Data/CookingRecipes",
-            "Entries": {
-                "minothilos.BalanceOverhaulContinuedCP_chocolate": "Cornucopia_CocoaPod 1//blueberry.LoveOfCooking_chocolate/blueberry.LoveOfCooking.CookingSkill 1"
-            },
+	"Changes": [
+		{
+			// Food prices (base, no Cornucopia)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"blueberry.LoveOfCooking_admiralpie": { "Price": "315" }, //Admiral Pie
+				"blueberry.LoveOfCooking_applepie": { "Price": "345" }, //Apple Pie
+				"blueberry.LoveOfCooking_arancini": { "Price": "125" }, //Arancini
+				"blueberry.LoveOfCooking_bakedpotato": { "Price": "285" }, //Baked Potato
+				"blueberry.LoveOfCooking_breakfast": { "Price": "290" }, //Quick Breakfast
+				"blueberry.LoveOfCooking_burger": { "Price": "375" }, //Beet Burger
+				"blueberry.LoveOfCooking_burrito": { "Price": "235" }, //Burrito
+				"blueberry.LoveOfCooking_carrotcake": { "Price": "290" }, //Carrot Cake
+				"blueberry.LoveOfCooking_cherrypie": { "Price": "365" }, //Cherry Pie
+				"blueberry.LoveOfCooking_chocoflan": { "Price": "1065" }, //Hazelnut Bakewell
+				"blueberry.LoveOfCooking_cocococktail": { "Price": "145" }, //Coconut Cocktail
+				"blueberry.LoveOfCooking_craymornay": { "Price": "400" }, //Cray Mornay Cauliflower
+				"blueberry.LoveOfCooking_crepes": { "Price": "485" }, //Crepes Suzette
+				"blueberry.LoveOfCooking_curry": { "Price": "370" }, //Curry Diablo
+				"blueberry.LoveOfCooking_eggsando": { "Price": "290" }, //Egg Sandwich
+				"blueberry.LoveOfCooking_fruity": { "Price": "275" }, //Cherry Syllabub
+				"blueberry.LoveOfCooking_hotcocoa": { "Price": "520" }, //Hot Cocoa
+				"blueberry.LoveOfCooking_hunters": { "Price": "280" }, //Hunter's Plate
+				"blueberry.LoveOfCooking_kebab": { "Price": "290" }, //Kebab
+				"blueberry.LoveOfCooking_lasagna": { "Price": "605" }, //Lasagna Ricotta
+				"blueberry.LoveOfCooking_leeks": { "Price": "335" }, //Braised Leeks
+				"blueberry.LoveOfCooking_lobster": { "Price": "270" }, //Baked Lobster
+				"blueberry.LoveOfCooking_nigiri": { "Price": "260" }, //Roe Roll
+				"blueberry.LoveOfCooking_oceanplatter": { "Price": "760" }, //Ocean Platter
+				"blueberry.LoveOfCooking_paella": { "Price": "375" }, //Paella
+				"blueberry.LoveOfCooking_parfait": { "Price": "205" }, //Plum Parfait
+				"blueberry.LoveOfCooking_pilaf": { "Price": "395" }, //Mushroom Pilaf
+				"blueberry.LoveOfCooking_profiteroles": { "Price": "530" }, //Profiteroles
+				"blueberry.LoveOfCooking_quiche": { "Price": "390" }, //Quiche Provencale
+				"blueberry.LoveOfCooking_roast": { "Price": "570" }, //Hot Pot Roast
+				"blueberry.LoveOfCooking_saladsando": { "Price": "425" }, //Salad Sandwich
+				"blueberry.LoveOfCooking_seafoodsando": { "Price": "370" }, //Seafood Sandwich
+				"blueberry.LoveOfCooking_summersalad": { "Price": "380" }, //Summer Salad
+				"blueberry.LoveOfCooking_unagi": { "Price": "275" }, //Eel Sushi
+				"blueberry.LoveOfCooking_waffles": { "Price": "265" }, //Berry Waffles
+				"blueberry.LoveOfCooking_chocolate": { "Price": "200" } //Cooking Chocolate
+			},
+			"When": { "Food": true }
+		},
+		{
+			// Food prices (Cornucopia Artisan Machines)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"blueberry.LoveOfCooking_burrito": { "Price": "215" }, //Burrito
+				"blueberry.LoveOfCooking_kebab": { "Price": "270" } //Kebab
+			},
+			"When": { "Food": true, "HasMod|contains=Cornucopia.ArtisanMachines": true }
+		},
+		{
+			// Food buffs
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"blueberry.LoveOfCooking_admiralpie": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FishingLevel": 2,
+								"MaxStamina": 50
+							}
+						}
+					]
+				}, //Admiral Pie
+				"blueberry.LoveOfCooking_applepie": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"ForagingLevel": 3,
+								"MaxStamina": 30
+							}
+						}
+					]
+				}, //Apple Pie
+				"blueberry.LoveOfCooking_arancini": {
+					"Buffs": [
+						{
+							"Duration": 400,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"ForagingLevel": 1
+							}
+						}
+					]
+				}, //Arancini
+				"blueberry.LoveOfCooking_breakfast": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FarmingLevel": 2,
+								"Speed": 1
+							}
+						}
+					]
+				}, //Quick Breakfast
+				"blueberry.LoveOfCooking_burger": {
+					"Buffs": [
+						{
+							"Duration": 600,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"MagneticRadius": 32,
+								"Defense": 2
+							}
+						}
+					]
+				}, //Beet Burger
+				"blueberry.LoveOfCooking_carrotcake": {
+					"Buffs": [
+						{
+							"Duration": 600,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"Speed": 1
+							}
+						}
+					]
+				}, //Carrot Cake
+				"blueberry.LoveOfCooking_cherrypie": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"MiningLevel": 2,
+								"MaxStamina": 20
+							}
+						}
+					]
+				}, //Cherry Pie
+				"blueberry.LoveOfCooking_chocoflan": {
+					"Buffs": [
+						{
+							"Duration": 800,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"LuckLevel": 2,
+								"MaxStamina": 100
+							}
+						}
+					]
+				}, //Hazelnut Bakewell
+				"blueberry.LoveOfCooking_cocococktail": {
+					"Buffs": [
+						{
+							"Duration": 400,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"ForagingLevel": 1,
+								"Speed": 1
+							}
+						},
+						{
+							"Id": "Tipsy",
+							"BuffId": "17"
+						}
+					]
+				}, //Coconut Cocktail
+				"blueberry.LoveOfCooking_craymornay": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FishingLevel": 2
+							}
+						}
+					]
+				}, //Cray Mornay
+				"blueberry.LoveOfCooking_crepes": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FarmingLevel": 2,
+								"LuckLevel": 1
+							}
+						},
+						{
+							"Id": "Tipsy",
+							"BuffId": "17"
+						}
+					]
+				}, //Crepes Suzette
+				"blueberry.LoveOfCooking_fruity": {
+					"Buffs": [
+						{
+							"Duration": 400,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"Attack": 2
+							}
+						},
+						{
+							"Id": "Tipsy",
+							"BuffId": "17"
+						}
+					]
+				}, //Sherry Syllabub
+				"blueberry.LoveOfCooking_hunters": {
+					"Buffs": [
+						{
+							"Duration": 600,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FarmingLevel": 1,
+								"ForagingLevel": 2
+							}
+						}
+					]
+				}, //Hunter's Plate
+				"blueberry.LoveOfCooking_lobster": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"LuckLevel": 1,
+								"Defense": 2
+							}
+						}
+					]
+				}, //Baked Lobster
+				"blueberry.LoveOfCooking_nigiri": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FishingLevel": 1,
+								"MaxStamina": 30,
+								"MagneticRadius": 32
+							}
+						}
+					]
+				}, //Roe Roll
+				"blueberry.LoveOfCooking_oceanplatter": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FishingLevel": 4
+							}
+						}
+					]
+				}, //Ocean Platter
+				"blueberry.LoveOfCooking_parfait": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"Speed": 2
+							}
+						}
+					]
+				}, //Plum Parfait
+				"blueberry.LoveOfCooking_roast": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FarmingLevel": 0,
+								"FishingLevel": 0,
+								"MiningLevel": 2,
+								"LuckLevel": 0,
+								"ForagingLevel": 2,
+								"MaxStamina": 20,
+								"MagneticRadius": 0,
+								"Speed": 0,
+								"Defense": 0,
+								"Attack": 0
+							}
+						}
+					]
+				}, //Hot Pot Roast
+				"blueberry.LoveOfCooking_summersalad": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"MiningLevel": 3,
+								"MagneticRadius": 32,
+								"Defense": 3
+							}
+						}
+					]
+				}, //Summer Salad
+				"blueberry.LoveOfCooking_unagi": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FarmingLevel": 3,
+								"LuckLevel": 1
+							}
+						}
+					]
+				}, //Eel Sushi
+				"blueberry.LoveOfCooking_waffles": {
+					"Buffs": [
+						{
+							"Duration": 500,
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"FarmingLevel": 1,
+								"MiningLevel": 1,
+								"ForagingLevel": 1,
+								"MaxStamina": 30
+							}
+						}
+					]
+				} //Berry Waffles
+			},
+			"When": { "Food Buffs": true }
+		},
+		{
+			// Chocolate is cooking with Cornucopia More Crops
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"blueberry.LoveOfCooking_chocolate": {
+					"Type": "Cooking",
+					"Category": -7
+				}
+			},
+			"When": { "HasMod|contains=Cornucopia.MoreCrops": true }
+		},
+		{
+			// Make chocolate with Cornucopia Cocoa Pod
+			"Action": "EditData",
+			"Target": "Data/CookingRecipes",
+			"Entries": {
+				"minothilos.BalanceOverhaulContinuedCP_chocolate": "Cornucopia_CocoaPod 1//blueberry.LoveOfCooking_chocolate/blueberry.LoveOfCooking.CookingSkill 1"
+			},
 
-            "When": { "HasMod|contains=Cornucopia.MoreCrops": true }
-        }
-    ]
+			"When": { "HasMod|contains=Cornucopia.MoreCrops": true }
+		}
+	]
 }
