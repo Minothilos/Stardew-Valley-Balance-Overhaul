@@ -1,0 +1,328 @@
+{
+	"Changes": [
+		//Prices
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_MorningGlory": { "Price": "70" }, // Morning Glory
+				"Cornucopia_Pansy": { "Price": "85" }, // Pansy
+				"Cornucopia_PinkCat": { "Price": "70" }, // Pink Cat
+				"Cornucopia_Rose": { "Price": "155" }, // Rose
+				"Cornucopia_BlueMist": { "Price": "90" }, // Blue Mist
+				"Cornucopia_Lily": { "Price": "165" }, // Lily
+				"Cornucopia_Lotus": { "Price": "155" }, // Lotus
+				"Cornucopia_Orchid": { "Price": "165" }, // Orchid
+				"Cornucopia_Chrysanthemum": { "Price": "160" }, // Chrysanthemum
+				"Cornucopia_Iris": { "Price": "140" }, // Iris
+				"Cornucopia_MorningGlorySeeds": { "Price": "30" }, // MorningGlory Seeds
+				"Cornucopia_RoseSeeds": { "Price": "35" }, // Rose Seeds
+				"Cornucopia_LilySeeds": { "Price": "35" }, // Lily Seeds
+				"Cornucopia_OrchidSeeds": { "Price": "45" } // Orchid Seeds
+			},
+			"When": {
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_Bluebonnet": { "Price": "80" }, // Bluebonnet
+				"Cornucopia_Chamomile": { "Price": "65" }, // Chamomile
+				"Cornucopia_Hyacinth": { "Price": "115" }, // Hyacinth
+				"Cornucopia_Larkspur": { "Price": "140" }, // Lakspur
+				"Cornucopia_Peony": { "Price": "135" }, // Peony
+				"Cornucopia_RoseSpring": { "Price": "160" }, // Rose, Spring
+				"Cornucopia_Violet": { "Price": "95" }, // Violet
+				"Cornucopia_Carnation": { "Price": "100" }, // Carnation
+				"Cornucopia_Honeysuckle": { "Price": "60" }, // Honeysuckle
+				"Cornucopia_RosePrismatic": { "Price": "175" }, // Rose, Prismatic
+				"Cornucopia_Buttercup": { "Price": "75" }, // Buttercup
+				"Cornucopia_ClarySage": { "Price": "55" }, // Clary Sage
+				"Cornucopia_Daisy": { "Price": "50" }, // Daisy
+				"Cornucopia_Hydrangea": { "Price": "130" }, // Hydrangea
+				"Cornucopia_Lavender": { "Price": "75" }, // Lavender
+				"Cornucopia_Lupine": { "Price": "90" }, // Lupine
+				"Cornucopia_Petunia": { "Price": "85" }, // Petunia
+				"Cornucopia_RoseSummer": { "Price": "160" }, // Rose, Summer
+				"Cornucopia_Wolfsbane": { "Price": "155" }, // Wolfsbane
+				"Cornucopia_BeeBalm": { "Price": "90" }, // Bee Balm
+				"Cornucopia_Clematis": { "Price": "55" }, // Clematis
+				"Cornucopia_Dahlia": { "Price": "90" }, // Dahlia
+				"Cornucopia_FairyDuster": { "Price": "85" }, // Fairy Duster
+				"Cornucopia_Freesia": { "Price": "125" }, // Freesia
+				"Cornucopia_Geranium": { "Price": "130" }, // Geranium
+				"Cornucopia_PitcherPlant": { "Price": "180" }, // Pitcher Plant
+				"Cornucopia_PurpleConeflower": { "Price": "125" }, // Purple Coneflower
+				"Cornucopia_RoseFall": { "Price": "160" }, // Rose, Fall
+				"Cornucopia_RoseWinter": { "Price": "165" }, // Rose, Winter
+				"Cornucopia_Rafflesia": { "Price": "1500" }, // Rafflesia
+				"Cornucopia_Camellia": { "Price": "155" }, // Camellia
+				"Cornucopia_Lilac": { "Price": "50" }, // Lilac
+				"Cornucopia_CalicoRose": { "Price": "80" }, // Calico Rose
+				"Cornucopia_RoseSpringSeeds": { "Price": "80" }, // Rose, Spring Seed
+				"Cornucopia_HoneysuckleSeeds": { "Price": "30" }, // Honeysuckle
+				"Cornucopia_RosePrismaticSeeds": { "Price": "500" }, // Rose, Prismatic Seeds
+				"Cornucopia_RoseSummerSeeds": { "Price": "80" }, // Rose, Summer Seeds
+				"Cornucopia_ClematisSeeds": { "Price": "20" }, // Clematis Seeds
+				"Cornucopia_RoseFallSeeds": { "Price": "80" }, // Rose, Fall Seeds
+				"Cornucopia_RoseWinterSeeds": { "Price": "80" }, // Rose, Winter Seeds
+				"Cornucopia_CorpseFlowerPetal": { "Price": "185" } // Corpse Flower Petal
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_Magnolia": { "Price": "90" }, // Magnolia
+				"Cornucopia_Wisteria": { "Price": "90" }, // Wisteria
+				"Cornucopia_Hibiscus": { "Price": "80" }, // Hibiscus
+				"Cornucopia_YlangYlang": { "Price": "80" }, // Ylang Ylang
+				"Cornucopia_Jasmine": { "Price": "90" }, // Jasmine
+				"Cornucopia_MagnoliaSapling": { "Price": "425" }, // Magnolia Sapling
+				"Cornucopia_WisteriaSapling": { "Price": "425" }, // Wisteria Sapling
+				"Cornucopia_HibiscusSapling": { "Price": "350" }, // Hibiscus Sapling
+				"Cornucopia_YlangYlangSapling": { "Price": "350" }, // Ylang Ylang Sapling
+				"Cornucopia_JasmineSapling": { "Price": "425" } // Jasmine Sapling
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Fruit Trees": true
+			}
+		},
+		//Shops
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.morningglory": {
+					"Id": "minothilos.morningglory",
+					"ItemId": "Cornucopia_MorningGlorySeeds",
+					"Condition": "SEASON Spring",
+					"Price": "240",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+
+			"MoveEntries": [
+				{ "Id": "minothilos.morningglory", "BeforeId": "GrassStarter" }
+			],
+			"When": {
+				"Remove Seeds from Shops": false,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.morningglory": {
+					"Id": "minothilos.morningglory",
+					"ItemId": "Cornucopia_MorningGlorySeeds",
+					"Condition": "SEASON Spring",
+					"Price": "240",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Remove Seeds from Shops": false,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_MorningGlorySeeds", "ContextTags"], // Morning Glory Seed dupe removed
+			"Entries": {
+				"cornucopia_shop_pierre": null
+			},
+			"When": {
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.rosespring": {
+					"Id": "minothilos.rosespring",
+					"ItemId": "Cornucopia_RoseSpringSeeds",
+					"Condition": "SEASON Spring, YEAR 2",
+					"Price": "310",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosesummer": {
+					"Id": "minothilos.rosesummer",
+					"ItemId": "Cornucopia_RoseSummerSeeds",
+					"Condition": "SEASON Summer, YEAR 2",
+					"Price": "300",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.clematis": {
+					"Id": "minothilos.clematis",
+					"ItemId": "Cornucopia_ClematisSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "90",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosefall": {
+					"Id": "minothilos.rosefall",
+					"ItemId": "Cornucopia_RoseFallSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "280",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosewinter": {
+					"Id": "minothilos.rosewinter",
+					"ItemId": "Cornucopia_RoseWinterSeeds",
+					"Condition": "SEASON Winter, YEAR 2",
+					"Price": "340",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+
+			"MoveEntries": [
+				{ "Id": "minothilos.rosespring", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.rosesummer", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.clematis", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.rosefall", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.rosewinter", "BeforeId": "GrassStarter" }
+			],
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Remove Seeds from Shops": false,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.rosespring": {
+					"Id": "minothilos.rosespring",
+					"ItemId": "Cornucopia_RoseSpringSeeds",
+					"Condition": "SEASON Spring, YEAR 2",
+					"Price": "310",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosesummer": {
+					"Id": "minothilos.rosesummer",
+					"ItemId": "Cornucopia_RoseSummerSeeds",
+					"Condition": "SEASON Summer, YEAR 2",
+					"Price": "300",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.clematis": {
+					"Id": "minothilos.clematis",
+					"ItemId": "Cornucopia_ClematisSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "90",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosefall": {
+					"Id": "minothilos.rosefall",
+					"ItemId": "Cornucopia_RoseFallSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "280",
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosewinter": {
+					"Id": "minothilos.rosewinter",
+					"ItemId": "Cornucopia_RoseWinterSeeds",
+					"Condition": "SEASON Winter, YEAR 2",
+					"Price": "340",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Remove Seeds from Shops": false,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseSpringSeeds", "ContextTags"], // Spring Rose Seed dupe removed
+			"Entries": {
+				"cornucopia_shop_pierre": null
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseSummerSeeds", "ContextTags"], // Summer Rose Seed dupe removed
+			"Entries": {
+				"cornucopia_shop_pierre": null
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_ClematisSeeds", "ContextTags"], // Cematis Seed dupe removed
+			"Entries": {
+				"cornucopia_shop_pierre": null
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseFallSeeds", "ContextTags"], // Fall Rose Seed dupe removed
+			"Entries": {
+				"cornucopia_shop_pierre": null
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseWinterSeeds", "ContextTags"], // Winter Rose Seed dupe removed
+			"Entries": {
+				"cornucopia_shop_pierre": null
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["AnimalShop", "Items"],
+			"Fields": {
+				"Cornucopia_HoneysuckleSeeds": {
+					"Price": "240",
+					"IgnoreShopPriceModifiers": true
+				} //Honeysuckle seeds shop price change
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true
+			}
+		}
+	]
+}

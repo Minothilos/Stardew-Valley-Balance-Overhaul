@@ -1,0 +1,99 @@
+{
+	"Name": "Stardew Valley Balance Overhaul",
+	"Author": "Theoddon & Minothilos",
+	"Version": "3.0",
+	"Description": "Rebalances just about everything.",
+	"UniqueID": "Theoddon.BalanceOverhaul",
+	"UpdateKeys": [ "Nexus:13426" ],
+	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+	"Dependencies": [
+		{
+			"UniqueID": "6480.blueegg",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Rafseazz.RSVCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Aimon111.WitchSwampOverhaulCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "LemurKat.EastScarpe.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Lumisteria.GlimmeringClumpsNodes",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.MoreCrops",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.MoreFlowers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.ArtisanMachines",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "DIGUS.ANIMALHUSBANDRYMOD",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Mizu.Quail",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Mizu.Turkey",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "DaLion.Professions",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "radm.milkdasheep",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "OchoLinda.UpgradeSprinklers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "selph.ExtraTappers",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "blueberry.LoveOfCooking.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "drbirbdev.BinningSkill.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "ApryllForever.CPPolyamorySweet",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "moonslime.SpookySkill.CP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "ZoeyHoshi.ForageCrops",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Cornucopia.GrowableForage",
+			"IsRequired": false
+		}
+	]
+}
