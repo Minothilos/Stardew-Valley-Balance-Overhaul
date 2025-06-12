@@ -176,11 +176,6 @@
 			"Default": "true",
 			"Section": "Quality of Life Changes"
 		},
-		/*	"Cotton per Cloth": {
-			"AllowValues": "3, 4, 5, 6, 7, 8, 9, 10, 11, 12",
-			"Default": "8",
-			"Section": "Cornucopia Mods"
-		},*/
 		"Remove Seeds from Shops": {
 			"AllowValues": "false, true",
 			"Default": "false",
@@ -346,16 +341,23 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Minothilos Tweaks.json",
+			"FromFile": "mods/Growable Forage and Crop Bushes.json",
 			"When": {
-				"Minothilos": true
+				"HasMod": "Cornucopia.GrowableForage"
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Growable Forage and Crop Bushes.json",
+			"FromFile": "mods/Blue Eggs and Golden Mayo.json",
 			"When": {
-				"HasMod": "Cornucopia.GrowableForage"
+				"HasMod": "6480.blueegg"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Minothilos Tweaks.json",
+			"When": {
+				"Minothilos": true
 			}
 		}
 	]

@@ -57,8 +57,8 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_PrismaticEssence": { "Price": "2500" }, // Prismatic Essence
-				"Cornucopia_GellingPowder": { "Price": "175" } // GellingPowder
+				"Cornucopia_PrismaticEssence": { "Price": "2000" }, // Prismatic Essence
+				"Cornucopia_GellingPowder": { "Price": "175" } // Gelling Powder
 			},
 			"When": { "Mines": true }
 		},
@@ -100,20 +100,7 @@
 				"Cornucopia_Applesauce": { "Price": "190" } // Applesauce
 			},
 			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": "Cheaper Saplings"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_OrangeZest": { "Price": "325" }, // Orange Zest
-				"Cornucopia_Applesauce": { "Price": "325" } // Applesauce
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": "More Valuable produce"
+				"Fruit Trees": true
 			}
 		},
 		// Essential Crops Goods
@@ -145,20 +132,7 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": "Cheaper Saplings"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_CocoaButter": { "Price": "440" }, // Cocoa Butter
-				"Cornucopia_AvocadoMayonnaise": { "Price": "475" }, // Avocado Mayonnaise
-				"Cornucopia_AvocadoOil": { "Price": "500" } // Avocado Oil
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": "More Valuable Produce"
+				"Fruit Trees": true
 			}
 		},
 		// Extended Crops Goods
@@ -190,22 +164,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Fruit Trees": "Cheaper Saplings"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_LemonZest": { "Price": "225" }, // Lemon Zest
-				"Cornucopia_LimeZest": { "Price": "225" }, // Lime Zest
-				"Cornucopia_ChewingGum": { "Price": "525" }, // Chewing Gum
-				"Cornucopia_Umeboshi": { "Price": "450" } // Umeboshi
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Fruit Trees": "More Valuable Produce"
+				"Fruit Trees": true
 			}
 		},
 		// Herbs Goods
@@ -273,8 +232,7 @@
 				} //Fish Oil
 			},
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -287,7 +245,6 @@
 			},
 			"When": {
 				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -299,7 +256,6 @@
 			},
 			"When": {
 				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -312,7 +268,6 @@
 			},
 			"When": {
 				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -323,8 +278,7 @@
 			"TargetField": ["Cornucopia_ShrimpPaste", "ContextTags"], //Fix Shrimp Paste
 			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -333,8 +287,7 @@
 			"TargetField": ["Cornucopia_SmokedSalmon", "ContextTags"], //Fix Smoked Salmon
 			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -343,8 +296,7 @@
 			"TargetField": ["Cornucopia_DriedSquid", "ContextTags"], //Fix Dried Squid
 			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -353,8 +305,7 @@
 			"TargetField": ["Cornucopia_PickledFish", "ContextTags"], //Fix Pickled Fish
 			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -363,8 +314,7 @@
 			"TargetField": ["Cornucopia_Garum", "ContextTags"], //Fix Garum
 			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -373,8 +323,7 @@
 			"TargetField": ["Cornucopia_FishSauce", "ContextTags"], //Fix Fish Sauce
 			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -383,8 +332,7 @@
 			"TargetField": ["Cornucopia_FishOil", "ContextTags"], //Fix Fish Oil
 			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -406,8 +354,7 @@
 				"#-5": "!modid_cornucopia.artisanmachines"
 			},
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -429,8 +376,7 @@
 				"#-5": "!modid_cornucopia.artisanmachines"
 			},
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -452,8 +398,7 @@
 				"#-5": "!modid_cornucopia.artisanmachines"
 			},
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -475,8 +420,7 @@
 				"#-5": "!modid_cornucopia.artisanmachines"
 			},
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		{
@@ -498,8 +442,7 @@
 				"#-5": "!modid_cornucopia.artisanmachines"
 			},
 			"When": {
-				"Item Categories": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"Item Categories": true
 			}
 		},
 		//------------------------------------------------------------------------------------------
@@ -842,7 +785,6 @@
 			], //Cask - Century Egg
 			"Entries": { "CustomData": { "AgingMultiplier": "1.75" } },
 			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"Animals": true,
 				"Cask Aging": "true"
 			}
@@ -859,7 +801,6 @@
 			], //Cask - Nut Cheese
 			"Entries": { "CustomData": { "AgingMultiplier": "1.55" } },
 			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"Cask Aging": "true"
 			}
 		},
@@ -875,7 +816,6 @@
 			], //Cask - Smoked Cheese
 			"Entries": { "CustomData": { "AgingMultiplier": "1.55" } },
 			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"Cask Aging": "true"
 			}
 		},
@@ -891,7 +831,6 @@
 			], //Cask - Soy Sauce
 			"Entries": { "CustomData": { "AgingMultiplier": "2.33" } },
 			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"Crops": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
@@ -910,7 +849,6 @@
 			], //Cask - Stinky Tofu
 			"Entries": { "CustomData": { "AgingMultiplier": "1.64" } },
 			"When": {
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"Crops": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
@@ -941,7 +879,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -965,7 +903,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -989,7 +927,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1023,7 +961,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1059,7 +997,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1094,7 +1032,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1142,7 +1080,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1192,7 +1130,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1218,7 +1156,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1242,7 +1180,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1266,7 +1204,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1290,7 +1228,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1314,7 +1252,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1338,7 +1276,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1363,7 +1301,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1390,7 +1328,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1417,7 +1355,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1443,7 +1381,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1467,7 +1405,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1491,7 +1429,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1515,7 +1453,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1539,7 +1477,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1563,7 +1501,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1587,7 +1525,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1611,7 +1549,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1635,7 +1573,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1659,7 +1597,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1684,7 +1622,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1711,7 +1649,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1738,7 +1676,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1765,7 +1703,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -1793,7 +1731,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -1821,7 +1759,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -1848,7 +1786,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1872,7 +1810,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1896,7 +1834,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1921,7 +1859,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1960,7 +1898,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -1984,7 +1922,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2008,7 +1946,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2032,7 +1970,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2057,7 +1995,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2084,7 +2022,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2112,7 +2050,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2140,7 +2078,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2168,7 +2106,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -2195,7 +2133,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2219,7 +2157,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2243,7 +2181,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2276,7 +2214,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2300,7 +2238,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2333,7 +2271,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2357,7 +2295,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2390,7 +2328,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2414,7 +2352,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2448,7 +2386,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2475,7 +2413,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2511,7 +2449,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2538,7 +2476,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2574,7 +2512,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2601,7 +2539,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2637,7 +2575,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -2665,7 +2603,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -2695,7 +2633,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2723,7 +2661,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2750,7 +2688,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2774,7 +2712,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2798,7 +2736,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2823,7 +2761,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2849,7 +2787,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2873,7 +2811,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2897,7 +2835,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2921,7 +2859,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2953,7 +2891,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -2977,7 +2915,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3000,7 +2938,7 @@
 				"#0"
 			], //Preserve Jar - Pickled Eggs Chicken Large, Large Animal Products Make 2
 			"Entries": { "MinStack": "2", "Quality": "0" },
-			"When": { "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Artisan Goods": "Large Animal Products Only" }
 		},
 		{
 			"Action": "EditData",
@@ -3024,7 +2962,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3048,7 +2986,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3072,7 +3010,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3097,7 +3035,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3124,7 +3062,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3151,7 +3089,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3178,7 +3116,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3206,7 +3144,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -3234,7 +3172,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -3262,7 +3200,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -3289,7 +3227,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3313,7 +3251,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3337,7 +3275,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3361,7 +3299,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3385,7 +3323,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3442,43 +3380,7 @@
 				]
 			},
 			"When": {
-				"Artisan Goods|contains=Off": "false",
-				"HasMod|contains=DaLion.Professions": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_YogurtJar",
-				"OutputRules",
-				"Cornucopia_PlainYogurtGold",
-				"OutputItem",
-				"#0"
-			], //Yogurt Jar - Plain Yogurt (Large Milk)
-			"Entries": {
-				"MinStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "DoubleQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Artisan Goods|contains=Off": "false",
-				"HasMod|contains=DaLion.Professions": false
+				"Artisan Goods|contains=Off": "false"
 			}
 		},
 		{
@@ -3558,74 +3460,8 @@
 				]
 			},
 			"When": {
-				"Artisan Goods|contains=Off": "false",
-				"HasMod|contains=DaLion.Professions": true
+				"Artisan Goods|contains=Off": "false"
 			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_YogurtJar",
-				"OutputRules",
-				"Cornucopia_PlainYogurtGoatGold",
-				"OutputItem",
-				"#0"
-			], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
-			"Entries": {
-				"MinStack": "4",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "DoubleQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "DoubleQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "DoubleQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Artisan Goods|contains=Off": "false",
-				"HasMod|contains=DaLion.Professions": false
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_YogurtJar",
-				"OutputRules",
-				"Cornucopia_WildHoneyYogurt",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia_FlavoredYogurtIridium": null,
-				"Cornucopia_FlavoredYogurtGold": null,
-				"Cornucopia_FlavoredYogurtSilver": null
-			},
-			"When": { "Artisan Goods|contains=Off": "false" }
 		},
 		{
 			"Action": "EditData",
@@ -3649,23 +3485,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_YogurtJar",
-				"OutputRules",
-				"Cornucopia_FlavoredHoneyYogurt",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia_FlavoredYogurtIridium": null,
-				"Cornucopia_FlavoredYogurtGold": null,
-				"Cornucopia_FlavoredYogurtSilver": null
-			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3689,23 +3509,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_YogurtJar",
-				"OutputRules",
-				"Cornucopia_FlavoredYogurt",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia_FlavoredYogurtIridium": null,
-				"Cornucopia_FlavoredYogurtGold": null,
-				"Cornucopia_FlavoredYogurtSilver": null
-			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3729,23 +3533,7 @@
 					}
 				]
 			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_YogurtJar",
-				"OutputRules",
-				"Cornucopia_ChocolateYogurt",
-				"OutputItem"
-			],
-			"Entries": {
-				"Cornucopia_FlavoredYogurtIridium": null,
-				"Cornucopia_FlavoredYogurtGold": null,
-				"Cornucopia_FlavoredYogurtSilver": null
-			},
-			"When": { "Artisan Goods": "Artisan Goods Gain Quantity" }
+			"When": { "Artisan Goods": "Recommended" }
 		},
 		{
 			"Action": "EditData",
@@ -3770,7 +3558,2903 @@
 				]
 			},
 			"When": {
-				"Artisan Goods": "Artisan Goods Gain Quantity",
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		//-----------------------------------------------------------------------------------------------------------------
+		//Artisan Goods Gain Quantity with WoL
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Alembic",
+				"OutputRules",
+				"Cornucopia_EssentialOil",
+				"OutputItem",
+				"#0"
+			], //Alembic - Essential Oil
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Alembic",
+				"OutputRules",
+				"Cornucopia_PrismaticEssence",
+				"OutputItem",
+				"#0"
+			], //Alembic - Prismatic Essence
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Milk)
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Milk)
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "1",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Milk)
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Goat Milk)
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Goat Milk)
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Goat Milk)
+			"Entries": {
+				"MinStack": "4",
+				"MaxStack": "4",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CoconutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Coconut Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CookieButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Cookie Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_HoneyButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Honey Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_MapleButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Maple Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_Margarine",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Margarine
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_NutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Nut Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CocoaButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Cocoa Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_PeanutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Peanut Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_SoyButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Soy Butter
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaPineNutMilk"
+			], //Cheese Press - Pine Nut Cheese
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaSoyMilk"
+			], //Cheese Press - Soy Cheese
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaOatMilk"
+			], //Cheese Press - Oat Cheese
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"Default"
+			], //Cheese Press - Nut Cheese
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Applesauce",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Applesauce
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_ChiliPowder",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Chili Powder
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_OrangeZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Orange Zest
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Saffron",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Saffron
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Salt",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Salt
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_ShrimpPaste",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Shrimp Paste
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_MisoPaste",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Miso Paste
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Paprika",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Paprika
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Pepper",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Pepper
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_LemonZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Lemon Zest
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_LimeZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Lime Zest
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_AloeGel",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Aloe Gel
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedHerb",
+				"OutputItem",
+				"#0"
+			], //Drying Rack - Dried Herb
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedFlower",
+				"OutputItem",
+				"#0"
+			], //Drying Rack - Dried Flower
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Cornucopia_DriedVegetable",
+				"OutputItem",
+				"#0"
+			], //Dehydrtator - Dried Vegetable
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_RoastedGarlic",
+				"OutputItem",
+				"#0"
+			], //Deluxe Smoker - Roasted Garlic
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_RoastedGarlic",
+				"OutputItem",
+				"#0"
+			], //Deluxe Smoker - Roasted Garlic copy quality, Walk fo life
+			"Entries": { "CopyQuality": true },
+			"When": { "HasMod|contains=DaLion.Professions": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_Beeswax",
+				"OutputItem",
+				"#0"
+			], //Extruder - Beeswax
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_GlassNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Glass Noodles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_RiceNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Rice Noodles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_WheatNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Wheat Noodles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_Zoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Zoodles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_BuckwheatNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Buckwheat Noodles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_SemolinaNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Semolina Noodles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_WholeGrainNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Whole Grain Noodles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_ChewingGum",
+				"OutputItem",
+				"#0"
+			], //Extruder - Chewing Gum
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_Juicer",
+				"OutputRules",
+				"Cornucopia_Juice",
+				"OutputItem",
+				"#0"
+			], //Juicer - Juice
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_CoconutMilk",
+				"OutputItem",
+				"#0"
+			], //Keg - Coconut Milk
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_NutMilk",
+				"OutputItem",
+				"#0"
+			], //Keg - Nut Milk
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_GarlicMayonnaise",
+				"OutputItem",
+				"Cornucopia_GarlicMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Garlic Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_GarlicMayonnaise",
+				"OutputItem",
+				"Cornucopia_GarlicMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Garlic Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_SpicyMayonnaise",
+				"OutputItem",
+				"Cornucopia_SpicyMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Spicy Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_SpicyMayonnaise",
+				"OutputItem",
+				"Cornucopia_SpicyMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Spicy Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_TruffleMayonnaise",
+				"OutputItem",
+				"Cornucopia_TruffleMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Truffle Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_TruffleMayonnaise",
+				"OutputItem",
+				"Cornucopia_TruffleMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Truffle Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_AvocadoMayonnaise",
+				"OutputItem",
+				"Cornucopia_AvocadoMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Avocado Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_AvocadoMayonnaise",
+				"OutputItem",
+				"Cornucopia_AvocadoMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Avocado Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_BlackPepperMayonnaise",
+				"OutputItem",
+				"Cornucopia_BlackPepperMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Black Pepper Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_BlackPepperMayonnaise",
+				"OutputItem",
+				"Cornucopia_BlackPepperMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Black Pepper Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_OliveOilMayonnaise",
+				"OutputItem",
+				"Cornucopia_OliveOilMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Olive Oil Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_OliveOilMayonnaise",
+				"OutputItem",
+				"Cornucopia_OliveOilMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Olive Oil Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_DillMayonnaise",
+				"OutputItem",
+				"Cornucopia_DillMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Dill Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_DillMayonnaise",
+				"OutputItem",
+				"Cornucopia_DillMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Dill Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_WasabiMayonnaise",
+				"OutputItem",
+				"Cornucopia_WasabiMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Wasabi Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_WasabiMayonnaise",
+				"OutputItem",
+				"Cornucopia_WasabiMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Wasabi Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_ChiliOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Chili Oil
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_CoconutOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Coconut Oil
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_FishOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Fish Oil
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_AvocadoOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Avocado Oil
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_CenturyEgg",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Century Egg
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_FishSauce",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Fish Sauce
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Garum",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Garum
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChicken",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Chicken Small
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChickenLarge",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Chicken Large
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggs",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Default
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)15", "OutputRules"], //Preserve Jar - Pickled Eggs Remove Pickeled Gold and Ostrich
+			"Entries": {
+				"Cornucopia_PickledEggsGold": null,
+				"Cornucopia_PickledEggsOstrich": null
+			},
+			"When": { "Artisan Goods|contains=Off": "false" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledFish",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Fish Default
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Sauerkraut",
+				"OutputItem",
+				"Double Sauerkraut"
+			], //Preserve Jar - Sauerkraut Double
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "1.5",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Sauerkraut",
+				"OutputItem",
+				"(O)Cornucopia_Sauerkraut"
+			], //Preserve Jar - Sauerkraut
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_BrinedOlives",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Brined Olives
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickle Spears
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_SoySauce",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Soy Sause
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_StinkyTofu",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Stinky Tofu
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Kimchi",
+				"OutputItem",
+				"Triple Output"
+			], //Preserve Jar - Kimchi Daikon
+			"Entries": {
+				"Quality": "0",
+				"MinStack": "2",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Kimchi",
+				"OutputItem",
+				"(O)Cornucopia_Kimchi"
+			], //Preserve Jar - Kimchi Lettuce
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Umeboshi",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Umeboshi
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_VinegarKeg",
+				"OutputRules",
+				"Cornucopia_Vinegar",
+				"OutputItem",
+				"#0"
+			], //Vinegar Keg - Vinegar
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_VinegarKeg",
+				"OutputRules",
+				"Cornucopia_VinegarUnmilledRice",
+				"OutputItem",
+				"#0"
+			], //Vinegar Keg - Unmilled Rice Vinegar
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_SnackCheese",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Snack Cheese
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_Candles",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Candles
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_WaxMelts",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Wax Melts
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurt",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Milk)
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Artisan Goods|contains=Off": "false" }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGold",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Large Milk)
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods|contains=Off": "false"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGoat",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Goat Milk)
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Artisan Goods|contains=Off": "false" }
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGoatGold",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
+			"Entries": {
+				"MinStack": "4",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods|contains=Off": "false"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_WildHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_ChocolateYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurtDefault"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods": "Recommended",
+				"HasMod|contains=DaLion.Professions": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3856,7 +6540,7 @@
 			],
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3871,7 +6555,7 @@
 				"#0"
 			],
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Artisan Goods": "Large Animal Products Only" }
 		},
 		{
 			"Action": "EditData",
@@ -3885,7 +6569,7 @@
 			],
 			"Entries": { "MinStack": "4", "MaxStack": "4", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3901,11 +6585,11 @@
 			],
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		//-------------------------------------------------------------------------------------------------------------------
+		//-----------------------------------------------------------------------------------------------------------------
 		// Large Egg procesing rules (Large Animal Products Make 2)
 		{
 			"Action": "EditData",
@@ -3918,7 +6602,7 @@
 				"Cornucopia_GarlicMayonnaiseLargeEgg" // Garlic Mayo
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
-			"When": { "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Artisan Goods": "Large Animal Products Only" }
 		},
 		{
 			"Action": "EditData",
@@ -3931,7 +6615,7 @@
 				"Cornucopia_SpicyMayonnaiseLargeEgg" // Spicy Mayo
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
-			"When": { "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Artisan Goods": "Large Animal Products Only" }
 		},
 		{
 			"Action": "EditData",
@@ -3944,7 +6628,7 @@
 				"Cornucopia_TruffleMayonnaiseLargeEgg" // Truffle Mayo
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
-			"When": { "Artisan Goods": "Large Animal Products Make 2" }
+			"When": { "Artisan Goods": "Large Animal Products Only" }
 		},
 		{
 			"Action": "EditData",
@@ -3958,7 +6642,7 @@
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3974,7 +6658,7 @@
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3990,7 +6674,7 @@
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -4006,7 +6690,7 @@
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -4023,7 +6707,7 @@
 			],
 			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
 			"When": {
-				"Artisan Goods": "Large Animal Products Make 2",
+				"Artisan Goods": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}

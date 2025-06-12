@@ -124,7 +124,87 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
-
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_OrangeZest": { "Price": "325" }, // Orange Zest
+				"Cornucopia_Applesauce": { "Price": "325" } // Applesauce
+			},
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_CocoaButter": { "Price": "440" }, // Cocoa Butter
+				"Cornucopia_AvocadoMayonnaise": { "Price": "475" }, // Avocado Mayonnaise
+				"Cornucopia_AvocadoOil": { "Price": "500" } // Avocado Oil
+			},
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_LemonZest": { "Price": "225" }, // Lemon Zest
+				"Cornucopia_LimeZest": { "Price": "225" }, // Lime Zest
+				"Cornucopia_ChewingGum": { "Price": "525" }, // Chewing Gum
+				"Cornucopia_Umeboshi": { "Price": "450" } // Umeboshi
+			},
+			"When": {
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Pear": { "Price": "220" },
+				"FlashShifter.StardewValleyExpandedCP_Nectarine": { "Price": "220" },
+				"FlashShifter.StardewValleyExpandedCP_Persimmon": { "Price": "220" },
+				"FlashShifter.StardewValleyExpandedCP_Money_Bag": { "Price": "250" },
+				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" }
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
+					"Price": "5000",
+					"IgnoreShopPriceModifiers": true
+				}, // Pear Sapling
+				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
+					"Price": "5000",
+					"IgnoreShopPriceModifiers": true
+				}, // Nectarine Sapling
+				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
+					"Price": "5000",
+					"IgnoreShopPriceModifiers": true
+				} // Persimmon Sapling
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Fruit Trees": true
 			}
 		}
