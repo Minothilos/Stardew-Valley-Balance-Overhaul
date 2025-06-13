@@ -22,90 +22,11 @@
 			"When": { "Item Categories": true }
 		},
 		//Machine Processing
+		//Recommended with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_OstrichEgg",
-				"OutputItem",
-				"#0"
-			], //Mayonnaise Machine - Ostrich Egg
-			"Entries": {
-				"Quality": "0",
-				"CopyQuality": "false",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Artisan Goods": "Recommended" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_BlueEgg",
-				"OutputItem",
-				"#0"
-			], //Mayonnaise Machine - Blue Eggs
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Artisan Goods": "Recommended" }
-		},
-		//Machine Processing with WoL
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_GoldenEgg",
-				"OutputItem",
-				"#0"
-			], //Mayonnaise Machine - Golden Eggs
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Artisan Goods": "Recommended" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_OstrichEgg",
-				"OutputItem",
-				"#0"
-			], //Mayonnaise Machine - Ostrich Egg
+			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": "false",
@@ -119,21 +40,12 @@
 					}
 				]
 			},
-			"When": {
-				"Artisan Goods": "Recommended",
-				"HasMod|contains=DaLion.Professions": true
-			}
+			"When": { "Machine Processing": "Recommended" }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_BlueEgg",
-				"OutputItem",
-				"#0"
-			], //Mayonnaise Machine - Blue Eggs
+			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_BlueEgg", "OutputItem", "#0"], //Mayonnaise Machine - Blue Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -146,21 +58,12 @@
 					}
 				]
 			},
-			"When": {
-				"Artisan Goods": "Recommended",
-				"HasMod|contains=DaLion.Professions": true
-			}
+			"When": { "Machine Processing": "Recommended" }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_GoldenEgg",
-				"OutputItem",
-				"#0"
-			], //Mayonnaise Machine - Golden Eggs
+			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_GoldenEgg", "OutputItem", "#0"], //Mayonnaise Machine - Golden Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -173,10 +76,63 @@
 					}
 				]
 			},
-			"When": {
-				"Artisan Goods": "Recommended",
-				"HasMod|contains=DaLion.Professions": true
-			}
+			"When": { "Machine Processing": "Recommended" }
+		},
+		//Recommended without WoL
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": "false",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_BlueEgg", "OutputItem", "#0"], //Mayonnaise Machine - Blue Eggs
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_GoldenEgg", "OutputItem", "#0"], //Mayonnaise Machine - Golden Eggs
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
 		}
 	]
 }

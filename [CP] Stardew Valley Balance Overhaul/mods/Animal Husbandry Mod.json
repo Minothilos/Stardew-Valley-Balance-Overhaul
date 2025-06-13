@@ -1,54 +1,42 @@
 {
-    "Changes": [
-        // Animal Husbandry Mod
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "639": { "Price": "200" }, // Beef
-                "640": { "Price": "500" }, // Pork
-                "641": { "Price": "375" }, // Chicken
-                "642": { "Price": "400" }, // Duck
-                "644": { "Price": "325" }, // Mutton
-                "643": { "Price": "1000" }, // Rabbit
-                "620": { "Price": "8000" } // Ostrich
-            },
-            "When": { "Animals": true }
-        },
-        // Food Prices
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "666": { "Price": "140" }, // Bacon
-                "652": { "Price": "715" }, // Meatloaf
-                "653": { "Price": "510" }, // Orange Chicken
-                "654": { "Price": "865" }, // Monte Cristo
-                "655": { "Price": "615" }, // Bacon Cheeseburger
-                "656": { "Price": "880" }, // Roast Duck
-                "657": { "Price": "1580" }, // Rabbit au Vin
-                "658": { "Price": "815" }, // Steak Fajitas
-                "659": { "Price": "1080" }, // Glazed Ham
-                "660": { "Price": "690" }, // Summer Sausage
-                "661": { "Price": "805" }, // Sweet and Sour Pork
-                "662": { "Price": "1445" }, // Rabbit Stew
-                "663": { "Price": "1195" }, // Winter Duck
-                "664": { "Price": "1150" }, // Steak with Mushrooms
-                "665": { "Price": "1020" } // Cowboy Dinner
-            },
-            "When": { "Food": true }
-        },
-        // More Valuable Produce
-        {
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Fields": {
-                "653": { "Price": "650" }, // Orange Chicken
-                "663": { "Price": "1330" } // Winter Duck
-            },
-            "When": {
-                "Food": true, "Fruit Trees": "More Valuable Produce"
-            }
-        }
-    ]
+	"Changes": [
+		// Animal Husbandry Mod
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"639": { "Price": "200" }, // Beef
+				"640": { "Price": "500" }, // Pork
+				"641": { "Price": "375" }, // Chicken
+				"642": { "Price": "400" }, // Duck
+				"644": { "Price": "325" }, // Mutton
+				"643": { "Price": "1000" }, // Rabbit
+				"620": { "Price": "8000" } // Ostrich
+			},
+			"When": { "Animals": true }
+		},
+		// Food Prices
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"666": { "Price": "140" }, // Bacon
+				"652": { "Price": "715" }, // Meatloaf
+				"653": { "Price": "510" }, // Orange Chicken
+				"654": { "Price": "865" }, // Monte Cristo
+				"655": { "Price": "615" }, // Bacon Cheeseburger
+				"656": { "Price": "880" }, // Roast Duck
+				"657": { "Price": "1580" }, // Rabbit au Vin
+				"658": { "Price": "815" }, // Steak Fajitas
+				"659": { "Price": "1080" }, // Glazed Ham
+				"660": { "Price": "690" }, // Summer Sausage
+				"661": { "Price": "805" }, // Sweet and Sour Pork
+				"662": { "Price": "1445" }, // Rabbit Stew
+				"663": { "Price": "1195" }, // Winter Duck
+				"664": { "Price": "1150" }, // Steak with Mushrooms
+				"665": { "Price": "1020" } // Cowboy Dinner
+			},
+			"When": { "Food": true }
+		}
+	]
 }

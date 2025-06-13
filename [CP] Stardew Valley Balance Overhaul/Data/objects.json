@@ -103,25 +103,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"428": { "Price": "600" } //Cloth
-			},
-			"When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
 				"428": { "Price": "550" } //Cloth
 			},
-			"When": { "Animals": true, "HasMod|contains=DaLion.Professions": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"428": { "Price": "500" } //Cloth
-			},
-			"When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true, "HasMod|contains=DaLion.Professions": true }
+			"When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true }
 		},
 		{
 			"Action": "EditData",

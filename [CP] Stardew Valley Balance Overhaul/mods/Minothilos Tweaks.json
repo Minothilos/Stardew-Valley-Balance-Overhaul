@@ -1,5 +1,6 @@
 {
 	"Changes": [
+		//Vanilla
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -20,6 +21,56 @@
 				"632": { "Price": "1500" } //Pomegranate Sapling
 			},
 			"When": { "Fruit Trees": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Fields": {
+				"(O)629": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Apricot Sapling
+				"(O)628": { "Price": "6000", "IgnoreShopPriceModifiers": true }, //Cherry Sapling
+				"(O)630": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Orange Sapling
+				"(O)631": { "Price": "6000", "IgnoreShopPriceModifiers": true }, //Peach Sapling
+				"(O)633": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Apple Sapling
+				"(O)632": { "Price": "6000", "IgnoreShopPriceModifiers": true } //Pomegranate Sapling
+			},
+			"When": { "Fruit Trees": true }
+		},
+		//Food
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"904": { "Price": "380" }, //Banana Pudding
+				"612": { "Price": "330" }, //Cranberry Candy
+				"610": { "Price": "480" }, //Fruit Salad
+				"905": { "Price": "475" } //Mango Sticky Rice
+			},
+			"When": { "Food": true, "Fruit Trees": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"220": { "Price": "400" } //Chocolate Cake
+			},
+			"When": {
+				"Food": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"905": { "Price": "720" } //Mango Sticky Rice
+			},
+			"When": {
+				"Food": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"Fruit Trees": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -187,6 +238,21 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": { "Price": "440" },
+				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": { "Price": "455" },
+				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": { "Price": "330" },
+				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": { "Price": "640" }
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Food": true,
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": ["SeedShop", "Items"],
 			"Fields": {
@@ -207,6 +273,31 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Fruit Trees": true
 			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"653": { "Price": "650" }, // Orange Chicken
+				"663": { "Price": "1330" } // Winter Duck
+			},
+			"When": {
+				"Food": true,
+				"Fruit Trees": true,
+				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
+			}
+		},
+		{
+			// Food prices (Fruit Trees = More Valuable Produce)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"blueberry.LoveOfCooking_applepie": { "Price": "345" }, //Apple Pie
+				"blueberry.LoveOfCooking_cherrypie": { "Price": "365" }, //Cherry Pie
+				"blueberry.LoveOfCooking_crepes": { "Price": "485" }, //Crepes Suzette
+				"blueberry.LoveOfCooking_fruity": { "Price": "275" } //Cherry Syllabub
+			},
+			"When": { "Food": true, "Fruit Trees": true, "HasMod|contains=blueberry.LoveOfCooking": true }
 		}
 	]
 }
