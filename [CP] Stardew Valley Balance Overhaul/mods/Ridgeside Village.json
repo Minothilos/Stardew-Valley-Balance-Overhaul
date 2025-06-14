@@ -14,7 +14,7 @@
 				"Rafseazz.RSVCP_Ember_Blood_Lime": { "Price": "105" }
 			},
 			"When": {
-				"Fruit Trees": "Cheaper Saplings"
+				"Fruit Trees": true
 			}
 		},
 		{
@@ -798,7 +798,7 @@
 				"Rafseazz.RSVCP.KimpoiShopItem8": { "Price": "2300", "IgnoreShopPriceModifiers": true } //Ember Blood Lime
 			},
 			"When": {
-				"Fruit Trees": "Cheaper Saplings"
+				"Fruit Trees": true
 			}
 		},
 		{
