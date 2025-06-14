@@ -26,7 +26,7 @@
   "config.Buildings.description": "利益に直接影響のある建物の建設コストが高くなり、それ以外の建物のコストは低くなる",
   "config.Museum Rewards.description": "博物館の報酬の順番を改善し、より労力に見合った報酬になる。",
   "config.Shops.description": "店頭価格と品揃えを変更する。",
-  "config.Limited Daily Supply.description": "店で販売されるアイテムの一日当たりの購入可能数を変更する。",
+  "config.Limited Item Supply.description": "店で販売されるアイテムの一日当たりの購入可能数を変更する。",
   "config.Artisan Goods.description": "Artisan Goods Gain Quantity（加工品生産数）: 使用する原料の品質に基づいて、加工品の生産数が増加する確率を変更する。Large Animal Products Make 2（大きな動物生産品2倍）：大きな動物生産品の生産数を2倍にし、加工品の品質コピーMOD（Walk of Lifeなど）との互換性をもたせる。",
   "config.Merchants Buy More Items.description": "ウィリーに釣り竿を、マーニーにミルク入れと大ハサミを、クリントに武器と防具を売ることができる。",
   "config.Marnie Sells Auto-Petter.description": "公民館の完成後、マーニーが自動ナデナデ装置を販売する。",
