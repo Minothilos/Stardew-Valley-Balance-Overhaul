@@ -96,6 +96,11 @@
 			"Default": "true",
 			"Section": "Recipe Changes"
 		},
+		"Community Center Bundles": {
+			"AllowValues": "Off, SVBO, SVBO/SVE, SVBO/RSV, SVBO/SVE/RSV",
+			"Default": "SVBO",
+			"Section": "Balance Changes"
+		},
 		"Machine Processing": {
 			"AllowValues": "Off, On, Large Animal Products Only",
 			"Default": "On",
@@ -190,7 +195,7 @@
 	"Changes": [
 		{
 			"Action": "Include",
-			"FromFile": "Data/buildings.json, Data/craftingrecipes.json, Data/farmanimals.json, Data/machines.json, Data/monsters.json, Data/museumrewards.json, Data/objects.json, Data/shops.json"
+			"FromFile": "Data/buildings.json, Data/craftingrecipes.json, Data/farmanimals.json, Data/machines.json, Data/monsters.json, Data/museumrewards.json, Data/objects.json, Data/shops.json, Data/bundles.json"
 		},
 		{
 			"Action": "Include",
