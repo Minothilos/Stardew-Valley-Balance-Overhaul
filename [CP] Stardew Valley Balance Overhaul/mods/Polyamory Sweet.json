@@ -39,6 +39,17 @@
                 "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { "Price": "60", "IgnoreShopPriceModifiers": true }
             },
             "When": { "Flowers": true }
-        }
+        },
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Fields": {
+				"ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Aine Flower Seed
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
     ]
 }
