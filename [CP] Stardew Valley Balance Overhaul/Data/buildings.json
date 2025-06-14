@@ -5,44 +5,44 @@
             "Target": "Data/Buildings",
             "Fields": {
                 "Coop": {
-                    "BuildCost": "2000",
+                    "BuildCost": "3000",
                     "BuildMaterials": [
                         { "ItemId": "(O)388", "Amount": "250" }, //Wood
                         { "ItemId": "(O)390", "Amount": "100" } //Stone
                     ]
                 },
                 "Big Coop": {
-                    "BuildCost": "12000",
+                    "BuildCost": "15000",
                     "BuildMaterials": [
                         { "ItemId": "(O)388", "Amount": "300" }, //Wood
                         { "ItemId": "(O)390", "Amount": "125" } //Stone
                     ]
                 },
                 "Deluxe Coop": {
-                    "BuildCost": "25000",
+                    "BuildCost": "30000",
                     "BuildMaterials": [
                         { "ItemId": "(O)388", "Amount": "350" }, //Wood
                         { "ItemId": "(O)390", "Amount": "150" } //Stone
                     ]
                 },
                 "Barn": {
-                    "BuildCost": "3000",
+                    "BuildCost": "4000",
                     "BuildMaterials": [
-                        { "ItemId": "(O)388", "Amount": "300" }, //Wood
+                        { "ItemId": "(O)388", "Amount": "250" }, //Wood
                         { "ItemId": "(O)390", "Amount": "100" } //Stone
                     ]
                 },
                 "Big Barn": {
-                    "BuildCost": "15000",
+                    "BuildCost": "20000",
                     "BuildMaterials": [
-                        { "ItemId": "(O)388", "Amount": "350" }, //Wood
+                        { "ItemId": "(O)388", "Amount": "300" }, //Wood
                         { "ItemId": "(O)390", "Amount": "125" } //Stone
                     ]
                 },
                 "Deluxe Barn": {
-                    "BuildCost": "30000",
+                    "BuildCost": "35000",
                     "BuildMaterials": [
-                        { "ItemId": "(O)388", "Amount": "400" }, //Wood
+                        { "ItemId": "(O)388", "Amount": "350" }, //Wood
                         { "ItemId": "(O)390", "Amount": "150" } //Stone
                     ]
                 },
@@ -96,13 +96,13 @@
                     ]
                 },
                 "Shed": {
-                    "BuildCost": "10000",
+                    "BuildCost": "15000",
                     "BuildMaterials": [
                         { "ItemId": "(O)388", "Amount": "250" } //Wood
                     ]
                 },
                 "Big Shed": {
-                    "BuildCost": "15000",
+                    "BuildCost": "20000",
                     "BuildMaterials": [
                         { "ItemId": "(O)388", "Amount": "500" }, //Wood
                         { "ItemId": "(O)390", "Amount": "200" } //Stone

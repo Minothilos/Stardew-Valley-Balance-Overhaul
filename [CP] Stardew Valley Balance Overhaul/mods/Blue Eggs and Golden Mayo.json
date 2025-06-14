@@ -133,6 +133,6 @@
 				]
 			},
 			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
-		}
+		},
 	]
 }

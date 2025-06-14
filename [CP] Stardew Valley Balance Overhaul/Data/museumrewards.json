@@ -6,14 +6,14 @@
             "Target": "Data/MuseumRewards",
             "Fields": {
                 "museum5": { "RewardItemId": "(O)474", "RewardItemCount": "9" }, //Cauliflower Seeds
-                "museum10": { "RewardItemId": "(O)479", "RewardItemCount": "9" }, //Melon Seeds
-                "museum15": { "RewardItemId": "(O)486", "RewardItemCount": "5" }, //Starfruit Seeds
-                "museum20": { "RewardItemId": "(O)681", "RewardItemCount": "2" }, //Rain Totem
-                "museum25": { "RewardItemId": "(O)490", "RewardItemCount": "9" }, //Pumpkin Seeds
-                "museum30": { "RewardItemId": "(O)253", "RewardItemCount": "10" }, //Triple Shot Espresso
-                "museum35": { "RewardItemId": "(F)1541", "RewardItemCount": "1" }, //A Night On Eco-Hill Painting
+				"museum10": { "RewardItemId": "(O)681", "RewardItemCount": "2" }, //Rain Totem
+                "museum15": { "RewardItemId": "(O)479", "RewardItemCount": "9" }, //Melon Seeds
+                "museum20": { "RewardItemId": "(O)486", "RewardItemCount": "5" }, //Starfruit Seeds
+				"museum25": { "RewardItemId": "(F)1541", "RewardItemCount": "1" }, //A Night On Eco-Hill Painting              
+                "museum30": { "RewardItemId": "(O)490", "RewardItemCount": "9" }, //Pumpkin Seeds
+                "museum35": { "RewardItemId": "(O)253", "RewardItemCount": "10" }, //Triple Shot Espresso
                 "museum60": { "RewardItemId": "(O)797", "RewardItemCount": "1" }, //Pearl
-                "museum70": { "RewardItemId": "(F)1554", "RewardItemCount": "1" }, //Jade Hills Painting
+                "museum70": { "RewardItemId": "(O)MysteryBox", "RewardItemCount": "5" }, //Mystery Box
                 "museum80": { "RewardItemId": "(F)1669", "RewardItemCount": "1" }, //Lg. Futan Bear
                 "museum90": { "RewardItemId": "(O)279", "RewardItemCount": "1" } //Magic Rock Candy
             },
@@ -45,8 +45,8 @@
                 },
                 "museum65": {
                     "TargetContextTags": [ { "Tag": "", "Count": "65" } ],
-                    "RewardItemId": "(O)MysteryBox", //Mystery Box
-                    "RewardItemCount": "5",
+                    "RewardItemId": "(F)1554", //Jade Hills Painting
+                    "RewardItemCount": "1",
                     "RewardItemIsSpecial": false,
                     "RewardItemIsRecipe": false,
                     "RewardActions": null,
@@ -56,7 +56,7 @@
                 "museum75": {
                     "TargetContextTags": [ { "Tag": "", "Count": "75" } ],
                     "RewardItemId": "(O)PrizeTicket", //Prize Ticket
-                    "RewardItemCount": "3",
+                    "RewardItemCount": "5",
                     "RewardItemIsSpecial": false,
                     "RewardItemIsRecipe": false,
                     "RewardActions": null,

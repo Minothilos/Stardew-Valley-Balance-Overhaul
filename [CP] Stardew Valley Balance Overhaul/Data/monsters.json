@@ -168,7 +168,7 @@
             "Action": "EditData",
             "Target": "Data/MonsterSlayerQuests",
             "Fields": {
-                "Slimes": { "Count": "750" },
+                "Slimes": { "Count": "500" },
                 "Shadows": { "Count": "100" },
                 "Bats": { "Count": "150" },
                 "Skeletons": { "Count": "50" },
