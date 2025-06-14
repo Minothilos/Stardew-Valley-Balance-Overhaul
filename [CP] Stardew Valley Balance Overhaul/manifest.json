@@ -8,10 +8,6 @@
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"Dependencies": [
 		{
-			"UniqueID": "alja.CCCB",
-			"IsRequired": true
-		},
-		{
 			"UniqueID": "6480.blueegg",
 			"IsRequired": false
 		},
