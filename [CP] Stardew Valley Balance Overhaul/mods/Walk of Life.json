@@ -28,7 +28,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -46,7 +46,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",

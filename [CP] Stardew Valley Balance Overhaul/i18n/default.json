@@ -28,7 +28,7 @@
 	"config.Shops.description": "Changes shop prices and inventories.",
 	"config.Increased Bait Maker Output.description": "Increases the Bait Maker output based on ingredient quality.",
 	"config.Increased Seed Maker Output.description": "Increases the Seed Maker output based on ingredient quality.",
-	"config.Cask Aging.description": "Changes the duration of aging to be more balanced."
+	"config.Cask Aging.description": "Changes the duration of aging to be more balanced.",
 	"config.Limited Shop Inventories.description": "Changes daily purchase amount of items sold by shops.",
 	"config.Machine Processing.description": "Changes artisan goods to have a chance to increase in quantity based on ingredient quality.",
 	"config.Merchants Buy More Items.description": "Willy buys fishing poles, Marnie buys shears & milk pails, Clint buys weapons and armor.",
@@ -36,7 +36,7 @@
 	"config.Harvey's Clinic Sells Life Elixirs.description": "Harvey's Clinic sells life elixirs.",
 	"config.Increased Silo Size.description": "Increases silo size to 1000 hay.",
 	"config.Remove Seeds from Shops.description": "If Cornucopia More Crops or Flowers is installed new seed entries will be added to shops. Enabling this will prevent that. Should stay disabled unless other mods are used that remove all seeds from shops.",
-	"config.Minothilos Tweaks.description": "Personal tweaks to the mod made by the co-developer of SVBO. This should usually be left disabled."
+	"config.Minothilos Tweaks.description": "Personal tweaks to the mod made by the co-developer of SVBO. This should usually be left disabled.",
 	"Sheep": "Adults can be shorn for wool every couple days. A pair of shears is required to harvest the wool. Lives in the Barn.",
 	"MayonnaiseMachineFuelNeededMessage": "Requires 2 Eggs or 1 Large Egg",
 	"MayonnaiseMachineInvalidCount_Garlic": "Requires 2 Garlic",

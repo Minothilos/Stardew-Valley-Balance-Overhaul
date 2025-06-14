@@ -868,7 +868,7 @@
 			},
 			"When": { "Machine Processing": "Large Animal Products Only" }
 		},
-		//Recommended with WoL
+		//On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -887,7 +887,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		// Butter Churner
@@ -900,7 +900,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -928,7 +928,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -940,7 +940,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -983,7 +983,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -995,7 +995,7 @@
 				"RequiredTags": ["large_milk_item"]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -1023,7 +1023,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -1035,7 +1035,7 @@
 				"RequiredTags": ["milk_item"]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -1055,10 +1055,10 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
-		//Recommended Wwithout WoL
+		//On Wwithout WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -1077,7 +1077,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1091,7 +1091,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1120,7 +1120,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1133,7 +1133,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1177,7 +1177,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1190,7 +1190,7 @@
 				"RequiredTags": ["large_milk_item"]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1219,7 +1219,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1232,7 +1232,7 @@
 				"RequiredTags": ["milk_item"]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1253,7 +1253,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},

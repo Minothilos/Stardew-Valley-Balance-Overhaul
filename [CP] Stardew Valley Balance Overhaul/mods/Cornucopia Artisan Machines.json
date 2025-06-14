@@ -899,7 +899,7 @@
 			"Entries": { "MaxStack": "2", "CopyQuality": true },
 			"When": { "Machine Processing|contains=Off": "false" }
 		},
-		//Recommended with WoL
+		//On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -916,7 +916,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -934,7 +934,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -952,7 +952,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -980,7 +980,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1010,7 +1010,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1039,7 +1039,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1081,7 +1081,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1125,7 +1125,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1145,7 +1145,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1163,7 +1163,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1181,7 +1181,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1199,7 +1199,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1217,7 +1217,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1235,7 +1235,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1254,7 +1254,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1275,7 +1275,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1296,7 +1296,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1316,7 +1316,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1334,7 +1334,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1352,7 +1352,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1370,7 +1370,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1388,7 +1388,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1406,7 +1406,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1424,7 +1424,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1442,7 +1442,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1460,7 +1460,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1478,7 +1478,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1497,7 +1497,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1518,7 +1518,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1539,7 +1539,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1560,7 +1560,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -1582,7 +1582,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -1604,7 +1604,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -1625,7 +1625,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1643,7 +1643,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1661,7 +1661,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1679,7 +1679,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1697,7 +1697,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1715,7 +1715,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1733,7 +1733,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1752,7 +1752,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1773,7 +1773,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -1795,7 +1795,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -1817,7 +1817,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -1839,7 +1839,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -1860,7 +1860,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1878,7 +1878,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1896,7 +1896,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1923,7 +1923,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1941,7 +1941,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1968,7 +1968,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -1986,7 +1986,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2013,7 +2013,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2031,7 +2031,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2059,7 +2059,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2080,7 +2080,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2110,7 +2110,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2131,7 +2131,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2161,7 +2161,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2182,7 +2182,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2212,7 +2212,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -2234,7 +2234,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -2258,7 +2258,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2280,7 +2280,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2301,7 +2301,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2319,7 +2319,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2337,7 +2337,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2356,7 +2356,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2376,7 +2376,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2394,7 +2394,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2412,7 +2412,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2430,7 +2430,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2456,7 +2456,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2474,7 +2474,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2499,7 +2499,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2517,7 +2517,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2535,7 +2535,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2554,7 +2554,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2575,7 +2575,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2596,7 +2596,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2617,7 +2617,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2639,7 +2639,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2661,7 +2661,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2683,7 +2683,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -2704,7 +2704,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2722,7 +2722,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2740,7 +2740,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2758,7 +2758,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2776,7 +2776,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2794,7 +2794,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2812,7 +2812,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2830,7 +2830,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -2849,7 +2849,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2980,7 +2980,7 @@
 			},
 			"When": { "Machine Processing|contains=Off": "false" }
 		},
-		//Recommended without WoL
+		//On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -2998,7 +2998,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3019,7 +3019,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3040,7 +3040,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3070,7 +3070,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3100,7 +3100,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3130,7 +3130,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3174,7 +3174,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3218,7 +3218,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3239,7 +3239,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3260,7 +3260,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3281,7 +3281,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3302,7 +3302,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3323,7 +3323,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3344,7 +3344,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3365,7 +3365,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -3387,7 +3387,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -3409,7 +3409,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -3431,7 +3431,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3452,7 +3452,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3473,7 +3473,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3494,7 +3494,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3515,7 +3515,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3536,7 +3536,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3557,7 +3557,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3578,7 +3578,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3599,7 +3599,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3620,7 +3620,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3641,7 +3641,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -3663,7 +3663,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -3685,7 +3685,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -3707,7 +3707,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
@@ -3730,7 +3730,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
@@ -3753,7 +3753,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
@@ -3776,7 +3776,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3797,7 +3797,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3818,7 +3818,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3839,7 +3839,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3860,7 +3860,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3881,7 +3881,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3902,7 +3902,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -3923,7 +3923,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -3945,7 +3945,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
@@ -3968,7 +3968,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
@@ -3991,7 +3991,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
@@ -4014,7 +4014,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
@@ -4037,7 +4037,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4058,7 +4058,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4079,7 +4079,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4109,7 +4109,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4130,7 +4130,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4160,7 +4160,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4181,7 +4181,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4211,7 +4211,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4232,7 +4232,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4262,7 +4262,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4284,7 +4284,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4315,7 +4315,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4337,7 +4337,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4368,7 +4368,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4390,7 +4390,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4421,7 +4421,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
@@ -4444,7 +4444,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
@@ -4469,7 +4469,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
@@ -4492,7 +4492,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
@@ -4515,7 +4515,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4536,7 +4536,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4557,7 +4557,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4578,7 +4578,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4600,7 +4600,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4621,7 +4621,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4642,7 +4642,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4663,7 +4663,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4692,7 +4692,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4713,7 +4713,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4734,7 +4734,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4755,7 +4755,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4776,7 +4776,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4797,7 +4797,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4819,7 +4819,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4841,7 +4841,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4863,7 +4863,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -4886,7 +4886,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
@@ -4909,7 +4909,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
@@ -4932,7 +4932,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
@@ -4955,7 +4955,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4976,7 +4976,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4997,7 +4997,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -5018,7 +5018,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -5039,7 +5039,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -5060,7 +5060,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -5081,7 +5081,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -5102,7 +5102,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -5123,7 +5123,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}

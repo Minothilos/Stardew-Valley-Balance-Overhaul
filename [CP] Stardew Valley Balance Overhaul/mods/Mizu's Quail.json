@@ -37,7 +37,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		//Recommended with WoL
+		//On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -55,7 +55,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -84,10 +84,10 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
-		//Recommended without WoL
+		//On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -105,7 +105,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -135,7 +135,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},

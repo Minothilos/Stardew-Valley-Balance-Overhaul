@@ -195,7 +195,7 @@
 			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
 			"When": { "Machine Processing": "Large Animal Products Only", "HasMod|contains=DaLion.Professions": false }
 		},
-		//Recommended with WoL
+		//On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -212,7 +212,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -230,7 +230,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -248,7 +248,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -266,7 +266,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -284,7 +284,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -302,7 +302,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -320,7 +320,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -338,7 +338,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -356,7 +356,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -374,7 +374,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -392,7 +392,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -410,7 +410,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -428,7 +428,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -455,7 +455,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -473,7 +473,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -500,7 +500,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -518,7 +518,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -536,7 +536,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -554,7 +554,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -572,7 +572,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -590,7 +590,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -608,7 +608,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -626,7 +626,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -644,7 +644,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -671,7 +671,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -689,7 +689,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -707,7 +707,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -725,7 +725,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -743,7 +743,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
 		{
 			"Action": "EditData",
@@ -761,9 +761,9 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended" }
+			"When": { "Machine Processing": "On" }
 		},
-		//Recommended without WoL
+		//On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -780,7 +780,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -798,7 +798,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -816,7 +816,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -834,7 +834,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -852,7 +852,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -870,7 +870,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -888,7 +888,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -906,7 +906,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -924,7 +924,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -942,7 +942,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -960,7 +960,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -978,7 +978,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -996,7 +996,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1023,7 +1023,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1041,7 +1041,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1068,7 +1068,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1086,7 +1086,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1104,7 +1104,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1122,7 +1122,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1140,7 +1140,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1158,7 +1158,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1176,7 +1176,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1194,7 +1194,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1212,7 +1212,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1239,7 +1239,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1257,7 +1257,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1275,7 +1275,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1293,7 +1293,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1311,7 +1311,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -1329,7 +1329,7 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "Recommended", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
 		},
 		//Improved Bait Maker and Seed Maker
 		{

@@ -97,8 +97,8 @@
 			"Section": "Recipe Changes"
 		},
 		"Machine Processing": {
-			"AllowValues": "Off, Recommended, Large Animal Products Only",
-			"Default": "Recommended",
+			"AllowValues": "Off, On, Large Animal Products Only",
+			"Default": "On",
 			"Section": "Balance Changes"
 		},
 		"Monster Strength": {

@@ -881,7 +881,7 @@
 				"Cask Aging": true
 			}
 		},
-		//Recommended with WoL
+		//On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -900,7 +900,7 @@
 			},
 			"When": {
 				"Crops": true,
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -922,7 +922,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -944,7 +944,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -966,7 +966,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
 		{
@@ -988,10 +988,10 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended"
+				"Machine Processing": "On"
 			}
 		},
-		//Recommended without WoL
+		//On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -1010,7 +1010,7 @@
 			},
 			"When": {
 				"Crops": true,
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1033,7 +1033,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1056,7 +1056,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1079,7 +1079,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1102,7 +1102,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1125,7 +1125,7 @@
 			"When": {
 				"Crops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "Recommended",
+				"Machine Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		}
