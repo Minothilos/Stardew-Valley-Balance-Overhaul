@@ -96,6 +96,11 @@
 			"Default": "true",
 			"Section": "Recipe Changes"
 		},
+		"Machine Processing": {
+			"AllowValues": "Off, Recommended, Large Animal Products Only",
+			"Default": "Recommended",
+			"Section": "Balance Changes"
+		},
 		"Monster Strength": {
 			"AllowValues": "Off, Normal, Hard, Very Hard",
 			"Default": "Normal",
@@ -136,15 +141,20 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
+		"Increased Bait Maker Output": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Balance Changes"
+		},
+		"Increased Seed Maker Output": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Balance Changes"
+		},
 		"Limited Shop Inventories": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Gameplay Changes"
-		},
-		"Machine Processing": {
-			"AllowValues": "Off, Recommended, Large Animal Products Only",
-			"Default": "Recommended",
-			"Section": "Gameplay Changes"
+			"Section": "Balance Changes"
 		},
 		"Merchants Buy More Items": {
 			"AllowValues": "false, true",
@@ -162,16 +172,6 @@
 			"Section": "Quality of Life Changes"
 		},
 		"Increased Silo Size": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Quality of Life Changes"
-		},
-		"Increased Bait Maker Output": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Quality of Life Changes"
-		},
-		"Increased Seed Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Quality of Life Changes"
