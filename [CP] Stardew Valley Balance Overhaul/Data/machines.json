@@ -1954,6 +1954,16 @@
 			},
 			"When": { "Increased Seed Maker Output": "true" }
 		},
+		//Sweet Gem Berry Seedmaker Change
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)25", "OutputRules", "Default", "Triggers", "ItemPlacedInMachine", "RequiredTags"],
+			"Entries": {
+				"#-1": "!id_o_417",
+			},
+			"When": { "Crops": true }
+		},
 		//Item Categories Fix
 		{
 			"Action": "EditData",
