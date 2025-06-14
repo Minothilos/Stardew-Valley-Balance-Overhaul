@@ -19,6 +19,7 @@
 	"config.Wild Seeds.description": "Changes wild seed recipes. This also changes tea sapling recipe.",
 	"config.Miscellaneous Recipes.description": "Changes miscellaneous recipes.",
 	"config.Cotton per Cloth.description": "Amount of cotton bolls that produce cloth in a loom.",
+	"config.Community Center Bundles.description": "Changes the community center bundles. WARNING: These changes only affect new saved games and cannot be changed on an existing save.",
 	"config.Monster Strength.description": "Changes the strength of monsters. On Normal, monsters typically have less health but do more damage. On harder difficulties, monsters will have slightly more health and do significantly more damage.",
 	"config.Monster Eradication Goals.description": "Changes monster eradication goals to require less kills.",
 	"config.Item Categories.description": "Changes some item categories to make the Artisan profession less strong.",
