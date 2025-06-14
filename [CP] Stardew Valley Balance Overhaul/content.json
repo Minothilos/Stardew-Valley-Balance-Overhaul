@@ -141,11 +141,6 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
-		"Shops": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Balance Changes"
-		},
 		"Increased Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
@@ -156,10 +151,15 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
+		"Shops": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Shop Changes"
+		},
 		"Limited Shop Inventories": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Shop Changes"
 		},
 		"Merchants Buy More Items": {
 			"AllowValues": "false, true",
