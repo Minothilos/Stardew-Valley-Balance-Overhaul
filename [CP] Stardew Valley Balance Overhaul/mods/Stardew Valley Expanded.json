@@ -481,7 +481,7 @@
 				}
 			},
 			"When": {
-				"Limited Shop Inventories": true
+				"Limited Daily Supply": true
 			}
 		},
 		{
