@@ -1046,10 +1046,9 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_LargeMilk", "OutputItem", "#0"], //Cheese Press - Large Milk
+			"TargetField": ["(BC)24", "OutputRules", "Default_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
 			"Entries": {
-				"MinStack": "2",
-				"MaxStack": "2",
+				"MinStack": "15",
 				"Quality": "0",
 				"StackModifiers": [
 					{
@@ -1065,10 +1064,141 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality3",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality4",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality5",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality6",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality7",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality8",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality9",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality10",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality11",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality12",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality13",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality14",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality15",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality16",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false, "HasMod|contains=6480.blueegg": false }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)24", "OutputRules", "Default_GoldenEgg", "OutputItem", "#0"], //Mayonnaise Machine - Golden Mayo
+			"Entries": {
+				"MinStack": "3",
+				"Quality": "2",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "DoubleQuality3",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false, "HasMod|contains=6480.blueegg": false }
 		},
 		{
 			"Action": "EditData",
@@ -1128,24 +1258,6 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)19", "OutputRules", "Default_Truffle", "OutputItem", "#0"], //Oil Maker - Truffle
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [

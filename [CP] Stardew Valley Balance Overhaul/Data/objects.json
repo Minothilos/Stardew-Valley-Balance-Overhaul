@@ -81,21 +81,21 @@
 				"184": { "Price": "75" }, //Milk
 				"436": { "Price": "150" }, //Goat Milk
 				"430": { "Price": "190" }, //Truffle
-				"289": { "Price": "1100" }, //Ostrich Egg
+				"289": { "Price": "1000" }, //Ostrich Egg
 				"174": { "Price": "130" }, //Large Egg
 				"182": { "Price": "130" }, //Large Egg
 				"444": { "Price": "475" }, //Duck Feather
-				"446": { "Price": "640" }, //Rabbit's Foot
+				"446": { "Price": "700" }, //Rabbit's Foot
 				"186": { "Price": "150" }, //Large Milk
 				"438": { "Price": "300" }, //L. Goat Milk
-				"306": { "Price": "140" }, //Mayonnaise
-				"308": { "Price": "285" }, //Void Mayonnaise
-				"307": { "Price": "460" }, //Duck Mayonnaise
-				"428": { "Price": "700" }, //Cloth
+				"306": { "Price": "130" }, //Mayonnaise
+				"308": { "Price": "260" }, //Void Mayonnaise
+				"307": { "Price": "420" }, //Duck Mayonnaise
+				"428": { "Price": "640" }, //Cloth
 				"807": { "Price": "2000" }, //Dinosaur Mayonnaise
-				"424": { "Price": "165" }, //Cheese
-				"426": { "Price": "330" }, //Goat Cheese
-				"432": { "Price": "415" } //Truffle Oil
+				"424": { "Price": "150" }, //Cheese
+				"426": { "Price": "300" }, //Goat Cheese
+				"432": { "Price": "380" } //Truffle Oil
 			},
 			"When": { "Animals": true }
 		},
