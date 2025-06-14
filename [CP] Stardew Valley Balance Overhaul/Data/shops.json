@@ -188,7 +188,7 @@
 			},
 			"When": { "Fruit Trees": true }
 		},
-		//Shops (Limited Inventories)
+		//Shops (Limited Item Supply)
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -201,7 +201,7 @@
 				"(O)206": { "AvailableStock": "3", "AvailableStockLimit": "Player" }, //Pizza
 				"(O)395": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Coffee
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -213,7 +213,7 @@
 				"(O)DeluxeBait": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Deluxe Bait
 				"(O)710": { "AvailableStock": "3", "AvailableStockLimit": "Player" } //Crab Pot
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -229,7 +229,7 @@
 				"Coal_AfterYearOne": { "AvailableStock": "15", "AvailableStockLimit": "Player" }, //Coal Year 2
 				"GoldOre_AfterYearOne": { "AvailableStock": "30", "AvailableStockLimit": "Player" } //Gold Ore Year 2
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -239,7 +239,7 @@
 				"(O)388": { "AvailableStock": "200", "AvailableStockLimit": "Player" }, //Wood
 				"(O)390": { "AvailableStock": "200", "AvailableStockLimit": "Player" } //Stone
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -249,7 +249,7 @@
 				"(O)349": { "AvailableStock": "2", "AvailableStockLimit": "Player" }, //Energy Tonic
 				"(O)351": { "AvailableStock": "1", "AvailableStockLimit": "Player" } //Muscle Remedy
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -263,7 +263,7 @@
 				"(O)287": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Bomb
 				"(O)288": { "AvailableStock": "20", "AvailableStockLimit": "Player" } //Mega Bomb
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -275,7 +275,7 @@
 				"(O)287": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Bomb
 				"(O)288": { "AvailableStock": "20", "AvailableStockLimit": "Player" } //Mega Bomb
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -289,7 +289,7 @@
 				"(O)612": { "AvailableStock": "3", "AvailableStockLimit": "Player" }, //Cranberry Candy
 				"MangoWine": { "AvailableStock": "3", "AvailableStockLimit": "Player" } //Mango Wine
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -302,7 +302,7 @@
 				"(O)287": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Bomb
 				"(BC)71": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Staircase
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -314,7 +314,7 @@
 				"StrawberrySeeds_Wednesday": { "AvailableStock": "30", "AvailableStockLimit": "Player" }, //Starberry Seeds
 				"(O)SkillBook_2": { "AvailableStock": "1", "AvailableStockLimit": "Player" } //Woodcutter's Weekly
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -325,7 +325,7 @@
 				"(O)459": { "AvailableStock": "5", "AvailableStockLimit": "Player" }, //Mead
 				"(O)303": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Pale Ale
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -334,7 +334,7 @@
 			"Fields": {
 				"(O)770": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Mixed Seeds
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -343,7 +343,7 @@
 			"Fields": {
 				"(O)688": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Warp Totem: Farm
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -352,7 +352,110 @@
 			"Fields": {
 				"(O)233": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Ice Cream
 			},
-			"When": { "Limited Daily Supply": true }
+			"When": { "Limited Item Supply": true }
+		},
+		//Shops (Limited Seed Supply)
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Sandy", "Items"],
+			"Fields": {
+				"(O)802": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Cactus Seeds
+				"(O)478": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Rhubarb Seeds
+				"(O)486": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Starfruit Seeds
+				"(O)494": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Beet Seeds
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Festival_EggFestival_Pierre", "Items"],
+			"Fields": {
+				"(O)745": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Strawberry Seeds
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Fields": {
+				"(O)472": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Parsnip Seeds
+				"(O)473": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Bean Starter
+				"(O)474": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Cauliflower Seeds
+				"(O)475": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Potato Seeds
+				"(O)427": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Tulip Bulb
+				"(O)477": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Kale Seeds
+				"(O)429": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Jazz Seeds
+				"(O)476": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Garlic Seeds
+				"(O)273": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Rice Shoot
+				"(O)479": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Melon Seeds
+				"(O)480": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Tomato Seeds
+				"(O)481": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Blueberry Seeds
+				"(O)482": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Pepper Seeds
+				"WheatSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Summer
+				"WheatSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Fall
+				"(O)484": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Radish Seeds
+				"(O)453": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Poppy Seeds
+				"(O)455": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Spangle Seeds
+				"(O)302": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Hops Starter
+				"CornSeeds_Summer": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Corn Seeds Summer
+				"CornSeeds_Fall": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Corn Seeds Fall
+				"SunflowerSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Sunflower Seeds Summer
+				"SunflowerSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Sunflower Seeds Fall
+				"(O)485": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Red Cabbage Seeds
+				"(O)488": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Eggplant Seeds
+				"(O)490": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Pumpkin Seeds
+				"(O)491": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Bok Choy Seeds
+				"(O)492": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Yam Seeds
+				"(O)493": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Cranberry Seeds
+				"(O)425": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Fairy Seeds
+				"(O)299": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Amaranth Seeds
+				"(O)301": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Grape Starter
+				"(O)489": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Artichoke Seeds
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Fields": {
+				"(O)472": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Parsnip Seeds
+				"(O)473": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Bean Starter
+				"(O)474": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Cauliflower Seeds
+				"(O)475": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Potato Seeds
+				"(O)427": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Tulip Bulb
+				"(O)477": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Kale Seeds
+				"(O)429": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Jazz Seeds
+				"(O)476": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Garlic Seeds
+				"(O)273": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Rice Shoot
+				"(O)479": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Melon Seeds
+				"(O)480": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Tomato Seeds
+				"(O)481": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Blueberry Seeds
+				"(O)482": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Pepper Seeds
+				"WheatSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Summer
+				"WheatSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Fall
+				"(O)484": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Radish Seeds
+				"(O)453": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Poppy Seeds
+				"(O)455": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Spangle Seeds
+				"(O)302": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Hops Starter
+				"(O)487": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Corn Seeds
+				"SunflowerSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Sunflower Seeds Summer
+				"SunflowerSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Sunflower Seeds Fall
+				"(O)485": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Red Cabbage Seeds
+				"(O)488": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Eggplant Seeds
+				"(O)490": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Pumpkin Seeds
+				"(O)491": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Bok Choy Seeds
+				"(O)492": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Yam Seeds
+				"(O)493": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Cranberry Seeds
+				"(O)425": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Fairy Seeds
+				"(O)299": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Amaranth Seeds
+				"(O)301": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Grape Starter
+				"(O)489": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Artichoke Seeds
+			},
+			"When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false, "Limited Seed Supply": true }
 		},
 		//Quality of Life
 		{
@@ -412,7 +515,7 @@
 					"IgnoreShopPriceModifiers": true
 				} //Add Life Elixir (Limited)
 			},
-			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Daily Supply": true }
+			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Item Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -426,7 +529,7 @@
 					"IgnoreShopPriceModifiers": true
 				} //Add Life Elixir (Unlimited)
 			},
-			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Daily Supply": false }
+			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Item Supply": false }
 		}
 	]
 }

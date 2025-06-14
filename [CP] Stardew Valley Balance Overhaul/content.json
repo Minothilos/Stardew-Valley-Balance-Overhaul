@@ -156,7 +156,12 @@
 			"Default": "true",
 			"Section": "Shop Changes"
 		},
-		"Limited Daily Supply": {
+		"Limited Item Supply": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Shop Changes"
+		},
+		"Limited Seed Supply": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Shop Changes"
