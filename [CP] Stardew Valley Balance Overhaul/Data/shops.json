@@ -201,7 +201,7 @@
 				"(O)206": { "AvailableStock": "3", "AvailableStockLimit": "Player" }, //Pizza
 				"(O)395": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Coffee
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -213,7 +213,7 @@
 				"(O)DeluxeBait": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Deluxe Bait
 				"(O)710": { "AvailableStock": "3", "AvailableStockLimit": "Player" } //Crab Pot
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -229,7 +229,7 @@
 				"Coal_AfterYearOne": { "AvailableStock": "15", "AvailableStockLimit": "Player" }, //Coal Year 2
 				"GoldOre_AfterYearOne": { "AvailableStock": "30", "AvailableStockLimit": "Player" } //Gold Ore Year 2
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -239,7 +239,7 @@
 				"(O)388": { "AvailableStock": "200", "AvailableStockLimit": "Player" }, //Wood
 				"(O)390": { "AvailableStock": "200", "AvailableStockLimit": "Player" } //Stone
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -249,7 +249,7 @@
 				"(O)349": { "AvailableStock": "2", "AvailableStockLimit": "Player" }, //Energy Tonic
 				"(O)351": { "AvailableStock": "1", "AvailableStockLimit": "Player" } //Muscle Remedy
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -263,7 +263,7 @@
 				"(O)287": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Bomb
 				"(O)288": { "AvailableStock": "20", "AvailableStockLimit": "Player" } //Mega Bomb
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -275,7 +275,7 @@
 				"(O)287": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Bomb
 				"(O)288": { "AvailableStock": "20", "AvailableStockLimit": "Player" } //Mega Bomb
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -289,7 +289,7 @@
 				"(O)612": { "AvailableStock": "3", "AvailableStockLimit": "Player" }, //Cranberry Candy
 				"MangoWine": { "AvailableStock": "3", "AvailableStockLimit": "Player" } //Mango Wine
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -302,7 +302,7 @@
 				"(O)287": { "AvailableStock": "20", "AvailableStockLimit": "Player" }, //Bomb
 				"(BC)71": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Staircase
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -314,7 +314,7 @@
 				"StrawberrySeeds_Wednesday": { "AvailableStock": "30", "AvailableStockLimit": "Player" }, //Starberry Seeds
 				"(O)SkillBook_2": { "AvailableStock": "1", "AvailableStockLimit": "Player" } //Woodcutter's Weekly
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -325,7 +325,7 @@
 				"(O)459": { "AvailableStock": "5", "AvailableStockLimit": "Player" }, //Mead
 				"(O)303": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Pale Ale
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -334,7 +334,7 @@
 			"Fields": {
 				"(O)770": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Mixed Seeds
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -343,7 +343,7 @@
 			"Fields": {
 				"(O)688": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Warp Totem: Farm
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -352,7 +352,7 @@
 			"Fields": {
 				"(O)233": { "AvailableStock": "5", "AvailableStockLimit": "Player" } //Ice Cream
 			},
-			"When": { "Limited Shop Inventories": true }
+			"When": { "Limited Daily Supply": true }
 		},
 		//Quality of Life
 		{
@@ -412,7 +412,7 @@
 					"IgnoreShopPriceModifiers": true
 				} //Add Life Elixir (Limited)
 			},
-			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Shop Inventories": true }
+			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Daily Supply": true }
 		},
 		{
 			"Action": "EditData",
@@ -426,7 +426,7 @@
 					"IgnoreShopPriceModifiers": true
 				} //Add Life Elixir (Unlimited)
 			},
-			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Shop Inventories": false }
+			"When": { "Harvey's Clinic Sells Life Elixirs": true, "Limited Daily Supply": false }
 		}
 	]
 }
