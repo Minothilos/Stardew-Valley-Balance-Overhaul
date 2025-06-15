@@ -14,7 +14,7 @@
 				"252": { "Price": "225" }, //Rhubarb
 				"400": { "Price": "75" }, //Strawberry
 				"433": { "Price": "6" }, //Coffee Bean
-				"454": { "Price": "320" }, //Ancient Fruit
+				"454": { "Price": "300" }, //Ancient Fruit
 				"90": { "Price": "65" }, //Cactus Fruit
 				"Carrot": { "Price": "50" }, //Carrot
 				"258": { "Price": "30" }, //Blueberry
@@ -42,7 +42,7 @@
 				"Broccoli": { "Price": "65" }, //Broccoli
 				"815": { "Price": "45" }, //Tea Leaves
 				"Powdermelon": { "Price": "105" }, //Powdermelon
-				"417": { "Price": "2200" }, //Sweet Gem Berry
+				"417": { "Price": "2000" }, //Sweet Gem Berry
 				"271": { "Price": "80" }, //Unmilled Rice
 				"486": { "Price": "50" } //Starfruit Seeds
 			},
@@ -63,7 +63,7 @@
 				"453": { "Price": "40" }, //Poppy Seed
 				"455": { "Price": "40" }, //Summer Spangle Seed
 				"425": { "Price": "25" }, //Fairy Rose Seed
-				"431": { "Price": "100" } //Sunflower Seed
+				"431": { "Price": "90" } //Sunflower Seed
 			},
 			"When": { "Flowers": true }
 		},
@@ -80,7 +80,7 @@
 				"928": { "Price": "250" }, //Golden Egg
 				"184": { "Price": "75" }, //Milk
 				"436": { "Price": "150" }, //Goat Milk
-				"430": { "Price": "190" }, //Truffle
+				"430": { "Price": "220" }, //Truffle
 				"289": { "Price": "1000" }, //Ostrich Egg
 				"174": { "Price": "130" }, //Large Egg
 				"182": { "Price": "130" }, //Large Egg
@@ -95,7 +95,7 @@
 				"807": { "Price": "1600" }, //Dinosaur Mayonnaise
 				"424": { "Price": "150" }, //Cheese
 				"426": { "Price": "300" }, //Goat Cheese
-				"432": { "Price": "380" } //Truffle Oil
+				"432": { "Price": "440" } //Truffle Oil
 			},
 			"When": { "Animals": true }
 		},

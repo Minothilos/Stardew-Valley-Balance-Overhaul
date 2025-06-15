@@ -4,17 +4,17 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": { "Price": "140" },
-				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": { "Price": "1500" },
-				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": { "Price": "850" },
+				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": { "Price": "120" },
+				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": { "Price": "6200" },
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": { "Price": "400" },
 				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": { "Price": "40" },
 				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": { "Price": "90" },
-				"FlashShifter.StardewValleyExpandedCP_Void_Root": { "Price": "450" },
+				"FlashShifter.StardewValleyExpandedCP_Void_Root": { "Price": "240" },
 				"FlashShifter.StardewValleyExpandedCP_Joja_Berry": { "Price": "250" },
 				"FlashShifter.StardewValleyExpandedCP_Joja_Veggie": { "Price": "500" },
 				"FlashShifter.StardewValleyExpandedCP_Cucumber": { "Price": "25" },
-				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": { "Price": "125" },
-				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato": { "Price": "250" },
+				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": { "Price": "185" },
+				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato": { "Price": "220" },
 				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": { "Price": "750" }
 			},
 			"When": {
@@ -39,12 +39,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "290" },
-				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "1000" },
-				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "300" },
-				"FlashShifter.StardewValleyExpandedCP_Honey_Jar": { "Price": "500" },
-				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "630" },
-				"FlashShifter.StardewValleyExpandedCP_Yarn": { "Price": "600" },
+				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "330" },
+				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "2000" },
+				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "340" },
+				"FlashShifter.StardewValleyExpandedCP_Honey_Jar": { "Price": "310" },
+				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "660" },
+				"FlashShifter.StardewValleyExpandedCP_Yarn": { "Price": "680" },
 				"FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "100" }
 			},
 			"When": {
@@ -638,6 +638,24 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Void_Root", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Joja_Berry", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Joja_Veggie", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
 				"Crops": true
