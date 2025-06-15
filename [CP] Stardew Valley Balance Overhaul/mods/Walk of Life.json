@@ -1,6 +1,5 @@
 {
 	"Changes": [
-		// Walk of Life
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -10,6 +9,29 @@
 			},
 			"When": {
 				"Animals": true
+			}
+		},
+		//Offset Tapper Aging
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"724": { "Price": "225" }, //Maple Syrup
+				"725": { "Price": "190" }, //Oak Resin
+				"726": { "Price": "150" }, //Pine Tar
+			},
+			"When": {
+				"Miscellaneous Items": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { "Price": "115" },
+			},
+			"When": {
+				"Miscellaneous Items": true, "HasMod": "FlashShifter.StardewValleyExpandedCP"
 			}
 		},
 		{
