@@ -28,7 +28,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Pear": { "Price": "90" },
 				"FlashShifter.StardewValleyExpandedCP_Nectarine": { "Price": "100" },
 				"FlashShifter.StardewValleyExpandedCP_Persimmon": { "Price": "105" },
-				"FlashShifter.StardewValleyExpandedCP_Money_Bag": { "Price": "250" },
+				"FlashShifter.StardewValleyExpandedCP_Money_Bag": { "Price": "200" },
 				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" }
 			},
 			"When": {
