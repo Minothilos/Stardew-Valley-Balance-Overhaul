@@ -29,6 +29,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { "Price": "115" },
+				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { "Price": "265" }
 			},
 			"When": {
 				"Miscellaneous Items": true, "HasMod": "FlashShifter.StardewValleyExpandedCP"
