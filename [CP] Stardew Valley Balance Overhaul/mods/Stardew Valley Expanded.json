@@ -4,12 +4,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": { "Price": "45" },
-				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": { "Price": "275" },
-				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": { "Price": "175" },
-				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": { "Price": "20" },
-				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": { "Price": "45" },
-				"FlashShifter.StardewValleyExpandedCP_Void_Root": { "Price": "125" },
+				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": { "Price": "140" },
+				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": { "Price": "1500" },
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": { "Price": "850" },
+				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": { "Price": "40" },
+				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": { "Price": "90" },
+				"FlashShifter.StardewValleyExpandedCP_Void_Root": { "Price": "450" },
 				"FlashShifter.StardewValleyExpandedCP_Joja_Berry": { "Price": "250" },
 				"FlashShifter.StardewValleyExpandedCP_Joja_Veggie": { "Price": "500" },
 				"FlashShifter.StardewValleyExpandedCP_Cucumber": { "Price": "25" },
@@ -586,6 +586,61 @@
 			},
 			"When": {
 				"Limited Item Supply": true
+			}
+		},
+		//Stricter Seed Maker
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Ancient_Fiber", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Monster_Fruit", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Monster_Mushroom", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Salal_Berry", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Slime_Berry", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Void_Root", "ContextTags"],
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
 			}
 		},
 		{

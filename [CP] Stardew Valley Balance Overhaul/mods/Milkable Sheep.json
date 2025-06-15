@@ -11,6 +11,14 @@
 			"When": { "Animals": true }
 		},
 		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"428": { "Price": "550" } //Cloth
+			},
+			"When": { "Animals": true }
+		},
+		{
 			"Logname": "Modify sheep produce!!",
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",

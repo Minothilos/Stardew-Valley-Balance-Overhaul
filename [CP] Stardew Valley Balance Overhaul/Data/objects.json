@@ -14,7 +14,7 @@
 				"252": { "Price": "225" }, //Rhubarb
 				"400": { "Price": "75" }, //Strawberry
 				"433": { "Price": "6" }, //Coffee Bean
-				"454": { "Price": "175" }, //Ancient Fruit
+				"454": { "Price": "320" }, //Ancient Fruit
 				"90": { "Price": "65" }, //Cactus Fruit
 				"Carrot": { "Price": "50" }, //Carrot
 				"258": { "Price": "30" }, //Blueberry
@@ -74,38 +74,30 @@
 				"176": { "Price": "65" }, //Egg
 				"180": { "Price": "65" }, //Egg
 				"305": { "Price": "130" }, //Void Egg
-				"442": { "Price": "210" }, //Duck Egg
-				"440": { "Price": "320" }, //Wool
-				"107": { "Price": "600" }, //Dinosaur Egg
-				"928": { "Price": "300" }, //Golden Egg
+				"442": { "Price": "260" }, //Duck Egg
+				"440": { "Price": "460" }, //Wool 
+				"107": { "Price": "800" }, //Dinosaur Egg
+				"928": { "Price": "250" }, //Golden Egg
 				"184": { "Price": "75" }, //Milk
 				"436": { "Price": "150" }, //Goat Milk
 				"430": { "Price": "190" }, //Truffle
 				"289": { "Price": "1000" }, //Ostrich Egg
 				"174": { "Price": "130" }, //Large Egg
 				"182": { "Price": "130" }, //Large Egg
-				"444": { "Price": "475" }, //Duck Feather
-				"446": { "Price": "700" }, //Rabbit's Foot
+				"444": { "Price": "520" }, //Duck Feather
+				"446": { "Price": "920" }, //Rabbit's Foot
 				"186": { "Price": "150" }, //Large Milk
 				"438": { "Price": "300" }, //L. Goat Milk
 				"306": { "Price": "130" }, //Mayonnaise
 				"308": { "Price": "260" }, //Void Mayonnaise
-				"307": { "Price": "420" }, //Duck Mayonnaise
-				"428": { "Price": "640" }, //Cloth
-				"807": { "Price": "2000" }, //Dinosaur Mayonnaise
+				"307": { "Price": "520" }, //Duck Mayonnaise
+				"428": { "Price": "920" }, //Cloth
+				"807": { "Price": "1600" }, //Dinosaur Mayonnaise
 				"424": { "Price": "150" }, //Cheese
 				"426": { "Price": "300" }, //Goat Cheese
 				"432": { "Price": "380" } //Truffle Oil
 			},
 			"When": { "Animals": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"428": { "Price": "550" } //Cloth
-			},
-			"When": { "Animals": true, "HasMod|contains=radm.milkdasheep": true }
 		},
 		{
 			"Action": "EditData",

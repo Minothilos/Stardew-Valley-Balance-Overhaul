@@ -1954,15 +1954,24 @@
 			},
 			"When": { "Increased Seed Maker Output": "true" }
 		},
-		//Sweet Gem Berry Seedmaker Change
+		//Stricter Seed Maker
 		{
 			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)25", "OutputRules", "Default", "Triggers", "ItemPlacedInMachine", "RequiredTags"],
-			"Entries": {
-				"#-1": "!id_o_417"
-			},
-			"When": { "Crops": true }
+			"Target": "Data/Objects",
+			"TargetField": ["417", "ContextTags"], //Sweet Berry Gem
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["454", "ContextTags"], //Ancient Fruit
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
 		},
 		//Item Categories Fix
 		{
