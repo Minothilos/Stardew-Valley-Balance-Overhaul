@@ -4,14 +4,14 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Rafseazz.RSVCP_Cherry_Pluot": { "Price": "100" },
-				"Rafseazz.RSVCP_Highland_Jostaberry": { "Price": "100" },
-				"Rafseazz.RSVCP_Mountain_Plumcot": { "Price": "105" },
-				"Rafseazz.RSVCP_Northern_Limequat": { "Price": "95" },
-				"Rafseazz.RSVCP_Paradise_Rangpur": { "Price": "95" },
-				"Rafseazz.RSVCP_Tropi_Ugli_Fruit": { "Price": "90" },
-				"Rafseazz.RSVCP_Desert_Tangelo": { "Price": "100" },
-				"Rafseazz.RSVCP_Ember_Blood_Lime": { "Price": "105" }
+				"Rafseazz.RSVCP_Cherry_Pluot": { "Price": "120" },
+				"Rafseazz.RSVCP_Highland_Jostaberry": { "Price": "130" },
+				"Rafseazz.RSVCP_Mountain_Plumcot": { "Price": "130" },
+				"Rafseazz.RSVCP_Northern_Limequat": { "Price": "120" },
+				"Rafseazz.RSVCP_Paradise_Rangpur": { "Price": "120" },
+				"Rafseazz.RSVCP_Tropi_Ugli_Fruit": { "Price": "120" },
+				"Rafseazz.RSVCP_Desert_Tangelo": { "Price": "130" },
+				"Rafseazz.RSVCP_Ember_Blood_Lime": { "Price": "120" }
 			},
 			"When": {
 				"Fruit Trees": true
@@ -788,14 +788,14 @@
 			"Target": "Data/Shops",
 			"TargetField": ["RSVKimpoiShop", "Items"],
 			"Fields": {
-				"Rafseazz.RSVCP.KimpoiShopItem1": { "Price": "2200", "IgnoreShopPriceModifiers": true }, //Cherry Pluot
-				"Rafseazz.RSVCP.KimpoiShopItem2": { "Price": "2200", "IgnoreShopPriceModifiers": true }, //Highland Jostaberry
-				"Rafseazz.RSVCP.KimpoiShopItem3": { "Price": "2300", "IgnoreShopPriceModifiers": true }, //Mountain Plumcot
-				"Rafseazz.RSVCP.KimpoiShopItem4": { "Price": "2000", "IgnoreShopPriceModifiers": true }, //Northern Limequat
-				"Rafseazz.RSVCP.KimpoiShopItem5": { "Price": "2000", "IgnoreShopPriceModifiers": true }, //Paradise Rangpur
-				"Rafseazz.RSVCP.KimpoiShopItem6": { "Price": "1900", "IgnoreShopPriceModifiers": true }, //Tropi Ugli Fruit
-				"Rafseazz.RSVCP.KimpoiShopItem7": { "Price": "2200", "IgnoreShopPriceModifiers": true }, //Desert Tangelo
-				"Rafseazz.RSVCP.KimpoiShopItem8": { "Price": "2300", "IgnoreShopPriceModifiers": true } //Ember Blood Lime
+				"Rafseazz.RSVCP.KimpoiShopItem1": { "Price": "2500", "IgnoreShopPriceModifiers": true }, //Cherry Pluot
+				"Rafseazz.RSVCP.KimpoiShopItem2": { "Price": "3000", "IgnoreShopPriceModifiers": true }, //Highland Jostaberry
+				"Rafseazz.RSVCP.KimpoiShopItem3": { "Price": "3000", "IgnoreShopPriceModifiers": true }, //Mountain Plumcot
+				"Rafseazz.RSVCP.KimpoiShopItem4": { "Price": "2500", "IgnoreShopPriceModifiers": true }, //Northern Limequat
+				"Rafseazz.RSVCP.KimpoiShopItem5": { "Price": "2500", "IgnoreShopPriceModifiers": true }, //Paradise Rangpur
+				"Rafseazz.RSVCP.KimpoiShopItem6": { "Price": "2500", "IgnoreShopPriceModifiers": true }, //Tropi Ugli Fruit
+				"Rafseazz.RSVCP.KimpoiShopItem7": { "Price": "3000", "IgnoreShopPriceModifiers": true }, //Desert Tangelo
+				"Rafseazz.RSVCP.KimpoiShopItem8": { "Price": "2500", "IgnoreShopPriceModifiers": true } //Ember Blood Lime
 			},
 			"When": {
 				"Fruit Trees": true

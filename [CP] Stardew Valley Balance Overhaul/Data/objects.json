@@ -103,14 +103,14 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"634": { "Price": "105" }, //Apricot
-				"638": { "Price": "100" }, //Cherry
-				"91": { "Price": "105" }, //Banana
-				"834": { "Price": "100" }, //Mango
-				"635": { "Price": "90" }, //Orange
-				"636": { "Price": "95" }, //Peach
-				"613": { "Price": "95" }, //Apple
-				"637": { "Price": "100" }, //Pomegranate
+				"634": { "Price": "110" }, //Apricot
+				"638": { "Price": "110" }, //Cherry
+				"91": { "Price": "130" }, //Banana
+				"834": { "Price": "120" }, //Mango
+				"635": { "Price": "120" }, //Orange
+				"636": { "Price": "130" }, //Peach
+				"613": { "Price": "120" }, //Apple
+				"637": { "Price": "130" }, //Pomegranate
 				"629": { "Price": "575" }, //Apricot Sapling
 				"628": { "Price": "550" }, //Cherry Sapling
 				"69": { "Price": "600" }, //Banana Sapling

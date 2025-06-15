@@ -391,15 +391,15 @@
 			"TargetField": ["SeedShop", "Items"],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
-					"Price": "1900",
+					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
 				}, // Pear Sapling
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
-					"Price": "2200",
+					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
 				}, // Nectarine Sapling
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
-					"Price": "2300",
+					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
 				} // Persimmon Sapling
 			},
