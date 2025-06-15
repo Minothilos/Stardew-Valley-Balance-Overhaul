@@ -347,10 +347,10 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"395": { "Price": "110" }, //Coffee
-				"303": { "Price": "100" }, //Pale Ale
-				"346": { "Price": "180" }, //Beer
-				"614": { "Price": "150" }, //Green Tea
+				"395": { "Price": "140" }, //Coffee
+				"303": { "Price": "90" }, //Pale Ale
+				"346": { "Price": "160" }, //Beer
+				"614": { "Price": "200" }, //Green Tea
 				"245": { "Price": "30" }, //Sugar
 				"246": { "Price": "50" }, //Wheat Flour
 				"423": { "Price": "100" }, //Rice
