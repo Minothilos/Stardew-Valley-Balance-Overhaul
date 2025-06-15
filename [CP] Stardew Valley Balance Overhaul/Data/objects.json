@@ -5,42 +5,42 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"190": { "Price": "200" }, //Cauliflower
+				"190": { "Price": "190" }, //Cauliflower
 				"248": { "Price": "85" }, //Garlic
-				"188": { "Price": "60" }, //Green Bean
-				"250": { "Price": "125" }, //Kale
-				"24": { "Price": "60" }, //Parsnip
+				"188": { "Price": "65" }, //Green Bean
+				"250": { "Price": "130" }, //Kale
+				"24": { "Price": "65" }, //Parsnip
 				"192": { "Price": "95" }, //Potato
 				"252": { "Price": "225" }, //Rhubarb
-				"400": { "Price": "75" }, //Strawberry
+				"400": { "Price": "80" }, //Strawberry
 				"433": { "Price": "6" }, //Coffee Bean
 				"454": { "Price": "300" }, //Ancient Fruit
-				"90": { "Price": "65" }, //Cactus Fruit
-				"Carrot": { "Price": "50" }, //Carrot
+				"90": { "Price": "75" }, //Cactus Fruit
+				"Carrot": { "Price": "55" }, //Carrot
 				"258": { "Price": "30" }, //Blueberry
-				"270": { "Price": "70" }, //Corn
-				"304": { "Price": "20" }, //Hops
+				"270": { "Price": "65" }, //Corn
+				"304": { "Price": "25" }, //Hops
 				"260": { "Price": "40" }, //Hot Pepper
 				"254": { "Price": "190" }, //Melon
 				"264": { "Price": "100" }, //Radish
 				"266": { "Price": "195" }, //Red Cabbage
-				"268": { "Price": "230" }, //Starfruit
-				"256": { "Price": "65" }, //Tomato
-				"262": { "Price": "45" }, //Wheat
-				"830": { "Price": "120" }, //Taro Root
-				"832": { "Price": "170" }, //Pineapple
+				"268": { "Price": "220" }, //Starfruit
+				"256": { "Price": "70" }, //Tomato
+				"262": { "Price": "55" }, //Wheat
+				"830": { "Price": "130" }, //Taro Root
+				"832": { "Price": "185" }, //Pineapple
 				"SummerSquash": { "Price": "40" }, //Summer Squash
 				"300": { "Price": "140" }, //Amaranth
-				"274": { "Price": "125" }, //Artichoke
-				"284": { "Price": "90" }, //Beet
+				"274": { "Price": "120" }, //Artichoke
+				"284": { "Price": "95" }, //Beet
 				"278": { "Price": "95" }, //Bok Choy
 				"282": { "Price": "50" }, //Cranberries
 				"272": { "Price": "60" }, //Eggplant
-				"398": { "Price": "55" }, //Grape
-				"276": { "Price": "225" }, //Pumpkin
-				"280": { "Price": "165" }, //Yam
+				"398": { "Price": "65" }, //Grape
+				"276": { "Price": "220" }, //Pumpkin
+				"280": { "Price": "155" }, //Yam
 				"Broccoli": { "Price": "65" }, //Broccoli
-				"815": { "Price": "45" }, //Tea Leaves
+				"815": { "Price": "50" }, //Tea Leaves
 				"Powdermelon": { "Price": "105" }, //Powdermelon
 				"417": { "Price": "2000" }, //Sweet Gem Berry
 				"271": { "Price": "80" }, //Unmilled Rice
@@ -57,13 +57,13 @@
 				"376": { "Price": "140" }, //Poppy
 				"593": { "Price": "145" }, //Summer Spangle
 				"595": { "Price": "160" }, //Fairy Rose
-				"421": { "Price": "125" }, //Sunflower
+				"421": { "Price": "90" }, //Sunflower
 				"429": { "Price": "40" }, //Blue Jazz Seed
 				"427": { "Price": "35" }, //Tulip Seed
 				"453": { "Price": "40" }, //Poppy Seed
 				"455": { "Price": "40" }, //Summer Spangle Seed
 				"425": { "Price": "25" }, //Fairy Rose Seed
-				"431": { "Price": "90" } //Sunflower Seed
+				"431": { "Price": "20" } //Sunflower Seed
 			},
 			"When": { "Flowers": true }
 		},
