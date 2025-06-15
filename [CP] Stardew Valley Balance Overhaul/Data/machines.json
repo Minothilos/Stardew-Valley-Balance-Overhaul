@@ -1960,7 +1960,7 @@
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)25", "OutputRules", "Default", "Triggers", "ItemPlacedInMachine", "RequiredTags"],
 			"Entries": {
-				"#-1": "!id_o_417",
+				"#-1": "!id_o_417"
 			},
 			"When": { "Crops": true }
 		},
@@ -1968,7 +1968,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fix Fish Smoker
+			"TargetField": ["(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fish Smoker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -1980,7 +1980,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)BaitMaker", "OutputRules", "Default", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fix Bait Maker
+			"TargetField": ["(BC)BaitMaker", "OutputRules", "Default", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Bait Maker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
