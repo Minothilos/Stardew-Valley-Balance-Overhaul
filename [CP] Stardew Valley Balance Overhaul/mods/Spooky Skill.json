@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"moonslime.Spooky.strobberies": { "Price": "180" }, // Strobberies
+				"moonslime.Spooky.strobberies": { "Price": "185" }, // Strobberies
 				"moonslime.Spooky.candy_corn": { "Price": "100" }, // Candy Corn
 				"moonslime.Spooky.carrot_cake": { "Price": "325" } // Carrot Cake
 			},

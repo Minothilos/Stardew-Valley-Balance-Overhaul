@@ -65,55 +65,10 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth", "Triggers", "#0"],
-			"Entries": { "RequiredCount": "10" },
-			"When": {
-				"Crops": true,
-				"HasMod|contains=radm.milkdasheep": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth"],
-			"Entries": {
-				"InvalidCountMessage": "{{i18n: LoomInvalidCount_Cotton_10}}"
-			},
-			"When": {
-				"Crops": true,
-				"HasMod|contains=radm.milkdasheep": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth", "Triggers", "#0"],
-			"Entries": { "RequiredCount": "9" },
-			"When": {
-				"Crops": true,
-				"HasMod|contains=DaLion.Professions": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth"],
-			"Entries": {
-				"InvalidCountMessage": "{{i18n: LoomInvalidCount_Cotton_9}}"
-			},
-			"When": {
-				"Crops": true,
-				"HasMod|contains=DaLion.Professions": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth", "Triggers", "#0"],
 			"Entries": { "RequiredCount": "8" },
 			"When": {
 				"Crops": true,
-				"HasMod|contains=radm.milkdasheep": true,
-				"HasMod|contains=DaLion.Professions": true
+				"HasMod|contains=radm.milkdasheep": true
 			}
 		},
 		{
@@ -125,8 +80,7 @@
 			},
 			"When": {
 				"Crops": true,
-				"HasMod|contains=radm.milkdasheep": true,
-				"HasMod|contains=DaLion.Professions": true
+				"HasMod|contains=radm.milkdasheep": true
 			}
 		},
 		{

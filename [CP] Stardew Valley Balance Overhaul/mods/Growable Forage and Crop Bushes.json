@@ -23,8 +23,8 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"304": { "Price": "5" }, //Hops
-				"399": { "Price": "303" } //Pale Ale
+				"399": { "Price": "150" }, //Pale Ale
+				"302": { "Price": "750" } //Hops Planter
 			},
 			"When": {
 				"Crops": true

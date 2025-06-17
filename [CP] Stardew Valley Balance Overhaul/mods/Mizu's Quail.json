@@ -15,6 +15,24 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Mizu.Quail_QuailEgg", "ContextTags"], //Quail Eggs are egg items
+			"Entries": { "#-1": "item_egg" },
+			"When": {
+				"Animals": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Mizu.Quail_LargeQuailEgg", "ContextTags"], //Large Quail Eggs are large egg items
+			"Entries": { "#-1": "item_large_egg" },
+			"When": {
+				"Animals": true
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"Fields": {
 				"Mizu.Quail_PlumedQuail": {

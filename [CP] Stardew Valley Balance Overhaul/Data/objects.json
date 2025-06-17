@@ -48,6 +48,25 @@
 			},
 			"When": { "Crops": true }
 		},
+		//Stricter Seed Maker
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["417", "ContextTags"], //Sweet Berry Gem
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["454", "ContextTags"], //Ancient Fruit
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Crops": true
+			}
+		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -75,7 +94,7 @@
 				"180": { "Price": "65" }, //Egg
 				"305": { "Price": "130" }, //Void Egg
 				"442": { "Price": "260" }, //Duck Egg
-				"440": { "Price": "460" }, //Wool 
+				"440": { "Price": "460" }, //Wool
 				"107": { "Price": "800" }, //Dinosaur Egg
 				"928": { "Price": "250" }, //Golden Egg
 				"184": { "Price": "75" }, //Milk

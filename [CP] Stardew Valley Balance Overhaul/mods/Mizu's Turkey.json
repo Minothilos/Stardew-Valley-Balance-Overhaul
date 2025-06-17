@@ -15,6 +15,15 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Mizu.Turkey_TurkeyEgg", "ContextTags"], //Turkey Eggs Eggs are large egg items
+			"Entries": { "#-1": "item_large_egg" },
+			"When": {
+				"Animals": true
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"Fields": {
 				"Mizu.Turkey_BrownTurkey": {

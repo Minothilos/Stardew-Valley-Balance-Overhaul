@@ -4,9 +4,11 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"radm.milkdasheep_SheepMilk": { "Price": "200" }, //Sheep Milk
-				"radm.milkdasheep_LargeSheepMilk": { "Price": "400" }, //Large Sheep Milk
-				"radm.milkdasheep_SheepCheese": { "Price": "460" } //Sheep Cheese
+				"radm.milkdasheep_SheepMilk": { "Price": "150" }, //Sheep Milk
+				"radm.milkdasheep_LargeSheepMilk": { "Price": "300" }, //Large Sheep Milk
+				"radm.milkdasheep_SheepCheese": { "Price": "300" }, //Sheep Cheese
+				"428": { "Price": "620" }, //Cloth
+				"446": { "Price": "620" } //Rabbit's Foot
 			},
 			"When": { "Animals": true }
 		},
@@ -14,7 +16,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"428": { "Price": "550" } //Cloth
+				"428": { "Price": "620" } //Cloth
 			},
 			"When": { "Animals": true }
 		},
@@ -53,6 +55,17 @@
 							"ItemId": "radm.milkdasheep_LargeSheepMilk"
 						}
 					]
+				}
+			},
+			"When": { "Animals": true }
+		},
+		{
+			"Logname": "Rabbits produce faster",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+				"Rabbit": {
+					"DaysToProduce": 3
 				}
 			},
 			"When": { "Animals": true }

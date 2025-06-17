@@ -439,7 +439,7 @@
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
 				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
 			},
 			"When": { "Limited Seed Supply": true }
 		},
@@ -532,7 +532,7 @@
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Yam_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cranberry_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Fairy_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" }
 			},
 			"When": { "Limited Seed Supply": true }
 		},
@@ -812,7 +812,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"DaLion.Professions_OstrichMayo": { "Price": "2200" }, //Ostrich Mayonnaise
-				"DaLion.Professions_GoldenMayo": { "Price": "600" }, //Golden Mayonnaise
+				"DaLion.Professions_GoldenMayo": { "Price": "600" } //Golden Mayonnaise
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
@@ -828,7 +828,7 @@
 				"6480.blueegg_BlueEgg": { "Price": "135" }, //Blue Egg
 				"6480.blueegg_BlueMayo": { "Price": "300" }, //Blue Mayonnaise
 				"6480.blueegg_GoldenMayo": { "Price": "600" }, //Golden Mayonnaise
-				"6480.blueegg_OstrichMayo": { "Price": "2200" }, //Ostrich Mayonnaise
+				"6480.blueegg_OstrichMayo": { "Price": "2200" } //Ostrich Mayonnaise
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
@@ -1069,7 +1069,7 @@
 			"Entries": {
 				"CopyQuality": false
 			},
-			"When": { "Machine Processing": "Large Animal Products Only" }
+			"When": { "Machine Processing|contains=Off": "false", "HasMod|contains=DaLion.Professions": true }
 		},
 		//On with WoL
 		{

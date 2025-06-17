@@ -4,8 +4,8 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"DaLion.Professions_OstrichMayo": { "Price": "2200" }, // Slime Mayonnaise
-				"DaLion.Professions_GoldenMayo": { "Price": "600" } // Slime Cheese
+				"DaLion.Professions_OstrichMayo": { "Price": "2000" }, // Slime Mayonnaise
+				"DaLion.Professions_GoldenMayo": { "Price": "500" } // Slime Cheese
 			},
 			"When": {
 				"Animals": true
@@ -18,7 +18,7 @@
 			"Fields": {
 				"724": { "Price": "225" }, //Maple Syrup
 				"725": { "Price": "190" }, //Oak Resin
-				"726": { "Price": "150" }, //Pine Tar
+				"726": { "Price": "150" } //Pine Tar
 			},
 			"When": {
 				"Miscellaneous Items": true
@@ -32,7 +32,8 @@
 				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { "Price": "265" }
 			},
 			"When": {
-				"Miscellaneous Items": true, "HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"Miscellaneous Items": true,
+				"HasMod": "FlashShifter.StardewValleyExpandedCP"
 			}
 		},
 		{
@@ -81,6 +82,6 @@
 			"When": {
 				"Mines": true
 			}
-		},
+		}
 	]
 }

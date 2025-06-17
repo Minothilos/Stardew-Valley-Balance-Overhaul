@@ -363,7 +363,7 @@
 				"(O)802": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Cactus Seeds
 				"(O)478": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Rhubarb Seeds
 				"(O)486": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Starfruit Seeds
-				"(O)494": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Beet Seeds
+				"(O)494": { "AvailableStock": "50", "AvailableStockLimit": "Player" } //Beet Seeds
 			},
 			"When": { "Limited Seed Supply": true }
 		},
@@ -372,7 +372,7 @@
 			"Target": "Data/Shops",
 			"TargetField": ["Festival_EggFestival_Pierre", "Items"],
 			"Fields": {
-				"(O)745": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Strawberry Seeds
+				"(O)745": { "AvailableStock": "25", "AvailableStockLimit": "Player" } //Strawberry Seeds
 			},
 			"When": { "Limited Seed Supply": true }
 		},
@@ -394,8 +394,8 @@
 				"(O)480": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Tomato Seeds
 				"(O)481": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Blueberry Seeds
 				"(O)482": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Pepper Seeds
-				"WheatSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Summer
-				"WheatSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Fall
+				"WheatSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seeds Summer
+				"WheatSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seeds Fall
 				"(O)484": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Radish Seeds
 				"(O)453": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Poppy Seeds
 				"(O)455": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Spangle Seeds
@@ -413,7 +413,7 @@
 				"(O)425": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Fairy Seeds
 				"(O)299": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Amaranth Seeds
 				"(O)301": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Grape Starter
-				"(O)489": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Artichoke Seeds
+				"(O)489": { "AvailableStock": "50", "AvailableStockLimit": "Player" } //Artichoke Seeds
 			},
 			"When": { "Limited Seed Supply": true }
 		},
@@ -453,7 +453,7 @@
 				"(O)425": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Fairy Seeds
 				"(O)299": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Amaranth Seeds
 				"(O)301": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Grape Starter
-				"(O)489": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Artichoke Seeds
+				"(O)489": { "AvailableStock": "50", "AvailableStockLimit": "Player" } //Artichoke Seeds
 			},
 			"When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false, "Limited Seed Supply": true }
 		},
