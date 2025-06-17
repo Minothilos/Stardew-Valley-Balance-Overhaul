@@ -16,6 +16,100 @@
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": { "Price": "15" } //Winter Root Seeds
 			},
 			"When": { "Forage": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"ZoeyHoshi.ForageCrops_DaffodilSeeds": null,
+				"ZoeyHoshi.ForageCrops_DandelionSeeds": null,
+				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": null,
+				"ZoeyHoshi.ForageCrops_LeekSeeds": null,
+				"ZoeyHoshi.ForageCrops_SnowYamSeeds": null,
+				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Fields": {
+				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
+				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"ZoeyHoshi.ForageCrops_DaffodilSeeds": null,
+				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": null,
+				"ZoeyHoshi.ForageCrops_LeekSeeds": null,
+				"ZoeyHoshi.ForageCrops_SnowYamSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["FishShop", "Items"],
+			"Entries": {
+				"ZoeyHoshi.ForageCrops_SeaweedSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["AnimalShop", "Items"],
+			"Entries": {
+				"ZoeyHoshi.ForageCrops_CaveCarrotSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Dwarf", "Items"],
+			"Entries": {
+				"ZoeyHoshi.ForageCrops_WinterRootSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Dwarf", "Items"],
+			"Fields": {
+				"ZoeyHoshi.ForageCrops_RedMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
+				"ZoeyHoshi.ForageCrops_PurpleMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Festival_NightMarket_MagicBoat_Day1", "Items"],
+			"Entries": {
+				"ZoeyHoshi.ForageCrops_DaffodilSeeds": null,
+				"ZoeyHoshi.ForageCrops_DandelionSeeds": null,
+				"ZoeyHoshi.ForageCrops_LeekSeeds": null,
+				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Festival_NightMarket_MagicBoat_Day2", "Items"],
+			"Entries": {
+				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
 		}
 	]
 }

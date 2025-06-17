@@ -715,13 +715,26 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"303": { "Price": "110" }, //Pale Ale
+				"303": { "Price": "100" }, //Pale Ale
 				"346": { "Price": "200" } //Beer
 			},
 
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
 				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"303": { "Price": "180" } //Pale Ale
+			},
+
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5407917": true,
+				"Crops": true,
+				"HasMod|contains=Cornucopia.GrowableForage": true
 			}
 		},
 		{

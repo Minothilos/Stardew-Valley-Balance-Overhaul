@@ -110,9 +110,7 @@
 				}
 			},
 
-			"MoveEntries": [
-				{ "Id": "minothilos.morningglory", "BeforeId": "GrassStarter" }
-			],
+			"MoveEntries": [{ "Id": "minothilos.morningglory", "BeforeId": "GrassStarter" }],
 			"When": {
 				"Remove Seeds from Shops": false,
 				"Flowers": true
@@ -322,6 +320,1052 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Flowers": true
+			}
+		},
+		//Limited Seed Supply
+		//Add regrow context tag to regrowable flowers - Essential Flowers
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_MorningGlorySeeds", "ContextTags"], //Regrow Seeds
+			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		//Add regrow context tag to regrowable flowers - Extended Flowers
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseSpringSeeds", "ContextTags"], //Regrow Seeds
+			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseSummerSeeds", "ContextTags"], //Regrow Seeds
+			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseFallSeeds", "ContextTags"], //Regrow Seeds
+			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["Cornucopia_RoseWinterSeeds", "ContextTags"], //Regrow Seeds
+			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Limited Seed Supply": true
+			}
+		},
+		//Nullify existing Cornucopia pierre shop entries
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsSpringCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsSummerCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsFallCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsWinterCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsSpringRare": null,
+				"Cornucopia.MoreFlowers_CropSeedsSummerRare": null,
+				"Cornucopia.MoreFlowers_CropSeedsFallRare": null,
+				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null,
+				"Cornucopia.MoreFlowers_BushSeeds": null
+				//"Cornucopia.MoreFlowers_FruitTreeSaplings": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		//Add seeds back in limited quantity Pierre
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSpringCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSpringCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsSpringCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSpringCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSpringCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSpringCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSummerCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSummerCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsSummerCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSummerCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSummerCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSummerCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsFallCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsFallCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsFallCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsFallCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsFallCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsFallCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsWinterCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsWinterCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsWinterCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsWinterCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsWinterCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsWinterCommon",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSpringRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSpringRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsSpringRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSpringRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSpringRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSpringRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSummerRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSummerRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsSummerRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSummerRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSummerRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSummerRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsFallRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsFallRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsFallRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsFallRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsFallRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsFallRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsWinterRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsWinterRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_CropSeedsWinterRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsWinterRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsWinterRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsWinterRare",
+					"BeforeId": "GrassStarter"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_BushSeeds": {
+					"Id": "minothilos.MoreFlowers_BushSeeds",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
+					"AvailableStock": 10,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreFlowers_BushSeeds",
+					"BeforeId": "(O)628"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.morningglory": {
+					"Id": "minothilos.morningglory",
+					"ItemId": "Cornucopia_MorningGlorySeeds",
+					"Condition": "SEASON Spring",
+					"Price": "240",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+
+			"MoveEntries": [{ "Id": "minothilos.morningglory", "BeforeId": "GrassStarter" }],
+			"When": {
+				"Flowers": true,
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"minothilos.rosespring": {
+					"Id": "minothilos.rosespring",
+					"ItemId": "Cornucopia_RoseSpringSeeds",
+					"Condition": "SEASON Spring, YEAR 2",
+					"Price": "310",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosesummer": {
+					"Id": "minothilos.rosesummer",
+					"ItemId": "Cornucopia_RoseSummerSeeds",
+					"Condition": "SEASON Summer, YEAR 2",
+					"Price": "300",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.clematis": {
+					"Id": "minothilos.clematis",
+					"ItemId": "Cornucopia_ClematisSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "90",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosefall": {
+					"Id": "minothilos.rosefall",
+					"ItemId": "Cornucopia_RoseFallSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "280",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosewinter": {
+					"Id": "minothilos.rosewinter",
+					"ItemId": "Cornucopia_RoseWinterSeeds",
+					"Condition": "SEASON Winter, YEAR 2",
+					"Price": "340",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+
+			"MoveEntries": [
+				{ "Id": "minothilos.rosespring", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.rosesummer", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.clematis", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.rosefall", "BeforeId": "GrassStarter" },
+				{ "Id": "minothilos.rosewinter", "BeforeId": "GrassStarter" }
+			],
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true,
+				"Limited Seed Supply": true
+			}
+		},
+		//Add seeds back in limited quantity Joja
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSpringCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSpringCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSpringCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSpringCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSummerCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSummerCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSummerCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSummerCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsFallCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsFallCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsFallCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsFallCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsWinterCommon": {
+					"Id": "minothilos.MoreFlowers_CropSeedsWinterCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsWinterCommon": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsWinterCommon",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 1 1",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSpringRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSpringRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSpringRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSpringRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON spring, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsSummerRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsSummerRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsSummerRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsSummerRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON summer, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsFallRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsFallRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsFallRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsFallRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON fall, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_CropSeedsWinterRare": {
+					"Id": "minothilos.MoreFlowers_CropSeedsWinterRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 50,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_RegrowCropSeedsWinterRare": {
+					"Id": "minothilos.MoreFlowers_RegrowCropSeedsWinterRare",
+					"ItemId": "ALL_ITEMS (O)",
+					"Condition": "SEASON winter, YEAR 2",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
+					"AvoidRepeat": true,
+					"AvailableStock": 25,
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.morningglory": {
+					"Id": "minothilos.morningglory",
+					"ItemId": "Cornucopia_MorningGlorySeeds",
+					"Condition": "SEASON Spring",
+					"Price": "240",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Flowers": true,
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.rosespring": {
+					"Id": "minothilos.rosespring",
+					"ItemId": "Cornucopia_RoseSpringSeeds",
+					"Condition": "SEASON Spring, YEAR 2",
+					"Price": "310",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosesummer": {
+					"Id": "minothilos.rosesummer",
+					"ItemId": "Cornucopia_RoseSummerSeeds",
+					"Condition": "SEASON Summer, YEAR 2",
+					"Price": "300",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.clematis": {
+					"Id": "minothilos.clematis",
+					"ItemId": "Cornucopia_ClematisSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "90",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosefall": {
+					"Id": "minothilos.rosefall",
+					"ItemId": "Cornucopia_RoseFallSeeds",
+					"Condition": "SEASON Fall, YEAR 2",
+					"Price": "280",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				},
+				"minothilos.rosewinter": {
+					"Id": "minothilos.rosewinter",
+					"ItemId": "Cornucopia_RoseWinterSeeds",
+					"Condition": "SEASON Winter, YEAR 2",
+					"Price": "340",
+					"AvailableStock": 25,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
+				"Flowers": true,
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"minothilos.MoreFlowers_BushSeeds": {
+					"Id": "minothilos.MoreFlowers_BushSeeds",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
+					"AvailableStock": 10,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		//Limited Seed Supply Sandy
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Sandy", "Items"],
+			"Fields": {
+				"Cornucopia_LotusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Sandy", "Items"],
+			"Fields": {
+				"Cornucopia_CalicoRoseSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
+				"Cornucopia_FairyDusterSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+			},
+			"When": {
+				"Limited Seed Supply": true,
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
+			}
+		},
+		//Limited Seed Supply Marnies
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["AnimalShop", "Items"],
+			"Fields": {
+				"Cornucopia_PinkCatSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["AnimalShop", "Items"],
+			"Fields": {
+				"Cornucopia_BeeBalmSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_ButtercupSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_HoneysuckleSeeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
+				"Cornucopia_WolfsbaneSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+			},
+			"When": {
+				"Limited Seed Supply": true,
+				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
 			}
 		}
 	]

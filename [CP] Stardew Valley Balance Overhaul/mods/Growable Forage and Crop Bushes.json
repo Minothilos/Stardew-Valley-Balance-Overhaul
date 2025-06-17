@@ -29,32 +29,70 @@
 			"When": {
 				"Crops": true
 			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Fields": {
+				"(O)302": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
+				"(O)301": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Starter
+				"(O)481": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Blueberry Planter
+				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },*/
+				"Cornucopia_HollySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
+				"Cornucopia_BlackberrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
+				"Cornucopia_SalmonberrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["SeedShop", "Items"],
+			"Entries": {
+				"Cornucopia_SpringOnionSeeds": null,
+				"Cornucopia_SweetPeaSeeds": null,
+				"Cornucopia_CrocusSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Fields": {
+				"(O)302": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
+				"(O)301": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Starter
+				"(O)481": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Blueberry Planter
+				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }*/
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"Cornucopia_SpringOnionSeeds": null,
+				"Cornucopia_SweetPeaSeeds": null,
+				"Cornucopia_CrocusSeeds": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Dwarf", "Items"],
+			"Fields": {
+				"Cornucopia_CommonMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
+				"Cornucopia_ChanterelleSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
+				"Cornucopia_MorelSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+			},
+			"When": { "Limited Seed Supply": true }
 		}
-		/*    {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [ "Dwarf", "Items" ],
-            "Entries": {
-                "Cornucopia_CommonMushroomSeeds": { "Price": 600 },
-                "Cornucopia_ChanterelleSeeds": { "Price": 1000 },
-                "Cornucopia_MorelSeeds": { "Price": 1000 }
-            },
-            "When": {
-                "Forage": true
-            }
-        },
-        {
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [ "SeedShop", "Items" ],
-            "Entries": {
-                "Cornucopia_HollySeeds": { "Price": 500 },
-                "Cornucopia_SalmonberrySeeds": { "Price": 600 },
-                "Cornucopia_MorelSeeds": { "Price": 750 }
-            },
-            "When": {
-                "Forage": true
-            }
-        }*/
 	]
 }
