@@ -677,7 +677,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedNutCheese", "OutputItem", "#0"], //Cask - Nut Cheese
-			"Entries": { "CustomData": { "AgingMultiplier": "1.55" } },
+			"Entries": { "CustomData": { "AgingMultiplier": "1.4" } },
 			"When": {
 				"Cask Aging": "true"
 			}
@@ -686,7 +686,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedSmokedCheese", "OutputItem", "#0"], //Cask - Smoked Cheese
-			"Entries": { "CustomData": { "AgingMultiplier": "1.55" } },
+			"Entries": { "CustomData": { "AgingMultiplier": "1.4" } },
 			"When": {
 				"Cask Aging": "true"
 			}

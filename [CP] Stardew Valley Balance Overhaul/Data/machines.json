@@ -86,13 +86,26 @@
 			"Entries": { "Amount": "1200" },
 			"When": { "Mines": true }
 		},
-		//Processing Time
+		//Flavored mead takes longer
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)12", "OutputRules", "Default_Honey"], //Keg - Mead Processing Time with Flavored Meads
 			"Entries": { "MinutesUntilReady": "6000" },
 			"When": { "Miscellaneous Items": true, "HasMod|contains=selph.FlavoredMead": true }
+		},
+		//Flavored mead smaller multiplier
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)12", "OutputRules", "Default_Honey", "OutputItem", "(O)459"],
+			"Entries": {
+				"PriceModifiers": [
+					{ "Modification": "Multiply", "Amount": 1.5 },
+					{ "Modification": "Add", "Amount": 75 }
+				]
+			},
+			"When": { "Flowers": true }
 		},
 		// Cask aging multiplier
 		{
@@ -145,7 +158,7 @@
 			"TargetField": ["(BC)163", "OutputRules", "Mead", "OutputItem", "#0"], //Cask - Mead with Flavored Mead
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "1.33"
+					"AgingMultiplier": "1.166"
 				}
 			},
 			"When": { "Miscellaneous Items": true, "Cask Aging": "true", "HasMod|contains=selph.FlavoredMead": true }
@@ -156,7 +169,7 @@
 			"TargetField": ["(BC)163", "OutputRules", "PaleAle", "OutputItem", "#0"], //Cask - Pale Ale
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "4"
+					"AgingMultiplier": "5.7"
 				}
 			},
 			"When": { "Crops": true, "Cask Aging": "true" }
