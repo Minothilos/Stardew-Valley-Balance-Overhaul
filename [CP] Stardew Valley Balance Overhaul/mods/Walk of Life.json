@@ -4,8 +4,8 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"DaLion.Professions_OstrichMayo": { "Price": "2000" }, // Slime Mayonnaise
-				"DaLion.Professions_GoldenMayo": { "Price": "500" } // Slime Cheese
+				"DaLion.Professions_OstrichMayo": { "Price": "2000" }, // Ostrich Mayonnaise
+				"DaLion.Professions_GoldenMayo": { "Price": "500" } // Golden Mayonnaise
 			},
 			"When": {
 				"Animals": true
