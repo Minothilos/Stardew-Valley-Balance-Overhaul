@@ -6,7 +6,7 @@
 			"Fields": {
 				"6480.blueegg_BlueEgg": { "Price": "130" }, //Blue Egg
 				"6480.blueegg_BlueMayo": { "Price": "260" }, //Blue Mayonnaise
-				"6480.blueegg_GoldenMayo": { "Price": "500" }, //Golden Mayonnaise
+				"6480.blueegg_GoldenMayo": { "Price": "600" }, //Golden Mayonnaise
 				"6480.blueegg_OstrichMayo": { "Price": "2000" } //Ostrich Mayo
 			},
 			"When": { "Animals": true }

@@ -365,6 +365,13 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "mods/SVE Forage Crops.json",
+			"When": {
+				"HasMod": "ZoeyHoshi.SVEForageCrops"
+			}
+		},
+		{
+			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
 				"Minothilos Tweaks": true

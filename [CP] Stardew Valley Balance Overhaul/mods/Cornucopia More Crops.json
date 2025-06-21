@@ -13,7 +13,7 @@
 				"Cornucopia_Lettuce": { "Price": "80" }, //Lettuce
 				"Cornucopia_CottonBoll": { "Price": "25" }, //Cotton Boll
 				"Cornucopia_BellPepper": { "Price": "65" }, //Bell Pepper
-				"Cornucopia_Sugarcane": { "Price": "60" }, //Sugarcane
+				"Cornucopia_Sugarcane": { "Price": "70" }, //Sugarcane
 				"Cornucopia_Watermelon": { "Price": "250" }, //Watermelon
 				"Cornucopia_Peanut": { "Price": "60" }, //Peanut
 				"Cornucopia_Soybeans": { "Price": "65" }, //Soybeans
@@ -122,13 +122,13 @@
 				"Cornucopia_AdzukiBean": { "Price": "60" }, // Adzuki Bean
 				"Cornucopia_BlueAgave": { "Price": "210" }, // Blue Agave
 				"Cornucopia_ButternutSquash": { "Price": "120" }, // Butternut Squash
-				"Cornucopia_Cassava": { "Price": "130" }, // Cassava
+				"Cornucopia_Cassava": { "Price": "95" }, // Cassava
 				"Cornucopia_Chickpea": { "Price": "50" }, // Chickpea
 				"Cornucopia_GreenPeas": { "Price": "20" }, // Green Peas
-				"Cornucopia_Groundcherries": { "Price": "30" }, // Groundcherries
+				"Cornucopia_Groundcherries": { "Price": "25" }, // Groundcherries
 				"Cornucopia_Honeydew": { "Price": "190" }, // Honeydew
 				"Cornucopia_NavyBeans": { "Price": "30" }, // Navy Beans
-				"Cornucopia_Okra": { "Price": "40" }, // Okra
+				"Cornucopia_Okra": { "Price": "35" }, // Okra
 				"Cornucopia_Quinoa": { "Price": "70" }, // Quinoa
 				"Cornucopia_WasabiRoot": { "Price": "165" }, // Wasabi Root
 				"Cornucopia_Barley": { "Price": "45" }, // Barley
@@ -137,7 +137,7 @@
 				"Cornucopia_Daikon": { "Price": "155" }, // Daikon
 				"Cornucopia_Durum": { "Price": "60" }, // Durum
 				"Cornucopia_Habanero": { "Price": "100" }, // Habanero
-				"Cornucopia_KidneyBeans": { "Price": "55" }, // Kidney Beans
+				"Cornucopia_KidneyBeans": { "Price": "50" }, // Kidney Beans
 				"Cornucopia_Oats": { "Price": "60" }, // Oats
 				"Cornucopia_SweetPotato": { "Price": "155" }, // Sweet Potato
 				"Cornucopia_Vanilla": { "Price": "100" }, // Vanilla
@@ -161,7 +161,7 @@
 				"Cornucopia_GreenPeasSeeds": { "Price": "10" }, // Green Peas Seeds
 				"Cornucopia_GroundcherriesSeeds": { "Price": "10" }, // Groundcherries Seeds
 				"Cornucopia_NavyBeansSeeds": { "Price": "10" }, // Navy Beans Seeds
-				"Cornucopia_OkraSeeds": { "Price": "20" }, // OkraSeeds
+				"Cornucopia_OkraSeeds": { "Price": "15" }, // OkraSeeds
 				"Cornucopia_BlackBeansSeeds": { "Price": "10" }, // BlackBeansSeeds
 				"Cornucopia_KidneyBeansSeeds": { "Price": "20" }, // Kidney Beans Seeds
 				"Cornucopia_DurumSeeds": { "Price": "10" }, // Durum Seeds
@@ -455,7 +455,7 @@
 					"Id": "minothilos.okra",
 					"ItemId": "Cornucopia_OkraSeeds",
 					"Condition": "SEASON Summer Fall, YEAR 2",
-					"Price": "160",
+					"Price": "180",
 					"IgnoreShopPriceModifiers": true
 				},
 				"minothilos.blackbeans": {
@@ -559,7 +559,7 @@
 					"Id": "minothilos.okra",
 					"ItemId": "Cornucopia_OkraSeeds",
 					"Condition": "SEASON Summer Fall, YEAR 2",
-					"Price": "160",
+					"Price": "180",
 					"IgnoreShopPriceModifiers": true
 				},
 				"minothilos.blackbeans": {
@@ -1532,7 +1532,7 @@
 					"Id": "minothilos.okra",
 					"ItemId": "Cornucopia_OkraSeeds",
 					"Condition": "SEASON Summer Fall, YEAR 2",
-					"Price": "160",
+					"Price": "180",
 					"AvailableStock": 25,
 					"IgnoreShopPriceModifiers": true
 				},
@@ -2009,7 +2009,7 @@
 					"Id": "minothilos.okra",
 					"ItemId": "Cornucopia_OkraSeeds",
 					"Condition": "SEASON Summer Fall, YEAR 2",
-					"Price": "160",
+					"Price": "180",
 					"AvailableStock": 25,
 					"IgnoreShopPriceModifiers": true
 				},

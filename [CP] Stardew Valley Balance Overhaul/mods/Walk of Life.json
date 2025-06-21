@@ -4,8 +4,13 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
+<<<<<<< Updated upstream
 				"DaLion.Professions_OstrichMayo": { "Price": "2000" }, // Ostrich Mayonnaise
 				"DaLion.Professions_GoldenMayo": { "Price": "500" } // Golden Mayonnaise
+=======
+				"DaLion.Professions_OstrichMayo": { "Price": "2000" }, // Ostrich Mayo
+				"DaLion.Professions_GoldenMayo": { "Price": "600" } // Golden Mayo
+>>>>>>> Stashed changes
 			},
 			"When": {
 				"Animals": true

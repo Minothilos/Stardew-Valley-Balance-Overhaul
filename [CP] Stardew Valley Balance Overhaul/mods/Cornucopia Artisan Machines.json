@@ -535,6 +535,39 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
+			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChicken", "OutputItem", "#0"], //Preserve Jar - Pickled Chicken eggs, smaller multiplier
+			"Entries": {
+				"PriceModifiers": [
+					{ "Modification": "Multiply", "Amount": 2.5 },
+					{ "Modification": "Add", "Amount": 50 }
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChickenLarge", "OutputItem", "#0"], //Preserve Jar - Pickled Large Chicken eggs, smaller multiplier
+			"Entries": {
+				"PriceModifiers": [
+					{ "Modification": "Multiply", "Amount": 2.5 },
+					{ "Modification": "Add", "Amount": 50 }
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggs", "OutputItem", "#0"], //Preserve Jar - Pickled eggs, smaller multiplier
+			"Entries": {
+				"PriceModifiers": [
+					{ "Modification": "Multiply", "Amount": 2.5 },
+					{ "Modification": "Add", "Amount": 50 }
+				]
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
 			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_Candles", "OutputItem", "#0"], //Wax Barrel - Candles, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
@@ -660,6 +693,67 @@
 			"When": {
 				"Machine Processing|contains=Off": "false",
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Priority": "Late +1",
+			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers"],
+			"Entries": {
+				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
+					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+					"RequiredCount": 3
+				}
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Priority": "Late +1",
+			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers"],
+			"Entries": {
+				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
+					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+					"RequiredCount": 3
+				}
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Priority": "Late +1",
+			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers", "#1"],
+			"Entries": {
+				"RequiredCount": 3
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"Priority": "Late +1",
+			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers"],
+			"Entries": {
+				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
+					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
+					"RequiredCount": 3
+				}
+			},
+			"When": {
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
 		//Cask Aging Multiplier
@@ -2437,7 +2531,7 @@
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChickenLarge", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Chicken Large
 			"Entries": {
-				"MinStack": "2",
+				"MinStack": "1",
 				"Quality": "0",
 				"StackModifiers": [
 					{
@@ -2481,7 +2575,7 @@
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChickenLarge", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Chicken Large, Large Animal Products Make 2
 			"Entries": { "MinStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only" }
+			"When": { "Machine Processing": "Large Animal Products Only", "HasMod|contains=DaLion.Professions": false }
 		},
 		{
 			"Action": "EditData",
@@ -5281,7 +5375,7 @@
 			"TargetField": ["(BC)Cornucopia_DeluxeSmoker", "OutputRules"], //Deluxe Smoker - Remove Smoked Gold and Ostrich
 			"Entries": {
 				"Cornucopia_SmokedEggOstrich": null,
-				"Cornucopia_PickledEggsOstrich": null
+				"Cornucopia_SmokedEggsOstrich": null
 			},
 			"When": { "Machine Processing|contains=Off": "false" }
 		},

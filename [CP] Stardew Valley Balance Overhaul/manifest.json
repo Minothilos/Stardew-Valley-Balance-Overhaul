@@ -4,7 +4,7 @@
 	"Version": "3.0",
 	"Description": "Rebalances just about everything.",
 	"UniqueID": "Theoddon.BalanceOverhaul",
-	"UpdateKeys": [ "Nexus:13426" ],
+	"UpdateKeys": ["Nexus:13426"],
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"Dependencies": [
 		{
@@ -93,6 +93,10 @@
 		},
 		{
 			"UniqueID": "Cornucopia.GrowableForage",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "ZoeyHoshi.SVEForageCrops",
 			"IsRequired": false
 		}
 	]
