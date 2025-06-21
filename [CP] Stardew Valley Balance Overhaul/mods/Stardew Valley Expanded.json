@@ -588,6 +588,61 @@
 				"Limited Item Supply": true
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_YellowJunimoVendor", "Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Ancient_Seeds": {
+					"AvailableStock": "1"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Rare_Seed": {
+					"AvailableStock": "1"
+				}
+			},
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_YellowJunimoVendor", "Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_BlueGrassStarter": {
+					"AvailableStock": "5"
+				}
+			},
+			"When": {
+				"Limited Item Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_ZoeyVendor", "Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Rare_Seed": {
+					"AvailableStock": "1"
+				}
+			},
+			"When": {
+				"Crops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["FlashShifter.StardewValleyExpandedCP_ZoeyVendor", "Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_BlueGrassStarter": {
+					"AvailableStock": "5"
+				}
+			},
+			"When": {
+				"Limited Item Supply": true
+			}
+		},
 		//Stricter Seed Maker
 		{
 			"Action": "EditData",
