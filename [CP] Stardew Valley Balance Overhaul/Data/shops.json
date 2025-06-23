@@ -429,11 +429,8 @@
 				"(O)427": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Tulip Bulb
 				"(O)477": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Kale Seeds
 				"(O)429": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Jazz Seeds
-				"(O)476": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Garlic Seeds
-				"(O)273": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Rice Shoot
 				"(O)479": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Melon Seeds
 				"(O)480": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Tomato Seeds
-				"(O)481": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Blueberry Seeds
 				"(O)482": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Pepper Seeds
 				"WheatSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Summer
 				"WheatSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Wheat Seats Fall
@@ -444,7 +441,6 @@
 				"(O)487": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Corn Seeds
 				"SunflowerSeeds_Summer": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Sunflower Seeds Summer
 				"SunflowerSeeds_Fall": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Sunflower Seeds Fall
-				"(O)485": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Red Cabbage Seeds
 				"(O)488": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Eggplant Seeds
 				"(O)490": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Pumpkin Seeds
 				"(O)491": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Bok Choy Seeds
@@ -452,8 +448,7 @@
 				"(O)493": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Cranberry Seeds
 				"(O)425": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Fairy Seeds
 				"(O)299": { "AvailableStock": "50", "AvailableStockLimit": "Player" }, //Amaranth Seeds
-				"(O)301": { "AvailableStock": "25", "AvailableStockLimit": "Player" }, //Grape Starter
-				"(O)489": { "AvailableStock": "50", "AvailableStockLimit": "Player" } //Artichoke Seeds
+				"(O)301": { "AvailableStock": "25", "AvailableStockLimit": "Player" } //Grape Starter
 			},
 			"When": { "HasMod|contains=FlashShifter.StardewValleyExpandedCP": false, "Limited Seed Supply": true }
 		},

@@ -40,7 +40,7 @@
 			"TargetField": ["AdventureShop", "Items"],
 			"Fields": {
 				"ZoeyHoshi.SVEForageCrops_MegaPurpleMushroomSeeds": { "Price": "12000" },
-				"ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": { "Price": "6000" }
+				"(BC)ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": { "Price": "6000" }
 			},
 			"When": { "Miscellaneous Items": true }
 		},
@@ -51,7 +51,7 @@
 			"Fields": {
 				"ZoeyHoshi.SVEForageCrops_DewdropBerrySeeds": { "TradeItemAmount": "10" }
 			},
-			"When": { "Forage": true }
+			"When": { "Forage": true, "HasVisitedLocation": "Custom_EnchantedGrove" }
 		},
 		{
 			"Action": "EditData",

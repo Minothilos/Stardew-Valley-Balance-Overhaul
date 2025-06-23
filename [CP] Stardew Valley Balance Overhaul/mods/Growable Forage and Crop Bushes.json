@@ -8,7 +8,16 @@
 				"Cornucopia_SpringOnionSeeds": { "Price": "5" }, //Spring Onion Seeds
 				"399": { "Price": "10" }, //Spring Onion
 				"Cornucopia_CrocusSeeds": { "Price": "10" }, //Crocus Seeds
-				"Cornucopia_SweetPeaSeeds": { "Price": "5" }, //Sweet Pea Seeds
+				"Cornucopia_SweetPeaSeeds": { "Price": "5" } //Sweet Pea Seeds
+			},
+			"When": {
+				"Forage": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
 				"Cornucopia_CommonMushroomSeeds": { "Price": "300" },
 				"Cornucopia_ChanterelleSeeds": { "Price": "500" },
 				"Cornucopia_MorelSeeds": { "Price": "500" },
@@ -16,7 +25,8 @@
 				"Cornucopia_SalmonberrySeeds": { "Price": "300" }
 			},
 			"When": {
-				"Forage": true
+				"Forage": true,
+				"HasMod": "furyx639.CustomBush"
 			}
 		},
 		{
@@ -27,7 +37,8 @@
 				"302": { "Price": "750" } //Hops Planter
 			},
 			"When": {
-				"Crops": true
+				"Crops": true,
+				"HasMod": "furyx639.CustomBush"
 			}
 		},
 		{
@@ -39,7 +50,38 @@
 					"AgingMultiplier": "4"
 				}
 			},
-			"When": { "Crops": true, "Cask Aging": "true" }
+			"When": {
+				"Crops": true,
+				"Cask Aging": "true"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Fields": {
+				"(O)302": { "Condition": null }, //Hops Planter
+				"(O)301": { "Condition": null } //Grape Starter
+			},
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": { "Condition": null }, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": { "Condition": null } //Grape Planter
+			},
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -56,8 +98,12 @@
 				"Cornucopia_BlackberrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
 				"Cornucopia_SalmonberrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true
+			}
 		},
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -75,13 +121,37 @@
 			"TargetField": ["Joja", "Items"],
 			"Fields": {
 				"(O)302": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
-				"(O)301": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Starter
-				"(O)481": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Blueberry Planter
+				"(O)301": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Grape Starter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }*/
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["Joja", "Items"],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Planter
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Starter
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Grape Planter
+				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
+				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }*/
+			},
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -103,7 +173,10 @@
 				"Cornucopia_ChanterelleSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
 				"Cornucopia_MorelSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true
+			}
 		}
 	]
 }
