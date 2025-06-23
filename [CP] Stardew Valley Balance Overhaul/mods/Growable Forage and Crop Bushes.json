@@ -32,6 +32,17 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": ["(BC)163", "OutputRules", "PaleAle", "OutputItem", "#0"], //Cask - Pale Ale
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "4"
+				}
+			},
+			"When": { "Crops": true, "Cask Aging": "true" }
+		},
+		{
+			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": ["SeedShop", "Items"],
 			"Fields": {
