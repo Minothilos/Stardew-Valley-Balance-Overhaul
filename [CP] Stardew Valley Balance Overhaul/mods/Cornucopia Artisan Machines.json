@@ -6,7 +6,6 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Butter": { "Price": "100" }, // Butter
 				"Cornucopia_PrismaticEssence": { "Price": "2500" }, // Prismatic Essence
 				"Cornucopia_CoconutButter": { "Price": "200" }, // Coconut Butter
 				"Cornucopia_CookieButter": { "Price": "250" }, // Cookie Butter
@@ -611,7 +610,7 @@
 					{
 						"Id": "FlavoredYogurt",
 						"Modification": "Multiply",
-						"Amount": 1.75
+						"Amount": 1.5
 					},
 					{ "Id": "YogurtBase", "Modification": "Add", "Amount": 100 }
 				]
@@ -761,7 +760,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedCenturyEgg", "OutputItem", "#0"], //Cask - Century Egg
-			"Entries": { "CustomData": { "AgingMultiplier": "1.75" } },
+			"Entries": { "CustomData": { "AgingMultiplier": "2" } },
 			"When": {
 				"Animals": true,
 				"Cask Aging": "true"
@@ -789,7 +788,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedSoySauce", "OutputItem", "#0"], //Cask - Soy Sauce
-			"Entries": { "CustomData": { "AgingMultiplier": "2.33" } },
+			"Entries": { "CustomData": { "AgingMultiplier": "2.66" } },
 			"When": {
 				"Crops": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -801,7 +800,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedStinkyTofu", "OutputItem", "#0"], //Cask - Stinky Tofu
-			"Entries": { "CustomData": { "AgingMultiplier": "1.64" } },
+			"Entries": { "CustomData": { "AgingMultiplier": "1.75" } },
 			"When": {
 				"Crops": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -1007,6 +1006,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1024,6 +1030,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1043,6 +1056,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1058,15 +1078,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1088,15 +1115,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1118,15 +1152,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1145,29 +1186,36 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality3",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality4",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1189,29 +1237,36 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality3",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality4",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1236,6 +1291,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1253,6 +1315,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1272,6 +1341,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1289,6 +1365,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1308,6 +1391,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1326,6 +1416,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1343,6 +1440,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1365,6 +1469,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1385,6 +1496,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1407,6 +1525,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1424,6 +1549,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1443,6 +1575,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1460,6 +1599,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1479,6 +1625,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1496,6 +1649,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1515,6 +1675,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1532,6 +1699,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1551,6 +1725,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1569,6 +1750,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1586,6 +1774,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1608,6 +1803,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1629,6 +1831,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1649,6 +1858,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1672,6 +1888,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1693,6 +1916,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1716,6 +1946,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1733,6 +1970,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1752,6 +1996,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1769,6 +2020,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1788,6 +2046,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1805,6 +2070,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1824,6 +2096,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1841,6 +2120,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1862,6 +2148,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1885,6 +2178,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1906,6 +2206,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -1929,6 +2236,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1951,6 +2265,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1969,6 +2290,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -1986,6 +2314,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2014,6 +2349,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2031,6 +2373,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2059,6 +2408,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2076,6 +2432,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2104,6 +2467,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2121,6 +2491,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2149,6 +2526,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2169,6 +2553,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2200,6 +2591,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2220,6 +2618,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2251,6 +2656,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2271,6 +2683,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2302,6 +2721,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2324,6 +2750,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2343,8 +2776,15 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2370,6 +2810,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2392,6 +2839,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2409,6 +2863,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2428,6 +2889,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2445,6 +2913,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2467,6 +2942,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2484,6 +2966,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2503,6 +2992,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2521,6 +3017,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2535,15 +3038,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2564,6 +3074,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2590,6 +3107,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2607,6 +3131,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "1.5",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2626,6 +3157,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2643,6 +3181,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2665,6 +3210,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2685,6 +3237,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2707,6 +3266,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2724,10 +3290,24 @@
 				"MinStack": "2",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2751,6 +3331,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2772,6 +3359,20 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2795,6 +3396,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2812,6 +3420,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2831,6 +3446,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2848,6 +3470,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2867,6 +3496,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2884,6 +3520,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2903,6 +3546,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2920,6 +3570,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -2939,6 +3596,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -2957,15 +3621,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2983,29 +3654,36 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality3",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality4",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3037,15 +3715,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3069,6 +3754,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3087,6 +3779,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3109,6 +3808,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3130,6 +3836,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3148,15 +3861,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3178,15 +3898,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3208,15 +3935,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3238,29 +3972,36 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality3",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality4",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3282,29 +4023,36 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality3",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality4",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3329,6 +4077,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3349,6 +4104,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3371,6 +4133,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3391,6 +4160,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3413,6 +4189,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3434,6 +4217,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3454,6 +4244,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3477,6 +4274,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3498,6 +4302,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3521,6 +4332,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3541,6 +4359,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3563,6 +4388,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3583,6 +4415,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3605,6 +4444,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3625,6 +4471,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3647,6 +4500,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3667,6 +4527,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3689,6 +4556,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3710,6 +4584,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3730,6 +4611,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3753,6 +4641,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3775,6 +4670,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3796,6 +4698,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3820,6 +4729,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3842,6 +4758,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3866,6 +4789,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3886,6 +4816,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3908,6 +4845,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3928,6 +4872,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3950,6 +4901,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -3970,6 +4928,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -3992,6 +4957,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4012,6 +4984,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4034,6 +5013,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4058,6 +5044,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4080,6 +5073,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4104,6 +5104,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4127,6 +5134,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4148,6 +5162,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4168,6 +5189,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4199,6 +5227,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4219,6 +5254,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4250,6 +5292,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4270,6 +5319,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4301,6 +5357,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4321,6 +5384,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4352,6 +5422,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4373,6 +5450,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4405,6 +5489,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4426,6 +5517,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4458,6 +5556,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4479,6 +5584,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4511,6 +5623,13 @@
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4534,6 +5653,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4554,8 +5680,15 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4582,6 +5715,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4605,6 +5745,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4625,6 +5772,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4647,6 +5801,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4667,6 +5828,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4690,6 +5858,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4710,6 +5885,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4732,6 +5914,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4753,6 +5942,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4770,15 +5966,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4803,6 +6006,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4823,6 +6033,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4845,6 +6062,13 @@
 						"Modification": "Multiply",
 						"Amount": "1.5",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4866,6 +6090,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4886,6 +6117,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4909,6 +6147,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4931,6 +6176,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4952,6 +6204,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -4976,6 +6235,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -4998,6 +6264,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -5022,6 +6295,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -5045,6 +6325,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -5065,6 +6352,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -5087,6 +6381,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -5107,6 +6408,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -5129,6 +6437,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -5149,6 +6464,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -5171,6 +6493,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -5191,6 +6520,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
@@ -5213,6 +6549,13 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
@@ -5232,15 +6575,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5261,29 +6611,36 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality3",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality4",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5317,15 +6674,22 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality1",
+						"Id": "AddQuality1",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "DoubleQuality2",
+						"Id": "AddQuality2",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5349,6 +6713,13 @@
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.15\" \"ITEM_QUALITY Input 2 2, RANDOM 0.30\" \"ITEM_QUALITY Input 4 4, RANDOM 0.50\"",
 						"Modification": "Multiply",
 						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
 						"RandomAmount": null
 					}
 				]
