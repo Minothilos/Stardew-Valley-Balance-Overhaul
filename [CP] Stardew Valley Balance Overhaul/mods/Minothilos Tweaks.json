@@ -36,6 +36,40 @@
 			},
 			"When": { "Fruit Trees": true }
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["IslandTrade", "Items"],
+			"Fields": {
+				"(O)69": { "TradeItemAmount": "5", "IgnoreShopPriceModifiers": true }, //Banana Sapling
+				"(O)835": { "TradeItemAmount": "60", "IgnoreShopPriceModifiers": true } //Mango Sapling
+			},
+			"When": { "Fruit Trees": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["IslandTrade", "Items"],
+			"Fields": {
+				"Cornucopia_DurianSapling": {
+					"TradeItemAmount": "20",
+					"IgnoreShopPriceModifiers": true
+				}, // Durian Sapling
+				"Cornucopia_PapayaSapling": {
+					"TradeItemAmount": "10",
+					"IgnoreShopPriceModifiers": true
+				}, // Papaya Sapling
+				"Cornucopia_PlantainSapling": {
+					"TradeItemAmount": "5",
+					"IgnoreShopPriceModifiers": true
+				} // Plantain Sapling
+			},
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"Fruit Trees": true
+			}
+		},
 		//Food
 		{
 			"Action": "EditData",

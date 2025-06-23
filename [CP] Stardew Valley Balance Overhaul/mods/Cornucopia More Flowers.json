@@ -911,6 +911,26 @@
 				"Limited Seed Supply": true
 			}
 		},
+		//Nullify existing Cornucopia joja shop entries
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Priority": "Default+3",
+			"TargetField": ["Joja", "Items"],
+			"Entries": {
+				"Cornucopia.MoreFlowers_CropSeedsSpringCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsSummerCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsFallCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsWinterCommon": null,
+				"Cornucopia.MoreFlowers_CropSeedsSpringRare": null,
+				"Cornucopia.MoreFlowers_CropSeedsSummerRare": null,
+				"Cornucopia.MoreFlowers_CropSeedsFallRare": null,
+				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null,
+				"Cornucopia.MoreFlowers_BushSeeds": null
+				//"Cornucopia.MoreFlowers_FruitTreeSaplings": null
+			},
+			"When": { "Limited Seed Supply": true }
+		},
 		//Add seeds back in limited quantity Joja
 		{
 			"Action": "EditData",

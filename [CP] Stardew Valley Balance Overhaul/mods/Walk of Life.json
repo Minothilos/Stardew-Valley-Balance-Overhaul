@@ -8,7 +8,8 @@
 				"DaLion.Professions_GoldenMayo": { "Price": "600" } // Golden Mayonnaise
 			},
 			"When": {
-				"Animals": true
+				"Animals": true,
+				"HasMod|contains=6480.blueegg": false
 			}
 		},
 		//Offset Tapper Aging
@@ -38,6 +39,17 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_ChicleRubber": { "Price": "205" } // Chicle Rubber
+			},
+			"When": {
+				"Miscellaneous Items": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)24", "OutputRules", "Default_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Mayo
 			"Entries": {
@@ -49,10 +61,17 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": { "Machine Processing": "On", "HasMod|contains=6480.blueegg": false }
 		},
 		{
 			"Action": "EditData",
@@ -67,10 +86,17 @@
 						"Modification": "Multiply",
 						"Amount": "2",
 						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": { "Machine Processing": "On", "HasMod|contains=6480.blueegg": false }
 		},
 		{
 			"Action": "EditData",
