@@ -10,12 +10,22 @@
 				"ZoeyHoshi.ForageCrops_DandelionSeeds": { "Price": "10" }, //Dandelion Seeds
 				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": { "Price": "25" }, //Fiddlehead Fern Seeds
 				"ZoeyHoshi.ForageCrops_LeekSeeds": { "Price": "20" }, //Cave Carrot Seeds
-				"ZoeyHoshi.ForageCrops_SeaweedSeeds": { "Price": "50" }, //Seaweed Seeds
 				"ZoeyHoshi.ForageCrops_SnowYamSeeds": { "Price": "5" }, //Snow Yam Seeds
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": { "Price": "15" }, //Wild Horseradish Seeds
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": { "Price": "15" } //Winter Root Seeds
 			},
 			"When": { "Forage": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.ForageCrops_SeaweedSeeds": { "Price": "50" } //Seaweed Seeds
+			},
+			"When": {
+				"Forage": true,
+				"HasMod|contains=selph.CustomTapperFramework": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -39,7 +49,10 @@
 				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
 				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -60,7 +73,10 @@
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_SeaweedSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=selph.CustomTapperFramework": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -88,7 +104,10 @@
 				"ZoeyHoshi.ForageCrops_RedMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
 				"ZoeyHoshi.ForageCrops_PurpleMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true
+			}
 		},
 		{
 			"Action": "EditData",

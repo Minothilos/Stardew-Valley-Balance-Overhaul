@@ -6,7 +6,6 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"ZoeyHoshi.SVEForageCrops_DiamondFlowerSeeds": { "Price": "125" },
-				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": { "Price": "15" },
 				"ZoeyHoshi.SVEForageCrops_FerngillPrimroseSeeds": { "Price": "35" },
 				"ZoeyHoshi.SVEForageCrops_GoldenrodSeed": { "Price": "30" },
 				"ZoeyHoshi.SVEForageCrops_MushroomColonySeeds": { "Price": "15" },
@@ -17,6 +16,17 @@
 				"ZoeyHoshi.SVEForageCrops_WinterStarRoseSeeds": { "Price": "30" }
 			},
 			"When": { "Forage": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": { "Price": "15" }
+			},
+			"When": {
+				"Forage": true,
+				"HasMod|contains=selph.CustomTapperFramework": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -39,10 +49,23 @@
 			"Target": "Data/Shops",
 			"TargetField": ["AdventureShop", "Items"],
 			"Fields": {
-				"ZoeyHoshi.SVEForageCrops_MegaPurpleMushroomSeeds": { "Price": "12000" },
 				"(BC)ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": { "Price": "6000" }
 			},
-			"When": { "Miscellaneous Items": true }
+			"When": {
+				"Miscellaneous Items": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": ["AdventureShop", "Items"],
+			"Fields": {
+				"ZoeyHoshi.SVEForageCrops_MegaPurpleMushroomSeeds": { "Price": "12000" }
+			},
+			"When": {
+				"Miscellaneous Items": true,
+				"HasMod|contains=furyx639.CustomBush": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -51,7 +74,11 @@
 			"Fields": {
 				"ZoeyHoshi.SVEForageCrops_DewdropBerrySeeds": { "TradeItemAmount": "10" }
 			},
-			"When": { "Forage": true, "HasVisitedLocation": "Custom_EnchantedGrove" }
+			"When": {
+				"Forage": true,
+				"HasVisitedLocation": "Custom_EnchantedGrove",
+				"HasMod|contains=furyx639.CustomBush": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -72,7 +99,10 @@
 				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
 				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=furyx639.CustomBush": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -81,7 +111,10 @@
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true,
+				"HasMod|contains=selph.CustomTapperFramework": true
+			}
 		},
 		{
 			"Action": "EditData",

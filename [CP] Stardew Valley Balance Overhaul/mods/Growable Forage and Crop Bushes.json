@@ -26,7 +26,7 @@
 			},
 			"When": {
 				"Forage": true,
-				"HasMod": "furyx639.CustomBush"
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
 		{
@@ -38,7 +38,7 @@
 			},
 			"When": {
 				"Crops": true,
-				"HasMod": "furyx639.CustomBush"
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
 		{
