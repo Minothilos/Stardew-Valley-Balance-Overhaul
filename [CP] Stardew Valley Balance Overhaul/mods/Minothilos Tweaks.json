@@ -217,8 +217,8 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_OrangeZest": { "Price": "325" }, // Orange Zest
-				"Cornucopia_Applesauce": { "Price": "325" } // Applesauce
+				"Cornucopia_OrangeZest": { "Price": "280" }, // Orange Zest
+				"Cornucopia_Applesauce": { "Price": "330" } // Applesauce
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
@@ -229,9 +229,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_CocoaButter": { "Price": "440" }, // Cocoa Butter
-				"Cornucopia_AvocadoMayonnaise": { "Price": "475" }, // Avocado Mayonnaise
-				"Cornucopia_AvocadoOil": { "Price": "500" } // Avocado Oil
+				"Cornucopia_CocoaButter": { "Price": "300" }, // Cocoa Butter
+				"Cornucopia_AvocadoMayonnaise": { "Price": "480" }, // Avocado Mayonnaise
+				"Cornucopia_AvocadoOil": { "Price": "570" } // Avocado Oil
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -243,9 +243,8 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_LemonZest": { "Price": "225" }, // Lemon Zest
-				"Cornucopia_LimeZest": { "Price": "225" }, // Lime Zest
-				"Cornucopia_ChewingGum": { "Price": "525" }, // Chewing Gum
+				"Cornucopia_LemonZest": { "Price": "180" }, // Lemon Zest
+				"Cornucopia_LimeZest": { "Price": "180" }, // Lime Zest
 				"Cornucopia_Umeboshi": { "Price": "450" } // Umeboshi
 			},
 			"When": {

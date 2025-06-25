@@ -173,7 +173,7 @@
 				"Cornucopia_SparklingWine": { "Price": "250" }, // Sparkling Wine
 				"Cornucopia_BuckwheatFlour": { "Price": "50" }, // Buckwheat Flour
 				"Cornucopia_SemolinaFlour": { "Price": "75" }, // Semolina Flour
-				"Cornucopia_WholeGrainFlour": { "Price": "60" }, // Semolina Flour
+				"Cornucopia_WholeGrainFlour": { "Price": "55" }, // Whole Grain Flour
 				"Cornucopia_Molasses": { "Price": "25" } // Molasses
 			},
 			"When": {
