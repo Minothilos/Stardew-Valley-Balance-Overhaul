@@ -1913,7 +1913,7 @@
 					}
 				]
 			},
-			"When": { "Increased Bait Maker Output": "true" }
+			"When": { "Bait Maker Output": "true" }
 		},
 		{
 			"Action": "EditData",
@@ -1951,7 +1951,7 @@
 					}
 				]
 			},
-			"When": { "Increased Seed Maker Output": "true" }
+			"When": { "Seed Maker Output": "true" }
 		},
 		//Item Categories Fix
 		{

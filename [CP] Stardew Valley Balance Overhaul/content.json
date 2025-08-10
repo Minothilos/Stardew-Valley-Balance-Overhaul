@@ -141,12 +141,12 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
-		"Increased Bait Maker Output": {
+		"Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
-		"Increased Seed Maker Output": {
+		"Seed Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Balance Changes"
