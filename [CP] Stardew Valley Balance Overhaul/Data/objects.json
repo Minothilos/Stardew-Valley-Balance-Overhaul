@@ -359,6 +359,13 @@
 				"694": { "Price": "100" }, //Trap Bobber
 				"695": { "Price": "100" }, //Cork Bobber
 				"693": { "Price": "100" } //Treasure Hunter
+				"874": { "Price": "50" }, //Bug Steak
+				"403": { "Price": "20" }, //Field Snack
+				"245": { "Price": "30" }, //Sugar
+				"246": { "Price": "50" }, //Wheat Flour
+				"423": { "Price": "100" }, //Rice
+				"247": { "Price": "100" }, //Oil
+				"419": { "Price": "100" } //Vinegar
 			},
 			"When": { "Miscellaneous Items": true }
 		},
@@ -370,11 +377,6 @@
 				"303": { "Price": "90" }, //Pale Ale
 				"346": { "Price": "160" }, //Beer
 				"614": { "Price": "200" }, //Green Tea
-				"245": { "Price": "30" }, //Sugar
-				"246": { "Price": "50" }, //Wheat Flour
-				"423": { "Price": "100" }, //Rice
-				"247": { "Price": "100" }, //Oil
-				"419": { "Price": "100" } //Vinegar
 			},
 			"When": { "Crops": true }
 		},
@@ -476,90 +478,88 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"456": { "Price": "110" }, //Algae Soup
-				"605": { "Price": "220" }, //Artichoke Dip
-				"235": { "Price": "430" }, //Autumn's Bounty
-				"198": { "Price": "180" }, //Baked Fish
-				"904": { "Price": "230" }, //Banana Pudding
-				"207": { "Price": "130" }, //Bean Hotpot
-				"611": { "Price": "145" }, //Blackberry Cobbler
-				"234": { "Price": "195" }, //Blueberry Tart
-				"216": { "Price": "55" }, //Bread
-				"618": { "Price": "240" }, //Bruschetta
-				"874": { "Price": "50" }, //Bug Steak
-				"209": { "Price": "220" }, //Carp Surprise
-				"197": { "Price": "400" }, //Cheese Cauliflower
-				"220": { "Price": "160" }, //Chocolate Cake
-				"727": { "Price": "160" }, //Chowder
-				"648": { "Price": "480" }, //Coleslaw
-				"201": { "Price": "520" }, //Complete Breakfast
-				"223": { "Price": "160" }, //Cookie
-				"732": { "Price": "390" }, //Crab Cakes
-				"612": { "Price": "195" }, //Cranberry Candy
-				"238": { "Price": "90" }, //Cranberry Sauce
-				"214": { "Price": "260" }, //Crispy Bass
-				"242": { "Price": "355" }, //Dish O' The Sea
-				"231": { "Price": "140" }, //Eggplant Parmesan
-				"729": { "Price": "205" }, //Escargot
-				"240": { "Price": "235" }, //Farmer's Lunch
-				"649": { "Price": "325" }, //Fiddlehead Risotto
-				"403": { "Price": "20" }, //Field Snack
-				"728": { "Price": "335" }, //Fish Stew
-				"213": { "Price": "580" }, //Fish Taco
-				"202": { "Price": "315" }, //Fried Calamari
-				"225": { "Price": "235" }, //Fried Eel
 				"194": { "Price": "70" }, //Fried Egg
-				"205": { "Price": "315" }, //Fried Mushroom
-				"610": { "Price": "360" }, //Fruit Salad
-				"903": { "Price": "330" }, //Ginger Ale
-				"208": { "Price": "215" }, //Glazed Yams
-				"210": { "Price": "215" }, //Hashbrowns
-				"233": { "Price": "115" }, //Ice Cream
-				"773": { "Price": "490" }, //Life Elixir
-				"730": { "Price": "260" }, //Lobster Bisque
-				"204": { "Price": "310" }, //Lucky Lunch
-				"228": { "Price": "205" }, //Maki Roll
-				"905": { "Price": "330" }, //Mango Sticky Rice
-				"731": { "Price": "420" }, //Maple Bar
-				"243": { "Price": "280" }, //Miner's Treat
-				"772": { "Price": "1000" }, //Oil of Garlic
 				"195": { "Price": "155" }, //Omelet
-				"457": { "Price": "90" }, //Pale Broth
-				"211": { "Price": "115" }, //Pancakes
-				"199": { "Price": "260" }, //Parsnip Soup
-				"215": { "Price": "225" }, //Pepper Poppers
-				"221": { "Price": "370" }, //Pink Cake
-				"206": { "Price": "310" }, //Pizza
-				"604": { "Price": "275" }, //Plum Pudding
-				"906": { "Price": "530" }, //Poi
-				"651": { "Price": "240" }, //Poppyseed Muffin
-				"608": { "Price": "335" }, //Pumpkin Pie
-				"236": { "Price": "330" }, //Pumpkin Soup
-				"609": { "Price": "330" }, //Radish Salad
-				"230": { "Price": "325" }, //Red Plate
-				"222": { "Price": "335" }, //Rhubarb Pie
-				"232": { "Price": "225" }, //Rice Pudding
-				"607": { "Price": "280" }, //Roasted Hazelnuts
-				"244": { "Price": "155" }, //Roots Platter
 				"196": { "Price": "265" }, //Salad
-				"212": { "Price": "375" }, //Salmon Dinner
-				"227": { "Price": "60" }, //Sashimi
-				"265": { "Price": "380" }, //Seafoam Pudding
-				"733": { "Price": "260" }, //Shrimp Cocktail
-				"224": { "Price": "125" }, //Spaghetti
-				"226": { "Price": "170" }, //Spicy Eel
-				"921": { "Price": "290" }, //Squid Ink Ravioli
-				"606": { "Price": "400" }, //Stir Fry
-				"203": { "Price": "435" }, //Strange Bun
-				"239": { "Price": "210" }, //Stuffing
-				"237": { "Price": "295" }, //Super Meal
-				"241": { "Price": "210" }, //Survival Burger
-				"218": { "Price": "290" }, //Tom Kha Soup
-				"229": { "Price": "75" }, //Tortilla
-				"253": { "Price": "340" }, //Triple Shot Espresso
-				"907": { "Price": "340" }, //Tropical Curry
-				"219": { "Price": "110" }, //Trout Soup
+				"197": { "Price": "375" }, //Cheese Cauliflower
+				"198": { "Price": "195" }, //Baked Fish
+				"199": { "Price": "265" }, //Parsnip Soup
 				"200": { "Price": "170" } //Vegetable Medley
+				"201": { "Price": "585" }, //Complete Breakfast
+				"202": { "Price": "325" }, //Fried Calamari
+				"203": { "Price": "420" }, //Strange Bun
+				"204": { "Price": "305" }, //Lucky Lunch
+				"205": { "Price": "315" }, //Fried Mushroom
+				"206": { "Price": "310" }, //Pizza
+				"207": { "Price": "145" }, //Bean Hotpot
+				"208": { "Price": "205" }, //Glazed Yams
+				"209": { "Price": "220" }, //Carp Surprise
+				"210": { "Price": "215" }, //Hashbrowns
+				"211": { "Price": "170" }, //Pancakes
+				"212": { "Price": "390" }, //Salmon Dinner
+				"213": { "Price": "560" }, //Fish Taco
+				"214": { "Price": "270" }, //Crispy Bass
+				"215": { "Price": "210" }, //Pepper Poppers
+				"216": { "Price": "65" }, //Bread
+				"218": { "Price": "290" }, //Tom Kha Soup
+				"219": { "Price": "110" }, //Trout Soup
+				"220": { "Price": "170" }, //Chocolate Cake
+				"221": { "Price": "430" }, //Pink Cake
+				"222": { "Price": "345" }, //Rhubarb Pie
+				"223": { "Price": "170" }, //Cookie
+				"224": { "Price": "145" }, //Spaghetti
+				"225": { "Price": "235" }, //Fried Eel
+				"226": { "Price": "170" }, //Spicy Eel
+				"227": { "Price": "70" }, //Sashimi
+				"228": { "Price": "220" }, //Maki Roll
+				"229": { "Price": "75" }, //Tortilla
+				"230": { "Price": "325" }, //Red Plate
+				"231": { "Price": "175" }, //Eggplant Parmesan
+				"232": { "Price": "225" }, //Rice Pudding
+				"233": { "Price": "115" }, //Ice Cream
+				"234": { "Price": "205" }, //Blueberry Tart
+				"235": { "Price": "415" }, //Autumn's Bounty
+				"236": { "Price": "325" }, //Pumpkin Soup
+				"237": { "Price": "290" }, //Super Meal
+				"238": { "Price": "90" }, //Cranberry Sauce
+				"239": { "Price": "220" }, //Stuffing
+				"240": { "Price": "240" }, //Farmer's Lunch
+				"241": { "Price": "210" }, //Survival Burger
+				"242": { "Price": "360" }, //Dish O' The Sea
+				"243": { "Price": "280" }, //Miner's Treat
+				"244": { "Price": "155" }, //Roots Platter
+				"253": { "Price": "460" }, //Triple Shot Espresso
+				"265": { "Price": "280" }, //Seafoam Pudding
+				"456": { "Price": "110" }, //Algae Soup
+				"457": { "Price": "90" }, //Pale Broth
+				"604": { "Price": "285" }, //Plum Pudding
+				"605": { "Price": "215" }, //Artichoke Dip
+				"606": { "Price": "400" }, //Stir Fry
+				"607": { "Price": "280" }, //Roasted Hazelnuts
+				"608": { "Price": "425" }, //Pumpkin Pie
+				"609": { "Price": "340" }, //Radish Salad
+				"610": { "Price": "365" }, //Fruit Salad
+				"611": { "Price": "155" }, //Blackberry Cobbler
+				"612": { "Price": "220" }, //Cranberry Candy
+				"618": { "Price": "260" }, //Bruschetta
+				"648": { "Price": "470" }, //Coleslaw
+				"649": { "Price": "325" }, //Fiddlehead Risotto
+				"651": { "Price": "255" }, //Poppyseed Muffin
+				"727": { "Price": "160" }, //Chowder
+			    "728": { "Price": "340" }, //Fish Stew
+				"729": { "Price": "205" }, //Escargot
+				"730": { "Price": "260" }, //Lobster Bisque
+				"731": { "Price": "285" }, //Maple Bar
+				"732": { "Price": "400" }, //Crab Cakes
+				"733": { "Price": "265" }, //Shrimp Cocktail
+				"903": { "Price": "130" }, //Ginger Ale
+				"904": { "Price": "260" }, //Banana Pudding
+				"905": { "Price": "350" }, //Mango Sticky Rice
+				"906": { "Price": "570" }, //Poi
+				"907": { "Price": "360" }, //Tropical Curry
+				"921": { "Price": "210" }, //Squid Ink Ravioli
+				"773": { "Price": "490" }, //Life Elixir
+				"772": { "Price": "1045" }, //Oil of Garlic
 			},
 			"When": { "Food": true }
 		},

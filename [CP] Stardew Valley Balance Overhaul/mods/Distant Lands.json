@@ -27,8 +27,8 @@
 				"Aimon111.WitchSwampOverhaulCP_Mushroom_Kebab": {"Price": "290"},
 				"Aimon111.WitchSwampOverhaulCP_Crayfish_Soup": {"Price": "325"},	
 				"Aimon111.WitchSwampOverhaulCP_Pemmican": {"Price": "145"},
-				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Tea": {"Price": "220"},
-				"Aimon111.WitchSwampOverhaulCP_Suspicious_Pie": {"Price": "625"},				
+				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Tea": {"Price": "200"},
+				"Aimon111.WitchSwampOverhaulCP_Suspicious_Pie": {"Price": "600"},				
 			},		
             "When": { "Food": true }		
 		},

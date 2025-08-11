@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"drbirbdev.BinningSkill_GrilledCheese": { "Price": "225" }, //Grilled Cheese
+				"drbirbdev.BinningSkill_GrilledCheese": { "Price": "235" }, //Grilled Cheese
 				"drbirbdev.BinningSkill_FishCasserole": { "Price": "215" } //Fish Casserole
 			},
 			"When": { "Food": true }
