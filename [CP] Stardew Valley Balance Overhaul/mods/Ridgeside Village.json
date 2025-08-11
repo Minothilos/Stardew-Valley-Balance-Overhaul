@@ -11,7 +11,13 @@
 				"Rafseazz.RSVCP_Paradise_Rangpur": { "Price": "120" },
 				"Rafseazz.RSVCP_Tropi_Ugli_Fruit": { "Price": "120" },
 				"Rafseazz.RSVCP_Desert_Tangelo": { "Price": "130" },
-				"Rafseazz.RSVCP_Ember_Blood_Lime": { "Price": "120" }
+				"Rafseazz.RSVCP_Cherry_Pluot_Sapling": { "Price": "550" },
+				"Rafseazz.RSVCP_Highland_Jostaberry_Sapling": { "Price": "600" },
+				"Rafseazz.RSVCP_Mountain_Plumcot_Sapling": { "Price": "600" },
+				"Rafseazz.RSVCP_Northern_Limequat_Sapling": { "Price": "550" },
+				"Rafseazz.RSVCP_Paradise_Rangpur_Sapling": { "Price": "550" },
+				"Rafseazz.RSVCP_Tropi_Ugli_Fruit_Sapling": { "Price": "550" },
+				"Rafseazz.RSVCP_Desert_Tangelo_Sapling": { "Price": "600" },
 			},
 			"When": {
 				"Fruit Trees": true

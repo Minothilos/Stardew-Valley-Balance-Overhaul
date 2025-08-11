@@ -25,11 +25,14 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Pear": { "Price": "90" },
-				"FlashShifter.StardewValleyExpandedCP_Nectarine": { "Price": "100" },
-				"FlashShifter.StardewValleyExpandedCP_Persimmon": { "Price": "105" },
+				"FlashShifter.StardewValleyExpandedCP_Pear": { "Price": "130" },
+				"FlashShifter.StardewValleyExpandedCP_Nectarine": { "Price": "130" },
+				"FlashShifter.StardewValleyExpandedCP_Persimmon": { "Price": "130" },
 				"FlashShifter.StardewValleyExpandedCP_Money_Bag": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" }
+				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" },
+				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": { "Price": "600" },
+				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": { "Price": "600" },
+				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": { "Price": "600" },
 			},
 			"When": {
 				"Fruit Trees": true

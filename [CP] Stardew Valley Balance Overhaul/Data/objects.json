@@ -130,14 +130,14 @@
 				"636": { "Price": "130" }, //Peach
 				"613": { "Price": "120" }, //Apple
 				"637": { "Price": "130" }, //Pomegranate
-				"629": { "Price": "575" }, //Apricot Sapling
-				"628": { "Price": "550" }, //Cherry Sapling
+				"629": { "Price": "500" }, //Apricot Sapling
+				"628": { "Price": "500" }, //Cherry Sapling
 				"69": { "Price": "600" }, //Banana Sapling
-				"835": { "Price": "600" }, //Mango Sapling
-				"630": { "Price": "475" }, //Orange Sapling
-				"631": { "Price": "500" }, //Peach Sapling
-				"633": { "Price": "500" }, //Apple Sapling
-				"632": { "Price": "550" }, //Pomegranate Sapling
+				"835": { "Price": "550" }, //Mango Sapling
+				"630": { "Price": "550" }, //Orange Sapling
+				"631": { "Price": "600" }, //Peach Sapling
+				"633": { "Price": "550" }, //Apple Sapling
+				"632": { "Price": "600" }, //Pomegranate Sapling
 			},
 			"When": { "Fruit Trees": true }
 		},
