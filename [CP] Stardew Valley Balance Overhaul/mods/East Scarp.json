@@ -14,6 +14,16 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
+				"Lemurkat_Heirloom_Cherry_Tree": { "Price": "600" },
+			},
+			"When": {
+				"Fruit Trees": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
 				"EastScarp_Golden_Trout": { "Price": "150" },
 				"EastScarp_Kokanee_Salmon": { "Price": "135" },
 				"EastScarp_Cerulean_Nudibranch": { "Price": "115" },
