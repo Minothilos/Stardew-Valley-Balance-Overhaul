@@ -116,11 +116,6 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
-		"Item Categories": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Balance Changes"
-		},
 		"Food Buffs": {
 			"AllowValues": "false, true",
 			"Default": "true",

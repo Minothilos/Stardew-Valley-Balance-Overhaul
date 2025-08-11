@@ -1940,30 +1940,5 @@
 			},
 			"When": { "Seed Maker Output": "true" }
 		},
-		//Item Categories Fix
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fish Smoker
-			"Entries": {
-				"#-1": "!item_smoked",
-				"#-2": "!item_roe",
-				"#-3": "!item_aged_roe",
-				"#-4": "!item_caviar"
-			},
-			"When": { "Item Categories": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)BaitMaker", "OutputRules", "Default", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Bait Maker
-			"Entries": {
-				"#-1": "!item_smoked",
-				"#-2": "!item_roe",
-				"#-3": "!item_aged_roe",
-				"#-4": "!item_caviar"
-			},
-			"When": { "Item Categories": true }
-		}
 	]
 }
