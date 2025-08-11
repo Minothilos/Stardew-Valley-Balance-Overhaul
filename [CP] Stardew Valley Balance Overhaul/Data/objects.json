@@ -44,7 +44,7 @@
 				"Powdermelon": { "Price": "105" }, //Powdermelon
 				"417": { "Price": "2000" }, //Sweet Gem Berry
 				"271": { "Price": "80" }, //Unmilled Rice
-				"486": { "Price": "50" } //Starfruit Seeds
+				"486": { "Price": "50" }, //Starfruit Seeds
 			},
 			"When": { "Crops": true }
 		},
@@ -82,7 +82,7 @@
 				"453": { "Price": "40" }, //Poppy Seed
 				"455": { "Price": "40" }, //Summer Spangle Seed
 				"425": { "Price": "25" }, //Fairy Rose Seed
-				"431": { "Price": "20" } //Sunflower Seed
+				"431": { "Price": "20" }, //Sunflower Seed
 			},
 			"When": { "Flowers": true }
 		},
@@ -114,7 +114,7 @@
 				"807": { "Price": "1600" }, //Dinosaur Mayonnaise
 				"424": { "Price": "150" }, //Cheese
 				"426": { "Price": "300" }, //Goat Cheese
-				"432": { "Price": "440" } //Truffle Oil
+				"432": { "Price": "440" }, //Truffle Oil
 			},
 			"When": { "Animals": true }
 		},
@@ -137,7 +137,7 @@
 				"630": { "Price": "475" }, //Orange Sapling
 				"631": { "Price": "500" }, //Peach Sapling
 				"633": { "Price": "500" }, //Apple Sapling
-				"632": { "Price": "550" } //Pomegranate Sapling
+				"632": { "Price": "550" }, //Pomegranate Sapling
 			},
 			"When": { "Fruit Trees": true }
 		},
@@ -268,7 +268,7 @@
 				"575": { "Price": "300" }, //Obsidian
 				"578": { "Price": "500" }, //Star Shards
 				"539": { "Price": "300" }, //Bixite
-				"553": { "Price": "400" } //Neptunite
+				"553": { "Price": "400" }, //Neptunite
 			},
 			"When": { "Mines": true }
 		},
@@ -316,7 +316,7 @@
 				"88": { "Price": "100" }, //Coconut
 				"791": { "Price": "200" }, //Golden Coconut
 				"829": { "Price": "90" }, //Ginger
-				"399": { "Price": "15" } //Spring Onion
+				"399": { "Price": "15" }, //Spring Onion
 			},
 			"When": { "Forage": true }
 		},
@@ -358,14 +358,14 @@
 				"687": { "Price": "150" }, //Dressed Spinner
 				"694": { "Price": "100" }, //Trap Bobber
 				"695": { "Price": "100" }, //Cork Bobber
-				"693": { "Price": "100" } //Treasure Hunter
+				"693": { "Price": "100" }, //Treasure Hunter
 				"874": { "Price": "50" }, //Bug Steak
 				"403": { "Price": "20" }, //Field Snack
 				"245": { "Price": "30" }, //Sugar
 				"246": { "Price": "50" }, //Wheat Flour
 				"423": { "Price": "100" }, //Rice
 				"247": { "Price": "100" }, //Oil
-				"419": { "Price": "100" } //Vinegar
+				"419": { "Price": "100" }, //Vinegar
 			},
 			"When": { "Miscellaneous Items": true }
 		},
@@ -389,7 +389,7 @@
 				"693": { "Price": "250" }, //Treasure Hunter
 				"695": { "Price": "200" }, //Cork Bobber
 				"691": { "Price": "200" }, //Barbed Hook
-				"687": { "Price": "150" } //Dressed Spinner
+				"687": { "Price": "150" }, //Dressed Spinner
 			},
 			"When": { "Shops": true }
 		},
@@ -470,7 +470,7 @@
 				"723": { "Price": "70" }, //Oyster
 				"152": { "Price": "35" }, //Seaweed
 				"153": { "Price": "25" }, //Green Algae
-				"157": { "Price": "40" } //White Algae
+				"157": { "Price": "40" }, //White Algae
 			},
 			"When": { "Fish": true }
 		},
@@ -484,7 +484,7 @@
 				"197": { "Price": "375" }, //Cheese Cauliflower
 				"198": { "Price": "195" }, //Baked Fish
 				"199": { "Price": "265" }, //Parsnip Soup
-				"200": { "Price": "170" } //Vegetable Medley
+				"200": { "Price": "170" }, //Vegetable Medley
 				"201": { "Price": "585" }, //Complete Breakfast
 				"202": { "Price": "325" }, //Fried Calamari
 				"203": { "Price": "420" }, //Strange Bun
@@ -568,7 +568,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"220": { "Price": "265" } //Chocolate Cake
+				"220": { "Price": "265" }, //Chocolate Cake
 			},
 			"When": {
 				"Food": true,
@@ -588,7 +588,7 @@
 				"921": { "Price": "455" }, //Squid Ink Ravioli
 				"218": { "Price": "540" }, //Tom Kha Soup
 				"229": { "Price": "55" }, //Tortilla
-				"907": { "Price": "590" } //Tropical Curry
+				"907": { "Price": "590" }, //Tropical Curry
 			},
 			"When": {
 				"Food": true,

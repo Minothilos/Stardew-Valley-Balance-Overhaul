@@ -1,7 +1,7 @@
 {
 	"Name": "Stardew Valley Balance Overhaul",
 	"Author": "Theoddon & Minothilos",
-	"Version": "3.0b1",
+	"Version": "3.0",
 	"Description": "Rebalances just about everything.",
 	"UniqueID": "Theoddon.BalanceOverhaul",
 	"UpdateKeys": ["Nexus:13426"],
