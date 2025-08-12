@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{
+		{	// The Stardrop Saloon
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -37,7 +37,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Pierre's General Store
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -82,7 +82,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Willy's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -143,7 +143,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Clint's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -188,7 +188,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Harvey's Clinic
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -209,7 +209,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Adventure's Guild
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -302,7 +302,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Dwarf's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -339,7 +339,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Volcano Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -368,7 +368,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Resort Bar
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -405,7 +405,7 @@
 				"Shops": true
 			}
 		},
-		{
+		{	// Traveling Merchant
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -422,7 +422,7 @@
 				"Sell Prices": true
 			}
 		},
-		{
+		{	// JojaMart
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -445,44 +445,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Fields": {
-				"(O)629": { // Apricot Sapling
-					"Price": "2300",
-					"IgnoreShopPriceModifiers": true
-				},
-				"(O)628": { // Cherry Sapling
-					"Price": "2200",
-					"IgnoreShopPriceModifiers": true
-				},
-				"(O)630": { // Orange Sapling
-					"Price": "1900",
-					"IgnoreShopPriceModifiers": true
-				},
-				"(O)631": { // Peach Sapling
-					"Price": "2000",
-					"IgnoreShopPriceModifiers": true
-				},
-				"(O)633": { // Apple Sapling
-					"Price": "2000",
-					"IgnoreShopPriceModifiers": true
-				},
-				"(O)632": { // Pomegranate Sapling
-					"Price": "2200",
-					"IgnoreShopPriceModifiers": true
-				}
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
+		{	// Island Trader
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -503,8 +466,7 @@
 				"Sell Prices": true
 			}
 		},
-		// Shops (Limited Item Supply)
-		{
+		{	// The Stardrop Saloon (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -541,7 +503,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Willy's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -570,7 +532,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Clint's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -615,7 +577,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Carpenter's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -636,7 +598,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Harvey's Clinic (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -657,7 +619,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Dwarf's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -694,7 +656,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Valcano Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -723,7 +685,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Resort Bar (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -760,7 +722,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Desert Trader (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -793,7 +755,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Desert Festival - Egg Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -822,7 +784,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Desert Festival - Pam's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -847,7 +809,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Krobus Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -864,7 +826,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Casino
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -881,7 +843,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	// Ice Cream Stand
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -898,8 +860,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		// Shops (Limited Seed Supply)
-		{
+		{	// Oasis (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -928,7 +889,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{
+		{	// Egg Festival - Pierre's Shop (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -945,7 +906,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{
+		{	// Pierre's Shop (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1090,7 +1051,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{
+		{	// JojaMart (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1212,6 +1173,43 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
+		{	// Pierre's Store - Fruit Trees Saplings
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Fields": {
+				"(O)629": { // Apricot Sapling
+					"Price": "2300",
+					"IgnoreShopPriceModifiers": true
+				},
+				"(O)628": { // Cherry Sapling
+					"Price": "2200",
+					"IgnoreShopPriceModifiers": true
+				},
+				"(O)630": { // Orange Sapling
+					"Price": "1900",
+					"IgnoreShopPriceModifiers": true
+				},
+				"(O)631": { // Peach Sapling
+					"Price": "2000",
+					"IgnoreShopPriceModifiers": true
+				},
+				"(O)633": { // Apple Sapling
+					"Price": "2000",
+					"IgnoreShopPriceModifiers": true
+				},
+				"(O)632": { // Pomegranate Sapling
+					"Price": "2200",
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
 		{	// Merchants Buy More Items
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1254,7 +1252,7 @@
 				"Merchants Buy More Items": true
 			}
 		},
-		{
+		{	// Merchants Buy More Items - Make Rods Sellable
 			"Action": "EditData",
 			"Target": "Data/Tools",
 			"Fields": {

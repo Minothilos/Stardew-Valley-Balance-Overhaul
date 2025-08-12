@@ -1633,7 +1633,7 @@
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		{	// Increase BaitMaker Output
+		{	// Increase Bait Maker Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1672,7 +1672,6 @@
 				"Bait Maker Output": true
 			}
 		},
-		
 		{	// Increased Seed Maker Output
 			"Action": "EditData",
 			"Target": "Data/Machines",

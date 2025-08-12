@@ -41,10 +41,10 @@
 					"Price": "750"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pear": {
-					"Price": "130"
+					"Price": "120"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Nectarine": {
-					"Price": "130"
+					"Price": "125"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Persimmon": {
 					"Price": "130"
@@ -56,10 +56,10 @@
 					"Price": "2500"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
-					"Price": "600"
+					"Price": "550"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
-					"Price": "600"
+					"Price": "575"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
 					"Price": "600"
@@ -640,15 +640,15 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
-					"Price": "3000",
+					"Price": "1600",
 					"IgnoreShopPriceModifiers": true
 				},
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
-					"Price": "3000",
+					"Price": "1700",
 					"IgnoreShopPriceModifiers": true
 				},
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
-					"Price": "3000",
+					"Price": "1800",
 					"IgnoreShopPriceModifiers": true
 				}
 			},

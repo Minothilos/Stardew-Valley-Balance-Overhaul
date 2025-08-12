@@ -17,7 +17,7 @@
 					"Price": "120"
 				},
 				"Rafseazz.RSVCP_Paradise_Rangpur": {
-					"Price": "120"
+					"Price": "125"
 				},
 				"Rafseazz.RSVCP_Tropi_Ugli_Fruit": {
 					"Price": "120"
@@ -26,7 +26,7 @@
 					"Price": "130"
 				},
 				"Rafseazz.RSVCP_Ember_Blood_Lime": {
-					"Price": "120"
+					"Price": "125"
 				},
 				"Rafseazz.RSVCP_Cherry_Pluot_Sapling": {
 					"Price": "550"
@@ -41,7 +41,7 @@
 					"Price": "550"
 				},
 				"Rafseazz.RSVCP_Paradise_Rangpur_Sapling": {
-					"Price": "550"
+					"Price": "575"
 				},
 				"Rafseazz.RSVCP_Tropi_Ugli_Fruit_Sapling": {
 					"Price": "550"
@@ -50,7 +50,7 @@
 					"Price": "600"
 				},
 				"Rafseazz.RSVCP_Ember_Blood_Lime_Sapling": {
-					"Price": "550"
+					"Price": "575"
 				},
 				"Rafseazz.RSVCP_Mountain_Arugula": {
 					"Price": "65"
@@ -1111,35 +1111,35 @@
 			],
 			"Fields": {
 				"Rafseazz.RSVCP.KimpoiShopItem1": { // Cherry Pluot
-					"Price": "2500",
+					"Price": "1600",
 					"IgnoreShopPriceModifiers": true
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem2": { // Highland Jostaberry
-					"Price": "3000",
+					"Price": "1800",
 					"IgnoreShopPriceModifiers": true
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem3": { // Mountain Plumcot
-					"Price": "3000",
+					"Price": "1800",
 					"IgnoreShopPriceModifiers": true
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem4": { // Northern Limequat
-					"Price": "2500",
+					"Price": "1600",
 					"IgnoreShopPriceModifiers": true
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem5": { // Paradise Rangpur
-					"Price": "2500",
+					"Price": "1700",
 					"IgnoreShopPriceModifiers": true
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem6": { // Tropi Ugli Fruit
-					"Price": "2500",
+					"Price": "1600",
 					"IgnoreShopPriceModifiers": true
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem7": { // Desert Tangelo
-					"Price": "3000",
+					"Price": "1800",
 					"IgnoreShopPriceModifiers": true
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem8": { // Ember Blood Lime
-					"Price": "2500",
+					"Price": "1700",
 					"IgnoreShopPriceModifiers": true
 				}
 			},

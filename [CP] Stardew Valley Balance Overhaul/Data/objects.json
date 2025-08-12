@@ -125,19 +125,19 @@
 					"Price": "50"
 				},
 				"597": { // Blue Jazz
-					"Price": "140"
-				},
-				"591": { // Tulip
-					"Price": "130"
-				},
-				"376": { // Poppy
-					"Price": "140"
-				},
-				"593": { // Summer Spangle
 					"Price": "145"
 				},
+				"591": { // Tulip
+					"Price": "135"
+				},
+				"376": { // Poppy
+					"Price": "145"
+				},
+				"593": { // Summer Spangle
+					"Price": "155"
+				},
 				"595": { // Fairy Rose
-					"Price": "160"
+					"Price": "165"
 				},
 				"421": { // Sunflower
 					"Price": "90"
@@ -236,16 +236,16 @@
 					"Price": "440"
 				},
 				"634": { // Apricot
-					"Price": "110"
+					"Price": "120"
 				},
 				"638": { // Cherry
-					"Price": "110"
+					"Price": "130"
 				},
 				"91": { // Banana
 					"Price": "130"
 				},
 				"834": { // Mango
-					"Price": "120"
+					"Price": "125"
 				},
 				"635": { // Orange
 					"Price": "120"
@@ -254,22 +254,22 @@
 					"Price": "130"
 				},
 				"613": { // Apple
-					"Price": "120"
+					"Price": "125"
 				},
 				"637": { // Pomegranate
 					"Price": "130"
 				},
 				"629": { // Apricot Sapling
-					"Price": "500"
+					"Price": "550"
 				},
 				"628": { // Cherry Sapling
-					"Price": "500"
+					"Price": "600"
 				}, 
 				"69": { // Banana Sapling
 					"Price": "600"
 				},
 				"835": { // Mango Sapling
-					"Price": "550"
+					"Price": "575"
 				},
 				"630": { // Orange Sapling
 					"Price": "550"
@@ -278,7 +278,7 @@
 					"Price": "600"
 				},
 				"633": { // Apple Sapling
-					"Price": "550"
+					"Price": "575"
 				},
 				"632": { // Pomegranate Sapling
 					"Price": "600"
