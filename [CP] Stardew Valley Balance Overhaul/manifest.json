@@ -4,8 +4,12 @@
 	"Version": "3.0",
 	"Description": "Rebalances just about everything.",
 	"UniqueID": "Theoddon.BalanceOverhaul",
-	"UpdateKeys": ["Nexus:13426"],
-	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+	"UpdateKeys": [
+		"Nexus:13426"
+	],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	},
 	"Dependencies": [
 		{
 			"UniqueID": "6480.blueegg",

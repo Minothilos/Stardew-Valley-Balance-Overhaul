@@ -5,23 +5,45 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"ZoeyHoshi.SVEForageCrops_DiamondFlowerSeeds": { "Price": "125" },
-				"ZoeyHoshi.SVEForageCrops_FerngillPrimroseSeeds": { "Price": "35" },
-				"ZoeyHoshi.SVEForageCrops_GoldenrodSeed": { "Price": "30" },
-				"ZoeyHoshi.SVEForageCrops_MushroomColonySeeds": { "Price": "15" },
-				"ZoeyHoshi.SVEForageCrops_PoisonMushroomSeeds": { "Price": "10" },
-				"ZoeyHoshi.SVEForageCrops_RedBaneberrySeeds": { "Price": "15" }, //Unchanged
-				"ZoeyHoshi.SVEForageCrops_SwampFlowerSeeds": { "Price": "5" },
-				"ZoeyHoshi.SVEForageCrops_ThistleSeeds": { "Price": "15" },
-				"ZoeyHoshi.SVEForageCrops_WinterStarRoseSeeds": { "Price": "30" }
+				"ZoeyHoshi.SVEForageCrops_DiamondFlowerSeeds": {
+					"Price": "125"
+				},
+				"ZoeyHoshi.SVEForageCrops_FerngillPrimroseSeeds": {
+					"Price": "35"
+				},
+				"ZoeyHoshi.SVEForageCrops_GoldenrodSeed": {
+					"Price": "30"
+				},
+				"ZoeyHoshi.SVEForageCrops_MushroomColonySeeds": {
+					"Price": "15"
+				},
+				"ZoeyHoshi.SVEForageCrops_PoisonMushroomSeeds": {
+					"Price": "10"
+				},
+				"ZoeyHoshi.SVEForageCrops_RedBaneberrySeeds": {
+					"Price": "15"
+				}, //Unchanged
+				"ZoeyHoshi.SVEForageCrops_SwampFlowerSeeds": {
+					"Price": "5"
+				},
+				"ZoeyHoshi.SVEForageCrops_ThistleSeeds": {
+					"Price": "15"
+				},
+				"ZoeyHoshi.SVEForageCrops_WinterStarRoseSeeds": {
+					"Price": "30"
+				}
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": { "Price": "15" }
+				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": {
+					"Price": "15"
+				}
 			},
 			"When": {
 				"Sell Prices": true,
@@ -32,24 +54,21 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": { "Category": "-81" },
-				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Category": "-81" }
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": {
+					"Category": "-81"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": {
+					"Category": "-81"
+				}
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": { "Category": "-80" }
-			},
-			"When": { "Sell Prices": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": ["AdventureShop", "Items"],
-			"Fields": {
-				"(BC)ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": { "Price": "6000" }
+				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {
+					"Category": "-80"
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -58,9 +77,30 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["AdventureShop", "Items"],
+			"TargetField": [
+				"AdventureShop",
+				"Items"
+			],
 			"Fields": {
-				"ZoeyHoshi.SVEForageCrops_MegaPurpleMushroomSeeds": { "Price": "12000" }
+				"(BC)ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": {
+					"Price": "6000"
+				}
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"AdventureShop",
+				"Items"
+			],
+			"Fields": {
+				"ZoeyHoshi.SVEForageCrops_MegaPurpleMushroomSeeds": {
+					"Price": "12000"
+				}
 			},
 			"When": {
 				"Sell Prices": true,
@@ -70,9 +110,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Raccoon", "Items"],
+			"TargetField": [
+				"Raccoon",
+				"Items"
+			],
 			"Fields": {
-				"ZoeyHoshi.SVEForageCrops_DewdropBerrySeeds": { "TradeItemAmount": "10" }
+				"ZoeyHoshi.SVEForageCrops_DewdropBerrySeeds": {
+					"TradeItemAmount": "10"
+				}
 			},
 			"When": {
 				"Sell Prices": true,
@@ -83,21 +128,35 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_FerngillPrimroseSeeds": null,
 				"ZoeyHoshi.SVEForageCrops_GoldenrodSeed": null,
 				"ZoeyHoshi.SVEForageCrops_WinterStarRoseSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Fields": {
-				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -107,7 +166,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["FishShop", "Items"],
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": null
 			},
@@ -119,63 +181,93 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["AnimalShop", "Items"],
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_ThistleSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Dwarf", "Items"],
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_DiamondFlowerSeeds": null,
 				"ZoeyHoshi.SVEForageCrops_MushroomColonySeeds": null,
 				"ZoeyHoshi.SVEForageCrops_PoisonMushroomSeeds": null,
 				"ZoeyHoshi.SVEForageCrops_RedBaneberrySeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["ShadowShop", "Items"],
+			"TargetField": [
+				"ShadowShop",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_SwampFlowerSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_NightMarket_MagicBoat_Day1", "Items"],
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day1",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_FerngillPrimroseSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_NightMarket_MagicBoat_Day2", "Items"],
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_GoldenrodSeed": null,
 				"ZoeyHoshi.SVEForageCrops_RedBaneberrySeeds": null,
 				"ZoeyHoshi.SVEForageCrops_PoisonMushroomSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_NightMarket_MagicBoat_Day3", "Items"],
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day3",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.SVEForageCrops_GoldenrodSeed": null,
 				"ZoeyHoshi.SVEForageCrops_MushroomColonySeeds": null,
 				"ZoeyHoshi.SVEForageCrops_PoisonMushroomSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		}
 	]
 }

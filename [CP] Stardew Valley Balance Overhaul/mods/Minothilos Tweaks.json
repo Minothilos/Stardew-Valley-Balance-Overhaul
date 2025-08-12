@@ -5,51 +5,118 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"634": { "Price": "190" }, //Apricot
-				"638": { "Price": "215" }, //Cherry
-				"91": { "Price": "230" }, //Banana
-				"834": { "Price": "220" }, //Mango
-				"635": { "Price": "190" }, //Orange
-				"636": { "Price": "215" }, //Peach
-				"613": { "Price": "190" }, //Apple
-				"637": { "Price": "215" }, //Pomegranate
-				"629": { "Price": "1000" }, //Apricot Sapling
-				"628": { "Price": "1500" }, //Cherry Sapling
-				"630": { "Price": "1000" }, //Orange Sapling
-				"631": { "Price": "1500" }, //Peach Sapling
-				"633": { "Price": "1000" }, //Apple Sapling
-				"632": { "Price": "1500" } //Pomegranate Sapling
+				"634": {
+					"Price": "190"
+				}, //Apricot
+				"638": {
+					"Price": "215"
+				}, //Cherry
+				"91": {
+					"Price": "230"
+				}, //Banana
+				"834": {
+					"Price": "220"
+				}, //Mango
+				"635": {
+					"Price": "190"
+				}, //Orange
+				"636": {
+					"Price": "215"
+				}, //Peach
+				"613": {
+					"Price": "190"
+				}, //Apple
+				"637": {
+					"Price": "215"
+				}, //Pomegranate
+				"629": {
+					"Price": "1000"
+				}, //Apricot Sapling
+				"628": {
+					"Price": "1500"
+				}, //Cherry Sapling
+				"630": {
+					"Price": "1000"
+				}, //Orange Sapling
+				"631": {
+					"Price": "1500"
+				}, //Peach Sapling
+				"633": {
+					"Price": "1000"
+				}, //Apple Sapling
+				"632": {
+					"Price": "1500"
+				} //Pomegranate Sapling
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Fields": {
-				"(O)629": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Apricot Sapling
-				"(O)628": { "Price": "6000", "IgnoreShopPriceModifiers": true }, //Cherry Sapling
-				"(O)630": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Orange Sapling
-				"(O)631": { "Price": "6000", "IgnoreShopPriceModifiers": true }, //Peach Sapling
-				"(O)633": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Apple Sapling
-				"(O)632": { "Price": "6000", "IgnoreShopPriceModifiers": true } //Pomegranate Sapling
+				"(O)629": {
+					"Price": "4000",
+					"IgnoreShopPriceModifiers": true
+				}, //Apricot Sapling
+				"(O)628": {
+					"Price": "6000",
+					"IgnoreShopPriceModifiers": true
+				}, //Cherry Sapling
+				"(O)630": {
+					"Price": "4000",
+					"IgnoreShopPriceModifiers": true
+				}, //Orange Sapling
+				"(O)631": {
+					"Price": "6000",
+					"IgnoreShopPriceModifiers": true
+				}, //Peach Sapling
+				"(O)633": {
+					"Price": "4000",
+					"IgnoreShopPriceModifiers": true
+				}, //Apple Sapling
+				"(O)632": {
+					"Price": "6000",
+					"IgnoreShopPriceModifiers": true
+				} //Pomegranate Sapling
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["IslandTrade", "Items"],
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
 			"Fields": {
-				"(O)69": { "TradeItemAmount": "5", "IgnoreShopPriceModifiers": true }, //Banana Sapling
-				"(O)835": { "TradeItemAmount": "60", "IgnoreShopPriceModifiers": true } //Mango Sapling
+				"(O)69": {
+					"TradeItemAmount": "5",
+					"IgnoreShopPriceModifiers": true
+				}, //Banana Sapling
+				"(O)835": {
+					"TradeItemAmount": "60",
+					"IgnoreShopPriceModifiers": true
+				} //Mango Sapling
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["IslandTrade", "Items"],
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
 			"Fields": {
 				"Cornucopia_DurianSapling": {
 					"TradeItemAmount": "20",
@@ -75,21 +142,67 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"904": { "Price": "380" }, //Banana Pudding
-				"612": { "Price": "330" }, //Cranberry Candy
-				"610": { "Price": "480" }, //Fruit Salad
-				"905": { "Price": "475" } //Mango Sticky Rice
+				"904": {
+					"Price": "380"
+				}, //Banana Pudding
+				"612": {
+					"Price": "330"
+				}, //Cranberry Candy
+				"610": {
+					"Price": "480"
+				}, //Fruit Salad
+				"905": {
+					"Price": "475"
+				} //Mango Sticky Rice
 			},
-			"When": { "Sell Prices": true, "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"220": { "Price": "400" } //Chocolate Cake
+				"220": {
+					"Price": "400"
+				} //Chocolate Cake
 			},
 			"When": {
 				"Sell Prices": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"905": {
+					"Price": "720"
+				} //Mango Sticky Rice
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_CocoaPod": {
+					"Price": "200"
+				}, // Cocoa Pod
+				"Cornucopia_Avocado": {
+					"Price": "230"
+				}, // Avocado
+				"Cornucopia_Pistachio": {
+					"Price": "185"
+				}, // Pistachio
+				"Cornucopia_Pear": {
+					"Price": "205"
+				} // Pear
+			},
+			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"Sell Prices": true
 			}
@@ -98,37 +211,21 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"905": { "Price": "720" } //Mango Sticky Rice
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true,
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_CocoaPod": { "Price": "200" }, // Cocoa Pod
-				"Cornucopia_Avocado": { "Price": "230" }, // Avocado
-				"Cornucopia_Pistachio": { "Price": "185" }, // Pistachio
-				"Cornucopia_Pear": { "Price": "205" } // Pear
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_EucalyptusLeaves": { "Price": "225" }, // Eucalyptus Leaves
-				"Cornucopia_MelaleucaLeaves": { "Price": "215" }, // Melaleuca Leaves
-				"Cornucopia_Nutmeg": { "Price": "215" }, // Nutmeg
-				"Cornucopia_CamphorLeaves": { "Price": "215" }, // Camphor Leaves
-				"Cornucopia_CinnamonSticks": { "Price": "230" } // Cinnamon Sticks
+				"Cornucopia_EucalyptusLeaves": {
+					"Price": "225"
+				}, // Eucalyptus Leaves
+				"Cornucopia_MelaleucaLeaves": {
+					"Price": "215"
+				}, // Melaleuca Leaves
+				"Cornucopia_Nutmeg": {
+					"Price": "215"
+				}, // Nutmeg
+				"Cornucopia_CamphorLeaves": {
+					"Price": "215"
+				}, // Camphor Leaves
+				"Cornucopia_CinnamonSticks": {
+					"Price": "230"
+				} // Cinnamon Sticks
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -140,27 +237,69 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Breadfruit": { "Price": "230" }, // Breadfruit
-				"Cornucopia_Lemon": { "Price": "120" }, // Lemon
-				"Cornucopia_Lime": { "Price": "120" }, // Lime
-				"Cornucopia_DragonFruit": { "Price": "200" }, // Dragon Fruit
-				"Cornucopia_Durian": { "Price": "240" }, // Durian
-				"Cornucopia_Lychee": { "Price": "200" }, // Lychee
-				"Cornucopia_Nectarine": { "Price": "215" }, // Nectarine
-				"Cornucopia_Papaya": { "Price": "235" }, // Papaya
-				"Cornucopia_Plantain": { "Price": "200" }, // Plantain
-				"Cornucopia_Ume": { "Price": "120" }, // Ume
-				"Cornucopia_Almond": { "Price": "185" }, // Almond
-				"Cornucopia_Cashew": { "Price": "195" }, // Cashew
-				"Cornucopia_Grapefruit": { "Price": "215" }, // Grapefruit
-				"Cornucopia_Pecan": { "Price": "205" }, // Pecan
-				"Cornucopia_Walnut": { "Price": "185" }, // Walnut
-				"Cornucopia_Fig": { "Price": "190" }, // Fig
-				"Cornucopia_Persimmon": { "Price": "225" }, // Persimmon
-				"Cornucopia_Pomelo": { "Price": "175" }, // Pomelo
-				"Cornucopia_Yuzu": { "Price": "120" }, // Yuzu
-				"Cornucopia_Sapodilla": { "Price": "40" }, // Sapodilla
-				"Cornucopia_ChicleRubber": { "Price": "275" } // Chicle Rubber
+				"Cornucopia_Breadfruit": {
+					"Price": "230"
+				}, // Breadfruit
+				"Cornucopia_Lemon": {
+					"Price": "120"
+				}, // Lemon
+				"Cornucopia_Lime": {
+					"Price": "120"
+				}, // Lime
+				"Cornucopia_DragonFruit": {
+					"Price": "200"
+				}, // Dragon Fruit
+				"Cornucopia_Durian": {
+					"Price": "240"
+				}, // Durian
+				"Cornucopia_Lychee": {
+					"Price": "200"
+				}, // Lychee
+				"Cornucopia_Nectarine": {
+					"Price": "215"
+				}, // Nectarine
+				"Cornucopia_Papaya": {
+					"Price": "235"
+				}, // Papaya
+				"Cornucopia_Plantain": {
+					"Price": "200"
+				}, // Plantain
+				"Cornucopia_Ume": {
+					"Price": "120"
+				}, // Ume
+				"Cornucopia_Almond": {
+					"Price": "185"
+				}, // Almond
+				"Cornucopia_Cashew": {
+					"Price": "195"
+				}, // Cashew
+				"Cornucopia_Grapefruit": {
+					"Price": "215"
+				}, // Grapefruit
+				"Cornucopia_Pecan": {
+					"Price": "205"
+				}, // Pecan
+				"Cornucopia_Walnut": {
+					"Price": "185"
+				}, // Walnut
+				"Cornucopia_Fig": {
+					"Price": "190"
+				}, // Fig
+				"Cornucopia_Persimmon": {
+					"Price": "225"
+				}, // Persimmon
+				"Cornucopia_Pomelo": {
+					"Price": "175"
+				}, // Pomelo
+				"Cornucopia_Yuzu": {
+					"Price": "120"
+				}, // Yuzu
+				"Cornucopia_Sapodilla": {
+					"Price": "40"
+				}, // Sapodilla
+				"Cornucopia_ChicleRubber": {
+					"Price": "275"
+				} // Chicle Rubber
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -171,7 +310,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["IslandTrade", "Items"],
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
 			"Fields": {
 				"Cornucopia_DurianSapling": {
 					"TradeItemAmount": "20",
@@ -196,16 +338,36 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Magnolia": { "Price": "190" }, // Magnolia
-				"Cornucopia_Wisteria": { "Price": "190" }, // Wisteria
-				"Cornucopia_Hibiscus": { "Price": "175" }, // Hibiscus
-				"Cornucopia_YlangYlang": { "Price": "175" }, // Ylang Ylang
-				"Cornucopia_Jasmine": { "Price": "190" }, // Jasmine
-				"Cornucopia_MagnoliaSapling": { "Price": "750" }, // Magnolia Sapling
-				"Cornucopia_WisteriaSapling": { "Price": "750" }, // Wisteria Sapling
-				"Cornucopia_HibiscusSapling": { "Price": "625" }, // Hibiscus Sapling
-				"Cornucopia_YlangYlangSapling": { "Price": "625" }, // Ylang Ylang Sapling
-				"Cornucopia_JasmineSapling": { "Price": "750" } // Jasmine Sapling
+				"Cornucopia_Magnolia": {
+					"Price": "190"
+				}, // Magnolia
+				"Cornucopia_Wisteria": {
+					"Price": "190"
+				}, // Wisteria
+				"Cornucopia_Hibiscus": {
+					"Price": "175"
+				}, // Hibiscus
+				"Cornucopia_YlangYlang": {
+					"Price": "175"
+				}, // Ylang Ylang
+				"Cornucopia_Jasmine": {
+					"Price": "190"
+				}, // Jasmine
+				"Cornucopia_MagnoliaSapling": {
+					"Price": "750"
+				}, // Magnolia Sapling
+				"Cornucopia_WisteriaSapling": {
+					"Price": "750"
+				}, // Wisteria Sapling
+				"Cornucopia_HibiscusSapling": {
+					"Price": "625"
+				}, // Hibiscus Sapling
+				"Cornucopia_YlangYlangSapling": {
+					"Price": "625"
+				}, // Ylang Ylang Sapling
+				"Cornucopia_JasmineSapling": {
+					"Price": "750"
+				} // Jasmine Sapling
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
@@ -217,8 +379,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_OrangeZest": { "Price": "280" }, // Orange Zest
-				"Cornucopia_Applesauce": { "Price": "330" } // Applesauce
+				"Cornucopia_OrangeZest": {
+					"Price": "280"
+				}, // Orange Zest
+				"Cornucopia_Applesauce": {
+					"Price": "330"
+				} // Applesauce
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
@@ -229,9 +395,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_CocoaButter": { "Price": "300" }, // Cocoa Butter
-				"Cornucopia_AvocadoMayonnaise": { "Price": "480" }, // Avocado Mayonnaise
-				"Cornucopia_AvocadoOil": { "Price": "570" } // Avocado Oil
+				"Cornucopia_CocoaButter": {
+					"Price": "300"
+				}, // Cocoa Butter
+				"Cornucopia_AvocadoMayonnaise": {
+					"Price": "480"
+				}, // Avocado Mayonnaise
+				"Cornucopia_AvocadoOil": {
+					"Price": "570"
+				} // Avocado Oil
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -243,9 +415,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_LemonZest": { "Price": "180" }, // Lemon Zest
-				"Cornucopia_LimeZest": { "Price": "180" }, // Lime Zest
-				"Cornucopia_Umeboshi": { "Price": "450" } // Umeboshi
+				"Cornucopia_LemonZest": {
+					"Price": "180"
+				}, // Lemon Zest
+				"Cornucopia_LimeZest": {
+					"Price": "180"
+				}, // Lime Zest
+				"Cornucopia_Umeboshi": {
+					"Price": "450"
+				} // Umeboshi
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
@@ -258,11 +436,21 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Pear": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Nectarine": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Persimmon": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Money_Bag": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" }
+				"FlashShifter.StardewValleyExpandedCP_Pear": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Nectarine": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Persimmon": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Money_Bag": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": {
+					"Price": "2500"
+				}
 			},
 			"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
@@ -273,21 +461,31 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": { "Price": "440" },
-				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": { "Price": "455" },
-				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": { "Price": "330" },
-				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": { "Price": "640" }
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": {
+					"Price": "440"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": {
+					"Price": "455"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": {
+					"Price": "330"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": {
+					"Price": "640"
+				}
 			},
 			"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"Sell Prices": true,
 				"Sell Prices": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
 					"Price": "5000",
@@ -311,11 +509,14 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"653": { "Price": "650" }, // Orange Chicken
-				"663": { "Price": "1330" } // Winter Duck
+				"653": {
+					"Price": "650"
+				}, // Orange Chicken
+				"663": {
+					"Price": "1330"
+				} // Winter Duck
 			},
 			"When": {
-				"Sell Prices": true,
 				"Sell Prices": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
@@ -325,12 +526,23 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"blueberry.LoveOfCooking_applepie": { "Price": "345" }, //Apple Pie
-				"blueberry.LoveOfCooking_cherrypie": { "Price": "365" }, //Cherry Pie
-				"blueberry.LoveOfCooking_crepes": { "Price": "485" }, //Crepes Suzette
-				"blueberry.LoveOfCooking_fruity": { "Price": "275" } //Cherry Syllabub
+				"blueberry.LoveOfCooking_applepie": {
+					"Price": "345"
+				}, //Apple Pie
+				"blueberry.LoveOfCooking_cherrypie": {
+					"Price": "365"
+				}, //Cherry Pie
+				"blueberry.LoveOfCooking_crepes": {
+					"Price": "485"
+				}, //Crepes Suzette
+				"blueberry.LoveOfCooking_fruity": {
+					"Price": "275"
+				} //Cherry Syllabub
 			},
-			"When": { "Sell Prices": true, "Sell Prices": true, "HasMod|contains=blueberry.LoveOfCooking": true }
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=blueberry.LoveOfCooking": true
+			}
 		}
 	]
 }

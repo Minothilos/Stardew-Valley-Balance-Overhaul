@@ -6,150 +6,426 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				//Crops
-				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": { "Price": "120" },
-				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": { "Price": "6200" },
-				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": { "Price": "400" },
-				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": { "Price": "40" },
-				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": { "Price": "90" },
-				"FlashShifter.StardewValleyExpandedCP_Void_Root": { "Price": "240" },
-				"FlashShifter.StardewValleyExpandedCP_Joja_Berry": { "Price": "250" },
-				"FlashShifter.StardewValleyExpandedCP_Joja_Veggie": { "Price": "500" },
-				"FlashShifter.StardewValleyExpandedCP_Cucumber": { "Price": "25" },
-				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": { "Price": "185" },
-				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato": { "Price": "220" },
-				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": { "Price": "750" }
+				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": {
+					"Price": "120"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": {
+					"Price": "6200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {
+					"Price": "400"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": {
+					"Price": "40"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": {
+					"Price": "90"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Void_Root": {
+					"Price": "240"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Joja_Berry": {
+					"Price": "250"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Joja_Veggie": {
+					"Price": "500"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Cucumber": {
+					"Price": "25"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": {
+					"Price": "185"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato": {
+					"Price": "220"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": {
+					"Price": "750"
+				},
 				//Fruit Trees
-				"FlashShifter.StardewValleyExpandedCP_Pear": { "Price": "130" },
-				"FlashShifter.StardewValleyExpandedCP_Nectarine": { "Price": "130" },
-				"FlashShifter.StardewValleyExpandedCP_Persimmon": { "Price": "130" },
-				"FlashShifter.StardewValleyExpandedCP_Money_Bag": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": { "Price": "2500" },
-				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": { "Price": "600" },
-				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": { "Price": "600" },
-				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": { "Price": "600" },
+				"FlashShifter.StardewValleyExpandedCP_Pear": {
+					"Price": "130"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Nectarine": {
+					"Price": "130"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Persimmon": {
+					"Price": "130"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Money_Bag": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": {
+					"Price": "2500"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
+					"Price": "600"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
+					"Price": "600"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
+					"Price": "600"
+				},
 				//Animals
-				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "330" },
-				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "2000" },
-				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "340" },
-				"FlashShifter.StardewValleyExpandedCP_Honey_Jar": { "Price": "310" },
-				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "660" },
-				"FlashShifter.StardewValleyExpandedCP_Yarn": { "Price": "680" },
-				"FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "100" }
+				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": {
+					"Price": "330"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": {
+					"Price": "2000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": {
+					"Price": "340"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Honey_Jar": {
+					"Price": "310"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": {
+					"Price": "660"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Yarn": {
+					"Price": "680"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Butter": {
+					"Price": "100"
+				},
 				//Forage
-				"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": { "Price": "90" },
-				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": { "Price": "150" },
-				"FlashShifter.StardewValleyExpandedCP_Big_Conch": { "Price": "100" },
-				"FlashShifter.StardewValleyExpandedCP_Bearberrys": { "Price": "60" },
-				"FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": { "Price": "65" },
-				"FlashShifter.StardewValleyExpandedCP_Red_Baneberry": { "Price": "25" },
-				"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": { "Price": "130" },
-				"FlashShifter.StardewValleyExpandedCP_Thistle": { "Price": "120" },
-				"FlashShifter.StardewValleyExpandedCP_Goldenrod": { "Price": "140" },
-				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": { "Price": "150" },
-				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": { "Price": "300" },
-				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Price": "500" },
-				"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": { "Price": "110" },
-				"FlashShifter.StardewValleyExpandedCP_Shark_Tooth": { "Price": "175" },
-				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": { "Price": "90" }
+				"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {
+					"Price": "90"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Big_Conch": {
+					"Price": "100"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Bearberrys": {
+					"Price": "60"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": {
+					"Price": "65"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Red_Baneberry": {
+					"Price": "25"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": {
+					"Price": "130"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Thistle": {
+					"Price": "120"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Goldenrod": {
+					"Price": "140"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": {
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": {
+					"Price": "300"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": {
+					"Price": "500"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": {
+					"Price": "110"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Shark_Tooth": {
+					"Price": "175"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": {
+					"Price": "90"
+				},
 				//Fish
-				"FlashShifter.StardewValleyExpandedCP_Alligator": { "Price": "155" },
-				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": { "Price": "190" },
-				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": { "Price": "65" },
-				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": { "Price": "110" },
-				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": { "Price": "65" },
-				"FlashShifter.StardewValleyExpandedCP_Bonefish": { "Price": "140" },
-				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": { "Price": "70" },
-				"FlashShifter.StardewValleyExpandedCP_Butterfish": { "Price": "135" },
-				"FlashShifter.StardewValleyExpandedCP_Clownfish": { "Price": "75" },
-				"FlashShifter.StardewValleyExpandedCP_Daggerfish": { "Price": "85" },
-				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": { "Price": "240" },
-				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": { "Price": "35" },
-				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": { "Price": "150" },
-				"FlashShifter.StardewValleyExpandedCP_Frog": { "Price": "115" },
-				"FlashShifter.StardewValleyExpandedCP_Gar": { "Price": "165" },
-				"FlashShifter.StardewValleyExpandedCP_Gemfish": { "Price": "315" },
-				"FlashShifter.StardewValleyExpandedCP_Goldenfish": { "Price": "145" },
-				"FlashShifter.StardewValleyExpandedCP_Goldfish": { "Price": "55" },
-				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": { "Price": "165" },
-				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": { "Price": "125" },
-				"FlashShifter.StardewValleyExpandedCP_King_Salmon": { "Price": "155" },
-				"FlashShifter.StardewValleyExpandedCP_Kittyfish": { "Price": "165" },
-				"FlashShifter.StardewValleyExpandedCP_Lunaloo": { "Price": "115" },
-				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": { "Price": "155" },
-				"FlashShifter.StardewValleyExpandedCP_Minnow": { "Price": "50" },
-				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": { "Price": "180" },
-				"FlashShifter.StardewValleyExpandedCP_Puppyfish": { "Price": "165" },
-				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": { "Price": "245" },
-				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": { "Price": "175" },
-				"FlashShifter.StardewValleyExpandedCP_Seahorse": { "Price": "55" },
-				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": { "Price": "65" },
-				"FlashShifter.StardewValleyExpandedCP_Shark": { "Price": "315" },
-				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": { "Price": "310" },
-				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": { "Price": "170" },
-				"FlashShifter.StardewValleyExpandedCP_Starfish": { "Price": "135" },
-				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": { "Price": "115" },
-				"FlashShifter.StardewValleyExpandedCP_Tadpole": { "Price": "50" },
-				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": { "Price": "145" },
-				"FlashShifter.StardewValleyExpandedCP_Turretfish": { "Price": "3000" },
-				"FlashShifter.StardewValleyExpandedCP_Undeadfish": { "Price": "165" },
-				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": { "Price": "155" },
-				"FlashShifter.StardewValleyExpandedCP_Void_Eel": { "Price": "210" },
-				"FlashShifter.StardewValleyExpandedCP_Water_Grub": { "Price": "95" },
-				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": { "Price": "3000" }
+				"FlashShifter.StardewValleyExpandedCP_Alligator": {
+					"Price": "155"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {
+					"Price": "190"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": {
+					"Price": "65"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {
+					"Price": "110"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {
+					"Price": "65"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Bonefish": {
+					"Price": "140"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {
+					"Price": "70"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Butterfish": {
+					"Price": "135"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Clownfish": {
+					"Price": "75"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {
+					"Price": "85"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {
+					"Price": "240"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {
+					"Price": "35"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Frog": {
+					"Price": "115"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Gar": {
+					"Price": "165"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Gemfish": {
+					"Price": "315"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {
+					"Price": "145"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Goldfish": {
+					"Price": "55"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {
+					"Price": "165"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {
+					"Price": "125"
+				},
+				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {
+					"Price": "155"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Kittyfish": {
+					"Price": "165"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Lunaloo": {
+					"Price": "115"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Meteor_Carp": {
+					"Price": "155"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Minnow": {
+					"Price": "50"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ocean_Sunfish": {
+					"Price": "180"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Puppyfish": {
+					"Price": "165"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Radioactive_Bass": {
+					"Price": "245"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Razor_Trout": {
+					"Price": "175"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Seahorse": {
+					"Price": "55"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Sea_Sponge": {
+					"Price": "65"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Shark": {
+					"Price": "315"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo": {
+					"Price": "310"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Snatcher_Worm": {
+					"Price": "170"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Starfish": {
+					"Price": "135"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {
+					"Price": "115"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Tadpole": {
+					"Price": "50"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {
+					"Price": "145"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Turretfish": {
+					"Price": "3000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {
+					"Price": "165"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {
+					"Price": "155"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {
+					"Price": "210"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {
+					"Price": "95"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {
+					"Price": "3000"
+				},
 				//Food
-				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": { "Price": "805" },
-				"FlashShifter.StardewValleyExpandedCP_Baked_Potato": { "Price": "215" },
-				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": { "Price": "350" },
-				"FlashShifter.StardewValleyExpandedCP_Birch_Syrup": { "Price": "630" },
-				"FlashShifter.StardewValleyExpandedCP_Candy": { "Price": "890" },
-				"FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie": { "Price": "710" },
-				"FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar": { "Price": "420" },
-				"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": { "Price": "695" },
-				"FlashShifter.StardewValleyExpandedCP_Frog_Legs": { "Price": "290" },
-				"FlashShifter.StardewValleyExpandedCP_Gingerbread_Man": { "Price": "185" },
-				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": { "Price": "510" },
-				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": { "Price": "300" },
-				"FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": { "Price": "610" },
-				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": { "Price": "320" },
-				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": { "Price": "260" },
-				"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": { "Price": "665" },
-				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": { "Price": "130" },
-				"FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": { "Price": "385" },
-				"FlashShifter.StardewValleyExpandedCP_Prismatic_Pop": { "Price": "1765" },
-				"FlashShifter.StardewValleyExpandedCP_Ramen": { "Price": "270" },
-				"FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": { "Price": "265" },
-				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": { "Price": "510" },
-				"FlashShifter.StardewValleyExpandedCP_Vegan_Cone": { "Price": "145" },
-				"FlashShifter.StardewValleyExpandedCP_Void_Delight": { "Price": "4840" },
-				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": { "Price": "600" }
+				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": {
+					"Price": "805"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Baked_Potato": {
+					"Price": "215"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {
+					"Price": "350"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Birch_Syrup": {
+					"Price": "630"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Candy": {
+					"Price": "890"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie": {
+					"Price": "710"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar": {
+					"Price": "420"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": {
+					"Price": "695"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Frog_Legs": {
+					"Price": "290"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Gingerbread_Man": {
+					"Price": "185"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {
+					"Price": "510"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": {
+					"Price": "300"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": {
+					"Price": "610"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": {
+					"Price": "320"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {
+					"Price": "260"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": {
+					"Price": "665"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": {
+					"Price": "130"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": {
+					"Price": "385"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Prismatic_Pop": {
+					"Price": "1765"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ramen": {
+					"Price": "270"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": {
+					"Price": "265"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": {
+					"Price": "510"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Vegan_Cone": {
+					"Price": "145"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Void_Delight": {
+					"Price": "4840"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": {
+					"Price": "600"
+				},
 				//Mines
-				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": { "Price": "300" }, // Void Pebble
-				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { "Price": "150" }, // Birch Water
-				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { "Price": "350" }, // Fir Wax
-				"FlashShifter.StardewValleyExpandedCP_Gold_Slime_Egg": { "Price": "4500" }, // Gold Slime Egg
-				"FlashShifter.StardewValleyExpandedCP_Green_Mushroom": { "Price": "400" }, // Green Mushroom
-				"FlashShifter.StardewValleyExpandedCP_Magic_Lamp": { "Price": "5000" }, // Magic Lamp
-				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { "Price": "3000" }, // Mega Purple Mushroom
-				"FlashShifter.StardewValleyExpandedCP_Rusty_Blade": { "Price": "200" }, // Rusty Blade
-				"FlashShifter.StardewValleyExpandedCP_Sludge": { "Price": "60" }, // Sludge
-				"FlashShifter.StardewValleyExpandedCP_Supernatural_Goo": { "Price": "200" }, // Supernatural Goo
-				"FlashShifter.StardewValleyExpandedCP_Swamp_Essence": { "Price": "80" }, // Swamp Essence
-				"FlashShifter.StardewValleyExpandedCP_Swirl_Stone": { "Price": "1500" }, // Swirl Stone
-				"FlashShifter.StardewValleyExpandedCP_Void_Shard": { "Price": "5000" }, // Void Shard
-				"FlashShifter.StardewValleyExpandedCP_Void_Soul": { "Price": "150" }, // Void Soul
-				"FlashShifter.StardewValleyExpandedCP_Fir_Cone": { "Price": "10" }, // Fir Cone
-				"FlashShifter.StardewValleyExpandedCP_Birch_Seed": { "Price": "10" }, // Birch Seed
-				"FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest": { "Price": "10000" }, // Ornate Treasure Chest
-				"FlashShifter.StardewValleyExpandedCP_Seed_Cookie": { "Price": "35" } // Seed Cookie
-				"FlashShifter.StardewValleyExpandedCP_Amber": { "Price": "250" },
-				"FlashShifter.StardewValleyExpandedCP_Boomerang": { "Price": "150" },
-				"FlashShifter.StardewValleyExpandedCP_Faded_Button": { "Price": "70" },
-				"FlashShifter.StardewValleyExpandedCP_Fossilized_Apple": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Old_Coin": { "Price": "100" },
-				"FlashShifter.StardewValleyExpandedCP_Rusty_Shield": { "Price": "200" },
-				"FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba": { "Price": "1000" }
+				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": {
+					"Price": "300"
+				}, // Void Pebble
+				"FlashShifter.StardewValleyExpandedCP_Birch_Water": {
+					"Price": "150"
+				}, // Birch Water
+				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": {
+					"Price": "350"
+				}, // Fir Wax
+				"FlashShifter.StardewValleyExpandedCP_Gold_Slime_Egg": {
+					"Price": "4500"
+				}, // Gold Slime Egg
+				"FlashShifter.StardewValleyExpandedCP_Green_Mushroom": {
+					"Price": "400"
+				}, // Green Mushroom
+				"FlashShifter.StardewValleyExpandedCP_Magic_Lamp": {
+					"Price": "5000"
+				}, // Magic Lamp
+				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": {
+					"Price": "3000"
+				}, // Mega Purple Mushroom
+				"FlashShifter.StardewValleyExpandedCP_Rusty_Blade": {
+					"Price": "200"
+				}, // Rusty Blade
+				"FlashShifter.StardewValleyExpandedCP_Sludge": {
+					"Price": "60"
+				}, // Sludge
+				"FlashShifter.StardewValleyExpandedCP_Supernatural_Goo": {
+					"Price": "200"
+				}, // Supernatural Goo
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Essence": {
+					"Price": "80"
+				}, // Swamp Essence
+				"FlashShifter.StardewValleyExpandedCP_Swirl_Stone": {
+					"Price": "1500"
+				}, // Swirl Stone
+				"FlashShifter.StardewValleyExpandedCP_Void_Shard": {
+					"Price": "5000"
+				}, // Void Shard
+				"FlashShifter.StardewValleyExpandedCP_Void_Soul": {
+					"Price": "150"
+				}, // Void Soul
+				"FlashShifter.StardewValleyExpandedCP_Fir_Cone": {
+					"Price": "10"
+				}, // Fir Cone
+				"FlashShifter.StardewValleyExpandedCP_Birch_Seed": {
+					"Price": "10"
+				}, // Birch Seed
+				"FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest": {
+					"Price": "10000"
+				}, // Ornate Treasure Chest
+				"FlashShifter.StardewValleyExpandedCP_Seed_Cookie": {
+					"Price": "35"
+				}, // Seed Cookie
+				"FlashShifter.StardewValleyExpandedCP_Amber": {
+					"Price": "250"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Boomerang": {
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Faded_Button": {
+					"Price": "70"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Fossilized_Apple": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Old_Coin": {
+					"Price": "100"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Rusty_Shield": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba": {
+					"Price": "1000"
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -180,8 +456,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": { "Price": "250" },
-				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Price": "400" }
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": {
+					"Price": "250"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": {
+					"Price": "400"
+				}
 			},
 			"When": {
 				"Sell Prices": true,
@@ -192,7 +472,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { "Price": "2000" }
+				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": {
+					"Price": "2000"
+				}
 			},
 			"When": {
 				"Sell Prices": true,
@@ -221,7 +503,10 @@
 						{
 							"Duration": "500",
 							"IsDebuff": false,
-							"CustomAttributes": { "Speed": "1", "Attack": "3" }
+							"CustomAttributes": {
+								"Speed": "1",
+								"Attack": "3"
+							}
 						}
 					]
 				},
@@ -243,7 +528,10 @@
 						{
 							"Duration": "500",
 							"IsDebuff": false,
-							"CustomAttributes": { "Speed": "2", "Defense": "2" }
+							"CustomAttributes": {
+								"Speed": "2",
+								"Defense": "2"
+							}
 						}
 					]
 				},
@@ -252,7 +540,10 @@
 						{
 							"Duration": "600",
 							"IsDebuff": false,
-							"CustomAttributes": { "FishingLevel": "2", "LuckLevel": "2" }
+							"CustomAttributes": {
+								"FishingLevel": "2",
+								"LuckLevel": "2"
+							}
 						}
 					]
 				},
@@ -261,7 +552,10 @@
 						{
 							"Duration": "1200",
 							"IsDebuff": false,
-							"CustomAttributes": { "FarmingLevel": "3", "MaxStamina": "50" }
+							"CustomAttributes": {
+								"FarmingLevel": "3",
+								"MaxStamina": "50"
+							}
 						}
 					]
 				},
@@ -285,7 +579,10 @@
 						{
 							"Duration": "800",
 							"IsDebuff": false,
-							"CustomAttributes": { "FishingLevel": "1", "MaxStamina": "30" }
+							"CustomAttributes": {
+								"FishingLevel": "1",
+								"MaxStamina": "30"
+							}
 						}
 					]
 				},
@@ -324,7 +621,9 @@
 						{
 							"Duration": "900",
 							"IsDebuff": false,
-							"CustomAttributes": { "FarmingLevel": "3" }
+							"CustomAttributes": {
+								"FarmingLevel": "3"
+							}
 						}
 					]
 				}
@@ -336,7 +635,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
 					"Price": "3000",
@@ -358,9 +660,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Fields": {
-				"(BC)272": { "Price": "75000" } //Auto-Petter
+				"(BC)272": {
+					"Price": "75000"
+				} //Auto-Petter
 			},
 			"When": {
 				"Sell Prices": true
@@ -369,7 +676,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Hospital", "Items"],
+			"TargetField": [
+				"Hospital",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Stamina_Capsule": {
 					"Price": "2500",
@@ -383,111 +693,388 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Parsnip_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Potato_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Cauliflower_Seeds, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Tulip_Bulb": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Jazz_Seeds, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Kale_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Bean_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Melon_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Tomato_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Blueberry_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Pepper_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Wheat_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Radish_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Corn_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Spangle_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Sunflower_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Pumpkin_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Eggplant_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Bok_Choy": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Amaranth_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Yam_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Cranberry_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Fairy_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cucumber_Seed": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Parsnip_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Potato_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cauliflower_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Tulip_Bulb": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Jazz_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Kale_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Bean_Starter": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Butternut_Squash_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Melon_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Tomato_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Blueberry_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Pepper_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Wheat_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Radish_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Corn_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Poppy_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Spangle_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Sunflower_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Sweet_Potato_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Pumpkin_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Eggplant_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Bok_Choy": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Amaranth_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Yam_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cranberry_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Fairy_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Parsnip_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Potato_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cauliflower_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tulip_Bulb": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Jazz_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Kale_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Butternut_Squash_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Melon_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tomato_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Blueberry_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pepper_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Wheat_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Radish_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Corn_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Poppy_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Spangle_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sunflower_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sweet_Potato_Seed": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pumpkin_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Eggplant_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Bok_Choy": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Amaranth_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Yam_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cranberry_Seeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Fairy_Seeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": { "AvailableStock": "25", "AvailableStockLimit": "Player" }
+				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Parsnip_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Potato_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Cauliflower_Seeds, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Tulip_Bulb": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Jazz_Seeds, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Kale_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Bean_Starter": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Melon_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Tomato_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Blueberry_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Pepper_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Wheat_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Radish_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Corn_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Spangle_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Sunflower_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Pumpkin_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Eggplant_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Bok_Choy": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Amaranth_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Yam_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Cranberry_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Fairy_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cucumber_Seed": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Parsnip_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Potato_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cauliflower_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Tulip_Bulb": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Jazz_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Kale_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Bean_Starter": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Butternut_Squash_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Melon_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Tomato_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Blueberry_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Pepper_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Wheat_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Radish_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Corn_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Poppy_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Spangle_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Sunflower_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Sweet_Potato_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Pumpkin_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Eggplant_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Bok_Choy": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Amaranth_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Yam_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cranberry_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Fairy_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Parsnip_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Potato_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cauliflower_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tulip_Bulb": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Jazz_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Kale_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Butternut_Squash_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Melon_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tomato_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Blueberry_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pepper_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Wheat_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Radish_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Corn_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Poppy_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Spangle_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sunflower_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sweet_Potato_Seed": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pumpkin_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Eggplant_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Bok_Choy": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Amaranth_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Yam_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cranberry_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Fairy_Seeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				}
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Saloon", "Items"],
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": {
 					"Price": "650",
@@ -513,7 +1100,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Saloon", "Items"],
+			"TargetField": [
+				"Saloon",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": {
 					"AvailableStock": "3",
@@ -539,7 +1129,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_YellowJunimoVendor", "Items"],
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_YellowJunimoVendor",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Ancient_Seeds": {
 					"AvailableStock": "1"
@@ -555,7 +1148,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_YellowJunimoVendor", "Items"],
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_YellowJunimoVendor",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_BlueGrassStarter": {
 					"AvailableStock": "5"
@@ -568,7 +1164,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_ZoeyVendor", "Items"],
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_ZoeyVendor",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Rare_Seed": {
 					"AvailableStock": "1"
@@ -581,7 +1180,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_ZoeyVendor", "Items"],
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_ZoeyVendor",
+				"Items"
+			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_BlueGrassStarter": {
 					"AvailableStock": "5"
@@ -595,8 +1197,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Ancient_Fiber", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -604,8 +1211,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Monster_Fruit", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -613,8 +1225,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Monster_Mushroom", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -622,8 +1239,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Salal_Berry", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Salal_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -631,8 +1253,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Slime_Berry", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Slime_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -640,8 +1267,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Void_Root", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Void_Root",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -649,8 +1281,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Joja_Berry", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Joja_Berry",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -658,8 +1295,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Joja_Veggie", "ContextTags"],
-			"Entries": { "#-1": "seedmaker_banned" },
+			"TargetField": [
+				"FlashShifter.StardewValleyExpandedCP_Joja_Veggie",
+				"ContextTags"
+			],
+			"Entries": {
+				"#-1": "seedmaker_banned"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -669,8 +1311,12 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Butter Churner": { "0": "388 25 390 25 84 1 FlashShifter.StardewValleyExpandedCP_Birch_Water 1" },
-				"Yarn Spooler": { "0": "709 35 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1 787 1"}
+				"Butter Churner": {
+					"0": "388 25 390 25 84 1 FlashShifter.StardewValleyExpandedCP_Birch_Water 1"
+				},
+				"Yarn Spooler": {
+					"0": "709 35 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1 787 1"
+				}
 			},
 			"When": {
 				"Machines": "Normal"
@@ -680,8 +1326,12 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Butter Churner": { "0": "388 30 390 30 84 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2" },
-				"Yarn Spooler": { "0": "709 40 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 1 787 1"}
+				"Butter Churner": {
+					"0": "388 30 390 30 84 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2"
+				},
+				"Yarn Spooler": {
+					"0": "709 40 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 1 787 1"
+				}
 			},
 			"When": {
 				"Machines": "Hard"
@@ -691,8 +1341,12 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Butter Churner": { "0": "388 35 390 35 84 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 3" },
-				"Yarn Spooler": { "0": "709 45 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 2 787 2"}
+				"Butter Churner": {
+					"0": "388 35 390 35 84 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 3"
+				},
+				"Yarn Spooler": {
+					"0": "709 45 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 2 787 2"
+				}
 			},
 			"When": {
 				"Machines": "Very Hard"
@@ -713,11 +1367,16 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_DarkAle": { "Price": "225" }, //Dark Ale
-				"Cornucopia_Porter": { "Price": "195" }, //Porter
-				"Cornucopia_Stout": { "Price": "210" } //Stout
+				"Cornucopia_DarkAle": {
+					"Price": "225"
+				}, //Dark Ale
+				"Cornucopia_Porter": {
+					"Price": "195"
+				}, //Porter
+				"Cornucopia_Stout": {
+					"Price": "210"
+				} //Stout
 			},
-
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -730,28 +1389,47 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "325" },
-				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "1100" },
-				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "325" },
-				"FlashShifter.StardewValleyExpandedCP_Honey_Jar": { "Price": "550" },
-				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "690" },
-				"FlashShifter.StardewValleyExpandedCP_Yarn": { "Price": "700" },
-				"FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "110" }
+				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": {
+					"Price": "325"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": {
+					"Price": "1100"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": {
+					"Price": "325"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Honey_Jar": {
+					"Price": "550"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": {
+					"Price": "690"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Yarn": {
+					"Price": "700"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Butter": {
+					"Price": "110"
+				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true
 			}
 		},
-
 		//Morgan Event - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Quail_QuailEgg": { "Price": "45" }, // Small Quail Egg
-				"Mizu.Quail_LargeQuailEgg": { "Price": "90" }, // Large Quail Egg
-				"Mizu.Quail_QuailMayonnaise": { "Price": "135" } // Quail Mayonnaise
+				"Mizu.Quail_QuailEgg": {
+					"Price": "45"
+				}, // Small Quail Egg
+				"Mizu.Quail_LargeQuailEgg": {
+					"Price": "90"
+				}, // Large Quail Egg
+				"Mizu.Quail_QuailMayonnaise": {
+					"Price": "135"
+				} // Quail Mayonnaise
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
@@ -763,9 +1441,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Turkey_TurkeyEgg": { "Price": "325" }, // Turkey Egg
-				"Mizu.Turkey_TurkeyFeather": { "Price": "510" }, // Turkey Feather
-				"Mizu.Turkey_TurkeyMayonnaise": { "Price": "770" } // Turkey Mayonnaise
+				"Mizu.Turkey_TurkeyEgg": {
+					"Price": "325"
+				}, // Turkey Egg
+				"Mizu.Turkey_TurkeyFeather": {
+					"Price": "510"
+				}, // Turkey Feather
+				"Mizu.Turkey_TurkeyMayonnaise": {
+					"Price": "770"
+				} // Turkey Mayonnaise
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
@@ -777,7 +1461,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Butter": { "Price": "110" } // Butter
+				"Cornucopia_Butter": {
+					"Price": "110"
+				} // Butter
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
@@ -790,8 +1476,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_WhiteGrape": { "Price": "70" }, // White Grape
-				"Cornucopia_SparklingWine": { "Price": "275" } // Sparkling Wine
+				"Cornucopia_WhiteGrape": {
+					"Price": "70"
+				}, // White Grape
+				"Cornucopia_SparklingWine": {
+					"Price": "275"
+				} // Sparkling Wine
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=8185300": true,
@@ -806,7 +1496,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": "(O)436", // Goat Milk
 				"RequiredTags": null
@@ -818,7 +1514,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -832,7 +1534,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": "(O)438", // Large Goat Milk
 				"RequiredTags": null
@@ -844,7 +1552,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "4",
 				"Quality": "0",
@@ -858,10 +1572,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null, // Large Milk
-				"RequiredTags": ["large_milk_item"]
+				"RequiredTags": [
+					"large_milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only"
@@ -870,7 +1592,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -884,10 +1612,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": ["milk_item"]
+				"RequiredTags": [
+					"milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only"
@@ -896,7 +1632,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "1",
 				"Quality": "0",
@@ -911,17 +1653,32 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler", "OutputRules", "FlashShifter.StardewValleyExpandedCP_YarnRulesId", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_YarnRulesId",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"CopyQuality": false
 			},
-			"When": { "Machine Processing|contains=Off": "false", "HasMod|contains=DaLion.Professions": true }
-		},	
+			"When": {
+				"Machine Processing|contains=Off": "false",
+				"HasMod|contains=DaLion.Professions": true
+			}
+		},
 		//Yarn Spooler
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler", "OutputRules", "FlashShifter.StardewValleyExpandedCP_YarnRulesId", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_YarnRulesId",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": false,
@@ -943,7 +1700,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": "(O)436", // Goat Milk
 				"RequiredTags": null
@@ -955,7 +1718,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -983,7 +1752,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": "(O)438", // Large Goat Milk
 				"RequiredTags": null
@@ -995,7 +1770,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "4",
 				"MaxStack": "4",
@@ -1038,10 +1819,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null, // Large Milk
-				"RequiredTags": ["large_milk_item"]
+				"RequiredTags": [
+					"large_milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing": "On"
@@ -1050,7 +1839,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -1078,10 +1873,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": ["milk_item"]
+				"RequiredTags": [
+					"milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing": "On"
@@ -1090,7 +1893,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1111,7 +1920,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler", "OutputRules", "FlashShifter.StardewValleyExpandedCP_YarnRulesId", "OutputItem", "#0"], //Yarn Spooler
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_YarnRulesId",
+				"OutputItem",
+				"#0"
+			], //Yarn Spooler
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": false,
@@ -1134,7 +1949,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": "(O)436", // Goat Milk
 				"RequiredTags": null
@@ -1147,7 +1968,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_NoQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -1176,7 +2003,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": "(O)438", // Large Goat Milk
 				"RequiredTags": null
@@ -1189,7 +2022,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_SilverQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "4",
 				"MaxStack": "4",
@@ -1233,10 +2072,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null, // Large Milk
-				"RequiredTags": ["large_milk_item"]
+				"RequiredTags": [
+					"large_milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing": "On",
@@ -1246,7 +2093,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_GoldQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -1275,10 +2128,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": ["milk_item"]
+				"RequiredTags": [
+					"milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing": "On",
@@ -1288,7 +2149,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules", "FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality", "OutputItem", "#0"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules",
+				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_Milk_IridiumQuality",
+				"OutputItem",
+				"#0"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1310,14 +2177,19 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner", "OutputRules"],
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Butter_Churner",
+				"OutputRules"
+			],
 			"Entries": {
 				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_NoQuality": null,
 				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_SilverQuality": null,
 				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_GoldQuality": null,
 				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_IridiumQuality": null
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		}
 	]
 }

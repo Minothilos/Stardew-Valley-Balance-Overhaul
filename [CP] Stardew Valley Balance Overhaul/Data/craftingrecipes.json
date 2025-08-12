@@ -4,154 +4,325 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Preserves Jar": { "0": "388 50 390 40 709 5 726 1" },
-				"Mayonnaise Machine": { "0": "388 30 390 30 338 2 725 2" },
-				"Cheese Press": { "0": "388 45 709 10 336 2 726 2" },
-				"Bee House": { "0": "388 40 709 10 336 1 724 1" },
-				"Seed Maker": { "0": "388 30 338 1 336 1 724 1" },
-				"Oil Maker": { "0": "766 50 709 20 336 2 725 1" },
-				"Loom": { "0": "388 50 771 20 726 1 725 1" },
-				"Dehydrator": { "0": "388 30 330 2 82 1 86 1" },
-				"Cask": { "0": "388 20 709 1 726 1" },
-				"Mushroom Log": { "0": "709 20 Moss 15 770 2" },
-				"Stone Chest": { "0": "390 30" },
-				"Big Stone Chest": { "0": "390 100 334 2" },
-				"Fish Smoker": { "0": "709 10 335 1 SeaJelly 1 RiverJelly 1 CaveJelly 1" },
-				"Heavy Furnace": { "0": "(BC)13 2 335 3 390 50" }
+				"Preserves Jar": {
+					"0": "388 50 390 40 709 5 726 1"
+				},
+				"Mayonnaise Machine": {
+					"0": "388 30 390 30 338 2 725 2"
+				},
+				"Cheese Press": {
+					"0": "388 45 709 10 336 2 726 2"
+				},
+				"Bee House": {
+					"0": "388 40 709 10 336 1 724 1"
+				},
+				"Seed Maker": {
+					"0": "388 30 338 1 336 1 724 1"
+				},
+				"Oil Maker": {
+					"0": "766 50 709 20 336 2 725 1"
+				},
+				"Loom": {
+					"0": "388 50 771 20 726 1 725 1"
+				},
+				"Dehydrator": {
+					"0": "388 30 330 2 82 1 86 1"
+				},
+				"Cask": {
+					"0": "388 20 709 1 726 1"
+				},
+				"Mushroom Log": {
+					"0": "709 20 Moss 15 770 2"
+				},
+				"Stone Chest": {
+					"0": "390 30"
+				},
+				"Big Stone Chest": {
+					"0": "390 100 334 2"
+				},
+				"Fish Smoker": {
+					"0": "709 10 335 1 SeaJelly 1 RiverJelly 1 CaveJelly 1"
+				},
+				"Heavy Furnace": {
+					"0": "(BC)13 2 335 3 390 50"
+				}
 			},
-			"When": { "Machines": "Normal" }
+			"When": {
+				"Machines": "Normal"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Mayonnaise Machine": { "0": "388 30 390 30 338 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 2" },
-				"Cheese Press": { "0": "388 45 709 10 336 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2" },
-				"Oil Maker": { "0": "766 50 709 20 336 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 1" },
-				"Cask": { "0": "388 20 709 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1" }
+				"Mayonnaise Machine": {
+					"0": "388 30 390 30 338 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 2"
+				},
+				"Cheese Press": {
+					"0": "388 45 709 10 336 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2"
+				},
+				"Oil Maker": {
+					"0": "766 50 709 20 336 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 1"
+				},
+				"Cask": {
+					"0": "388 20 709 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1"
+				}
 			},
-			"When": { "Machines": "Normal", "Craft with Modded Items": "true", "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true }
+			"When": {
+				"Machines": "Normal",
+				"Craft with Modded Items": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Preserves Jar": { "0": "388 50 390 40 709 10 726 2" },
-				"Mayonnaise Machine": { "0": "388 40 390 40 338 3 725 3" },
-				"Cheese Press": { "0": "388 50 709 15 336 3 726 3" },
-				"Bee House": { "0": "388 50 709 15 336 2 724 2" },
-				"Seed Maker": { "0": "388 40 338 2 336 2 724 2" },
-				"Oil Maker": { "0": "766 50 709 25 336 3 725 2" },
-				"Loom": { "0": "388 60 771 30 726 2 725 1" },
-				"Keg": { "0": "388 40 334 2 335 2 725 2" },
-				"Dehydrator": { "0": "388 40 330 3 82 2 86 1" },
-				"Cask": { "0": "388 30 709 2 726 1" },
-				"Furnace": { "0": "378 25 390 40" },
-				"Lightning Rod": { "0": "335 2 338 2 767 10" },
-				"Crystalarium": { "0": "390 125 336 5 337 5 787 2" },
-				"Mushroom Log": { "0": "709 25 Moss 20 770 3" },
-				"Chest": { "0": "388 60" },
-				"Stone Chest": { "0": "390 40" },
-				"Big Chest": { "0": "388 140 334 2" },
-				"Big Stone Chest": { "0": "390 120 334 2" },
-				"Fish Smoker": { "0": "709 15 335 2 SeaJelly 2 RiverJelly 2 CaveJelly 1" },
-				"Heavy Furnace": { "0": "(BC)13 3 335 4 390 60" },
-				"Recycling Machine": { "0": "335 1 388 30 390 30" }
+				"Preserves Jar": {
+					"0": "388 50 390 40 709 10 726 2"
+				},
+				"Mayonnaise Machine": {
+					"0": "388 40 390 40 338 3 725 3"
+				},
+				"Cheese Press": {
+					"0": "388 50 709 15 336 3 726 3"
+				},
+				"Bee House": {
+					"0": "388 50 709 15 336 2 724 2"
+				},
+				"Seed Maker": {
+					"0": "388 40 338 2 336 2 724 2"
+				},
+				"Oil Maker": {
+					"0": "766 50 709 25 336 3 725 2"
+				},
+				"Loom": {
+					"0": "388 60 771 30 726 2 725 1"
+				},
+				"Keg": {
+					"0": "388 40 334 2 335 2 725 2"
+				},
+				"Dehydrator": {
+					"0": "388 40 330 3 82 2 86 1"
+				},
+				"Cask": {
+					"0": "388 30 709 2 726 1"
+				},
+				"Furnace": {
+					"0": "378 25 390 40"
+				},
+				"Lightning Rod": {
+					"0": "335 2 338 2 767 10"
+				},
+				"Crystalarium": {
+					"0": "390 125 336 5 337 5 787 2"
+				},
+				"Mushroom Log": {
+					"0": "709 25 Moss 20 770 3"
+				},
+				"Chest": {
+					"0": "388 60"
+				},
+				"Stone Chest": {
+					"0": "390 40"
+				},
+				"Big Chest": {
+					"0": "388 140 334 2"
+				},
+				"Big Stone Chest": {
+					"0": "390 120 334 2"
+				},
+				"Fish Smoker": {
+					"0": "709 15 335 2 SeaJelly 2 RiverJelly 2 CaveJelly 1"
+				},
+				"Heavy Furnace": {
+					"0": "(BC)13 3 335 4 390 60"
+				},
+				"Recycling Machine": {
+					"0": "335 1 388 30 390 30"
+				}
 			},
-			"When": { "Machines": "Hard" }
+			"When": {
+				"Machines": "Hard"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Mayonnaise Machine": { "0": "388 40 390 40 338 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 3" },
-				"Cheese Press": { "0": "388 45 709 10 336 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 3" },
-				"Oil Maker": { "0": "766 50 709 25 336 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2" },
-				"Cask": { "0": "388 30 709 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1" }
+				"Mayonnaise Machine": {
+					"0": "388 40 390 40 338 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 3"
+				},
+				"Cheese Press": {
+					"0": "388 45 709 10 336 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 3"
+				},
+				"Oil Maker": {
+					"0": "766 50 709 25 336 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2"
+				},
+				"Cask": {
+					"0": "388 30 709 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1"
+				}
 			},
-			"When": { "Machines": "Hard", "Craft with Modded Items": "true", "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true }
+			"When": {
+				"Machines": "Hard",
+				"Craft with Modded Items": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Preserves Jar": { "0": "388 60 390 50 709 15 726 3" },
-				"Mayonnaise Machine": { "0": "388 50 390 50 338 4 725 4" },
-				"Cheese Press": { "0": "388 60 709 20 336 4 726 4" },
-				"Bee House": { "0": "388 60 709 20 336 3 724 3" },
-				"Seed Maker": { "0": "388 50 338 3 336 3 724 3" },
-				"Oil Maker": { "0": "766 60 709 30 336 4 725 3" },
-				"Loom": { "0": "388 70 771 40 726 2 725 2" },
-				"Keg": { "0": "388 50 334 3 335 3 725 3" },
-				"Dehydrator": { "0": "388 50 330 4 82 2 86 2" },
-				"Cask": { "0": "388 50 709 3 726 2" },
-				"Furnace": { "0": "378 35 390 50" },
-				"Lightning Rod": { "0": "335 3 338 3 767 15" },
-				"Crystalarium": { "0": "390 150 336 10 337 5 787 3" },
-				"Mushroom Log": { "0": "709 30 Moss 25 770 4" },
-				"Chest": { "0": "388 70" },
-				"Stone Chest": { "0": "390 50" },
-				"Big Chest": { "0": "388 180 334 2" },
-				"Big Stone Chest": { "0": "390 140 334 2" },
-				"Fish Smoker": { "0": "709 20 335 3 SeaJelly 3 RiverJelly 3 CaveJelly 2" },
-				"Heavy Furnace": { "0": "(BC)13 4 335 4 390 70" },
-				"Recycling Machine": { "0": "335 2 388 35 390 35" }
+				"Preserves Jar": {
+					"0": "388 60 390 50 709 15 726 3"
+				},
+				"Mayonnaise Machine": {
+					"0": "388 50 390 50 338 4 725 4"
+				},
+				"Cheese Press": {
+					"0": "388 60 709 20 336 4 726 4"
+				},
+				"Bee House": {
+					"0": "388 60 709 20 336 3 724 3"
+				},
+				"Seed Maker": {
+					"0": "388 50 338 3 336 3 724 3"
+				},
+				"Oil Maker": {
+					"0": "766 60 709 30 336 4 725 3"
+				},
+				"Loom": {
+					"0": "388 70 771 40 726 2 725 2"
+				},
+				"Keg": {
+					"0": "388 50 334 3 335 3 725 3"
+				},
+				"Dehydrator": {
+					"0": "388 50 330 4 82 2 86 2"
+				},
+				"Cask": {
+					"0": "388 50 709 3 726 2"
+				},
+				"Furnace": {
+					"0": "378 35 390 50"
+				},
+				"Lightning Rod": {
+					"0": "335 3 338 3 767 15"
+				},
+				"Crystalarium": {
+					"0": "390 150 336 10 337 5 787 3"
+				},
+				"Mushroom Log": {
+					"0": "709 30 Moss 25 770 4"
+				},
+				"Chest": {
+					"0": "388 70"
+				},
+				"Stone Chest": {
+					"0": "390 50"
+				},
+				"Big Chest": {
+					"0": "388 180 334 2"
+				},
+				"Big Stone Chest": {
+					"0": "390 140 334 2"
+				},
+				"Fish Smoker": {
+					"0": "709 20 335 3 SeaJelly 3 RiverJelly 3 CaveJelly 2"
+				},
+				"Heavy Furnace": {
+					"0": "(BC)13 4 335 4 390 70"
+				},
+				"Recycling Machine": {
+					"0": "335 2 388 35 390 35"
+				}
 			},
-			"When": { "Machines": "Very Hard" }
+			"When": {
+				"Machines": "Very Hard"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Mayonnaise Machine": { "0": "388 50 390 50 338 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 4" },
-				"Cheese Press": { "0": "388 45 709 10 336 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 4" },
-				"Oil Maker": { "0": "766 60 709 30 336 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 3" },
-				"Cask": { "0": "388 50 709 3 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2" }
+				"Mayonnaise Machine": {
+					"0": "388 50 390 50 338 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 4"
+				},
+				"Cheese Press": {
+					"0": "388 45 709 10 336 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 4"
+				},
+				"Oil Maker": {
+					"0": "766 60 709 30 336 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 3"
+				},
+				"Cask": {
+					"0": "388 50 709 3 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2"
+				}
 			},
-			"When": { "Machines": "Very Hard", "Craft with Modded Items": "true", "HasMod|contains=FlashShifter.StardewValleyExpandedCP": true }
+			"When": {
+				"Machines": "Very Hard",
+				"Craft with Modded Items": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
 		},
 		//Susan Event (SVE)
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Preserves Jar": { "0": "388 40 390 30 709 5 726 1" },
-				"Keg": { "0": "388 20 334 1 335 1 725 1" },
-				"Cask": { "0": "388 15 709 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1" }
+				"Preserves Jar": {
+					"0": "388 40 390 30 709 5 726 1"
+				},
+				"Keg": {
+					"0": "388 20 334 1 335 1 725 1"
+				},
+				"Cask": {
+					"0": "388 15 709 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1"
+				}
 			},
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"Machines": "Normal",
 				"HasSeenEvent: anyPlayer| contains=1000083": true,
-
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Preserves Jar": { "0": "388 40 390 30 709 10 726 2" },
-				"Keg": { "0": "388 30 334 2 335 2 725 2" },
-				"Cask": { "0": "388 30 709 3 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2" }
+				"Preserves Jar": {
+					"0": "388 40 390 30 709 10 726 2"
+				},
+				"Keg": {
+					"0": "388 30 334 2 335 2 725 2"
+				},
+				"Cask": {
+					"0": "388 30 709 3 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2"
+				}
 			},
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"Machines": "Hard",
 				"HasSeenEvent: anyPlayer| contains=1000083": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Preserves Jar": { "0": "388 50 390 40 709 15 726 3" },
-				"Keg": { "0": "388 40 334 3 335 3 725 3" },
-				"Cask": { "0": "388 40 709 3 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2" }
+				"Preserves Jar": {
+					"0": "388 50 390 40 709 15 726 3"
+				},
+				"Keg": {
+					"0": "388 40 334 3 335 3 725 3"
+				},
+				"Cask": {
+					"0": "388 40 709 3 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2"
+				}
 			},
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"Machines": "Very Hard",
 				"HasSeenEvent: anyPlayer| contains=1000083": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		//Sprinklers
@@ -159,127 +330,261 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Sprinkler": { "0": "334 1 338 1" },
-				"Quality Sprinkler": { "0": "335 1 336 1 338 1" },
-				"Iridium Sprinkler": { "0": "336 1 337 1 338 2 787 1" },
+				"Sprinkler": {
+					"0": "334 1 338 1"
+				},
+				"Quality Sprinkler": {
+					"0": "335 1 336 1 338 1"
+				},
+				"Iridium Sprinkler": {
+					"0": "336 1 337 1 338 2 787 1"
+				}
 			},
-			"When": { "Sprinklers": "Normal" }
+			"When": {
+				"Sprinklers": "Normal"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Sprinkler": { "0": "334 2 338 1" },
-				"Quality Sprinkler": { "0": "335 2 336 2 338 1" },
-				"Iridium Sprinkler": { "0": "336 2 337 2 338 1 787 1" },
+				"Sprinkler": {
+					"0": "334 2 338 1"
+				},
+				"Quality Sprinkler": {
+					"0": "335 2 336 2 338 1"
+				},
+				"Iridium Sprinkler": {
+					"0": "336 2 337 2 338 1 787 1"
+				}
 			},
-			"When": { "Sprinklers": "Hard" }
+			"When": {
+				"Sprinklers": "Hard"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Sprinkler": { "0": "334 2 338 2" },
-				"Quality Sprinkler": { "0": "335 3 336 2 338 2" },
-				"Iridium Sprinkler": { "0": "336 3 337 2 338 2 787 1" },
+				"Sprinkler": {
+					"0": "334 2 338 2"
+				},
+				"Quality Sprinkler": {
+					"0": "335 3 336 2 338 2"
+				},
+				"Iridium Sprinkler": {
+					"0": "336 3 337 2 338 2 787 1"
+				}
 			},
-			"When": { "Sprinklers": "Very Hard" }
+			"When": {
+				"Sprinklers": "Very Hard"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Basic Fertilizer": { "0": "92 10 766 2", "2": "368 5" },
-				"Quality Fertilizer": { "0": "92 10 766 3 684 2", "2": "369 5" },
-				"Deluxe Fertilizer": { "0": "92 15 766 10 684 5 909 1" },
-				"Speed-Gro": { "0": "92 10 Moss 2" },
-				"Deluxe Speed-Gro": { "0": "92 10 Moss 3 766 3 881 2" },
-				"Hyper Speed-Gro": { "0": "92 15 Moss 5 766 5 881 5 909 1", "2": "918 5" },
-				"Basic Retaining Soil": { "0": "390 10", "2": "370 5" },
-				"Quality Retaining Soil": { "0": "390 10 330 1", "2": "371 5" },
-				"Deluxe Retaining Soil": { "0": "390 25 771 10 330 3", "2": "920 5" },
-				"Tree Fertilizer": { "0": "771 5 Moss 2" }
+				"Basic Fertilizer": {
+					"0": "92 10 766 2",
+					"2": "368 5"
+				},
+				"Quality Fertilizer": {
+					"0": "92 10 766 3 684 2",
+					"2": "369 5"
+				},
+				"Deluxe Fertilizer": {
+					"0": "92 15 766 10 684 5 909 1"
+				},
+				"Speed-Gro": {
+					"0": "92 10 Moss 2"
+				},
+				"Deluxe Speed-Gro": {
+					"0": "92 10 Moss 3 766 3 881 2"
+				},
+				"Hyper Speed-Gro": {
+					"0": "92 15 Moss 5 766 5 881 5 909 1",
+					"2": "918 5"
+				},
+				"Basic Retaining Soil": {
+					"0": "390 10",
+					"2": "370 5"
+				},
+				"Quality Retaining Soil": {
+					"0": "390 10 330 1",
+					"2": "371 5"
+				},
+				"Deluxe Retaining Soil": {
+					"0": "390 25 771 10 330 3",
+					"2": "920 5"
+				},
+				"Tree Fertilizer": {
+					"0": "771 5 Moss 2"
+				}
 			},
-			"When": { "Fertilizers": true }
+			"When": {
+				"Fertilizers": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Cherry Bomb": { "0": "378 2 382 1" },
-				"Bomb": { "0": "380 2 378 1 382 1" },
-				"Mega Bomb": { "0": "384 2 380 1 382 1 768 1 769 1" }
+				"Cherry Bomb": {
+					"0": "378 2 382 1"
+				},
+				"Bomb": {
+					"0": "380 2 378 1 382 1"
+				},
+				"Mega Bomb": {
+					"0": "384 2 380 1 382 1 768 1 769 1"
+				}
 			},
-			"When": { "Bombs": true }
+			"When": {
+				"Bombs": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Explosive Ammo": { "0": "380 4 382 1" }
+				"Explosive Ammo": {
+					"0": "380 4 382 1"
+				}
 			},
-			"When": { "Ammo": true }
+			"When": {
+				"Ammo": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Bait": { "0": "684 1", "2": "685 10" },
-				"Deluxe Bait": { "0": "685 5 Moss 2" },
-				"Wild Bait": { "0": "771 5 766 1 684 1 DeluxeBait 5" },
-				"Magic Bait": { "0": "909 1 92 5 684 1 DeluxeBait 5" },
-				"Challenge Bait": { "0": "881 3 Moss 1 684 1 DeluxeBait 5" },
-				"Magnet": { "0": "335 1 685 5", "2": "703 5" }
+				"Bait": {
+					"0": "684 1",
+					"2": "685 10"
+				},
+				"Deluxe Bait": {
+					"0": "685 5 Moss 2"
+				},
+				"Wild Bait": {
+					"0": "771 5 766 1 684 1 DeluxeBait 5"
+				},
+				"Magic Bait": {
+					"0": "909 1 92 5 684 1 DeluxeBait 5"
+				},
+				"Challenge Bait": {
+					"0": "881 3 Moss 1 684 1 DeluxeBait 5"
+				},
+				"Magnet": {
+					"0": "335 1 685 5",
+					"2": "703 5"
+				}
 			},
-			"When": { "Fishing Baits": true }
+			"When": {
+				"Fishing Baits": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Spinner": { "0": "335 1" },
-				"Trap Bobber": { "0": "334 1" },
-				"Dressed Spinner": { "0": "335 1 766 2 684 2" },
-				"Cork Bobber": { "0": "388 5 709 5 92 5" },
-				"Treasure Hunter": { "0": "336 1" },
-				"Quality Bobber": { "0": "336 1 92 10 881 2 768 5" }
+				"Spinner": {
+					"0": "335 1"
+				},
+				"Trap Bobber": {
+					"0": "334 1"
+				},
+				"Dressed Spinner": {
+					"0": "335 1 766 2 684 2"
+				},
+				"Cork Bobber": {
+					"0": "388 5 709 5 92 5"
+				},
+				"Treasure Hunter": {
+					"0": "336 1"
+				},
+				"Quality Bobber": {
+					"0": "336 1 92 10 881 2 768 5"
+				}
 			},
-			"When": { "Fishing Lures": true }
+			"When": {
+				"Fishing Lures": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Warp Totem: Farm": { "0": "709 1 330 1 771 5" },
-				"Warp Totem: Beach": { "0": "709 1 330 1 393 2" },
-				"Warp Totem: Mountains": { "0": "709 1 330 1 390 10" },
-				"Rain Totem": { "0": "709 1 432 1 769 5 Moss 5" }
+				"Warp Totem: Farm": {
+					"0": "709 1 330 1 771 5"
+				},
+				"Warp Totem: Beach": {
+					"0": "709 1 330 1 393 2"
+				},
+				"Warp Totem: Mountains": {
+					"0": "709 1 330 1 390 10"
+				},
+				"Rain Totem": {
+					"0": "709 1 432 1 769 5 Moss 5"
+				}
 			},
-			"When": { "Warp Totems": true }
+			"When": {
+				"Warp Totems": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Wild Seeds (Sp)": { "0": "16 1 18 1 20 1 22 1", "2": "495 15" },
-				"Wild Seeds (Su)": { "0": "396 1 398 1 402 1", "2": "496 10" },
-				"Wild Seeds (Fa)": { "0": "404 1 406 1 408 1 410 1", "2": "497 15" },
-				"Wild Seeds (Wi)": { "0": "412 1 414 1 416 1 418 1", "2": "498 15" },
-				"Tea Sapling": { "0": "-777 4 771 5 388 5" }
+				"Wild Seeds (Sp)": {
+					"0": "16 1 18 1 20 1 22 1",
+					"2": "495 15"
+				},
+				"Wild Seeds (Su)": {
+					"0": "396 1 398 1 402 1",
+					"2": "496 10"
+				},
+				"Wild Seeds (Fa)": {
+					"0": "404 1 406 1 408 1 410 1",
+					"2": "497 15"
+				},
+				"Wild Seeds (Wi)": {
+					"0": "412 1 414 1 416 1 418 1",
+					"2": "498 15"
+				},
+				"Tea Sapling": {
+					"0": "-777 4 771 5 388 5"
+				}
 			},
-			"When": { "Wild Seeds": true }
+			"When": {
+				"Wild Seeds": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Fairy Dust": { "0": "72 1 595 1", "2": "872 2" },
-				"Grass Starter": { "0": "771 5" },
-				"Field Snack": { "0": "309 1 310 1 311 1", "2": "403 2" },
-				"Bug Steak": { "0": "684 3" },
-				"Staircase": { "0": "390 100" }
+				"Fairy Dust": {
+					"0": "72 1 595 1",
+					"2": "872 2"
+				},
+				"Grass Starter": {
+					"0": "771 5"
+				},
+				"Field Snack": {
+					"0": "309 1 310 1 311 1",
+					"2": "403 2"
+				},
+				"Bug Steak": {
+					"0": "684 3"
+				},
+				"Staircase": {
+					"0": "390 100"
+				}
 			},
-			"When": { "Miscellaneous": true }
+			"When": {
+				"Miscellaneous": true
+			}
 		}
 	]
 }

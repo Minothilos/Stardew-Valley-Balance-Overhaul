@@ -4,21 +4,37 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"radm.milkdasheep_SheepMilk": { "Price": "150" }, //Sheep Milk
-				"radm.milkdasheep_LargeSheepMilk": { "Price": "300" }, //Large Sheep Milk
-				"radm.milkdasheep_SheepCheese": { "Price": "300" }, //Sheep Cheese
-				"428": { "Price": "620" }, //Cloth
-				"446": { "Price": "620" } //Rabbit's Foot
+				"radm.milkdasheep_SheepMilk": {
+					"Price": "150"
+				}, //Sheep Milk
+				"radm.milkdasheep_LargeSheepMilk": {
+					"Price": "300"
+				}, //Large Sheep Milk
+				"radm.milkdasheep_SheepCheese": {
+					"Price": "300"
+				}, //Sheep Cheese
+				"428": {
+					"Price": "620"
+				}, //Cloth
+				"446": {
+					"Price": "620"
+				} //Rabbit's Foot
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"428": { "Price": "620" } //Cloth
+				"428": {
+					"Price": "620"
+				} //Cloth
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Logname": "Modify sheep produce!!",
@@ -57,7 +73,9 @@
 					]
 				}
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Logname": "Rabbits produce faster",
@@ -68,27 +86,48 @@
 					"DaysToProduce": 3
 				}
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		//Machine Processing
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "radm.milkdasheep_SheepCheese", "OutputItem", "#0"], //Cask - Cheese
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"radm.milkdasheep_SheepCheese",
+				"OutputItem",
+				"#0"
+			], //Cask - Cheese
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.33"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true" },
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
+			},
 			"Priority": "Late +1"
 		},
 		//Large Animal Products Only
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0"], //Cheese Press - Large Sheep Milk
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"radm.milkdasheep_LargeSheepMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Sheep Milk
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only"
 			}
@@ -96,7 +135,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_SheepMilk", "OutputItem", "#0"], //Cheese Press - Sheep Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"radm.milkdasheep_SheepMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Sheep Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -116,12 +161,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0"], //Cheese Press - Large Sheep Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"radm.milkdasheep_LargeSheepMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Sheep Milk
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -149,12 +202,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_SheepMilk", "OutputItem", "#0"], //Cheese Press - Sheep Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"radm.milkdasheep_SheepMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Sheep Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -174,12 +235,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "radm.milkdasheep_LargeSheepMilk", "OutputItem", "#0"], //Cheese Press - Large Sheep Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"radm.milkdasheep_LargeSheepMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Sheep Milk
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -207,7 +277,10 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		}
 	]
 }

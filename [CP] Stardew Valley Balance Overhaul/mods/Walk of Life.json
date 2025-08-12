@@ -4,8 +4,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"DaLion.Professions_OstrichMayo": { "Price": "2000" }, // Ostrich Mayonnaise
-				"DaLion.Professions_GoldenMayo": { "Price": "600" } // Golden Mayonnaise
+				"DaLion.Professions_OstrichMayo": {
+					"Price": "2000"
+				}, // Ostrich Mayonnaise
+				"DaLion.Professions_GoldenMayo": {
+					"Price": "600"
+				} // Golden Mayonnaise
 			},
 			"When": {
 				"Sell Prices": true,
@@ -17,12 +21,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"DaLion.Professions_OstrichMayo": { "Price": "2200" }, //Ostrich Mayonnaise
-				"DaLion.Professions_GoldenMayo": { "Price": "650" } //Golden Mayonnaise
+				"DaLion.Professions_OstrichMayo": {
+					"Price": "2200"
+				}, //Ostrich Mayonnaise
+				"DaLion.Professions_GoldenMayo": {
+					"Price": "650"
+				} //Golden Mayonnaise
 			},
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
-				"HasMod": "DaLion.Professions",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP, DaLion.Professions",
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true
 			}
@@ -32,9 +39,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"724": { "Price": "225" }, //Maple Syrup
-				"725": { "Price": "190" }, //Oak Resin
-				"726": { "Price": "150" } //Pine Tar
+				"724": {
+					"Price": "225"
+				}, //Maple Syrup
+				"725": {
+					"Price": "190"
+				}, //Oak Resin
+				"726": {
+					"Price": "150"
+				} //Pine Tar
 			},
 			"When": {
 				"Sell Prices": true
@@ -44,19 +57,25 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { "Price": "115" },
-				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { "Price": "265" }
+				"FlashShifter.StardewValleyExpandedCP_Birch_Water": {
+					"Price": "115"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": {
+					"Price": "265"
+				}
 			},
 			"When": {
 				"Sell Prices": true,
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_ChicleRubber": { "Price": "205" } // Chicle Rubber
+				"Cornucopia_ChicleRubber": {
+					"Price": "205"
+				} // Chicle Rubber
 			},
 			"When": {
 				"Sell Prices": true,
@@ -66,7 +85,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_OstrichEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Ostrich Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -86,12 +111,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=6480.blueegg": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=6480.blueegg": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_GoldenEgg", "OutputItem", "#0"], //Mayonnaise Machine - Golden Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_GoldenEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Golden Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -111,18 +145,25 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=6480.blueegg": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=6480.blueegg": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"DaLion.Professions_SlimeMayo": { "Price": "150" }, // Slime Mayonnaise
-				"DaLion.Professions_SlimeCheese": { "Price": "370" } // Slime Cheese
+				"DaLion.Professions_SlimeMayo": {
+					"Price": "150"
+				}, // Slime Mayonnaise
+				"DaLion.Professions_SlimeCheese": {
+					"Price": "370"
+				} // Slime Cheese
 			},
 			"When": {
 				"Sell Prices": true
 			}
-		},
+		}
 	]
 }

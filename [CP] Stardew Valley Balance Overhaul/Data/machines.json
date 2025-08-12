@@ -5,214 +5,444 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Quartz"],
-			"Entries": { "Amount": "500" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Quartz"
+			],
+			"Entries": {
+				"Amount": "500"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Emerald"],
-			"Entries": { "Amount": "2500" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Emerald"
+			],
+			"Entries": {
+				"Amount": "2500"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Topaz"],
-			"Entries": { "Amount": "1500" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Topaz"
+			],
+			"Entries": {
+				"Amount": "1500"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Jade"],
-			"Entries": { "Amount": "2000" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Jade"
+			],
+			"Entries": {
+				"Amount": "2000"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Ruby"],
-			"Entries": { "Amount": "2500" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Ruby"
+			],
+			"Entries": {
+				"Amount": "2500"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Aquamarine"],
-			"Entries": { "Amount": "2000" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Aquamarine"
+			],
+			"Entries": {
+				"Amount": "2000"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Amethyst"],
-			"Entries": { "Amount": "1500" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Amethyst"
+			],
+			"Entries": {
+				"Amount": "1500"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Diamond"],
-			"Entries": { "Amount": "5000" },
-			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": false, "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Diamond"
+			],
+			"Entries": {
+				"Amount": "5000"
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Diamond"],
-			"Entries": { "Amount": "3000" },
-			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true, "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"Diamond"
+			],
+			"Entries": {
+				"Amount": "3000"
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "FireQuartz"],
-			"Entries": { "Amount": "1500" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"FireQuartz"
+			],
+			"Entries": {
+				"Amount": "1500"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "FrozenTear"],
-			"Entries": { "Amount": "1000" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"FrozenTear"
+			],
+			"Entries": {
+				"Amount": "1000"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)21", "ReadyTimeModifiers", "EarthCrystal"],
-			"Entries": { "Amount": "1200" },
-			"When": { "Sell Prices": true }
+			"TargetField": [
+				"(BC)21",
+				"ReadyTimeModifiers",
+				"EarthCrystal"
+			],
+			"Entries": {
+				"Amount": "1200"
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		//Flavored mead takes longer
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Honey"], //Keg - Mead Processing Time with Flavored Meads
-			"Entries": { "MinutesUntilReady": "6000" },
-			"When": { "Sell Prices": true, "HasMod|contains=selph.FlavoredMead": true }
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Honey"
+			], //Keg - Mead Processing Time with Flavored Meads
+			"Entries": {
+				"MinutesUntilReady": "6000"
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=selph.FlavoredMead": true
+			}
 		},
 		//Flavored mead smaller multiplier
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Honey", "OutputItem", "(O)459"],
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Honey",
+				"OutputItem",
+				"(O)459"
+			],
 			"Entries": {
 				"PriceModifiers": [
-					{ "Modification": "Multiply", "Amount": 1.5 },
-					{ "Modification": "Add", "Amount": 75 }
+					{
+						"Modification": "Multiply",
+						"Amount": 1.5
+					},
+					{
+						"Modification": "Add",
+						"Amount": 75
+					}
 				]
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		// Cask aging multiplier
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cheese", "OutputItem", "#0"], //Cask - Cheese
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cheese",
+				"OutputItem",
+				"#0"
+			], //Cask - Cheese
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "4"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true" }
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "GoatCheese", "OutputItem", "#0"], //Cask - Goat Cheese
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"GoatCheese",
+				"OutputItem",
+				"#0"
+			], //Cask - Goat Cheese
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.66"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true" }
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Wine", "OutputItem", "#0"], //Cask - Wine
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Wine",
+				"OutputItem",
+				"#0"
+			], //Cask - Wine
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "1.33"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true" }
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Mead", "OutputItem", "#0"], //Cask - Mead
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Mead",
+				"OutputItem",
+				"#0"
+			], //Cask - Mead
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.66"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true" }
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Mead", "OutputItem", "#0"], //Cask - Mead with Flavored Mead
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Mead",
+				"OutputItem",
+				"#0"
+			], //Cask - Mead with Flavored Mead
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "1.166"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true", "HasMod|contains=selph.FlavoredMead": true }
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true,
+				"HasMod|contains=selph.FlavoredMead": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "PaleAle", "OutputItem", "#0"], //Cask - Pale Ale
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"PaleAle",
+				"OutputItem",
+				"#0"
+			], //Cask - Pale Ale
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "5.7"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true" }
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Beer", "OutputItem", "#0"], //Cask - Beer
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Beer",
+				"OutputItem",
+				"#0"
+			], //Cask - Beer
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
 				}
 			},
-			"When": { "Sell Prices": true, "Cask Aging": "true" }
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
+			}
 		},
 		// Artisan Good settings
 		//Large Animal Products Only
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_LargeGoatMilk", "OutputItem", "#0"], //Cheese Press - Large Goat Milk
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only", "HasMod|contains=DaLion.Professions": false }
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Goat Milk
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_LargeMilk", "OutputItem", "#0"], //Cheese Press - Large Milk
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only", "HasMod|contains=DaLion.Professions": false }
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Milk
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_LargeEgg", "OutputItem", "#0"], //Mayonnaise Machine - Large Egg
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only", "HasMod|contains=DaLion.Professions": false }
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_LargeEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Large Egg
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		//On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Wheat", "OutputItem", "#0"], //Keg - Wheat
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wheat",
+				"OutputItem",
+				"#0"
+			], //Keg - Wheat
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -232,12 +462,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Hops", "OutputItem", "#0"], //Keg - Hops
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Hops",
+				"OutputItem",
+				"#0"
+			], //Keg - Hops
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -257,12 +495,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_TeaLeaves", "OutputItem", "#0"], //Keg - Tea Leaves
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_TeaLeaves",
+				"OutputItem",
+				"#0"
+			], //Keg - Tea Leaves
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -282,12 +528,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_CoffeeBeans", "OutputItem", "#0"], //Keg - Coffee Beans
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_CoffeeBeans",
+				"OutputItem",
+				"#0"
+			], //Keg - Coffee Beans
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -307,12 +561,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Honey", "OutputItem", "#0"], //Keg - Honey
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Honey",
+				"OutputItem",
+				"#0"
+			], //Keg - Honey
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -332,12 +594,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Rice", "OutputItem", "#0"], //Keg - Rice
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Rice",
+				"OutputItem",
+				"#0"
+			], //Keg - Rice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -357,12 +627,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Juice", "OutputItem", "#0"], //Keg - Juice
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Juice",
+				"OutputItem",
+				"#0"
+			], //Keg - Juice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -382,12 +660,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Wine", "OutputItem", "#0"], //Keg - Wine
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wine",
+				"OutputItem",
+				"#0"
+			], //Keg - Wine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -407,12 +693,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_SturgeonRoe", "OutputItem", "#0"], //Preserves Jar - Sturgeon Roe
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_SturgeonRoe",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Sturgeon Roe
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -432,12 +726,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_Roe", "OutputItem", "#0"], //Preserves Jar - Roe
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_Roe",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Roe
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -457,12 +759,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_Pickled", "OutputItem", "#0"], //Preserves Jar - Pickles
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_Pickled",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Pickles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -482,12 +792,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_Jelly", "OutputItem", "#0"], //Preserves Jar - Jelly
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_Jelly",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Jelly
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -507,12 +825,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_GoatMilk", "OutputItem", "#0"], //Cheese Press - Goat Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_GoatMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Goat Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -532,12 +858,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_LargeGoatMilk", "OutputItem", "#0"], //Cheese Press - Large Goat Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Goat Milk
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -566,12 +900,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_Milk", "OutputItem", "#0"], //Cheese Press - Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_Milk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -591,12 +933,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_LargeMilk", "OutputItem", "#0"], //Cheese Press - Large Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Milk
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -625,12 +975,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_Corn", "OutputItem", "#0"], //Oil Maker - Corn
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_Corn",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Corn
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -650,12 +1008,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_Sunflower", "OutputItem", "#0"], //Oil Maker - Sunflower
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_Sunflower",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Sunflower
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -675,12 +1041,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_SunflowerSeeds", "OutputItem", "#0"], //Oil Maker - Sunflower Seeds
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_SunflowerSeeds",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Sunflower Seeds
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -700,12 +1074,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_Truffle", "OutputItem", "#0"], //Oil Maker - Truffle
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_Truffle",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Truffle
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -725,12 +1107,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_OstrichEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -750,12 +1140,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_DuckEgg", "OutputItem", "#0"], //Mayonnaise Machine - Duck Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_DuckEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Duck Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -775,12 +1173,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_VoidEgg", "OutputItem", "#0"], //Mayonnaise Machine - Void Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_VoidEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Void Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -800,12 +1206,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_DinosaurEgg", "OutputItem", "#0"], //Mayonnaise Machine - Dinosaur Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_DinosaurEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Dinosaur Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -825,12 +1239,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_LargeEgg", "OutputItem", "#0"], //Mayonnaise Machine - Large Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_LargeEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Large Egg
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -859,12 +1281,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_Egg", "OutputItem", "#0"], //Mayonnaise Machine - Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_Egg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -884,12 +1314,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "Raisins", "OutputItem", "#0"], //Dehydrator - Raisins
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Raisins",
+				"OutputItem",
+				"#0"
+			], //Dehydrator - Raisins
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -909,12 +1347,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "DriedFruit", "OutputItem", "#0"], //Dehydrator - Dried Fruit
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"DriedFruit",
+				"OutputItem",
+				"#0"
+			], //Dehydrator - Dried Fruit
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -934,12 +1380,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "DriedMushrooms", "OutputItem", "#0"], //Dehydrator - Dried Mushrooms
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"DriedMushrooms",
+				"OutputItem",
+				"#0"
+			], //Dehydrator - Dried Mushrooms
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -959,12 +1413,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Default", "OutputItem", "#0"], //Loom
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"#0"
+			], //Loom
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -984,13 +1446,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		//On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Wheat", "OutputItem", "#0"], //Keg - Wheat
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wheat",
+				"OutputItem",
+				"#0"
+			], //Keg - Wheat
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1010,12 +1480,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Hops", "OutputItem", "#0"], //Keg - Hops
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Hops",
+				"OutputItem",
+				"#0"
+			], //Keg - Hops
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1035,12 +1514,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_TeaLeaves", "OutputItem", "#0"], //Keg - Tea Leaves
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_TeaLeaves",
+				"OutputItem",
+				"#0"
+			], //Keg - Tea Leaves
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1060,12 +1548,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_CoffeeBeans", "OutputItem", "#0"], //Keg - Coffee Beans
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_CoffeeBeans",
+				"OutputItem",
+				"#0"
+			], //Keg - Coffee Beans
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1085,12 +1582,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Honey", "OutputItem", "#0"], //Keg - Honey
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Honey",
+				"OutputItem",
+				"#0"
+			], //Keg - Honey
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1110,12 +1616,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Rice", "OutputItem", "#0"], //Keg - Rice
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Rice",
+				"OutputItem",
+				"#0"
+			], //Keg - Rice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1135,12 +1650,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Juice", "OutputItem", "#0"], //Keg - Juice
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Juice",
+				"OutputItem",
+				"#0"
+			], //Keg - Juice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1160,12 +1684,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Default_Wine", "OutputItem", "#0"], //Keg - Wine
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Wine",
+				"OutputItem",
+				"#0"
+			], //Keg - Wine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1185,12 +1718,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_SturgeonRoe", "OutputItem", "#0"], //Preserves Jar - Sturgeon Roe
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_SturgeonRoe",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Sturgeon Roe
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1210,12 +1752,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_Roe", "OutputItem", "#0"], //Preserves Jar - Roe
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_Roe",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Roe
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1235,12 +1786,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_Pickled", "OutputItem", "#0"], //Preserves Jar - Pickles
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_Pickled",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Pickles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1260,12 +1820,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Default_Jelly", "OutputItem", "#0"], //Preserves Jar - Jelly
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Default_Jelly",
+				"OutputItem",
+				"#0"
+			], //Preserves Jar - Jelly
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1285,12 +1854,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_GoatMilk", "OutputItem", "#0"], //Cheese Press - Goat Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_GoatMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Goat Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1310,12 +1888,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_LargeGoatMilk", "OutputItem", "#0"], //Cheese Press - Large Goat Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Large Goat Milk
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1344,12 +1931,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Default_Milk", "OutputItem", "#0"], //Cheese Press - Milk
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_Milk",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1369,12 +1965,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_OstrichEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"MinStack": "15",
 				"Quality": "0",
@@ -1500,12 +2105,22 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false, "HasMod|contains=6480.blueegg": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false,
+				"HasMod|contains=6480.blueegg": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_GoldenEgg", "OutputItem", "#0"], //Mayonnaise Machine - Golden Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_GoldenEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Golden Mayo
 			"Entries": {
 				"MinStack": "3",
 				"Quality": "2",
@@ -1540,12 +2155,22 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false, "HasMod|contains=6480.blueegg": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false,
+				"HasMod|contains=6480.blueegg": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_Corn", "OutputItem", "#0"], //Oil Maker - Corn
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_Corn",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Corn
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1565,12 +2190,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_Sunflower", "OutputItem", "#0"], //Oil Maker - Sunflower
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_Sunflower",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Sunflower
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1590,12 +2224,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_SunflowerSeeds", "OutputItem", "#0"], //Oil Maker - Sunflower Seeds
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_SunflowerSeeds",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Sunflower Seeds
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1615,12 +2258,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Default_Truffle", "OutputItem", "#0"], //Oil Maker - Truffle
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Default_Truffle",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Truffle
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1640,12 +2292,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_DuckEgg", "OutputItem", "#0"], //Mayonnaise Machine - Duck Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_DuckEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Duck Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1665,12 +2326,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_VoidEgg", "OutputItem", "#0"], //Mayonnaise Machine - Void Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_VoidEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Void Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1690,12 +2360,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_DinosaurEgg", "OutputItem", "#0"], //Mayonnaise Machine - Dinosaur Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_DinosaurEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Dinosaur Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1715,12 +2394,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_LargeEgg", "OutputItem", "#0"], //Mayonnaise Machine - Large Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_LargeEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Large Egg
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1749,12 +2437,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Default_Egg", "OutputItem", "#0"], //Mayonnaise Machine - Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_Egg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1774,12 +2471,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "Raisins", "OutputItem", "#0"], //Dehydrator - Raisins
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Raisins",
+				"OutputItem",
+				"#0"
+			], //Dehydrator - Raisins
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1799,12 +2505,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "DriedFruit", "OutputItem", "#0"], //Dehydrator - Dried Fruit
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"DriedFruit",
+				"OutputItem",
+				"#0"
+			], //Dehydrator - Dried Fruit
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1824,12 +2539,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "DriedMushrooms", "OutputItem", "#0"], //Dehydrator - Dried Mushrooms
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"DriedMushrooms",
+				"OutputItem",
+				"#0"
+			], //Dehydrator - Dried Mushrooms
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1849,12 +2573,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Default", "OutputItem", "#0"], //Loom
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"#0"
+			], //Loom
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1874,13 +2607,22 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		//Improved Bait Maker
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)BaitMaker", "OutputRules", "Default", "OutputItem", "#0"], //BaitMaker
+			"TargetField": [
+				"(BC)BaitMaker",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"#0"
+			], //BaitMaker
 			"Entries": {
 				"StackModifiers": [
 					{
@@ -1906,13 +2648,21 @@
 					}
 				]
 			},
-			"When": { "Bait Maker Output": "true" }
+			"When": {
+				"Bait Maker Output": true
+			}
 		},
 		//Improved Seed Maker
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)25", "OutputRules", "Default", "OutputItem", "#0"], //Seed Maker
+			"TargetField": [
+				"(BC)25",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"#0"
+			], //Seed Maker
 			"Entries": {
 				"StackModifiers": [
 					{
@@ -1938,7 +2688,9 @@
 					}
 				]
 			},
-			"When": { "Seed Maker Output": "true" }
-		},
+			"When": {
+				"Seed Maker Output": true
+			}
+		}
 	]
 }

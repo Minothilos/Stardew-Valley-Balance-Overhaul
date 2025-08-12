@@ -4,31 +4,55 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"selph.ExtraTappers.BeeHouse": { "0": "(BC)10 1 388 10 335 1" }, //Now also needs 1 Iron Bar
-				"selph.ExtraTappers.MushroomGrower": { "0": "709 20 Moss 15 404 1 257 1 281 1" }, //Requires a small selection of mushrooms
-				"selph.ExtraTappers.BirdHouse": { "0": "388 40 335 1 178 2 770 5" } //Now also needs 5 mixed seeds
+				"selph.ExtraTappers.BeeHouse": {
+					"0": "(BC)10 1 388 10 335 1"
+				}, //Now also needs 1 Iron Bar
+				"selph.ExtraTappers.MushroomGrower": {
+					"0": "709 20 Moss 15 404 1 257 1 281 1"
+				}, //Requires a small selection of mushrooms
+				"selph.ExtraTappers.BirdHouse": {
+					"0": "388 40 335 1 178 2 770 5"
+				} //Now also needs 5 mixed seeds
 			},
-			"When": { "Machines": "Normal" }
+			"When": {
+				"Machines": "Normal"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"selph.ExtraTappers.BeeHouse": { "0": "(BC)10 1 388 15 335 1" }, //Now also needs 1 Iron Bar
-				"selph.ExtraTappers.MushroomGrower": { "0": "709 25 Moss 20 404 2 257 2 281 2" }, //Requires a small selection of mushrooms
-				"selph.ExtraTappers.BirdHouse": { "0": "388 50 335 2 178 2 770 5" } //Now also need 5 mixed seeds
+				"selph.ExtraTappers.BeeHouse": {
+					"0": "(BC)10 1 388 15 335 1"
+				}, //Now also needs 1 Iron Bar
+				"selph.ExtraTappers.MushroomGrower": {
+					"0": "709 25 Moss 20 404 2 257 2 281 2"
+				}, //Requires a small selection of mushrooms
+				"selph.ExtraTappers.BirdHouse": {
+					"0": "388 50 335 2 178 2 770 5"
+				} //Now also need 5 mixed seeds
 			},
-			"When": { "Machines": "Hard" }
+			"When": {
+				"Machines": "Hard"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"selph.ExtraTappers.BeeHouse": { "0": "(BC)10 1 388 20 335 1" }, //Now also needs 1 Iron Bar
-				"selph.ExtraTappers.MushroomGrower": { "0": "709 25 Moss 20 404 3 257 3 281 3" }, //Requires a small selection of mushrooms
-				"selph.ExtraTappers.BirdHouse": { "0": "388 60 335 3 178 2 770 5" } //Now also need 5 mixed seeds
+				"selph.ExtraTappers.BeeHouse": {
+					"0": "(BC)10 1 388 20 335 1"
+				}, //Now also needs 1 Iron Bar
+				"selph.ExtraTappers.MushroomGrower": {
+					"0": "709 25 Moss 20 404 3 257 3 281 3"
+				}, //Requires a small selection of mushrooms
+				"selph.ExtraTappers.BirdHouse": {
+					"0": "388 60 335 3 178 2 770 5"
+				} //Now also need 5 mixed seeds
 			},
-			"When": { "Machines": "Very Hard" }
+			"When": {
+				"Machines": "Very Hard"
+			}
 		},
 		{
 			"Action": "EditData",

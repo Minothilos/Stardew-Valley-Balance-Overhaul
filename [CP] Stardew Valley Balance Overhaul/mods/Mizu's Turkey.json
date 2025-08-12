@@ -5,9 +5,17 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Turkey_TurkeyEgg": { "Price": "300", "Edibility": "15" }, // Turkey Egg
-				"Mizu.Turkey_TurkeyFeather": { "Price": "500" }, // Turkey Feather
-				"Mizu.Turkey_TurkeyMayonnaise": { "Price": "700", "Edibility": "35" } // Turkey Mayonnaise
+				"Mizu.Turkey_TurkeyEgg": {
+					"Price": "300",
+					"Edibility": "15"
+				}, // Turkey Egg
+				"Mizu.Turkey_TurkeyFeather": {
+					"Price": "500"
+				}, // Turkey Feather
+				"Mizu.Turkey_TurkeyMayonnaise": {
+					"Price": "700",
+					"Edibility": "35"
+				} // Turkey Mayonnaise
 			},
 			"When": {
 				"Sell Prices": true
@@ -16,8 +24,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Mizu.Turkey_TurkeyEgg", "ContextTags"], //Turkey Eggs Eggs are large egg items
-			"Entries": { "#-1": "item_large_egg" },
+			"TargetField": [
+				"Mizu.Turkey_TurkeyEgg",
+				"ContextTags"
+			], //Turkey Eggs Eggs are large egg items
+			"Entries": {
+				"#-1": "item_large_egg"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -39,7 +52,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "TurkeyMayonnaise", "OutputItem", "#0"], //Mayonnaise Machine - Turkey Mayonnaise
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"TurkeyMayonnaise",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Turkey Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -67,7 +86,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "TurkeyMayonnaise", "OutputItem", "#0"], //Mayonnaise Machine - Turkey Mayonnaise
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"TurkeyMayonnaise",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Turkey Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -97,11 +122,21 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Turkey_TurkeyMeat": { "Price": "400" }, // Turkey Meat
-				"Mizu.Turkey_TurkeyRice": { "Price": "415" }, // Turkey Rice
-				"Mizu.Turkey_RoastTurkey": { "Price": "1110" }, // Roast Turkey
-				"Mizu.Turkey_Turducken": { "Price": "2610" }, // Turducken
-				"Mizu.Turkey_TurkeyLeg": { "Price": "550" } // Turkey Leg
+				"Mizu.Turkey_TurkeyMeat": {
+					"Price": "400"
+				}, // Turkey Meat
+				"Mizu.Turkey_TurkeyRice": {
+					"Price": "415"
+				}, // Turkey Rice
+				"Mizu.Turkey_RoastTurkey": {
+					"Price": "1110"
+				}, // Roast Turkey
+				"Mizu.Turkey_Turducken": {
+					"Price": "2610"
+				}, // Turducken
+				"Mizu.Turkey_TurkeyLeg": {
+					"Price": "550"
+				} // Turkey Leg
 			},
 			"When": {
 				"Sell Prices": true,
@@ -112,7 +147,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Turkey_RoastTurkey": { "Price": "1220" } // Roast Turkey with Herbs Pack
+				"Mizu.Turkey_RoastTurkey": {
+					"Price": "1220"
+				} // Roast Turkey with Herbs Pack
 			},
 			"When": {
 				"Sell Prices": true,
@@ -177,7 +214,10 @@
 						{
 							"Duration": "600",
 							"IsDebuff": false,
-							"CustomAttributes": { "MaxStamina": "50", "Speed": "1" }
+							"CustomAttributes": {
+								"MaxStamina": "50",
+								"Speed": "1"
+							}
 						}
 					],
 					"Edibility": "50"

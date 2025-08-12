@@ -6,94 +6,186 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_PrismaticEssence": { "Price": "2500" }, // Prismatic Essence
-				"Cornucopia_CoconutButter": { "Price": "200" }, // Coconut Butter
-				"Cornucopia_CookieButter": { "Price": "250" }, // Cookie Butter
-				"Cornucopia_Margarine": { "Price": "175" }, // Margarine
-				"Cornucopia_ChiliPowder": { "Price": "100" }, // ChiliPowder
-				"Cornucopia_RoastedGarlic": { "Price": "200" }, // Roasted Garlic
-				"Cornucopia_RoastedPumpkinSeeds": { "Price": "150" }, // Roasted Pumpkin Seeds
-				"Cornucopia_RoastedSunflowerSeeds": { "Price": "175" }, // Roasted Sunflower Seeds
-				"Cornucopia_GlassNoodles": { "Price": "200" }, // Glass Noodles
-				"Cornucopia_RiceNoodles": { "Price": "200" }, // Rice Noodles
-				"Cornucopia_WheatNoodles": { "Price": "150" }, // Wheat Noodles
-				"Cornucopia_GarlicMayonnaise": { "Price": "285" }, // Garlic Mayonnaise
-				"Cornucopia_SpicyMayonnaise": { "Price": "240" }, // Spicy Mayonnaise
-				"Cornucopia_CornFlour": { "Price": "50" }, // Corn Flour
-				"Cornucopia_ChiliOil": { "Price": "250" }, // Chili Oil
-				"Cornucopia_Sauerkraut": { "Price": "320" }, // Sauerkraut
-				"Cornucopia_Starmite": { "Price": "250" } // Starmite
+				"Cornucopia_PrismaticEssence": {
+					"Price": "2500"
+				}, // Prismatic Essence
+				"Cornucopia_CoconutButter": {
+					"Price": "200"
+				}, // Coconut Butter
+				"Cornucopia_CookieButter": {
+					"Price": "250"
+				}, // Cookie Butter
+				"Cornucopia_Margarine": {
+					"Price": "175"
+				}, // Margarine
+				"Cornucopia_ChiliPowder": {
+					"Price": "100"
+				}, // ChiliPowder
+				"Cornucopia_RoastedGarlic": {
+					"Price": "200"
+				}, // Roasted Garlic
+				"Cornucopia_RoastedPumpkinSeeds": {
+					"Price": "150"
+				}, // Roasted Pumpkin Seeds
+				"Cornucopia_RoastedSunflowerSeeds": {
+					"Price": "175"
+				}, // Roasted Sunflower Seeds
+				"Cornucopia_GlassNoodles": {
+					"Price": "200"
+				}, // Glass Noodles
+				"Cornucopia_RiceNoodles": {
+					"Price": "200"
+				}, // Rice Noodles
+				"Cornucopia_WheatNoodles": {
+					"Price": "150"
+				}, // Wheat Noodles
+				"Cornucopia_GarlicMayonnaise": {
+					"Price": "285"
+				}, // Garlic Mayonnaise
+				"Cornucopia_SpicyMayonnaise": {
+					"Price": "240"
+				}, // Spicy Mayonnaise
+				"Cornucopia_CornFlour": {
+					"Price": "50"
+				}, // Corn Flour
+				"Cornucopia_ChiliOil": {
+					"Price": "250"
+				}, // Chili Oil
+				"Cornucopia_Sauerkraut": {
+					"Price": "320"
+				}, // Sauerkraut
+				"Cornucopia_Starmite": {
+					"Price": "250"
+				} // Starmite
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_PrismaticEssence": { "Price": "2500" } // Prismatic Essence
+				"Cornucopia_PrismaticEssence": {
+					"Price": "2500"
+				} // Prismatic Essence
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_ShrimpPaste": { "Price": "210" }, // Shrimp Paste
-				"Cornucopia_SmokedSalmon": { "Price": "200" }, // Smoked Salmon
-				"Cornucopia_DriedSquid": { "Price": "275" }, // Dried Sqiud
-				"Cornucopia_FishOil": { "Price": "250" }, // Fish Oil
-				"Cornucopia_FishSauce": { "Price": "550" }, // Fish Sauce
-				"Cornucopia_Garum": { "Price": "550" } // Garum
+				"Cornucopia_ShrimpPaste": {
+					"Price": "210"
+				}, // Shrimp Paste
+				"Cornucopia_SmokedSalmon": {
+					"Price": "200"
+				}, // Smoked Salmon
+				"Cornucopia_DriedSquid": {
+					"Price": "275"
+				}, // Dried Sqiud
+				"Cornucopia_FishOil": {
+					"Price": "250"
+				}, // Fish Oil
+				"Cornucopia_FishSauce": {
+					"Price": "550"
+				}, // Fish Sauce
+				"Cornucopia_Garum": {
+					"Price": "550"
+				} // Garum
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Butter": { "Price": "100" }, // Butter
-				"Cornucopia_TruffleMayonnaise": { "Price": "465" }, // Truffle Mayonnaise
-				"Cornucopia_CenturyEgg": { "Price": "390" }, // Century Egg
-				"Cornucopia_PlainYogurt": { "Price": "100" } // Plain Yogurt
+				"Cornucopia_Butter": {
+					"Price": "100"
+				}, // Butter
+				"Cornucopia_TruffleMayonnaise": {
+					"Price": "465"
+				}, // Truffle Mayonnaise
+				"Cornucopia_CenturyEgg": {
+					"Price": "390"
+				}, // Century Egg
+				"Cornucopia_PlainYogurt": {
+					"Price": "100"
+				} // Plain Yogurt
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_PrismaticEssence": { "Price": "2000" }, // Prismatic Essence
-				"Cornucopia_GellingPowder": { "Price": "175" } // Gelling Powder
+				"Cornucopia_PrismaticEssence": {
+					"Price": "2000"
+				}, // Prismatic Essence
+				"Cornucopia_GellingPowder": {
+					"Price": "175"
+				} // Gelling Powder
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Saffron": { "Price": "300" }, // Saffron
-				"Cornucopia_Salt": { "Price": "140" }, // Salt
-				"Cornucopia_CoconutMilk": { "Price": "325" }, // Coconut Milk
-				"Cornucopia_CoconutOil": { "Price": "250" } // Coconut Oil
+				"Cornucopia_Saffron": {
+					"Price": "300"
+				}, // Saffron
+				"Cornucopia_Salt": {
+					"Price": "140"
+				}, // Salt
+				"Cornucopia_CoconutMilk": {
+					"Price": "325"
+				}, // Coconut Milk
+				"Cornucopia_CoconutOil": {
+					"Price": "250"
+				} // Coconut Oil
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_HoneyButter": { "Price": "280" }, // Honey Butter
-				"Cornucopia_MapleButter": { "Price": "400" }, // Maple Butter
-				"Cornucopia_PineNuts": { "Price": "200" }, // Pine Nuts
-				"Cornucopia_Beeswax": { "Price": "200" } // Beeswax
+				"Cornucopia_HoneyButter": {
+					"Price": "280"
+				}, // Honey Butter
+				"Cornucopia_MapleButter": {
+					"Price": "400"
+				}, // Maple Butter
+				"Cornucopia_PineNuts": {
+					"Price": "200"
+				}, // Pine Nuts
+				"Cornucopia_Beeswax": {
+					"Price": "200"
+				} // Beeswax
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_MapleButter": { "Price": "325" } // Maple Butter
+				"Cornucopia_MapleButter": {
+					"Price": "325"
+				} // Maple Butter
 			},
 			"When": {
 				"Sell Prices": true,
@@ -104,8 +196,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_OrangeZest": { "Price": "180" }, // Orange Zest
-				"Cornucopia_Applesauce": { "Price": "210" } // Applesauce
+				"Cornucopia_OrangeZest": {
+					"Price": "180"
+				}, // Orange Zest
+				"Cornucopia_Applesauce": {
+					"Price": "210"
+				} // Applesauce
 			},
 			"When": {
 				"Sell Prices": true
@@ -116,27 +212,58 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_PeanutButter": { "Price": "125" }, // Peanut Butter
-				"Cornucopia_MisoPaste": { "Price": "410" }, // Miso Paste
-				"Cornucopia_Pepper": { "Price": "150" }, // Pepper
-				"Cornucopia_Zoodles": { "Price": "100" }, // Zoodles
-				"Cornucopia_BlackPepperMayonnaise": { "Price": "275" }, // Black Pepper Mayonnaise
-				"Cornucopia_OliveOilMayonnaise": { "Price": "375" }, // Olive Oil Mayonnaise
-				"Cornucopia_BrinedOlives": { "Price": "200" }, // Brined Olives
-				"Cornucopia_Kimchi": { "Price": "200" }, // Kimchi
-				"Cornucopia_PickleSpears": { "Price": "195" }, // Pickle Spears
-				"Cornucopia_SoySauce": { "Price": "275" }, // Soy Sauce
-				"Cornucopia_StinkyTofu": { "Price": "400" } // Stinky Tofu
+				"Cornucopia_PeanutButter": {
+					"Price": "125"
+				}, // Peanut Butter
+				"Cornucopia_MisoPaste": {
+					"Price": "410"
+				}, // Miso Paste
+				"Cornucopia_Pepper": {
+					"Price": "150"
+				}, // Pepper
+				"Cornucopia_Zoodles": {
+					"Price": "100"
+				}, // Zoodles
+				"Cornucopia_BlackPepperMayonnaise": {
+					"Price": "275"
+				}, // Black Pepper Mayonnaise
+				"Cornucopia_OliveOilMayonnaise": {
+					"Price": "375"
+				}, // Olive Oil Mayonnaise
+				"Cornucopia_BrinedOlives": {
+					"Price": "200"
+				}, // Brined Olives
+				"Cornucopia_Kimchi": {
+					"Price": "200"
+				}, // Kimchi
+				"Cornucopia_PickleSpears": {
+					"Price": "195"
+				}, // Pickle Spears
+				"Cornucopia_SoySauce": {
+					"Price": "275"
+				}, // Soy Sauce
+				"Cornucopia_StinkyTofu": {
+					"Price": "400"
+				} // Stinky Tofu
 			},
-			"When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Sell Prices": true }
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_CocoaButter": { "Price": "230" }, // Cocoa Butter
-				"Cornucopia_AvocadoMayonnaise": { "Price": "315" }, // Avocado Mayonnaise
-				"Cornucopia_AvocadoOil": { "Price": "315" } // Avocado Oil
+				"Cornucopia_CocoaButter": {
+					"Price": "230"
+				}, // Cocoa Butter
+				"Cornucopia_AvocadoMayonnaise": {
+					"Price": "315"
+				}, // Avocado Mayonnaise
+				"Cornucopia_AvocadoOil": {
+					"Price": "315"
+				} // Avocado Oil
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -148,10 +275,18 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_BuckwheatNoodles": { "Price": "150" }, // Buckwheat Noodles
-				"Cornucopia_SemolinaNoodles": { "Price": "215" }, // Semolina Noodles
-				"Cornucopia_WholeGrainNoodles": { "Price": "170" }, // Whole Grain Noodles
-				"Cornucopia_WasabiMayonnaise": { "Price": "400" } // Wasabi Mayonnaise
+				"Cornucopia_BuckwheatNoodles": {
+					"Price": "150"
+				}, // Buckwheat Noodles
+				"Cornucopia_SemolinaNoodles": {
+					"Price": "215"
+				}, // Semolina Noodles
+				"Cornucopia_WholeGrainNoodles": {
+					"Price": "170"
+				}, // Whole Grain Noodles
+				"Cornucopia_WasabiMayonnaise": {
+					"Price": "400"
+				} // Wasabi Mayonnaise
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -164,10 +299,18 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_LemonZest": { "Price": "180" }, // Lemon Zest
-				"Cornucopia_LimeZest": { "Price": "180" }, // Lime Zest
-				"Cornucopia_ChewingGum": { "Price": "525" }, // Chewing Gum
-				"Cornucopia_Umeboshi": { "Price": "350" } // Umeboshi
+				"Cornucopia_LemonZest": {
+					"Price": "180"
+				}, // Lemon Zest
+				"Cornucopia_LimeZest": {
+					"Price": "180"
+				}, // Lime Zest
+				"Cornucopia_ChewingGum": {
+					"Price": "525"
+				}, // Chewing Gum
+				"Cornucopia_Umeboshi": {
+					"Price": "350"
+				} // Umeboshi
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -179,7 +322,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_ChewingGum": { "Price": "410" } // Chewing Gum
+				"Cornucopia_ChewingGum": {
+					"Price": "410"
+				} // Chewing Gum
 			},
 			"When": {
 				"Sell Prices": true,
@@ -192,8 +337,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_AloeGel": { "Price": "280" }, // Aloe Gel
-				"Cornucopia_DillMayonnaise": { "Price": "305" } // Dill Mayonnaise
+				"Cornucopia_AloeGel": {
+					"Price": "280"
+				}, // Aloe Gel
+				"Cornucopia_DillMayonnaise": {
+					"Price": "305"
+				} // Dill Mayonnaise
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -205,23 +354,45 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_SnackCheese": { "Price": "200" } // Snack Cheese
+				"Cornucopia_SnackCheese": {
+					"Price": "200"
+				} // Snack Cheese
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Butter": { "Category": "-18" }, //Butter
-				"Cornucopia_SmokedEgg": { "Category": "-18" }, //Smoked Egg
-				"Cornucopia_SmokedCheese": { "Category": "-18" }, //Smoked Cheese
-				"Cornucopia_GarlicMayonnaise": { "Category": "-18" }, //Garlic Mayonnaise
-				"Cornucopia_SpicyMayonnaise": { "Category": "-18" }, //Spicy Mayonnaise
-				"Cornucopia_TruffleMayonnaise": { "Category": "-18" }, //Truffle Mayonnaise
-				"Cornucopia_CenturyEgg": { "Category": "-18" }, //Century Egg
-				"Cornucopia_PlainYogurt": { "Category": "-18" }, //Plain Yogurt
-				"Cornucopia_FlavoredYogurt": { "Category": "-18" }, //Flavored Yogurt
+				"Cornucopia_Butter": {
+					"Category": "-18"
+				}, //Butter
+				"Cornucopia_SmokedEgg": {
+					"Category": "-18"
+				}, //Smoked Egg
+				"Cornucopia_SmokedCheese": {
+					"Category": "-18"
+				}, //Smoked Cheese
+				"Cornucopia_GarlicMayonnaise": {
+					"Category": "-18"
+				}, //Garlic Mayonnaise
+				"Cornucopia_SpicyMayonnaise": {
+					"Category": "-18"
+				}, //Spicy Mayonnaise
+				"Cornucopia_TruffleMayonnaise": {
+					"Category": "-18"
+				}, //Truffle Mayonnaise
+				"Cornucopia_CenturyEgg": {
+					"Category": "-18"
+				}, //Century Egg
+				"Cornucopia_PlainYogurt": {
+					"Category": "-18"
+				}, //Plain Yogurt
+				"Cornucopia_FlavoredYogurt": {
+					"Category": "-18"
+				}, //Flavored Yogurt
 				"Cornucopia_ShrimpPaste": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
@@ -259,9 +430,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_AvocadoMayonnaise": { "Category": "-18" }, //Avocado Mayonnaise
-				"Cornucopia_BlackPepperMayonnaise": { "Category": "-18" }, //Black Pepper Mayonnaise
-				"Cornucopia_OliveOilMayonnaise": { "Category": "-18" } //Olive Oil Mayonnaise
+				"Cornucopia_AvocadoMayonnaise": {
+					"Category": "-18"
+				}, //Avocado Mayonnaise
+				"Cornucopia_BlackPepperMayonnaise": {
+					"Category": "-18"
+				}, //Black Pepper Mayonnaise
+				"Cornucopia_OliveOilMayonnaise": {
+					"Category": "-18"
+				} //Olive Oil Mayonnaise
 			},
 			"When": {
 				"Item Categories": true,
@@ -272,7 +449,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_DillMayonnaise": { "Category": "-18" } //Dill Mayonnaise
+				"Cornucopia_DillMayonnaise": {
+					"Category": "-18"
+				} //Dill Mayonnaise
 			},
 			"When": {
 				"Item Categories": true,
@@ -284,7 +463,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_WasabiMayonnaise": { "Category": "-18" } //Wasabi Mayonnaise
+				"Cornucopia_WasabiMayonnaise": {
+					"Category": "-18"
+				} //Wasabi Mayonnaise
 			},
 			"When": {
 				"Item Categories": true,
@@ -295,8 +476,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_ShrimpPaste", "ContextTags"], //Fix Shrimp Paste
-			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
+			"TargetField": [
+				"Cornucopia_ShrimpPaste",
+				"ContextTags"
+			], //Fix Shrimp Paste
+			"Entries": {
+				"#-1": "fish_pond_ignore",
+				"#-2": "fish_nonfish"
+			},
 			"When": {
 				"Item Categories": true
 			}
@@ -304,8 +491,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_SmokedSalmon", "ContextTags"], //Fix Smoked Salmon
-			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
+			"TargetField": [
+				"Cornucopia_SmokedSalmon",
+				"ContextTags"
+			], //Fix Smoked Salmon
+			"Entries": {
+				"#-1": "fish_pond_ignore",
+				"#-2": "fish_nonfish"
+			},
 			"When": {
 				"Item Categories": true
 			}
@@ -313,8 +506,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_DriedSquid", "ContextTags"], //Fix Dried Squid
-			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
+			"TargetField": [
+				"Cornucopia_DriedSquid",
+				"ContextTags"
+			], //Fix Dried Squid
+			"Entries": {
+				"#-1": "fish_pond_ignore",
+				"#-2": "fish_nonfish"
+			},
 			"When": {
 				"Item Categories": true
 			}
@@ -322,8 +521,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_PickledFish", "ContextTags"], //Fix Pickled Fish
-			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
+			"TargetField": [
+				"Cornucopia_PickledFish",
+				"ContextTags"
+			], //Fix Pickled Fish
+			"Entries": {
+				"#-1": "fish_pond_ignore",
+				"#-2": "fish_nonfish"
+			},
 			"When": {
 				"Item Categories": true
 			}
@@ -331,8 +536,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_Garum", "ContextTags"], //Fix Garum
-			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
+			"TargetField": [
+				"Cornucopia_Garum",
+				"ContextTags"
+			], //Fix Garum
+			"Entries": {
+				"#-1": "fish_pond_ignore",
+				"#-2": "fish_nonfish"
+			},
 			"When": {
 				"Item Categories": true
 			}
@@ -340,8 +551,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_FishSauce", "ContextTags"], //Fix Fish Sauce
-			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
+			"TargetField": [
+				"Cornucopia_FishSauce",
+				"ContextTags"
+			], //Fix Fish Sauce
+			"Entries": {
+				"#-1": "fish_pond_ignore",
+				"#-2": "fish_nonfish"
+			},
 			"When": {
 				"Item Categories": true
 			}
@@ -349,8 +566,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_FishOil", "ContextTags"], //Fix Fish Oil
-			"Entries": { "#-1": "fish_pond_ignore", "#-2": "fish_nonfish" },
+			"TargetField": [
+				"Cornucopia_FishOil",
+				"ContextTags"
+			], //Fix Fish Oil
+			"Entries": {
+				"#-1": "fish_pond_ignore",
+				"#-2": "fish_nonfish"
+			},
 			"When": {
 				"Item Categories": true
 			}
@@ -358,7 +581,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledFish", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fix Preserve Jar Pickled Fish
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledFish",
+				"Triggers",
+				"ItemPlacedInMachine",
+				"RequiredTags"
+			], //Fix Preserve Jar Pickled Fish
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -373,7 +603,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)BaitMaker", "OutputRules", "Default", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fix Bait Maker
+			"TargetField": [
+				"(BC)BaitMaker",
+				"OutputRules",
+				"Default",
+				"Triggers",
+				"ItemPlacedInMachine",
+				"RequiredTags"
+			], //Fix Bait Maker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -388,7 +625,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FishSmoker", "OutputRules", "SmokedFish", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fix Fish Smoker
+			"TargetField": [
+				"(BC)FishSmoker",
+				"OutputRules",
+				"SmokedFish",
+				"Triggers",
+				"ItemPlacedInMachine",
+				"RequiredTags"
+			], //Fix Fish Smoker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -403,7 +647,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DeluxeSmoker", "OutputRules", "Cornucopia_SmokedFish", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fix Deluxe Smoker
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_SmokedFish",
+				"Triggers",
+				"ItemPlacedInMachine",
+				"RequiredTags"
+			], //Fix Deluxe Smoker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -418,7 +669,14 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_FishOil", "Triggers", "ItemPlacedInMachine", "RequiredTags"], //Fix Oil Maker
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_FishOil",
+				"Triggers",
+				"ItemPlacedInMachine",
+				"RequiredTags"
+			], //Fix Oil Maker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -439,22 +697,40 @@
 				"Cornucopia_Alembic": {
 					"0": "334 4 766 50 388 10 Cornucopia_Beeswax 1"
 				},
-				"Cornucopia_ButterChurn": { "0": "388 40 335 2 726 1" },
-				"Cornucopia_CompactMill": { "0": "390 20 335 2 80 2" },
-				"Cornucopia_DeluxeSmoker": { "0": "(BC)FishSmoker 1 335 2" },
+				"Cornucopia_ButterChurn": {
+					"0": "388 40 335 2 726 1"
+				},
+				"Cornucopia_CompactMill": {
+					"0": "390 20 335 2 80 2"
+				},
+				"Cornucopia_DeluxeSmoker": {
+					"0": "(BC)FishSmoker 1 335 2"
+				},
 				"Cornucopia_Dehydrator": {
 					"0": "(BC)Cornucopia_DryingRack 1 330 1 82 1 86 1"
 				},
-				"Cornucopia_DryingRack": { "0": "388 40 771 15" },
-				"Cornucopia_Extruder": { "0": "709 5 335 2 330 2" },
+				"Cornucopia_DryingRack": {
+					"0": "388 40 771 15"
+				},
+				"Cornucopia_Extruder": {
+					"0": "709 5 335 2 330 2"
+				},
 				"Cornucopia_WaxBarrel": {
 					"0": "709 5 771 20 726 1 Cornucopia_Beeswax 5"
 				},
-				"Cornucopia_YogurtJar": { "0": "390 30 338 2 335 1" },
-				"Cornucopia_VinegarKeg": { "0": "335 1 725 1 388 20" },
-				"Cornucopia_Juicer": { "0": "335 2 390 20 724 1" }
+				"Cornucopia_YogurtJar": {
+					"0": "390 30 338 2 335 1"
+				},
+				"Cornucopia_VinegarKeg": {
+					"0": "335 1 725 1 388 20"
+				},
+				"Cornucopia_Juicer": {
+					"0": "335 2 390 20 724 1"
+				}
 			},
-			"When": { "Machines": "Normal" }
+			"When": {
+				"Machines": "Normal"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -479,22 +755,40 @@
 				"Cornucopia_Alembic": {
 					"0": "334 5 766 60 388 20 Cornucopia_Beeswax 2"
 				},
-				"Cornucopia_ButterChurn": { "0": "388 50 335 3 726 2" },
-				"Cornucopia_CompactMill": { "0": "390 30 335 3 80 3" },
-				"Cornucopia_DeluxeSmoker": { "0": "(BC)FishSmoker 1 335 3 82 1" },
+				"Cornucopia_ButterChurn": {
+					"0": "388 50 335 3 726 2"
+				},
+				"Cornucopia_CompactMill": {
+					"0": "390 30 335 3 80 3"
+				},
+				"Cornucopia_DeluxeSmoker": {
+					"0": "(BC)FishSmoker 1 335 3 82 1"
+				},
 				"Cornucopia_Dehydrator": {
 					"0": "(BC)Cornucopia_DryingRack 1 330 2 82 2 86 1"
 				},
-				"Cornucopia_DryingRack": { "0": "388 50 771 20 709 5" },
-				"Cornucopia_Extruder": { "0": "709 10 335 3 330 3 86 1" },
+				"Cornucopia_DryingRack": {
+					"0": "388 50 771 20 709 5"
+				},
+				"Cornucopia_Extruder": {
+					"0": "709 10 335 3 330 3 86 1"
+				},
 				"Cornucopia_WaxBarrel": {
 					"0": "709 10 771 25 726 2 Cornucopia_Beeswax 5"
 				},
-				"Cornucopia_YogurtJar": { "0": "390 40 338 3 335 2" },
-				"Cornucopia_VinegarKeg": { "0": "335 2 725 1 388 30" },
-				"Cornucopia_Juicer": { "0": "335 3 390 30 724 2" }
+				"Cornucopia_YogurtJar": {
+					"0": "390 40 338 3 335 2"
+				},
+				"Cornucopia_VinegarKeg": {
+					"0": "335 2 725 1 388 30"
+				},
+				"Cornucopia_Juicer": {
+					"0": "335 3 390 30 724 2"
+				}
 			},
-			"When": { "Machines": "Hard" }
+			"When": {
+				"Machines": "Hard"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -519,22 +813,40 @@
 				"Cornucopia_Alembic": {
 					"0": "334 6 766 70 388 30 Cornucopia_Beeswax 3"
 				},
-				"Cornucopia_ButterChurn": { "0": "388 60 335 4 726 3" },
-				"Cornucopia_CompactMill": { "0": "390 40 335 4 80 4" },
-				"Cornucopia_DeluxeSmoker": { "0": "(BC)FishSmoker 1 335 3 82 2" },
+				"Cornucopia_ButterChurn": {
+					"0": "388 60 335 4 726 3"
+				},
+				"Cornucopia_CompactMill": {
+					"0": "390 40 335 4 80 4"
+				},
+				"Cornucopia_DeluxeSmoker": {
+					"0": "(BC)FishSmoker 1 335 3 82 2"
+				},
 				"Cornucopia_Dehydrator": {
 					"0": "(BC)Cornucopia_DryingRack 1 330 3 82 2 86 2"
 				},
-				"Cornucopia_DryingRack": { "0": "388 60 771 25 709 10" },
-				"Cornucopia_Extruder": { "0": "709 15 335 4 330 4 86 2" },
+				"Cornucopia_DryingRack": {
+					"0": "388 60 771 25 709 10"
+				},
+				"Cornucopia_Extruder": {
+					"0": "709 15 335 4 330 4 86 2"
+				},
 				"Cornucopia_WaxBarrel": {
 					"0": "709 15 771 30 726 3 Cornucopia_Beeswax 5"
 				},
-				"Cornucopia_YogurtJar": { "0": "390 50 338 4 335 3" },
-				"Cornucopia_VinegarKeg": { "0": "335 3 725 2 388 40" },
-				"Cornucopia_Juicer": { "0": "335 4 390 40 724 3" }
+				"Cornucopia_YogurtJar": {
+					"0": "390 50 338 4 335 3"
+				},
+				"Cornucopia_VinegarKeg": {
+					"0": "335 3 725 2 388 40"
+				},
+				"Cornucopia_Juicer": {
+					"0": "335 4 390 40 724 3"
+				}
 			},
-			"When": { "Machines": "Very Hard" }
+			"When": {
+				"Machines": "Very Hard"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -557,68 +869,145 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_SnackCheese"],
-			"Entries": { "DaysUntilReady": "1", "MinutesUntilReady": "1750" }
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_SnackCheese"
+			],
+			"Entries": {
+				"DaysUntilReady": "1",
+				"MinutesUntilReady": "1750"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChicken", "OutputItem", "#0"], //Preserve Jar - Pickled Chicken eggs, smaller multiplier
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChicken",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Chicken eggs, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
-					{ "Modification": "Multiply", "Amount": 2.5 },
-					{ "Modification": "Add", "Amount": 50 }
+					{
+						"Modification": "Multiply",
+						"Amount": 2.5
+					},
+					{
+						"Modification": "Add",
+						"Amount": 50
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChickenLarge", "OutputItem", "#0"], //Preserve Jar - Pickled Large Chicken eggs, smaller multiplier
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChickenLarge",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Large Chicken eggs, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
-					{ "Modification": "Multiply", "Amount": 2.5 },
-					{ "Modification": "Add", "Amount": 50 }
+					{
+						"Modification": "Multiply",
+						"Amount": 2.5
+					},
+					{
+						"Modification": "Add",
+						"Amount": 50
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggs", "OutputItem", "#0"], //Preserve Jar - Pickled eggs, smaller multiplier
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggs",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled eggs, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
-					{ "Modification": "Multiply", "Amount": 2.5 },
-					{ "Modification": "Add", "Amount": 50 }
+					{
+						"Modification": "Multiply",
+						"Amount": 2.5
+					},
+					{
+						"Modification": "Add",
+						"Amount": 50
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_Candles", "OutputItem", "#0"], //Wax Barrel - Candles, smaller multiplier
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_Candles",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Candles, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
-					{ "Id": "Candles", "Modification": "Multiply", "Amount": 2 },
-					{ "Id": "BeeswaxBase", "Modification": "Add", "Amount": 200 }
+					{
+						"Id": "Candles",
+						"Modification": "Multiply",
+						"Amount": 2
+					},
+					{
+						"Id": "BeeswaxBase",
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_WaxMelts", "OutputItem", "#0"], //Wax Barrel - Waxmelts, smaller multiplier
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_WaxMelts",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Waxmelts, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
-					{ "Id": "WaxMelts", "Modification": "Multiply", "Amount": 1.5 },
-					{ "Id": "BeeswaxBase", "Modification": "Add", "Amount": 200 }
+					{
+						"Id": "WaxMelts",
+						"Modification": "Multiply",
+						"Amount": 1.5
+					},
+					{
+						"Id": "BeeswaxBase",
+						"Modification": "Add",
+						"Amount": 200
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_WildHoneyYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"], //Yogurt Jar - Wild Honey Yogurt, smaller multiplier
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_WildHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			], //Yogurt Jar - Wild Honey Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -626,14 +1015,24 @@
 						"Modification": "Multiply",
 						"Amount": 1.75
 					},
-					{ "Id": "YogurtBase", "Modification": "Add", "Amount": 100 }
+					{
+						"Id": "YogurtBase",
+						"Modification": "Add",
+						"Amount": 100
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredHoneyYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"], //Yogurt Jar - Flower Honey Yogurt, smaller multiplier
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			], //Yogurt Jar - Flower Honey Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -641,14 +1040,24 @@
 						"Modification": "Multiply",
 						"Amount": 1.5
 					},
-					{ "Id": "YogurtBase", "Modification": "Add", "Amount": 100 }
+					{
+						"Id": "YogurtBase",
+						"Modification": "Add",
+						"Amount": 100
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"], //Yogurt Jar - Flavored Yogurt, smaller multiplier
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			], //Yogurt Jar - Flavored Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -656,14 +1065,24 @@
 						"Modification": "Multiply",
 						"Amount": 1.75
 					},
-					{ "Id": "YogurtBase", "Modification": "Add", "Amount": 100 }
+					{
+						"Id": "YogurtBase",
+						"Modification": "Add",
+						"Amount": 100
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_ChocolateYogurt", "OutputItem", "Cornucopia_FlavoredYogurtDefault"], //Yogurt Jar - Chocolate Yogurt, smaller multiplier
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_ChocolateYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurtDefault"
+			], //Yogurt Jar - Chocolate Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -671,52 +1090,107 @@
 						"Modification": "Multiply",
 						"Amount": 1.75
 					},
-					{ "Id": "YogurtBase", "Modification": "Add", "Amount": 100 }
+					{
+						"Id": "YogurtBase",
+						"Modification": "Add",
+						"Amount": 100
+					}
 				]
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedFlower", "OutputItem", "Cornucopia_DriedFlower"], //Dried Flower smaller multiplier (1.75)
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedFlower",
+				"OutputItem",
+				"Cornucopia_DriedFlower"
+			], //Dried Flower smaller multiplier (1.75)
 			"Entries": {
 				"PriceModifiers": [
-					{ "Modification": "Multiply", "Amount": 8.75 },
-					{ "Modification": "Add", "Amount": 50 }
+					{
+						"Modification": "Multiply",
+						"Amount": 8.75
+					},
+					{
+						"Modification": "Add",
+						"Amount": 50
+					}
 				]
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedHerb", "OutputItem", "Cornucopia_DriedHerb"], //Dried Herb smaller multiplier (1.75)
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedHerb",
+				"OutputItem",
+				"Cornucopia_DriedHerb"
+			], //Dried Herb smaller multiplier (1.75)
 			"Entries": {
 				"PriceModifiers": [
-					{ "Modification": "Multiply", "Amount": 8.75 },
-					{ "Modification": "Add", "Amount": 50 }
+					{
+						"Modification": "Multiply",
+						"Amount": 8.75
+					},
+					{
+						"Modification": "Add",
+						"Amount": 50
+					}
 				]
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedFlower"], //Dried Flower take longer
-			"Entries": { "MinutesUntilReady": "2250" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedHerb"], //Dried Herb take longer
-			"Entries": { "MinutesUntilReady": "2250" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DeluxeSmoker", "OutputRules", "Cornucopia_SmokedMeat", "OutputItem", "#0"], //Deluxe Smoker - Smaller Price Modifier with Animal Husbandry Mod
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedFlower"
+			], //Dried Flower take longer
 			"Entries": {
-				"PriceModifiers": [{ "Modification": "Multiply", "Amount": 1.5 }]
+				"MinutesUntilReady": "2250"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedHerb"
+			], //Dried Herb take longer
+			"Entries": {
+				"MinutesUntilReady": "2250"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_SmokedMeat",
+				"OutputItem",
+				"#0"
+			], //Deluxe Smoker - Smaller Price Modifier with Animal Husbandry Mod
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Modification": "Multiply",
+						"Amount": 1.5
+					}
+				]
 			},
 			"When": {
 				"Machine Processing|contains=Off": "false",
@@ -727,7 +1201,12 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"Priority": "Late +1",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers"],
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"Triggers"
+			],
 			"Entries": {
 				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
 					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
@@ -743,7 +1222,12 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"Priority": "Late +1",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers"],
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"Triggers"
+			],
 			"Entries": {
 				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
 					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
@@ -759,7 +1243,13 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"Priority": "Late +1",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers", "#1"],
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"Triggers",
+				"#1"
+			],
 			"Entries": {
 				"RequiredCount": 3
 			},
@@ -772,7 +1262,12 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"Priority": "Late +1",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "Triggers"],
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"Triggers"
+			],
 			"Entries": {
 				"(O)FlashShifter.StardewValleyExpandedCP_Cucumber": {
 					"RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Cucumber",
@@ -788,53 +1283,103 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedCenturyEgg", "OutputItem", "#0"], //Cask - Century Egg
-			"Entries": { "CustomData": { "AgingMultiplier": "2" } },
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedCenturyEgg",
+				"OutputItem",
+				"#0"
+			], //Cask - Century Egg
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "2"
+				}
+			},
 			"When": {
 				"Sell Prices": true,
-				"Cask Aging": "true"
+				"Cask Aging": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedNutCheese", "OutputItem", "#0"], //Cask - Nut Cheese
-			"Entries": { "CustomData": { "AgingMultiplier": "1.4" } },
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedNutCheese",
+				"OutputItem",
+				"#0"
+			], //Cask - Nut Cheese
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "1.4"
+				}
+			},
 			"When": {
-				"Cask Aging": "true"
+				"Cask Aging": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedSmokedCheese", "OutputItem", "#0"], //Cask - Smoked Cheese
-			"Entries": { "CustomData": { "AgingMultiplier": "1.4" } },
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedSmokedCheese",
+				"OutputItem",
+				"#0"
+			], //Cask - Smoked Cheese
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "1.4"
+				}
+			},
 			"When": {
-				"Cask Aging": "true"
+				"Cask Aging": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedSoySauce", "OutputItem", "#0"], //Cask - Soy Sauce
-			"Entries": { "CustomData": { "AgingMultiplier": "2.66" } },
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedSoySauce",
+				"OutputItem",
+				"#0"
+			], //Cask - Soy Sauce
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "2.66"
+				}
+			},
 			"When": {
 				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Cask Aging": "true"
+				"Cask Aging": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedStinkyTofu", "OutputItem", "#0"], //Cask - Stinky Tofu
-			"Entries": { "CustomData": { "AgingMultiplier": "1.75" } },
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedStinkyTofu",
+				"OutputItem",
+				"#0"
+			], //Cask - Stinky Tofu
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "1.75"
+				}
+			},
 			"When": {
 				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Cask Aging": "true"
+				"Cask Aging": true
 			}
 		},
 		// Large Animal Products Only
@@ -842,8 +1387,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeMilk", "OutputItem", "#0"],
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeMilk",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
@@ -852,15 +1407,37 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterGoatMilk", "OutputItem", "#0"],
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only" }
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterGoatMilk",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeGoatMilk", "OutputItem", "#0"],
-			"Entries": { "MinStack": "4", "MaxStack": "4", "Quality": "0" },
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"MinStack": "4",
+				"MaxStack": "4",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
@@ -869,8 +1446,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeGoatMilk", "OutputItem", "#0"],
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": true
@@ -887,8 +1474,14 @@
 				"OutputItem",
 				"Cornucopia_GarlicMayonnaiseLargeEgg" // Garlic Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only" }
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -900,8 +1493,14 @@
 				"OutputItem",
 				"Cornucopia_SpicyMayonnaiseLargeEgg" // Spicy Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only" }
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -913,8 +1512,14 @@
 				"OutputItem",
 				"Cornucopia_TruffleMayonnaiseLargeEgg" // Truffle Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only" }
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only"
+			}
 		},
 		{
 			"Action": "EditData",
@@ -926,7 +1531,11 @@
 				"OutputItem",
 				"Cornucopia_AvocadoMayonnaiseLargeEgg" // Avocado Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
@@ -942,7 +1551,11 @@
 				"OutputItem",
 				"Cornucopia_BlackPepperMayonnaiseLargeEgg" // Black Pepper Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
@@ -958,7 +1571,11 @@
 				"OutputItem",
 				"Cornucopia_OliveOilMayonnaiseLargeEgg" // Olive Oil Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
@@ -974,7 +1591,11 @@
 				"OutputItem",
 				"Cornucopia_WasabiMayonnaiseLargeEgg" // Wasabi Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -991,7 +1612,11 @@
 				"OutputItem",
 				"Cornucopia_DillMayonnaiseLargeEgg" // Dill Mayo
 			],
-			"Entries": { "MinStack": "1", "MaxStack": "2", "Quality": "0" },
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -1002,30 +1627,67 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DeluxeSmoker", "OutputRules", "Cornucopia_RoastedGarlic", "OutputItem", "#0"],
-			"Entries": { "CopyQuality": true },
-			"When": { "Machine Processing|contains=Off": "false" }
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_RoastedGarlic",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"CopyQuality": true
+			},
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		//Deluxe Smoker - Smoked Egg Copy Quality
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DeluxeSmoker", "OutputRules", "Cornucopia_SmokedEggChickenSmall", "OutputItem", "#0"],
-			"Entries": { "CopyQuality": true },
-			"When": { "Machine Processing|contains=Off": "false" }
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_SmokedEggChickenSmall",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"CopyQuality": true
+			},
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DeluxeSmoker", "OutputRules", "Cornucopia_SmokedEggChickenLarge", "OutputItem", "#0"],
-			"Entries": { "MaxStack": "2", "CopyQuality": true },
-			"When": { "Machine Processing|contains=Off": "false" }
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_SmokedEggChickenLarge",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"MaxStack": "2",
+				"CopyQuality": true
+			},
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		//On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Alembic", "OutputRules", "Cornucopia_EssentialOil", "OutputItem", "#0"], //Alembic - Essential Oil
+			"TargetField": [
+				"(BC)Cornucopia_Alembic",
+				"OutputRules",
+				"Cornucopia_EssentialOil",
+				"OutputItem",
+				"#0"
+			], //Alembic - Essential Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1045,12 +1707,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Alembic", "OutputRules", "Cornucopia_PrismaticEssence", "OutputItem", "#0"], //Alembic - Prismatic Essence
+			"TargetField": [
+				"(BC)Cornucopia_Alembic",
+				"OutputRules",
+				"Cornucopia_PrismaticEssence",
+				"OutputItem",
+				"#0"
+			], //Alembic - Prismatic Essence
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1070,12 +1740,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterMilk", "OutputItem", "#0"], //Butter Churn - Butter (Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1095,12 +1773,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "1",
@@ -1137,7 +1823,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1174,7 +1866,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterGoatMilk", "OutputItem", "#0"], //Butter Churn - Butter (Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1203,12 +1901,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeGoatMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1259,7 +1965,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeGoatMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"MaxStack": "4",
@@ -1310,7 +2022,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_CoconutButter", "OutputItem", "#0"], //Butter Churn - Coconut Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CoconutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Coconut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1330,12 +2048,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_CookieButter", "OutputItem", "#0"], //Butter Churn - Cookie Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CookieButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Cookie Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1355,12 +2081,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_HoneyButter", "OutputItem", "#0"], //Butter Churn - Honey Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_HoneyButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Honey Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1380,12 +2114,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_MapleButter", "OutputItem", "#0"], //Butter Churn - Maple Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_MapleButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Maple Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1405,12 +2147,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_Margarine", "OutputItem", "#0"], //Butter Churn - Margarine
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_Margarine",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Margarine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1430,12 +2180,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_NutButter", "OutputItem", "#0"], //Butter Churn - Nut Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_NutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Nut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1455,12 +2213,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_CocoaButter", "OutputItem", "#0"], //Butter Churn - Cocoa Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CocoaButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Cocoa Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1488,7 +2254,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_PeanutButter", "OutputItem", "#0"], //Butter Churn - Peanut Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_PeanutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Peanut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1516,7 +2288,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_SoyButter", "OutputItem", "#0"], //Butter Churn - Soy Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_SoyButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Soy Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1544,7 +2322,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "CornucopiaPineNutMilk"], //Cheese Press - Pine Nut Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaPineNutMilk"
+			], //Cheese Press - Pine Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1564,12 +2348,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "CornucopiaSoyMilk"], //Cheese Press - Soy Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaSoyMilk"
+			], //Cheese Press - Soy Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1589,12 +2381,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "CornucopiaOatMilk"], //Cheese Press - Oat Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaOatMilk"
+			], //Cheese Press - Oat Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1614,12 +2414,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "Default"], //Cheese Press - Nut Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"Default"
+			], //Cheese Press - Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1639,12 +2447,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Applesauce", "OutputItem", "#0"], //Compact Mill - Applesauce
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Applesauce",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Applesauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1664,12 +2480,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_ChiliPowder", "OutputItem", "#0"], //Compact Mill - Chili Powder
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_ChiliPowder",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Chili Powder
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1689,12 +2513,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_OrangeZest", "OutputItem", "#0"], //Compact Mill - Orange Zest
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_OrangeZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Orange Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1714,12 +2546,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Saffron", "OutputItem", "#0"], //Compact Mill - Saffron
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Saffron",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Saffron
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1739,12 +2579,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Salt", "OutputItem", "#0"], //Compact Mill - Salt
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Salt",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Salt
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1764,12 +2612,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_ShrimpPaste", "OutputItem", "#0"], //Compact Mill - Shrimp Paste
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_ShrimpPaste",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Shrimp Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1789,12 +2645,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_MisoPaste", "OutputItem", "#0"], //Compact Mill - Miso Paste
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_MisoPaste",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Miso Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1822,7 +2686,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Paprika", "OutputItem", "#0"], //Compact Mill - Paprika
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Paprika",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Paprika
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1850,7 +2720,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Pepper", "OutputItem", "#0"], //Compact Mill - Pepper
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Pepper",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Pepper
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1878,7 +2754,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_LemonZest", "OutputItem", "#0"], //Compact Mill - Lemon Zest
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_LemonZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Lemon Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1907,7 +2789,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_LimeZest", "OutputItem", "#0"], //Compact Mill - Lime Zest
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_LimeZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Lime Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1936,7 +2824,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_AloeGel", "OutputItem", "#0"], //Compact Mill - Aloe Gel
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_AloeGel",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Aloe Gel
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1965,7 +2859,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedHerb", "OutputItem", "#0"], //Drying Rack - Dried Herb
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedHerb",
+				"OutputItem",
+				"#0"
+			], //Drying Rack - Dried Herb
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1985,12 +2885,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedFlower", "OutputItem", "#0"], //Drying Rack - Dried Flower
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedFlower",
+				"OutputItem",
+				"#0"
+			], //Drying Rack - Dried Flower
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2010,12 +2918,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "Cornucopia_DriedVegetable", "OutputItem", "#0"], //Dehydrtator - Dried Vegetable
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Cornucopia_DriedVegetable",
+				"OutputItem",
+				"#0"
+			], //Dehydrtator - Dried Vegetable
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2035,12 +2951,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_Beeswax", "OutputItem", "#0"], //Extruder - Beeswax
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_Beeswax",
+				"OutputItem",
+				"#0"
+			], //Extruder - Beeswax
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2060,12 +2984,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_GlassNoodles", "OutputItem", "#0"], //Extruder - Glass Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_GlassNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Glass Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2085,12 +3017,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_RiceNoodles", "OutputItem", "#0"], //Extruder - Rice Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_RiceNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Rice Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2110,12 +3050,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_WheatNoodles", "OutputItem", "#0"], //Extruder - Wheat Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_WheatNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Wheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2135,12 +3083,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_Zoodles", "OutputItem", "#0"], //Extruder - Zoodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_Zoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Zoodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2168,7 +3124,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_BuckwheatNoodles", "OutputItem", "#0"], //Extruder - Buckwheat Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_BuckwheatNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Buckwheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2197,7 +3159,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_SemolinaNoodles", "OutputItem", "#0"], //Extruder - Semolina Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_SemolinaNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Semolina Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2226,7 +3194,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_WholeGrainNoodles", "OutputItem", "#0"], //Extruder - Whole Grain Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_WholeGrainNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Whole Grain Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2255,7 +3229,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_ChewingGum", "OutputItem", "#0"], //Extruder - Chewing Gum
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_ChewingGum",
+				"OutputItem",
+				"#0"
+			], //Extruder - Chewing Gum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2284,7 +3264,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Juicer", "OutputRules", "Cornucopia_Juice", "OutputItem", "#0"], //Juicer - Juice
+			"TargetField": [
+				"(BC)Cornucopia_Juicer",
+				"OutputRules",
+				"Cornucopia_Juice",
+				"OutputItem",
+				"#0"
+			], //Juicer - Juice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2304,12 +3290,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_CoconutMilk", "OutputItem", "#0"], //Keg - Coconut Milk
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_CoconutMilk",
+				"OutputItem",
+				"#0"
+			], //Keg - Coconut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2329,12 +3323,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_NutMilk", "OutputItem", "#0"], //Keg - Nut Milk
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_NutMilk",
+				"OutputItem",
+				"#0"
+			], //Keg - Nut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2354,189 +3356,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_GarlicMayonnaise", "OutputItem", "Cornucopia_GarlicMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Garlic Mayo
-			"Entries": {
-				"MinStack": "1",
-				"MaxStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "AddQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "AddQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Machine Processing": "On" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_GarlicMayonnaise", "OutputItem", "Cornucopia_GarlicMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Garlic Mayo
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Machine Processing": "On" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_SpicyMayonnaise", "OutputItem", "Cornucopia_SpicyMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Spicy Mayo
-			"Entries": {
-				"MinStack": "1",
-				"MaxStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "AddQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "AddQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Machine Processing": "On" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_SpicyMayonnaise", "OutputItem", "Cornucopia_SpicyMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Spicy Mayo
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Machine Processing": "On" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_TruffleMayonnaise", "OutputItem", "Cornucopia_TruffleMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Truffle Mayo
-			"Entries": {
-				"MinStack": "1",
-				"MaxStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "AddQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "AddQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Machine Processing": "On" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_TruffleMayonnaise", "OutputItem", "Cornucopia_TruffleMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Truffle Mayo
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": { "Machine Processing": "On" }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_AvocadoMayonnaise", "OutputItem", "Cornucopia_AvocadoMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Avocado Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_GarlicMayonnaise",
+				"OutputItem",
+				"Cornucopia_GarlicMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Garlic Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -2566,14 +3399,19 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=Cornucopia.MoreCrops": true
+				"Machine Processing": "On"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_AvocadoMayonnaise", "OutputItem", "Cornucopia_AvocadoMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Avocado Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_GarlicMayonnaise",
+				"OutputItem",
+				"Cornucopia_GarlicMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Garlic Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2594,14 +3432,19 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=Cornucopia.MoreCrops": true
+				"Machine Processing": "On"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_BlackPepperMayonnaise", "OutputItem", "Cornucopia_BlackPepperMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Black Pepper Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_SpicyMayonnaise",
+				"OutputItem",
+				"Cornucopia_SpicyMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Spicy Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -2631,14 +3474,19 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=Cornucopia.MoreCrops": true
+				"Machine Processing": "On"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_BlackPepperMayonnaise", "OutputItem", "Cornucopia_BlackPepperMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Black Pepper Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_SpicyMayonnaise",
+				"OutputItem",
+				"Cornucopia_SpicyMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Spicy Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2659,14 +3507,94 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=Cornucopia.MoreCrops": true
+				"Machine Processing": "On"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_OliveOilMayonnaise", "OutputItem", "Cornucopia_OliveOilMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Olive Oil Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_TruffleMayonnaise",
+				"OutputItem",
+				"Cornucopia_TruffleMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Truffle Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_TruffleMayonnaise",
+				"OutputItem",
+				"Cornucopia_TruffleMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Truffle Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_AvocadoMayonnaise",
+				"OutputItem",
+				"Cornucopia_AvocadoMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Avocado Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -2703,7 +3631,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_OliveOilMayonnaise", "OutputItem", "Cornucopia_OliveOilMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Olive Oil Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_AvocadoMayonnaise",
+				"OutputItem",
+				"Cornucopia_AvocadoMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Avocado Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2731,7 +3665,167 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_DillMayonnaise", "OutputItem", "Cornucopia_DillMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Dill Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_BlackPepperMayonnaise",
+				"OutputItem",
+				"Cornucopia_BlackPepperMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Black Pepper Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_BlackPepperMayonnaise",
+				"OutputItem",
+				"Cornucopia_BlackPepperMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Black Pepper Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_OliveOilMayonnaise",
+				"OutputItem",
+				"Cornucopia_OliveOilMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Olive Oil Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_OliveOilMayonnaise",
+				"OutputItem",
+				"Cornucopia_OliveOilMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Olive Oil Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_DillMayonnaise",
+				"OutputItem",
+				"Cornucopia_DillMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Dill Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -2769,7 +3863,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_DillMayonnaise", "OutputItem", "Cornucopia_DillMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Dill Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_DillMayonnaise",
+				"OutputItem",
+				"Cornucopia_DillMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Dill Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2798,7 +3898,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_WasabiMayonnaise", "OutputItem", "Cornucopia_WasabiMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Wasabi Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_WasabiMayonnaise",
+				"OutputItem",
+				"Cornucopia_WasabiMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Wasabi Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -2829,7 +3935,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_WasabiMayonnaise", "OutputItem", "Cornucopia_WasabiMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Wasabi Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_WasabiMayonnaise",
+				"OutputItem",
+				"Cornucopia_WasabiMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Wasabi Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2858,7 +3970,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_ChiliOil", "OutputItem", "#0"], //Oil Maker - Chili Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_ChiliOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Chili Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2878,12 +3996,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_CoconutOil", "OutputItem", "#0"], //Oil Maker - Coconut Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_CoconutOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Coconut Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2903,12 +4029,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_FishOil", "OutputItem", "#0"], //Oil Maker - Fish Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_FishOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Fish Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2928,12 +4062,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_AvocadoOil", "OutputItem", "#0"], //Oil Maker - Avocado Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_AvocadoOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Avocado Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2961,7 +4103,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_CenturyEgg", "OutputItem", "#0"], //Preserve Jar - Century Egg
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_CenturyEgg",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Century Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2981,12 +4129,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_FishSauce", "OutputItem", "#0"], //Preserve Jar - Fish Sauce
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_FishSauce",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Fish Sauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3006,12 +4162,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Garum", "OutputItem", "#0"], //Preserve Jar - Garum
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Garum",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Garum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3031,12 +4195,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChicken", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Chicken Small
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChicken",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Chicken Small
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3056,12 +4228,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChickenLarge", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Chicken Large
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChickenLarge",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Chicken Large
 			"Entries": {
 				"MinStack": "1",
 				"Quality": "0",
@@ -3089,12 +4269,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggs", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Default
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggs",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3114,19 +4302,39 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChickenLarge", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Chicken Large, Large Animal Products Make 2
-			"Entries": { "MinStack": "2", "Quality": "0" },
-			"When": { "Machine Processing": "Large Animal Products Only", "HasMod|contains=DaLion.Professions": false }
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChickenLarge",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Chicken Large, Large Animal Products Make 2
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Machine Processing": "Large Animal Products Only",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledFish", "OutputItem", "#0"], //Preserve Jar - Pickled Fish Default
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledFish",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Fish Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3146,12 +4354,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Sauerkraut", "OutputItem", "Double Sauerkraut"], //Preserve Jar - Sauerkraut Double
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Sauerkraut",
+				"OutputItem",
+				"Double Sauerkraut"
+			], //Preserve Jar - Sauerkraut Double
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3171,12 +4387,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Sauerkraut", "OutputItem", "(O)Cornucopia_Sauerkraut"], //Preserve Jar - Sauerkraut
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Sauerkraut",
+				"OutputItem",
+				"(O)Cornucopia_Sauerkraut"
+			], //Preserve Jar - Sauerkraut
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3196,12 +4420,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_BrinedOlives", "OutputItem", "#0"], //Preserve Jar - Brined Olives
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_BrinedOlives",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Brined Olives
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3229,7 +4461,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "OutputItem", "#0"], //Preserve Jar - Pickle Spears
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickle Spears
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3257,7 +4495,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_SoySauce", "OutputItem", "#0"], //Preserve Jar - Soy Sause
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_SoySauce",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Soy Sause
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3285,7 +4529,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_StinkyTofu", "OutputItem", "#0"], //Preserve Jar - Stinky Tofu
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_StinkyTofu",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Stinky Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3313,7 +4563,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Kimchi", "OutputItem", "Triple Output"], //Preserve Jar - Kimchi Daikon
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Kimchi",
+				"OutputItem",
+				"Triple Output"
+			], //Preserve Jar - Kimchi Daikon
 			"Entries": {
 				"Quality": "0",
 				"MinStack": "2",
@@ -3350,7 +4606,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Kimchi", "OutputItem", "(O)Cornucopia_Kimchi"], //Preserve Jar - Kimchi Lettuce
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Kimchi",
+				"OutputItem",
+				"(O)Cornucopia_Kimchi"
+			], //Preserve Jar - Kimchi Lettuce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3379,7 +4641,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Umeboshi", "OutputItem", "#0"], //Preserve Jar - Umeboshi
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Umeboshi",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Umeboshi
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3415,7 +4683,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_VinegarKeg", "OutputRules", "Cornucopia_Vinegar", "OutputItem", "#0"], //Vinegar Keg - Vinegar
+			"TargetField": [
+				"(BC)Cornucopia_VinegarKeg",
+				"OutputRules",
+				"Cornucopia_Vinegar",
+				"OutputItem",
+				"#0"
+			], //Vinegar Keg - Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3435,12 +4709,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_VinegarKeg", "OutputRules", "Cornucopia_VinegarUnmilledRice", "OutputItem", "#0"], //Vinegar Keg - Unmilled Rice Vinegar
+			"TargetField": [
+				"(BC)Cornucopia_VinegarKeg",
+				"OutputRules",
+				"Cornucopia_VinegarUnmilledRice",
+				"OutputItem",
+				"#0"
+			], //Vinegar Keg - Unmilled Rice Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3460,12 +4742,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_SnackCheese", "OutputItem", "#0"], //Wax Barrel - Snack Cheese
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_SnackCheese",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Snack Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3485,12 +4775,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_Candles", "OutputItem", "#0"], //Wax Barrel - Candles
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_Candles",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Candles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3510,12 +4808,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_WaxMelts", "OutputItem", "#0"], //Wax Barrel - Wax Melts
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_WaxMelts",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Wax Melts
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3535,12 +4841,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_WildHoneyYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_WildHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3560,12 +4874,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredHoneyYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3585,12 +4907,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3610,12 +4940,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_ChocolateYogurt", "OutputItem", "Cornucopia_FlavoredYogurtDefault"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_ChocolateYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurtDefault"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3644,7 +4982,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGoat", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGoat",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -3672,12 +5016,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGoatGold", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGoatGold",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"Quality": "0",
@@ -3726,10 +5078,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGold", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGold",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null, // Large Milk
-				"RequiredTags": ["large_milk_item"]
+				"RequiredTags": [
+					"large_milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing|contains=Off": "false"
@@ -3738,7 +5098,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGold", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Large Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGold",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -3773,7 +5139,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurt", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurt",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3793,13 +5165,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		//On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Alembic", "OutputRules", "Cornucopia_EssentialOil", "OutputItem", "#0"], //Alembic - Essential Oil
+			"TargetField": [
+				"(BC)Cornucopia_Alembic",
+				"OutputRules",
+				"Cornucopia_EssentialOil",
+				"OutputItem",
+				"#0"
+			], //Alembic - Essential Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3827,7 +5207,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Alembic", "OutputRules", "Cornucopia_PrismaticEssence", "OutputItem", "#0"], //Alembic - Prismatic Essence
+			"TargetField": [
+				"(BC)Cornucopia_Alembic",
+				"OutputRules",
+				"Cornucopia_PrismaticEssence",
+				"OutputItem",
+				"#0"
+			], //Alembic - Prismatic Essence
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3855,7 +5241,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterMilk", "OutputItem", "#0"], //Butter Churn - Butter (Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3883,7 +5275,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "1",
@@ -3920,7 +5318,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -3957,7 +5361,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterGoatMilk", "OutputItem", "#0"], //Butter Churn - Butter (Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -3994,7 +5404,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeGoatMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -4045,7 +5461,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_ButterLargeGoatMilk", "OutputItem", "#0"], //Butter Churn - Butter (Large Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_ButterLargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"MaxStack": "4",
@@ -4096,7 +5518,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_CoconutButter", "OutputItem", "#0"], //Butter Churn - Coconut Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CoconutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Coconut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4124,7 +5552,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_CookieButter", "OutputItem", "#0"], //Butter Churn - Cookie Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CookieButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Cookie Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4152,7 +5586,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_HoneyButter", "OutputItem", "#0"], //Butter Churn - Honey Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_HoneyButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Honey Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4180,7 +5620,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_MapleButter", "OutputItem", "#0"], //Butter Churn - Maple Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_MapleButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Maple Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4208,7 +5654,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_Margarine", "OutputItem", "#0"], //Butter Churn - Margarine
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_Margarine",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Margarine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4236,7 +5688,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_NutButter", "OutputItem", "#0"], //Butter Churn - Nut Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_NutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Nut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4264,7 +5722,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_CocoaButter", "OutputItem", "#0"], //Butter Churn - Cocoa Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_CocoaButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Cocoa Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4293,7 +5757,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_PeanutButter", "OutputItem", "#0"], //Butter Churn - Peanut Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_PeanutButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Peanut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4322,7 +5792,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_ButterChurn", "OutputRules", "Cornucopia_SoyButter", "OutputItem", "#0"], //Butter Churn - Soy Butter
+			"TargetField": [
+				"(BC)Cornucopia_ButterChurn",
+				"OutputRules",
+				"Cornucopia_SoyButter",
+				"OutputItem",
+				"#0"
+			], //Butter Churn - Soy Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4351,7 +5827,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "CornucopiaPineNutMilk"], //Cheese Press - Pine Nut Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaPineNutMilk"
+			], //Cheese Press - Pine Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4379,7 +5861,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "CornucopiaSoyMilk"], //Cheese Press - Soy Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaSoyMilk"
+			], //Cheese Press - Soy Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4407,7 +5895,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "CornucopiaOatMilk"], //Cheese Press - Oat Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"CornucopiaOatMilk"
+			], //Cheese Press - Oat Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4435,7 +5929,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_NutCheese_NutMilk", "OutputItem", "Default"], //Cheese Press - Nut Cheese
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_NutCheese_NutMilk",
+				"OutputItem",
+				"Default"
+			], //Cheese Press - Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4463,7 +5963,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Applesauce", "OutputItem", "#0"], //Compact Mill - Applesauce
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Applesauce",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Applesauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4491,7 +5997,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_ChiliPowder", "OutputItem", "#0"], //Compact Mill - Chili Powder
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_ChiliPowder",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Chili Powder
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4519,7 +6031,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_OrangeZest", "OutputItem", "#0"], //Compact Mill - Orange Zest
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_OrangeZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Orange Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4547,7 +6065,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Saffron", "OutputItem", "#0"], //Compact Mill - Saffron
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Saffron",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Saffron
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4575,7 +6099,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Salt", "OutputItem", "#0"], //Compact Mill - Salt
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Salt",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Salt
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4603,7 +6133,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_ShrimpPaste", "OutputItem", "#0"], //Compact Mill - Shrimp Paste
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_ShrimpPaste",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Shrimp Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4631,7 +6167,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_MisoPaste", "OutputItem", "#0"], //Compact Mill - Miso Paste
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_MisoPaste",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Miso Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4660,7 +6202,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Paprika", "OutputItem", "#0"], //Compact Mill - Paprika
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Paprika",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Paprika
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4689,7 +6237,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_Pepper", "OutputItem", "#0"], //Compact Mill - Pepper
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_Pepper",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Pepper
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4718,7 +6272,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_LemonZest", "OutputItem", "#0"], //Compact Mill - Lemon Zest
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_LemonZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Lemon Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4748,7 +6308,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_LimeZest", "OutputItem", "#0"], //Compact Mill - Lime Zest
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_LimeZest",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Lime Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4778,7 +6344,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_CompactMill", "OutputRules", "Cornucopia_AloeGel", "OutputItem", "#0"], //Compact Mill - Aloe Gel
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules",
+				"Cornucopia_AloeGel",
+				"OutputItem",
+				"#0"
+			], //Compact Mill - Aloe Gel
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4808,7 +6380,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedHerb", "OutputItem", "#0"], //Drying Rack - Dried Herb
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedHerb",
+				"OutputItem",
+				"#0"
+			], //Drying Rack - Dried Herb
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4836,7 +6414,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DryingRack", "OutputRules", "Cornucopia_DriedFlower", "OutputItem", "#0"], //Drying Rack - Dried Flower
+			"TargetField": [
+				"(BC)Cornucopia_DryingRack",
+				"OutputRules",
+				"Cornucopia_DriedFlower",
+				"OutputItem",
+				"#0"
+			], //Drying Rack - Dried Flower
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4864,7 +6448,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Dehydrator", "OutputRules", "Cornucopia_DriedVegetable", "OutputItem", "#0"], //Dehydrtator - Dried Vegetable
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"Cornucopia_DriedVegetable",
+				"OutputItem",
+				"#0"
+			], //Dehydrtator - Dried Vegetable
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4892,7 +6482,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_Beeswax", "OutputItem", "#0"], //Extruder - Beeswax
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_Beeswax",
+				"OutputItem",
+				"#0"
+			], //Extruder - Beeswax
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4920,7 +6516,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_GlassNoodles", "OutputItem", "#0"], //Extruder - Glass Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_GlassNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Glass Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4948,7 +6550,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_RiceNoodles", "OutputItem", "#0"], //Extruder - Rice Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_RiceNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Rice Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4976,7 +6584,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_WheatNoodles", "OutputItem", "#0"], //Extruder - Wheat Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_WheatNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Wheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5004,7 +6618,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_Zoodles", "OutputItem", "#0"], //Extruder - Zoodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_Zoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Zoodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5033,7 +6653,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_BuckwheatNoodles", "OutputItem", "#0"], //Extruder - Buckwheat Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_BuckwheatNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Buckwheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5063,7 +6689,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_SemolinaNoodles", "OutputItem", "#0"], //Extruder - Semolina Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_SemolinaNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Semolina Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5093,7 +6725,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_WholeGrainNoodles", "OutputItem", "#0"], //Extruder - Whole Grain Noodles
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_WholeGrainNoodles",
+				"OutputItem",
+				"#0"
+			], //Extruder - Whole Grain Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5123,7 +6761,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Extruder", "OutputRules", "Cornucopia_ChewingGum", "OutputItem", "#0"], //Extruder - Chewing Gum
+			"TargetField": [
+				"(BC)Cornucopia_Extruder",
+				"OutputRules",
+				"Cornucopia_ChewingGum",
+				"OutputItem",
+				"#0"
+			], //Extruder - Chewing Gum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5153,7 +6797,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_Juicer", "OutputRules", "Cornucopia_Juice", "OutputItem", "#0"], //Juicer - Juice
+			"TargetField": [
+				"(BC)Cornucopia_Juicer",
+				"OutputRules",
+				"Cornucopia_Juice",
+				"OutputItem",
+				"#0"
+			], //Juicer - Juice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5181,7 +6831,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_CoconutMilk", "OutputItem", "#0"], //Keg - Coconut Milk
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_CoconutMilk",
+				"OutputItem",
+				"#0"
+			], //Keg - Coconut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5209,7 +6865,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_NutMilk", "OutputItem", "#0"], //Keg - Nut Milk
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_NutMilk",
+				"OutputItem",
+				"#0"
+			], //Keg - Nut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5237,7 +6899,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_GarlicMayonnaise", "OutputItem", "Cornucopia_GarlicMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Garlic Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_GarlicMayonnaise",
+				"OutputItem",
+				"Cornucopia_GarlicMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Garlic Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -5274,7 +6942,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_GarlicMayonnaise", "OutputItem", "Cornucopia_GarlicMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Garlic Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_GarlicMayonnaise",
+				"OutputItem",
+				"Cornucopia_GarlicMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Garlic Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5302,7 +6976,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_SpicyMayonnaise", "OutputItem", "Cornucopia_SpicyMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Spicy Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_SpicyMayonnaise",
+				"OutputItem",
+				"Cornucopia_SpicyMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Spicy Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -5339,7 +7019,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_SpicyMayonnaise", "OutputItem", "Cornucopia_SpicyMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Spicy Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_SpicyMayonnaise",
+				"OutputItem",
+				"Cornucopia_SpicyMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Spicy Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5367,7 +7053,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_TruffleMayonnaise", "OutputItem", "Cornucopia_TruffleMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Truffle Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_TruffleMayonnaise",
+				"OutputItem",
+				"Cornucopia_TruffleMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Truffle Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -5404,7 +7096,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_TruffleMayonnaise", "OutputItem", "Cornucopia_TruffleMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Truffle Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_TruffleMayonnaise",
+				"OutputItem",
+				"Cornucopia_TruffleMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Truffle Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5432,141 +7130,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_AvocadoMayonnaise", "OutputItem", "Cornucopia_AvocadoMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Avocado Mayo
-			"Entries": {
-				"MinStack": "1",
-				"MaxStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "AddQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "AddQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false,
-				"HasMod|contains=Cornucopia.MoreCrops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_AvocadoMayonnaise", "OutputItem", "Cornucopia_AvocadoMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Avocado Mayo
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false,
-				"HasMod|contains=Cornucopia.MoreCrops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_BlackPepperMayonnaise", "OutputItem", "Cornucopia_BlackPepperMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Black Pepper Mayo
-			"Entries": {
-				"MinStack": "1",
-				"MaxStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "AddQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "AddQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false,
-				"HasMod|contains=Cornucopia.MoreCrops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_BlackPepperMayonnaise", "OutputItem", "Cornucopia_BlackPepperMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Black Pepper Mayo
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false,
-				"HasMod|contains=Cornucopia.MoreCrops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_OliveOilMayonnaise", "OutputItem", "Cornucopia_OliveOilMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Olive Oil Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_AvocadoMayonnaise",
+				"OutputItem",
+				"Cornucopia_AvocadoMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Avocado Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -5604,7 +7174,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_OliveOilMayonnaise", "OutputItem", "Cornucopia_OliveOilMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Olive Oil Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_AvocadoMayonnaise",
+				"OutputItem",
+				"Cornucopia_AvocadoMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Avocado Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5633,7 +7209,171 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_DillMayonnaise", "OutputItem", "Cornucopia_DillMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Dill Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_BlackPepperMayonnaise",
+				"OutputItem",
+				"Cornucopia_BlackPepperMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Black Pepper Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_BlackPepperMayonnaise",
+				"OutputItem",
+				"Cornucopia_BlackPepperMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Black Pepper Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_OliveOilMayonnaise",
+				"OutputItem",
+				"Cornucopia_OliveOilMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Olive Oil Mayo
+			"Entries": {
+				"MinStack": "1",
+				"MaxStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "AddQuality1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "AddQuality2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_OliveOilMayonnaise",
+				"OutputItem",
+				"Cornucopia_OliveOilMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Olive Oil Mayo
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false,
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_DillMayonnaise",
+				"OutputItem",
+				"Cornucopia_DillMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Dill Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -5672,7 +7412,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_DillMayonnaise", "OutputItem", "Cornucopia_DillMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Dill Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_DillMayonnaise",
+				"OutputItem",
+				"Cornucopia_DillMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Dill Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5702,7 +7448,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_WasabiMayonnaise", "OutputItem", "Cornucopia_WasabiMayonnaiseLargeEgg"], //Mayonnaise Machone - Large Wasabi Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_WasabiMayonnaise",
+				"OutputItem",
+				"Cornucopia_WasabiMayonnaiseLargeEgg"
+			], //Mayonnaise Machone - Large Wasabi Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -5734,7 +7486,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "Cornucopia_WasabiMayonnaise", "OutputItem", "Cornucopia_WasabiMayonnaiseSmallEgg"], //Mayonnaise Machone - Small Wasabi Mayo
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Cornucopia_WasabiMayonnaise",
+				"OutputItem",
+				"Cornucopia_WasabiMayonnaiseSmallEgg"
+			], //Mayonnaise Machone - Small Wasabi Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5764,7 +7522,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_ChiliOil", "OutputItem", "#0"], //Oil Maker - Chili Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_ChiliOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Chili Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5792,7 +7556,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_CoconutOil", "OutputItem", "#0"], //Oil Maker - Coconut Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_CoconutOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Coconut Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5820,7 +7590,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_FishOil", "OutputItem", "#0"], //Oil Maker - Fish Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_FishOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Fish Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5848,7 +7624,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)19", "OutputRules", "Cornucopia_AvocadoOil", "OutputItem", "#0"], //Oil Maker - Avocado Oil
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"Cornucopia_AvocadoOil",
+				"OutputItem",
+				"#0"
+			], //Oil Maker - Avocado Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5877,7 +7659,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_CenturyEgg", "OutputItem", "#0"], //Preserve Jar - Century Egg
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_CenturyEgg",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Century Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5905,7 +7693,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_FishSauce", "OutputItem", "#0"], //Preserve Jar - Fish Sauce
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_FishSauce",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Fish Sauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5933,7 +7727,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Garum", "OutputItem", "#0"], //Preserve Jar - Garum
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Garum",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Garum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5961,7 +7761,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChicken", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Chicken Small
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChicken",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Chicken Small
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5989,7 +7795,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggsChickenLarge", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Chicken Large
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggsChickenLarge",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Chicken Large
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -6025,7 +7837,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledEggs", "OutputItem", "#0"], //Preserve Jar - Pickled Eggs Default
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledEggs",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Eggs Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6053,7 +7871,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickledFish", "OutputItem", "#0"], //Preserve Jar - Pickled Fish Default
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickledFish",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickled Fish Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6081,7 +7905,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Sauerkraut", "OutputItem", "Double Sauerkraut"], //Preserve Jar - Sauerkraut Double
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Sauerkraut",
+				"OutputItem",
+				"Double Sauerkraut"
+			], //Preserve Jar - Sauerkraut Double
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6109,7 +7939,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Sauerkraut", "OutputItem", "(O)Cornucopia_Sauerkraut"], //Preserve Jar - Sauerkraut
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Sauerkraut",
+				"OutputItem",
+				"(O)Cornucopia_Sauerkraut"
+			], //Preserve Jar - Sauerkraut
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6137,7 +7973,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_BrinedOlives", "OutputItem", "#0"], //Preserve Jar - Brined Olives
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_BrinedOlives",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Brined Olives
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6166,7 +8008,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_PickleSpears", "OutputItem", "#0"], //Preserve Jar - Pickle Spears
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_PickleSpears",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Pickle Spears
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6195,7 +8043,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_SoySauce", "OutputItem", "#0"], //Preserve Jar - Soy Sause
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_SoySauce",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Soy Sause
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6224,7 +8078,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_StinkyTofu", "OutputItem", "#0"], //Preserve Jar - Stinky Tofu
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_StinkyTofu",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Stinky Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6253,7 +8113,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Kimchi", "OutputItem", "Triple Output"], //Preserve Jar - Kimchi Daikon
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Kimchi",
+				"OutputItem",
+				"Triple Output"
+			], //Preserve Jar - Kimchi Daikon
 			"Entries": {
 				"Quality": "0",
 				"MinStack": "2",
@@ -6284,7 +8150,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Kimchi", "OutputItem", "(O)Cornucopia_Kimchi"], //Preserve Jar - Kimchi Lettuce
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Kimchi",
+				"OutputItem",
+				"(O)Cornucopia_Kimchi"
+			], //Preserve Jar - Kimchi Lettuce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6314,7 +8186,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules", "Cornucopia_Umeboshi", "OutputItem", "#0"], //Preserve Jar - Umeboshi
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"Cornucopia_Umeboshi",
+				"OutputItem",
+				"#0"
+			], //Preserve Jar - Umeboshi
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6344,7 +8222,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_VinegarKeg", "OutputRules", "Cornucopia_Vinegar", "OutputItem", "#0"], //Vinegar Keg - Vinegar
+			"TargetField": [
+				"(BC)Cornucopia_VinegarKeg",
+				"OutputRules",
+				"Cornucopia_Vinegar",
+				"OutputItem",
+				"#0"
+			], //Vinegar Keg - Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6372,7 +8256,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_VinegarKeg", "OutputRules", "Cornucopia_VinegarUnmilledRice", "OutputItem", "#0"], //Vinegar Keg - Unmilled Rice Vinegar
+			"TargetField": [
+				"(BC)Cornucopia_VinegarKeg",
+				"OutputRules",
+				"Cornucopia_VinegarUnmilledRice",
+				"OutputItem",
+				"#0"
+			], //Vinegar Keg - Unmilled Rice Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6400,7 +8290,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_SnackCheese", "OutputItem", "#0"], //Wax Barrel - Snack Cheese
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_SnackCheese",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Snack Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6428,7 +8324,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_Candles", "OutputItem", "#0"], //Wax Barrel - Candles
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_Candles",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Candles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6456,7 +8358,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_WaxBarrel", "OutputRules", "Cornucopia_WaxMelts", "OutputItem", "#0"], //Wax Barrel - Wax Melts
+			"TargetField": [
+				"(BC)Cornucopia_WaxBarrel",
+				"OutputRules",
+				"Cornucopia_WaxMelts",
+				"OutputItem",
+				"#0"
+			], //Wax Barrel - Wax Melts
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6484,7 +8392,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_WildHoneyYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_WildHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6512,7 +8426,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredHoneyYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredHoneyYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6540,7 +8460,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredYogurt", "OutputItem", "Cornucopia_FlavoredYogurt"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurt"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6568,7 +8494,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_ChocolateYogurt", "OutputItem", "Cornucopia_FlavoredYogurtDefault"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_ChocolateYogurt",
+				"OutputItem",
+				"Cornucopia_FlavoredYogurtDefault"
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6598,7 +8530,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGoat", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGoat",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -6634,7 +8572,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGoatGold", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGoatGold",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"Quality": "0",
@@ -6684,10 +8628,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGold", "Triggers", "#0"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGold",
+				"Triggers",
+				"#0"
+			],
 			"Entries": {
 				"RequiredItemId": null, // Large Milk
-				"RequiredTags": ["large_milk_item"]
+				"RequiredTags": [
+					"large_milk_item"
+				]
 			},
 			"When": {
 				"Machine Processing|contains=Off": "false",
@@ -6697,7 +8649,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurtGold", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Large Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurtGold",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -6733,7 +8691,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_PlainYogurt", "OutputItem", "#0"], //Yogurt Jar - Plain Yogurt (Milk)
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_PlainYogurt",
+				"OutputItem",
+				"#0"
+			], //Yogurt Jar - Plain Yogurt (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6762,60 +8726,96 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)15", "OutputRules"], //Preserve Jar - Remove Pickeled Gold and Ostrich
+			"TargetField": [
+				"(BC)15",
+				"OutputRules"
+			], //Preserve Jar - Remove Pickeled Gold and Ostrich
 			"Entries": {
 				"Cornucopia_PickledEggsGold": null,
 				"Cornucopia_PickledEggsOstrich": null
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_DeluxeSmoker", "OutputRules"], //Deluxe Smoker - Remove Smoked Gold and Ostrich
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules"
+			], //Deluxe Smoker - Remove Smoked Gold and Ostrich
 			"Entries": {
 				"Cornucopia_SmokedEggOstrich": null,
 				"Cornucopia_SmokedEggsOstrich": null
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_WildHoneyYogurt", "OutputItem"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_WildHoneyYogurt",
+				"OutputItem"
+			],
 			"Entries": {
 				"Cornucopia_FlavoredYogurtIridium": null,
 				"Cornucopia_FlavoredYogurtGold": null,
 				"Cornucopia_FlavoredYogurtSilver": null
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredHoneyYogurt", "OutputItem"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredHoneyYogurt",
+				"OutputItem"
+			],
 			"Entries": {
 				"Cornucopia_FlavoredYogurtIridium": null,
 				"Cornucopia_FlavoredYogurtGold": null,
 				"Cornucopia_FlavoredYogurtSilver": null
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_FlavoredYogurt", "OutputItem"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_FlavoredYogurt",
+				"OutputItem"
+			],
 			"Entries": {
 				"Cornucopia_FlavoredYogurtIridium": null,
 				"Cornucopia_FlavoredYogurtGold": null,
 				"Cornucopia_FlavoredYogurtSilver": null
 			},
-			"When": { "Machine Processing|contains=Off": "false" }
+			"When": {
+				"Machine Processing|contains=Off": "false"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)Cornucopia_YogurtJar", "OutputRules", "Cornucopia_ChocolateYogurt", "OutputItem"],
+			"TargetField": [
+				"(BC)Cornucopia_YogurtJar",
+				"OutputRules",
+				"Cornucopia_ChocolateYogurt",
+				"OutputItem"
+			],
 			"Entries": {
 				"Cornucopia_FlavoredYogurtIridium": null,
 				"Cornucopia_FlavoredYogurtGold": null,

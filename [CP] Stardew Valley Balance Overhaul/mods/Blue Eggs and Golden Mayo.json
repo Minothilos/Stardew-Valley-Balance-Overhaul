@@ -4,27 +4,44 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"6480.blueegg_BlueEgg": { "Price": "130" }, //Blue Egg
-				"6480.blueegg_BlueMayo": { "Price": "260" }, //Blue Mayonnaise
-				"6480.blueegg_GoldenMayo": { "Price": "600" }, //Golden Mayonnaise
-				"6480.blueegg_OstrichMayo": { "Price": "2000" } //Ostrich Mayo
+				"6480.blueegg_BlueEgg": {
+					"Price": "130"
+				}, //Blue Egg
+				"6480.blueegg_BlueMayo": {
+					"Price": "260"
+				}, //Blue Mayonnaise
+				"6480.blueegg_GoldenMayo": {
+					"Price": "600"
+				}, //Golden Mayonnaise
+				"6480.blueegg_OstrichMayo": {
+					"Price": "2000"
+				} //Ostrich Mayo
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		//Morgan Event (SVE)
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"6480.blueegg_BlueEgg": { "Price": "135" }, //Blue Egg
-				"6480.blueegg_BlueMayo": { "Price": "280" }, //Blue Mayonnaise
-				"6480.blueegg_GoldenMayo": { "Price": "650" }, //Golden Mayonnaise
-				"6480.blueegg_OstrichMayo": { "Price": "2200" } //Ostrich Mayonnaise
+				"6480.blueegg_BlueEgg": {
+					"Price": "135"
+				}, //Blue Egg
+				"6480.blueegg_BlueMayo": {
+					"Price": "280"
+				}, //Blue Mayonnaise
+				"6480.blueegg_GoldenMayo": {
+					"Price": "650"
+				}, //Golden Mayonnaise
+				"6480.blueegg_OstrichMayo": {
+					"Price": "2200"
+				} //Ostrich Mayonnaise
 			},
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP",
-				"HasMod": "6480.blueegg",
-				"HasSeenEvent: anyPlayer| contains=5978939": true,				
+				"HasMod": "FlashShifter.StardewValleyExpandedCP, 6480.blueegg",
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true
 			}
 		},
@@ -33,7 +50,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"6480.blueegg_OstrichEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": "false",
@@ -54,12 +77,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_BlueEgg", "OutputItem", "#0"], //Mayonnaise Machine - Blue Eggs
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"6480.blueegg_BlueEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Blue Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -79,12 +110,20 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_GoldenEgg", "OutputItem", "#0"], //Mayonnaise Machine - Golden Eggs
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"6480.blueegg_GoldenEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Golden Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -104,13 +143,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On" }
+			"When": {
+				"Machine Processing": "On"
+			}
 		},
 		//On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_OstrichEgg", "OutputItem", "#0"], //Mayonnaise Machine - Ostrich Egg
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"6480.blueegg_OstrichEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": "false",
@@ -131,12 +178,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_BlueEgg", "OutputItem", "#0"], //Mayonnaise Machine - Blue Eggs
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"6480.blueegg_BlueEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Blue Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -156,12 +212,21 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "6480.blueegg_GoldenEgg", "OutputItem", "#0"], //Mayonnaise Machine - Golden Eggs
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"6480.blueegg_GoldenEgg",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Golden Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -181,7 +246,10 @@
 					}
 				]
 			},
-			"When": { "Machine Processing": "On", "HasMod|contains=DaLion.Professions": false }
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
 		}
 	]
 }

@@ -4,30 +4,72 @@
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Fields": {
-                "White Chicken": { "PurchasePrice": "1500", "SellPrice": "3000" },
-                "Brown Chicken": { "SellPrice": "3000" },
-                "Blue Chicken": { "SellPrice": "3000" },
-                "Void Chicken": { "SellPrice": "3000" },
-                "Golden Chicken": { "SellPrice": "16000" },
-                "Duck": { "PurchasePrice": "2000", "SellPrice": "4000" },
-                "Rabbit": { "PurchasePrice": "5000", "SellPrice": "10000" },
-                "Dinosaur": { "SellPrice": "14000" },
-                "White Cow": { "PurchasePrice": "2000", "SellPrice": "4000" },
-                "Brown Cow": { "SellPrice": "4000" },
-                "Goat": { "PurchasePrice": "3000", "SellPrice": "6000" },
-                "Sheep": { "PurchasePrice": "5000", "SellPrice": "10000" },
-                "Pig": { "PurchasePrice": "7000", "SellPrice": "14000" },
-                "Ostrich": { "SellPrice": "14000" }
+                "White Chicken": {
+                    "PurchasePrice": "1500",
+                    "SellPrice": "3000"
+                },
+                "Brown Chicken": {
+                    "SellPrice": "3000"
+                },
+                "Blue Chicken": {
+                    "SellPrice": "3000"
+                },
+                "Void Chicken": {
+                    "SellPrice": "3000"
+                },
+                "Golden Chicken": {
+                    "SellPrice": "16000"
+                },
+                "Duck": {
+                    "PurchasePrice": "2000",
+                    "SellPrice": "4000"
+                },
+                "Rabbit": {
+                    "PurchasePrice": "5000",
+                    "SellPrice": "10000"
+                },
+                "Dinosaur": {
+                    "SellPrice": "14000"
+                },
+                "White Cow": {
+                    "PurchasePrice": "2000",
+                    "SellPrice": "4000"
+                },
+                "Brown Cow": {
+                    "SellPrice": "4000"
+                },
+                "Goat": {
+                    "PurchasePrice": "3000",
+                    "SellPrice": "6000"
+                },
+                "Sheep": {
+                    "PurchasePrice": "5000",
+                    "SellPrice": "10000"
+                },
+                "Pig": {
+                    "PurchasePrice": "7000",
+                    "SellPrice": "14000"
+                },
+                "Ostrich": {
+                    "SellPrice": "14000"
+                }
             },
-            "When": { "Sell Prices": true }
+            "When": {
+                "Sell Prices": true
+            }
         },
         {
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Fields": {
-                "Sheep": { "ShopDescription": "{{i18n:Sheep}}", "FriendshipForFasterProduce": "-1" }
+                "Sheep": {
+                    "ShopDescription": "{{i18n:Sheep}}",
+                    "FriendshipForFasterProduce": "-1"
+                }
             },
-            "When": { "Sell Prices": true }
+            "When": {
+                "Sell Prices": true
+            }
         }
     ]
 }

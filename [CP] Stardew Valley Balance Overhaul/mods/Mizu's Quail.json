@@ -5,9 +5,18 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Quail_QuailEgg": { "Price": "40", "Edibility": "5" }, // Small Quail Egg
-				"Mizu.Quail_LargeQuailEgg": { "Price": "80", "Edibility": "10" }, // Large Quail Egg
-				"Mizu.Quail_QuailMayonnaise": { "Price": "120", "Edibility": "20" } // Quail Mayonnaise
+				"Mizu.Quail_QuailEgg": {
+					"Price": "40",
+					"Edibility": "5"
+				}, // Small Quail Egg
+				"Mizu.Quail_LargeQuailEgg": {
+					"Price": "80",
+					"Edibility": "10"
+				}, // Large Quail Egg
+				"Mizu.Quail_QuailMayonnaise": {
+					"Price": "120",
+					"Edibility": "20"
+				} // Quail Mayonnaise
 			},
 			"When": {
 				"Sell Prices": true
@@ -16,8 +25,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Mizu.Quail_QuailEgg", "ContextTags"], //Quail Eggs are egg items
-			"Entries": { "#-1": "item_egg" },
+			"TargetField": [
+				"Mizu.Quail_QuailEgg",
+				"ContextTags"
+			], //Quail Eggs are egg items
+			"Entries": {
+				"#-1": "item_egg"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -25,8 +39,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Mizu.Quail_LargeQuailEgg", "ContextTags"], //Large Quail Eggs are large egg items
-			"Entries": { "#-1": "item_large_egg" },
+			"TargetField": [
+				"Mizu.Quail_LargeQuailEgg",
+				"ContextTags"
+			], //Large Quail Eggs are large egg items
+			"Entries": {
+				"#-1": "item_large_egg"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -49,8 +68,18 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "QuailMayonnaiseQuailty", "OutputItem", "(O)Mizu.Quail_QuailMayonnaise"], // Large Quail Egg make 2 Mayo
-			"Entries": { "MinStack": "2", "MaxStack": "2", "Quality": "0" },
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"QuailMayonnaiseQuailty",
+				"OutputItem",
+				"(O)Mizu.Quail_QuailMayonnaise"
+			], // Large Quail Egg make 2 Mayo
+			"Entries": {
+				"MinStack": "2",
+				"MaxStack": "2",
+				"Quality": "0"
+			},
 			"When": {
 				"Machine Processing": "Large Animal Products Only"
 			}
@@ -59,7 +88,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "QuailMayonnaise", "OutputItem", "#0"], //Mayonnaise Machine - Quail Mayonnaise
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"QuailMayonnaise",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Quail Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -86,7 +121,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "QuailMayonnaiseQuailty", "OutputItem", "#0"], //Mayonnaise Machine - Quail Mayonnaise Large
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"QuailMayonnaiseQuailty",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Quail Mayonnaise Large
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -123,7 +164,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "QuailMayonnaise", "OutputItem", "#0"], //Mayonnaise Machine - Quail Mayonnaise
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"QuailMayonnaise",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Quail Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -151,7 +198,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)24", "OutputRules", "QuailMayonnaiseQuailty", "OutputItem", "#0"], //Mayonnaise Machine - Quail Mayonnaise Large
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"QuailMayonnaiseQuailty",
+				"OutputItem",
+				"#0"
+			], //Mayonnaise Machine - Quail Mayonnaise Large
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -190,9 +243,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Quail_QuailMeat": { "Price": "250" }, // Quail Meat
-				"Mizu.Quail_SpatchcockedQuailandGreens": { "Price": "985" }, // Spatchcocked Quail and Greens
-				"Mizu.Quail_StuffedQuail": { "Price": "840" } // Stuffed Quail
+				"Mizu.Quail_QuailMeat": {
+					"Price": "250"
+				}, // Quail Meat
+				"Mizu.Quail_SpatchcockedQuailandGreens": {
+					"Price": "985"
+				}, // Spatchcocked Quail and Greens
+				"Mizu.Quail_StuffedQuail": {
+					"Price": "840"
+				} // Stuffed Quail
 			},
 			"When": {
 				"Sell Prices": true,
@@ -203,7 +262,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Quail_SpatchcockedQuailandGreens": { "Price": "880" } // Spatchcocked Quail and Greens with Cornucopia
+				"Mizu.Quail_SpatchcockedQuailandGreens": {
+					"Price": "880"
+				} // Spatchcocked Quail and Greens with Cornucopia
 			},
 			"When": {
 				"Sell Prices": true,
@@ -215,7 +276,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Quail_StuffedQuail": { "Price": "1100" } // Stuffed Quail with Extended Trees
+				"Mizu.Quail_StuffedQuail": {
+					"Price": "1100"
+				} // Stuffed Quail with Extended Trees
 			},
 			"When": {
 				"Sell Prices": true,
@@ -249,7 +312,10 @@
 						{
 							"Duration": "960",
 							"IsDebuff": false,
-							"CustomAttributes": { "LuckLevel": "2", "Defense": "4" }
+							"CustomAttributes": {
+								"LuckLevel": "2",
+								"Defense": "4"
+							}
 						}
 					],
 					"Edibility": "90"

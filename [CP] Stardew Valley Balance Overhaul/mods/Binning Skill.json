@@ -5,53 +5,93 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"drbirbdev.BinningSkill_GrilledCheese": { "Price": "235" }, //Grilled Cheese
-				"drbirbdev.BinningSkill_FishCasserole": { "Price": "215" } //Fish Casserole
+				"drbirbdev.BinningSkill_GrilledCheese": {
+					"Price": "235"
+				}, //Grilled Cheese
+				"drbirbdev.BinningSkill_FishCasserole": {
+					"Price": "215"
+				} //Fish Casserole
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		// Machine Crafting Recipes
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"drbirbdev.BinningSkill_TrashCan": { "0": "335 3 390 40" }, // Trashcan
-				"drbirbdev.BinningSkill_Composter": { "0": "388 80 92 25 771 30 330 2" }, // Composter
-				"drbirbdev.BinningSkill_RecyclingBin": { "0": "335 4 336 3 771 15" }, // Recycling Bin
-				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": { "0": "337 6 787 3 338 12" } // Advanced Recycling Machine
+				"drbirbdev.BinningSkill_TrashCan": {
+					"0": "335 3 390 40"
+				}, // Trashcan
+				"drbirbdev.BinningSkill_Composter": {
+					"0": "388 80 92 25 771 30 330 2"
+				}, // Composter
+				"drbirbdev.BinningSkill_RecyclingBin": {
+					"0": "335 4 336 3 771 15"
+				}, // Recycling Bin
+				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": {
+					"0": "337 6 787 3 338 12"
+				} // Advanced Recycling Machine
 			},
-			"When": { "Machines": "Hard" }
+			"When": {
+				"Machines": "Hard"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"drbirbdev.BinningSkill_TrashCan": { "0": "335 4 390 50" }, // Trashcan
-				"drbirbdev.BinningSkill_Composter": { "0": "388 90 92 30 771 35 330 3" }, // Composter
-				"drbirbdev.BinningSkill_RecyclingBin": { "0": "335 5 336 4 771 20" }, // Recycling Bin
-				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": { "0": "337 7 787 3 338 15" } // Advanced Recycling Machine
+				"drbirbdev.BinningSkill_TrashCan": {
+					"0": "335 4 390 50"
+				}, // Trashcan
+				"drbirbdev.BinningSkill_Composter": {
+					"0": "388 90 92 30 771 35 330 3"
+				}, // Composter
+				"drbirbdev.BinningSkill_RecyclingBin": {
+					"0": "335 5 336 4 771 20"
+				}, // Recycling Bin
+				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": {
+					"0": "337 7 787 3 338 15"
+				} // Advanced Recycling Machine
 			},
-			"When": { "Machines": "Very Hard" }
+			"When": {
+				"Machines": "Very Hard"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Priority": "Late",
 			"Fields": {
-				"Recycling Machine": { "0": "334 1 388 20 390 20" }, // Recycling Machine
-				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": { "0": "337 4 787 2 338 12" } // Advanced Recycling Machine
+				"Recycling Machine": {
+					"0": "334 1 388 20 390 20"
+				}, // Recycling Machine
+				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": {
+					"0": "337 4 787 2 338 12"
+				} // Advanced Recycling Machine
 			},
-			"When": { "Machines": "Hard", "HasProfession": "478510818" }
+			"When": {
+				"Machines": "Hard",
+				"HasProfession": "478510818"
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Priority": "Late",
 			"Fields": {
-				"Recycling Machine": { "0": "334 2 388 25 390 25" }, // Recycling Machine
-				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": { "0": "337 5 787 2 338 15" } // Advanced Recycling Machine
+				"Recycling Machine": {
+					"0": "334 2 388 25 390 25"
+				}, // Recycling Machine
+				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": {
+					"0": "337 5 787 2 338 15"
+				} // Advanced Recycling Machine
 			},
-			"When": { "Machines": "Very Hard", "HasProfession": "478510818" }
+			"When": {
+				"Machines": "Very Hard",
+				"HasProfession": "478510818"
+			}
 		}
 	]
 }

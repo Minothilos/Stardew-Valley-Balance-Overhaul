@@ -4,17 +4,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"EastScarp_Azure_Chrysanthemum": { "Price": "160" },
-				"EastScarp_Bird_Of_Paradise": { "Price": "150" },
-				"EastScarp_Serruria": { "Price": "170" }
-			},
-			"When": { "Sell Prices": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Lemurkat_Heirloom_Cherry_Tree": { "Price": "600" },
+				"EastScarp_Azure_Chrysanthemum": {
+					"Price": "160"
+				},
+				"EastScarp_Bird_Of_Paradise": {
+					"Price": "150"
+				},
+				"EastScarp_Serruria": {
+					"Price": "170"
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -24,18 +22,52 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"EastScarp_Golden_Trout": { "Price": "150" },
-				"EastScarp_Kokanee_Salmon": { "Price": "135" },
-				"EastScarp_Cerulean_Nudibranch": { "Price": "115" },
-				"EastScarp_Ornate_Nudibranch": { "Price": "150" },
-				"EastScarp_Sea_Bunny_Nudibranch": { "Price": "150" },
-				"EastScarp_Sunset_Nudibranch": { "Price": "160" },
-				"EastScarp_Red_Herring": { "Price": "100" },
-				"EastScarp_Fairy_Betta": { "Price": "135" },
-				"EastScarp_Obsidian_Maw": { "Price": "150" },
-				"EastScarp_Slime_Barbel": { "Price": "150" }
+				"Lemurkat_Heirloom_Cherry_Tree": {
+					"Price": "600"
+				}
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"EastScarp_Golden_Trout": {
+					"Price": "150"
+				},
+				"EastScarp_Kokanee_Salmon": {
+					"Price": "135"
+				},
+				"EastScarp_Cerulean_Nudibranch": {
+					"Price": "115"
+				},
+				"EastScarp_Ornate_Nudibranch": {
+					"Price": "150"
+				},
+				"EastScarp_Sea_Bunny_Nudibranch": {
+					"Price": "150"
+				},
+				"EastScarp_Sunset_Nudibranch": {
+					"Price": "160"
+				},
+				"EastScarp_Red_Herring": {
+					"Price": "100"
+				},
+				"EastScarp_Fairy_Betta": {
+					"Price": "135"
+				},
+				"EastScarp_Obsidian_Maw": {
+					"Price": "150"
+				},
+				"EastScarp_Slime_Barbel": {
+					"Price": "150"
+				}
+			},
+			"When": {
+				"Sell Prices": true
+			}
 		}
 	]
 }

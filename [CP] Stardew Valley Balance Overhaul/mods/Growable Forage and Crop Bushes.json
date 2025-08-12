@@ -5,10 +5,18 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_SpringOnionSeeds": { "Price": "5" }, //Spring Onion Seeds
-				"399": { "Price": "10" }, //Spring Onion
-				"Cornucopia_CrocusSeeds": { "Price": "10" }, //Crocus Seeds
-				"Cornucopia_SweetPeaSeeds": { "Price": "5" } //Sweet Pea Seeds
+				"Cornucopia_SpringOnionSeeds": {
+					"Price": "5"
+				}, //Spring Onion Seeds
+				"399": {
+					"Price": "10"
+				}, //Spring Onion
+				"Cornucopia_CrocusSeeds": {
+					"Price": "10"
+				}, //Crocus Seeds
+				"Cornucopia_SweetPeaSeeds": {
+					"Price": "5"
+				} //Sweet Pea Seeds
 			},
 			"When": {
 				"Sell Prices": true
@@ -18,11 +26,21 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_CommonMushroomSeeds": { "Price": "300" },
-				"Cornucopia_ChanterelleSeeds": { "Price": "500" },
-				"Cornucopia_MorelSeeds": { "Price": "500" },
-				"Cornucopia_HollySeeds": { "Price": "250" },
-				"Cornucopia_SalmonberrySeeds": { "Price": "300" }
+				"Cornucopia_CommonMushroomSeeds": {
+					"Price": "300"
+				},
+				"Cornucopia_ChanterelleSeeds": {
+					"Price": "500"
+				},
+				"Cornucopia_MorelSeeds": {
+					"Price": "500"
+				},
+				"Cornucopia_HollySeeds": {
+					"Price": "250"
+				},
+				"Cornucopia_SalmonberrySeeds": {
+					"Price": "300"
+				}
 			},
 			"When": {
 				"Sell Prices": true,
@@ -33,8 +51,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"399": { "Price": "150" }, //Pale Ale
-				"302": { "Price": "750" } //Hops Planter
+				"399": {
+					"Price": "150"
+				}, //Pale Ale
+				"302": {
+					"Price": "750"
+				} //Hops Planter
 			},
 			"When": {
 				"Sell Prices": true,
@@ -44,7 +66,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "PaleAle", "OutputItem", "#0"], //Cask - Pale Ale
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"PaleAle",
+				"OutputItem",
+				"#0"
+			], //Cask - Pale Ale
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "4"
@@ -52,16 +80,23 @@
 			},
 			"When": {
 				"Sell Prices": true,
-				"Cask Aging": "true"
+				"Cask Aging": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Fields": {
-				"(O)302": { "Condition": null }, //Hops Planter
-				"(O)301": { "Condition": null } //Grape Starter
+				"(O)302": {
+					"Condition": null
+				}, //Hops Planter
+				"(O)301": {
+					"Condition": null
+				} //Grape Starter
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -72,10 +107,17 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": { "Condition": null }, //Hops Planter
-				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": { "Condition": null } //Grape Planter
+				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": {
+					"Condition": null
+				}, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": {
+					"Condition": null
+				} //Grape Planter
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -86,42 +128,76 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Fields": {
-				"(O)302": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
-				"(O)301": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Starter
-				"(O)481": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Blueberry Planter
+				"(O)302": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Hops Planter
+				"(O)301": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Grape Starter
+				"(O)481": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Blueberry Planter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },*/
-				"Cornucopia_HollySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"Cornucopia_BlackberrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"Cornucopia_SalmonberrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+				"Cornucopia_HollySeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_BlackberrySeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_SalmonberrySeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
 				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
-
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"Cornucopia_SpringOnionSeeds": null,
 				"Cornucopia_SweetPeaSeeds": null,
 				"Cornucopia_CrocusSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Fields": {
-				"(O)302": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
-				"(O)301": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Grape Starter
+				"(O)302": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Hops Planter
+				"(O)301": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				} //Grape Starter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }*/
@@ -135,14 +211,35 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Hops Planter
-				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Planter
-				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" }, //Grape Starter
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": { "AvailableStock": "10", "AvailableStockLimit": "Player" } //Grape Planter
+				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Hops Planter
+				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Grape Planter
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}, //Grape Starter
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				} //Grape Planter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }*/
@@ -156,22 +253,39 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"Cornucopia_SpringOnionSeeds": null,
 				"Cornucopia_SweetPeaSeeds": null,
 				"Cornucopia_CrocusSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Dwarf", "Items"],
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_CommonMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"Cornucopia_ChanterelleSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"Cornucopia_MorelSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+				"Cornucopia_CommonMushroomSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_ChanterelleSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_MorelSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,

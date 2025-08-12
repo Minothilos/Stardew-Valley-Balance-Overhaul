@@ -5,22 +5,42 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"ZoeyHoshi.ForageCrops_CaveCarrotSeeds": { "Price": "20" }, //Cave Carrot Seed
-				"ZoeyHoshi.ForageCrops_DaffodilSeeds": { "Price": "5" }, //Daffodil Seeds
-				"ZoeyHoshi.ForageCrops_DandelionSeeds": { "Price": "10" }, //Dandelion Seeds
-				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": { "Price": "25" }, //Fiddlehead Fern Seeds
-				"ZoeyHoshi.ForageCrops_LeekSeeds": { "Price": "20" }, //Cave Carrot Seeds
-				"ZoeyHoshi.ForageCrops_SnowYamSeeds": { "Price": "5" }, //Snow Yam Seeds
-				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": { "Price": "15" }, //Wild Horseradish Seeds
-				"ZoeyHoshi.ForageCrops_WinterRootSeeds": { "Price": "15" } //Winter Root Seeds
+				"ZoeyHoshi.ForageCrops_CaveCarrotSeeds": {
+					"Price": "20"
+				}, //Cave Carrot Seed
+				"ZoeyHoshi.ForageCrops_DaffodilSeeds": {
+					"Price": "5"
+				}, //Daffodil Seeds
+				"ZoeyHoshi.ForageCrops_DandelionSeeds": {
+					"Price": "10"
+				}, //Dandelion Seeds
+				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": {
+					"Price": "25"
+				}, //Fiddlehead Fern Seeds
+				"ZoeyHoshi.ForageCrops_LeekSeeds": {
+					"Price": "20"
+				}, //Cave Carrot Seeds
+				"ZoeyHoshi.ForageCrops_SnowYamSeeds": {
+					"Price": "5"
+				}, //Snow Yam Seeds
+				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": {
+					"Price": "15"
+				}, //Wild Horseradish Seeds
+				"ZoeyHoshi.ForageCrops_WinterRootSeeds": {
+					"Price": "15"
+				} //Winter Root Seeds
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"ZoeyHoshi.ForageCrops_SeaweedSeeds": { "Price": "50" } //Seaweed Seeds
+				"ZoeyHoshi.ForageCrops_SeaweedSeeds": {
+					"Price": "50"
+				} //Seaweed Seeds
 			},
 			"When": {
 				"Sell Prices": true,
@@ -30,7 +50,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_DaffodilSeeds": null,
 				"ZoeyHoshi.ForageCrops_DandelionSeeds": null,
@@ -39,15 +62,26 @@
 				"ZoeyHoshi.ForageCrops_SnowYamSeeds": null,
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Fields": {
-				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -57,19 +91,27 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_DaffodilSeeds": null,
 				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": null,
 				"ZoeyHoshi.ForageCrops_LeekSeeds": null,
 				"ZoeyHoshi.ForageCrops_SnowYamSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["FishShop", "Items"],
+			"TargetField": [
+				"FishShop",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_SeaweedSeeds": null
 			},
@@ -81,28 +123,47 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["AnimalShop", "Items"],
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_CaveCarrotSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Dwarf", "Items"],
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Dwarf", "Items"],
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
 			"Fields": {
-				"ZoeyHoshi.ForageCrops_RedMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"ZoeyHoshi.ForageCrops_PurpleMushroomSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+				"ZoeyHoshi.ForageCrops_RedMushroomSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"ZoeyHoshi.ForageCrops_PurpleMushroomSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -112,23 +173,33 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_NightMarket_MagicBoat_Day1", "Items"],
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day1",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_DaffodilSeeds": null,
 				"ZoeyHoshi.ForageCrops_DandelionSeeds": null,
 				"ZoeyHoshi.ForageCrops_LeekSeeds": null,
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_NightMarket_MagicBoat_Day2", "Items"],
+			"TargetField": [
+				"Festival_NightMarket_MagicBoat_Day2",
+				"Items"
+			],
 			"Entries": {
 				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		}
 	]
 }

@@ -5,54 +5,135 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"blueberry.LoveOfCooking_admiralpie": { "Price": "290" }, //Admiral Pie
-				"blueberry.LoveOfCooking_applepie": { "Price": "365" }, //Apple Pie
-				"blueberry.LoveOfCooking_arancini": { "Price": "125" }, //Arancini
-				"blueberry.LoveOfCooking_bakedpotato": { "Price": "270" }, //Baked Potato
-				"blueberry.LoveOfCooking_breakfast": { "Price": "325" }, //Quick Breakfast
-				"blueberry.LoveOfCooking_burger": { "Price": "380" }, //Beet Burger
-				"blueberry.LoveOfCooking_burrito": { "Price": "230" }, //Burrito
-				"blueberry.LoveOfCooking_carrotcake": { "Price": "325" }, //Carrot Cake
-				"blueberry.LoveOfCooking_cherrypie": { "Price": "405" }, //Cherry Pie
-				"blueberry.LoveOfCooking_chocoflan": { "Price": "470" }, //Hazelnut Bakewell
-				"blueberry.LoveOfCooking_cocococktail": { "Price": "145" }, //Coconut Cocktail
-				"blueberry.LoveOfCooking_craymornay": { "Price": "395" }, //Cray Mornay Cauliflower
-				"blueberry.LoveOfCooking_crepes": { "Price": "385" }, //Crepes Suzette
-				"blueberry.LoveOfCooking_curry": { "Price": "400" }, //Curry Diablo
-				"blueberry.LoveOfCooking_eggsando": { "Price": "290" }, //Egg Sandwich
-				"blueberry.LoveOfCooking_fruity": { "Price": "290" }, //Sherry Syllabub
-				"blueberry.LoveOfCooking_hotcocoa": { "Price": "305" }, //Hot Cocoa
-				"blueberry.LoveOfCooking_hunters": { "Price": "275" }, //Hunter's Plate
-				"blueberry.LoveOfCooking_kebab": { "Price": "295" }, //Kebab
-				"blueberry.LoveOfCooking_lasagna": { "Price": "570" }, //Lasagna Ricotta
-				"blueberry.LoveOfCooking_leeks": { "Price": "340" }, //Braised Leeks
-				"blueberry.LoveOfCooking_lobster": { "Price": "270" }, //Baked Lobster
-				"blueberry.LoveOfCooking_nigiri": { "Price": "260" }, //Roe Roll
-				"blueberry.LoveOfCooking_oceanplatter": { "Price": "775" }, //Ocean Platter
-				"blueberry.LoveOfCooking_paella": { "Price": "415" }, //Paella
-				"blueberry.LoveOfCooking_parfait": { "Price": "205" }, //Plum Parfait
-				"blueberry.LoveOfCooking_pilaf": { "Price": "395" }, //Mushroom Pilaf
-				"blueberry.LoveOfCooking_profiteroles": { "Price": "320" }, //Profiteroles
-				"blueberry.LoveOfCooking_quiche": { "Price": "420" }, //Quiche Provencale
-				"blueberry.LoveOfCooking_roast": { "Price": "585" }, //Hot Pot Roast
-				"blueberry.LoveOfCooking_saladsando": { "Price": "440" }, //Salad Sandwich
-				"blueberry.LoveOfCooking_seafoodsando": { "Price": "380" }, //Seafood Sandwich
-				"blueberry.LoveOfCooking_summersalad": { "Price": "390" }, //Summer Salad
-				"blueberry.LoveOfCooking_unagi": { "Price": "275" }, //Eel Sushi
-				"blueberry.LoveOfCooking_waffles": { "Price": "305" }, //Berry Waffles
-				"blueberry.LoveOfCooking_chocolate": { "Price": "200" } //Cooking Chocolate
+				"blueberry.LoveOfCooking_admiralpie": {
+					"Price": "290"
+				}, //Admiral Pie
+				"blueberry.LoveOfCooking_applepie": {
+					"Price": "365"
+				}, //Apple Pie
+				"blueberry.LoveOfCooking_arancini": {
+					"Price": "125"
+				}, //Arancini
+				"blueberry.LoveOfCooking_bakedpotato": {
+					"Price": "270"
+				}, //Baked Potato
+				"blueberry.LoveOfCooking_breakfast": {
+					"Price": "325"
+				}, //Quick Breakfast
+				"blueberry.LoveOfCooking_burger": {
+					"Price": "380"
+				}, //Beet Burger
+				"blueberry.LoveOfCooking_burrito": {
+					"Price": "230"
+				}, //Burrito
+				"blueberry.LoveOfCooking_carrotcake": {
+					"Price": "325"
+				}, //Carrot Cake
+				"blueberry.LoveOfCooking_cherrypie": {
+					"Price": "405"
+				}, //Cherry Pie
+				"blueberry.LoveOfCooking_chocoflan": {
+					"Price": "470"
+				}, //Hazelnut Bakewell
+				"blueberry.LoveOfCooking_cocococktail": {
+					"Price": "145"
+				}, //Coconut Cocktail
+				"blueberry.LoveOfCooking_craymornay": {
+					"Price": "395"
+				}, //Cray Mornay Cauliflower
+				"blueberry.LoveOfCooking_crepes": {
+					"Price": "385"
+				}, //Crepes Suzette
+				"blueberry.LoveOfCooking_curry": {
+					"Price": "400"
+				}, //Curry Diablo
+				"blueberry.LoveOfCooking_eggsando": {
+					"Price": "290"
+				}, //Egg Sandwich
+				"blueberry.LoveOfCooking_fruity": {
+					"Price": "290"
+				}, //Sherry Syllabub
+				"blueberry.LoveOfCooking_hotcocoa": {
+					"Price": "305"
+				}, //Hot Cocoa
+				"blueberry.LoveOfCooking_hunters": {
+					"Price": "275"
+				}, //Hunter's Plate
+				"blueberry.LoveOfCooking_kebab": {
+					"Price": "295"
+				}, //Kebab
+				"blueberry.LoveOfCooking_lasagna": {
+					"Price": "570"
+				}, //Lasagna Ricotta
+				"blueberry.LoveOfCooking_leeks": {
+					"Price": "340"
+				}, //Braised Leeks
+				"blueberry.LoveOfCooking_lobster": {
+					"Price": "270"
+				}, //Baked Lobster
+				"blueberry.LoveOfCooking_nigiri": {
+					"Price": "260"
+				}, //Roe Roll
+				"blueberry.LoveOfCooking_oceanplatter": {
+					"Price": "775"
+				}, //Ocean Platter
+				"blueberry.LoveOfCooking_paella": {
+					"Price": "415"
+				}, //Paella
+				"blueberry.LoveOfCooking_parfait": {
+					"Price": "205"
+				}, //Plum Parfait
+				"blueberry.LoveOfCooking_pilaf": {
+					"Price": "395"
+				}, //Mushroom Pilaf
+				"blueberry.LoveOfCooking_profiteroles": {
+					"Price": "320"
+				}, //Profiteroles
+				"blueberry.LoveOfCooking_quiche": {
+					"Price": "420"
+				}, //Quiche Provencale
+				"blueberry.LoveOfCooking_roast": {
+					"Price": "585"
+				}, //Hot Pot Roast
+				"blueberry.LoveOfCooking_saladsando": {
+					"Price": "440"
+				}, //Salad Sandwich
+				"blueberry.LoveOfCooking_seafoodsando": {
+					"Price": "380"
+				}, //Seafood Sandwich
+				"blueberry.LoveOfCooking_summersalad": {
+					"Price": "390"
+				}, //Summer Salad
+				"blueberry.LoveOfCooking_unagi": {
+					"Price": "275"
+				}, //Eel Sushi
+				"blueberry.LoveOfCooking_waffles": {
+					"Price": "305"
+				}, //Berry Waffles
+				"blueberry.LoveOfCooking_chocolate": {
+					"Price": "200"
+				} //Cooking Chocolate
 			},
-			"When": { "Sell Prices": true }
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			// Food prices (Cornucopia Artisan Machines)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"blueberry.LoveOfCooking_burrito": { "Price": "215" }, //Burrito
-				"blueberry.LoveOfCooking_kebab": { "Price": "270" } //Kebab
+				"blueberry.LoveOfCooking_burrito": {
+					"Price": "215"
+				}, //Burrito
+				"blueberry.LoveOfCooking_kebab": {
+					"Price": "270"
+				} //Kebab
 			},
-			"When": { "Sell Prices": true, "HasMod|contains=Cornucopia.ArtisanMachines": true }
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
 		},
 		{
 			// Food buffs
@@ -330,7 +411,9 @@
 					]
 				} //Berry Waffles
 			},
-			"When": { "Food Buffs": true }
+			"When": {
+				"Food Buffs": true
+			}
 		},
 		{
 			// Chocolate is cooking with Cornucopia More Crops
@@ -342,7 +425,9 @@
 					"Category": -7
 				}
 			},
-			"When": { "HasMod|contains=Cornucopia.MoreCrops": true }
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
 		},
 		{
 			// Make chocolate with Cornucopia Cocoa Pod
@@ -351,8 +436,9 @@
 			"Entries": {
 				"minothilos.BalanceOverhaulContinuedCP_chocolate": "Cornucopia_CocoaPod 1//blueberry.LoveOfCooking_chocolate/blueberry.LoveOfCooking.CookingSkill 1"
 			},
-
-			"When": { "HasMod|contains=Cornucopia.MoreCrops": true }
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true
+			}
 		}
 	]
 }

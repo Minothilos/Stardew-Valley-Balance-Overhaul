@@ -5,37 +5,99 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Basil": { "Price": "40" }, //Basil
-				"Cornucopia_Spinach": { "Price": "25" }, //Spinach
-				"Cornucopia_Onion": { "Price": "130" }, //Onion
-				"Cornucopia_Kiwi": { "Price": "100" }, //Kiwi
-				"Cornucopia_Cucumber": { "Price": "60" }, //Cucumber
-				"Cornucopia_Lettuce": { "Price": "80" }, //Lettuce
-				"Cornucopia_CottonBoll": { "Price": "25" }, //Cotton Boll
-				"Cornucopia_BellPepper": { "Price": "65" }, //Bell Pepper
-				"Cornucopia_Sugarcane": { "Price": "70" }, //Sugarcane
-				"Cornucopia_Watermelon": { "Price": "250" }, //Watermelon
-				"Cornucopia_Peanut": { "Price": "60" }, //Peanut
-				"Cornucopia_Soybeans": { "Price": "65" }, //Soybeans
-				"Cornucopia_Turnip": { "Price": "90" }, //Turnip
-				"Cornucopia_Zucchini": { "Price": "50" }, //Zucchini
-				"Cornucopia_Olive": { "Price": "20" }, //Olive
-				"Cornucopia_Peppercorn": { "Price": "50" }, //Peppercorn
-				"Cornucopia_Raspberry": { "Price": "40" }, //Raspberry
-				"Cornucopia_Vanilla": { "Price": "100" }, //Vanilla
-				"Cornucopia_CocoaPod": { "Price": "220" }, //Cocoa Pod
-				"Cornucopia_Avocado": { "Price": "230" }, //Avocado
-				"Cornucopia_Pistachio": { "Price": "200" }, //Pistachio
-				"Cornucopia_Pear": { "Price": "220" }, //Pear
-				"Cornucopia_WatermelonSeeds": { "Price": "85" }, //Watermelon Seed
-				"Cornucopia_PeanutSeeds": { "Price": "30" }, //Peanut Seeds
-				"Cornucopia_BellPepperSeeds": { "Price": "30" }, //Bell Pepper Seeds
-				"Cornucopia_SugarcaneSeeds": { "Price": "20" }, //Sugarcane Seeds
-				"Cornucopia_CottonBollSeeds": { "Price": "10" }, //Cotton Boll Seeds
-				"Cornucopia_CucumberSeeds": { "Price": "30" }, //Cucumber Seeds
-				"Cornucopia_Tofu": { "Price": "200" }, //Tofu
-				"Cornucopia_OliveOil": { "Price": "150" }, //Olive Oil
-				"Cornucopia_Molasses": { "Price": "25" } //Molasses
+				"Cornucopia_Basil": {
+					"Price": "40"
+				}, //Basil
+				"Cornucopia_Spinach": {
+					"Price": "25"
+				}, //Spinach
+				"Cornucopia_Onion": {
+					"Price": "130"
+				}, //Onion
+				"Cornucopia_Kiwi": {
+					"Price": "100"
+				}, //Kiwi
+				"Cornucopia_Cucumber": {
+					"Price": "60"
+				}, //Cucumber
+				"Cornucopia_Lettuce": {
+					"Price": "80"
+				}, //Lettuce
+				"Cornucopia_CottonBoll": {
+					"Price": "25"
+				}, //Cotton Boll
+				"Cornucopia_BellPepper": {
+					"Price": "65"
+				}, //Bell Pepper
+				"Cornucopia_Sugarcane": {
+					"Price": "70"
+				}, //Sugarcane
+				"Cornucopia_Watermelon": {
+					"Price": "250"
+				}, //Watermelon
+				"Cornucopia_Peanut": {
+					"Price": "60"
+				}, //Peanut
+				"Cornucopia_Soybeans": {
+					"Price": "65"
+				}, //Soybeans
+				"Cornucopia_Turnip": {
+					"Price": "90"
+				}, //Turnip
+				"Cornucopia_Zucchini": {
+					"Price": "50"
+				}, //Zucchini
+				"Cornucopia_Olive": {
+					"Price": "20"
+				}, //Olive
+				"Cornucopia_Peppercorn": {
+					"Price": "50"
+				}, //Peppercorn
+				"Cornucopia_Raspberry": {
+					"Price": "40"
+				}, //Raspberry
+				"Cornucopia_Vanilla": {
+					"Price": "100"
+				}, //Vanilla
+				"Cornucopia_CocoaPod": {
+					"Price": "220"
+				}, //Cocoa Pod
+				"Cornucopia_Avocado": {
+					"Price": "230"
+				}, //Avocado
+				"Cornucopia_Pistachio": {
+					"Price": "200"
+				}, //Pistachio
+				"Cornucopia_Pear": {
+					"Price": "220"
+				}, //Pear
+				"Cornucopia_WatermelonSeeds": {
+					"Price": "85"
+				}, //Watermelon Seed
+				"Cornucopia_PeanutSeeds": {
+					"Price": "30"
+				}, //Peanut Seeds
+				"Cornucopia_BellPepperSeeds": {
+					"Price": "30"
+				}, //Bell Pepper Seeds
+				"Cornucopia_SugarcaneSeeds": {
+					"Price": "20"
+				}, //Sugarcane Seeds
+				"Cornucopia_CottonBollSeeds": {
+					"Price": "10"
+				}, //Cotton Boll Seeds
+				"Cornucopia_CucumberSeeds": {
+					"Price": "30"
+				}, //Cucumber Seeds
+				"Cornucopia_Tofu": {
+					"Price": "200"
+				}, //Tofu
+				"Cornucopia_OliveOil": {
+					"Price": "150"
+				}, //Olive Oil
+				"Cornucopia_Molasses": {
+					"Price": "25"
+				} //Molasses
 			},
 			"When": {
 				"Sell Prices": true
@@ -44,8 +106,16 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth", "Triggers", "#0"],
-			"Entries": { "RequiredCount": "12" },
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Cornucopia_CottonCloth",
+				"Triggers",
+				"#0"
+			],
+			"Entries": {
+				"RequiredCount": "12"
+			},
 			"When": {
 				"Sell Prices": true
 			}
@@ -53,7 +123,11 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth"],
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Cornucopia_CottonCloth"
+			],
 			"Entries": {
 				"InvalidCountMessage": "{{i18n: LoomInvalidCount_Cotton_12}}"
 			},
@@ -64,8 +138,16 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth", "Triggers", "#0"],
-			"Entries": { "RequiredCount": "8" },
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Cornucopia_CottonCloth",
+				"Triggers",
+				"#0"
+			],
+			"Entries": {
+				"RequiredCount": "8"
+			},
 			"When": {
 				"Sell Prices": true,
 				"HasMod|contains=radm.milkdasheep": true
@@ -74,7 +156,11 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)17", "OutputRules", "Cornucopia_CottonCloth"],
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Cornucopia_CottonCloth"
+			],
 			"Entries": {
 				"InvalidCountMessage": "{{i18n: LoomInvalidCount_Cotton_8}}"
 			},
@@ -87,14 +173,30 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_CocoaPod": { "Price": "140" }, // Cocoa Pod
-				"Cornucopia_Avocado": { "Price": "130" }, // Avocado
-				"Cornucopia_Pistachio": { "Price": "120" }, // Pistachio
-				"Cornucopia_Pear": { "Price": "110" }, // Pear
-				"Cornucopia_CocoaPodSapling": { "Price": "875" }, // Cocoa Pod Sapling
-				"Cornucopia_AvocadoSapling": { "Price": "750" }, // Avocado Sapling
-				"Cornucopia_PistachioSapling": { "Price": "625" }, // Pistachio Sapling
-				"Cornucopia_PearSapling": { "Price": "500" } // Pear Sapling
+				"Cornucopia_CocoaPod": {
+					"Price": "140"
+				}, // Cocoa Pod
+				"Cornucopia_Avocado": {
+					"Price": "130"
+				}, // Avocado
+				"Cornucopia_Pistachio": {
+					"Price": "120"
+				}, // Pistachio
+				"Cornucopia_Pear": {
+					"Price": "110"
+				}, // Pear
+				"Cornucopia_CocoaPodSapling": {
+					"Price": "875"
+				}, // Cocoa Pod Sapling
+				"Cornucopia_AvocadoSapling": {
+					"Price": "750"
+				}, // Avocado Sapling
+				"Cornucopia_PistachioSapling": {
+					"Price": "625"
+				}, // Pistachio Sapling
+				"Cornucopia_PearSapling": {
+					"Price": "500"
+				} // Pear Sapling
 			},
 			"When": {
 				"Sell Prices": true
@@ -104,77 +206,219 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Agave": { "Price": "220" }, // Agave
-				"Cornucopia_Asparagus": { "Price": "115" }, // Asparagus
-				"Cornucopia_Bamboo": { "Price": "65" }, // Bamboo
-				"Cornucopia_Buckwheat": { "Price": "40" }, // Buckwheat
-				"Cornucopia_Cabbage": { "Price": "90" }, // Cabbage
-				"Cornucopia_CanaryMelon": { "Price": "200" }, // Canary Melon
-				"Cornucopia_CanolaFlower": { "Price": "80" }, // Canola Flower
-				"Cornucopia_Cantaloupe": { "Price": "180" }, // Cantaloupe
-				"Cornucopia_Ginseng": { "Price": "550" }, // Ginseng
-				"Cornucopia_Jalapeno": { "Price": "55" }, // Jalapeno
-				"Cornucopia_PassionFruit": { "Price": "160" }, // Passion Fruit
-				"Cornucopia_PintoBeans": { "Price": "30" }, // Pinto Beans
-				"Cornucopia_RedOnion": { "Price": "170" }, // Red Onion
-				"Cornucopia_Shallot": { "Price": "150" }, // Shallot
-				"Cornucopia_SugarBeet": { "Price": "100" }, // Sugar Beet
-				"Cornucopia_AdzukiBean": { "Price": "60" }, // Adzuki Bean
-				"Cornucopia_BlueAgave": { "Price": "210" }, // Blue Agave
-				"Cornucopia_ButternutSquash": { "Price": "120" }, // Butternut Squash
-				"Cornucopia_Cassava": { "Price": "95" }, // Cassava
-				"Cornucopia_Chickpea": { "Price": "50" }, // Chickpea
-				"Cornucopia_GreenPeas": { "Price": "20" }, // Green Peas
-				"Cornucopia_Groundcherries": { "Price": "25" }, // Groundcherries
-				"Cornucopia_Honeydew": { "Price": "190" }, // Honeydew
-				"Cornucopia_NavyBeans": { "Price": "30" }, // Navy Beans
-				"Cornucopia_Okra": { "Price": "35" }, // Okra
-				"Cornucopia_Quinoa": { "Price": "70" }, // Quinoa
-				"Cornucopia_WasabiRoot": { "Price": "165" }, // Wasabi Root
-				"Cornucopia_Barley": { "Price": "45" }, // Barley
-				"Cornucopia_BlackBeans": { "Price": "35" }, // Black Beans
-				"Cornucopia_Celery": { "Price": "80" }, // Celery
-				"Cornucopia_Daikon": { "Price": "155" }, // Daikon
-				"Cornucopia_Durum": { "Price": "60" }, // Durum
-				"Cornucopia_Habanero": { "Price": "100" }, // Habanero
-				"Cornucopia_KidneyBeans": { "Price": "50" }, // Kidney Beans
-				"Cornucopia_Oats": { "Price": "60" }, // Oats
-				"Cornucopia_SweetPotato": { "Price": "155" }, // Sweet Potato
-				"Cornucopia_Vanilla": { "Price": "100" }, // Vanilla
-				"Cornucopia_Shiitake": { "Price": "140" }, // Shiitake
-				"Cornucopia_BlackCurrants": { "Price": "40" }, // Black Currants
-				"Cornucopia_Gooseberry": { "Price": "25" }, // Gooseberry
-				"Cornucopia_ChickenoftheWoods": { "Price": "120" }, // Chicken of the Woods
-				"Cornucopia_WhiteGrape": { "Price": "50" }, // White Grape
-				"Cornucopia_JuniperBerries": { "Price": "20" }, // Juniper Berries
-				"Cornucopia_Elderberries": { "Price": "50" }, // Elderberries
-				"Cornucopia_CabbageSeeds": { "Price": "10" }, // Cabbage Seeds
-				"Cornucopia_ShallotSeeds": { "Price": "35" }, // Shallot Seeds
-				"Cornucopia_SugarBeetSeeds": { "Price": "30" }, // Sugar Beet Seeds
-				"Cornucopia_BlueAgaveSeeds": { "Price": "40" }, // Blue Agave Seeds
-				"Cornucopia_HoneydewSeeds": { "Price": "50" }, // Honeydew Seeds
-				"Cornucopia_BambooSeeds": { "Price": "20" }, // Bamboo Shoot
-				"Cornucopia_CanaryMelonSeeds": { "Price": "80" }, // CanaryMelonSeeds
-				"Cornucopia_PintoBeansSeeds": { "Price": "10" }, // Pinto Beans Seeds
-				"Cornucopia_AdzukiBeanSeeds": { "Price": "20" }, // Adzuki Bean Seeds
-				"Cornucopia_ButternutSquashSeeds": { "Price": "50" }, // Butternut Squash Seeds
-				"Cornucopia_ChickpeaSeeds": { "Price": "20" }, // Chickpea Seeds
-				"Cornucopia_GreenPeasSeeds": { "Price": "10" }, // Green Peas Seeds
-				"Cornucopia_GroundcherriesSeeds": { "Price": "10" }, // Groundcherries Seeds
-				"Cornucopia_NavyBeansSeeds": { "Price": "10" }, // Navy Beans Seeds
-				"Cornucopia_OkraSeeds": { "Price": "15" }, // OkraSeeds
-				"Cornucopia_BlackBeansSeeds": { "Price": "10" }, // BlackBeansSeeds
-				"Cornucopia_KidneyBeansSeeds": { "Price": "20" }, // Kidney Beans Seeds
-				"Cornucopia_DurumSeeds": { "Price": "10" }, // Durum Seeds
-				"Cornucopia_OatsSeeds": { "Price": "10" }, // Oats Seeds
-				"Cornucopia_DarkAle": { "Price": "200" }, // Dark Ale
-				"Cornucopia_Porter": { "Price": "170" }, // Porter
-				"Cornucopia_Stout": { "Price": "185" }, // Stout
-				"Cornucopia_SparklingWine": { "Price": "250" }, // Sparkling Wine
-				"Cornucopia_BuckwheatFlour": { "Price": "50" }, // Buckwheat Flour
-				"Cornucopia_SemolinaFlour": { "Price": "75" }, // Semolina Flour
-				"Cornucopia_WholeGrainFlour": { "Price": "55" }, // Whole Grain Flour
-				"Cornucopia_Molasses": { "Price": "25" } // Molasses
+				"Cornucopia_Agave": {
+					"Price": "220"
+				}, // Agave
+				"Cornucopia_Asparagus": {
+					"Price": "115"
+				}, // Asparagus
+				"Cornucopia_Bamboo": {
+					"Price": "65"
+				}, // Bamboo
+				"Cornucopia_Buckwheat": {
+					"Price": "40"
+				}, // Buckwheat
+				"Cornucopia_Cabbage": {
+					"Price": "90"
+				}, // Cabbage
+				"Cornucopia_CanaryMelon": {
+					"Price": "200"
+				}, // Canary Melon
+				"Cornucopia_CanolaFlower": {
+					"Price": "80"
+				}, // Canola Flower
+				"Cornucopia_Cantaloupe": {
+					"Price": "180"
+				}, // Cantaloupe
+				"Cornucopia_Ginseng": {
+					"Price": "550"
+				}, // Ginseng
+				"Cornucopia_Jalapeno": {
+					"Price": "55"
+				}, // Jalapeno
+				"Cornucopia_PassionFruit": {
+					"Price": "160"
+				}, // Passion Fruit
+				"Cornucopia_PintoBeans": {
+					"Price": "30"
+				}, // Pinto Beans
+				"Cornucopia_RedOnion": {
+					"Price": "170"
+				}, // Red Onion
+				"Cornucopia_Shallot": {
+					"Price": "150"
+				}, // Shallot
+				"Cornucopia_SugarBeet": {
+					"Price": "100"
+				}, // Sugar Beet
+				"Cornucopia_AdzukiBean": {
+					"Price": "60"
+				}, // Adzuki Bean
+				"Cornucopia_BlueAgave": {
+					"Price": "210"
+				}, // Blue Agave
+				"Cornucopia_ButternutSquash": {
+					"Price": "120"
+				}, // Butternut Squash
+				"Cornucopia_Cassava": {
+					"Price": "95"
+				}, // Cassava
+				"Cornucopia_Chickpea": {
+					"Price": "50"
+				}, // Chickpea
+				"Cornucopia_GreenPeas": {
+					"Price": "20"
+				}, // Green Peas
+				"Cornucopia_Groundcherries": {
+					"Price": "25"
+				}, // Groundcherries
+				"Cornucopia_Honeydew": {
+					"Price": "190"
+				}, // Honeydew
+				"Cornucopia_NavyBeans": {
+					"Price": "30"
+				}, // Navy Beans
+				"Cornucopia_Okra": {
+					"Price": "35"
+				}, // Okra
+				"Cornucopia_Quinoa": {
+					"Price": "70"
+				}, // Quinoa
+				"Cornucopia_WasabiRoot": {
+					"Price": "165"
+				}, // Wasabi Root
+				"Cornucopia_Barley": {
+					"Price": "45"
+				}, // Barley
+				"Cornucopia_BlackBeans": {
+					"Price": "35"
+				}, // Black Beans
+				"Cornucopia_Celery": {
+					"Price": "80"
+				}, // Celery
+				"Cornucopia_Daikon": {
+					"Price": "155"
+				}, // Daikon
+				"Cornucopia_Durum": {
+					"Price": "60"
+				}, // Durum
+				"Cornucopia_Habanero": {
+					"Price": "100"
+				}, // Habanero
+				"Cornucopia_KidneyBeans": {
+					"Price": "50"
+				}, // Kidney Beans
+				"Cornucopia_Oats": {
+					"Price": "60"
+				}, // Oats
+				"Cornucopia_SweetPotato": {
+					"Price": "155"
+				}, // Sweet Potato
+				"Cornucopia_Vanilla": {
+					"Price": "100"
+				}, // Vanilla
+				"Cornucopia_Shiitake": {
+					"Price": "140"
+				}, // Shiitake
+				"Cornucopia_BlackCurrants": {
+					"Price": "40"
+				}, // Black Currants
+				"Cornucopia_Gooseberry": {
+					"Price": "25"
+				}, // Gooseberry
+				"Cornucopia_ChickenoftheWoods": {
+					"Price": "120"
+				}, // Chicken of the Woods
+				"Cornucopia_WhiteGrape": {
+					"Price": "50"
+				}, // White Grape
+				"Cornucopia_JuniperBerries": {
+					"Price": "20"
+				}, // Juniper Berries
+				"Cornucopia_Elderberries": {
+					"Price": "50"
+				}, // Elderberries
+				"Cornucopia_CabbageSeeds": {
+					"Price": "10"
+				}, // Cabbage Seeds
+				"Cornucopia_ShallotSeeds": {
+					"Price": "35"
+				}, // Shallot Seeds
+				"Cornucopia_SugarBeetSeeds": {
+					"Price": "30"
+				}, // Sugar Beet Seeds
+				"Cornucopia_BlueAgaveSeeds": {
+					"Price": "40"
+				}, // Blue Agave Seeds
+				"Cornucopia_HoneydewSeeds": {
+					"Price": "50"
+				}, // Honeydew Seeds
+				"Cornucopia_BambooSeeds": {
+					"Price": "20"
+				}, // Bamboo Shoot
+				"Cornucopia_CanaryMelonSeeds": {
+					"Price": "80"
+				}, // CanaryMelonSeeds
+				"Cornucopia_PintoBeansSeeds": {
+					"Price": "10"
+				}, // Pinto Beans Seeds
+				"Cornucopia_AdzukiBeanSeeds": {
+					"Price": "20"
+				}, // Adzuki Bean Seeds
+				"Cornucopia_ButternutSquashSeeds": {
+					"Price": "50"
+				}, // Butternut Squash Seeds
+				"Cornucopia_ChickpeaSeeds": {
+					"Price": "20"
+				}, // Chickpea Seeds
+				"Cornucopia_GreenPeasSeeds": {
+					"Price": "10"
+				}, // Green Peas Seeds
+				"Cornucopia_GroundcherriesSeeds": {
+					"Price": "10"
+				}, // Groundcherries Seeds
+				"Cornucopia_NavyBeansSeeds": {
+					"Price": "10"
+				}, // Navy Beans Seeds
+				"Cornucopia_OkraSeeds": {
+					"Price": "15"
+				}, // OkraSeeds
+				"Cornucopia_BlackBeansSeeds": {
+					"Price": "10"
+				}, // BlackBeansSeeds
+				"Cornucopia_KidneyBeansSeeds": {
+					"Price": "20"
+				}, // Kidney Beans Seeds
+				"Cornucopia_DurumSeeds": {
+					"Price": "10"
+				}, // Durum Seeds
+				"Cornucopia_OatsSeeds": {
+					"Price": "10"
+				}, // Oats Seeds
+				"Cornucopia_DarkAle": {
+					"Price": "200"
+				}, // Dark Ale
+				"Cornucopia_Porter": {
+					"Price": "170"
+				}, // Porter
+				"Cornucopia_Stout": {
+					"Price": "185"
+				}, // Stout
+				"Cornucopia_SparklingWine": {
+					"Price": "250"
+				}, // Sparkling Wine
+				"Cornucopia_BuckwheatFlour": {
+					"Price": "50"
+				}, // Buckwheat Flour
+				"Cornucopia_SemolinaFlour": {
+					"Price": "75"
+				}, // Semolina Flour
+				"Cornucopia_WholeGrainFlour": {
+					"Price": "55"
+				}, // Whole Grain Flour
+				"Cornucopia_Molasses": {
+					"Price": "25"
+				} // Molasses
 			},
 			"When": {
 				"Sell Prices": true,
@@ -185,28 +429,72 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Catnip": { "Price": "125" }, // Catnip
-				"Cornucopia_Dill": { "Price": "100" }, // Dill
-				"Cornucopia_Fenugreek": { "Price": "75" }, // Fenugreek
-				"Cornucopia_LicoriceRoot": { "Price": "190" }, // Licorice Root
-				"Cornucopia_Marjoram": { "Price": "90" }, // Marjoram
-				"Cornucopia_Parsley": { "Price": "70" }, // Parsley
-				"Cornucopia_Aloe": { "Price": "150" }, // Aloe
-				"Cornucopia_Chives": { "Price": "75" }, // Chives
-				"Cornucopia_Lemongrass": { "Price": "80" }, // Lemongrass
-				"Cornucopia_Oregano": { "Price": "85" }, // Oregano
-				"Cornucopia_PerillaLeaves": { "Price": "85" }, // Perilla Leaves
-				"Cornucopia_Cilantro": { "Price": "70" }, // Cilantro
-				"Cornucopia_CuminSeeds": { "Price": "100" }, // Cumin Seeds
-				"Cornucopia_Fennel": { "Price": "90" }, // Fennel
-				"Cornucopia_Rosemary": { "Price": "100" }, // Rosemary
-				"Cornucopia_Sage": { "Price": "95" }, // Sage
-				"Cornucopia_Tarragon": { "Price": "95" }, //Tarragon
-				"Cornucopia_Thyme": { "Price": "90" }, // Thyme
-				"Cornucopia_Turmeric": { "Price": "150" }, // Turmeric
-				"Cornucopia_Mint": { "Price": "70" }, // Mint
-				"Cornucopia_Wormwood": { "Price": "175" }, // Wormwood
-				"Cornucopia_BayLeaves": { "Price": "40" } // Bay Leaves
+				"Cornucopia_Catnip": {
+					"Price": "125"
+				}, // Catnip
+				"Cornucopia_Dill": {
+					"Price": "100"
+				}, // Dill
+				"Cornucopia_Fenugreek": {
+					"Price": "75"
+				}, // Fenugreek
+				"Cornucopia_LicoriceRoot": {
+					"Price": "190"
+				}, // Licorice Root
+				"Cornucopia_Marjoram": {
+					"Price": "90"
+				}, // Marjoram
+				"Cornucopia_Parsley": {
+					"Price": "70"
+				}, // Parsley
+				"Cornucopia_Aloe": {
+					"Price": "150"
+				}, // Aloe
+				"Cornucopia_Chives": {
+					"Price": "75"
+				}, // Chives
+				"Cornucopia_Lemongrass": {
+					"Price": "80"
+				}, // Lemongrass
+				"Cornucopia_Oregano": {
+					"Price": "85"
+				}, // Oregano
+				"Cornucopia_PerillaLeaves": {
+					"Price": "85"
+				}, // Perilla Leaves
+				"Cornucopia_Cilantro": {
+					"Price": "70"
+				}, // Cilantro
+				"Cornucopia_CuminSeeds": {
+					"Price": "100"
+				}, // Cumin Seeds
+				"Cornucopia_Fennel": {
+					"Price": "90"
+				}, // Fennel
+				"Cornucopia_Rosemary": {
+					"Price": "100"
+				}, // Rosemary
+				"Cornucopia_Sage": {
+					"Price": "95"
+				}, // Sage
+				"Cornucopia_Tarragon": {
+					"Price": "95"
+				}, //Tarragon
+				"Cornucopia_Thyme": {
+					"Price": "90"
+				}, // Thyme
+				"Cornucopia_Turmeric": {
+					"Price": "150"
+				}, // Turmeric
+				"Cornucopia_Mint": {
+					"Price": "70"
+				}, // Mint
+				"Cornucopia_Wormwood": {
+					"Price": "175"
+				}, // Wormwood
+				"Cornucopia_BayLeaves": {
+					"Price": "40"
+				} // Bay Leaves
 			},
 			"When": {
 				"Sell Prices": true,
@@ -217,16 +505,36 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_EucalyptusLeaves": { "Price": "110" }, // Eucalyptus Leaves
-				"Cornucopia_MelaleucaLeaves": { "Price": "110" }, // Melaleuca Leaves
-				"Cornucopia_Nutmeg": { "Price": "120" }, // Nutmeg
-				"Cornucopia_CamphorLeaves": { "Price": "110" }, // Camphor Leaves
-				"Cornucopia_CinnamonSticks": { "Price": "120" }, // Cinnamon Sticks
-				"Cornucopia_EucalyptusLeavesSapling": { "Price": "475" }, // Eucalyptus Leaves Sapling
-				"Cornucopia_MelaleucaLeavesSapling": { "Price": "475" }, // Melaleuca Leaves Sapling
-				"Cornucopia_NutmegSapling": { "Price": "550" }, // Nutmeg Sapling
-				"Cornucopia_CamphorLeavesSapling": { "Price": "475" }, // Camphor Leaves Sapling
-				"Cornucopia_CinnamonSticksSapling": { "Price": "550" } // Cinnamon Sticks Sapling
+				"Cornucopia_EucalyptusLeaves": {
+					"Price": "110"
+				}, // Eucalyptus Leaves
+				"Cornucopia_MelaleucaLeaves": {
+					"Price": "110"
+				}, // Melaleuca Leaves
+				"Cornucopia_Nutmeg": {
+					"Price": "120"
+				}, // Nutmeg
+				"Cornucopia_CamphorLeaves": {
+					"Price": "110"
+				}, // Camphor Leaves
+				"Cornucopia_CinnamonSticks": {
+					"Price": "120"
+				}, // Cinnamon Sticks
+				"Cornucopia_EucalyptusLeavesSapling": {
+					"Price": "475"
+				}, // Eucalyptus Leaves Sapling
+				"Cornucopia_MelaleucaLeavesSapling": {
+					"Price": "475"
+				}, // Melaleuca Leaves Sapling
+				"Cornucopia_NutmegSapling": {
+					"Price": "550"
+				}, // Nutmeg Sapling
+				"Cornucopia_CamphorLeavesSapling": {
+					"Price": "475"
+				}, // Camphor Leaves Sapling
+				"Cornucopia_CinnamonSticksSapling": {
+					"Price": "550"
+				} // Cinnamon Sticks Sapling
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
@@ -236,7 +544,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["IslandTrade", "Items"],
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
 			"Fields": {
 				"Cornucopia_DurianSapling": {
 					"TradeItemAmount": "10"
@@ -257,43 +568,117 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Breadfruit": { "Price": "140" }, // Breadfruit
-				"Cornucopia_Lemon": { "Price": "110" }, // Lemon
-				"Cornucopia_Lime": { "Price": "110" }, // Lime
-				"Cornucopia_DragonFruit": { "Price": "140" }, // Dragon Fruit
-				"Cornucopia_Durian": { "Price": "140" }, // Durian
-				"Cornucopia_Lychee": { "Price": "130" }, // Lychee
-				"Cornucopia_Nectarine": { "Price": "120" }, // Nectarine
-				"Cornucopia_Papaya": { "Price": "110" }, // Papaya
-				"Cornucopia_Plantain": { "Price": "105" }, // Plantain
-				"Cornucopia_Ume": { "Price": "110" }, // Ume
-				"Cornucopia_Almond": { "Price": "120" }, // Almond
-				"Cornucopia_Cashew": { "Price": "120" }, // Cashew
-				"Cornucopia_Grapefruit": { "Price": "130" }, // Grapefruit
-				"Cornucopia_Pecan": { "Price": "130" }, // Pecan
-				"Cornucopia_Walnut": { "Price": "110" }, // Walnut
-				"Cornucopia_Pomelo": { "Price": "120" }, // Pomelo
-				"Cornucopia_Fig": { "Price": "110" }, // Fig
-				"Cornucopia_Persimmon": { "Price": "120" }, // Persimmon
-				"Cornucopia_Yuzu": { "Price": "110" }, // Yuzu
-				"Cornucopia_Sapodilla": { "Price": "40" }, // Sapodilla
-				"Cornucopia_ChicleRubber": { "Price": "275" }, // Chicle Rubber
-				"Cornucopia_BreadfruitSapling": { "Price": "875" }, // Breadfruit Sapling
-				"Cornucopia_LemonSapling": { "Price": "500" }, // Lemon Sapling
-				"Cornucopia_LimeSapling": { "Price": "500" }, // Lime Sapling
-				"Cornucopia_DragonFruitSapling": { "Price": "875" }, // Dragon Fruit Sapling
-				"Cornucopia_LycheeSapling": { "Price": "750" }, // Lychee Sapling
-				"Cornucopia_NectarineSapling": { "Price": "625" }, // Nectarine Sapling
-				"Cornucopia_UmeSapling": { "Price": "500" }, // Ume Sapling
-				"Cornucopia_AlmondSapling": { "Price": "625" }, // Almond Sapling
-				"Cornucopia_CashewSapling": { "Price": "625" }, // Cashew Sapling
-				"Cornucopia_GrapefruitSapling": { "Price": "750" }, // Grapefruit Sapling
-				"Cornucopia_PecanSapling": { "Price": "750" }, // Pecan Sapling
-				"Cornucopia_WalnutSapling": { "Price": "500" }, // Walnut Sapling
-				"Cornucopia_FigSapling": { "Price": "500" }, // Fig Sapling
-				"Cornucopia_PersimmonSapling": { "Price": "625" }, // Persimmon Sapling
-				"Cornucopia_PomeloSapling": { "Price": "625" }, // Pomelo Sapling
-				"Cornucopia_YuzuSapling": { "Price": "500" } // Yuzu Sapling
+				"Cornucopia_Breadfruit": {
+					"Price": "140"
+				}, // Breadfruit
+				"Cornucopia_Lemon": {
+					"Price": "110"
+				}, // Lemon
+				"Cornucopia_Lime": {
+					"Price": "110"
+				}, // Lime
+				"Cornucopia_DragonFruit": {
+					"Price": "140"
+				}, // Dragon Fruit
+				"Cornucopia_Durian": {
+					"Price": "140"
+				}, // Durian
+				"Cornucopia_Lychee": {
+					"Price": "130"
+				}, // Lychee
+				"Cornucopia_Nectarine": {
+					"Price": "120"
+				}, // Nectarine
+				"Cornucopia_Papaya": {
+					"Price": "110"
+				}, // Papaya
+				"Cornucopia_Plantain": {
+					"Price": "105"
+				}, // Plantain
+				"Cornucopia_Ume": {
+					"Price": "110"
+				}, // Ume
+				"Cornucopia_Almond": {
+					"Price": "120"
+				}, // Almond
+				"Cornucopia_Cashew": {
+					"Price": "120"
+				}, // Cashew
+				"Cornucopia_Grapefruit": {
+					"Price": "130"
+				}, // Grapefruit
+				"Cornucopia_Pecan": {
+					"Price": "130"
+				}, // Pecan
+				"Cornucopia_Walnut": {
+					"Price": "110"
+				}, // Walnut
+				"Cornucopia_Pomelo": {
+					"Price": "120"
+				}, // Pomelo
+				"Cornucopia_Fig": {
+					"Price": "110"
+				}, // Fig
+				"Cornucopia_Persimmon": {
+					"Price": "120"
+				}, // Persimmon
+				"Cornucopia_Yuzu": {
+					"Price": "110"
+				}, // Yuzu
+				"Cornucopia_Sapodilla": {
+					"Price": "40"
+				}, // Sapodilla
+				"Cornucopia_ChicleRubber": {
+					"Price": "275"
+				}, // Chicle Rubber
+				"Cornucopia_BreadfruitSapling": {
+					"Price": "875"
+				}, // Breadfruit Sapling
+				"Cornucopia_LemonSapling": {
+					"Price": "500"
+				}, // Lemon Sapling
+				"Cornucopia_LimeSapling": {
+					"Price": "500"
+				}, // Lime Sapling
+				"Cornucopia_DragonFruitSapling": {
+					"Price": "875"
+				}, // Dragon Fruit Sapling
+				"Cornucopia_LycheeSapling": {
+					"Price": "750"
+				}, // Lychee Sapling
+				"Cornucopia_NectarineSapling": {
+					"Price": "625"
+				}, // Nectarine Sapling
+				"Cornucopia_UmeSapling": {
+					"Price": "500"
+				}, // Ume Sapling
+				"Cornucopia_AlmondSapling": {
+					"Price": "625"
+				}, // Almond Sapling
+				"Cornucopia_CashewSapling": {
+					"Price": "625"
+				}, // Cashew Sapling
+				"Cornucopia_GrapefruitSapling": {
+					"Price": "750"
+				}, // Grapefruit Sapling
+				"Cornucopia_PecanSapling": {
+					"Price": "750"
+				}, // Pecan Sapling
+				"Cornucopia_WalnutSapling": {
+					"Price": "500"
+				}, // Walnut Sapling
+				"Cornucopia_FigSapling": {
+					"Price": "500"
+				}, // Fig Sapling
+				"Cornucopia_PersimmonSapling": {
+					"Price": "625"
+				}, // Persimmon Sapling
+				"Cornucopia_PomeloSapling": {
+					"Price": "625"
+				}, // Pomelo Sapling
+				"Cornucopia_YuzuSapling": {
+					"Price": "500"
+				} // Yuzu Sapling
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
@@ -304,7 +689,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.peanut": {
 					"Id": "minothilos.peanut",
@@ -335,12 +723,23 @@
 					"IgnoreShopPriceModifiers": true
 				}
 			},
-
 			"MoveEntries": [
-				{ "Id": "minothilos.peanut", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.cottonboll", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.bellpepper", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.cucumber", "BeforeId": "GrassStarter" }
+				{
+					"Id": "minothilos.peanut",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.cottonboll",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.bellpepper",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.cucumber",
+					"BeforeId": "GrassStarter"
+				}
 			],
 			"When": {
 				"Sell Prices": true,
@@ -351,7 +750,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.peanut": {
 					"Id": "minothilos.peanut",
@@ -391,7 +793,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.canarymelon": {
 					"Id": "minothilos.canarymelon",
@@ -471,19 +876,51 @@
 					"IgnoreShopPriceModifiers": true
 				}
 			},
-
 			"MoveEntries": [
-				{ "Id": "minothilos.canarymelon", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.pintobeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.adzukibeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.chickpea", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.greenpeas", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.groundcherries", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.navybeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.okra", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.blackbeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.kidneybeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.butternut", "BeforeId": "GrassStarter" }
+				{
+					"Id": "minothilos.canarymelon",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.pintobeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.adzukibeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.chickpea",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.greenpeas",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.groundcherries",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.navybeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.okra",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.blackbeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.kidneybeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.butternut",
+					"BeforeId": "GrassStarter"
+				}
 			],
 			"When": {
 				"Sell Prices": true,
@@ -495,7 +932,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.canarymelon": {
 					"Id": "minothilos.canarymelon",
@@ -585,7 +1025,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_PeanutSeeds", "ContextTags"], //Peanut Seed dupe removed
+			"TargetField": [
+				"Cornucopia_PeanutSeeds",
+				"ContextTags"
+			], //Peanut Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -596,7 +1039,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_BellPepperSeeds", "ContextTags"], //BellPepper Seed dupe removed
+			"TargetField": [
+				"Cornucopia_BellPepperSeeds",
+				"ContextTags"
+			], //BellPepper Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -607,7 +1053,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_CottonBollSeeds", "ContextTags"], //CottonBoll Seed dupe removed
+			"TargetField": [
+				"Cornucopia_CottonBollSeeds",
+				"ContextTags"
+			], //CottonBoll Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -618,7 +1067,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_CucumberSeeds", "ContextTags"], //Cucumber Seed dupe removed
+			"TargetField": [
+				"Cornucopia_CucumberSeeds",
+				"ContextTags"
+			], //Cucumber Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -629,7 +1081,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_CanaryMelonSeeds", "ContextTags"], //CanaryMelon Seed dupe removed
+			"TargetField": [
+				"Cornucopia_CanaryMelonSeeds",
+				"ContextTags"
+			], //CanaryMelon Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -641,7 +1096,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_PintoBeansSeeds", "ContextTags"], //PintoBeans Seed dupe removed
+			"TargetField": [
+				"Cornucopia_PintoBeansSeeds",
+				"ContextTags"
+			], //PintoBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -653,7 +1111,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_AdzukiBeanSeeds", "ContextTags"], //AdzukiBean Seed dupe removed
+			"TargetField": [
+				"Cornucopia_AdzukiBeanSeeds",
+				"ContextTags"
+			], //AdzukiBean Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -665,7 +1126,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_ButternutSquashSeeds", "ContextTags"], //ButternutSquash Seed dupe removed
+			"TargetField": [
+				"Cornucopia_ButternutSquashSeeds",
+				"ContextTags"
+			], //ButternutSquash Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -677,7 +1141,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_ChickpeaSeeds", "ContextTags"], //Chickpea Seed dupe removed
+			"TargetField": [
+				"Cornucopia_ChickpeaSeeds",
+				"ContextTags"
+			], //Chickpea Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -689,7 +1156,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_GreenPeasSeeds", "ContextTags"], //GreenPeas Seed dupe removed
+			"TargetField": [
+				"Cornucopia_GreenPeasSeeds",
+				"ContextTags"
+			], //GreenPeas Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -701,7 +1171,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_GroundcherriesSeeds", "ContextTags"], //Groundcherries Seed dupe removed
+			"TargetField": [
+				"Cornucopia_GroundcherriesSeeds",
+				"ContextTags"
+			], //Groundcherries Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -713,7 +1186,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_NavyBeansSeeds", "ContextTags"], //NavyBeans Seed dupe removed
+			"TargetField": [
+				"Cornucopia_NavyBeansSeeds",
+				"ContextTags"
+			], //NavyBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -725,7 +1201,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_OkraSeeds", "ContextTags"], //Okra Seed dupe removed
+			"TargetField": [
+				"Cornucopia_OkraSeeds",
+				"ContextTags"
+			], //Okra Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -737,7 +1216,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_BlackBeansSeeds", "ContextTags"], //BlackBeans Seed dupe removed
+			"TargetField": [
+				"Cornucopia_BlackBeansSeeds",
+				"ContextTags"
+			], //BlackBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -749,7 +1231,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_KidneyBeansSeeds", "ContextTags"], //KidneyBeans Seed dupe removed
+			"TargetField": [
+				"Cornucopia_KidneyBeansSeeds",
+				"ContextTags"
+			], //KidneyBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -761,7 +1246,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Sandy", "Items"],
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
 			"Fields": {
 				"Cornucopia_BambooSeeds": {
 					"Price": "80",
@@ -778,8 +1266,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_BellPepperSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_BellPepperSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"Limited Seed Supply": true
 			}
@@ -787,8 +1280,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_CottonBollSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_CottonBollSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"Limited Seed Supply": true
 			}
@@ -796,8 +1294,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_CucumberSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_CucumberSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"Limited Seed Supply": true
 			}
@@ -805,8 +1308,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_KiwiSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_KiwiSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"Limited Seed Supply": true
 			}
@@ -814,8 +1322,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_ZucchiniSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_ZucchiniSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"Limited Seed Supply": true
 			}
@@ -824,8 +1337,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_AdzukiBeanSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_AdzukiBeanSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -834,8 +1352,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_BlackBeansSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_BlackBeansSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -844,8 +1367,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_ButternutSquashSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_ButternutSquashSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -854,8 +1382,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_CanaryMelonSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_CanaryMelonSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -864,8 +1397,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_ChickpeaSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_ChickpeaSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -874,8 +1412,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_GreenPeasSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_GreenPeasSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -884,8 +1427,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_GroundcherriesSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_GroundcherriesSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -894,8 +1442,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_HabaneroSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_HabaneroSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -904,8 +1457,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_JalapenoSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_JalapenoSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -914,8 +1472,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_KidneyBeansSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_KidneyBeansSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -924,8 +1487,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_NavyBeansSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_NavyBeansSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -934,8 +1502,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_OkraSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_OkraSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -944,8 +1517,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
-			"TargetField": ["Cornucopia_PintoBeansSeeds", "ContextTags"], //Regrow Seeds
-			"Entries": { "#-1": "cornucopia_regrow_seed" },
+			"TargetField": [
+				"Cornucopia_PintoBeansSeeds",
+				"ContextTags"
+			], //Regrow Seeds
+			"Entries": {
+				"#-1": "cornucopia_regrow_seed"
+			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
@@ -955,7 +1533,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"Cornucopia.MoreCrops_CropSeedsSpringCommon": null,
 				"Cornucopia.MoreCrops_CropSeedsSummerCommon": null,
@@ -968,13 +1549,18 @@
 				"Cornucopia.MoreCrops_BushSeeds": null
 				//"Cornucopia.MoreCrops_FruitTreeSaplings": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		//Add seeds back in limited quantity Pierre
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSpringCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsSpringCommon",
@@ -1000,7 +1586,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSpringCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSpringCommon",
@@ -1026,7 +1615,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSummerCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsSummerCommon",
@@ -1052,7 +1644,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSummerCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSummerCommon",
@@ -1078,7 +1673,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsFallCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsFallCommon",
@@ -1104,7 +1702,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsFallCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsFallCommon",
@@ -1130,7 +1731,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsWinterCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsWinterCommon",
@@ -1156,7 +1760,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsWinterCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsWinterCommon",
@@ -1182,7 +1789,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSpringRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsSpringRare",
@@ -1208,7 +1818,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSpringRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSpringRare",
@@ -1234,7 +1847,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSummerRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsSummerRare",
@@ -1260,7 +1876,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSummerRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSummerRare",
@@ -1286,7 +1905,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsFallRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsFallRare",
@@ -1312,7 +1934,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsFallRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsFallRare",
@@ -1338,7 +1963,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsWinterRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsWinterRare",
@@ -1364,7 +1992,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsWinterRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsWinterRare",
@@ -1390,7 +2021,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_BushSeeds": {
 					"Id": "minothilos.MoreCrops_BushSeeds",
@@ -1407,11 +2041,13 @@
 				}
 			]
 		},
-
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.peanut": {
 					"Id": "minothilos.peanut",
@@ -1447,10 +2083,22 @@
 				}
 			},
 			"MoveEntries": [
-				{ "Id": "minothilos.peanut", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.cottonboll", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.bellpepper", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.cucumber", "BeforeId": "GrassStarter" }
+				{
+					"Id": "minothilos.peanut",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.cottonboll",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.bellpepper",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.cucumber",
+					"BeforeId": "GrassStarter"
+				}
 			],
 			"When": {
 				"Sell Prices": true,
@@ -1460,7 +2108,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["SeedShop", "Items"],
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.canarymelon": {
 					"Id": "minothilos.canarymelon",
@@ -1552,17 +2203,50 @@
 				}
 			},
 			"MoveEntries": [
-				{ "Id": "minothilos.canarymelon", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.pintobeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.adzukibeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.chickpea", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.greenpeas", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.groundcherries", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.navybeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.okra", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.blackbeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.kidneybeans", "BeforeId": "GrassStarter" },
-				{ "Id": "minothilos.butternut", "BeforeId": "GrassStarter" }
+				{
+					"Id": "minothilos.canarymelon",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.pintobeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.adzukibeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.chickpea",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.greenpeas",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.groundcherries",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.navybeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.okra",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.blackbeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.kidneybeans",
+					"BeforeId": "GrassStarter"
+				},
+				{
+					"Id": "minothilos.butternut",
+					"BeforeId": "GrassStarter"
+				}
 			],
 			"When": {
 				"Sell Prices": true,
@@ -1575,7 +2259,10 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"Priority": "Default+3",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"Cornucopia.MoreCrops_CropSeedsSpringCommon": null,
 				"Cornucopia.MoreCrops_CropSeedsSummerCommon": null,
@@ -1588,13 +2275,18 @@
 				"Cornucopia.MoreCrops_BushSeeds": null
 				//"Cornucopia.MoreCrops_FruitTreeSaplings": null
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		//Add seeds back in limited quantity Joja
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSpringCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsSpringCommon",
@@ -1614,7 +2306,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSpringCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSpringCommon",
@@ -1634,7 +2329,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSummerCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsSummerCommon",
@@ -1654,7 +2352,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSummerCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSummerCommon",
@@ -1674,7 +2375,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsFallCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsFallCommon",
@@ -1694,7 +2398,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsFallCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsFallCommon",
@@ -1714,7 +2421,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsWinterCommon": {
 					"Id": "minothilos.MoreCrops_CropSeedsWinterCommon",
@@ -1734,7 +2444,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsWinterCommon": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsWinterCommon",
@@ -1754,7 +2467,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSpringRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsSpringRare",
@@ -1774,7 +2490,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSpringRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSpringRare",
@@ -1794,7 +2513,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsSummerRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsSummerRare",
@@ -1814,7 +2536,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsSummerRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsSummerRare",
@@ -1834,7 +2559,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsFallRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsFallRare",
@@ -1854,7 +2582,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsFallRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsFallRare",
@@ -1874,7 +2605,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_CropSeedsWinterRare": {
 					"Id": "minothilos.MoreCrops_CropSeedsWinterRare",
@@ -1894,7 +2628,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_RegrowCropSeedsWinterRare": {
 					"Id": "minothilos.MoreCrops_RegrowCropSeedsWinterRare",
@@ -1914,7 +2651,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.peanut": {
 					"Id": "minothilos.peanut",
@@ -1957,7 +2697,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.canarymelon": {
 					"Id": "minothilos.canarymelon",
@@ -2057,7 +2800,10 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Joja", "Items"],
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
 			"Entries": {
 				"minothilos.MoreCrops_BushSeeds": {
 					"Id": "minothilos.MoreCrops_BushSeeds",
@@ -2067,17 +2813,27 @@
 					"IgnoreShopPriceModifiers": true
 				}
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		//Limited Seed Supply Sandy
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Sandy", "Items"],
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_SugarcaneSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"Cornucopia_SugarcaneSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		/*	{
 			"Action": "EditData",
@@ -2091,11 +2847,23 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Sandy", "Items"],
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_AgaveSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"Cornucopia_BlueAgaveSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"Cornucopia_BambooSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"Cornucopia_AgaveSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_BlueAgaveSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_BambooSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -2105,11 +2873,23 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Sandy", "Items"],
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_AloeSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"Cornucopia_CuminSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"Cornucopia_LemongrassSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"Cornucopia_AloeSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_CuminSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_LemongrassSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -2120,9 +2900,15 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["AnimalShop", "Items"],
+			"TargetField": [
+				"AnimalShop",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_CatnipSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"Cornucopia_CatnipSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -2133,11 +2919,23 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Dwarf", "Items"],
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_GinsengSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"Cornucopia_ChickenoftheWoodsSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" },
-				"Cornucopia_ShiitakeSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+				"Cornucopia_GinsengSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_ChickenoftheWoodsSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_ShiitakeSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -2147,10 +2945,19 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Dwarf", "Items"],
+			"TargetField": [
+				"Dwarf",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_LicoriceRootSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"Cornucopia_WormwoodSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"Cornucopia_LicoriceRootSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_WormwoodSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -2161,28 +2968,53 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_EggFestival_Pierre", "Items"],
+			"TargetField": [
+				"Festival_EggFestival_Pierre",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_WasabiRootSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"Cornucopia_WasabiRootSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_Luau_Pierre", "Items"],
+			"TargetField": [
+				"Festival_Luau_Pierre",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_KiwiSeeds": { "AvailableStock": "25", "AvailableStockLimit": "Player" },
-				"Cornucopia_WatermelonSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }
+				"Cornucopia_KiwiSeeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_WatermelonSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
 			},
-			"When": { "Limited Seed Supply": true }
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
-			"TargetField": ["Festival_FestivalOfIce_TravelingMerchant", "Items"],
+			"TargetField": [
+				"Festival_FestivalOfIce_TravelingMerchant",
+				"Items"
+			],
 			"Fields": {
-				"Cornucopia_JuniperBerriesSeeds": { "AvailableStock": "10", "AvailableStockLimit": "Player" }
+				"Cornucopia_JuniperBerriesSeeds": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -2194,7 +3026,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedDarkAle", "OutputItem", "#0"], //Cask - Dark Ale
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedDarkAle",
+				"OutputItem",
+				"#0"
+			], //Cask - Dark Ale
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
@@ -2209,7 +3047,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedPorter", "OutputItem", "#0"], //Cask - Porter
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedPorter",
+				"OutputItem",
+				"#0"
+			], //Cask - Porter
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
@@ -2224,7 +3068,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedStout", "OutputItem", "#0"], //Cask - Stout
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedStout",
+				"OutputItem",
+				"#0"
+			], //Cask - Stout
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
@@ -2239,7 +3089,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedSparklingWine", "OutputItem", "#0"], //Cask - Sparkling Wine
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"Cornucopia_AgedSparklingWine",
+				"OutputItem",
+				"#0"
+			], //Cask - Sparkling Wine
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.11"
@@ -2255,7 +3111,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_Tofu", "OutputItem", "#0"], //Cheese Press - Tofu
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_Tofu",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2283,65 +3145,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_DarkAle", "OutputItem", "#0"], //Keg - Dark Ale
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.2\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_SparklingWine", "OutputItem", "#0"], //Keg - Sparkling Wine
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.2\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_Stout", "OutputItem", "#0"], //Keg - Stout
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_DarkAle",
+				"OutputItem",
+				"#0"
+			], //Keg - Dark Ale
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2370,7 +3180,83 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_Porter", "OutputItem", "#0"], //Keg - Porter
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_SparklingWine",
+				"OutputItem",
+				"#0"
+			], //Keg - Sparkling Wine
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.2\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"Machine Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_Stout",
+				"OutputItem",
+				"#0"
+			], //Keg - Stout
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.2\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"Machine Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_Porter",
+				"OutputItem",
+				"#0"
+			], //Keg - Porter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2400,7 +3286,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)16", "OutputRules", "Cornucopia_Tofu", "OutputItem", "#0"], //Cheese Press - Tofu
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Cornucopia_Tofu",
+				"OutputItem",
+				"#0"
+			], //Cheese Press - Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2429,67 +3321,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_DarkAle", "OutputItem", "#0"], //Keg - Dark Ale
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_SparklingWine", "OutputItem", "#0"], //Keg - Sparkling Wine
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "DoubleQuality",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Multiply",
-						"Amount": "2",
-						"RandomAmount": null
-					},
-					{
-						"Id": "Crit Chance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_SparklingWine", "OutputItem", "#0"], //Keg - Sparkling Wine
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_DarkAle",
+				"OutputItem",
+				"#0"
+			], //Keg - Dark Ale
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2519,7 +3357,13 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_Stout", "OutputItem", "#0"], //Keg - Stout
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_SparklingWine",
+				"OutputItem",
+				"#0"
+			], //Keg - Sparkling Wine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2549,7 +3393,85 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)12", "OutputRules", "Cornucopia_Porter", "OutputItem", "#0"], //Keg - Porter
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_SparklingWine",
+				"OutputItem",
+				"#0"
+			], //Keg - Sparkling Wine
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_Stout",
+				"OutputItem",
+				"#0"
+			], //Keg - Stout
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "DoubleQuality",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Multiply",
+						"Amount": "2",
+						"RandomAmount": null
+					},
+					{
+						"Id": "Crit Chance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Cornucopia_Porter",
+				"OutputItem",
+				"#0"
+			], //Keg - Porter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
