@@ -1,6 +1,6 @@
 {
     "Changes": [
-        {   //Monsters (Normal)
+        {   // Monsters (Normal)
             "Action": "EditData",
             "Target": "Data/Monsters",
             "Fields": {
@@ -197,7 +197,7 @@
                 "Monster Strength": "Normal"
             }
         },
-        {   //Monsters (Hard)
+        {   // Monsters (Hard)
             "Action": "EditData",
             "Target": "Data/Monsters",
             "Fields": {
@@ -394,7 +394,7 @@
                 "Monster Strength": "Hard"
             }
         },
-        {   //Monsters (Very Hard)
+        {   // Monsters (Very Hard)
             "Action": "EditData",
             "Target": "Data/Monsters",
             "Fields": {
@@ -591,7 +591,7 @@
                 "Monster Strength": "Very Hard"
             }
         },
-        {   //Monster Eradication Goals
+        {   // Monster Eradication Goals
             "Action": "EditData",
             "Target": "Data/MonsterSlayerQuests",
             "Fields": {

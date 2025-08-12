@@ -6,19 +6,19 @@
 			"Fields": {
 				"radm.milkdasheep_SheepMilk": {
 					"Price": "150"
-				}, //Sheep Milk
+				}, // Sheep Milk
 				"radm.milkdasheep_LargeSheepMilk": {
 					"Price": "300"
-				}, //Large Sheep Milk
+				}, // Large Sheep Milk
 				"radm.milkdasheep_SheepCheese": {
 					"Price": "300"
-				}, //Sheep Cheese
+				}, // Sheep Cheese
 				"428": {
 					"Price": "620"
-				}, //Cloth
+				}, // Cloth
 				"446": {
 					"Price": "620"
-				} //Rabbit's Foot
+				} // Rabbit's Foot
 			},
 			"When": {
 				"Sell Prices": true
@@ -30,7 +30,7 @@
 			"Fields": {
 				"428": {
 					"Price": "620"
-				} //Cloth
+				} // Cloth
 			},
 			"When": {
 				"Sell Prices": true
@@ -90,7 +90,7 @@
 				"Sell Prices": true
 			}
 		},
-		//Machine Processing
+		// Machine Processing
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -100,7 +100,7 @@
 				"radm.milkdasheep_SheepCheese",
 				"OutputItem",
 				"#0"
-			], //Cask - Cheese
+			], // Cask - Cheese
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.33"
@@ -112,7 +112,7 @@
 			},
 			"Priority": "Late +1"
 		},
-		//Large Animal Products Only
+		// Large Animal Products Only
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -122,7 +122,7 @@
 				"radm.milkdasheep_LargeSheepMilk",
 				"OutputItem",
 				"#0"
-			], //Cheese Press - Large Sheep Milk
+			], // Cheese Press - Large Sheep Milk
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -141,7 +141,7 @@
 				"radm.milkdasheep_SheepMilk",
 				"OutputItem",
 				"#0"
-			], //Cheese Press - Sheep Milk
+			], // Cheese Press - Sheep Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -154,7 +154,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -174,7 +174,7 @@
 				"radm.milkdasheep_LargeSheepMilk",
 				"OutputItem",
 				"#0"
-			], //Cheese Press - Large Sheep Milk
+			], // Cheese Press - Large Sheep Milk
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -195,7 +195,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -215,7 +215,7 @@
 				"radm.milkdasheep_SheepMilk",
 				"OutputItem",
 				"#0"
-			], //Cheese Press - Sheep Milk
+			], // Cheese Press - Sheep Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -228,7 +228,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -249,7 +249,7 @@
 				"radm.milkdasheep_LargeSheepMilk",
 				"OutputItem",
 				"#0"
-			], //Cheese Press - Large Sheep Milk
+			], // Cheese Press - Large Sheep Milk
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -270,7 +270,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null

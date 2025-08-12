@@ -1,10 +1,10 @@
 {
 	"Changes": [
-		{	//Crystalarium
+		{	// Crystalarium
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Quartz
+				"(BC)21", // Quartz
 				"ReadyTimeModifiers",
 				"Quartz"
 			],
@@ -19,7 +19,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Emerald
+				"(BC)21", // Emerald
 				"ReadyTimeModifiers",
 				"Emerald"
 			],
@@ -34,7 +34,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Topaz
+				"(BC)21", // Topaz
 				"ReadyTimeModifiers",
 				"Topaz"
 			],
@@ -49,7 +49,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Jade
+				"(BC)21", // Jade
 				"ReadyTimeModifiers",
 				"Jade"
 			],
@@ -64,7 +64,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Ruby
+				"(BC)21", // Ruby
 				"ReadyTimeModifiers",
 				"Ruby"
 			],
@@ -79,7 +79,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Aquamarine
+				"(BC)21", // Aquamarine
 				"ReadyTimeModifiers",
 				"Aquamarine"
 			],
@@ -94,7 +94,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Amethyst
+				"(BC)21", // Amethyst
 				"ReadyTimeModifiers",
 				"Amethyst"
 			],
@@ -109,7 +109,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Diamond
+				"(BC)21", // Diamond
 				"ReadyTimeModifiers",
 				"Diamond"
 			],
@@ -125,7 +125,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Diamond (Lumisteria)
+				"(BC)21", // Diamond (Lumisteria)
 				"ReadyTimeModifiers",
 				"Diamond"
 			],
@@ -141,7 +141,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Fire Quartz
+				"(BC)21", // Fire Quartz
 				"ReadyTimeModifiers",
 				"FireQuartz"
 			],
@@ -156,7 +156,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Frozen Tear
+				"(BC)21", // Frozen Tear
 				"ReadyTimeModifiers",
 				"FrozenTear"
 			],
@@ -171,7 +171,7 @@
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
-				"(BC)21", //Earth Crystal
+				"(BC)21", // Earth Crystal
 				"ReadyTimeModifiers",
 				"EarthCrystal"
 			],
@@ -182,7 +182,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	//Keg Processing Time (Flavored Meads)
+		{	// Keg Processing Time (Flavored Meads)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -198,7 +198,7 @@
 				"HasMod|contains=selph.FlavoredMead": true
 			}
 		},
-		{	//Flavored Meads (SHOULD THIS HAVE FLAVORED MEADS AS A REQUIRED MOD???)
+		{	// Flavored Meads (SHOULD THIS HAVE FLAVORED MEADS AS A REQUIRED MOD???)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -224,7 +224,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	//Cask - Cheese
+		{	// Cask - Cheese
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -244,7 +244,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	//Cask - Goat Cheese
+		{	// Cask - Goat Cheese
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -264,7 +264,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	//Cask - Wine
+		{	// Cask - Wine
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -284,7 +284,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	//Cask - Mead
+		{	// Cask - Mead
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -304,7 +304,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	//Cask - Mead (Flavored Mead)
+		{	// Cask - Mead (Flavored Mead)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -325,7 +325,7 @@
 				"HasMod|contains=selph.FlavoredMead": true
 			}
 		},
-		{	//Cask - Pale Ale
+		{	// Cask - Pale Ale
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -345,7 +345,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	//Cask - Beer
+		{	// Cask - Beer
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -365,7 +365,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	//Cheese Press - Large Goat Milk (Large Animal Products Only)
+		{	// Cheese Press - Large Goat Milk (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -385,7 +385,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	//Cheese Press - Large Milk (Large Animal Products Only)
+		{	// Cheese Press - Large Milk (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -405,7 +405,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	//Mayonnaise Machine - Large Egg (Large Animal Products Only)
+		{	// Mayonnaise Machine - Large Egg (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -425,7 +425,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	//Keg - Wheat
+		{	// Keg - Wheat
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -447,7 +447,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -458,7 +458,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Keg - Hops
+		{	// Keg - Hops
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -480,7 +480,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -491,7 +491,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Keg - Tea Leaves
+		{	// Keg - Tea Leaves
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -513,7 +513,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -524,7 +524,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Keg - Coffee Beans
+		{	// Keg - Coffee Beans
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -546,7 +546,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -557,7 +557,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Keg - Honey
+		{	// Keg - Honey
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -579,7 +579,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -590,7 +590,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Keg - Rice
+		{	// Keg - Rice
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -612,7 +612,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -623,7 +623,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Keg - Juice
+		{	// Keg - Juice
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -645,7 +645,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -656,7 +656,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Keg - Wine
+		{	// Keg - Wine
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -678,7 +678,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -689,7 +689,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Preserves Jar - Sturgeon Roe
+		{	// Preserves Jar - Sturgeon Roe
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -711,7 +711,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -722,7 +722,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Preserves Jar - Roe
+		{	// Preserves Jar - Roe
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -744,7 +744,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -755,7 +755,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Preserves Jar - Pickles
+		{	// Preserves Jar - Pickles
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -777,7 +777,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -788,7 +788,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Preserves Jar - Jelly
+		{	// Preserves Jar - Jelly
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -810,7 +810,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -821,7 +821,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Cheese Press - Goat Milk
+		{	// Cheese Press - Goat Milk
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -843,7 +843,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -854,7 +854,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Cheese Press - Large Goat Milk
+		{	// Cheese Press - Large Goat Milk
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -885,7 +885,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -896,7 +896,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Cheese Press - Milk
+		{	// Cheese Press - Milk
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -918,7 +918,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -929,7 +929,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Cheese Press - Large Milk
+		{	// Cheese Press - Large Milk
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -960,7 +960,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -971,7 +971,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Oil Maker - Corn
+		{	// Oil Maker - Corn
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -993,7 +993,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1004,7 +1004,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Oil Maker - Sunflower
+		{	// Oil Maker - Sunflower
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1026,7 +1026,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1037,7 +1037,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Oil Maker - Sunflower Seeds
+		{	// Oil Maker - Sunflower Seeds
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1059,7 +1059,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1070,7 +1070,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Oil Maker - Truffle
+		{	// Oil Maker - Truffle
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1092,7 +1092,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1103,7 +1103,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Mayonnaise Machine - Ostrich Egg
+		{	// Mayonnaise Machine - Ostrich Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1125,7 +1125,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1136,7 +1136,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Mayonnaise Machine - Duck Egg
+		{	// Mayonnaise Machine - Duck Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1158,7 +1158,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1169,7 +1169,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Mayonnaise Machine - Void Egg
+		{	// Mayonnaise Machine - Void Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1191,7 +1191,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1202,7 +1202,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Mayonnaise Machine - Dinosaur Egg
+		{	// Mayonnaise Machine - Dinosaur Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1224,7 +1224,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1235,7 +1235,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Mayonnaise Machine - Large Egg
+		{	// Mayonnaise Machine - Large Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1266,7 +1266,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1277,7 +1277,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Mayonnaise Machine - Egg
+		{	// Mayonnaise Machine - Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1299,7 +1299,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1310,7 +1310,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Dehydrator - Raisins
+		{	// Dehydrator - Raisins
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1332,7 +1332,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1343,7 +1343,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Dehydrator - Dried Fruit
+		{	// Dehydrator - Dried Fruit
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1365,7 +1365,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1376,7 +1376,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Dehydrator - Dried Mushrooms
+		{	// Dehydrator - Dried Mushrooms
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1398,7 +1398,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1409,7 +1409,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Loom - Wool
+		{	// Loom - Wool
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1431,7 +1431,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1442,7 +1442,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	//Mayonnaise Machine - Ostrich Egg (No WoL)
+		{	// Mayonnaise Machine - Ostrich Egg (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1570,7 +1570,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1583,7 +1583,7 @@
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		{	//Mayonnaise Machine - Golden Mayo (No WoL)
+		{	// Mayonnaise Machine - Golden Mayo (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1620,7 +1620,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1633,7 +1633,7 @@
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		{	//Increase BaitMaker Output
+		{	// Increase BaitMaker Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1673,7 +1673,7 @@
 			}
 		},
 		
-		{	//Increased Seed Maker Output
+		{	// Increased Seed Maker Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [

@@ -7,16 +7,16 @@
 			"Fields": {
 				"Cornucopia_SpringOnionSeeds": {
 					"Price": "5"
-				}, //Spring Onion Seeds
+				}, // Spring Onion Seeds
 				"399": {
 					"Price": "10"
-				}, //Spring Onion
+				}, // Spring Onion
 				"Cornucopia_CrocusSeeds": {
 					"Price": "10"
-				}, //Crocus Seeds
+				}, // Crocus Seeds
 				"Cornucopia_SweetPeaSeeds": {
 					"Price": "5"
-				} //Sweet Pea Seeds
+				} // Sweet Pea Seeds
 			},
 			"When": {
 				"Sell Prices": true
@@ -53,10 +53,10 @@
 			"Fields": {
 				"399": {
 					"Price": "150"
-				}, //Pale Ale
+				}, // Pale Ale
 				"302": {
 					"Price": "750"
-				} //Hops Planter
+				} // Hops Planter
 			},
 			"When": {
 				"Sell Prices": true,
@@ -72,7 +72,7 @@
 				"PaleAle",
 				"OutputItem",
 				"#0"
-			], //Cask - Pale Ale
+			], // Cask - Pale Ale
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "4"
@@ -93,10 +93,10 @@
 			"Fields": {
 				"(O)302": {
 					"Condition": null
-				}, //Hops Planter
+				}, // Hops Planter
 				"(O)301": {
 					"Condition": null
-				} //Grape Starter
+				} // Grape Starter
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -114,10 +114,10 @@
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": {
 					"Condition": null
-				}, //Hops Planter
+				}, // Hops Planter
 				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": {
 					"Condition": null
-				} //Grape Planter
+				} // Grape Planter
 			},
 			"When": {
 				"Limited Seed Supply": true,
@@ -136,15 +136,15 @@
 				"(O)302": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Hops Planter
+				}, // Hops Planter
 				"(O)301": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Grape Starter
+				}, // Grape Starter
 				"(O)481": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Blueberry Planter
+				}, // Blueberry Planter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },*/
@@ -193,11 +193,11 @@
 				"(O)302": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Hops Planter
+				}, // Hops Planter
 				"(O)301": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				} //Grape Starter
+				} // Grape Starter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }*/
@@ -219,27 +219,27 @@
 				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Hops Planter
+				}, // Hops Planter
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Hops Planter
+				}, // Hops Planter
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Hops Planter
+				}, // Hops Planter
 				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Grape Planter
+				}, // Grape Planter
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Grape Starter
+				}, // Grape Starter
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				} //Grape Planter
+				} // Grape Planter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" }*/

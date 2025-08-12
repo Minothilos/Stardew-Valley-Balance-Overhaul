@@ -1,6 +1,6 @@
 {
     "Changes": [
-        {   //Animals
+        {   // Animals
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Fields": {
@@ -58,7 +58,7 @@
                 "Sell Prices": true
             }
         }, 
-        {   //Consistent Sheep Production
+        {   // Consistent Sheep Production
             "Action": "EditData",
             "Target": "Data/FarmAnimals",
             "Fields": {

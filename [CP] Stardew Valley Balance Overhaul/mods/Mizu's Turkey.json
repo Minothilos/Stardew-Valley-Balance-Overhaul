@@ -27,7 +27,7 @@
 			"TargetField": [
 				"Mizu.Turkey_TurkeyEgg",
 				"ContextTags"
-			], //Turkey Eggs Eggs are large egg items
+			], // Turkey Eggs Eggs are large egg items
 			"Entries": {
 				"#-1": "item_large_egg"
 			},
@@ -48,7 +48,7 @@
 				"Sell Prices": true
 			}
 		},
-		//On with WoL
+		// On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -58,7 +58,7 @@
 				"TurkeyMayonnaise",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Turkey Mayonnaise
+			], // Mayonnaise Machine - Turkey Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -71,7 +71,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -82,7 +82,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		//On without WoL
+		// On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -92,7 +92,7 @@
 				"TurkeyMayonnaise",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Turkey Mayonnaise
+			], // Mayonnaise Machine - Turkey Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -105,7 +105,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -117,7 +117,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		//Animal Husbandry Mod
+		// Animal Husbandry Mod
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",

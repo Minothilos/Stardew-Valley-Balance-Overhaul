@@ -368,59 +368,59 @@
 			"Fields": {
 				"Cornucopia_Butter": {
 					"Category": "-18"
-				}, //Butter
+				}, // Butter
 				"Cornucopia_SmokedEgg": {
 					"Category": "-18"
-				}, //Smoked Egg
+				}, // Smoked Egg
 				"Cornucopia_SmokedCheese": {
 					"Category": "-18"
-				}, //Smoked Cheese
+				}, // Smoked Cheese
 				"Cornucopia_GarlicMayonnaise": {
 					"Category": "-18"
-				}, //Garlic Mayonnaise
+				}, // Garlic Mayonnaise
 				"Cornucopia_SpicyMayonnaise": {
 					"Category": "-18"
-				}, //Spicy Mayonnaise
+				}, // Spicy Mayonnaise
 				"Cornucopia_TruffleMayonnaise": {
 					"Category": "-18"
-				}, //Truffle Mayonnaise
+				}, // Truffle Mayonnaise
 				"Cornucopia_CenturyEgg": {
 					"Category": "-18"
-				}, //Century Egg
+				}, // Century Egg
 				"Cornucopia_PlainYogurt": {
 					"Category": "-18"
-				}, //Plain Yogurt
+				}, // Plain Yogurt
 				"Cornucopia_FlavoredYogurt": {
 					"Category": "-18"
-				}, //Flavored Yogurt
+				}, // Flavored Yogurt
 				"Cornucopia_ShrimpPaste": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
-				}, //Shrimp Paste
+				}, // Shrimp Paste
 				"Cornucopia_SmokedSalmon": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
-				}, //Smoked Salmon
+				}, // Smoked Salmon
 				"Cornucopia_DriedSquid": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
-				}, //Dried Squid
+				}, // Dried Squid
 				"Cornucopia_PickledFish": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
-				}, //Pickled Fish
+				}, // Pickled Fish
 				"Cornucopia_Garum": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
-				}, //Garum
+				}, // Garum
 				"Cornucopia_FishSauce": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
-				}, //Fish Sauce
+				}, // Fish Sauce
 				"Cornucopia_FishOil": {
 					"Category": "-4",
 					"ExcludeFromFishingCollection": true
-				} //Fish Oil
+				} // Fish Oil
 			},
 			"When": {
 				"Item Categories": true
@@ -432,13 +432,13 @@
 			"Fields": {
 				"Cornucopia_AvocadoMayonnaise": {
 					"Category": "-18"
-				}, //Avocado Mayonnaise
+				}, // Avocado Mayonnaise
 				"Cornucopia_BlackPepperMayonnaise": {
 					"Category": "-18"
-				}, //Black Pepper Mayonnaise
+				}, // Black Pepper Mayonnaise
 				"Cornucopia_OliveOilMayonnaise": {
 					"Category": "-18"
-				} //Olive Oil Mayonnaise
+				} // Olive Oil Mayonnaise
 			},
 			"When": {
 				"Item Categories": true,
@@ -451,7 +451,7 @@
 			"Fields": {
 				"Cornucopia_DillMayonnaise": {
 					"Category": "-18"
-				} //Dill Mayonnaise
+				} // Dill Mayonnaise
 			},
 			"When": {
 				"Item Categories": true,
@@ -465,7 +465,7 @@
 			"Fields": {
 				"Cornucopia_WasabiMayonnaise": {
 					"Category": "-18"
-				} //Wasabi Mayonnaise
+				} // Wasabi Mayonnaise
 			},
 			"When": {
 				"Item Categories": true,
@@ -479,7 +479,7 @@
 			"TargetField": [
 				"Cornucopia_ShrimpPaste",
 				"ContextTags"
-			], //Fix Shrimp Paste
+			], // Fix Shrimp Paste
 			"Entries": {
 				"#-1": "fish_pond_ignore",
 				"#-2": "fish_nonfish"
@@ -494,7 +494,7 @@
 			"TargetField": [
 				"Cornucopia_SmokedSalmon",
 				"ContextTags"
-			], //Fix Smoked Salmon
+			], // Fix Smoked Salmon
 			"Entries": {
 				"#-1": "fish_pond_ignore",
 				"#-2": "fish_nonfish"
@@ -509,7 +509,7 @@
 			"TargetField": [
 				"Cornucopia_DriedSquid",
 				"ContextTags"
-			], //Fix Dried Squid
+			], // Fix Dried Squid
 			"Entries": {
 				"#-1": "fish_pond_ignore",
 				"#-2": "fish_nonfish"
@@ -524,7 +524,7 @@
 			"TargetField": [
 				"Cornucopia_PickledFish",
 				"ContextTags"
-			], //Fix Pickled Fish
+			], // Fix Pickled Fish
 			"Entries": {
 				"#-1": "fish_pond_ignore",
 				"#-2": "fish_nonfish"
@@ -539,7 +539,7 @@
 			"TargetField": [
 				"Cornucopia_Garum",
 				"ContextTags"
-			], //Fix Garum
+			], // Fix Garum
 			"Entries": {
 				"#-1": "fish_pond_ignore",
 				"#-2": "fish_nonfish"
@@ -554,7 +554,7 @@
 			"TargetField": [
 				"Cornucopia_FishSauce",
 				"ContextTags"
-			], //Fix Fish Sauce
+			], // Fix Fish Sauce
 			"Entries": {
 				"#-1": "fish_pond_ignore",
 				"#-2": "fish_nonfish"
@@ -569,7 +569,7 @@
 			"TargetField": [
 				"Cornucopia_FishOil",
 				"ContextTags"
-			], //Fix Fish Oil
+			], // Fix Fish Oil
 			"Entries": {
 				"#-1": "fish_pond_ignore",
 				"#-2": "fish_nonfish"
@@ -588,7 +588,7 @@
 				"Triggers",
 				"ItemPlacedInMachine",
 				"RequiredTags"
-			], //Fix Preserve Jar Pickled Fish
+			], // Fix Preserve Jar Pickled Fish
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -610,7 +610,7 @@
 				"Triggers",
 				"ItemPlacedInMachine",
 				"RequiredTags"
-			], //Fix Bait Maker
+			], // Fix Bait Maker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -632,7 +632,7 @@
 				"Triggers",
 				"ItemPlacedInMachine",
 				"RequiredTags"
-			], //Fix Fish Smoker
+			], // Fix Fish Smoker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -654,7 +654,7 @@
 				"Triggers",
 				"ItemPlacedInMachine",
 				"RequiredTags"
-			], //Fix Deluxe Smoker
+			], // Fix Deluxe Smoker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -676,7 +676,7 @@
 				"Triggers",
 				"ItemPlacedInMachine",
 				"RequiredTags"
-			], //Fix Oil Maker
+			], // Fix Oil Maker
 			"Entries": {
 				"#-1": "!item_smoked",
 				"#-2": "!item_roe",
@@ -688,7 +688,7 @@
 				"Item Categories": true
 			}
 		},
-		//------------------------------------------------------------------------------------------
+		// ------------------------------------------------------------------------------------------
 		// Recipes
 		{
 			"Action": "EditData",
@@ -888,7 +888,7 @@
 				"Cornucopia_PickledEggsChicken",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Chicken eggs, smaller multiplier
+			], // Preserve Jar - Pickled Chicken eggs, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -911,7 +911,7 @@
 				"Cornucopia_PickledEggsChickenLarge",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Large Chicken eggs, smaller multiplier
+			], // Preserve Jar - Pickled Large Chicken eggs, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -934,7 +934,7 @@
 				"Cornucopia_PickledEggs",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled eggs, smaller multiplier
+			], // Preserve Jar - Pickled eggs, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -957,7 +957,7 @@
 				"Cornucopia_Candles",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Candles, smaller multiplier
+			], // Wax Barrel - Candles, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -982,7 +982,7 @@
 				"Cornucopia_WaxMelts",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Waxmelts, smaller multiplier
+			], // Wax Barrel - Waxmelts, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1007,7 +1007,7 @@
 				"Cornucopia_WildHoneyYogurt",
 				"OutputItem",
 				"Cornucopia_FlavoredYogurt"
-			], //Yogurt Jar - Wild Honey Yogurt, smaller multiplier
+			], // Yogurt Jar - Wild Honey Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1032,7 +1032,7 @@
 				"Cornucopia_FlavoredHoneyYogurt",
 				"OutputItem",
 				"Cornucopia_FlavoredYogurt"
-			], //Yogurt Jar - Flower Honey Yogurt, smaller multiplier
+			], // Yogurt Jar - Flower Honey Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1057,7 +1057,7 @@
 				"Cornucopia_FlavoredYogurt",
 				"OutputItem",
 				"Cornucopia_FlavoredYogurt"
-			], //Yogurt Jar - Flavored Yogurt, smaller multiplier
+			], // Yogurt Jar - Flavored Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1082,7 +1082,7 @@
 				"Cornucopia_ChocolateYogurt",
 				"OutputItem",
 				"Cornucopia_FlavoredYogurtDefault"
-			], //Yogurt Jar - Chocolate Yogurt, smaller multiplier
+			], // Yogurt Jar - Chocolate Yogurt, smaller multiplier
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1107,7 +1107,7 @@
 				"Cornucopia_DriedFlower",
 				"OutputItem",
 				"Cornucopia_DriedFlower"
-			], //Dried Flower smaller multiplier (1.75)
+			], // Dried Flower smaller multiplier (1.75)
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1133,7 +1133,7 @@
 				"Cornucopia_DriedHerb",
 				"OutputItem",
 				"Cornucopia_DriedHerb"
-			], //Dried Herb smaller multiplier (1.75)
+			], // Dried Herb smaller multiplier (1.75)
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1157,7 +1157,7 @@
 				"(BC)Cornucopia_DryingRack",
 				"OutputRules",
 				"Cornucopia_DriedFlower"
-			], //Dried Flower take longer
+			], // Dried Flower take longer
 			"Entries": {
 				"MinutesUntilReady": "2250"
 			}
@@ -1169,7 +1169,7 @@
 				"(BC)Cornucopia_DryingRack",
 				"OutputRules",
 				"Cornucopia_DriedHerb"
-			], //Dried Herb take longer
+			], // Dried Herb take longer
 			"Entries": {
 				"MinutesUntilReady": "2250"
 			}
@@ -1183,7 +1183,7 @@
 				"Cornucopia_SmokedMeat",
 				"OutputItem",
 				"#0"
-			], //Deluxe Smoker - Smaller Price Modifier with Animal Husbandry Mod
+			], // Deluxe Smoker - Smaller Price Modifier with Animal Husbandry Mod
 			"Entries": {
 				"PriceModifiers": [
 					{
@@ -1279,7 +1279,7 @@
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		//Cask Aging Multiplier
+		// Cask Aging Multiplier
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -1289,7 +1289,7 @@
 				"Cornucopia_AgedCenturyEgg",
 				"OutputItem",
 				"#0"
-			], //Cask - Century Egg
+			], // Cask - Century Egg
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2"
@@ -1309,7 +1309,7 @@
 				"Cornucopia_AgedNutCheese",
 				"OutputItem",
 				"#0"
-			], //Cask - Nut Cheese
+			], // Cask - Nut Cheese
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "1.4"
@@ -1328,7 +1328,7 @@
 				"Cornucopia_AgedSmokedCheese",
 				"OutputItem",
 				"#0"
-			], //Cask - Smoked Cheese
+			], // Cask - Smoked Cheese
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "1.4"
@@ -1347,7 +1347,7 @@
 				"Cornucopia_AgedSoySauce",
 				"OutputItem",
 				"#0"
-			], //Cask - Soy Sauce
+			], // Cask - Soy Sauce
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.66"
@@ -1369,7 +1369,7 @@
 				"Cornucopia_AgedStinkyTofu",
 				"OutputItem",
 				"#0"
-			], //Cask - Stinky Tofu
+			], // Cask - Stinky Tofu
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "1.75"
@@ -1623,7 +1623,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
 		},
-		//Deluxe Smoker - Roasted Garlic copy quality
+		// Deluxe Smoker - Roasted Garlic copy quality
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -1641,7 +1641,7 @@
 				"Machine Processing|contains=Off": "false"
 			}
 		},
-		//Deluxe Smoker - Smoked Egg Copy Quality
+		// Deluxe Smoker - Smoked Egg Copy Quality
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -1677,7 +1677,7 @@
 				"Machine Processing|contains=Off": "false"
 			}
 		},
-		//On with WoL
+		// On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -1687,7 +1687,7 @@
 				"Cornucopia_EssentialOil",
 				"OutputItem",
 				"#0"
-			], //Alembic - Essential Oil
+			], // Alembic - Essential Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1700,7 +1700,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1720,7 +1720,7 @@
 				"Cornucopia_PrismaticEssence",
 				"OutputItem",
 				"#0"
-			], //Alembic - Prismatic Essence
+			], // Alembic - Prismatic Essence
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1733,7 +1733,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1753,7 +1753,7 @@
 				"Cornucopia_ButterMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Milk)
+			], // Butter Churn - Butter (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1766,7 +1766,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1786,7 +1786,7 @@
 				"Cornucopia_ButterLargeMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Milk)
+			], // Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "1",
@@ -1808,7 +1808,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1829,7 +1829,7 @@
 				"Cornucopia_ButterLargeMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Milk)
+			], // Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1851,7 +1851,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1872,7 +1872,7 @@
 				"Cornucopia_ButterGoatMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Goat Milk)
+			], // Butter Churn - Butter (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1894,7 +1894,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1914,7 +1914,7 @@
 				"Cornucopia_ButterLargeGoatMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Goat Milk)
+			], // Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1950,7 +1950,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1971,7 +1971,7 @@
 				"Cornucopia_ButterLargeGoatMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Goat Milk)
+			], // Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"MaxStack": "4",
@@ -2007,7 +2007,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2028,7 +2028,7 @@
 				"Cornucopia_CoconutButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Coconut Butter
+			], // Butter Churn - Coconut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2041,7 +2041,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2061,7 +2061,7 @@
 				"Cornucopia_CookieButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Cookie Butter
+			], // Butter Churn - Cookie Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2074,7 +2074,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2094,7 +2094,7 @@
 				"Cornucopia_HoneyButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Honey Butter
+			], // Butter Churn - Honey Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2107,7 +2107,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2127,7 +2127,7 @@
 				"Cornucopia_MapleButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Maple Butter
+			], // Butter Churn - Maple Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2140,7 +2140,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2160,7 +2160,7 @@
 				"Cornucopia_Margarine",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Margarine
+			], // Butter Churn - Margarine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2173,7 +2173,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2193,7 +2193,7 @@
 				"Cornucopia_NutButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Nut Butter
+			], // Butter Churn - Nut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2206,7 +2206,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2226,7 +2226,7 @@
 				"Cornucopia_CocoaButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Cocoa Butter
+			], // Butter Churn - Cocoa Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2239,7 +2239,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2260,7 +2260,7 @@
 				"Cornucopia_PeanutButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Peanut Butter
+			], // Butter Churn - Peanut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2273,7 +2273,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2294,7 +2294,7 @@
 				"Cornucopia_SoyButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Soy Butter
+			], // Butter Churn - Soy Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2307,7 +2307,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2328,7 +2328,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"CornucopiaPineNutMilk"
-			], //Cheese Press - Pine Nut Cheese
+			], // Cheese Press - Pine Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2341,7 +2341,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2361,7 +2361,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"CornucopiaSoyMilk"
-			], //Cheese Press - Soy Cheese
+			], // Cheese Press - Soy Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2374,7 +2374,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2394,7 +2394,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"CornucopiaOatMilk"
-			], //Cheese Press - Oat Cheese
+			], // Cheese Press - Oat Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2407,7 +2407,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2427,7 +2427,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"Default"
-			], //Cheese Press - Nut Cheese
+			], // Cheese Press - Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2440,7 +2440,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2460,7 +2460,7 @@
 				"Cornucopia_Applesauce",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Applesauce
+			], // Compact Mill - Applesauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2473,7 +2473,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2493,7 +2493,7 @@
 				"Cornucopia_ChiliPowder",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Chili Powder
+			], // Compact Mill - Chili Powder
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2506,7 +2506,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2526,7 +2526,7 @@
 				"Cornucopia_OrangeZest",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Orange Zest
+			], // Compact Mill - Orange Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2539,7 +2539,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2559,7 +2559,7 @@
 				"Cornucopia_Saffron",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Saffron
+			], // Compact Mill - Saffron
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2572,7 +2572,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2592,7 +2592,7 @@
 				"Cornucopia_Salt",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Salt
+			], // Compact Mill - Salt
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2605,7 +2605,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2625,7 +2625,7 @@
 				"Cornucopia_ShrimpPaste",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Shrimp Paste
+			], // Compact Mill - Shrimp Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2638,7 +2638,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2658,7 +2658,7 @@
 				"Cornucopia_MisoPaste",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Miso Paste
+			], // Compact Mill - Miso Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2671,7 +2671,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2692,7 +2692,7 @@
 				"Cornucopia_Paprika",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Paprika
+			], // Compact Mill - Paprika
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2705,7 +2705,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2726,7 +2726,7 @@
 				"Cornucopia_Pepper",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Pepper
+			], // Compact Mill - Pepper
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2739,7 +2739,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2760,7 +2760,7 @@
 				"Cornucopia_LemonZest",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Lemon Zest
+			], // Compact Mill - Lemon Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2773,7 +2773,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2795,7 +2795,7 @@
 				"Cornucopia_LimeZest",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Lime Zest
+			], // Compact Mill - Lime Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2808,7 +2808,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2830,7 +2830,7 @@
 				"Cornucopia_AloeGel",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Aloe Gel
+			], // Compact Mill - Aloe Gel
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2843,7 +2843,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2865,7 +2865,7 @@
 				"Cornucopia_DriedHerb",
 				"OutputItem",
 				"#0"
-			], //Drying Rack - Dried Herb
+			], // Drying Rack - Dried Herb
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2878,7 +2878,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2898,7 +2898,7 @@
 				"Cornucopia_DriedFlower",
 				"OutputItem",
 				"#0"
-			], //Drying Rack - Dried Flower
+			], // Drying Rack - Dried Flower
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2911,7 +2911,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2931,7 +2931,7 @@
 				"Cornucopia_DriedVegetable",
 				"OutputItem",
 				"#0"
-			], //Dehydrtator - Dried Vegetable
+			], // Dehydrtator - Dried Vegetable
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2944,7 +2944,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2964,7 +2964,7 @@
 				"Cornucopia_Beeswax",
 				"OutputItem",
 				"#0"
-			], //Extruder - Beeswax
+			], // Extruder - Beeswax
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -2977,7 +2977,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -2997,7 +2997,7 @@
 				"Cornucopia_GlassNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Glass Noodles
+			], // Extruder - Glass Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3010,7 +3010,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3030,7 +3030,7 @@
 				"Cornucopia_RiceNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Rice Noodles
+			], // Extruder - Rice Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3043,7 +3043,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3063,7 +3063,7 @@
 				"Cornucopia_WheatNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Wheat Noodles
+			], // Extruder - Wheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3076,7 +3076,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3096,7 +3096,7 @@
 				"Cornucopia_Zoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Zoodles
+			], // Extruder - Zoodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3109,7 +3109,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3130,7 +3130,7 @@
 				"Cornucopia_BuckwheatNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Buckwheat Noodles
+			], // Extruder - Buckwheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3143,7 +3143,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3165,7 +3165,7 @@
 				"Cornucopia_SemolinaNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Semolina Noodles
+			], // Extruder - Semolina Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3178,7 +3178,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3200,7 +3200,7 @@
 				"Cornucopia_WholeGrainNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Whole Grain Noodles
+			], // Extruder - Whole Grain Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3213,7 +3213,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3235,7 +3235,7 @@
 				"Cornucopia_ChewingGum",
 				"OutputItem",
 				"#0"
-			], //Extruder - Chewing Gum
+			], // Extruder - Chewing Gum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3248,7 +3248,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3270,7 +3270,7 @@
 				"Cornucopia_Juice",
 				"OutputItem",
 				"#0"
-			], //Juicer - Juice
+			], // Juicer - Juice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3283,7 +3283,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3303,7 +3303,7 @@
 				"Cornucopia_CoconutMilk",
 				"OutputItem",
 				"#0"
-			], //Keg - Coconut Milk
+			], // Keg - Coconut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3316,7 +3316,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3336,7 +3336,7 @@
 				"Cornucopia_NutMilk",
 				"OutputItem",
 				"#0"
-			], //Keg - Nut Milk
+			], // Keg - Nut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3349,7 +3349,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3369,7 +3369,7 @@
 				"Cornucopia_GarlicMayonnaise",
 				"OutputItem",
 				"Cornucopia_GarlicMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Garlic Mayo
+			], // Mayonnaise Machone - Large Garlic Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3391,7 +3391,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3411,7 +3411,7 @@
 				"Cornucopia_GarlicMayonnaise",
 				"OutputItem",
 				"Cornucopia_GarlicMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Garlic Mayo
+			], // Mayonnaise Machone - Small Garlic Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3424,7 +3424,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3444,7 +3444,7 @@
 				"Cornucopia_SpicyMayonnaise",
 				"OutputItem",
 				"Cornucopia_SpicyMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Spicy Mayo
+			], // Mayonnaise Machone - Large Spicy Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3466,7 +3466,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3486,7 +3486,7 @@
 				"Cornucopia_SpicyMayonnaise",
 				"OutputItem",
 				"Cornucopia_SpicyMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Spicy Mayo
+			], // Mayonnaise Machone - Small Spicy Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3499,7 +3499,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3519,7 +3519,7 @@
 				"Cornucopia_TruffleMayonnaise",
 				"OutputItem",
 				"Cornucopia_TruffleMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Truffle Mayo
+			], // Mayonnaise Machone - Large Truffle Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3541,7 +3541,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3561,7 +3561,7 @@
 				"Cornucopia_TruffleMayonnaise",
 				"OutputItem",
 				"Cornucopia_TruffleMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Truffle Mayo
+			], // Mayonnaise Machone - Small Truffle Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3574,7 +3574,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3594,7 +3594,7 @@
 				"Cornucopia_AvocadoMayonnaise",
 				"OutputItem",
 				"Cornucopia_AvocadoMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Avocado Mayo
+			], // Mayonnaise Machone - Large Avocado Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3616,7 +3616,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3637,7 +3637,7 @@
 				"Cornucopia_AvocadoMayonnaise",
 				"OutputItem",
 				"Cornucopia_AvocadoMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Avocado Mayo
+			], // Mayonnaise Machone - Small Avocado Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3650,7 +3650,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3671,7 +3671,7 @@
 				"Cornucopia_BlackPepperMayonnaise",
 				"OutputItem",
 				"Cornucopia_BlackPepperMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Black Pepper Mayo
+			], // Mayonnaise Machone - Large Black Pepper Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3693,7 +3693,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3714,7 +3714,7 @@
 				"Cornucopia_BlackPepperMayonnaise",
 				"OutputItem",
 				"Cornucopia_BlackPepperMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Black Pepper Mayo
+			], // Mayonnaise Machone - Small Black Pepper Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3727,7 +3727,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3748,7 +3748,7 @@
 				"Cornucopia_OliveOilMayonnaise",
 				"OutputItem",
 				"Cornucopia_OliveOilMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Olive Oil Mayo
+			], // Mayonnaise Machone - Large Olive Oil Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3770,7 +3770,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3791,7 +3791,7 @@
 				"Cornucopia_OliveOilMayonnaise",
 				"OutputItem",
 				"Cornucopia_OliveOilMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Olive Oil Mayo
+			], // Mayonnaise Machone - Small Olive Oil Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3804,7 +3804,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3825,7 +3825,7 @@
 				"Cornucopia_DillMayonnaise",
 				"OutputItem",
 				"Cornucopia_DillMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Dill Mayo
+			], // Mayonnaise Machone - Large Dill Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3847,7 +3847,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3869,7 +3869,7 @@
 				"Cornucopia_DillMayonnaise",
 				"OutputItem",
 				"Cornucopia_DillMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Dill Mayo
+			], // Mayonnaise Machone - Small Dill Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3882,7 +3882,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3904,7 +3904,7 @@
 				"Cornucopia_WasabiMayonnaise",
 				"OutputItem",
 				"Cornucopia_WasabiMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Wasabi Mayo
+			], // Mayonnaise Machone - Large Wasabi Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -3919,7 +3919,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3941,7 +3941,7 @@
 				"Cornucopia_WasabiMayonnaise",
 				"OutputItem",
 				"Cornucopia_WasabiMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Wasabi Mayo
+			], // Mayonnaise Machone - Small Wasabi Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3954,7 +3954,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3976,7 +3976,7 @@
 				"Cornucopia_ChiliOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Chili Oil
+			], // Oil Maker - Chili Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3989,7 +3989,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4009,7 +4009,7 @@
 				"Cornucopia_CoconutOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Coconut Oil
+			], // Oil Maker - Coconut Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4022,7 +4022,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4042,7 +4042,7 @@
 				"Cornucopia_FishOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Fish Oil
+			], // Oil Maker - Fish Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4055,7 +4055,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4075,7 +4075,7 @@
 				"Cornucopia_AvocadoOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Avocado Oil
+			], // Oil Maker - Avocado Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4088,7 +4088,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4109,7 +4109,7 @@
 				"Cornucopia_CenturyEgg",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Century Egg
+			], // Preserve Jar - Century Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4122,7 +4122,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4142,7 +4142,7 @@
 				"Cornucopia_FishSauce",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Fish Sauce
+			], // Preserve Jar - Fish Sauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4155,7 +4155,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4175,7 +4175,7 @@
 				"Cornucopia_Garum",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Garum
+			], // Preserve Jar - Garum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4188,7 +4188,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4208,7 +4208,7 @@
 				"Cornucopia_PickledEggsChicken",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Eggs Chicken Small
+			], // Preserve Jar - Pickled Eggs Chicken Small
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4221,7 +4221,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4241,7 +4241,7 @@
 				"Cornucopia_PickledEggsChickenLarge",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Eggs Chicken Large
+			], // Preserve Jar - Pickled Eggs Chicken Large
 			"Entries": {
 				"MinStack": "1",
 				"Quality": "0",
@@ -4262,7 +4262,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4282,7 +4282,7 @@
 				"Cornucopia_PickledEggs",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Eggs Default
+			], // Preserve Jar - Pickled Eggs Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4295,7 +4295,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4315,7 +4315,7 @@
 				"Cornucopia_PickledEggsChickenLarge",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Eggs Chicken Large, Large Animal Products Make 2
+			], // Preserve Jar - Pickled Eggs Chicken Large, Large Animal Products Make 2
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0"
@@ -4334,7 +4334,7 @@
 				"Cornucopia_PickledFish",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Fish Default
+			], // Preserve Jar - Pickled Fish Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4347,7 +4347,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4367,7 +4367,7 @@
 				"Cornucopia_Sauerkraut",
 				"OutputItem",
 				"Double Sauerkraut"
-			], //Preserve Jar - Sauerkraut Double
+			], // Preserve Jar - Sauerkraut Double
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4380,7 +4380,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4400,7 +4400,7 @@
 				"Cornucopia_Sauerkraut",
 				"OutputItem",
 				"(O)Cornucopia_Sauerkraut"
-			], //Preserve Jar - Sauerkraut
+			], // Preserve Jar - Sauerkraut
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4413,7 +4413,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4433,7 +4433,7 @@
 				"Cornucopia_BrinedOlives",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Brined Olives
+			], // Preserve Jar - Brined Olives
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4446,7 +4446,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4467,7 +4467,7 @@
 				"Cornucopia_PickleSpears",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickle Spears
+			], // Preserve Jar - Pickle Spears
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4480,7 +4480,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4501,7 +4501,7 @@
 				"Cornucopia_SoySauce",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Soy Sause
+			], // Preserve Jar - Soy Sause
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4514,7 +4514,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4535,7 +4535,7 @@
 				"Cornucopia_StinkyTofu",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Stinky Tofu
+			], // Preserve Jar - Stinky Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4548,7 +4548,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4569,7 +4569,7 @@
 				"Cornucopia_Kimchi",
 				"OutputItem",
 				"Triple Output"
-			], //Preserve Jar - Kimchi Daikon
+			], // Preserve Jar - Kimchi Daikon
 			"Entries": {
 				"Quality": "0",
 				"MinStack": "2",
@@ -4590,7 +4590,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4612,7 +4612,7 @@
 				"Cornucopia_Kimchi",
 				"OutputItem",
 				"(O)Cornucopia_Kimchi"
-			], //Preserve Jar - Kimchi Lettuce
+			], // Preserve Jar - Kimchi Lettuce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4625,7 +4625,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4647,7 +4647,7 @@
 				"Cornucopia_Umeboshi",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Umeboshi
+			], // Preserve Jar - Umeboshi
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4660,14 +4660,14 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4689,7 +4689,7 @@
 				"Cornucopia_Vinegar",
 				"OutputItem",
 				"#0"
-			], //Vinegar Keg - Vinegar
+			], // Vinegar Keg - Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4702,7 +4702,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4722,7 +4722,7 @@
 				"Cornucopia_VinegarUnmilledRice",
 				"OutputItem",
 				"#0"
-			], //Vinegar Keg - Unmilled Rice Vinegar
+			], // Vinegar Keg - Unmilled Rice Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4735,7 +4735,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4755,7 +4755,7 @@
 				"Cornucopia_SnackCheese",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Snack Cheese
+			], // Wax Barrel - Snack Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4768,7 +4768,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4788,7 +4788,7 @@
 				"Cornucopia_Candles",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Candles
+			], // Wax Barrel - Candles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4801,7 +4801,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4821,7 +4821,7 @@
 				"Cornucopia_WaxMelts",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Wax Melts
+			], // Wax Barrel - Wax Melts
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -4834,7 +4834,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4867,7 +4867,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4900,7 +4900,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4933,7 +4933,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4966,7 +4966,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -4978,7 +4978,7 @@
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		//Plain Yogurt Processing
+		// Plain Yogurt Processing
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -4988,7 +4988,7 @@
 				"Cornucopia_PlainYogurtGoat",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Goat Milk)
+			], // Yogurt Jar - Plain Yogurt (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -5009,7 +5009,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5029,7 +5029,7 @@
 				"Cornucopia_PlainYogurtGoatGold",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
+			], // Yogurt Jar - Plain Yogurt (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"Quality": "0",
@@ -5064,7 +5064,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5104,7 +5104,7 @@
 				"Cornucopia_PlainYogurtGold",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Large Milk)
+			], // Yogurt Jar - Plain Yogurt (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -5125,7 +5125,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5145,7 +5145,7 @@
 				"Cornucopia_PlainYogurt",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Milk)
+			], // Yogurt Jar - Plain Yogurt (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5158,7 +5158,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5169,7 +5169,7 @@
 				"Machine Processing|contains=Off": "false"
 			}
 		},
-		//On without WoL
+		// On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -5179,7 +5179,7 @@
 				"Cornucopia_EssentialOil",
 				"OutputItem",
 				"#0"
-			], //Alembic - Essential Oil
+			], // Alembic - Essential Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5192,7 +5192,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5213,7 +5213,7 @@
 				"Cornucopia_PrismaticEssence",
 				"OutputItem",
 				"#0"
-			], //Alembic - Prismatic Essence
+			], // Alembic - Prismatic Essence
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5226,7 +5226,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5247,7 +5247,7 @@
 				"Cornucopia_ButterMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Milk)
+			], // Butter Churn - Butter (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5260,7 +5260,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5281,7 +5281,7 @@
 				"Cornucopia_ButterLargeMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Milk)
+			], // Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "1",
@@ -5303,7 +5303,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5324,7 +5324,7 @@
 				"Cornucopia_ButterLargeMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Milk)
+			], // Butter Churn - Butter (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -5346,7 +5346,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5367,7 +5367,7 @@
 				"Cornucopia_ButterGoatMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Goat Milk)
+			], // Butter Churn - Butter (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -5389,7 +5389,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5410,7 +5410,7 @@
 				"Cornucopia_ButterLargeGoatMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Goat Milk)
+			], // Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -5446,7 +5446,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5467,7 +5467,7 @@
 				"Cornucopia_ButterLargeGoatMilk",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Butter (Large Goat Milk)
+			], // Butter Churn - Butter (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"MaxStack": "4",
@@ -5503,7 +5503,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5524,7 +5524,7 @@
 				"Cornucopia_CoconutButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Coconut Butter
+			], // Butter Churn - Coconut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5537,7 +5537,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5558,7 +5558,7 @@
 				"Cornucopia_CookieButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Cookie Butter
+			], // Butter Churn - Cookie Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5571,7 +5571,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5592,7 +5592,7 @@
 				"Cornucopia_HoneyButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Honey Butter
+			], // Butter Churn - Honey Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5605,7 +5605,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5626,7 +5626,7 @@
 				"Cornucopia_MapleButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Maple Butter
+			], // Butter Churn - Maple Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5639,7 +5639,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5660,7 +5660,7 @@
 				"Cornucopia_Margarine",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Margarine
+			], // Butter Churn - Margarine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5673,7 +5673,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5694,7 +5694,7 @@
 				"Cornucopia_NutButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Nut Butter
+			], // Butter Churn - Nut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5707,7 +5707,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5728,7 +5728,7 @@
 				"Cornucopia_CocoaButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Cocoa Butter
+			], // Butter Churn - Cocoa Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5741,7 +5741,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5763,7 +5763,7 @@
 				"Cornucopia_PeanutButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Peanut Butter
+			], // Butter Churn - Peanut Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5776,7 +5776,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5798,7 +5798,7 @@
 				"Cornucopia_SoyButter",
 				"OutputItem",
 				"#0"
-			], //Butter Churn - Soy Butter
+			], // Butter Churn - Soy Butter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5811,7 +5811,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5833,7 +5833,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"CornucopiaPineNutMilk"
-			], //Cheese Press - Pine Nut Cheese
+			], // Cheese Press - Pine Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5846,7 +5846,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5867,7 +5867,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"CornucopiaSoyMilk"
-			], //Cheese Press - Soy Cheese
+			], // Cheese Press - Soy Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5880,7 +5880,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5901,7 +5901,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"CornucopiaOatMilk"
-			], //Cheese Press - Oat Cheese
+			], // Cheese Press - Oat Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5914,7 +5914,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5935,7 +5935,7 @@
 				"Cornucopia_NutCheese_NutMilk",
 				"OutputItem",
 				"Default"
-			], //Cheese Press - Nut Cheese
+			], // Cheese Press - Nut Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5948,7 +5948,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -5969,7 +5969,7 @@
 				"Cornucopia_Applesauce",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Applesauce
+			], // Compact Mill - Applesauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -5982,7 +5982,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6003,7 +6003,7 @@
 				"Cornucopia_ChiliPowder",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Chili Powder
+			], // Compact Mill - Chili Powder
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6016,7 +6016,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6037,7 +6037,7 @@
 				"Cornucopia_OrangeZest",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Orange Zest
+			], // Compact Mill - Orange Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6050,7 +6050,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6071,7 +6071,7 @@
 				"Cornucopia_Saffron",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Saffron
+			], // Compact Mill - Saffron
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6084,7 +6084,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6105,7 +6105,7 @@
 				"Cornucopia_Salt",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Salt
+			], // Compact Mill - Salt
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6118,7 +6118,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6139,7 +6139,7 @@
 				"Cornucopia_ShrimpPaste",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Shrimp Paste
+			], // Compact Mill - Shrimp Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6152,7 +6152,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6173,7 +6173,7 @@
 				"Cornucopia_MisoPaste",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Miso Paste
+			], // Compact Mill - Miso Paste
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6186,7 +6186,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6208,7 +6208,7 @@
 				"Cornucopia_Paprika",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Paprika
+			], // Compact Mill - Paprika
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6221,7 +6221,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6243,7 +6243,7 @@
 				"Cornucopia_Pepper",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Pepper
+			], // Compact Mill - Pepper
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6256,7 +6256,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6278,7 +6278,7 @@
 				"Cornucopia_LemonZest",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Lemon Zest
+			], // Compact Mill - Lemon Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6291,7 +6291,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6314,7 +6314,7 @@
 				"Cornucopia_LimeZest",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Lime Zest
+			], // Compact Mill - Lime Zest
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6327,7 +6327,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6350,7 +6350,7 @@
 				"Cornucopia_AloeGel",
 				"OutputItem",
 				"#0"
-			], //Compact Mill - Aloe Gel
+			], // Compact Mill - Aloe Gel
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6363,7 +6363,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6386,7 +6386,7 @@
 				"Cornucopia_DriedHerb",
 				"OutputItem",
 				"#0"
-			], //Drying Rack - Dried Herb
+			], // Drying Rack - Dried Herb
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6399,7 +6399,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6420,7 +6420,7 @@
 				"Cornucopia_DriedFlower",
 				"OutputItem",
 				"#0"
-			], //Drying Rack - Dried Flower
+			], // Drying Rack - Dried Flower
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6433,7 +6433,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6454,7 +6454,7 @@
 				"Cornucopia_DriedVegetable",
 				"OutputItem",
 				"#0"
-			], //Dehydrtator - Dried Vegetable
+			], // Dehydrtator - Dried Vegetable
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6467,7 +6467,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6488,7 +6488,7 @@
 				"Cornucopia_Beeswax",
 				"OutputItem",
 				"#0"
-			], //Extruder - Beeswax
+			], // Extruder - Beeswax
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6501,7 +6501,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6522,7 +6522,7 @@
 				"Cornucopia_GlassNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Glass Noodles
+			], // Extruder - Glass Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6535,7 +6535,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6556,7 +6556,7 @@
 				"Cornucopia_RiceNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Rice Noodles
+			], // Extruder - Rice Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6569,7 +6569,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6590,7 +6590,7 @@
 				"Cornucopia_WheatNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Wheat Noodles
+			], // Extruder - Wheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6603,7 +6603,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6624,7 +6624,7 @@
 				"Cornucopia_Zoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Zoodles
+			], // Extruder - Zoodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6637,7 +6637,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6659,7 +6659,7 @@
 				"Cornucopia_BuckwheatNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Buckwheat Noodles
+			], // Extruder - Buckwheat Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6672,7 +6672,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6695,7 +6695,7 @@
 				"Cornucopia_SemolinaNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Semolina Noodles
+			], // Extruder - Semolina Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6708,7 +6708,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6731,7 +6731,7 @@
 				"Cornucopia_WholeGrainNoodles",
 				"OutputItem",
 				"#0"
-			], //Extruder - Whole Grain Noodles
+			], // Extruder - Whole Grain Noodles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6744,7 +6744,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6767,7 +6767,7 @@
 				"Cornucopia_ChewingGum",
 				"OutputItem",
 				"#0"
-			], //Extruder - Chewing Gum
+			], // Extruder - Chewing Gum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6780,7 +6780,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6803,7 +6803,7 @@
 				"Cornucopia_Juice",
 				"OutputItem",
 				"#0"
-			], //Juicer - Juice
+			], // Juicer - Juice
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6816,7 +6816,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6837,7 +6837,7 @@
 				"Cornucopia_CoconutMilk",
 				"OutputItem",
 				"#0"
-			], //Keg - Coconut Milk
+			], // Keg - Coconut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6850,7 +6850,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6871,7 +6871,7 @@
 				"Cornucopia_NutMilk",
 				"OutputItem",
 				"#0"
-			], //Keg - Nut Milk
+			], // Keg - Nut Milk
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6884,7 +6884,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6905,7 +6905,7 @@
 				"Cornucopia_GarlicMayonnaise",
 				"OutputItem",
 				"Cornucopia_GarlicMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Garlic Mayo
+			], // Mayonnaise Machone - Large Garlic Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -6927,7 +6927,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6948,7 +6948,7 @@
 				"Cornucopia_GarlicMayonnaise",
 				"OutputItem",
 				"Cornucopia_GarlicMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Garlic Mayo
+			], // Mayonnaise Machone - Small Garlic Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -6961,7 +6961,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -6982,7 +6982,7 @@
 				"Cornucopia_SpicyMayonnaise",
 				"OutputItem",
 				"Cornucopia_SpicyMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Spicy Mayo
+			], // Mayonnaise Machone - Large Spicy Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -7004,7 +7004,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7025,7 +7025,7 @@
 				"Cornucopia_SpicyMayonnaise",
 				"OutputItem",
 				"Cornucopia_SpicyMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Spicy Mayo
+			], // Mayonnaise Machone - Small Spicy Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7038,7 +7038,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7059,7 +7059,7 @@
 				"Cornucopia_TruffleMayonnaise",
 				"OutputItem",
 				"Cornucopia_TruffleMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Truffle Mayo
+			], // Mayonnaise Machone - Large Truffle Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -7081,7 +7081,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7102,7 +7102,7 @@
 				"Cornucopia_TruffleMayonnaise",
 				"OutputItem",
 				"Cornucopia_TruffleMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Truffle Mayo
+			], // Mayonnaise Machone - Small Truffle Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7115,7 +7115,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7136,7 +7136,7 @@
 				"Cornucopia_AvocadoMayonnaise",
 				"OutputItem",
 				"Cornucopia_AvocadoMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Avocado Mayo
+			], // Mayonnaise Machone - Large Avocado Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -7158,7 +7158,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7180,7 +7180,7 @@
 				"Cornucopia_AvocadoMayonnaise",
 				"OutputItem",
 				"Cornucopia_AvocadoMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Avocado Mayo
+			], // Mayonnaise Machone - Small Avocado Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7193,7 +7193,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7215,7 +7215,7 @@
 				"Cornucopia_BlackPepperMayonnaise",
 				"OutputItem",
 				"Cornucopia_BlackPepperMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Black Pepper Mayo
+			], // Mayonnaise Machone - Large Black Pepper Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -7237,7 +7237,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7259,7 +7259,7 @@
 				"Cornucopia_BlackPepperMayonnaise",
 				"OutputItem",
 				"Cornucopia_BlackPepperMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Black Pepper Mayo
+			], // Mayonnaise Machone - Small Black Pepper Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7272,7 +7272,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7294,7 +7294,7 @@
 				"Cornucopia_OliveOilMayonnaise",
 				"OutputItem",
 				"Cornucopia_OliveOilMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Olive Oil Mayo
+			], // Mayonnaise Machone - Large Olive Oil Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -7316,7 +7316,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7338,7 +7338,7 @@
 				"Cornucopia_OliveOilMayonnaise",
 				"OutputItem",
 				"Cornucopia_OliveOilMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Olive Oil Mayo
+			], // Mayonnaise Machone - Small Olive Oil Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7351,7 +7351,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7373,7 +7373,7 @@
 				"Cornucopia_DillMayonnaise",
 				"OutputItem",
 				"Cornucopia_DillMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Dill Mayo
+			], // Mayonnaise Machone - Large Dill Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -7395,7 +7395,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7418,7 +7418,7 @@
 				"Cornucopia_DillMayonnaise",
 				"OutputItem",
 				"Cornucopia_DillMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Dill Mayo
+			], // Mayonnaise Machone - Small Dill Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7431,7 +7431,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7454,7 +7454,7 @@
 				"Cornucopia_WasabiMayonnaise",
 				"OutputItem",
 				"Cornucopia_WasabiMayonnaiseLargeEgg"
-			], //Mayonnaise Machone - Large Wasabi Mayo
+			], // Mayonnaise Machone - Large Wasabi Mayo
 			"Entries": {
 				"MinStack": "1",
 				"MaxStack": "2",
@@ -7469,7 +7469,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7492,7 +7492,7 @@
 				"Cornucopia_WasabiMayonnaise",
 				"OutputItem",
 				"Cornucopia_WasabiMayonnaiseSmallEgg"
-			], //Mayonnaise Machone - Small Wasabi Mayo
+			], // Mayonnaise Machone - Small Wasabi Mayo
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7505,7 +7505,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7528,7 +7528,7 @@
 				"Cornucopia_ChiliOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Chili Oil
+			], // Oil Maker - Chili Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7541,7 +7541,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7562,7 +7562,7 @@
 				"Cornucopia_CoconutOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Coconut Oil
+			], // Oil Maker - Coconut Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7575,7 +7575,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7596,7 +7596,7 @@
 				"Cornucopia_FishOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Fish Oil
+			], // Oil Maker - Fish Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7609,7 +7609,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7630,7 +7630,7 @@
 				"Cornucopia_AvocadoOil",
 				"OutputItem",
 				"#0"
-			], //Oil Maker - Avocado Oil
+			], // Oil Maker - Avocado Oil
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7643,7 +7643,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7665,7 +7665,7 @@
 				"Cornucopia_CenturyEgg",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Century Egg
+			], // Preserve Jar - Century Egg
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7678,7 +7678,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7699,7 +7699,7 @@
 				"Cornucopia_FishSauce",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Fish Sauce
+			], // Preserve Jar - Fish Sauce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7712,7 +7712,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7733,7 +7733,7 @@
 				"Cornucopia_Garum",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Garum
+			], // Preserve Jar - Garum
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7746,7 +7746,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7767,7 +7767,7 @@
 				"Cornucopia_PickledEggsChicken",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Eggs Chicken Small
+			], // Preserve Jar - Pickled Eggs Chicken Small
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7780,7 +7780,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7801,7 +7801,7 @@
 				"Cornucopia_PickledEggsChickenLarge",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Eggs Chicken Large
+			], // Preserve Jar - Pickled Eggs Chicken Large
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -7822,7 +7822,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7843,7 +7843,7 @@
 				"Cornucopia_PickledEggs",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Eggs Default
+			], // Preserve Jar - Pickled Eggs Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7856,7 +7856,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7877,7 +7877,7 @@
 				"Cornucopia_PickledFish",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickled Fish Default
+			], // Preserve Jar - Pickled Fish Default
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7890,7 +7890,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7911,7 +7911,7 @@
 				"Cornucopia_Sauerkraut",
 				"OutputItem",
 				"Double Sauerkraut"
-			], //Preserve Jar - Sauerkraut Double
+			], // Preserve Jar - Sauerkraut Double
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7924,7 +7924,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7945,7 +7945,7 @@
 				"Cornucopia_Sauerkraut",
 				"OutputItem",
 				"(O)Cornucopia_Sauerkraut"
-			], //Preserve Jar - Sauerkraut
+			], // Preserve Jar - Sauerkraut
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7958,7 +7958,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -7979,7 +7979,7 @@
 				"Cornucopia_BrinedOlives",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Brined Olives
+			], // Preserve Jar - Brined Olives
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -7992,7 +7992,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8014,7 +8014,7 @@
 				"Cornucopia_PickleSpears",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Pickle Spears
+			], // Preserve Jar - Pickle Spears
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8027,7 +8027,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8049,7 +8049,7 @@
 				"Cornucopia_SoySauce",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Soy Sause
+			], // Preserve Jar - Soy Sause
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8062,7 +8062,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8084,7 +8084,7 @@
 				"Cornucopia_StinkyTofu",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Stinky Tofu
+			], // Preserve Jar - Stinky Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8097,7 +8097,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8119,7 +8119,7 @@
 				"Cornucopia_Kimchi",
 				"OutputItem",
 				"Triple Output"
-			], //Preserve Jar - Kimchi Daikon
+			], // Preserve Jar - Kimchi Daikon
 			"Entries": {
 				"Quality": "0",
 				"MinStack": "2",
@@ -8133,7 +8133,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8156,7 +8156,7 @@
 				"Cornucopia_Kimchi",
 				"OutputItem",
 				"(O)Cornucopia_Kimchi"
-			], //Preserve Jar - Kimchi Lettuce
+			], // Preserve Jar - Kimchi Lettuce
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8169,7 +8169,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8192,7 +8192,7 @@
 				"Cornucopia_Umeboshi",
 				"OutputItem",
 				"#0"
-			], //Preserve Jar - Umeboshi
+			], // Preserve Jar - Umeboshi
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8205,7 +8205,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8228,7 +8228,7 @@
 				"Cornucopia_Vinegar",
 				"OutputItem",
 				"#0"
-			], //Vinegar Keg - Vinegar
+			], // Vinegar Keg - Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8241,7 +8241,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8262,7 +8262,7 @@
 				"Cornucopia_VinegarUnmilledRice",
 				"OutputItem",
 				"#0"
-			], //Vinegar Keg - Unmilled Rice Vinegar
+			], // Vinegar Keg - Unmilled Rice Vinegar
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8275,7 +8275,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8296,7 +8296,7 @@
 				"Cornucopia_SnackCheese",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Snack Cheese
+			], // Wax Barrel - Snack Cheese
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8309,7 +8309,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8330,7 +8330,7 @@
 				"Cornucopia_Candles",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Candles
+			], // Wax Barrel - Candles
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8343,7 +8343,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8364,7 +8364,7 @@
 				"Cornucopia_WaxMelts",
 				"OutputItem",
 				"#0"
-			], //Wax Barrel - Wax Melts
+			], // Wax Barrel - Wax Melts
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8377,7 +8377,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8411,7 +8411,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8445,7 +8445,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8479,7 +8479,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8513,7 +8513,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8526,7 +8526,7 @@
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		//Plain Yogurt Processing
+		// Plain Yogurt Processing
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -8536,7 +8536,7 @@
 				"Cornucopia_PlainYogurtGoat",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Goat Milk)
+			], // Yogurt Jar - Plain Yogurt (Goat Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -8557,7 +8557,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8578,7 +8578,7 @@
 				"Cornucopia_PlainYogurtGoatGold",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Large Goat Milk)
+			], // Yogurt Jar - Plain Yogurt (Large Goat Milk)
 			"Entries": {
 				"MinStack": "4",
 				"Quality": "0",
@@ -8613,7 +8613,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8655,7 +8655,7 @@
 				"Cornucopia_PlainYogurtGold",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Large Milk)
+			], // Yogurt Jar - Plain Yogurt (Large Milk)
 			"Entries": {
 				"MinStack": "2",
 				"Quality": "0",
@@ -8676,7 +8676,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8697,7 +8697,7 @@
 				"Cornucopia_PlainYogurt",
 				"OutputItem",
 				"#0"
-			], //Yogurt Jar - Plain Yogurt (Milk)
+			], // Yogurt Jar - Plain Yogurt (Milk)
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -8710,7 +8710,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -8722,14 +8722,14 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		//Remove unused entries
+		// Remove unused entries
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
 				"(BC)15",
 				"OutputRules"
-			], //Preserve Jar - Remove Pickeled Gold and Ostrich
+			], // Preserve Jar - Remove Pickeled Gold and Ostrich
 			"Entries": {
 				"Cornucopia_PickledEggsGold": null,
 				"Cornucopia_PickledEggsOstrich": null
@@ -8744,7 +8744,7 @@
 			"TargetField": [
 				"(BC)Cornucopia_DeluxeSmoker",
 				"OutputRules"
-			], //Deluxe Smoker - Remove Smoked Gold and Ostrich
+			], // Deluxe Smoker - Remove Smoked Gold and Ostrich
 			"Entries": {
 				"Cornucopia_SmokedEggOstrich": null,
 				"Cornucopia_SmokedEggsOstrich": null

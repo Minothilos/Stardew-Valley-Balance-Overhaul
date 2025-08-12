@@ -1,88 +1,68 @@
 {
 	"Changes": [
-		{
+		{	// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"DaLion.Professions_OstrichMayo": {
+				"DaLion.Professions_SlimeMayo": { // Slime Mayonnaise
+					"Price": "150"
+				},
+				"DaLion.Professions_SlimeCheese": { // Slime Cheese
+					"Price": "370"
+				}
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{	// Sell Prices (Blue Egg)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"DaLion.Professions_OstrichMayo": { // Ostrich Mayonnaise
 					"Price": "2000"
-				}, // Ostrich Mayonnaise
-				"DaLion.Professions_GoldenMayo": {
+				},
+				"DaLion.Professions_GoldenMayo": { // Golden Mayonnaise
 					"Price": "600"
-				} // Golden Mayonnaise
+				}
 			},
 			"When": {
 				"Sell Prices": true,
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		//Morgan Event (SVE)
-		{
+		{	// Morgan Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"DaLion.Professions_OstrichMayo": {
+				"DaLion.Professions_OstrichMayo": { // Ostrich Mayonnaise
 					"Price": "2200"
-				}, //Ostrich Mayonnaise
-				"DaLion.Professions_GoldenMayo": {
-					"Price": "650"
-				} //Golden Mayonnaise
-			},
-			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP, DaLion.Professions",
-				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true
-			}
-		},
-		//Offset Tapper Aging
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"724": {
-					"Price": "225"
-				}, //Maple Syrup
-				"725": {
-					"Price": "190"
-				}, //Oak Resin
-				"726": {
-					"Price": "150"
-				} //Pine Tar
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Birch_Water": {
-					"Price": "115"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": {
-					"Price": "265"
+				"DaLion.Professions_GoldenMayo": { // Golden Mayonnaise
+					"Price": "650"
 				}
 			},
 			"When": {
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{
+		{	// Price Adjust (Cornucopia)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_ChicleRubber": {
+				"Cornucopia_ChicleRubber": { // Chicle Rubber
 					"Price": "205"
-				} // Chicle Rubber
+				}
 			},
 			"When": {
 				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		{
+		{	// Mayonnaise Machine - Ostrich Mayo (Blue Egg)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -91,7 +71,7 @@
 				"Default_OstrichEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Ostrich Mayo
+			], 
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -104,7 +84,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -116,7 +96,7 @@
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		{
+		{	 // Mayonnaise Machine - Golden Mayo (Blue Egg)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -125,7 +105,7 @@
 				"Default_GoldenEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Golden Mayo
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -138,7 +118,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -148,21 +128,6 @@
 			"When": {
 				"Machine Processing": "On",
 				"HasMod|contains=6480.blueegg": false
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"DaLion.Professions_SlimeMayo": {
-					"Price": "150"
-				}, // Slime Mayonnaise
-				"DaLion.Professions_SlimeCheese": {
-					"Price": "370"
-				} // Slime Cheese
-			},
-			"When": {
-				"Sell Prices": true
 			}
 		}
 	]

@@ -6,38 +6,38 @@
 			"Fields": {
 				"6480.blueegg_BlueEgg": {
 					"Price": "130"
-				}, //Blue Egg
+				}, // Blue Egg
 				"6480.blueegg_BlueMayo": {
 					"Price": "260"
-				}, //Blue Mayonnaise
+				}, // Blue Mayonnaise
 				"6480.blueegg_GoldenMayo": {
 					"Price": "600"
-				}, //Golden Mayonnaise
+				}, // Golden Mayonnaise
 				"6480.blueegg_OstrichMayo": {
 					"Price": "2000"
-				} //Ostrich Mayo
+				} // Ostrich Mayo
 			},
 			"When": {
 				"Sell Prices": true
 			}
 		},
-		//Morgan Event (SVE)
+		// Morgan Event (SVE)
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"6480.blueegg_BlueEgg": {
 					"Price": "135"
-				}, //Blue Egg
+				}, // Blue Egg
 				"6480.blueegg_BlueMayo": {
 					"Price": "280"
-				}, //Blue Mayonnaise
+				}, // Blue Mayonnaise
 				"6480.blueegg_GoldenMayo": {
 					"Price": "650"
-				}, //Golden Mayonnaise
+				}, // Golden Mayonnaise
 				"6480.blueegg_OstrichMayo": {
 					"Price": "2200"
-				} //Ostrich Mayonnaise
+				} // Ostrich Mayonnaise
 			},
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP, 6480.blueegg",
@@ -45,8 +45,8 @@
 				"Sell Prices": true
 			}
 		},
-		//Machine Processing
-		//On with WoL
+		// Machine Processing
+		// On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -56,7 +56,7 @@
 				"6480.blueegg_OstrichEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Ostrich Egg
+			], // Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": "false",
@@ -70,7 +70,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -90,7 +90,7 @@
 				"6480.blueegg_BlueEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Blue Eggs
+			], // Mayonnaise Machine - Blue Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -103,7 +103,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -123,7 +123,7 @@
 				"6480.blueegg_GoldenEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Golden Eggs
+			], // Mayonnaise Machine - Golden Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -136,7 +136,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -147,7 +147,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		//On without WoL
+		// On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -157,7 +157,7 @@
 				"6480.blueegg_OstrichEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Ostrich Egg
+			], // Mayonnaise Machine - Ostrich Egg
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": "false",
@@ -171,7 +171,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -192,7 +192,7 @@
 				"6480.blueegg_BlueEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Blue Eggs
+			], // Mayonnaise Machine - Blue Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -205,7 +205,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -226,7 +226,7 @@
 				"6480.blueegg_GoldenEgg",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Golden Eggs
+			], // Mayonnaise Machine - Golden Eggs
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -239,7 +239,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null

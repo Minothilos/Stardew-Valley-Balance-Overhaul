@@ -1,7 +1,6 @@
 {
 	"Changes": [
-		//Prices
-		{
+		{	// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -283,8 +282,7 @@
 				"Sell Prices": true
 			}
 		},
-		//Weapons
-		{
+		{	// Weapons
 			"Action": "EditData",
 			"Target": "Data/Weapons",
 			"Fields": {
@@ -604,7 +602,7 @@
 				}
 			}
 		},
-		{
+		{	// Food Buffs
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1104,7 +1102,7 @@
 				"Food Buffs": true
 			}
 		},
-		{
+		{	// Fruit Tree Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1112,44 +1110,44 @@
 				"Items"
 			],
 			"Fields": {
-				"Rafseazz.RSVCP.KimpoiShopItem1": {
+				"Rafseazz.RSVCP.KimpoiShopItem1": { // Cherry Pluot
 					"Price": "2500",
 					"IgnoreShopPriceModifiers": true
-				}, //Cherry Pluot
-				"Rafseazz.RSVCP.KimpoiShopItem2": {
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem2": { // Highland Jostaberry
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, //Highland Jostaberry
-				"Rafseazz.RSVCP.KimpoiShopItem3": {
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem3": { // Mountain Plumcot
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, //Mountain Plumcot
-				"Rafseazz.RSVCP.KimpoiShopItem4": {
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem4": { // Northern Limequat
 					"Price": "2500",
 					"IgnoreShopPriceModifiers": true
-				}, //Northern Limequat
-				"Rafseazz.RSVCP.KimpoiShopItem5": {
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem5": { // Paradise Rangpur
 					"Price": "2500",
 					"IgnoreShopPriceModifiers": true
-				}, //Paradise Rangpur
-				"Rafseazz.RSVCP.KimpoiShopItem6": {
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem6": { // Tropi Ugli Fruit
 					"Price": "2500",
 					"IgnoreShopPriceModifiers": true
-				}, //Tropi Ugli Fruit
-				"Rafseazz.RSVCP.KimpoiShopItem7": {
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem7": { // Desert Tangelo
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, //Desert Tangelo
-				"Rafseazz.RSVCP.KimpoiShopItem8": {
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem8": { // Ember Blood Lime
 					"Price": "2500",
 					"IgnoreShopPriceModifiers": true
-				} //Ember Blood Lime
+				}
 			},
 			"When": {
 				"Sell Prices": true
 			}
 		},
-		{
+		{	// Warp Totem Crafting Recipe
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {

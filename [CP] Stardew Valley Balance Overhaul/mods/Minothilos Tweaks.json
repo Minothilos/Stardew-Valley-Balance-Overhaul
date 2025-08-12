@@ -1,52 +1,52 @@
 {
 	"Changes": [
-		//Vanilla
+		// Vanilla
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"634": {
 					"Price": "190"
-				}, //Apricot
+				}, // Apricot
 				"638": {
 					"Price": "215"
-				}, //Cherry
+				}, // Cherry
 				"91": {
 					"Price": "230"
-				}, //Banana
+				}, // Banana
 				"834": {
 					"Price": "220"
-				}, //Mango
+				}, // Mango
 				"635": {
 					"Price": "190"
-				}, //Orange
+				}, // Orange
 				"636": {
 					"Price": "215"
-				}, //Peach
+				}, // Peach
 				"613": {
 					"Price": "190"
-				}, //Apple
+				}, // Apple
 				"637": {
 					"Price": "215"
-				}, //Pomegranate
+				}, // Pomegranate
 				"629": {
 					"Price": "1000"
-				}, //Apricot Sapling
+				}, // Apricot Sapling
 				"628": {
 					"Price": "1500"
-				}, //Cherry Sapling
+				}, // Cherry Sapling
 				"630": {
 					"Price": "1000"
-				}, //Orange Sapling
+				}, // Orange Sapling
 				"631": {
 					"Price": "1500"
-				}, //Peach Sapling
+				}, // Peach Sapling
 				"633": {
 					"Price": "1000"
-				}, //Apple Sapling
+				}, // Apple Sapling
 				"632": {
 					"Price": "1500"
-				} //Pomegranate Sapling
+				} // Pomegranate Sapling
 			},
 			"When": {
 				"Sell Prices": true
@@ -63,27 +63,27 @@
 				"(O)629": {
 					"Price": "4000",
 					"IgnoreShopPriceModifiers": true
-				}, //Apricot Sapling
+				}, // Apricot Sapling
 				"(O)628": {
 					"Price": "6000",
 					"IgnoreShopPriceModifiers": true
-				}, //Cherry Sapling
+				}, // Cherry Sapling
 				"(O)630": {
 					"Price": "4000",
 					"IgnoreShopPriceModifiers": true
-				}, //Orange Sapling
+				}, // Orange Sapling
 				"(O)631": {
 					"Price": "6000",
 					"IgnoreShopPriceModifiers": true
-				}, //Peach Sapling
+				}, // Peach Sapling
 				"(O)633": {
 					"Price": "4000",
 					"IgnoreShopPriceModifiers": true
-				}, //Apple Sapling
+				}, // Apple Sapling
 				"(O)632": {
 					"Price": "6000",
 					"IgnoreShopPriceModifiers": true
-				} //Pomegranate Sapling
+				} // Pomegranate Sapling
 			},
 			"When": {
 				"Sell Prices": true
@@ -100,11 +100,11 @@
 				"(O)69": {
 					"TradeItemAmount": "5",
 					"IgnoreShopPriceModifiers": true
-				}, //Banana Sapling
+				}, // Banana Sapling
 				"(O)835": {
 					"TradeItemAmount": "60",
 					"IgnoreShopPriceModifiers": true
-				} //Mango Sapling
+				} // Mango Sapling
 			},
 			"When": {
 				"Sell Prices": true
@@ -137,23 +137,23 @@
 				"Sell Prices": true
 			}
 		},
-		//Food
+		// Food
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"904": {
 					"Price": "380"
-				}, //Banana Pudding
+				}, // Banana Pudding
 				"612": {
 					"Price": "330"
-				}, //Cranberry Candy
+				}, // Cranberry Candy
 				"610": {
 					"Price": "480"
-				}, //Fruit Salad
+				}, // Fruit Salad
 				"905": {
 					"Price": "475"
-				} //Mango Sticky Rice
+				} // Mango Sticky Rice
 			},
 			"When": {
 				"Sell Prices": true
@@ -165,7 +165,7 @@
 			"Fields": {
 				"220": {
 					"Price": "400"
-				} //Chocolate Cake
+				} // Chocolate Cake
 			},
 			"When": {
 				"Sell Prices": true,
@@ -178,7 +178,7 @@
 			"Fields": {
 				"905": {
 					"Price": "720"
-				} //Mango Sticky Rice
+				} // Mango Sticky Rice
 			},
 			"When": {
 				"Sell Prices": true,
@@ -528,16 +528,16 @@
 			"Fields": {
 				"blueberry.LoveOfCooking_applepie": {
 					"Price": "345"
-				}, //Apple Pie
+				}, // Apple Pie
 				"blueberry.LoveOfCooking_cherrypie": {
 					"Price": "365"
-				}, //Cherry Pie
+				}, // Cherry Pie
 				"blueberry.LoveOfCooking_crepes": {
 					"Price": "485"
-				}, //Crepes Suzette
+				}, // Crepes Suzette
 				"blueberry.LoveOfCooking_fruity": {
 					"Price": "275"
-				} //Cherry Syllabub
+				} // Cherry Syllabub
 			},
 			"When": {
 				"Sell Prices": true,

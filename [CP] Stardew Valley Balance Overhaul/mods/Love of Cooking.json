@@ -7,112 +7,112 @@
 			"Fields": {
 				"blueberry.LoveOfCooking_admiralpie": {
 					"Price": "290"
-				}, //Admiral Pie
+				}, // Admiral Pie
 				"blueberry.LoveOfCooking_applepie": {
 					"Price": "365"
-				}, //Apple Pie
+				}, // Apple Pie
 				"blueberry.LoveOfCooking_arancini": {
 					"Price": "125"
-				}, //Arancini
+				}, // Arancini
 				"blueberry.LoveOfCooking_bakedpotato": {
 					"Price": "270"
-				}, //Baked Potato
+				}, // Baked Potato
 				"blueberry.LoveOfCooking_breakfast": {
 					"Price": "325"
-				}, //Quick Breakfast
+				}, // Quick Breakfast
 				"blueberry.LoveOfCooking_burger": {
 					"Price": "380"
-				}, //Beet Burger
+				}, // Beet Burger
 				"blueberry.LoveOfCooking_burrito": {
 					"Price": "230"
-				}, //Burrito
+				}, // Burrito
 				"blueberry.LoveOfCooking_carrotcake": {
 					"Price": "325"
-				}, //Carrot Cake
+				}, // Carrot Cake
 				"blueberry.LoveOfCooking_cherrypie": {
 					"Price": "405"
-				}, //Cherry Pie
+				}, // Cherry Pie
 				"blueberry.LoveOfCooking_chocoflan": {
 					"Price": "470"
-				}, //Hazelnut Bakewell
+				}, // Hazelnut Bakewell
 				"blueberry.LoveOfCooking_cocococktail": {
 					"Price": "145"
-				}, //Coconut Cocktail
+				}, // Coconut Cocktail
 				"blueberry.LoveOfCooking_craymornay": {
 					"Price": "395"
-				}, //Cray Mornay Cauliflower
+				}, // Cray Mornay Cauliflower
 				"blueberry.LoveOfCooking_crepes": {
 					"Price": "385"
-				}, //Crepes Suzette
+				}, // Crepes Suzette
 				"blueberry.LoveOfCooking_curry": {
 					"Price": "400"
-				}, //Curry Diablo
+				}, // Curry Diablo
 				"blueberry.LoveOfCooking_eggsando": {
 					"Price": "290"
-				}, //Egg Sandwich
+				}, // Egg Sandwich
 				"blueberry.LoveOfCooking_fruity": {
 					"Price": "290"
-				}, //Sherry Syllabub
+				}, // Sherry Syllabub
 				"blueberry.LoveOfCooking_hotcocoa": {
 					"Price": "305"
-				}, //Hot Cocoa
+				}, // Hot Cocoa
 				"blueberry.LoveOfCooking_hunters": {
 					"Price": "275"
-				}, //Hunter's Plate
+				}, // Hunter's Plate
 				"blueberry.LoveOfCooking_kebab": {
 					"Price": "295"
-				}, //Kebab
+				}, // Kebab
 				"blueberry.LoveOfCooking_lasagna": {
 					"Price": "570"
-				}, //Lasagna Ricotta
+				}, // Lasagna Ricotta
 				"blueberry.LoveOfCooking_leeks": {
 					"Price": "340"
-				}, //Braised Leeks
+				}, // Braised Leeks
 				"blueberry.LoveOfCooking_lobster": {
 					"Price": "270"
-				}, //Baked Lobster
+				}, // Baked Lobster
 				"blueberry.LoveOfCooking_nigiri": {
 					"Price": "260"
-				}, //Roe Roll
+				}, // Roe Roll
 				"blueberry.LoveOfCooking_oceanplatter": {
 					"Price": "775"
-				}, //Ocean Platter
+				}, // Ocean Platter
 				"blueberry.LoveOfCooking_paella": {
 					"Price": "415"
-				}, //Paella
+				}, // Paella
 				"blueberry.LoveOfCooking_parfait": {
 					"Price": "205"
-				}, //Plum Parfait
+				}, // Plum Parfait
 				"blueberry.LoveOfCooking_pilaf": {
 					"Price": "395"
-				}, //Mushroom Pilaf
+				}, // Mushroom Pilaf
 				"blueberry.LoveOfCooking_profiteroles": {
 					"Price": "320"
-				}, //Profiteroles
+				}, // Profiteroles
 				"blueberry.LoveOfCooking_quiche": {
 					"Price": "420"
-				}, //Quiche Provencale
+				}, // Quiche Provencale
 				"blueberry.LoveOfCooking_roast": {
 					"Price": "585"
-				}, //Hot Pot Roast
+				}, // Hot Pot Roast
 				"blueberry.LoveOfCooking_saladsando": {
 					"Price": "440"
-				}, //Salad Sandwich
+				}, // Salad Sandwich
 				"blueberry.LoveOfCooking_seafoodsando": {
 					"Price": "380"
-				}, //Seafood Sandwich
+				}, // Seafood Sandwich
 				"blueberry.LoveOfCooking_summersalad": {
 					"Price": "390"
-				}, //Summer Salad
+				}, // Summer Salad
 				"blueberry.LoveOfCooking_unagi": {
 					"Price": "275"
-				}, //Eel Sushi
+				}, // Eel Sushi
 				"blueberry.LoveOfCooking_waffles": {
 					"Price": "305"
-				}, //Berry Waffles
+				}, // Berry Waffles
 				"blueberry.LoveOfCooking_chocolate": {
 					"Price": "200"
-				} //Cooking Chocolate
+				} // Cooking Chocolate
 			},
 			"When": {
 				"Sell Prices": true
@@ -125,10 +125,10 @@
 			"Fields": {
 				"blueberry.LoveOfCooking_burrito": {
 					"Price": "215"
-				}, //Burrito
+				}, // Burrito
 				"blueberry.LoveOfCooking_kebab": {
 					"Price": "270"
-				} //Kebab
+				} // Kebab
 			},
 			"When": {
 				"Sell Prices": true,
@@ -151,7 +151,7 @@
 							}
 						}
 					]
-				}, //Admiral Pie
+				}, // Admiral Pie
 				"blueberry.LoveOfCooking_applepie": {
 					"Buffs": [
 						{
@@ -163,7 +163,7 @@
 							}
 						}
 					]
-				}, //Apple Pie
+				}, // Apple Pie
 				"blueberry.LoveOfCooking_arancini": {
 					"Buffs": [
 						{
@@ -174,7 +174,7 @@
 							}
 						}
 					]
-				}, //Arancini
+				}, // Arancini
 				"blueberry.LoveOfCooking_breakfast": {
 					"Buffs": [
 						{
@@ -186,7 +186,7 @@
 							}
 						}
 					]
-				}, //Quick Breakfast
+				}, // Quick Breakfast
 				"blueberry.LoveOfCooking_burger": {
 					"Buffs": [
 						{
@@ -198,7 +198,7 @@
 							}
 						}
 					]
-				}, //Beet Burger
+				}, // Beet Burger
 				"blueberry.LoveOfCooking_carrotcake": {
 					"Buffs": [
 						{
@@ -209,7 +209,7 @@
 							}
 						}
 					]
-				}, //Carrot Cake
+				}, // Carrot Cake
 				"blueberry.LoveOfCooking_cherrypie": {
 					"Buffs": [
 						{
@@ -221,7 +221,7 @@
 							}
 						}
 					]
-				}, //Cherry Pie
+				}, // Cherry Pie
 				"blueberry.LoveOfCooking_chocoflan": {
 					"Buffs": [
 						{
@@ -233,7 +233,7 @@
 							}
 						}
 					]
-				}, //Hazelnut Bakewell
+				}, // Hazelnut Bakewell
 				"blueberry.LoveOfCooking_cocococktail": {
 					"Buffs": [
 						{
@@ -249,7 +249,7 @@
 							"BuffId": "17"
 						}
 					]
-				}, //Coconut Cocktail
+				}, // Coconut Cocktail
 				"blueberry.LoveOfCooking_craymornay": {
 					"Buffs": [
 						{
@@ -260,7 +260,7 @@
 							}
 						}
 					]
-				}, //Cray Mornay
+				}, // Cray Mornay
 				"blueberry.LoveOfCooking_crepes": {
 					"Buffs": [
 						{
@@ -276,7 +276,7 @@
 							"BuffId": "17"
 						}
 					]
-				}, //Crepes Suzette
+				}, // Crepes Suzette
 				"blueberry.LoveOfCooking_fruity": {
 					"Buffs": [
 						{
@@ -291,7 +291,7 @@
 							"BuffId": "17"
 						}
 					]
-				}, //Sherry Syllabub
+				}, // Sherry Syllabub
 				"blueberry.LoveOfCooking_hunters": {
 					"Buffs": [
 						{
@@ -303,7 +303,7 @@
 							}
 						}
 					]
-				}, //Hunter's Plate
+				}, // Hunter's Plate
 				"blueberry.LoveOfCooking_lobster": {
 					"Buffs": [
 						{
@@ -315,7 +315,7 @@
 							}
 						}
 					]
-				}, //Baked Lobster
+				}, // Baked Lobster
 				"blueberry.LoveOfCooking_nigiri": {
 					"Buffs": [
 						{
@@ -328,7 +328,7 @@
 							}
 						}
 					]
-				}, //Roe Roll
+				}, // Roe Roll
 				"blueberry.LoveOfCooking_oceanplatter": {
 					"Buffs": [
 						{
@@ -339,7 +339,7 @@
 							}
 						}
 					]
-				}, //Ocean Platter
+				}, // Ocean Platter
 				"blueberry.LoveOfCooking_parfait": {
 					"Buffs": [
 						{
@@ -350,7 +350,7 @@
 							}
 						}
 					]
-				}, //Plum Parfait
+				}, // Plum Parfait
 				"blueberry.LoveOfCooking_roast": {
 					"Buffs": [
 						{
@@ -370,7 +370,7 @@
 							}
 						}
 					]
-				}, //Hot Pot Roast
+				}, // Hot Pot Roast
 				"blueberry.LoveOfCooking_summersalad": {
 					"Buffs": [
 						{
@@ -383,7 +383,7 @@
 							}
 						}
 					]
-				}, //Summer Salad
+				}, // Summer Salad
 				"blueberry.LoveOfCooking_unagi": {
 					"Buffs": [
 						{
@@ -395,7 +395,7 @@
 							}
 						}
 					]
-				}, //Eel Sushi
+				}, // Eel Sushi
 				"blueberry.LoveOfCooking_waffles": {
 					"Buffs": [
 						{
@@ -409,7 +409,7 @@
 							}
 						}
 					]
-				} //Berry Waffles
+				} // Berry Waffles
 			},
 			"When": {
 				"Food Buffs": true
@@ -434,7 +434,7 @@
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
 			"Entries": {
-				"minothilos.BalanceOverhaulContinuedCP_chocolate": "Cornucopia_CocoaPod 1//blueberry.LoveOfCooking_chocolate/blueberry.LoveOfCooking.CookingSkill 1"
+				"minothilos.BalanceOverhaulContinuedCP_chocolate": "Cornucopia_CocoaPod 1// blueberry.LoveOfCooking_chocolate/blueberry.LoveOfCooking.CookingSkill 1"
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true

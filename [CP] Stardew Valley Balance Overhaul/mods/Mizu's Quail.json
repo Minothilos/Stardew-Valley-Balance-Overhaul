@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		//Mizu's Quail
+		// Mizu's Quail
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -28,7 +28,7 @@
 			"TargetField": [
 				"Mizu.Quail_QuailEgg",
 				"ContextTags"
-			], //Quail Eggs are egg items
+			], // Quail Eggs are egg items
 			"Entries": {
 				"#-1": "item_egg"
 			},
@@ -42,7 +42,7 @@
 			"TargetField": [
 				"Mizu.Quail_LargeQuailEgg",
 				"ContextTags"
-			], //Large Quail Eggs are large egg items
+			], // Large Quail Eggs are large egg items
 			"Entries": {
 				"#-1": "item_large_egg"
 			},
@@ -63,8 +63,8 @@
 				"Sell Prices": true
 			}
 		},
-		//Machine Processing
-		//Large Animal Products Only
+		// Machine Processing
+		// Large Animal Products Only
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -84,7 +84,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		//On with WoL
+		// On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -94,7 +94,7 @@
 				"QuailMayonnaise",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Quail Mayonnaise
+			], // Mayonnaise Machine - Quail Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -107,7 +107,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -127,7 +127,7 @@
 				"QuailMayonnaiseQuailty",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Quail Mayonnaise Large
+			], // Mayonnaise Machine - Quail Mayonnaise Large
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -149,7 +149,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -160,7 +160,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		//On without WoL
+		// On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -170,7 +170,7 @@
 				"QuailMayonnaise",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Quail Mayonnaise
+			], // Mayonnaise Machine - Quail Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -183,7 +183,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -204,7 +204,7 @@
 				"QuailMayonnaiseQuailty",
 				"OutputItem",
 				"#0"
-			], //Mayonnaise Machine - Quail Mayonnaise Large
+			], // Mayonnaise Machine - Quail Mayonnaise Large
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -226,7 +226,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -238,7 +238,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		//Animal Husbandry Mod
+		// Animal Husbandry Mod
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",

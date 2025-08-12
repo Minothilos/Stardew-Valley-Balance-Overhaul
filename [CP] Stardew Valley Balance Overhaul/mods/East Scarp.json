@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	//Sell Prices
+		{	// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {

@@ -1,103 +1,103 @@
 {
 	"Changes": [
-		//Prices
+		// Prices
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"Cornucopia_Basil": {
 					"Price": "40"
-				}, //Basil
+				}, // Basil
 				"Cornucopia_Spinach": {
 					"Price": "25"
-				}, //Spinach
+				}, // Spinach
 				"Cornucopia_Onion": {
 					"Price": "130"
-				}, //Onion
+				}, // Onion
 				"Cornucopia_Kiwi": {
 					"Price": "100"
-				}, //Kiwi
+				}, // Kiwi
 				"Cornucopia_Cucumber": {
 					"Price": "60"
-				}, //Cucumber
+				}, // Cucumber
 				"Cornucopia_Lettuce": {
 					"Price": "80"
-				}, //Lettuce
+				}, // Lettuce
 				"Cornucopia_CottonBoll": {
 					"Price": "25"
-				}, //Cotton Boll
+				}, // Cotton Boll
 				"Cornucopia_BellPepper": {
 					"Price": "65"
-				}, //Bell Pepper
+				}, // Bell Pepper
 				"Cornucopia_Sugarcane": {
 					"Price": "70"
-				}, //Sugarcane
+				}, // Sugarcane
 				"Cornucopia_Watermelon": {
 					"Price": "250"
-				}, //Watermelon
+				}, // Watermelon
 				"Cornucopia_Peanut": {
 					"Price": "60"
-				}, //Peanut
+				}, // Peanut
 				"Cornucopia_Soybeans": {
 					"Price": "65"
-				}, //Soybeans
+				}, // Soybeans
 				"Cornucopia_Turnip": {
 					"Price": "90"
-				}, //Turnip
+				}, // Turnip
 				"Cornucopia_Zucchini": {
 					"Price": "50"
-				}, //Zucchini
+				}, // Zucchini
 				"Cornucopia_Olive": {
 					"Price": "20"
-				}, //Olive
+				}, // Olive
 				"Cornucopia_Peppercorn": {
 					"Price": "50"
-				}, //Peppercorn
+				}, // Peppercorn
 				"Cornucopia_Raspberry": {
 					"Price": "40"
-				}, //Raspberry
+				}, // Raspberry
 				"Cornucopia_Vanilla": {
 					"Price": "100"
-				}, //Vanilla
+				}, // Vanilla
 				"Cornucopia_CocoaPod": {
 					"Price": "220"
-				}, //Cocoa Pod
+				}, // Cocoa Pod
 				"Cornucopia_Avocado": {
 					"Price": "230"
-				}, //Avocado
+				}, // Avocado
 				"Cornucopia_Pistachio": {
 					"Price": "200"
-				}, //Pistachio
+				}, // Pistachio
 				"Cornucopia_Pear": {
 					"Price": "220"
-				}, //Pear
+				}, // Pear
 				"Cornucopia_WatermelonSeeds": {
 					"Price": "85"
-				}, //Watermelon Seed
+				}, // Watermelon Seed
 				"Cornucopia_PeanutSeeds": {
 					"Price": "30"
-				}, //Peanut Seeds
+				}, // Peanut Seeds
 				"Cornucopia_BellPepperSeeds": {
 					"Price": "30"
-				}, //Bell Pepper Seeds
+				}, // Bell Pepper Seeds
 				"Cornucopia_SugarcaneSeeds": {
 					"Price": "20"
-				}, //Sugarcane Seeds
+				}, // Sugarcane Seeds
 				"Cornucopia_CottonBollSeeds": {
 					"Price": "10"
-				}, //Cotton Boll Seeds
+				}, // Cotton Boll Seeds
 				"Cornucopia_CucumberSeeds": {
 					"Price": "30"
-				}, //Cucumber Seeds
+				}, // Cucumber Seeds
 				"Cornucopia_Tofu": {
 					"Price": "200"
-				}, //Tofu
+				}, // Tofu
 				"Cornucopia_OliveOil": {
 					"Price": "150"
-				}, //Olive Oil
+				}, // Olive Oil
 				"Cornucopia_Molasses": {
 					"Price": "25"
-				} //Molasses
+				} // Molasses
 			},
 			"When": {
 				"Sell Prices": true
@@ -479,7 +479,7 @@
 				}, // Sage
 				"Cornucopia_Tarragon": {
 					"Price": "95"
-				}, //Tarragon
+				}, // Tarragon
 				"Cornucopia_Thyme": {
 					"Price": "90"
 				}, // Thyme
@@ -685,7 +685,7 @@
 				"Sell Prices": true
 			}
 		},
-		//Shops
+		// Shops
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1028,7 +1028,7 @@
 			"TargetField": [
 				"Cornucopia_PeanutSeeds",
 				"ContextTags"
-			], //Peanut Seed dupe removed
+			], // Peanut Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1042,7 +1042,7 @@
 			"TargetField": [
 				"Cornucopia_BellPepperSeeds",
 				"ContextTags"
-			], //BellPepper Seed dupe removed
+			], // BellPepper Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1056,7 +1056,7 @@
 			"TargetField": [
 				"Cornucopia_CottonBollSeeds",
 				"ContextTags"
-			], //CottonBoll Seed dupe removed
+			], // CottonBoll Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1070,7 +1070,7 @@
 			"TargetField": [
 				"Cornucopia_CucumberSeeds",
 				"ContextTags"
-			], //Cucumber Seed dupe removed
+			], // Cucumber Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1084,7 +1084,7 @@
 			"TargetField": [
 				"Cornucopia_CanaryMelonSeeds",
 				"ContextTags"
-			], //CanaryMelon Seed dupe removed
+			], // CanaryMelon Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1099,7 +1099,7 @@
 			"TargetField": [
 				"Cornucopia_PintoBeansSeeds",
 				"ContextTags"
-			], //PintoBeans Seed dupe removed
+			], // PintoBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1114,7 +1114,7 @@
 			"TargetField": [
 				"Cornucopia_AdzukiBeanSeeds",
 				"ContextTags"
-			], //AdzukiBean Seed dupe removed
+			], // AdzukiBean Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1129,7 +1129,7 @@
 			"TargetField": [
 				"Cornucopia_ButternutSquashSeeds",
 				"ContextTags"
-			], //ButternutSquash Seed dupe removed
+			], // ButternutSquash Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1144,7 +1144,7 @@
 			"TargetField": [
 				"Cornucopia_ChickpeaSeeds",
 				"ContextTags"
-			], //Chickpea Seed dupe removed
+			], // Chickpea Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1159,7 +1159,7 @@
 			"TargetField": [
 				"Cornucopia_GreenPeasSeeds",
 				"ContextTags"
-			], //GreenPeas Seed dupe removed
+			], // GreenPeas Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1174,7 +1174,7 @@
 			"TargetField": [
 				"Cornucopia_GroundcherriesSeeds",
 				"ContextTags"
-			], //Groundcherries Seed dupe removed
+			], // Groundcherries Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1189,7 +1189,7 @@
 			"TargetField": [
 				"Cornucopia_NavyBeansSeeds",
 				"ContextTags"
-			], //NavyBeans Seed dupe removed
+			], // NavyBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1204,7 +1204,7 @@
 			"TargetField": [
 				"Cornucopia_OkraSeeds",
 				"ContextTags"
-			], //Okra Seed dupe removed
+			], // Okra Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1219,7 +1219,7 @@
 			"TargetField": [
 				"Cornucopia_BlackBeansSeeds",
 				"ContextTags"
-			], //BlackBeans Seed dupe removed
+			], // BlackBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1234,7 +1234,7 @@
 			"TargetField": [
 				"Cornucopia_KidneyBeansSeeds",
 				"ContextTags"
-			], //KidneyBeans Seed dupe removed
+			], // KidneyBeans Seed dupe removed
 			"Entries": {
 				"cornucopia_shop_pierre": null
 			},
@@ -1254,22 +1254,22 @@
 				"Cornucopia_BambooSeeds": {
 					"Price": "80",
 					"IgnoreShopPriceModifiers": true
-				} //Bamboo Shoots shop price change
+				} // Bamboo Shoots shop price change
 			},
 			"When": {
 				"Sell Prices": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
-		//Shops (Limited Seed Supply)
-		//Add regrow context tag to regrowable crops - Essential Crops
+		// Shops (Limited Seed Supply)
+		// Add regrow context tag to regrowable crops - Essential Crops
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
 				"Cornucopia_BellPepperSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1283,7 +1283,7 @@
 			"TargetField": [
 				"Cornucopia_CottonBollSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1297,7 +1297,7 @@
 			"TargetField": [
 				"Cornucopia_CucumberSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1311,7 +1311,7 @@
 			"TargetField": [
 				"Cornucopia_KiwiSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1325,7 +1325,7 @@
 			"TargetField": [
 				"Cornucopia_ZucchiniSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1333,14 +1333,14 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Add regrow context tag to regrowable crops - Extended Crops
+		// Add regrow context tag to regrowable crops - Extended Crops
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
 				"Cornucopia_AdzukiBeanSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1355,7 +1355,7 @@
 			"TargetField": [
 				"Cornucopia_BlackBeansSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1370,7 +1370,7 @@
 			"TargetField": [
 				"Cornucopia_ButternutSquashSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1385,7 +1385,7 @@
 			"TargetField": [
 				"Cornucopia_CanaryMelonSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1400,7 +1400,7 @@
 			"TargetField": [
 				"Cornucopia_ChickpeaSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1415,7 +1415,7 @@
 			"TargetField": [
 				"Cornucopia_GreenPeasSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1430,7 +1430,7 @@
 			"TargetField": [
 				"Cornucopia_GroundcherriesSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1445,7 +1445,7 @@
 			"TargetField": [
 				"Cornucopia_HabaneroSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1460,7 +1460,7 @@
 			"TargetField": [
 				"Cornucopia_JalapenoSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1475,7 +1475,7 @@
 			"TargetField": [
 				"Cornucopia_KidneyBeansSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1490,7 +1490,7 @@
 			"TargetField": [
 				"Cornucopia_NavyBeansSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1505,7 +1505,7 @@
 			"TargetField": [
 				"Cornucopia_OkraSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1520,7 +1520,7 @@
 			"TargetField": [
 				"Cornucopia_PintoBeansSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -1529,7 +1529,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Nullify existing Cornucopia pierre shop entries
+		// Nullify existing Cornucopia pierre shop entries
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1547,13 +1547,13 @@
 				"Cornucopia.MoreCrops_CropSeedsFallRare": null,
 				"Cornucopia.MoreCrops_CropSeedsWinterRare": null,
 				"Cornucopia.MoreCrops_BushSeeds": null
-				//"Cornucopia.MoreCrops_FruitTreeSaplings": null
+				// "Cornucopia.MoreCrops_FruitTreeSaplings": null
 			},
 			"When": {
 				"Limited Seed Supply": true
 			}
 		},
-		//Add seeds back in limited quantity Pierre
+		// Add seeds back in limited quantity Pierre
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2254,7 +2254,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Nullify existing Cornucopia joja shop entries
+		// Nullify existing Cornucopia joja shop entries
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2273,13 +2273,13 @@
 				"Cornucopia.MoreCrops_CropSeedsFallRare": null,
 				"Cornucopia.MoreCrops_CropSeedsWinterRare": null,
 				"Cornucopia.MoreCrops_BushSeeds": null
-				//"Cornucopia.MoreCrops_FruitTreeSaplings": null
+				// "Cornucopia.MoreCrops_FruitTreeSaplings": null
 			},
 			"When": {
 				"Limited Seed Supply": true
 			}
 		},
-		//Add seeds back in limited quantity Joja
+		// Add seeds back in limited quantity Joja
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2817,7 +2817,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Limited Seed Supply Sandy
+		// Limited Seed Supply Sandy
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2896,7 +2896,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
 		},
-		//Limited Seed Supply Marnies
+		// Limited Seed Supply Marnies
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2915,7 +2915,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
 		},
-		//Limited Seed Supply Dwarf
+		// Limited Seed Supply Dwarf
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2964,7 +2964,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
 		},
-		//Limited Seed Supply Festivals
+		// Limited Seed Supply Festivals
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -3021,8 +3021,8 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
-		//Machine Processing
-		//Cask Aging Multiplier
+		// Machine Processing
+		// Cask Aging Multiplier
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -3032,7 +3032,7 @@
 				"Cornucopia_AgedDarkAle",
 				"OutputItem",
 				"#0"
-			], //Cask - Dark Ale
+			], // Cask - Dark Ale
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
@@ -3053,7 +3053,7 @@
 				"Cornucopia_AgedPorter",
 				"OutputItem",
 				"#0"
-			], //Cask - Porter
+			], // Cask - Porter
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
@@ -3074,7 +3074,7 @@
 				"Cornucopia_AgedStout",
 				"OutputItem",
 				"#0"
-			], //Cask - Stout
+			], // Cask - Stout
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
@@ -3095,7 +3095,7 @@
 				"Cornucopia_AgedSparklingWine",
 				"OutputItem",
 				"#0"
-			], //Cask - Sparkling Wine
+			], // Cask - Sparkling Wine
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.11"
@@ -3107,7 +3107,7 @@
 				"Cask Aging": true
 			}
 		},
-		//On with WoL
+		// On with WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -3117,7 +3117,7 @@
 				"Cornucopia_Tofu",
 				"OutputItem",
 				"#0"
-			], //Cheese Press - Tofu
+			], // Cheese Press - Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3130,7 +3130,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3151,7 +3151,7 @@
 				"Cornucopia_DarkAle",
 				"OutputItem",
 				"#0"
-			], //Keg - Dark Ale
+			], // Keg - Dark Ale
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3164,7 +3164,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3186,7 +3186,7 @@
 				"Cornucopia_SparklingWine",
 				"OutputItem",
 				"#0"
-			], //Keg - Sparkling Wine
+			], // Keg - Sparkling Wine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3199,7 +3199,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3221,7 +3221,7 @@
 				"Cornucopia_Stout",
 				"OutputItem",
 				"#0"
-			], //Keg - Stout
+			], // Keg - Stout
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3234,7 +3234,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3256,7 +3256,7 @@
 				"Cornucopia_Porter",
 				"OutputItem",
 				"#0"
-			], //Keg - Porter
+			], // Keg - Porter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3269,7 +3269,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3282,7 +3282,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		//On without WoL
+		// On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -3292,7 +3292,7 @@
 				"Cornucopia_Tofu",
 				"OutputItem",
 				"#0"
-			], //Cheese Press - Tofu
+			], // Cheese Press - Tofu
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3305,7 +3305,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3327,7 +3327,7 @@
 				"Cornucopia_DarkAle",
 				"OutputItem",
 				"#0"
-			], //Keg - Dark Ale
+			], // Keg - Dark Ale
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3340,7 +3340,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3363,7 +3363,7 @@
 				"Cornucopia_SparklingWine",
 				"OutputItem",
 				"#0"
-			], //Keg - Sparkling Wine
+			], // Keg - Sparkling Wine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3376,7 +3376,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3399,7 +3399,7 @@
 				"Cornucopia_SparklingWine",
 				"OutputItem",
 				"#0"
-			], //Keg - Sparkling Wine
+			], // Keg - Sparkling Wine
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3412,7 +3412,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3435,7 +3435,7 @@
 				"Cornucopia_Stout",
 				"OutputItem",
 				"#0"
-			], //Keg - Stout
+			], // Keg - Stout
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3448,7 +3448,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -3471,7 +3471,7 @@
 				"Cornucopia_Porter",
 				"OutputItem",
 				"#0"
-			], //Keg - Porter
+			], // Keg - Porter
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -3484,7 +3484,7 @@
 					},
 					{
 						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null

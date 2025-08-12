@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		//Prices
+		// Prices
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -225,7 +225,7 @@
 				"Sell Prices": true
 			}
 		},
-		//Shops
+		// Shops
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -496,22 +496,22 @@
 				"Cornucopia_HoneysuckleSeeds": {
 					"Price": "240",
 					"IgnoreShopPriceModifiers": true
-				} //Honeysuckle seeds shop price change
+				} // Honeysuckle seeds shop price change
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Sell Prices": true
 			}
 		},
-		//Limited Seed Supply
-		//Add regrow context tag to regrowable flowers - Essential Flowers
+		// Limited Seed Supply
+		// Add regrow context tag to regrowable flowers - Essential Flowers
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
 				"Cornucopia_MorningGlorySeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -519,14 +519,14 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Add regrow context tag to regrowable flowers - Extended Flowers
+		// Add regrow context tag to regrowable flowers - Extended Flowers
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
 				"Cornucopia_RoseSpringSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -541,7 +541,7 @@
 			"TargetField": [
 				"Cornucopia_RoseSummerSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -556,7 +556,7 @@
 			"TargetField": [
 				"Cornucopia_RoseFallSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -571,7 +571,7 @@
 			"TargetField": [
 				"Cornucopia_RoseWinterSeeds",
 				"ContextTags"
-			], //Regrow Seeds
+			], // Regrow Seeds
 			"Entries": {
 				"#-1": "cornucopia_regrow_seed"
 			},
@@ -580,7 +580,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Nullify existing Cornucopia pierre shop entries
+		// Nullify existing Cornucopia pierre shop entries
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -598,13 +598,13 @@
 				"Cornucopia.MoreFlowers_CropSeedsFallRare": null,
 				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null,
 				"Cornucopia.MoreFlowers_BushSeeds": null
-				//"Cornucopia.MoreFlowers_FruitTreeSaplings": null
+				// "Cornucopia.MoreFlowers_FruitTreeSaplings": null
 			},
 			"When": {
 				"Limited Seed Supply": true
 			}
 		},
-		//Add seeds back in limited quantity Pierre
+		// Add seeds back in limited quantity Pierre
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1197,7 +1197,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Nullify existing Cornucopia joja shop entries
+		// Nullify existing Cornucopia joja shop entries
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1216,13 +1216,13 @@
 				"Cornucopia.MoreFlowers_CropSeedsFallRare": null,
 				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null,
 				"Cornucopia.MoreFlowers_BushSeeds": null
-				//"Cornucopia.MoreFlowers_FruitTreeSaplings": null
+				// "Cornucopia.MoreFlowers_FruitTreeSaplings": null
 			},
 			"When": {
 				"Limited Seed Supply": true
 			}
 		},
-		//Add seeds back in limited quantity Joja
+		// Add seeds back in limited quantity Joja
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1688,7 +1688,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		//Limited Seed Supply Sandy
+		// Limited Seed Supply Sandy
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1728,7 +1728,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
 			}
 		},
-		//Limited Seed Supply Marnies
+		// Limited Seed Supply Marnies
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",

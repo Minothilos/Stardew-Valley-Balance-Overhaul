@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	//Buildings
+		{	// Buildings
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Fields": {
@@ -8,11 +8,11 @@
 					"BuildCost": "3000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "250"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "100"
 						}
 					]
@@ -21,11 +21,11 @@
 					"BuildCost": "15000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "300"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "125"
 						}
 					]
@@ -34,11 +34,11 @@
 					"BuildCost": "30000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "350"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "150"
 						}
 					]
@@ -47,11 +47,11 @@
 					"BuildCost": "4000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "250"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "100"
 						}
 					]
@@ -60,11 +60,11 @@
 					"BuildCost": "20000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "300"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "125"
 						}
 					]
@@ -73,11 +73,11 @@
 					"BuildCost": "35000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "350"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "150"
 						}
 					]
@@ -86,15 +86,15 @@
 					"BuildCost": "1000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "100"
 						},
 						{
-							"ItemId": "(O)330", //Clay
+							"ItemId": "(O)330", // Clay
 							"Amount": "10"
 						},
 						{
-							"ItemId": "(O)334", //Copper Bar
+							"ItemId": "(O)334", // Copper Bar
 							"Amount": "5"
 						}
 					]
@@ -103,15 +103,15 @@
 					"BuildCost": "5000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "150"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "100"
 						},
 						{
-							"ItemId": "(O)709", //Hardwood
+							"ItemId": "(O)709", // Hardwood
 							"Amount": "20"
 						}
 					]
@@ -120,11 +120,11 @@
 					"BuildCost": "10000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)709", //Hardwood
+							"ItemId": "(O)709", // Hardwood
 							"Amount": "100"
 						},
 						{
-							"ItemId": "(O)335", //Iron Bar
+							"ItemId": "(O)335", // Iron Bar
 							"Amount": "10"
 						}
 					]
@@ -133,7 +133,7 @@
 					"BuildCost": "500",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "50"
 						}
 					]
@@ -142,7 +142,7 @@
 					"BuildCost": "250",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "100"
 						}
 					]
@@ -151,7 +151,7 @@
 					"BuildCost": "2500",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)709", //Hardwood
+							"ItemId": "(O)709", // Hardwood
 							"Amount": "10"
 						}
 					]
@@ -160,15 +160,15 @@
 					"BuildCost": "10000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "300"
 						},
 						{
-							"ItemId": "(O)338", //Refined Quartz
+							"ItemId": "(O)338", // Refined Quartz
 							"Amount": "10"
 						},
 						{
-							"ItemId": "(O)336", //Gold Bar
+							"ItemId": "(O)336", // Gold Bar
 							"Amount": "5"
 						}
 					]
@@ -177,7 +177,7 @@
 					"BuildCost": "15000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "250"
 						}
 					]
@@ -186,11 +186,11 @@
 					"BuildCost": "20000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388", //Wood
+							"ItemId": "(O)388", // Wood
 							"Amount": "500"
 						},
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "200"
 						}
 					]
@@ -199,15 +199,15 @@
 					"BuildCost": "5000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "150"
 						},
 						{
-							"ItemId": "(O)152", //Seaweed
+							"ItemId": "(O)152", // Seaweed
 							"Amount": "5"
 						},
 						{
-							"ItemId": "(O)153", //Green Algae
+							"ItemId": "(O)153", // Green Algae
 							"Amount": "5"
 						}
 					]
@@ -216,15 +216,15 @@
 					"BuildCost": "30000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390", //Stone
+							"ItemId": "(O)390", // Stone
 							"Amount": "200"
 						},
 						{
-							"ItemId": "(O)268", //Starfruit
+							"ItemId": "(O)268", // Starfruit
 							"Amount": "20"
 						},
 						{
-							"ItemId": "(O)771", //Fiber
+							"ItemId": "(O)771", // Fiber
 							"Amount": "100"
 						}
 					]
@@ -234,7 +234,7 @@
 				"Buildings": true
 			}
 		},
-		{	//Increased Silo Size
+		{	// Increased Silo Size
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Fields": {
@@ -246,7 +246,7 @@
 				"Increased Silo Size": true
 			}
 		},
-		{	//Increased Silo Size - TV Description
+		{	// Increased Silo Size - TV Description
 			"Action": "EditData",
 			"Target": "Data/TV/TipChannel",
 			"Entries": {

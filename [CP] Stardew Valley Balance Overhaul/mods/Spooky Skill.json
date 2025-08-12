@@ -1,19 +1,19 @@
 {
 	"Changes": [
-		// Food
-		{
+	
+		{	// Food
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"moonslime.Spooky.strobberies": {
+				"moonslime.Spooky.strobberies": { // Strobberies
 					"Price": "185"
-				}, // Strobberies
-				"moonslime.Spooky.candy_corn": {
+				},
+				"moonslime.Spooky.candy_corn": { // Candy Corn
 					"Price": "100"
-				}, // Candy Corn
-				"moonslime.Spooky.carrot_cake": {
+				},
+				"moonslime.Spooky.carrot_cake": { // Carrot Cake
 					"Price": "325"
-				} // Carrot Cake
+				}
 			},
 			"When": {
 				"Sell Prices": true

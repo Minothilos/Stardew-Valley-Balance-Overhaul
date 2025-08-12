@@ -7,28 +7,28 @@
 			"Fields": {
 				"ZoeyHoshi.ForageCrops_CaveCarrotSeeds": {
 					"Price": "20"
-				}, //Cave Carrot Seed
+				}, // Cave Carrot Seed
 				"ZoeyHoshi.ForageCrops_DaffodilSeeds": {
 					"Price": "5"
-				}, //Daffodil Seeds
+				}, // Daffodil Seeds
 				"ZoeyHoshi.ForageCrops_DandelionSeeds": {
 					"Price": "10"
-				}, //Dandelion Seeds
+				}, // Dandelion Seeds
 				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": {
 					"Price": "25"
-				}, //Fiddlehead Fern Seeds
+				}, // Fiddlehead Fern Seeds
 				"ZoeyHoshi.ForageCrops_LeekSeeds": {
 					"Price": "20"
-				}, //Cave Carrot Seeds
+				}, // Cave Carrot Seeds
 				"ZoeyHoshi.ForageCrops_SnowYamSeeds": {
 					"Price": "5"
-				}, //Snow Yam Seeds
+				}, // Snow Yam Seeds
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": {
 					"Price": "15"
-				}, //Wild Horseradish Seeds
+				}, // Wild Horseradish Seeds
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": {
 					"Price": "15"
-				} //Winter Root Seeds
+				} // Winter Root Seeds
 			},
 			"When": {
 				"Sell Prices": true
@@ -40,7 +40,7 @@
 			"Fields": {
 				"ZoeyHoshi.ForageCrops_SeaweedSeeds": {
 					"Price": "50"
-				} //Seaweed Seeds
+				} // Seaweed Seeds
 			},
 			"When": {
 				"Sell Prices": true,

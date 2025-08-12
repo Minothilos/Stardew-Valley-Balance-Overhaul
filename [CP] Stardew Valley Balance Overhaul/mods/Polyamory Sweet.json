@@ -1,46 +1,45 @@
 {
     "Changes": [
-        //Prices
-        {
+        {   // Sell Prices
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
-                "ApryllForever.CPPolyamorySweet_AineFlower": {
+                "ApryllForever.CPPolyamorySweet_AineFlower": { // Aine Flower
                     "Price": "135"
-                }, //Aine Flower
-                "ApryllForever.CPPolyamorySweet_AphroditeFlower": {
+                },
+                "ApryllForever.CPPolyamorySweet_AphroditeFlower": { // Aphrodite Flower
                     "Price": "115"
-                }, //Aphrodite Flower
-                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+                },
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { // Aine Flower Seed
                     "Price": "40"
-                }, //Aine Flower Seed
-                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
+                },
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { // Aphrodite Flower Seed
                     "Price": "30"
-                } //Aphrodite Flower Seed
+                }
             },
             "When": {
                 "Sell Prices": true
             }
         },
-        {
+        {   // Flower Bugfix
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
-                "ApryllForever.CPPolyamorySweet_MermaidBouquet": {
+                "ApryllForever.CPPolyamorySweet_MermaidBouquet": { // Mermaid Bouquet
                     "Category": 0
-                }, //Mermaid Bouquet isn't a flower
-                "ApryllForever.CPPolyamorySweet_AtagartisPendant": {
+                },
+                "ApryllForever.CPPolyamorySweet_AtagartisPendant": { // Atagartis Pendant
                     "Category": 0
-                }, //Atagartis Pendant isn't a flower
-                "ApryllForever.CPPolyamorySweet_RoomieBGone": {
+                },
+                "ApryllForever.CPPolyamorySweet_RoomieBGone": { // RoomieBGone
                     "Category": 0
-                }, //RoomieBGone isn't a flower
-                "ApryllForever.CPPolyamorySweet_LilithToken": {
+                },
+                "ApryllForever.CPPolyamorySweet_LilithToken": { // Lilith Token
                     "Category": 0
-                } //Lilith Token isn't a flower
+                }
             }
         },
-        {
+        {   // Shops - NEEDS LOOKED AT. EDITING FIELDS.
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -48,7 +47,7 @@
                 "Items"
             ],
             "Fields": {
-                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { // Aine Flower Seed
                     "Price": "80",
                     "IgnoreShopPriceModifiers": true
                 }
@@ -65,7 +64,7 @@
                 "Items"
             ],
             "Entries": {
-                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { // Aphrodite Flower Seed
                     "Price": "60",
                     "IgnoreShopPriceModifiers": true
                 }
@@ -74,7 +73,7 @@
                 "Sell Prices": true
             }
         },
-        {
+        {   // Limit Seed Supply
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -82,10 +81,10 @@
                 "Items"
             ],
             "Fields": {
-                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { // Aine Flower Seed
                     "AvailableStock": "50",
                     "AvailableStockLimit": "Player"
-                } //Aine Flower Seed
+                }
             },
             "When": {
                 "Limited Seed Supply": true

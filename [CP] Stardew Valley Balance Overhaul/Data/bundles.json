@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	//SVBO Bundles
+		{	// SVBO Bundles
 			"Action": "EditData",
 			"Target": "Data/bundles",
 			"Entries": {
@@ -40,7 +40,7 @@
 				"Community Center Bundles": "SVBO"
 			}
 		},
-		{	//SVBO & SVE Bundles
+		{	// SVBO & SVE Bundles
 			"Action": "EditData",
 			"Target": "Data/bundles",
 			"Entries": {
@@ -80,7 +80,7 @@
 				"Community Center Bundles": "SVBO/SVE"
 			}
 		},
-		{	//SVBO & RSV Bundles
+		{	// SVBO & RSV Bundles
 			"Action": "EditData",
 			"Target": "Data/bundles",
 			"Entries": {
@@ -120,7 +120,7 @@
 				"Community Center Bundles": "SVBO/RSV"
 			}
 		},
-		{	//SVBO & SVE & RSV Bundles
+		{	// SVBO & SVE & RSV Bundles
 			"Action": "EditData",
 			"Target": "Data/bundles",
 			"Entries": {
