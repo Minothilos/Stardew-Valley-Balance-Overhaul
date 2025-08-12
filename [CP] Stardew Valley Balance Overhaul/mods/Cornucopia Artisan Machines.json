@@ -1692,14 +1692,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -1725,14 +1725,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -1758,14 +1758,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -1807,7 +1807,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -1850,7 +1850,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -1893,7 +1893,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -1949,7 +1949,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2006,7 +2006,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2033,14 +2033,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2066,14 +2066,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2099,14 +2099,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2132,14 +2132,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2165,14 +2165,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2198,14 +2198,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2231,14 +2231,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2265,14 +2265,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2299,14 +2299,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2333,14 +2333,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2366,14 +2366,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2399,14 +2399,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2432,14 +2432,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2465,14 +2465,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2498,14 +2498,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2531,14 +2531,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2564,14 +2564,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2597,14 +2597,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2630,14 +2630,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2663,14 +2663,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2697,14 +2697,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2731,14 +2731,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2765,14 +2765,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2800,14 +2800,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2835,14 +2835,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2870,14 +2870,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2903,14 +2903,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2936,14 +2936,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -2969,14 +2969,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3002,14 +3002,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3035,14 +3035,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3068,14 +3068,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3101,14 +3101,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3135,14 +3135,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3170,14 +3170,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3205,14 +3205,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3240,14 +3240,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3275,14 +3275,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3308,14 +3308,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3341,14 +3341,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3390,7 +3390,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3416,14 +3416,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3465,7 +3465,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3491,14 +3491,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3540,7 +3540,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3566,14 +3566,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3615,7 +3615,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3642,14 +3642,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3692,7 +3692,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3719,14 +3719,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3769,7 +3769,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3796,14 +3796,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3846,7 +3846,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3874,14 +3874,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3918,7 +3918,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3946,14 +3946,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -3981,14 +3981,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4014,14 +4014,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4047,14 +4047,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4080,14 +4080,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4114,14 +4114,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4147,14 +4147,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4180,14 +4180,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4213,14 +4213,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4261,7 +4261,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4287,14 +4287,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4339,14 +4339,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4372,14 +4372,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "1.5",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4405,14 +4405,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4438,14 +4438,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4472,14 +4472,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4506,14 +4506,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4540,14 +4540,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4589,7 +4589,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4617,14 +4617,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4652,21 +4652,21 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4694,14 +4694,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4727,14 +4727,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4760,14 +4760,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4793,14 +4793,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4826,14 +4826,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4859,14 +4859,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4892,14 +4892,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4925,14 +4925,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -4958,14 +4958,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5008,7 +5008,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5063,7 +5063,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5124,7 +5124,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5150,14 +5150,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5184,14 +5184,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5218,14 +5218,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5252,14 +5252,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5302,7 +5302,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5345,7 +5345,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5388,7 +5388,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5445,7 +5445,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5502,7 +5502,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5529,14 +5529,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5563,14 +5563,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5597,14 +5597,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5631,14 +5631,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5665,14 +5665,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5699,14 +5699,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5733,14 +5733,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5768,14 +5768,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5803,14 +5803,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5838,14 +5838,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5872,14 +5872,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5906,14 +5906,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5940,14 +5940,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -5974,14 +5974,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6008,14 +6008,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6042,14 +6042,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6076,14 +6076,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6110,14 +6110,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6144,14 +6144,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6178,14 +6178,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6213,14 +6213,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6248,14 +6248,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6283,14 +6283,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6319,14 +6319,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6355,14 +6355,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6391,14 +6391,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6425,14 +6425,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6459,14 +6459,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6493,14 +6493,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6527,14 +6527,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6561,14 +6561,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6595,14 +6595,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6629,14 +6629,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6664,14 +6664,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6700,14 +6700,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6736,14 +6736,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6772,14 +6772,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6808,14 +6808,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6842,14 +6842,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6876,14 +6876,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6926,7 +6926,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -6953,14 +6953,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7003,7 +7003,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7030,14 +7030,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7080,7 +7080,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7107,14 +7107,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7157,7 +7157,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7185,14 +7185,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7236,7 +7236,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7264,14 +7264,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7315,7 +7315,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7343,14 +7343,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7394,7 +7394,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7423,14 +7423,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7468,7 +7468,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7497,14 +7497,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7533,14 +7533,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7567,14 +7567,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7601,14 +7601,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7635,14 +7635,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7670,14 +7670,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7704,14 +7704,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7738,14 +7738,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7772,14 +7772,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7821,7 +7821,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7848,14 +7848,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7882,14 +7882,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7916,14 +7916,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Multiply",
 						"Amount": "1.5",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7950,14 +7950,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -7984,14 +7984,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8019,14 +8019,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8054,14 +8054,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8089,14 +8089,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8125,14 +8125,14 @@
 				"MinStack": "2",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8161,14 +8161,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8197,14 +8197,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8233,14 +8233,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8267,14 +8267,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8301,14 +8301,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8335,14 +8335,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8369,14 +8369,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8403,14 +8403,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8437,14 +8437,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8471,14 +8471,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8505,14 +8505,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8556,7 +8556,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8612,7 +8612,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8675,7 +8675,7 @@
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
@@ -8702,14 +8702,14 @@
 				"Quality": "0",
 				"StackModifiers": [
 					{
-						"Id": "DoubleQuality",
+						"Id": "QualityScale",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
-						"Id": "Crit Chance",
+						"Id": "CritChance",
 						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.02\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
