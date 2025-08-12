@@ -10,7 +10,7 @@
 				"Mizu.Quail_QuailMayonnaise": { "Price": "120", "Edibility": "20" } // Quail Mayonnaise
 			},
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -19,7 +19,7 @@
 			"TargetField": ["Mizu.Quail_QuailEgg", "ContextTags"], //Quail Eggs are egg items
 			"Entries": { "#-1": "item_egg" },
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -28,7 +28,7 @@
 			"TargetField": ["Mizu.Quail_LargeQuailEgg", "ContextTags"], //Large Quail Eggs are large egg items
 			"Entries": { "#-1": "item_large_egg" },
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -41,7 +41,7 @@
 				}
 			},
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		//Machine Processing
@@ -195,7 +195,7 @@
 				"Mizu.Quail_StuffedQuail": { "Price": "840" } // Stuffed Quail
 			},
 			"When": {
-				"Animals": true,
+				"Sell Prices": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
 		},
@@ -206,7 +206,7 @@
 				"Mizu.Quail_SpatchcockedQuailandGreens": { "Price": "880" } // Spatchcocked Quail and Greens with Cornucopia
 			},
 			"When": {
-				"Food": true,
+				"Sell Prices": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -218,7 +218,7 @@
 				"Mizu.Quail_StuffedQuail": { "Price": "1100" } // Stuffed Quail with Extended Trees
 			},
 			"When": {
-				"Food": true,
+				"Sell Prices": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true

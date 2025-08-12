@@ -10,7 +10,7 @@
                 "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { "Price": "40" }, //Aine Flower Seed
                 "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { "Price": "30" } //Aphrodite Flower Seed
             },
-            "When": { "Flowers": true }
+            "When": { "Sell Prices": true }
         },
         {
             "Action": "EditData",
@@ -29,7 +29,7 @@
             "Fields": {
                 "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { "Price": "80", "IgnoreShopPriceModifiers": true }
             },
-            "When": { "Flowers": true }
+            "When": { "Sell Prices": true }
         },
         {
             "Action": "EditData",
@@ -38,7 +38,7 @@
             "Entries": {
                 "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { "Price": "60", "IgnoreShopPriceModifiers": true }
             },
-            "When": { "Flowers": true }
+            "When": { "Sell Prices": true }
         },
 		{
 			"Action": "EditData",

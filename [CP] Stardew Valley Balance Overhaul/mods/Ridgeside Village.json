@@ -22,7 +22,7 @@
 				"Rafseazz.RSVCP_Ember_Blood_Lime_Sapling": { "Price": "550" },
 			},
 			"When": {
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -41,7 +41,7 @@
 				"Rafseazz.RSVCP_Sierra_Wintergreen": { "Price": "45" }
 			},
 			"When": {
-				"Forage": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -69,7 +69,7 @@
 				"Rafseazz.RSVCP_Waterfall_Snakehead": { "Price": "2500" }
 			},
 			"When": {
-				"Fish": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -123,7 +123,7 @@
 				"Rafseazz.RSVCP_Zesty_Tuna": { "Price": "390" }
 			},
 			"When": {
-				"Food": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -133,7 +133,7 @@
 				"Rafseazz.RSVCP_Spiritual_Essence": { "Price": "75" }
 			},
 			"When": {
-				"Miscellaneous Items": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -806,7 +806,7 @@
 				"Rafseazz.RSVCP.KimpoiShopItem8": { "Price": "2500", "IgnoreShopPriceModifiers": true } //Ember Blood Lime
 			},
 			"When": {
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{

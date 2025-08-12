@@ -10,7 +10,7 @@
 				"Mizu.Turkey_TurkeyMayonnaise": { "Price": "700", "Edibility": "35" } // Turkey Mayonnaise
 			},
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -19,7 +19,7 @@
 			"TargetField": ["Mizu.Turkey_TurkeyEgg", "ContextTags"], //Turkey Eggs Eggs are large egg items
 			"Entries": { "#-1": "item_large_egg" },
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -32,7 +32,7 @@
 				}
 			},
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		//On with WoL
@@ -104,7 +104,7 @@
 				"Mizu.Turkey_TurkeyLeg": { "Price": "550" } // Turkey Leg
 			},
 			"When": {
-				"Food": true,
+				"Sell Prices": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
 		},
@@ -115,7 +115,7 @@
 				"Mizu.Turkey_RoastTurkey": { "Price": "1220" } // Roast Turkey with Herbs Pack
 			},
 			"When": {
-				"Food": true,
+				"Sell Prices": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true

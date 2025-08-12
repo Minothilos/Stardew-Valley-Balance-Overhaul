@@ -8,7 +8,7 @@
 				"EastScarp_Bird_Of_Paradise": { "Price": "150" },
 				"EastScarp_Serruria": { "Price": "170" }
 			},
-			"When": { "Flowers": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -17,7 +17,7 @@
 				"Lemurkat_Heirloom_Cherry_Tree": { "Price": "600" },
 			},
 			"When": {
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"EastScarp_Obsidian_Maw": { "Price": "150" },
 				"EastScarp_Slime_Barbel": { "Price": "150" }
 			},
-			"When": { "Fish": true }
+			"When": { "Sell Prices": true }
 		}
 	]
 }

@@ -151,7 +151,7 @@
 			"Fields": {
 				"(O)347": { "Price": "500", "IgnoreShopPriceModifiers": true } //Rare Seed
 			},
-			"When": { "Crops": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -176,7 +176,7 @@
 				"(O)633": { "Price": "2000", "IgnoreShopPriceModifiers": true }, //Apple Sapling
 				"(O)632": { "Price": "2200", "IgnoreShopPriceModifiers": true } //Pomegranate Sapling
 			},
-			"When": { "Fruit Trees": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -186,7 +186,7 @@
 				"(O)69": { "TradeItemAmount": "3", "IgnoreShopPriceModifiers": true }, //Banana Sapling
 				"(O)835": { "TradeItemAmount": "40", "IgnoreShopPriceModifiers": true } //Mango Sapling
 			},
-			"When": { "Fruit Trees": true }
+			"When": { "Sell Prices": true }
 		},
 		//Shops (Limited Item Supply)
 		{

@@ -19,7 +19,7 @@
                 "Pig": { "PurchasePrice": "7000", "SellPrice": "14000" },
                 "Ostrich": { "SellPrice": "14000" }
             },
-            "When": { "Animals": true }
+            "When": { "Sell Prices": true }
         },
         {
             "Action": "EditData",
@@ -27,7 +27,7 @@
             "Fields": {
                 "Sheep": { "ShopDescription": "{{i18n:Sheep}}", "FriendshipForFasterProduce": "-1" }
             },
-            "When": { "Animals": true }
+            "When": { "Sell Prices": true }
         }
     ]
 }

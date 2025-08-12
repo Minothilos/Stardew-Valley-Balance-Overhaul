@@ -11,7 +11,7 @@
 				"Cornucopia_SweetPeaSeeds": { "Price": "5" } //Sweet Pea Seeds
 			},
 			"When": {
-				"Forage": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -25,7 +25,7 @@
 				"Cornucopia_SalmonberrySeeds": { "Price": "300" }
 			},
 			"When": {
-				"Forage": true,
+				"Sell Prices": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
@@ -37,7 +37,7 @@
 				"302": { "Price": "750" } //Hops Planter
 			},
 			"When": {
-				"Crops": true,
+				"Sell Prices": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
@@ -51,7 +51,7 @@
 				}
 			},
 			"When": {
-				"Crops": true,
+				"Sell Prices": true,
 				"Cask Aging": "true"
 			}
 		},

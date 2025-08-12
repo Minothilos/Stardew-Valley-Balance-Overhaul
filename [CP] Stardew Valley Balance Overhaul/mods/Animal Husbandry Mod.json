@@ -13,7 +13,7 @@
 				"643": { "Price": "1000" }, // Rabbit
 				"620": { "Price": "8000" } // Ostrich
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
 		// Food Prices
 		{
@@ -36,7 +36,7 @@
 				"664": { "Price": "1150" }, // Steak with Mushrooms
 				"665": { "Price": "1020" } // Cowboy Dinner
 			},
-			"When": { "Food": true }
+			"When": { "Sell Prices": true }
 		}
 	]
 }

@@ -9,7 +9,7 @@
 				"moonslime.Spooky.candy_corn": { "Price": "100" }, // Candy Corn
 				"moonslime.Spooky.carrot_cake": { "Price": "325" } // Carrot Cake
 			},
-			"When": { "Food": true }
+			"When": { "Sell Prices": true }
 		}
 	]
 }

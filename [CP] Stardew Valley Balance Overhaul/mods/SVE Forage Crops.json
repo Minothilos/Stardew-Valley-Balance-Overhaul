@@ -15,7 +15,7 @@
 				"ZoeyHoshi.SVEForageCrops_ThistleSeeds": { "Price": "15" },
 				"ZoeyHoshi.SVEForageCrops_WinterStarRoseSeeds": { "Price": "30" }
 			},
-			"When": { "Forage": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -24,7 +24,7 @@
 				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": { "Price": "15" }
 			},
 			"When": {
-				"Forage": true,
+				"Sell Prices": true,
 				"HasMod|contains=selph.CustomTapperFramework": true
 			}
 		},
@@ -42,7 +42,7 @@
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": { "Category": "-80" }
 			},
-			"When": { "Forage": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -52,7 +52,7 @@
 				"(BC)ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": { "Price": "6000" }
 			},
 			"When": {
-				"Miscellaneous Items": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -63,7 +63,7 @@
 				"ZoeyHoshi.SVEForageCrops_MegaPurpleMushroomSeeds": { "Price": "12000" }
 			},
 			"When": {
-				"Miscellaneous Items": true,
+				"Sell Prices": true,
 				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
@@ -75,7 +75,7 @@
 				"ZoeyHoshi.SVEForageCrops_DewdropBerrySeeds": { "TradeItemAmount": "10" }
 			},
 			"When": {
-				"Forage": true,
+				"Sell Prices": true,
 				"HasVisitedLocation": "Custom_EnchantedGrove",
 				"HasMod|contains=furyx639.CustomBush": true
 			}

@@ -20,7 +20,7 @@
 				"633": { "Price": "1000" }, //Apple Sapling
 				"632": { "Price": "1500" } //Pomegranate Sapling
 			},
-			"When": { "Fruit Trees": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -34,7 +34,7 @@
 				"(O)633": { "Price": "4000", "IgnoreShopPriceModifiers": true }, //Apple Sapling
 				"(O)632": { "Price": "6000", "IgnoreShopPriceModifiers": true } //Pomegranate Sapling
 			},
-			"When": { "Fruit Trees": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -44,7 +44,7 @@
 				"(O)69": { "TradeItemAmount": "5", "IgnoreShopPriceModifiers": true }, //Banana Sapling
 				"(O)835": { "TradeItemAmount": "60", "IgnoreShopPriceModifiers": true } //Mango Sapling
 			},
-			"When": { "Fruit Trees": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -67,7 +67,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		//Food
@@ -80,7 +80,7 @@
 				"610": { "Price": "480" }, //Fruit Salad
 				"905": { "Price": "475" } //Mango Sticky Rice
 			},
-			"When": { "Food": true, "Fruit Trees": true }
+			"When": { "Sell Prices": true, "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -89,9 +89,9 @@
 				"220": { "Price": "400" } //Chocolate Cake
 			},
 			"When": {
-				"Food": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -101,9 +101,9 @@
 				"905": { "Price": "720" } //Mango Sticky Rice
 			},
 			"When": {
-				"Food": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -133,7 +133,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -165,7 +165,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -189,7 +189,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -210,7 +210,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -222,7 +222,7 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -236,7 +236,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -251,7 +251,7 @@
 				"HasMod|contains=Cornucopia.ArtisanMachines": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -266,7 +266,7 @@
 			},
 			"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -280,8 +280,8 @@
 			},
 			"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"Food": true,
-				"Fruit Trees": true
+				"Sell Prices": true,
+				"Sell Prices": true
 			}
 		},
 		{
@@ -304,7 +304,7 @@
 			},
 			"When": {
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -315,8 +315,8 @@
 				"663": { "Price": "1330" } // Winter Duck
 			},
 			"When": {
-				"Food": true,
-				"Fruit Trees": true,
+				"Sell Prices": true,
+				"Sell Prices": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
 		},
@@ -330,7 +330,7 @@
 				"blueberry.LoveOfCooking_crepes": { "Price": "485" }, //Crepes Suzette
 				"blueberry.LoveOfCooking_fruity": { "Price": "275" } //Cherry Syllabub
 			},
-			"When": { "Food": true, "Fruit Trees": true, "HasMod|contains=blueberry.LoveOfCooking": true }
+			"When": { "Sell Prices": true, "Sell Prices": true, "HasMod|contains=blueberry.LoveOfCooking": true }
 		}
 	]
 }

@@ -9,17 +9,24 @@
 				"6480.blueegg_GoldenMayo": { "Price": "600" }, //Golden Mayonnaise
 				"6480.blueegg_OstrichMayo": { "Price": "2000" } //Ostrich Mayo
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
+		//Morgan Event (SVE)
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"6480.blueegg_OstrichMayo": { "Category": "-18" }, //Ostrich Mayonnaise
-				"6480.blueegg_BlueMayo": { "Category": "-18" }, //Blue Mayonnaise
-				"6480.blueegg_GoldenMayo": { "Category": "-18" } //Golden Mayonnaise
+				"6480.blueegg_BlueEgg": { "Price": "135" }, //Blue Egg
+				"6480.blueegg_BlueMayo": { "Price": "280" }, //Blue Mayonnaise
+				"6480.blueegg_GoldenMayo": { "Price": "650" }, //Golden Mayonnaise
+				"6480.blueegg_OstrichMayo": { "Price": "2200" } //Ostrich Mayonnaise
 			},
-			"When": { "Item Categories": true }
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasMod": "6480.blueegg",
+				"HasSeenEvent: anyPlayer| contains=5978939": true,				
+				"Sell Prices": true
+			}
 		},
 		//Machine Processing
 		//On with WoL

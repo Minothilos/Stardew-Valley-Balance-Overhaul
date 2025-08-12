@@ -7,7 +7,7 @@
 				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Leaves": {"Price": "40"},
 				"Aimon111.WitchSwampOverhaulCP_Vile_Ancient_Fruit": {"Price": "110"},		
 			},		
-            "When": { "Crops": true }		
+            "When": { "Sell Prices": true }		
 		},
 		{
 			"Action": "EditData",
@@ -18,7 +18,7 @@
 				"Aimon111.WitchSwampOverhaulCP_Purple_Algae": {"Price": "50"},	
 				"Aimon111.WitchSwampOverhaulCP_Giant_Horsehoe_Crab": {"Price": "200"},					
 			},		
-            "When": { "Fish": true }		
+            "When": { "Sell Prices": true }		
 		},
 		{
 			"Action": "EditData",
@@ -30,7 +30,7 @@
 				"Aimon111.WitchSwampOverhaulCP_Void_Mint_Tea": {"Price": "200"},
 				"Aimon111.WitchSwampOverhaulCP_Suspicious_Pie": {"Price": "600"},				
 			},		
-            "When": { "Food": true }		
+            "When": { "Sell Prices": true }		
 		},
 		{
 			"Action": "EditData",

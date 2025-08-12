@@ -14,7 +14,7 @@
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": { "Price": "15" }, //Wild Horseradish Seeds
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": { "Price": "15" } //Winter Root Seeds
 			},
-			"When": { "Forage": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -23,7 +23,7 @@
 				"ZoeyHoshi.ForageCrops_SeaweedSeeds": { "Price": "50" } //Seaweed Seeds
 			},
 			"When": {
-				"Forage": true,
+				"Sell Prices": true,
 				"HasMod|contains=selph.CustomTapperFramework": true
 			}
 		},

@@ -21,7 +21,7 @@
 				"Cornucopia_OrchidSeeds": { "Price": "45" } // Orchid Seeds
 			},
 			"When": {
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -72,7 +72,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -92,7 +92,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		//Shops
@@ -113,7 +113,7 @@
 			"MoveEntries": [{ "Id": "minothilos.morningglory", "BeforeId": "GrassStarter" }],
 			"When": {
 				"Remove Seeds from Shops": false,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -131,7 +131,7 @@
 			},
 			"When": {
 				"Remove Seeds from Shops": false,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -142,7 +142,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Remove Seeds from Shops": false,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -244,7 +244,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Remove Seeds from Shops": false,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -256,7 +256,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -268,7 +268,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -280,7 +280,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -292,7 +292,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -304,7 +304,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -319,7 +319,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		//Limited Seed Supply
@@ -847,7 +847,7 @@
 
 			"MoveEntries": [{ "Id": "minothilos.morningglory", "BeforeId": "GrassStarter" }],
 			"When": {
-				"Flowers": true,
+				"Sell Prices": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -907,7 +907,7 @@
 			],
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true,
+				"Sell Prices": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -1267,7 +1267,7 @@
 				}
 			},
 			"When": {
-				"Flowers": true,
+				"Sell Prices": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -1319,7 +1319,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Flowers": true,
+				"Sell Prices": true,
 				"Limited Seed Supply": true
 			}
 		},

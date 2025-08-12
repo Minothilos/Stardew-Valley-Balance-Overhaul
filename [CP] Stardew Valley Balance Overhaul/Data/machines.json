@@ -7,84 +7,84 @@
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Quartz"],
 			"Entries": { "Amount": "500" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Emerald"],
 			"Entries": { "Amount": "2500" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Topaz"],
 			"Entries": { "Amount": "1500" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Jade"],
 			"Entries": { "Amount": "2000" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Ruby"],
 			"Entries": { "Amount": "2500" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Aquamarine"],
 			"Entries": { "Amount": "2000" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Amethyst"],
 			"Entries": { "Amount": "1500" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Diamond"],
 			"Entries": { "Amount": "5000" },
-			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": false, "Mines": true }
+			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": false, "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "Diamond"],
 			"Entries": { "Amount": "3000" },
-			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true, "Mines": true }
+			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true, "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "FireQuartz"],
 			"Entries": { "Amount": "1500" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "FrozenTear"],
 			"Entries": { "Amount": "1000" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)21", "ReadyTimeModifiers", "EarthCrystal"],
 			"Entries": { "Amount": "1200" },
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		//Flavored mead takes longer
 		{
@@ -92,7 +92,7 @@
 			"Target": "Data/Machines",
 			"TargetField": ["(BC)12", "OutputRules", "Default_Honey"], //Keg - Mead Processing Time with Flavored Meads
 			"Entries": { "MinutesUntilReady": "6000" },
-			"When": { "Miscellaneous Items": true, "HasMod|contains=selph.FlavoredMead": true }
+			"When": { "Sell Prices": true, "HasMod|contains=selph.FlavoredMead": true }
 		},
 		//Flavored mead smaller multiplier
 		{
@@ -105,7 +105,7 @@
 					{ "Modification": "Add", "Amount": 75 }
 				]
 			},
-			"When": { "Flowers": true }
+			"When": { "Sell Prices": true }
 		},
 		// Cask aging multiplier
 		{
@@ -117,7 +117,7 @@
 					"AgingMultiplier": "4"
 				}
 			},
-			"When": { "Animals": true, "Cask Aging": "true" }
+			"When": { "Sell Prices": true, "Cask Aging": "true" }
 		},
 		{
 			"Action": "EditData",
@@ -128,7 +128,7 @@
 					"AgingMultiplier": "2.66"
 				}
 			},
-			"When": { "Animals": true, "Cask Aging": "true" }
+			"When": { "Sell Prices": true, "Cask Aging": "true" }
 		},
 		{
 			"Action": "EditData",
@@ -139,7 +139,7 @@
 					"AgingMultiplier": "1.33"
 				}
 			},
-			"When": { "Crops": true, "Cask Aging": "true" }
+			"When": { "Sell Prices": true, "Cask Aging": "true" }
 		},
 		{
 			"Action": "EditData",
@@ -150,7 +150,7 @@
 					"AgingMultiplier": "2.66"
 				}
 			},
-			"When": { "Miscellaneous Items": true, "Cask Aging": "true" }
+			"When": { "Sell Prices": true, "Cask Aging": "true" }
 		},
 		{
 			"Action": "EditData",
@@ -161,7 +161,7 @@
 					"AgingMultiplier": "1.166"
 				}
 			},
-			"When": { "Miscellaneous Items": true, "Cask Aging": "true", "HasMod|contains=selph.FlavoredMead": true }
+			"When": { "Sell Prices": true, "Cask Aging": "true", "HasMod|contains=selph.FlavoredMead": true }
 		},
 		{
 			"Action": "EditData",
@@ -172,7 +172,7 @@
 					"AgingMultiplier": "5.7"
 				}
 			},
-			"When": { "Crops": true, "Cask Aging": "true" }
+			"When": { "Sell Prices": true, "Cask Aging": "true" }
 		},
 		{
 			"Action": "EditData",
@@ -183,7 +183,7 @@
 					"AgingMultiplier": "3.5"
 				}
 			},
-			"When": { "Crops": true, "Cask Aging": "true" }
+			"When": { "Sell Prices": true, "Cask Aging": "true" }
 		},
 		// Artisan Good settings
 		//Large Animal Products Only

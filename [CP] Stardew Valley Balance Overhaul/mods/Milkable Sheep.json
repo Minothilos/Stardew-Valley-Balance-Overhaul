@@ -10,7 +10,7 @@
 				"428": { "Price": "620" }, //Cloth
 				"446": { "Price": "620" } //Rabbit's Foot
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -18,7 +18,7 @@
 			"Fields": {
 				"428": { "Price": "620" } //Cloth
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Logname": "Modify sheep produce!!",
@@ -57,7 +57,7 @@
 					]
 				}
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Logname": "Rabbits produce faster",
@@ -68,7 +68,7 @@
 					"DaysToProduce": 3
 				}
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
 		//Machine Processing
 		{
@@ -80,7 +80,7 @@
 					"AgingMultiplier": "2.33"
 				}
 			},
-			"When": { "Animals": true, "Cask Aging": "true" },
+			"When": { "Sell Prices": true, "Cask Aging": "true" },
 			"Priority": "Late +1"
 		},
 		//Large Animal Products Only

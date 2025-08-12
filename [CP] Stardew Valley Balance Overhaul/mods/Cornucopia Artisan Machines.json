@@ -24,7 +24,7 @@
 				"Cornucopia_Sauerkraut": { "Price": "320" }, // Sauerkraut
 				"Cornucopia_Starmite": { "Price": "250" } // Starmite
 			},
-			"When": { "Crops": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -32,7 +32,7 @@
 			"Fields": {
 				"Cornucopia_PrismaticEssence": { "Price": "2500" } // Prismatic Essence
 			},
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -45,7 +45,7 @@
 				"Cornucopia_FishSauce": { "Price": "550" }, // Fish Sauce
 				"Cornucopia_Garum": { "Price": "550" } // Garum
 			},
-			"When": { "Fish": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -56,7 +56,7 @@
 				"Cornucopia_CenturyEgg": { "Price": "390" }, // Century Egg
 				"Cornucopia_PlainYogurt": { "Price": "100" } // Plain Yogurt
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -65,7 +65,7 @@
 				"Cornucopia_PrismaticEssence": { "Price": "2000" }, // Prismatic Essence
 				"Cornucopia_GellingPowder": { "Price": "175" } // Gelling Powder
 			},
-			"When": { "Mines": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -76,7 +76,7 @@
 				"Cornucopia_CoconutMilk": { "Price": "325" }, // Coconut Milk
 				"Cornucopia_CoconutOil": { "Price": "250" } // Coconut Oil
 			},
-			"When": { "Forage": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -87,7 +87,7 @@
 				"Cornucopia_PineNuts": { "Price": "200" }, // Pine Nuts
 				"Cornucopia_Beeswax": { "Price": "200" } // Beeswax
 			},
-			"When": { "Miscellaneous Items": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -96,7 +96,7 @@
 				"Cornucopia_MapleButter": { "Price": "325" } // Maple Butter
 			},
 			"When": {
-				"Miscellaneous Items": true,
+				"Sell Prices": true,
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -108,7 +108,7 @@
 				"Cornucopia_Applesauce": { "Price": "210" } // Applesauce
 			},
 			"When": {
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		// Essential Crops Goods
@@ -128,7 +128,7 @@
 				"Cornucopia_SoySauce": { "Price": "275" }, // Soy Sauce
 				"Cornucopia_StinkyTofu": { "Price": "400" } // Stinky Tofu
 			},
-			"When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Crops": true }
+			"When": { "HasMod|contains=Cornucopia.MoreCrops": true, "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -140,7 +140,7 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		// Extended Crops Goods
@@ -156,7 +156,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		// Extended Trees Goods
@@ -172,7 +172,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -182,7 +182,7 @@
 				"Cornucopia_ChewingGum": { "Price": "410" } // Chewing Gum
 			},
 			"When": {
-				"Miscellaneous Items": true,
+				"Sell Prices": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 				"HasMod|contains=DaLion.Professions": true
 			}
@@ -198,7 +198,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"Fields": {
 				"Cornucopia_SnackCheese": { "Price": "200" } // Snack Cheese
 			},
-			"When": { "Animals": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -685,7 +685,7 @@
 					{ "Modification": "Add", "Amount": 50 }
 				]
 			},
-			"When": { "Flowers": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -697,7 +697,7 @@
 					{ "Modification": "Add", "Amount": 50 }
 				]
 			},
-			"When": { "Crops": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			"Action": "EditData",
@@ -791,7 +791,7 @@
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedCenturyEgg", "OutputItem", "#0"], //Cask - Century Egg
 			"Entries": { "CustomData": { "AgingMultiplier": "2" } },
 			"When": {
-				"Animals": true,
+				"Sell Prices": true,
 				"Cask Aging": "true"
 			}
 		},
@@ -819,7 +819,7 @@
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedSoySauce", "OutputItem", "#0"], //Cask - Soy Sauce
 			"Entries": { "CustomData": { "AgingMultiplier": "2.66" } },
 			"When": {
-				"Crops": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": "true"
@@ -831,7 +831,7 @@
 			"TargetField": ["(BC)163", "OutputRules", "Cornucopia_AgedStinkyTofu", "OutputItem", "#0"], //Cask - Stinky Tofu
 			"Entries": { "CustomData": { "AgingMultiplier": "1.75" } },
 			"When": {
-				"Crops": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": "true"

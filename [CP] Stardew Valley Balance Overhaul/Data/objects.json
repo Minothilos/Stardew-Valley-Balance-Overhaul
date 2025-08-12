@@ -5,6 +5,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
+				//Crops
 				"190": { "Price": "190" }, //Cauliflower
 				"248": { "Price": "85" }, //Garlic
 				"188": { "Price": "65" }, //Green Bean
@@ -45,32 +46,7 @@
 				"417": { "Price": "2000" }, //Sweet Gem Berry
 				"271": { "Price": "80" }, //Unmilled Rice
 				"486": { "Price": "50" }, //Starfruit Seeds
-			},
-			"When": { "Crops": true }
-		},
-		//Stricter Seed Maker
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": ["417", "ContextTags"], //Sweet Berry Gem
-			"Entries": { "#-1": "seedmaker_banned" },
-			"When": {
-				"Crops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": ["454", "ContextTags"], //Ancient Fruit
-			"Entries": { "#-1": "seedmaker_banned" },
-			"When": {
-				"Crops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Flowers
 				"597": { "Price": "140" }, //Blue Jazz
 				"591": { "Price": "130" }, //Tulip
 				"376": { "Price": "140" }, //Poppy
@@ -81,15 +57,9 @@
 				"427": { "Price": "35" }, //Tulip Seed
 				"453": { "Price": "40" }, //Poppy Seed
 				"455": { "Price": "40" }, //Summer Spangle Seed
-				"425": { "Price": "25" }, //Fairy Rose Seed
-				"431": { "Price": "20" }, //Sunflower Seed
-			},
-			"When": { "Flowers": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				"425": { "Price": "45" }, //Fairy Rose Seed
+				"431": { "Price": "30" }, //Sunflower Seed
+				//Animals
 				"176": { "Price": "65" }, //Egg
 				"180": { "Price": "65" }, //Egg
 				"305": { "Price": "130" }, //Void Egg
@@ -115,13 +85,7 @@
 				"424": { "Price": "150" }, //Cheese
 				"426": { "Price": "300" }, //Goat Cheese
 				"432": { "Price": "440" }, //Truffle Oil
-			},
-			"When": { "Animals": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Fruit Trees
 				"634": { "Price": "110" }, //Apricot
 				"638": { "Price": "110" }, //Cherry
 				"91": { "Price": "130" }, //Banana
@@ -138,14 +102,9 @@
 				"631": { "Price": "600" }, //Peach Sapling
 				"633": { "Price": "550" }, //Apple Sapling
 				"632": { "Price": "600" }, //Pomegranate Sapling
-			},
-			"When": { "Fruit Trees": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Mines
 				"74": { "Price": "1500" }, //Prismatic Shard
+				"72": { "Price": "500" }, //Diamond
 				"70": { "Price": "200" }, //Jade
 				"68": { "Price": "150" }, //Topaz
 				"66": { "Price": "150" }, //Amethyst
@@ -206,8 +165,8 @@
 				"123": { "Price": "300" }, //Ancient Drum
 				"124": { "Price": "500" }, //Golden Mask
 				"125": { "Price": "500" }, //Golden Relic
-				"126": { "Price": "1000" }, //Strange Doll
-				"127": { "Price": "1000" }, //Strange Doll
+				"126": { "Price": "750" }, //Strange Doll
+				"127": { "Price": "750" }, //Strange Doll
 				"579": { "Price": "200" }, //Prehistoric Scapula
 				"580": { "Price": "200" }, //Prehistoric Tibia
 				"581": { "Price": "200" }, //Prehistoric Skull
@@ -216,7 +175,7 @@
 				"584": { "Price": "200" }, //Prehistoric Vertebra
 				"585": { "Price": "200" }, //Skeletal Tail
 				"586": { "Price": "200" }, //Nautilus Fossil
-				"587": { "Price": "250" }, //Amphibian Fossil
+				"587": { "Price": "200" }, //Amphibian Fossil
 				"588": { "Price": "200" }, //Palm Fossil
 				"589": { "Price": "100" }, //Trilobite
 				"823": { "Price": "200" }, //Fossilized Leg
@@ -269,33 +228,12 @@
 				"578": { "Price": "500" }, //Star Shards
 				"539": { "Price": "300" }, //Bixite
 				"553": { "Price": "400" }, //Neptunite
-			},
-			"When": { "Mines": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"72": { "Price": "500" } //Diamond
-			},
-			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": false, "Mines": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"72": { "Price": "300" } //Diamond
-			},
-			"When": { "HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true, "Mines": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Forage
 				"16": { "Price": "70" }, //Wild Horseradish
 				"18": { "Price": "50" }, //Daffodil
 				"20": { "Price": "80" }, //Leek
 				"22": { "Price": "60" }, //Dandelion
+				"399": { "Price": "15" }, //Spring Onion
 				"396": { "Price": "80" }, //Spice Berry
 				"402": { "Price": "65" }, //Sweet Pea
 				"404": { "Price": "65" }, //Common Mushroom
@@ -315,16 +253,7 @@
 				"257": { "Price": "120" }, //Morel
 				"88": { "Price": "100" }, //Coconut
 				"791": { "Price": "200" }, //Golden Coconut
-				"829": { "Price": "90" }, //Ginger
-				"399": { "Price": "15" }, //Spring Onion
-			},
-			"When": { "Forage": true }
-		},
-		//Miscellaneous Items
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Misc
 				"388": { "Price": "4" }, //Wood
 				"390": { "Price": "5" }, //Stone
 				"92": { "Price": "5" }, //Sap
@@ -341,16 +270,14 @@
 				"310": { "Price": "10" }, //Maple Seed
 				"311": { "Price": "10" }, //Pine Cone
 				"292": { "Price": "50" }, //Mahogany Seed
+				"829": { "Price": "90" }, //Ginger
 				"78": { "Price": "75" }, //Cave Carrot
-				"812": { "Price": "100" }, //Roe
-				"447": { "Price": "200" }, //Aged Roe
-				"445": { "Price": "500" }, //Caviar
 				"340": { "Price": "150" }, //Honey
 				"459": { "Price": "300" }, //Mead
-				"724": { "Price": "300" }, //Maple Syrup
-				"725": { "Price": "250" }, //Oak Resin
-				"726": { "Price": "200" }, //Pine Tar
-				"MysticSyrup": { "Price": "600" }, //Mystic Syrup
+				"724": { "Price": "200" }, //Maple Syrup
+				"725": { "Price": "150" }, //Oak Resin
+				"726": { "Price": "100" }, //Pine Tar
+				"MysticSyrup": { "Price": "500" }, //Mystic Syrup
 				"787": { "Price": "300" }, //Battery Pack
 				"297": { "Price": "25" }, //Grass Starter
 				"251": { "Price": "50" }, //Tea Sapling
@@ -361,43 +288,19 @@
 				"693": { "Price": "100" }, //Treasure Hunter
 				"874": { "Price": "50" }, //Bug Steak
 				"403": { "Price": "20" }, //Field Snack
+				"812": { "Price": "100" }, //Roe
+				"447": { "Price": "200" }, //Aged Roe
+				"445": { "Price": "500" }, //Caviar
 				"245": { "Price": "30" }, //Sugar
 				"246": { "Price": "50" }, //Wheat Flour
 				"423": { "Price": "100" }, //Rice
 				"247": { "Price": "100" }, //Oil
 				"419": { "Price": "100" }, //Vinegar
-			},
-			"When": { "Miscellaneous Items": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
 				"395": { "Price": "140" }, //Coffee
 				"303": { "Price": "90" }, //Pale Ale
 				"346": { "Price": "160" }, //Beer
 				"614": { "Price": "200" }, //Green Tea
-			},
-			"When": { "Crops": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"686": { "Price": "150" }, //Spinner
-				"694": { "Price": "150" }, //Trap Bobber
-				"693": { "Price": "250" }, //Treasure Hunter
-				"695": { "Price": "200" }, //Cork Bobber
-				"691": { "Price": "200" }, //Barbed Hook
-				"687": { "Price": "150" }, //Dressed Spinner
-			},
-			"When": { "Shops": true }
-		},
-		//Food Prices
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Fish
 				"128": { "Price": "155" }, //Pufferfish
 				"129": { "Price": "55" }, //Anchovy
 				"130": { "Price": "115" }, //Tuna
@@ -426,12 +329,12 @@
 				"165": { "Price": "225" }, //Scorpion Carp
 				"267": { "Price": "85" }, //Flounder
 				"269": { "Price": "110" }, //Midnight Carp
-				"698": { "Price": "150" }, //Sturgeon
+				"698": { "Price": "155" }, //Sturgeon
 				"699": { "Price": "95" }, //Tiger Trout
 				"700": { "Price": "85" }, //Bullhead
 				"701": { "Price": "85" }, //Tilapia
 				"702": { "Price": "60" }, //Chub
-				"704": { "Price": "150" }, //Dorado
+				"704": { "Price": "155" }, //Dorado
 				"705": { "Price": "95" }, //Albacore
 				"706": { "Price": "75" }, //Shad
 				"707": { "Price": "165" }, //Lingcod
@@ -439,12 +342,12 @@
 				"734": { "Price": "85" }, //Woodskip
 				"795": { "Price": "155" }, //Void Salmon
 				"796": { "Price": "90" }, //Slimejack
-				"836": { "Price": "150" }, //Stingray
+				"836": { "Price": "155" }, //Stingray
 				"837": { "Price": "85" }, //Lionfish
 				"838": { "Price": "95" }, //Blue Discus
 				"158": { "Price": "150" }, //Stonefish
 				"161": { "Price": "250" }, //Ice Pip
-				"162": { "Price": "300" }, //Lava Eel
+				"162": { "Price": "290" }, //Lava Eel
 				"798": { "Price": "135" }, //Midnight Squid
 				"799": { "Price": "165" }, //Spook Fish
 				"800": { "Price": "250" }, //Blobfish
@@ -471,13 +374,7 @@
 				"152": { "Price": "35" }, //Seaweed
 				"153": { "Price": "25" }, //Green Algae
 				"157": { "Price": "40" }, //White Algae
-			},
-			"When": { "Fish": true }
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Food
 				"194": { "Price": "70" }, //Fried Egg
 				"195": { "Price": "155" }, //Omelet
 				"196": { "Price": "265" }, //Salad
@@ -561,9 +458,128 @@
 				"773": { "Price": "490" }, //Life Elixir
 				"772": { "Price": "1045" }, //Oil of Garlic
 			},
-			"When": { "Food": true }
+			"When": { "Sell Prices": true }
 		},
-		//More Crops
+		//Apples Event (SVE)
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"268": { "Price": "240" } //Starfruit
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasSeenEvent: anyPlayer| contains=7776009": true,
+				"Sell Prices": true
+			}
+		},
+		//Sofia Event (SVE)
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"398": { "Price": "75" } //Grape
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"Spouse": "Sophia",
+				"HasSeenEvent: anyPlayer| contains=8185300": true,
+				"Sell Prices": true
+			}
+		},
+		//Andy Special Order (SVE)
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"400": { "Price": "90" } //Strawberry
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasSeenEvent: anyPlayer| contains=5407915": true,
+				"Sell Prices": true
+			}
+		},
+		//Morgan Event (SVE)
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"176": { "Price": "70" }, //Egg
+				"180": { "Price": "70" }, //Egg
+				"305": { "Price": "135" }, //Void Egg
+				"442": { "Price": "265" }, //Duck Egg
+				"440": { "Price": "470" }, //Wool
+				"107": { "Price": "850" }, //Dinosaur Egg
+				"928": { "Price": "300" }, //Golden Egg
+				"184": { "Price": "80" }, //Milk
+				"436": { "Price": "160" }, //Goat Milk
+				"430": { "Price": "230" }, //Truffle
+				"289": { "Price": "1100" }, //Ostrich Egg
+				"174": { "Price": "140" }, //Large Egg
+				"182": { "Price": "140" }, //Large Egg
+				"444": { "Price": "550" }, //Duck Feather
+				"446": { "Price": "960" }, //Rabbit's Foot
+				"186": { "Price": "160" }, //Large Milk
+				"438": { "Price": "320" }, //L. Goat Milk
+				"306": { "Price": "140" }, //Mayonnaise
+				"308": { "Price": "280" }, //Void Mayonnaise
+				"307": { "Price": "540" }, //Duck Mayonnaise
+				"428": { "Price": "950" }, //Cloth
+				"807": { "Price": "1700" }, //Dinosaur Mayonnaise
+				"424": { "Price": "160" }, //Cheese
+				"426": { "Price": "320" }, //Goat Cheese
+				"432": { "Price": "460" }, //Truffle Oil
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true
+			}
+		},
+		//Susan Special Order (SVE)
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"303": { "Price": "100" }, //Pale Ale
+				"346": { "Price": "200" }, //Beer
+				"459": { "Price": "330" } //Mead
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasSeenEvent: anyPlayer| contains=5407917": true,
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"303": { "Price": "180" } //Pale Ale
+			},
+
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasMod": "Cornucopia.GrowableForage",
+				"HasSeenEvent: anyPlayer| contains=5407917": true,
+				"Sell Prices": true,
+			}
+		},
+		//Diamond Adjustment (Lumisteria)
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"72": { "Price": "300" } //Diamond
+			},
+			"When": {
+				"HasMod": "Lumisteria.GlimmeringClumpsNodes",
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true
+			}
+		},
+		//Chocolate Cake Adjustment (Cornucopia More Crops)
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -571,11 +587,11 @@
 				"220": { "Price": "265" }, //Chocolate Cake
 			},
 			"When": {
-				"Food": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true
+				"HasMod": "Cornucopia.MoreCrops",
+				"Sell Prices": true,
 			}
 		},
-		//Artisan Machines
+		//Food Adjustments (Cornucopia Artisan Machines)
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -591,8 +607,41 @@
 				"907": { "Price": "590" }, //Tropical Curry
 			},
 			"When": {
-				"Food": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
+				"HasMod": "Cornucopia.ArtisanMachines",
+				"Sell Prices": true,
+			}
+		},
+		// Bobber Sell Prices
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"686": { "Price": "150" }, //Spinner
+				"694": { "Price": "150" }, //Trap Bobber
+				"693": { "Price": "250" }, //Treasure Hunter
+				"695": { "Price": "200" }, //Cork Bobber
+				"691": { "Price": "200" }, //Barbed Hook
+				"687": { "Price": "150" }, //Dressed Spinner
+			},
+			"When": { "Shops": true }  // NEED TO ADD "IF" Sell Prices OR Shops is enabled condition
+		},
+		//Stricter Seed Maker
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["417", "ContextTags"], //Sweet Berry Gem
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": ["454", "ContextTags"], //Ancient Fruit
+			"Entries": { "#-1": "seedmaker_banned" },
+			"When": {
+				"Sell Prices": true
 			}
 		},
 		//Food Buffs

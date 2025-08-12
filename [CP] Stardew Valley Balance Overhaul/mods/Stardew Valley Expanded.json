@@ -18,7 +18,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": { "Price": "750" }
 			},
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": { "Price": "600" },
 			},
 			"When": {
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -51,7 +51,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "100" }
 			},
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -72,7 +72,7 @@
 				}
 			},
 			"When": {
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -98,7 +98,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": { "Price": "90" }
 			},
 			"When": {
-				"Forage": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -109,7 +109,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Price": "400" }
 			},
 			"When": {
-				"Forage": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
@@ -163,7 +163,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": { "Price": "3000" }
 			},
 			"When": {
-				"Fish": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": { "Price": "600" }
 			},
 			"When": {
-				"Food": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -224,7 +224,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Seed_Cookie": { "Price": "35" } // Seed Cookie
 			},
 			"When": {
-				"Miscellaneous Items": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -234,7 +234,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { "Price": "2000" } // Mega Purple Mushroom
 			},
 			"When": {
-				"Miscellaneous Items": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
@@ -251,7 +251,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba": { "Price": "1000" }
 			},
 			"When": {
-				"Mines": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -407,7 +407,7 @@
 				} // Persimmon Sapling
 			},
 			"When": {
-				"Fruit Trees": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -418,7 +418,7 @@
 				"(BC)272": { "Price": "75000" } //Auto-Petter
 			},
 			"When": {
-				"Flowers": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -604,7 +604,7 @@
 				}
 			},
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -630,7 +630,7 @@
 				}
 			},
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -653,7 +653,7 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Ancient_Fiber", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -662,7 +662,7 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Monster_Fruit", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -671,7 +671,7 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Monster_Mushroom", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -680,7 +680,7 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Salal_Berry", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -689,7 +689,7 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Slime_Berry", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -698,7 +698,7 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Void_Root", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -707,7 +707,7 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Joja_Berry", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -716,17 +716,15 @@
 			"TargetField": ["FlashShifter.StardewValleyExpandedCP_Joja_Veggie", "ContextTags"],
 			"Entries": { "#-1": "seedmaker_banned" },
 			"When": {
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Butter Churner": { "0": "388 25 390 25 84 1 335 1" },
-				"Yarn Spooler": {
-					"0": "709 25 787 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1"
-				}
+				"Butter Churner": { "0": "388 25 390 25 84 1 FlashShifter.StardewValleyExpandedCP_Birch_Water 1" },
+				"Yarn Spooler": { "0": "709 35 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1 787 1"}
 			},
 			"When": {
 				"Machines": "Normal"
@@ -736,10 +734,8 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Butter Churner": { "0": "388 30 390 30 84 1 335 2" },
-				"Yarn Spooler": {
-					"0": "709 35 787 1 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 2"
-				}
+				"Butter Churner": { "0": "388 30 390 30 84 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2" },
+				"Yarn Spooler": { "0": "709 40 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 1 787 1"}
 			},
 			"When": {
 				"Machines": "Hard"
@@ -749,10 +745,8 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Butter Churner": { "0": "388 35 390 35 84 2 335 3" },
-				"Yarn Spooler": {
-					"0": "709 40 787 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 3"
-				}
+				"Butter Churner": { "0": "388 35 390 35 84 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 3" },
+				"Yarn Spooler": { "0": "709 45 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 2 787 2"}
 			},
 			"When": {
 				"Machines": "Very Hard"
@@ -768,44 +762,7 @@
 				}
 			}
 		},
-		//Susan Special Order
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"303": { "Price": "100" }, //Pale Ale
-				"346": { "Price": "200" } //Beer
-			},
-
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5407917": true,
-				"Crops": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"303": { "Price": "180" } //Pale Ale
-			},
-
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5407917": true,
-				"Crops": true,
-				"HasMod|contains=Cornucopia.GrowableForage": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"459": { "Price": "330" } //Mead
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5407917": true,
-				"Miscellaneous Items": true
-			}
-		},
+		//Susan Special Order - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -819,51 +776,14 @@
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Crops": true
+				"Sell Prices": true
 			}
 		},
-		//Andy Special Order
+		//Morgan Event - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"400": { "Price": "85" } //Strawberry
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5407915": true,
-				"Crops": true
-			}
-		},
-		//Morgan Event
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"176": { "Price": "70" }, //Egg
-				"180": { "Price": "70" }, //Egg
-				"305": { "Price": "135" }, //Void Egg
-				"442": { "Price": "220" }, //Duck Egg
-				"440": { "Price": "335" }, //Wool
-				"107": { "Price": "945" }, //Dinosaur Egg
-				"928": { "Price": "315" }, //Golden Egg
-				"184": { "Price": "80" }, //Milk
-				"436": { "Price": "155" }, //Goat Milk
-				"430": { "Price": "200" }, //Truffle
-				"289": { "Price": "1155" }, //Ostrich Egg
-				"174": { "Price": "135" }, //Large Egg
-				"182": { "Price": "135" }, //Large Egg
-				"444": { "Price": "500" }, //Duck Feather
-				"446": { "Price": "670" }, //Rabbit's Foot
-				"186": { "Price": "155" }, //Large Milk
-				"438": { "Price": "315" }, //L. Goat Milk
-				"306": { "Price": "145" }, //Mayonnaise
-				"308": { "Price": "300" }, //Void Mayonnaise
-				"307": { "Price": "480" }, //Duck Mayonnaise
-				"428": { "Price": "735" }, //Cloth
-				"807": { "Price": "2100" }, //Dinosaur Mayonnaise
-				"424": { "Price": "170" }, //Cheese
-				"426": { "Price": "345" }, //Goat Cheese
-				"432": { "Price": "435" }, //Truffle Oil
 				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "325" },
 				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "1100" },
 				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "325" },
@@ -874,39 +794,11 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
-		//Morgan Event with Walk of Life
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"DaLion.Professions_OstrichMayo": { "Price": "2200" }, //Ostrich Mayonnaise
-				"DaLion.Professions_GoldenMayo": { "Price": "600" } //Golden Mayonnaise
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"HasMod": "DaLion.Professions",
-				"Animals": true
-			}
-		},
-		//Morgan Event with Blue Eggs
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"6480.blueegg_BlueEgg": { "Price": "135" }, //Blue Egg
-				"6480.blueegg_BlueMayo": { "Price": "300" }, //Blue Mayonnaise
-				"6480.blueegg_GoldenMayo": { "Price": "600" }, //Golden Mayonnaise
-				"6480.blueegg_OstrichMayo": { "Price": "2200" } //Ostrich Mayonnaise
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"HasMod": "6480.blueegg",
-				"Animals": true
-			}
-		},
+
+		//Morgan Event - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -918,7 +810,7 @@
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"HasMod|contains=Mizu.Quail": true,
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -932,7 +824,7 @@
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"HasMod|contains=Mizu.Turkey": true,
-				"Animals": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -943,23 +835,11 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Animals": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		//Sofia Event
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"398": { "Price": "100" } //Grape
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=8185300": true,
-				"Spouse": "Sophia",
-				"Crops": true
-			}
-		},
+		//Sofia Event - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -970,61 +850,9 @@
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=8185300": true,
 				"Spouse": "Sophia",
-				"Crops": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
-			}
-		},
-		//Apples Event
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"268": { "Price": "250" } //Starfruit
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=7776009": true,
-				"Crops": true
-			}
-		},
-		//Susan Event
-		{
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-			"Fields": {
-				"Preserves Jar": { "0": "388 40 390 30 709 5 726 1" },
-				"Keg": { "0": "388 20 334 1 335 1 725 1" },
-				"Cask": { "0": "388 15 709 1" }
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=1000083": true,
-				"Machines": "Normal"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-			"Fields": {
-				"Preserves Jar": { "0": "388 40 390 30 709 10 726 2" },
-				"Keg": { "0": "388 30 334 2 335 2 725 2" },
-				"Cask": { "0": "388 20 709 2 726 1" }
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=1000083": true,
-				"Machines": "Hard"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-			"Fields": {
-				"Preserves Jar": { "0": "388 50 390 40 709 15 726 3" },
-				"Keg": { "0": "388 40 334 3 335 3 725 3" },
-				"Cask": { "0": "388 40 709 3 726 2" }
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=1000083": true,
-				"Machines": "Very Hard"
 			}
 		},
 		//Machine Processing

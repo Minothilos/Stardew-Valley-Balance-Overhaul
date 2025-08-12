@@ -1,101 +1,6 @@
 {
 	"Format": "2.7.0",
 	"ConfigSchema": {
-		"Crops": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Flowers": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Animals": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Fruit Trees": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Mines": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Forage": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Fish": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Food": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Miscellaneous Items": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Price Changes"
-		},
-		"Machines": {
-			"AllowValues": "Off, Normal, Hard, Very Hard",
-			"Default": "Normal",
-			"Section": "Recipe Changes"
-		},
-		"Sprinklers": {
-			"AllowValues": "Off, Normal, Hard, Very Hard",
-			"Default": "Normal",
-			"Section": "Recipe Changes"
-		},
-		"Fertilizers": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
-		"Bombs": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
-		"Ammo": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
-		"Fishing Baits": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
-		"Fishing Lures": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
-		"Warp Totems": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
-		"Wild Seeds": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
-		"Miscellaneous Recipes": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Recipe Changes"
-		},
 		"Community Center Bundles": {
 			"AllowValues": "Off, SVBO, SVBO/SVE, SVBO/RSV, SVBO/SVE/RSV",
 			"Default": "SVBO",
@@ -111,17 +16,12 @@
 			"Default": "Normal",
 			"Section": "Balance Changes"
 		},
-		"Monster Eradication Goals": {
+		"Sell Prices": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
 		"Food Buffs": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Balance Changes"
-		},
-		"Cask Aging": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Balance Changes"
@@ -136,6 +36,16 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
+		"Monster Eradication Goals": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Balance Changes"
+		},
+		"Cask Aging": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Balance Changes"
+		},
 		"Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
@@ -146,45 +56,100 @@
 			"Default": "true",
 			"Section": "Balance Changes"
 		},
+		"Machines": {
+			"AllowValues": "Off, Normal, Hard, Very Hard",
+			"Default": "Normal",
+			"Section": "Crafting Recipes"
+		},
+		"Sprinklers": {
+			"AllowValues": "Off, Normal, Hard, Very Hard",
+			"Default": "Normal",
+			"Section": "Crafting Recipes"
+		},
+		"Fertilizers": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Bombs": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Ammo": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Fishing Baits": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Fishing Lures": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Warp Totems": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Wild Seeds": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Miscellaneous": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
+		"Craft with Modded Items": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Crafting Recipes"
+		},
 		"Shops": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Shop Changes"
+			"Section": "Shops"
 		},
 		"Limited Item Supply": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Shop Changes"
+			"Section": "Shops"
 		},
 		"Limited Seed Supply": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Shop Changes"
+			"Section": "Shops"
 		},
 		"Merchants Buy More Items": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Quality of Life Changes"
+			"Section": "Quality of Life"
 		},
 		"Marnie Sells Auto-Petter": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Quality of Life Changes"
+			"Section": "Quality of Life"
 		},
 		"Harvey's Clinic Sells Life Elixirs": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Quality of Life Changes"
+			"Section": "Quality of Life"
 		},
 		"Increased Silo Size": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Quality of Life Changes"
+			"Section": "Quality of Life"
 		},
 		"Remove Seeds from Shops": {
 			"AllowValues": "false, true",
 			"Default": "false",
-			"Section": "Miscellaneous"
+			"Section": "Cornucopia"
 		},
 		"Minothilos Tweaks": {
 			"AllowValues": "false, true",

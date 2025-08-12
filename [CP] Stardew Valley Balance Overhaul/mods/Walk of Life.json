@@ -8,8 +8,23 @@
 				"DaLion.Professions_GoldenMayo": { "Price": "600" } // Golden Mayonnaise
 			},
 			"When": {
-				"Animals": true,
+				"Sell Prices": true,
 				"HasMod|contains=6480.blueegg": false
+			}
+		},
+		//Morgan Event (SVE)
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"DaLion.Professions_OstrichMayo": { "Price": "2200" }, //Ostrich Mayonnaise
+				"DaLion.Professions_GoldenMayo": { "Price": "650" } //Golden Mayonnaise
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasMod": "DaLion.Professions",
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true
 			}
 		},
 		//Offset Tapper Aging
@@ -22,7 +37,7 @@
 				"726": { "Price": "150" } //Pine Tar
 			},
 			"When": {
-				"Miscellaneous Items": true
+				"Sell Prices": true
 			}
 		},
 		{
@@ -33,7 +48,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { "Price": "265" }
 			},
 			"When": {
-				"Miscellaneous Items": true,
+				"Sell Prices": true,
 				"HasMod": "FlashShifter.StardewValleyExpandedCP"
 			}
 		},
@@ -44,7 +59,7 @@
 				"Cornucopia_ChicleRubber": { "Price": "205" } // Chicle Rubber
 			},
 			"When": {
-				"Miscellaneous Items": true,
+				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -106,8 +121,8 @@
 				"DaLion.Professions_SlimeCheese": { "Price": "370" } // Slime Cheese
 			},
 			"When": {
-				"Mines": true
+				"Sell Prices": true
 			}
-		}
+		},
 	]
 }

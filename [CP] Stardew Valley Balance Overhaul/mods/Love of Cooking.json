@@ -42,7 +42,7 @@
 				"blueberry.LoveOfCooking_waffles": { "Price": "305" }, //Berry Waffles
 				"blueberry.LoveOfCooking_chocolate": { "Price": "200" } //Cooking Chocolate
 			},
-			"When": { "Food": true }
+			"When": { "Sell Prices": true }
 		},
 		{
 			// Food prices (Cornucopia Artisan Machines)
@@ -52,7 +52,7 @@
 				"blueberry.LoveOfCooking_burrito": { "Price": "215" }, //Burrito
 				"blueberry.LoveOfCooking_kebab": { "Price": "270" } //Kebab
 			},
-			"When": { "Food": true, "HasMod|contains=Cornucopia.ArtisanMachines": true }
+			"When": { "Sell Prices": true, "HasMod|contains=Cornucopia.ArtisanMachines": true }
 		},
 		{
 			// Food buffs
