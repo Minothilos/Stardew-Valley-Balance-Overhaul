@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{
+		{	//Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -12,28 +12,10 @@
 				},
 				"EastScarp_Serruria": {
 					"Price": "170"
-				}
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				},
 				"Lemurkat_Heirloom_Cherry_Tree": {
 					"Price": "600"
-				}
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				},
 				"EastScarp_Golden_Trout": {
 					"Price": "150"
 				},

@@ -5,7 +5,6 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				//Crops
 				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": {
 					"Price": "120"
 				},
@@ -42,7 +41,6 @@
 				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": {
 					"Price": "750"
 				},
-				//Fruit Trees
 				"FlashShifter.StardewValleyExpandedCP_Pear": {
 					"Price": "130"
 				},
@@ -67,7 +65,6 @@
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
 					"Price": "600"
 				},
-				//Animals
 				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": {
 					"Price": "330"
 				},
@@ -89,7 +86,6 @@
 				"FlashShifter.StardewValleyExpandedCP_Butter": {
 					"Price": "100"
 				},
-				//Forage
 				"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {
 					"Price": "90"
 				},
@@ -141,7 +137,6 @@
 				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": {
 					"Price": "90"
 				},
-				//Fish
 				"FlashShifter.StardewValleyExpandedCP_Alligator": {
 					"Price": "155"
 				},
@@ -274,7 +269,6 @@
 				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": {
 					"Price": "3000"
 				},
-				//Food
 				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": {
 					"Price": "805"
 				},
@@ -350,7 +344,6 @@
 				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": {
 					"Price": "600"
 				},
-				//Mines
 				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": {
 					"Price": "300"
 				}, // Void Pebble

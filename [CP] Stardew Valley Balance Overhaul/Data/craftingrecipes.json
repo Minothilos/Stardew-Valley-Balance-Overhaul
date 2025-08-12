@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{
+		{	//Machines (Normal)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -51,7 +51,7 @@
 				"Machines": "Normal"
 			}
 		},
-		{
+		{	//Machines (SVE - Normal)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -74,7 +74,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{
+		{	//Machines (Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -146,7 +146,7 @@
 				"Machines": "Hard"
 			}
 		},
-		{
+		{	//Machines (SVE - Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -169,7 +169,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{
+		{	//Machines (Very Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -241,7 +241,7 @@
 				"Machines": "Very Hard"
 			}
 		},
-		{
+		{	//Machines (SVE - Very Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -264,8 +264,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		//Susan Event (SVE)
-		{
+		{ 	//Susan Event (SVE - Normal)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -285,7 +284,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{
+		{	//Susan Event (SVE - Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -305,7 +304,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{
+		{	//Susan Event (SVE - Very Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -324,9 +323,8 @@
 				"HasSeenEvent: anyPlayer| contains=1000083": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
-		},
-		//Sprinklers
-		{
+		},	
+		{ 	//Sprinklers (Normal)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -344,7 +342,7 @@
 				"Sprinklers": "Normal"
 			}
 		},
-		{
+		{	//Sprinklers (Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -362,7 +360,7 @@
 				"Sprinklers": "Hard"
 			}
 		},
-		{
+		{	//Sprinklers (Very Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -380,7 +378,7 @@
 				"Sprinklers": "Very Hard"
 			}
 		},
-		{
+		{	//Fertilizers
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -425,7 +423,7 @@
 				"Fertilizers": true
 			}
 		},
-		{
+		{	//Bombs
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -443,7 +441,7 @@
 				"Bombs": true
 			}
 		},
-		{
+		{	//Ammo
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -455,7 +453,7 @@
 				"Ammo": true
 			}
 		},
-		{
+		{	//Fishing Baits
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -484,7 +482,7 @@
 				"Fishing Baits": true
 			}
 		},
-		{
+		{	//Fishing Lures
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -511,7 +509,7 @@
 				"Fishing Lures": true
 			}
 		},
-		{
+		{	//Warp Totems
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -532,7 +530,7 @@
 				"Warp Totems": true
 			}
 		},
-		{
+		{	//Wild Seeds
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -560,7 +558,7 @@
 				"Wild Seeds": true
 			}
 		},
-		{
+		{	//Miscellaneous
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {

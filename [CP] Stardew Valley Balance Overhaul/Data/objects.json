@@ -1,1361 +1,1350 @@
 {
 	"Changes": [
-		//Prices
-		{
+		{	//Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				//Crops
-				"190": {
+				"190": { //Cauliflower
 					"Price": "190"
-				}, //Cauliflower
-				"248": {
+				}, 
+				"248": { //Garlic
 					"Price": "85"
-				}, //Garlic
-				"188": {
+				}, 
+				"188": { //Green Bean
 					"Price": "65"
-				}, //Green Bean
-				"250": {
+				},
+				"250": { //Kale
 					"Price": "130"
-				}, //Kale
-				"24": {
+				},
+				"24": { //Parsnip
 					"Price": "65"
-				}, //Parsnip
-				"192": {
+				},
+				"192": { //Potato
 					"Price": "95"
-				}, //Potato
-				"252": {
+				},
+				"252": { //Rhubarb
 					"Price": "225"
-				}, //Rhubarb
-				"400": {
+				},
+				"400": { //Strawberry
 					"Price": "80"
-				}, //Strawberry
-				"433": {
+				},
+				"433": { //Coffee Bean
 					"Price": "6"
-				}, //Coffee Bean
-				"454": {
+				},
+				"454": { //Ancient Fruit
 					"Price": "300"
-				}, //Ancient Fruit
-				"90": {
+				},
+				"90": { //Cactus Fruit
 					"Price": "75"
-				}, //Cactus Fruit
-				"Carrot": {
+				},
+				"Carrot": { //Carrot
 					"Price": "55"
-				}, //Carrot
-				"258": {
+				},
+				"258": { //Blueberry
 					"Price": "30"
-				}, //Blueberry
-				"270": {
+				},
+				"270": { //Corn
 					"Price": "65"
-				}, //Corn
-				"304": {
+				},
+				"304": { //Hops
 					"Price": "25"
-				}, //Hops
-				"260": {
+				},
+				"260": { //Hot Pepper
 					"Price": "40"
-				}, //Hot Pepper
-				"254": {
+				},
+				"254": { //Melon
 					"Price": "190"
-				}, //Melon
-				"264": {
+				},
+				"264": { //Radish
 					"Price": "100"
-				}, //Radish
-				"266": {
+				},
+				"266": { //Red Cabbage
 					"Price": "195"
-				}, //Red Cabbage
-				"268": {
+				},
+				"268": { //Starfruit
 					"Price": "220"
-				}, //Starfruit
-				"256": {
+				},
+				"256": { //Tomato
 					"Price": "70"
-				}, //Tomato
-				"262": {
+				},
+				"262": { //Wheat
 					"Price": "55"
-				}, //Wheat
-				"830": {
+				},
+				"830": { //Taro Root
 					"Price": "130"
-				}, //Taro Root
-				"832": {
+				},
+				"832": { //Pineapple
 					"Price": "185"
-				}, //Pineapple
-				"SummerSquash": {
+				},
+				"SummerSquash": { //Summer Squash
 					"Price": "40"
-				}, //Summer Squash
-				"300": {
+				},
+				"300": { //Amaranth
 					"Price": "140"
-				}, //Amaranth
-				"274": {
+				},
+				"274": { //Artichoke
 					"Price": "120"
-				}, //Artichoke
-				"284": {
+				},
+				"284": { //Beet
 					"Price": "95"
-				}, //Beet
-				"278": {
+				},
+				"278": { //Bok Choy
 					"Price": "95"
-				}, //Bok Choy
-				"282": {
+				},
+				"282": { //Cranberries
 					"Price": "50"
-				}, //Cranberries
-				"272": {
+				},
+				"272": { //Eggplant
 					"Price": "60"
-				}, //Eggplant
-				"398": {
+				},
+				"398": { //Grape
 					"Price": "65"
-				}, //Grape
-				"276": {
+				},
+				"276": { //Pumpkin
 					"Price": "220"
-				}, //Pumpkin
-				"280": {
+				},
+				"280": { //Yam
 					"Price": "155"
-				}, //Yam
-				"Broccoli": {
+				},
+				"Broccoli": { //Broccoli
 					"Price": "65"
-				}, //Broccoli
-				"815": {
+				},
+				"815": { //Tea Leaves
 					"Price": "50"
-				}, //Tea Leaves
-				"Powdermelon": {
+				},
+				"Powdermelon": { //Powdermelon
 					"Price": "105"
-				}, //Powdermelon
-				"417": {
+				},
+				"417": { //Sweet Gem Berry
 					"Price": "2000"
-				}, //Sweet Gem Berry
-				"271": {
+				},
+				"271": { //Unmilled Rice
 					"Price": "80"
-				}, //Unmilled Rice
-				"486": {
+				},
+				"486": { //Starfruit Seeds
 					"Price": "50"
-				}, //Starfruit Seeds
-				//Flowers
-				"597": {
+				},
+				"597": { //Blue Jazz
 					"Price": "140"
-				}, //Blue Jazz
-				"591": {
+				},
+				"591": { //Tulip
 					"Price": "130"
-				}, //Tulip
-				"376": {
+				},
+				"376": { //Poppy
 					"Price": "140"
-				}, //Poppy
-				"593": {
+				},
+				"593": { //Summer Spangle
 					"Price": "145"
-				}, //Summer Spangle
-				"595": {
+				},
+				"595": { //Fairy Rose
 					"Price": "160"
-				}, //Fairy Rose
-				"421": {
+				},
+				"421": { //Sunflower
 					"Price": "90"
-				}, //Sunflower
-				"429": {
+				},
+				"429": { //Blue Jazz Seed
 					"Price": "40"
-				}, //Blue Jazz Seed
-				"427": {
+				},
+				"427": { //Tulip Seed
 					"Price": "35"
-				}, //Tulip Seed
-				"453": {
+				},
+				"453": { //Poppy Seed
 					"Price": "40"
-				}, //Poppy Seed
-				"455": {
+				},
+				"455": { //Summer Spangle Seed
 					"Price": "40"
-				}, //Summer Spangle Seed
-				"425": {
+				},
+				"425": { //Fairy Rose Seed
 					"Price": "45"
-				}, //Fairy Rose Seed
-				"431": {
+				},
+				"431": { //Sunflower Seed
 					"Price": "30"
-				}, //Sunflower Seed
-				//Animals
-				"176": {
+				},
+				"176": { //Egg
 					"Price": "65"
-				}, //Egg
-				"180": {
+				},
+				"180": { //Egg
 					"Price": "65"
-				}, //Egg
-				"305": {
+				},
+				"305": { //Void Egg
 					"Price": "130"
-				}, //Void Egg
-				"442": {
+				},
+				"442": { //Duck Egg
 					"Price": "260"
-				}, //Duck Egg
-				"440": {
+				},
+				"440": { //Wool
 					"Price": "460"
-				}, //Wool
-				"107": {
+				},
+				"107": { //Dinosaur Egg
 					"Price": "800"
-				}, //Dinosaur Egg
-				"928": {
+				},
+				"928": { //Golden Egg
 					"Price": "250"
-				}, //Golden Egg
-				"184": {
+				},
+				"184": { //Milk
 					"Price": "75"
-				}, //Milk
-				"436": {
+				},
+				"436": { //Goat Milk
 					"Price": "150"
-				}, //Goat Milk
-				"430": {
+				},
+				"430": { //Truffle
 					"Price": "220"
-				}, //Truffle
-				"289": {
+				},
+				"289": { //Ostrich Egg
 					"Price": "1000"
-				}, //Ostrich Egg
-				"174": {
+				},
+				"174": { //Large Egg
 					"Price": "130"
-				}, //Large Egg
-				"182": {
+				},
+				"182": { //Large Egg
 					"Price": "130"
-				}, //Large Egg
-				"444": {
+				},
+				"444": { //Duck Feather
 					"Price": "520"
-				}, //Duck Feather
-				"446": {
+				},
+				"446": { //Rabbit's Foot
 					"Price": "920"
-				}, //Rabbit's Foot
-				"186": {
+				},
+				"186": { //Large Milk
 					"Price": "150"
-				}, //Large Milk
-				"438": {
+				},
+				"438": { //L. Goat Milk
 					"Price": "300"
-				}, //L. Goat Milk
-				"306": {
+				},
+				"306": { //Mayonnaise
 					"Price": "130"
-				}, //Mayonnaise
-				"308": {
+				},
+				"308": { //Void Mayonnaise
 					"Price": "260"
-				}, //Void Mayonnaise
-				"307": {
+				},
+				"307": { //Duck Mayonnaise
 					"Price": "520"
-				}, //Duck Mayonnaise
-				"428": {
+				},
+				"428": { //Cloth
 					"Price": "920"
-				}, //Cloth
-				"807": {
+				},
+				"807": { //Dinosaur Mayonnaise
 					"Price": "1600"
-				}, //Dinosaur Mayonnaise
-				"424": {
+				},
+				"424": { //Cheese
 					"Price": "150"
-				}, //Cheese
-				"426": {
+				},
+				"426": { //Goat Cheese
 					"Price": "300"
-				}, //Goat Cheese
-				"432": {
+				},
+				"432": { //Truffle Oil
 					"Price": "440"
-				}, //Truffle Oil
-				//Fruit Trees
-				"634": {
+				},
+				"634": { //Apricot
 					"Price": "110"
-				}, //Apricot
-				"638": {
+				},
+				"638": { //Cherry
 					"Price": "110"
-				}, //Cherry
-				"91": {
+				},
+				"91": { //Banana
 					"Price": "130"
-				}, //Banana
-				"834": {
+				},
+				"834": { //Mango
 					"Price": "120"
-				}, //Mango
-				"635": {
+				},
+				"635": { //Orange
 					"Price": "120"
-				}, //Orange
-				"636": {
+				},
+				"636": { //Peach
 					"Price": "130"
-				}, //Peach
-				"613": {
+				},
+				"613": { //Apple
 					"Price": "120"
-				}, //Apple
-				"637": {
+				},
+				"637": { //Pomegranate
 					"Price": "130"
-				}, //Pomegranate
-				"629": {
+				},
+				"629": { //Apricot Sapling
 					"Price": "500"
-				}, //Apricot Sapling
-				"628": {
+				},
+				"628": { //Cherry Sapling
 					"Price": "500"
-				}, //Cherry Sapling
-				"69": {
+				}, 
+				"69": { //Banana Sapling
 					"Price": "600"
-				}, //Banana Sapling
-				"835": {
+				},
+				"835": { //Mango Sapling
 					"Price": "550"
-				}, //Mango Sapling
-				"630": {
+				},
+				"630": { //Orange Sapling
 					"Price": "550"
-				}, //Orange Sapling
-				"631": {
+				},
+				"631": { //Peach Sapling
 					"Price": "600"
-				}, //Peach Sapling
-				"633": {
+				},
+				"633": { //Apple Sapling
 					"Price": "550"
-				}, //Apple Sapling
-				"632": {
+				},
+				"632": { //Pomegranate Sapling
 					"Price": "600"
-				}, //Pomegranate Sapling
-				//Mines
-				"74": {
+				},
+				"74": { //Prismatic Shard
 					"Price": "1500"
-				}, //Prismatic Shard
-				"72": {
+				},
+				"72": { //Diamond
 					"Price": "500"
-				}, //Diamond
-				"70": {
+				},
+				"70": { //Jade
 					"Price": "200"
-				}, //Jade
-				"68": {
+				},
+				"68": { //Topaz
 					"Price": "150"
-				}, //Topaz
-				"66": {
+				},
+				"66": { //Amethyst
 					"Price": "150"
-				}, //Amethyst
-				"64": {
+				},
+				"64": { //Ruby
 					"Price": "250"
-				}, //Ruby
-				"62": {
+				},
+				"62": { //Aquamarine
 					"Price": "200"
-				}, //Aquamarine
-				"60": {
+				},
+				"60": { //Emerald
 					"Price": "250"
-				}, //Emerald
-				"749": {
+				},
+				"749": { //Omni Geode
 					"Price": "100"
-				}, //Omni Geode
-				"275": {
+				},
+				"275": { //Artifact Trove
 					"Price": "100"
-				}, //Artifact Trove
-				"82": {
+				},
+				"82": { //Fire Quartz
 					"Price": "150"
-				}, //Fire Quartz
-				"86": {
+				},
+				"86": { //Earth Crystal
 					"Price": "120"
-				}, //Earth Crystal
-				"80": {
+				},
+				"80": { //Quartz
 					"Price": "50"
-				}, //Quartz
-				"84": {
+				},
+				"84": { //Frozen Tear
 					"Price": "100"
-				}, //Frozen Tear
-				"848": {
+				},
+				"848": { //Cinder Shard
 					"Price": "125"
-				}, //Cinder Shard
-				"338": {
+				},
+				"338": { //Refined Quartz
 					"Price": "100"
-				}, //Refined Quartz
-				"382": {
+				},
+				"382": { //Coal
 					"Price": "30"
-				}, //Coal
-				"378": {
+				},
+				"378": { //Copper Ore
 					"Price": "10"
-				}, //Copper Ore
-				"380": {
+				},
+				"380": { //Iron Ore
 					"Price": "20"
-				}, //Iron Ore
-				"384": {
+				},
+				"384": { //Gold Ore
 					"Price": "35"
-				}, //Gold Ore
-				"386": {
+				},
+				"386": { //Iridium Ore
 					"Price": "75"
-				}, //Iridium Ore
-				"909": {
+				},
+				"909": { //Radioactive Ore
 					"Price": "150"
-				}, //Radioactive Ore
-				"334": {
+				},
+				"334": { //Copper Bar
 					"Price": "100"
-				}, //Copper Bar
-				"335": {
+				},
+				"335": { //Iron Bar
 					"Price": "200"
-				}, //Iron Bar
-				"336": {
+				},
+				"336": { //Gold Bar
 					"Price": "350"
-				}, //Gold Bar
-				"337": {
+				},
+				"337": { //Iridium Bar
 					"Price": "750"
-				}, //Iridium Bar
-				"910": {
+				},
+				"910": { //Radioactive Bar
 					"Price": "1500"
-				}, //Radioactive Bar
-				"814": {
+				},
+				"814": { //Squid Ink
 					"Price": "150"
-				}, //Squid Ink
-				"769": {
+				},
+				"769": { //Void Essence
 					"Price": "60"
-				}, //Void Essence
-				"768": {
+				},
+				"768": { //Solar Essence
 					"Price": "60"
-				}, //Solar Essence
-				"767": {
+				},
+				"767": { //Bat Wing
 					"Price": "30"
-				}, //Bat Wing
-				"684": {
+				},
+				"684": { //Bug Meat
 					"Price": "15"
-				}, //Bug Meat
-				"766": {
+				},
+				"766": { //Slime
 					"Price": "10"
-				}, //Slime
-				"881": {
+				},
+				"881": { //Bone Fragment
 					"Price": "20"
-				}, //Bone Fragment
-				"96": {
+				},
+				"96": { //Dwarf Scroll I
 					"Price": "100"
-				}, //Dwarf Scroll I
-				"97": {
+				},
+				"97": { //Dwarf Scroll II
 					"Price": "100"
-				}, //Dwarf Scroll II
-				"98": {
+				},
+				"98": { //Dwarf Scroll III
 					"Price": "100"
-				}, //Dwarf Scroll III
-				"99": {
+				},
+				"99": { //Dwarf Scroll IV
 					"Price": "100"
-				}, //Dwarf Scroll IV
-				"100": {
+				},
+				"100": { //Chipped Amphora
 					"Price": "100"
-				}, //Chipped Amphora
-				"101": {
+				},
+				"101": { //Arrowhead
 					"Price": "120"
-				}, //Arrowhead
-				"103": {
+				},
+				"103": { //Ancient Doll
 					"Price": "180"
-				}, //Ancient Doll
-				"104": {
+				},
+				"104": { //Elvish Jewelry
 					"Price": "300"
-				}, //Elvish Jewelry
-				"105": {
+				},
+				"105": { //Chewing Stick
 					"Price": "150"
-				}, //Chewing Stick
-				"106": {
+				},
+				"106": { //Ornamental Fan
 					"Price": "300"
-				}, //Ornamental Fan
-				"108": {
+				},
+				"108": { //Rare Disc
 					"Price": "300"
-				}, //Rare Disc
-				"109": {
+				},
+				"109": { //Ancient Sword
 					"Price": "100"
-				}, //Ancient Sword
-				"110": {
+				},
+				"110": { //Rusty Spoon
 					"Price": "70"
-				}, //Rusty Spoon
-				"111": {
+				},
+				"111": { //Rusty Spur
 					"Price": "70"
-				}, //Rusty Spur
-				"112": {
+				},
+				"112": { //Rusty Cog
 					"Price": "70"
-				}, //Rusty Cog
-				"113": {
+				},
+				"113": { //Chicken Statue
 					"Price": "150"
-				}, //Chicken Statue
-				"114": {
+				},
+				"114": { //Ancient Seed
 					"Price": "100"
-				}, //Ancient Seed
-				"115": {
+				},
+				"115": { //Prehistoric Tool
 					"Price": "150"
-				}, //Prehistoric Tool
-				"116": {
+				},
+				"116": { //Dried Starfish
 					"Price": "120"
-				}, //Dried Starfish
-				"117": {
+				},
+				"117": { //Anchor
 					"Price": "200"
-				}, //Anchor
-				"118": {
+				},
+				"118": { //Glass Shards
 					"Price": "40"
-				}, //Glass Shards
-				"119": {
+				},
+				"119": { //Bone Flute
 					"Price": "300"
-				}, //Bone Flute
-				"120": {
+				},
+				"120": { //Prehistoric Handaxe
 					"Price": "100"
-				}, //Prehistoric Handaxe
-				"121": {
+				},
+				"121": { //Dwarvish Helm
 					"Price": "300"
-				}, //Dwarvish Helm
-				"122": {
+				},
+				"122": { //Dwarf Gadget
 					"Price": "500"
-				}, //Dwarf Gadget
-				"123": {
+				},
+				"123": { //Ancient Drum
 					"Price": "300"
-				}, //Ancient Drum
-				"124": {
+				},
+				"124": { //Golden Mask
 					"Price": "500"
-				}, //Golden Mask
-				"125": {
+				},
+				"125": { //Golden Relic
 					"Price": "500"
-				}, //Golden Relic
-				"126": {
+				},
+				"126": { //Strange Doll
 					"Price": "750"
-				}, //Strange Doll
-				"127": {
+				},
+				"127": { //Strange Doll
 					"Price": "750"
-				}, //Strange Doll
-				"579": {
+				},
+				"579": { //Prehistoric Scapula
 					"Price": "200"
-				}, //Prehistoric Scapula
-				"580": {
+				},
+				"580": { //Prehistoric Tibia
 					"Price": "200"
-				}, //Prehistoric Tibia
-				"581": {
+				},
+				"581": { //Prehistoric Skull
 					"Price": "200"
-				}, //Prehistoric Skull
-				"582": {
+				},
+				"582": { //Skeletal Hand
 					"Price": "200"
-				}, //Skeletal Hand
-				"583": {
+				},
+				"583": { //Prehistoric Rib
 					"Price": "200"
-				}, //Prehistoric Rib
-				"584": {
+				},
+				"584": { //Prehistoric Vertebra
 					"Price": "200"
-				}, //Prehistoric Vertebra
-				"585": {
+				},
+				"585": { //Skeletal Tail
 					"Price": "200"
-				}, //Skeletal Tail
-				"586": {
+				},
+				"586": { //Nautilus Fossil
 					"Price": "200"
-				}, //Nautilus Fossil
-				"587": {
+				},
+				"587": { //Amphibian Fossil
 					"Price": "200"
-				}, //Amphibian Fossil
-				"588": {
+				},
+				"588": { //Palm Fossil
 					"Price": "200"
-				}, //Palm Fossil
-				"589": {
+				},
+				"589": { //Trilobite
 					"Price": "100"
-				}, //Trilobite
-				"823": {
+				},
+				"823": { //Fossilized Leg
 					"Price": "200"
-				}, //Fossilized Leg
-				"824": {
+				},
+				"824": { //Fossilized Ribs
 					"Price": "200"
-				}, //Fossilized Ribs
-				"820": {
+				},
+				"820": { //Fossilized Skull
 					"Price": "200"
-				}, //Fossilized Skull
-				"821": {
+				},
+				"821": { //Fossilized Spine
 					"Price": "200"
-				}, //Fossilized Spine
-				"822": {
+				},
+				"822": { //Fossilized Tail
 					"Price": "200"
-				}, //Fossilized Tail
-				"828": {
+				},
+				"828": { //Mummified Frog
 					"Price": "200"
-				}, //Mummified Frog
-				"827": {
+				},
+				"827": { //Mummified Bat
 					"Price": "200"
-				}, //Mummified Bat
-				"825": {
+				},
+				"825": { //Snake Skull
 					"Price": "200"
-				}, //Snake Skull
-				"826": {
+				},
+				"826": { //Snake Vertebrae
 					"Price": "200"
-				}, //Snake Vertebrae
-				"538": {
+				},
+				"538": { //Alamite
 					"Price": "225"
-				}, //Alamite
-				"542": {
+				},
+				"542": { //Calcite
 					"Price": "115"
-				}, //Calcite
-				"548": {
+				},
+				"548": { //Jamborite
 					"Price": "225"
-				}, //Jamborite
-				"549": {
+				},
+				"549": { //Jagoite
 					"Price": "175"
-				}, //Jagoite
-				"552": {
+				},
+				"552": { //Malachite
 					"Price": "150"
-				}, //Malachite
-				"555": {
+				},
+				"555": { //Nekoite
 					"Price": "120"
-				}, //Nekoite
-				"556": {
+				},
+				"556": { //Orpiment
 					"Price": "120"
-				}, //Orpiment
-				"558": {
+				},
+				"558": { //Thunder Egg
 					"Price": "150"
-				}, //Thunder Egg
-				"566": {
+				},
+				"566": { //Celestine
 					"Price": "190"
-				}, //Celestine
-				"568": {
+				},
+				"568": { //Sandstone
 					"Price": "90"
-				}, //Sandstone
-				"569": {
+				},
+				"569": { //Granite
 					"Price": "115"
-				}, //Granite
-				"571": {
+				},
+				"571": { //Limestone
 					"Price": "25"
-				}, //Limestone
-				"574": {
+				},
+				"574": { //Mudstone
 					"Price": "40"
-				}, //Mudstone
-				"576": {
+				},
+				"576": { //Slate
 					"Price": "165"
-				}, //Slate
-				"557": {
+				},
+				"557": { //Petrified Slime
 					"Price": "180"
-				}, //Petrified Slime
-				"564": {
+				},
+				"564": { //Opal
 					"Price": "225"
-				}, //Opal
-				"541": {
+				},
+				"541": { //Aerinite
 					"Price": "190"
-				}, //Aerinite
-				"544": {
+				},
+				"544": { //Esperite
 					"Price": "150"
-				}, //Esperite
-				"545": {
+				},
+				"545": { //Fluorapatite
 					"Price": "300"
-				}, //Fluorapatite
-				"546": {
+				},
+				"546": { //Geminite
 					"Price": "225"
-				}, //Geminite
-				"550": {
+				},
+				"550": { //Kyanite
 					"Price": "250"
-				}, //Kyanite
-				"551": {
+				}, 
+				"551": { //Lunarite
 					"Price": "300"
-				}, //Lunarite
-				"559": {
+				},
+				"559": { //Pyrite
 					"Price": "180"
-				}, //Pyrite
-				"560": {
+				},
+				"560": { //Ocean Stone
 					"Price": "275"
-				}, //Ocean Stone
-				"561": {
+				},
+				"561": { //Ghost Crystal
 					"Price": "300"
-				}, //Ghost Crystal
-				"567": {
+				},
+				"567": { //Marble
 					"Price": "165"
-				}, //Marble
-				"572": {
+				},
+				"572": { //Soapstone
 					"Price": "180"
-				}, //Soapstone
-				"573": {
+				},
+				"573": { //Hematite
 					"Price": "225"
-				}, //Hematite
-				"577": {
+				},
+				"577": { //Fairy Stone
 					"Price": "250"
-				}, //Fairy Stone
-				"562": {
+				},
+				"562": { //Tigerseye
 					"Price": "275"
-				}, //Tigerseye
-				"565": {
+				},
+				"565": { //Fire Opal
 					"Price": "350"
-				}, //Fire Opal
-				"540": {
+				},
+				"540": { //Baryte
 					"Price": "75"
-				}, //Baryte
-				"543": {
+				},
+				"543": { //Dolomite
 					"Price": "300"
-				}, //Dolomite
-				"547": {
+				},
+				"547": { //Helvite
 					"Price": "450"
-				}, //Helvite
-				"554": {
+				},
+				"554": { //Lemon Stone
 					"Price": "300"
-				}, //Lemon Stone
-				"563": {
+				}, 
+				"563": { //Jasper
 					"Price": "225"
-				}, //Jasper
-				"570": {
+				},
+				"570": { //Basalt
 					"Price": "265"
-				}, //Basalt
-				"575": {
+				},
+				"575": { //Obsidian
 					"Price": "300"
-				}, //Obsidian
-				"578": {
+				},
+				"578": { //Star Shards
 					"Price": "500"
-				}, //Star Shards
-				"539": {
+				},
+				"539": { //Bixite
 					"Price": "300"
-				}, //Bixite
-				"553": {
+				},
+				"553": { //Neptunite
 					"Price": "400"
-				}, //Neptunite
-				//Forage
-				"16": {
+				},
+				"16": { //Wild Horseradish
 					"Price": "70"
-				}, //Wild Horseradish
-				"18": {
+				}, 
+				"18": { //Daffodil
 					"Price": "50"
-				}, //Daffodil
-				"20": {
+				},
+				"20": { //Leek
 					"Price": "80"
-				}, //Leek
-				"22": {
+				},
+				"22": { //Dandelion
 					"Price": "60"
-				}, //Dandelion
-				"399": {
+				},
+				"399": { //Spring Onion
 					"Price": "15"
-				}, //Spring Onion
-				"396": {
+				},
+				"396": { //Spice Berry
 					"Price": "80"
-				}, //Spice Berry
-				"402": {
+				},
+				"402": { //Sweet Pea
 					"Price": "65"
-				}, //Sweet Pea
-				"404": {
+				},
+				"404": { //Common Mushroom
 					"Price": "65"
-				}, //Common Mushroom
-				"406": {
+				},
+				"406": { //Wild Plum
 					"Price": "85"
-				}, //Wild Plum
-				"408": {
+				},
+				"408": { //Hazelnut
 					"Price": "85"
-				}, //Hazelnut
-				"296": {
+				},
+				"296": { //Salmonberry
 					"Price": "15"
-				}, //Salmonberry
-				"410": {
+				},
+				"410": { //Blackberry
 					"Price": "25"
-				}, //Blackberry
-				"412": {
+				},
+				"412": { //Winter Root
 					"Price": "65"
-				}, //Winter Root
-				"414": {
+				},
+				"414": { //Crystal Fruit
 					"Price": "80"
-				}, //Crystal Fruit
-				"416": {
+				},
+				"416": { //Snow Yam
 					"Price": "60"
-				}, //Snow Yam
-				"418": {
+				},
+				"418": { //Crocus
 					"Price": "55"
-				}, //Crocus
-				"283": {
+				},
+				"283": { //Holly
 					"Price": "50"
-				}, //Holly
-				"259": {
+				},
+				"259": { //Fiddlehead Fern
 					"Price": "110"
-				}, //Fiddlehead Fern
-				"281": {
+				},
+				"281": { //Chanterelle
 					"Price": "120"
-				}, //Chanterelle
-				"420": {
+				},
+				"420": { //Red Mushroom
 					"Price": "75"
-				}, //Red Mushroom
-				"422": {
+				},
+				"422": { //Purple Mushroom
 					"Price": "130"
-				}, //Purple Mushroom
-				"257": {
+				},
+				"257": {//Morel
 					"Price": "120"
-				}, //Morel
-				"88": {
+				}, 
+				"88": { //Coconut
 					"Price": "100"
-				}, //Coconut
-				"791": {
+				}, 
+				"791": {  //Golden Coconut
 					"Price": "200"
-				}, //Golden Coconut
-				//Misc
-				"388": {
+				},
+				"388": { //Wood
 					"Price": "4"
-				}, //Wood
-				"390": {
+				},
+				"390": { //Stone
 					"Price": "5"
-				}, //Stone
-				"92": {
+				},
+				"92": { //Sap
 					"Price": "5"
-				}, //Sap
-				"709": {
+				},
+				"709": { //Hardwood
 					"Price": "25"
-				}, //Hardwood
-				"771": {
+				},
+				"771": { //Fiber
 					"Price": "5"
-				}, //Fiber
-				"330": {
+				},
+				"330": { //Clay
 					"Price": "40"
-				}, //Clay
-				"178": {
+				},
+				"178": { //Hay
 					"Price": "3"
-				}, //Hay
-				"685": {
+				},
+				"685": { //Bait
 					"Price": "2"
-				}, //Bait
-				"774": {
+				},
+				"774": { //Wild Bait
 					"Price": "10"
-				}, //Wild Bait
-				"DeluxeBait": {
+				},
+				"DeluxeBait": { //Deluxe Bait
 					"Price": "10"
-				}, //Deluxe Bait
-				"908": {
+				},
+				"908": { //Magic Bait
 					"Price": "25"
-				}, //Magic Bait
-				"ChallengeBait": {
+				},
+				"ChallengeBait": { //Challenge Bait
 					"Price": "20"
-				}, //Challenge Bait
-				"309": {
+				},
+				"309": { //Acorn
 					"Price": "10"
-				}, //Acorn
-				"310": {
+				},
+				"310": { //Maple Seed
 					"Price": "10"
-				}, //Maple Seed
-				"311": {
+				},
+				"311": { //Pine Cone
 					"Price": "10"
-				}, //Pine Cone
-				"292": {
+				},
+				"292": { //Mahogany Seed
 					"Price": "50"
-				}, //Mahogany Seed
-				"829": {
+				},
+				"829": { //Ginger
 					"Price": "90"
-				}, //Ginger
-				"78": {
+				},
+				"78": { //Cave Carrot
 					"Price": "75"
-				}, //Cave Carrot
-				"340": {
+				},
+				"340": { //Honey
 					"Price": "150"
-				}, //Honey
-				"459": {
+				},
+				"459": { //Mead
 					"Price": "300"
-				}, //Mead
-				"724": {
+				},
+				"724": { //Maple Syrup
 					"Price": "200"
-				}, //Maple Syrup
-				"725": {
+				},
+				"725": { //Oak Resin
 					"Price": "150"
-				}, //Oak Resin
-				"726": {
+				},
+				"726": { //Pine Tar
 					"Price": "100"
-				}, //Pine Tar
-				"MysticSyrup": {
+				},
+				"MysticSyrup": { //Mystic Syrup
 					"Price": "500"
-				}, //Mystic Syrup
-				"787": {
+				},
+				"787": { //Battery Pack
 					"Price": "300"
-				}, //Battery Pack
-				"297": {
+				},
+				"297": { //Grass Starter
 					"Price": "25"
-				}, //Grass Starter
-				"251": {
+				},
+				"251": { //Tea Sapling
 					"Price": "50"
-				}, //Tea Sapling
-				"686": {
+				},
+				"686": { //Spinner
 					"Price": "100"
-				}, //Spinner
-				"687": {
+				},
+				"687": { //Dressed Spinner
 					"Price": "150"
-				}, //Dressed Spinner
-				"694": {
+				},
+				"694": { //Trap Bobber
 					"Price": "100"
-				}, //Trap Bobber
-				"695": {
+				},
+				"695": { //Cork Bobber
 					"Price": "100"
-				}, //Cork Bobber
-				"693": {
+				},
+				"693": { //Treasure Hunter
 					"Price": "100"
-				}, //Treasure Hunter
-				"874": {
+				},
+				"874": { //Bug Steak
 					"Price": "50"
-				}, //Bug Steak
-				"403": {
+				},
+				"403": { //Field Snack
 					"Price": "20"
-				}, //Field Snack
-				"812": {
+				},
+				"812": { //Roe
 					"Price": "50"
-				}, //Roe
-				"447": {
+				},
+				"447": { //Aged Roe
 					"Price": "100"
-				}, //Aged Roe
-				"445": {
+				},
+				"445": { //Caviar
 					"Price": "300"
-				}, //Caviar
-				"245": {
+				},
+				"245": { //Sugar
 					"Price": "30"
-				}, //Sugar
-				"246": {
+				},
+				"246": { //Wheat Flour
 					"Price": "50"
-				}, //Wheat Flour
-				"423": {
+				},
+				"423": { //Rice
 					"Price": "100"
-				}, //Rice
-				"247": {
+				},
+				"247": { //Oil
 					"Price": "100"
-				}, //Oil
-				"419": {
+				},
+				"419": { //Vinegar
 					"Price": "100"
-				}, //Vinegar
-				"395": {
+				},
+				"395": { //Coffee
 					"Price": "140"
-				}, //Coffee
-				"303": {
+				},
+				"303": { //Pale Ale
 					"Price": "90"
-				}, //Pale Ale
-				"346": {
+				},
+				"346": { //Beer
 					"Price": "160"
-				}, //Beer
-				"614": {
+				},
+				"614": { //Green Tea
 					"Price": "200"
-				}, //Green Tea
-				//Fish
-				"128": {
+				},
+				"128": { //Pufferfish
 					"Price": "155"
-				}, //Pufferfish
-				"129": {
+				},
+				"129": { //Anchovy
 					"Price": "55"
-				}, //Anchovy
-				"130": {
+				},
+				"130": { //Tuna
 					"Price": "115"
-				}, //Tuna
-				"131": {
+				},
+				"131": { //Sardine
 					"Price": "55"
-				}, //Sardine
-				"132": {
+				},
+				"132": { //Bream
 					"Price": "60"
-				}, //Bream
-				"136": {
+				},
+				"136": { //Largemouth Bass
 					"Price": "85"
-				}, //Largemouth Bass
-				"137": {
+				},
+				"137": { //Smallmouth Bass
 					"Price": "55"
-				}, //Smallmouth Bass
-				"138": {
+				},
+				"138": { //Rainbow Trout
 					"Price": "75"
-				}, //Rainbow Trout
-				"139": {
+				},
+				"139": { //Salmon
 					"Price": "85"
-				}, //Salmon
-				"140": {
+				},
+				"140": { //Walleye
 					"Price": "75"
-				}, //Walleye
-				"141": {
+				},
+				"141": { //Perch
 					"Price": "60"
-				}, //Perch
-				"142": {
+				},
+				"142": { //Carp
 					"Price": "50"
-				}, //Carp
-				"143": {
+				},
+				"143": { //Catfish
 					"Price": "135"
-				}, //Catfish
-				"144": {
+				},
+				"144": { //Pike
 					"Price": "95"
-				}, //Pike
-				"145": {
+				},
+				"145": { //Sunfish
 					"Price": "55"
-				}, //Sunfish
-				"146": {
+				},
+				"146": { //Red Mullet
 					"Price": "90"
-				}, //Red Mullet
-				"147": {
+				},
+				"147": { //Herring
 					"Price": "55"
-				}, //Herring
-				"148": {
+				},
+				"148": { //Eel
 					"Price": "115"
-				}, //Eel
-				"149": {
+				},
+				"149": { //Octopus
 					"Price": "215"
-				}, //Octopus
-				"150": {
+				},
+				"150": { //Red Snapper
 					"Price": "65"
-				}, //Red Snapper
-				"151": {
+				},
+				"151": { //Squid
 					"Price": "135"
-				}, //Squid
-				"154": {
+				},
+				"154": { //Sea Cucumber
 					"Price": "65"
-				}, //Sea Cucumber
-				"155": {
+				},
+				"155": { //Super Cucumber
 					"Price": "155"
-				}, //Super Cucumber
-				"156": {
+				},
+				"156": { //Ghostfish
 					"Price": "85"
-				}, //Ghostfish
-				"164": {
+				},
+				"164": { //Sandfish
 					"Price": "100"
-				}, //Sandfish
-				"165": {
+				},
+				"165": { //Scorpion Carp
 					"Price": "225"
-				}, //Scorpion Carp
-				"267": {
+				},
+				"267": { //Flounder
 					"Price": "85"
-				}, //Flounder
-				"269": {
+				},
+				"269": { //Midnight Carp
 					"Price": "110"
-				}, //Midnight Carp
-				"698": {
+				},
+				"698": { //Sturgeon
 					"Price": "155"
-				}, //Sturgeon
-				"699": {
+				},
+				"699": { //Tiger Trout
 					"Price": "95"
-				}, //Tiger Trout
-				"700": {
+				},
+				"700": { //Bullhead
 					"Price": "85"
-				}, //Bullhead
-				"701": {
+				},
+				"701": { //Tilapia
 					"Price": "85"
-				}, //Tilapia
-				"702": {
+				},
+				"702": { //Chub
 					"Price": "60"
-				}, //Chub
-				"704": {
+				},
+				"704": { //Dorado
 					"Price": "155"
-				}, //Dorado
-				"705": {
+				},
+				"705": { //Albacore
 					"Price": "95"
-				}, //Albacore
-				"706": {
+				},
+				"706": { //Shad
 					"Price": "75"
-				}, //Shad
-				"707": {
+				},
+				"707": { //Lingcod
 					"Price": "165"
-				}, //Lingcod
-				"708": {
+				},
+				"708": { //Halibut
 					"Price": "85"
-				}, //Halibut
-				"734": {
+				},
+				"734": { //Woodskip
 					"Price": "85"
-				}, //Woodskip
-				"795": {
+				},
+				"795": { //Void Salmon
 					"Price": "155"
-				}, //Void Salmon
-				"796": {
+				},
+				"796": { //Slimejack
 					"Price": "90"
-				}, //Slimejack
-				"836": {
+				},
+				"836": { //Stingray
 					"Price": "155"
-				}, //Stingray
-				"837": {
+				},
+				"837": { //Lionfish
 					"Price": "85"
-				}, //Lionfish
-				"838": {
+				},
+				"838": { //Blue Discus
 					"Price": "95"
-				}, //Blue Discus
-				"158": {
+				},
+				"158": { //Stonefish
 					"Price": "150"
-				}, //Stonefish
-				"161": {
+				},
+				"161": { //Ice Pip
 					"Price": "250"
-				}, //Ice Pip
-				"162": {
+				},
+				"162": { //Lava Eel
 					"Price": "290"
-				}, //Lava Eel
-				"798": {
+				},
+				"798": { //Midnight Squid
 					"Price": "135"
-				}, //Midnight Squid
-				"799": {
+				},
+				"799": { //Spook Fish
 					"Price": "165"
-				}, //Spook Fish
-				"800": {
+				},
+				"800": { //Blobfish
 					"Price": "250"
-				}, //Blobfish
-				"159": {
+				},
+				"159": { //Crimsonfish
 					"Price": "2000"
-				}, //Crimsonfish
-				"160": {
+				},
+				"160": { //Angler
 					"Price": "1500"
-				}, //Angler
-				"163": {
+				},
+				"163": { //Legend
 					"Price": "3000"
-				}, //Legend
-				"775": {
+				},
+				"775": { //Glacierfish
 					"Price": "2000"
-				}, //Glacierfish
-				"682": {
+				},
+				"682": { //Mutant Carp
 					"Price": "1500"
-				}, //Mutant Carp
-				"898": {
+				},
+				"898": { //Son of Crimsonfish
 					"Price": "900"
-				}, //Son of Crimsonfish
-				"899": {
+				},
+				"899": { //Ms. Angler
 					"Price": "800"
-				}, //Ms. Angler
-				"900": {
+				},
+				"900": { //Legend II
 					"Price": "1000"
-				}, //Legend II
-				"902": {
+				},
+				"902": { //Glacierfish Jr.
 					"Price": "900"
-				}, //Glacierfish Jr.
-				"901": {
+				},
+				"901": { //Radioactive Carp
 					"Price": "800"
-				}, //Radioactive Carp
-				"715": {
+				},
+				"715": { //Lobster
 					"Price": "160"
-				}, //Lobster
-				"372": {
+				},
+				"372": { //Clam
 					"Price": "70"
-				}, //Clam
-				"716": {
+				},
+				"716": { //Crayfish
 					"Price": "120"
-				}, //Crayfish
-				"717": {
+				},
+				"717": { //Crab
 					"Price": "140"
-				}, //Crab
-				"718": {
+				},
+				"718": { //Cockle
 					"Price": "80"
-				}, //Cockle
-				"719": {
+				},
+				"719": { //Mussel
 					"Price": "60"
-				}, //Mussel
-				"720": {
+				},
+				"720": { //Shrimp
 					"Price": "100"
-				}, //Shrimp
-				"721": {
+				},
+				"721": { //Snail
 					"Price": "100"
-				}, //Snail
-				"722": {
+				},
+				"722": { //Periwinkle
 					"Price": "60"
-				}, //Periwinkle
-				"723": {
+				},
+				"723": { //Oyster
 					"Price": "70"
-				}, //Oyster
-				"152": {
+				},
+				"152": { //Seaweed
 					"Price": "35"
-				}, //Seaweed
-				"153": {
+				},
+				"153": { //Green Algae
 					"Price": "25"
-				}, //Green Algae
-				"157": {
+				},
+				"157": { //White Algae
 					"Price": "40"
-				}, //White Algae
-				//Food
-				"194": {
+				},
+				"194": { //Fried Egg
 					"Price": "70"
-				}, //Fried Egg
-				"195": {
+				},
+				"195": { //Omelet
 					"Price": "155"
-				}, //Omelet
-				"196": {
+				},
+				"196": { //Salad
 					"Price": "265"
-				}, //Salad
-				"197": {
+				},
+				"197": { //Cheese Cauliflower
 					"Price": "375"
-				}, //Cheese Cauliflower
-				"198": {
+				},
+				"198": { //Baked Fish
 					"Price": "195"
-				}, //Baked Fish
-				"199": {
+				},
+				"199": { //Parsnip Soup
 					"Price": "265"
-				}, //Parsnip Soup
-				"200": {
+				},
+				"200": { //Vegetable Medley
 					"Price": "170"
-				}, //Vegetable Medley
-				"201": {
+				},
+				"201": { //Complete Breakfast
 					"Price": "585"
-				}, //Complete Breakfast
-				"202": {
+				},
+				"202": { //Fried Calamari
 					"Price": "325"
-				}, //Fried Calamari
-				"203": {
+				},
+				"203": { //Strange Bun
 					"Price": "420"
-				}, //Strange Bun
-				"204": {
+				},
+				"204": { //Lucky Lunch
 					"Price": "305"
-				}, //Lucky Lunch
-				"205": {
+				},
+				"205": { //Fried Mushroom
 					"Price": "315"
-				}, //Fried Mushroom
-				"206": {
+				},
+				"206": { //Pizza
 					"Price": "310"
-				}, //Pizza
-				"207": {
+				},
+				"207": { //Bean Hotpot
 					"Price": "145"
-				}, //Bean Hotpot
-				"208": {
+				},
+				"208": { //Glazed Yams
 					"Price": "205"
-				}, //Glazed Yams
-				"209": {
+				},
+				"209": { //Carp Surprise
 					"Price": "220"
-				}, //Carp Surprise
-				"210": {
+				},
+				"210": { //Hashbrowns
 					"Price": "215"
-				}, //Hashbrowns
-				"211": {
+				},
+				"211": { //Pancakes
 					"Price": "170"
-				}, //Pancakes
-				"212": {
+				},
+				"212": { //Salmon Dinner
 					"Price": "390"
-				}, //Salmon Dinner
-				"213": {
+				},
+				"213": { //Fish Taco
 					"Price": "560"
-				}, //Fish Taco
-				"214": {
+				},
+				"214": { //Crispy Bass
 					"Price": "270"
-				}, //Crispy Bass
-				"215": {
+				},
+				"215": { //Pepper Poppers
 					"Price": "210"
-				}, //Pepper Poppers
-				"216": {
+				},
+				"216": { //Bread
 					"Price": "65"
-				}, //Bread
-				"218": {
+				},
+				"218": { //Tom Kha Soup
 					"Price": "290"
-				}, //Tom Kha Soup
-				"219": {
+				},
+				"219": { //Trout Soup
 					"Price": "110"
-				}, //Trout Soup
-				"220": {
+				},
+				"220": { //Chocolate Cake
 					"Price": "170"
-				}, //Chocolate Cake
-				"221": {
+				},
+				"221": { //Pink Cake
 					"Price": "430"
-				}, //Pink Cake
-				"222": {
+				},
+				"222": { //Rhubarb Pie
 					"Price": "345"
-				}, //Rhubarb Pie
-				"223": {
+				},
+				"223": { //Cookie
 					"Price": "170"
-				}, //Cookie
-				"224": {
+				},
+				"224": { //Spaghetti
 					"Price": "145"
-				}, //Spaghetti
-				"225": {
+				},
+				"225": { //Fried Eel
 					"Price": "235"
-				}, //Fried Eel
-				"226": {
+				},
+				"226": { //Spicy Eel
 					"Price": "170"
-				}, //Spicy Eel
-				"227": {
+				},
+				"227": { //Sashimi
 					"Price": "70"
-				}, //Sashimi
-				"228": {
+				},
+				"228": { //Maki Roll
 					"Price": "220"
-				}, //Maki Roll
-				"229": {
+				},
+				"229": { //Tortilla
 					"Price": "70"
-				}, //Tortilla
-				"230": {
+				},
+				"230": { //Red Plate
 					"Price": "325"
-				}, //Red Plate
-				"231": {
+				},
+				"231": { //Eggplant Parmesan
 					"Price": "175"
-				}, //Eggplant Parmesan
-				"232": {
+				},
+				"232": { //Rice Pudding
 					"Price": "225"
-				}, //Rice Pudding
-				"233": {
+				},
+				"233": { //Ice Cream
 					"Price": "115"
-				}, //Ice Cream
-				"234": {
+				},
+				"234": { //Blueberry Tart
 					"Price": "205"
-				}, //Blueberry Tart
-				"235": {
+				},
+				"235": { //Autumn's Bounty
 					"Price": "415"
-				}, //Autumn's Bounty
-				"236": {
+				},
+				"236": { //Pumpkin Soup
 					"Price": "325"
-				}, //Pumpkin Soup
-				"237": {
+				},
+				"237": { //Super Meal
 					"Price": "290"
-				}, //Super Meal
-				"238": {
+				},
+				"238": { //Cranberry Sauce
 					"Price": "90"
-				}, //Cranberry Sauce
-				"239": {
+				},
+				"239": { //Stuffing
 					"Price": "220"
-				}, //Stuffing
-				"240": {
+				},
+				"240": { //Farmer's Lunch
 					"Price": "240"
-				}, //Farmer's Lunch
-				"241": {
+				},
+				"241": { //Survival Burger
 					"Price": "220"
-				}, //Survival Burger
-				"242": {
+				},
+				"242": { //Dish O' The Sea
 					"Price": "360"
-				}, //Dish O' The Sea
-				"243": {
+				},
+				"243": { //Miner's Treat
 					"Price": "280"
-				}, //Miner's Treat
-				"244": {
+				},
+				"244": { //Roots Platter
 					"Price": "155"
-				}, //Roots Platter
-				"253": {
+				},
+				"253": { //Triple Shot Espresso
 					"Price": "460"
-				}, //Triple Shot Espresso
-				"265": {
+				},
+				"265": { //Seafoam Pudding
 					"Price": "280"
-				}, //Seafoam Pudding
-				"456": {
+				},
+				"456": { //Algae Soup
 					"Price": "110"
-				}, //Algae Soup
-				"457": {
+				},
+				"457": { //Pale Broth
 					"Price": "90"
-				}, //Pale Broth
-				"604": {
+				},
+				"604": { //Plum Pudding
 					"Price": "285"
-				}, //Plum Pudding
-				"605": {
+				},
+				"605": { //Artichoke Dip
 					"Price": "215"
-				}, //Artichoke Dip
-				"606": {
+				},
+				"606": { //Stir Fry
 					"Price": "400"
-				}, //Stir Fry
-				"607": {
+				},
+				"607": { //Roasted Hazelnuts
 					"Price": "280"
-				}, //Roasted Hazelnuts
-				"608": {
+				},
+				"608": { //Pumpkin Pie
 					"Price": "425"
-				}, //Pumpkin Pie
-				"609": {
+				},
+				"609": { //Radish Salad
 					"Price": "340"
-				}, //Radish Salad
-				"610": {
+				},
+				"610": { //Fruit Salad
 					"Price": "365"
-				}, //Fruit Salad
-				"611": {
+				},
+				"611": { //Blackberry Cobbler
 					"Price": "155"
-				}, //Blackberry Cobbler
-				"612": {
+				},
+				"612": { //Cranberry Candy
 					"Price": "220"
-				}, //Cranberry Candy
-				"618": {
+				},
+				"618": { //Bruschetta
 					"Price": "260"
-				}, //Bruschetta
-				"648": {
+				},
+				"648": { //Coleslaw
 					"Price": "470"
-				}, //Coleslaw
-				"649": {
+				},
+				"649": { //Fiddlehead Risotto
 					"Price": "325"
-				}, //Fiddlehead Risotto
-				"651": {
+				},
+				"651": { //Poppyseed Muffin
 					"Price": "255"
-				}, //Poppyseed Muffin
-				"727": {
+				},
+				"727": { //Chowder
 					"Price": "160"
-				}, //Chowder
-				"728": {
+				},
+				"728": { //Fish Stew
 					"Price": "340"
-				}, //Fish Stew
-				"729": {
+				},
+				"729": { //Escargot
 					"Price": "205"
-				}, //Escargot
-				"730": {
+				},
+				"730": { //Lobster Bisque
 					"Price": "260"
-				}, //Lobster Bisque
-				"731": {
+				},
+				"731": { //Maple Bar
 					"Price": "320"
-				}, //Maple Bar
-				"732": {
+				},
+				"732": { //Crab Cakes
 					"Price": "400"
-				}, //Crab Cakes
-				"733": {
+				},
+				"733": { //Shrimp Cocktail
 					"Price": "265"
-				}, //Shrimp Cocktail
-				"903": {
+				},
+				"903": { //Ginger Ale
 					"Price": "130"
-				}, //Ginger Ale
-				"904": {
+				},
+				"904": { //Banana Pudding
 					"Price": "260"
-				}, //Banana Pudding
-				"905": {
+				},
+				"905": { //Mango Sticky Rice
 					"Price": "350"
-				}, //Mango Sticky Rice
-				"906": {
+				},
+				"906": { //Poi
 					"Price": "570"
-				}, //Poi
-				"907": {
+				},
+				"907": { //Tropical Curry
 					"Price": "360"
-				}, //Tropical Curry
-				"921": {
+				},
+				"921": { //Squid Ink Ravioli
 					"Price": "210"
-				}, //Squid Ink Ravioli
-				"773": {
+				},
+				"773": { //Life Elixir
 					"Price": "490"
-				}, //Life Elixir
-				"772": {
+				},
+				"772": { //Oil of Garlic
 					"Price": "1045"
-				} //Oil of Garlic
+				} 
 			},
 			"When": {
 				"Sell Prices": true
 			}
 		},
-		//Apples Event (SVE)
-		{
+		{	//Apples Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"268": {
+				"268": { //Starfruit
 					"Price": "240"
-				} //Starfruit
+				} 
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=7776009": true,
@@ -1363,14 +1352,13 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		//Sofia Event (SVE)
-		{
+		{	//Sofia Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"398": {
+				"398": { //Grape
 					"Price": "75"
-				} //Grape
+				} 
 			},
 			"When": {
 				"Spouse": "Sophia",
@@ -1379,14 +1367,13 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		//Andy Special Order (SVE)
-		{
+		{	//Andy Special Order (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"400": {
+				"400": { //Strawberry
 					"Price": "90"
-				} //Strawberry
+				} 
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407915": true,
@@ -1394,86 +1381,85 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		//Morgan Event (SVE)
-		{
+		{	//Morgan Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"176": {
+				"176": { //Egg
 					"Price": "70"
-				}, //Egg
-				"180": {
+				},
+				"180": { //Egg
 					"Price": "70"
-				}, //Egg
-				"305": {
+				},
+				"305": { //Void Egg
 					"Price": "135"
-				}, //Void Egg
-				"442": {
+				},
+				"442": { //Duck Egg
 					"Price": "265"
-				}, //Duck Egg
-				"440": {
+				},
+				"440": { //Wool
 					"Price": "470"
-				}, //Wool
-				"107": {
+				},
+				"107": { //Dinosaur Egg
 					"Price": "850"
-				}, //Dinosaur Egg
-				"928": {
+				},
+				"928": { //Golden Egg
 					"Price": "300"
-				}, //Golden Egg
-				"184": {
+				},
+				"184": { //Milk
 					"Price": "80"
-				}, //Milk
-				"436": {
+				},
+				"436": { //Goat Milk
 					"Price": "160"
-				}, //Goat Milk
-				"430": {
+				},
+				"430": { //Truffle
 					"Price": "230"
-				}, //Truffle
-				"289": {
+				},
+				"289": { //Ostrich Egg
 					"Price": "1100"
-				}, //Ostrich Egg
-				"174": {
+				},
+				"174": { //Large Egg
 					"Price": "140"
-				}, //Large Egg
-				"182": {
+				},
+				"182": { //Large Egg
 					"Price": "140"
-				}, //Large Egg
-				"444": {
+				},
+				"444": { //Duck Feather
 					"Price": "550"
-				}, //Duck Feather
-				"446": {
+				},
+				"446": { //Rabbit's Foot
 					"Price": "960"
-				}, //Rabbit's Foot
-				"186": {
+				},
+				"186": { //Large Milk
 					"Price": "160"
-				}, //Large Milk
-				"438": {
+				},
+				"438": { //L. Goat Milk
 					"Price": "320"
-				}, //L. Goat Milk
-				"306": {
+				},
+				"306": { //Mayonnaise
 					"Price": "140"
-				}, //Mayonnaise
-				"308": {
+				},
+				"308": { //Void Mayonnaise
 					"Price": "280"
-				}, //Void Mayonnaise
-				"307": {
+				},
+				"307": { //Duck Mayonnaise
 					"Price": "540"
-				}, //Duck Mayonnaise
-				"428": {
+				},
+				"428": { //Cloth
 					"Price": "950"
-				}, //Cloth
-				"807": {
+				},
+				"807": { //Dinosaur Mayonnaise
 					"Price": "1700"
-				}, //Dinosaur Mayonnaise
-				"424": {
+				},
+				"424": { //Cheese
 					"Price": "160"
-				}, //Cheese
-				"426": {
+				},
+				"426": { //Goat Cheese
 					"Price": "320"
-				}, //Goat Cheese
-				"432": {
+				},
+				"432": { //Truffle Oil
 					"Price": "460"
-				} //Truffle Oil
+				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
@@ -1481,20 +1467,19 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		//Susan Special Order (SVE)
-		{
+		{	//Susan Special Order (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"303": {
+				"303": { //Pale Ale
 					"Price": "100"
-				}, //Pale Ale
-				"346": {
+				},
+				"346": { //Beer
 					"Price": "200"
-				}, //Beer
-				"459": {
+				},
+				"459": { //Mead
 					"Price": "330"
-				} //Mead
+				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
@@ -1502,13 +1487,13 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{
+		{	//Susan Special Order (SVE + Cornucopia)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"303": {
+				"303": {  //Pale Ale
 					"Price": "180"
-				} //Pale Ale
+				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
@@ -1517,14 +1502,13 @@
 				"HasMod|contains=Cornucopia.GrowableForage": true
 			}
 		},
-		//Diamond Adjustment (Lumisteria)
-		{
+		{	//Diamond Adjustment (Lumisteria)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"72": {
+				"72": { //Diamond
 					"Price": "300"
-				} //Diamond
+				} 
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
@@ -1532,8 +1516,7 @@
 				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
 			}
 		},
-		//Chocolate Cake Adjustment (Cornucopia More Crops)
-		{
+		{	//Chocolate Cake Adjustment (Cornucopia More Crops)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1545,80 +1528,77 @@
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		//Food Adjustments (Cornucopia Artisan Machines)
-		{
+		{	//Food Adjustment (Cornucopia Artisan Machines)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"213": {
+				"213": { //Fish Taco
 					"Price": "555"
-				}, //Fish Taco
-				"204": {
+				}, 
+				"204": { //Lucky Lunch
 					"Price": "285"
-				}, //Lucky Lunch
-				"905": {
+				}, 
+				"905": { //Mango Sticky Rice
 					"Price": "575"
-				}, //Mango Sticky Rice
-				"224": {
+				}, 
+				"224": { //Spaghetti
 					"Price": "280"
-				}, //Spaghetti
-				"226": {
+				},
+				"226": { //Spicy Eel
 					"Price": "170"
-				}, //Spicy Eel
-				"921": {
+				},
+				"921": { //Squid Ink Ravioli
 					"Price": "455"
-				}, //Squid Ink Ravioli
-				"218": {
+				},
+				"218": { //Tom Kha Soup
 					"Price": "540"
-				}, //Tom Kha Soup
-				"229": {
+				},
+				"229": { //Tortilla
 					"Price": "55"
-				}, //Tortilla
-				"907": {
+				},
+				"907": { //Tropical Curry
 					"Price": "590"
-				} //Tropical Curry
+				}
 			},
 			"When": {
 				"Sell Prices": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		// Bobber Sell Prices
-		{
+		{	// Bobber Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"686": {
+				"686": { //Spinner
 					"Price": "150"
-				}, //Spinner
-				"694": {
+				}, 
+				"694": { //Trap Bobber
 					"Price": "150"
-				}, //Trap Bobber
-				"693": {
+				},
+				"693": { //Treasure Hunter
 					"Price": "250"
-				}, //Treasure Hunter
-				"695": {
+				},
+				"695": { //Cork Bobber
 					"Price": "200"
-				}, //Cork Bobber
-				"691": {
+				},
+				"691": { //Barbed Hook
 					"Price": "200"
-				}, //Barbed Hook
-				"687": {
+				},
+				"687": { //Dressed Spinner
 					"Price": "150"
-				} //Dressed Spinner
+				}
 			},
 			"When": {
 				"Merge: {{Shops}}, {{Sell Prices}}": true
 			}
 		},
-		//Stricter Seed Maker
-		{
+		{	//Stricter Seed Maker
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"417",
+				"417", //Sweet Berry Gem
 				"ContextTags"
-			], //Sweet Berry Gem
+			], 
 			"Entries": {
 				"#-1": "seedmaker_banned"
 			},
@@ -1630,9 +1610,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"454",
+				"454", //Ancient Fruit
 				"ContextTags"
-			], //Ancient Fruit
+			], 
 			"Entries": {
 				"#-1": "seedmaker_banned"
 			},
@@ -1640,37 +1620,35 @@
 				"Sell Prices": true
 			}
 		},
-		//Food Buffs
-		{
+		{	//Food Buffs
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"194": {
+				"194": { //Fried Egg
 					"Edibility": "30"
-				}, //Fried Egg
-				"195": {
+				},
+				"195": { //Omelet
 					"Edibility": "60"
-				}, //Omelet
-				"206": {
+				},
+				"206": { //Pizza
 					"Edibility": "70"
-				}, //Pizza
-				"216": {
+				},
+				"216": { //Bread
 					"Edibility": "30"
-				}, //Bread
-				"224": {
+				},
+				"224": { //Spaghetti
 					"Edibility": "50"
-				}, //Spaghetti
-				"227": {
+				},
+				"227": { //Sashimi
 					"Edibility": "50"
-				}, //Sashimi
-				"228": {
+				},
+				"228": { //Maki Roll
 					"Edibility": "70"
-				}, //Maki Roll
-				"229": {
+				},
+				"229": { //Tortilla
 					"Edibility": "30"
-				}, //Tortilla
-				"196": {
-					//Salad
+				},
+				"196": { //Salad
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1682,8 +1660,7 @@
 						}
 					]
 				},
-				"197": {
-					//Cheese Cauliflower
+				"197": { //Cheese Cauliflower
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1695,8 +1672,7 @@
 						}
 					]
 				},
-				"198": {
-					//Baked Fish
+				"198": { //Baked Fish
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1708,8 +1684,7 @@
 						}
 					]
 				},
-				"199": {
-					//Parsnip Soup
+				"199": { //Parsnip Soup
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1721,8 +1696,7 @@
 						}
 					]
 				},
-				"201": {
-					//Complete Breakfast
+				"201": { //Complete Breakfast
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1734,8 +1708,7 @@
 						}
 					]
 				},
-				"202": {
-					//Fried Calamari
+				"202": { //Fried Calamari
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1747,8 +1720,7 @@
 						}
 					]
 				},
-				"203": {
-					//Strange Bun
+				"203": { //Strange Bun
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1759,8 +1731,7 @@
 						}
 					]
 				},
-				"204": {
-					//Lucky Lunch
+				"204": { //Lucky Lunch
 					"Buffs": [
 						{
 							"Duration": "1000",
@@ -1771,8 +1742,7 @@
 						}
 					]
 				},
-				"205": {
-					//Fried Mushroom
+				"205": { //Fried Mushroom
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1783,8 +1753,7 @@
 						}
 					]
 				},
-				"207": {
-					//Bean Hotspot
+				"207": { //Bean Hotspot
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1797,8 +1766,7 @@
 						}
 					]
 				},
-				"208": {
-					//Glazed Yams
+				"208": { //Glazed Yams
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1810,8 +1778,7 @@
 						}
 					]
 				},
-				"209": {
-					//Carp Surprise
+				"209": { //Carp Surprise
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1823,8 +1790,7 @@
 						}
 					]
 				},
-				"210": {
-					//Hashbrowns
+				"210": { //Hashbrowns
 					"Edibility": "50",
 					"Buffs": [
 						{
@@ -1834,8 +1800,7 @@
 						}
 					]
 				},
-				"211": {
-					//Pancakes
+				"211": { //Pancakes
 					"Edibility": "50",
 					"Buffs": [
 						{
@@ -1845,8 +1810,7 @@
 						}
 					]
 				},
-				"212": {
-					//Salmon Dinner
+				"212": { //Salmon Dinner
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1858,8 +1822,7 @@
 						}
 					]
 				},
-				"213": {
-					//Fish Taco
+				"213": { //Fish Taco
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1871,8 +1834,7 @@
 						}
 					]
 				},
-				"214": {
-					//Crispy Bass
+				"214": { //Crispy Bass
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1884,8 +1846,7 @@
 						}
 					]
 				},
-				"215": {
-					//Pepper Poppers
+				"215": { //Pepper Poppers
 					"Buffs": [
 						{
 							"Duration": "500",
@@ -1897,8 +1858,7 @@
 						}
 					]
 				},
-				"218": {
-					//Tom Kha Soup
+				"218": { //Tom Kha Soup
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1910,8 +1870,7 @@
 						}
 					]
 				},
-				"219": {
-					//Trout Soup
+				"219": { //Trout Soup
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1922,8 +1881,7 @@
 						}
 					]
 				},
-				"220": {
-					//Chocolate Cake
+				"220": { //Chocolate Cake
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1936,8 +1894,7 @@
 						}
 					]
 				},
-				"221": {
-					//Pink Cake
+				"221": { //Pink Cake
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1950,8 +1907,7 @@
 						}
 					]
 				},
-				"222": {
-					//Rhubarb Pie
+				"222": { //Rhubarb Pie
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -1963,8 +1919,7 @@
 						}
 					]
 				},
-				"223": {
-					//Cookies
+				"223": { //Cookies
 					"Buffs": [
 						{
 							"Duration": "300",
@@ -1975,8 +1930,7 @@
 						}
 					]
 				},
-				"225": {
-					//Fried Eel
+				"225": { //Fried Eel
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -1988,8 +1942,7 @@
 						}
 					]
 				},
-				"226": {
-					//Spicy Eel
+				"226": { //Spicy Eel
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2001,8 +1954,7 @@
 						}
 					]
 				},
-				"230": {
-					//Red Plate
+				"230": { //Red Plate
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2014,8 +1966,7 @@
 						}
 					]
 				},
-				"231": {
-					//Eggplant Parmesan
+				"231": { //Eggplant Parmesan
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2027,8 +1978,7 @@
 						}
 					]
 				},
-				"232": {
-					//Rice Pudding
+				"232": { //Rice Pudding
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2040,8 +1990,7 @@
 						}
 					]
 				},
-				"233": {
-					//Ice Cream
+				"233": { //Ice Cream
 					"Buffs": [
 						{
 							"Duration": "300",
@@ -2052,8 +2001,7 @@
 						}
 					]
 				},
-				"234": {
-					//Blueberry Tart
+				"234": { //Blueberry Tart
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2065,8 +2013,7 @@
 						}
 					]
 				},
-				"235": {
-					//Autumn's Bounty
+				"235": { //Autumn's Bounty
 					"Buffs": [
 						{
 							"Duration": "700",
@@ -2078,8 +2025,7 @@
 						}
 					]
 				},
-				"236": {
-					//Pumpkin Soup
+				"236": { //Pumpkin Soup
 					"Buffs": [
 						{
 							"Duration": "700",
@@ -2091,8 +2037,7 @@
 						}
 					]
 				},
-				"200": {
-					//Vegetable Medley
+				"200": { //Vegetable Medley
 					"Buffs": [
 						{
 							"Duration": "500",
@@ -2104,8 +2049,7 @@
 						}
 					]
 				},
-				"237": {
-					//Super Meal
+				"237": { //Super Meal
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2117,8 +2061,7 @@
 						}
 					]
 				},
-				"238": {
-					//Cranberry Sauce
+				"238": { //Cranberry Sauce
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2129,8 +2072,7 @@
 						}
 					]
 				},
-				"239": {
-					//Stuffing
+				"239": { //Stuffing
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2141,8 +2083,7 @@
 						}
 					]
 				},
-				"240": {
-					//Farmer's Lunch
+				"240": { //Farmer's Lunch
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2153,8 +2094,7 @@
 						}
 					]
 				},
-				"241": {
-					//Survival Burger
+				"241": { //Survival Burger
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2165,8 +2105,7 @@
 						}
 					]
 				},
-				"242": {
-					//Dish O' The Sea
+				"242": { //Dish O' The Sea
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2177,8 +2116,7 @@
 						}
 					]
 				},
-				"243": {
-					//Miner's Treat
+				"243": { //Miner's Treat
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2190,8 +2128,7 @@
 						}
 					]
 				},
-				"244": {
-					//Roots Platter
+				"244": { //Roots Platter
 					"Buffs": [
 						{
 							"Duration": "500",
@@ -2202,8 +2139,7 @@
 						}
 					]
 				},
-				"253": {
-					//Triple Shot Espresso
+				"253": { //Triple Shot Espresso
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2214,8 +2150,7 @@
 						}
 					]
 				},
-				"265": {
-					//Seafoam Pudding
+				"265": { //Seafoam Pudding
 					"Buffs": [
 						{
 							"Duration": "500",
@@ -2227,8 +2162,7 @@
 						}
 					]
 				},
-				"456": {
-					//Algae Soup
+				"456": { //Algae Soup
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2239,8 +2173,7 @@
 						}
 					]
 				},
-				"457": {
-					//Pale Broth
+				"457": { //Pale Broth
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2251,8 +2184,7 @@
 						}
 					]
 				},
-				"604": {
-					//Plum Pudding
+				"604": { //Plum Pudding
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2264,8 +2196,7 @@
 						}
 					]
 				},
-				"605": {
-					//Artichoke Dip
+				"605": { //Artichoke Dip
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2277,8 +2208,7 @@
 						}
 					]
 				},
-				"606": {
-					//Stir Fry
+				"606": { //Stir Fry
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2290,8 +2220,7 @@
 						}
 					]
 				},
-				"607": {
-					//Roasted Hazelnuts
+				"607": { //Roasted Hazelnuts
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2303,8 +2232,7 @@
 						}
 					]
 				},
-				"608": {
-					//Pumpkin Pie
+				"608": { //Pumpkin Pie
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2316,8 +2244,7 @@
 						}
 					]
 				},
-				"609": {
-					//Radish Salad
+				"609": { //Radish Salad
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2329,8 +2256,7 @@
 						}
 					]
 				},
-				"610": {
-					//Fruit Salad
+				"610": { //Fruit Salad
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2342,8 +2268,7 @@
 						}
 					]
 				},
-				"611": {
-					//Blackberry Cobbler
+				"611": { //Blackberry Cobbler
 					"Buffs": [
 						{
 							"Duration": "500",
@@ -2355,8 +2280,7 @@
 						}
 					]
 				},
-				"612": {
-					//Cranberry Candy
+				"612": { //Cranberry Candy
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2369,8 +2293,7 @@
 						}
 					]
 				},
-				"618": {
-					//Bruschetta
+				"618": { //Bruschetta
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2382,8 +2305,7 @@
 						}
 					]
 				},
-				"648": {
-					//Coleslaw
+				"648": { //Coleslaw
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2395,8 +2317,7 @@
 						}
 					]
 				},
-				"649": {
-					//Fiddlehead Risotto
+				"649": { //Fiddlehead Risotto
 					"Buffs": [
 						{
 							"Duration": "1000",
@@ -2407,8 +2328,7 @@
 						}
 					]
 				},
-				"651": {
-					//Poppyseed Muffin
+				"651": { //Poppyseed Muffin
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2421,8 +2341,7 @@
 						}
 					]
 				},
-				"727": {
-					//Chowder
+				"727": { //Chowder
 					"Buffs": [
 						{
 							"Duration": "1200",
@@ -2433,8 +2352,7 @@
 						}
 					]
 				},
-				"728": {
-					//Fish Stew
+				"728": { //Fish Stew
 					"Buffs": [
 						{
 							"Duration": "1200",
@@ -2445,8 +2363,7 @@
 						}
 					]
 				},
-				"729": {
-					//Escargot
+				"729": { //Escargot
 					"Buffs": [
 						{
 							"Duration": "1200",
@@ -2457,8 +2374,7 @@
 						}
 					]
 				},
-				"730": {
-					//Lobster Bisque
+				"730": { //Lobster Bisque
 					"Buffs": [
 						{
 							"Duration": "1200",
@@ -2470,8 +2386,7 @@
 						}
 					]
 				},
-				"731": {
-					//Maple Bar
+				"731": { //Maple Bar
 					"Buffs": [
 						{
 							"Duration": "1200",
@@ -2484,8 +2399,7 @@
 						}
 					]
 				},
-				"732": {
-					//Crab Cakes
+				"732": { //Crab Cakes
 					"Buffs": [
 						{
 							"Duration": "1200",
@@ -2497,8 +2411,7 @@
 						}
 					]
 				},
-				"733": {
-					//Shrimp Cocktail
+				"733": { //Shrimp Cocktail
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2510,8 +2423,7 @@
 						}
 					]
 				},
-				"903": {
-					//Ginger Ale
+				"903": { //Ginger Ale
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2522,8 +2434,7 @@
 						}
 					]
 				},
-				"904": {
-					//Banana Pudding
+				"904": { //Banana Pudding
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2536,8 +2447,7 @@
 						}
 					]
 				},
-				"905": {
-					//Mango Sticky Rice
+				"905": { //Mango Sticky Rice
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2549,8 +2459,7 @@
 						}
 					]
 				},
-				"906": {
-					//Poi
+				"906": { //Poi
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2562,8 +2471,7 @@
 						}
 					]
 				},
-				"907": {
-					//Tropical Curry
+				"907": { //Tropical Curry
 					"Buffs": [
 						{
 							"Duration": "600",
@@ -2574,8 +2482,7 @@
 						}
 					]
 				},
-				"921": {
-					//Squid Ink Ravioli
+				"921": { //Squid Ink Ravioli
 					"Buffs": [
 						{
 							"Id": "Food",
@@ -2593,8 +2500,7 @@
 						}
 					]
 				},
-				"MossSoup": {
-					//Moss Soup
+				"MossSoup": { //Moss Soup
 					"Buffs": [
 						{
 							"Duration": "800",
@@ -2605,8 +2511,7 @@
 						}
 					]
 				},
-				"395": {
-					//Coffee
+				"395": { //Coffee
 					"Buffs": [
 						{
 							"Duration": "200",
@@ -2617,8 +2522,7 @@
 						}
 					]
 				},
-				"873": {
-					//Pina Colada
+				"873": { //Pina Colada
 					"Buffs": [
 						{
 							"Duration": "600",

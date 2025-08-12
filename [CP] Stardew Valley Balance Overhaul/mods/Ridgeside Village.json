@@ -5,7 +5,6 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				//Fruit Trees
 				"Rafseazz.RSVCP_Cherry_Pluot": {
 					"Price": "120"
 				},
@@ -54,7 +53,6 @@
 				"Rafseazz.RSVCP_Ember_Blood_Lime_Sapling": {
 					"Price": "550"
 				},
-				//Forage
 				"Rafseazz.RSVCP_Mountain_Arugula": {
 					"Price": "65"
 				},
@@ -85,7 +83,6 @@
 				"Rafseazz.RSVCP_Sierra_Wintergreen": {
 					"Price": "45"
 				},
-				//Fish
 				"Rafseazz.RSVCP_Bladetail_Sturgeon": {
 					"Price": "115"
 				},
@@ -143,7 +140,6 @@
 				"Rafseazz.RSVCP_Waterfall_Snakehead": {
 					"Price": "2500"
 				},
-				//Food
 				"Rafseazz.RSVCP_Apricot_Juice": {
 					"Price": "120"
 				},
@@ -279,7 +275,6 @@
 				"Rafseazz.RSVCP_Zesty_Tuna": {
 					"Price": "390"
 				},
-				//Mines
 				"Rafseazz.RSVCP_Spiritual_Essence": {
 					"Price": "75"
 				}

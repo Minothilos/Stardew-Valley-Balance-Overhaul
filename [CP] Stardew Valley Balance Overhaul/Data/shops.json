@@ -8,30 +8,30 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)346": {
+				"(O)346": { //Beer
 					"Price": "400",
 					"IgnoreShopPriceModifiers": true
-				}, //Beer
-				"(O)196": {
+				},
+				"(O)196": { //Salad
 					"Price": "300",
 					"IgnoreShopPriceModifiers": true
-				}, //Salad
-				"(O)216": {
+				},
+				"(O)216": { //Bread
 					"Price": "180",
 					"IgnoreShopPriceModifiers": true
-				}, //Bread
-				"(O)224": {
+				},
+				"(O)224": { //Spaghetti
 					"Price": "320",
 					"IgnoreShopPriceModifiers": true
-				}, //Spaghetti
-				"(O)206": {
+				},
+				"(O)206": { //Pizza
 					"Price": "600",
 					"IgnoreShopPriceModifiers": true
-				}, //Pizza
-				"(O)395": {
+				},
+				"(O)395": { //Coffee
 					"Price": "300",
 					"IgnoreShopPriceModifiers": true
-				} //Coffee
+				}
 			},
 			"When": {
 				"Shops": true
@@ -45,38 +45,38 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)368": {
+				"(O)368": { //Basic Fertilizer
 					"Price": "50",
 					"IgnoreShopPriceModifiers": true
-				}, //Basic Fertilizer
-				"(O)369": {
+				},
+				"(O)369": { //Quality Fertilizer
 					"Price": "100",
 					"IgnoreShopPriceModifiers": true
-				}, //Quality Fertilizer
-				"(O)370": {
+				},
+				"(O)370": { //Basic Retaining Soil
 					"Price": "30",
 					"IgnoreShopPriceModifiers": true
-				}, //Basic Retaining Soil
-				"(O)371": {
+				},
+				"(O)371": { //Quality Retaining Soil
 					"Price": "70",
 					"IgnoreShopPriceModifiers": true
-				}, //Quality Retaining Soil
-				"(O)465": {
+				},
+				"(O)465": { //Speed-Gro
 					"Price": "50",
 					"IgnoreShopPriceModifiers": true
-				}, //Speed-Gro
-				"(O)466": {
+				},
+				"(O)466": { //Deluxe Speed-Gro
 					"Price": "100",
 					"IgnoreShopPriceModifiers": true
-				}, //Deluxe Speed-Gro
-				"RandomWallpaper": {
+				},
+				"RandomWallpaper": { //Wallpaper
 					"Price": "50",
 					"IgnoreShopPriceModifiers": true
-				}, //Wallpaper
-				"RandomFlooring": {
+				},
+				"RandomFlooring": { //Flooring
 					"Price": "50",
 					"IgnoreShopPriceModifiers": true
-				} //Flooring
+				}
 			},
 			"When": {
 				"Shops": true
@@ -90,54 +90,54 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)219": {
+				"(O)219": { //Trout Soup
 					"Price": "400",
 					"IgnoreShopPriceModifiers": true
-				}, //Trout Soup
-				"(O)685": {
+				},
+				"(O)685": { //Bait
 					"Price": "10",
 					"IgnoreShopPriceModifiers": true
-				}, //Bait
-				"(O)DeluxeBait": {
+				},
+				"(O)DeluxeBait": { //Deluxe Bait
 					"Price": "100",
 					"IgnoreShopPriceModifiers": true
-				}, //Deluxe Bait
-				"(O)710": {
+				},
+				"(O)710": { //Crab Pot
 					"Price": "1500",
 					"IgnoreShopPriceModifiers": true
-				}, //Crab Pot
-				"(O)SonarBobber": {
+				},
+				"(O)SonarBobber": { //Sonar Bobber
 					"Price": "250",
 					"IgnoreShopPriceModifiers": true
-				}, //Sonar Bobber
-				"(O)686": {
+				},
+				"(O)686": { //Spinner
 					"Price": "250",
 					"IgnoreShopPriceModifiers": true
-				}, //Spinner
-				"(O)694": {
+				},
+				"(O)694": { //Trap Bobber
 					"Price": "250",
 					"IgnoreShopPriceModifiers": true
-				}, //Trap Bobber
-				"(O)693": {
+				},
+				"(O)693": { //Treasure Hunter
 					"Price": "300",
 					"IgnoreShopPriceModifiers": true
-				}, //Treasure Hunter
-				"(O)695": {
+				},
+				"(O)695": { //Cork Bobber
 					"Price": "350",
 					"IgnoreShopPriceModifiers": true
-				}, //Cork Bobber
-				"(O)691": {
+				},
+				"(O)691": { //Barbed Hook
 					"Price": "350",
 					"IgnoreShopPriceModifiers": true
-				}, //Barbed Hook
-				"(O)687": {
+				},
+				"(O)687": { //Dressed Spinner
 					"Price": "500",
 					"IgnoreShopPriceModifiers": true
-				}, //Dressed Spinner
-				"(O)703": {
+				},
+				"(O)703": { //Magnet
 					"Price": "150",
 					"IgnoreShopPriceModifiers": true
-				} //Magnet
+				}
 			},
 			"When": {
 				"Shops": true
@@ -151,38 +151,38 @@
 				"Items"
 			],
 			"Fields": {
-				"CopperOre_YearOne": {
+				"CopperOre_YearOne": { //Copper Ore Year 1
 					"Price": "50",
 					"IgnoreShopPriceModifiers": true
-				}, //Copper Ore Year 1
-				"IronOre_YearOne": {
+				},
+				"IronOre_YearOne": { //Iron Ore Year 1
 					"Price": "100",
 					"IgnoreShopPriceModifiers": true
-				}, //Iron Ore Year 1
-				"Coal_YearOne": {
+				},
+				"Coal_YearOne": { //Coal Year 1
 					"Price": "100",
 					"IgnoreShopPriceModifiers": true
-				}, //Coal Year 1
-				"GoldOre_YearOne": {
+				},
+				"GoldOre_YearOne": { //Gold Ore Year 1
 					"Price": "200",
 					"IgnoreShopPriceModifiers": true
-				}, //Gold Ore Year 1
-				"CopperOre_AfterYearOne": {
+				},
+				"CopperOre_AfterYearOne": { //Copper Ore Year 2
 					"Price": "100",
 					"IgnoreShopPriceModifiers": true
-				}, //Copper Ore Year 2
-				"IronOre_AfterYearOne": {
+				},
+				"IronOre_AfterYearOne": { //Iron Ore Year 2
 					"Price": "200",
 					"IgnoreShopPriceModifiers": true
-				}, //Iron Ore Year 2
-				"Coal_AfterYearOne": {
+				},
+				"Coal_AfterYearOne": { //Coal Year 2
 					"Price": "200",
 					"IgnoreShopPriceModifiers": true
-				}, //Coal Year 2
-				"GoldOre_AfterYearOne": {
+				},
+				"GoldOre_AfterYearOne": { //Gold Ore Year 2
 					"Price": "400",
 					"IgnoreShopPriceModifiers": true
-				} //Gold Ore Year 2
+				}
 			},
 			"When": {
 				"Shops": true
@@ -196,14 +196,14 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)349": {
+				"(O)349": { //Energy Tonic
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				}, //Energy Tonic
-				"(O)351": {
+				},
+				"(O)351": { //Muscle Remedy
 					"Price": "500",
 					"IgnoreShopPriceModifiers": true
-				} //Muscle Remedy
+				}
 			},
 			"When": {
 				"Shops": true
@@ -217,86 +217,86 @@
 				"Items"
 			],
 			"Fields": {
-				"(W)44": {
+				"(W)44": { //Cutlass
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				}, //Cutlass
-				"(W)27": {
+				},
+				"(W)27": { //Wood Mallet
 					"Price": "1250",
 					"IgnoreShopPriceModifiers": true
-				}, //Wood Mallet
-				"(W)10": {
+				},
+				"(W)10": { //Claymore
 					"Price": "1500",
 					"IgnoreShopPriceModifiers": true
-				}, //Claymore
-				"(W)7": {
+				},
+				"(W)7": { //Templar's Blade
 					"Price": "2000",
 					"IgnoreShopPriceModifiers": true
-				}, //Templar's Blade
-				"(W)5": {
+				},
+				"(W)5": { //Bone Sword
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, //Bone Sword
-				"(W)50": {
+				},
+				"(W)50": { //Steel Falchion
 					"Price": "4500",
 					"IgnoreShopPriceModifiers": true
-				}, //Steel Falchion
-				"(W)9": {
+				},
+				"(W)9": { //Lava Katana
 					"Price": "20000",
 					"IgnoreShopPriceModifiers": true
-				}, //Lava Katana
-				"(W)4": {
+				},
+				"(W)4": { //Galaxy Sword
 					"Price": "40000",
 					"IgnoreShopPriceModifiers": true
-				}, //Galaxy Sword
-				"(W)23": {
+				},
+				"(W)23": { //Galaxy Dagger
 					"Price": "40000",
 					"IgnoreShopPriceModifiers": true
-				}, //Galaxy Dagger
-				"(W)29": {
+				},
+				"(W)29": { //Galaxy Hammer
 					"Price": "40000",
 					"IgnoreShopPriceModifiers": true
-				}, //Galaxy Hammer
-				"(B)508": {
+				},
+				"(B)508": { //Combat Boots
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				}, //Combat Boots
-				"(B)512": {
+				},
+				"(B)512": { //Firewalker Boots
 					"Price": "1500",
 					"IgnoreShopPriceModifiers": true
-				}, //Firewalker Boots
-				"(B)511": {
+				},
+				"(B)511": { //Dark Boots
 					"Price": "2000",
 					"IgnoreShopPriceModifiers": true
-				}, //Dark Boots
-				"(B)514": {
+				},
+				"(B)514": { //Space Boots
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, //Space Boots
-				"(O)529": {
+				},
+				"(O)529": { //Amethyst Ring
 					"Price": "500",
 					"IgnoreShopPriceModifiers": true
-				}, //Amethyst Ring
-				"(O)530": {
+				},
+				"(O)530": { //Topaz Ring
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				}, //Topaz Ring
-				"(O)531": {
+				},
+				"(O)531": { //Aquamarine Ring
 					"Price": "1500",
 					"IgnoreShopPriceModifiers": true
-				}, //Aquamarine RIng
-				"(O)532": {
+				},
+				"(O)532": { //Jade Ring
 					"Price": "1500",
 					"IgnoreShopPriceModifiers": true
-				}, //Jade Ring
-				"(O)533": {
+				},
+				"(O)533": { //Emerald Ring
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, //Emerald Ring
-				"(O)534": {
+				},
+				"(O)534": { //Ruby Ring
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				} //Ruby Ring
+				}
 			},
 			"When": {
 				"Shops": true
@@ -310,30 +310,30 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)773": {
+				"(O)773": { //Life Elixir
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				}, //Life Elixir
-				"(O)772": {
+				},
+				"(O)772": { //Oil of Garlic
 					"Price": "1500",
 					"IgnoreShopPriceModifiers": true
-				}, //Oil of Garlic
-				"(O)243": {
+				},
+				"(O)243": { //Miner's Treat
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				}, //Miner's Treat
-				"(O)286": {
+				},
+				"(O)286": { //Cherry Bomb
 					"Price": "300",
 					"IgnoreShopPriceModifiers": true
-				}, //Cherry Bomb
-				"(O)287": {
+				},
+				"(O)287": { //Bomb
 					"Price": "700",
 					"IgnoreShopPriceModifiers": true
-				}, //Bomb
-				"(O)288": {
+				},
+				"(O)288": { //Mega Bomb
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				} //Mega Bomb
+				}
 			},
 			"When": {
 				"Shops": true
@@ -347,22 +347,22 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)244|(O)237": {
+				"(O)244|(O)237": { //Roots Platter & Super Meal
 					"Price": "1200",
 					"IgnoreShopPriceModifiers": true
-				}, //Roots Platter & Super Meal
-				"(O)286": {
+				},
+				"(O)286": { //Cherry Bomb
 					"Price": "300",
 					"IgnoreShopPriceModifiers": true
-				}, //Cherry Bomb
-				"(O)287": {
+				},
+				"(O)287": { //Bomb
 					"Price": "700",
 					"IgnoreShopPriceModifiers": true
-				}, //Bomb
-				"(O)288": {
+				},
+				"(O)288": { //Mega Bomb
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				} //Mega Bomb
+				}
 			},
 			"When": {
 				"Shops": true
@@ -376,30 +376,30 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)873": {
+				"(O)873": { //Pina Colada
 					"Price": "1200",
 					"IgnoreShopPriceModifiers": true
-				}, //Pina Colada
-				"(O)346": {
+				},
+				"(O)346": { //Beer
 					"Price": "500",
 					"IgnoreShopPriceModifiers": true
-				}, //Beer
-				"(O)303": {
+				},
+				"(O)303": { //Pale Ale
 					"Price": "500",
 					"IgnoreShopPriceModifiers": true
-				}, //Pale Ale
-				"(O)459": {
+				},
+				"(O)459": { //Mead
 					"Price": "800",
 					"IgnoreShopPriceModifiers": true
-				}, //Mead
-				"(O)612": {
+				},
+				"(O)612": { //Cranberry Candy
 					"Price": "600",
 					"IgnoreShopPriceModifiers": true
-				}, //Cranberry Candy
-				"MangoWine": {
+				},
+				"MangoWine": { //Mango Wine
 					"Price": "2000",
 					"IgnoreShopPriceModifiers": true
-				} //Mango Wine
+				}
 			},
 			"When": {
 				"Shops": true
@@ -413,10 +413,10 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)347": {
+				"(O)347": { //Rare Seed
 					"Price": "500",
 					"IgnoreShopPriceModifiers": true
-				} //Rare Seed
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -430,15 +430,15 @@
 				"Items"
 			],
 			"Fields": {
-				"RandomWallpaper": {
+				"RandomWallpaper": { //Wallpaper
 					"Price": "50"
-				}, //Wallpaper
-				"RandomFlooring": {
+				},
+				"RandomFlooring": { //Flooring
 					"Price": "50"
-				}, //Flooring
-				"(BC)272": {
+				},
+				"(BC)272": { //Auto-Petter
 					"Price": "75000"
-				} //Auto-Petter
+				}
 			},
 			"When": {
 				"Shops": true,
@@ -453,30 +453,30 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)629": {
+				"(O)629": { //Apricot Sapling
 					"Price": "2300",
 					"IgnoreShopPriceModifiers": true
-				}, //Apricot Sapling
-				"(O)628": {
+				},
+				"(O)628": { //Cherry Sapling
 					"Price": "2200",
 					"IgnoreShopPriceModifiers": true
-				}, //Cherry Sapling
-				"(O)630": {
+				},
+				"(O)630": { //Orange Sapling
 					"Price": "1900",
 					"IgnoreShopPriceModifiers": true
-				}, //Orange Sapling
-				"(O)631": {
+				},
+				"(O)631": { //Peach Sapling
 					"Price": "2000",
 					"IgnoreShopPriceModifiers": true
-				}, //Peach Sapling
-				"(O)633": {
+				},
+				"(O)633": { //Apple Sapling
 					"Price": "2000",
 					"IgnoreShopPriceModifiers": true
-				}, //Apple Sapling
-				"(O)632": {
+				},
+				"(O)632": { //Pomegranate Sapling
 					"Price": "2200",
 					"IgnoreShopPriceModifiers": true
-				} //Pomegranate Sapling
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -490,14 +490,14 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)69": {
+				"(O)69": { //Banana Sapling
 					"TradeItemAmount": "3",
 					"IgnoreShopPriceModifiers": true
-				}, //Banana Sapling
-				"(O)835": {
+				},
+				"(O)835": { //Mango Sapling
 					"TradeItemAmount": "40",
 					"IgnoreShopPriceModifiers": true
-				} //Mango Sapling
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -512,30 +512,30 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)346": {
+				"(O)346": { //Beer
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Beer
-				"(O)196": {
+				},
+				"(O)196": { //Salad
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Salad
-				"(O)216": {
+				},
+				"(O)216": { //Bread
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Bread
-				"(O)224": {
+				},
+				"(O)224": { //Spaghetti
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Spaghetti
-				"(O)206": {
+				},
+				"(O)206": { //Pizza
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Pizza
-				"(O)395": {
+				},
+				"(O)395": { //Coffee
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				} //Coffee
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -549,22 +549,22 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)219": {
+				"(O)219": { //Trout Soup
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Trout Soup
-				"(O)685": {
+				},
+				"(O)685": { //Bait
 					"AvailableStock": "30",
 					"AvailableStockLimit": "Player"
-				}, //Bait
-				"(O)DeluxeBait": {
+				},
+				"(O)DeluxeBait": { //Deluxe Bait
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Deluxe Bait
-				"(O)710": {
+				},
+				"(O)710": { //Crab Pot
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				} //Crab Pot
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -578,38 +578,38 @@
 				"Items"
 			],
 			"Fields": {
-				"CopperOre_YearOne": {
+				"CopperOre_YearOne": { //Copper Ore Year 1
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Copper Ore Year 1
-				"IronOre_YearOne": {
+				},
+				"IronOre_YearOne": { //Iron Ore Year 1
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Iron Ore Year 1
-				"Coal_YearOne": {
+				},
+				"Coal_YearOne": { //Coal Year 1
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				}, //Coal Year 1
-				"GoldOre_YearOne": {
+				},
+				"GoldOre_YearOne": { //Gold Ore Year 1
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Gold Ore Year 1
-				"CopperOre_AfterYearOne": {
+				},
+				"CopperOre_AfterYearOne": { //Copper Ore Year 2
 					"AvailableStock": "30",
 					"AvailableStockLimit": "Player"
-				}, //Copper Ore Year 2
-				"IronOre_AfterYearOne": {
+				},
+				"IronOre_AfterYearOne": { //Iron Ore Year 2
 					"AvailableStock": "30",
 					"AvailableStockLimit": "Player"
-				}, //Iron Ore Year 2
-				"Coal_AfterYearOne": {
+				},
+				"Coal_AfterYearOne": { //Coal Year 2
 					"AvailableStock": "15",
 					"AvailableStockLimit": "Player"
-				}, //Coal Year 2
-				"GoldOre_AfterYearOne": {
+				},
+				"GoldOre_AfterYearOne": { //Gold Ore Year 2
 					"AvailableStock": "30",
 					"AvailableStockLimit": "Player"
-				} //Gold Ore Year 2
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -623,14 +623,14 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)388": {
+				"(O)388": { //Wood
 					"AvailableStock": "200",
 					"AvailableStockLimit": "Player"
-				}, //Wood
-				"(O)390": {
+				},
+				"(O)390": { //Stone
 					"AvailableStock": "200",
 					"AvailableStockLimit": "Player"
-				} //Stone
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -644,14 +644,14 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)349": {
+				"(O)349": { //Energy Tonic
 					"AvailableStock": "2",
 					"AvailableStockLimit": "Player"
-				}, //Energy Tonic
-				"(O)351": {
+				},
+				"(O)351": { //Muscle Remedy
 					"AvailableStock": "1",
 					"AvailableStockLimit": "Player"
-				} //Muscle Remedy
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -665,30 +665,30 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)773": {
+				"(O)773": { //Life Elixir
 					"AvailableStock": "2",
 					"AvailableStockLimit": "Player"
-				}, //Life Elixir
-				"(O)772": {
+				},
+				"(O)772": { //Oil of Garlic
 					"AvailableStock": "2",
 					"AvailableStockLimit": "Player"
-				}, //Oil of Garlic
-				"(O)243": {
+				},
+				"(O)243": { //Miner's Treat
 					"AvailableStock": "1",
 					"AvailableStockLimit": "Player"
-				}, //Miner's Treat
-				"(O)286": {
+				},
+				"(O)286": { //Cherry Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Cherry Bomb
-				"(O)287": {
+				},
+				"(O)287": { //Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Bomb
-				"(O)288": {
+				},
+				"(O)288": { //Mega Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				} //Mega Bomb
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -702,22 +702,22 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)244|(O)237": {
+				"(O)244|(O)237": { //Roots Platter & Super Meal
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Roots Platter & Super Meal
-				"(O)286": {
+				},
+				"(O)286": { //Cherry Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Cherry Bomb
-				"(O)287": {
+				},
+				"(O)287": { //Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Bomb
-				"(O)288": {
+				},
+				"(O)288": { //Mega Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				} //Mega Bomb
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -731,30 +731,30 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)873": {
+				"(O)873": { //Pina Colada
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Pina Colada
-				"(O)346": {
+				},
+				"(O)346": { //Beer
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Beer
-				"(O)303": {
+				},
+				"(O)303": { //Pale Ale
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Pale Ale
-				"(O)459": {
+				},
+				"(O)459": { //Mead
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Mead
-				"(O)612": {
+				},
+				"(O)612": { //Cranberry Candy
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Cranberry Candy
-				"MangoWine": {
+				},
+				"MangoWine": { //Mango Wine
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				} //Mango Wine
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -768,26 +768,26 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)253": {
+				"(O)253": { //Triple Shot Espresso
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Triple Shot Espresso
-				"(O)226": {
+				},
+				"(O)226": { //Spicy Eel
 					"AvailableStock": "3",
 					"AvailableStockLimit": "Player"
-				}, //Spicy Eel
-				"(O)288": {
+				},
+				"(O)288": { //Mega Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Mega Bomb
-				"(O)287": {
+				},
+				"(O)287": { //Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Bomb
-				"(BC)71": {
+				},
+				"(BC)71": { //Staircase
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
-				} //Staircase
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -801,22 +801,22 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)288": {
+				"(O)288": { //Mega Bomb
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player"
-				}, //Mega Bomb
-				"StrawberrySeeds_Monday": {
+				},
+				"StrawberrySeeds_Monday": { //Starberry Seeds
 					"AvailableStock": "30",
 					"AvailableStockLimit": "Player"
-				}, //Starberry Seeds
-				"StrawberrySeeds_Wednesday": {
+				},
+				"StrawberrySeeds_Wednesday": { //Starberry Seeds
 					"AvailableStock": "30",
 					"AvailableStockLimit": "Player"
-				}, //Starberry Seeds
-				"(O)SkillBook_2": {
+				},
+				"(O)SkillBook_2": { //Woodcutter's Weekly
 					"AvailableStock": "1",
 					"AvailableStockLimit": "Player"
-				} //Woodcutter's Weekly
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -830,18 +830,18 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)346": {
+				"(O)346": { //Beer
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Beer
-				"(O)459": {
+				},
+				"(O)459": { //Mead
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				}, //Mead
-				"(O)303": {
+				},
+				"(O)303": { //Pale Ale
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				} //Pale Ale
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -855,10 +855,10 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)770": {
+				"(O)770": { //Mixed Seeds
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				} //Mixed Seeds
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -872,10 +872,10 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)688": {
+				"(O)688": { //Warp Totem: Farm
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				} //Warp Totem: Farm
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -889,10 +889,10 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)233": {
+				"(O)233": { //Ice Cream
 					"AvailableStock": "5",
 					"AvailableStockLimit": "Player"
-				} //Ice Cream
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -907,22 +907,22 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)802": {
+				"(O)802": { //Cactus Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Cactus Seeds
-				"(O)478": {
+				},
+				"(O)478": { //Rhubarb Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Rhubarb Seeds
-				"(O)486": {
+				},
+				"(O)486": { //Starfruit Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Starfruit Seeds
-				"(O)494": {
+				},
+				"(O)494": { //Beet Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				} //Beet Seeds
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true
@@ -936,10 +936,10 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)745": {
+				"(O)745": { //Strawberry Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				} //Strawberry Seeds
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true
@@ -953,138 +953,138 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)472": {
+				"(O)472": { //Parsnip Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Parsnip Seeds
-				"(O)473": {
+				},
+				"(O)473": { //Bean Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Bean Starter
-				"(O)474": {
+				},
+				"(O)474": { //Cauliflower Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Cauliflower Seeds
-				"(O)475": {
+				},
+				"(O)475": { //Potato Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Potato Seeds
-				"(O)427": {
+				},
+				"(O)427": { //Tulip Bulb
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Tulip Bulb
-				"(O)477": {
+				},
+				"(O)477": { //Kale Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Kale Seeds
-				"(O)429": {
+				},
+				"(O)429": { //Jazz Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Jazz Seeds
-				"(O)476": {
+				},
+				"(O)476": { //Garlic Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Garlic Seeds
-				"(O)273": {
+				},
+				"(O)273": { //Rice Shoot
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Rice Shoot
-				"(O)479": {
+				}, 
+				"(O)479": { //Melon Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Melon Seeds
-				"(O)480": {
+				}, 
+				"(O)480": { //Tomato Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Tomato Seeds
-				"(O)481": {
+				}, 
+				"(O)481": { //Blueberry Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Blueberry Seeds
-				"(O)482": {
+				}, 
+				"(O)482": { //Pepper Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Pepper Seeds
-				"WheatSeeds_Summer": {
+				}, 
+				"WheatSeeds_Summer": { //Wheat Seeds Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Wheat Seeds Summer
-				"WheatSeeds_Fall": {
+				}, 
+				"WheatSeeds_Fall": { //Wheat Seeds Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Wheat Seeds Fall
-				"(O)484": {
+				}, 
+				"(O)484": { //Radish Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Radish Seeds
-				"(O)453": {
+				}, 
+				"(O)453": { //Poppy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Poppy Seeds
-				"(O)455": {
+				}, 
+				"(O)455": { //Spangle Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Spangle Seeds
-				"(O)302": {
+				}, 
+				"(O)302": { //Hops Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Hops Starter
-				"CornSeeds_Summer": {
+				}, 
+				"CornSeeds_Summer": { //Corn Seeds Summer
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Corn Seeds Summer
-				"CornSeeds_Fall": {
+				}, 
+				"CornSeeds_Fall": { //Corn Seeds Fall
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Corn Seeds Fall
-				"SunflowerSeeds_Summer": {
+				}, 
+				"SunflowerSeeds_Summer": { //Sunflower Seeds Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Sunflower Seeds Summer
-				"SunflowerSeeds_Fall": {
+				}, 
+				"SunflowerSeeds_Fall": { //Sunflower Seeds Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Sunflower Seeds Fall
-				"(O)485": {
+				}, 
+				"(O)485": { //Red Cabbage Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Red Cabbage Seeds
-				"(O)488": {
+				}, 
+				"(O)488": { //Eggplant Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Eggplant Seeds
-				"(O)490": {
+				}, 
+				"(O)490": { //Pumpkin Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Pumpkin Seeds
-				"(O)491": {
+				}, 
+				"(O)491": { //Bok Choy Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Bok Choy Seeds
-				"(O)492": {
+				}, 
+				"(O)492": { //Yam Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Yam Seeds
-				"(O)493": {
+				}, 
+				"(O)493": { //Cranberry Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Cranberry Seeds
-				"(O)425": {
+				}, 
+				"(O)425": { //Fairy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Fairy Seeds
-				"(O)299": {
+				}, 
+				"(O)299": { //Amaranth Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Amaranth Seeds
-				"(O)301": {
+				}, 
+				"(O)301": { //Grape Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Grape Starter
-				"(O)489": {
+				}, 
+				"(O)489": { //Artichoke Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				} //Artichoke Seeds
+				} 
 			},
 			"When": {
 				"Limited Seed Supply": true
@@ -1098,122 +1098,121 @@
 				"Items"
 			],
 			"Fields": {
-				"(O)472": {
+				"(O)472": { //Parsnip Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Parsnip Seeds
-				"(O)473": {
+				}, 
+				"(O)473": { //Bean Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Bean Starter
-				"(O)474": {
+				}, 
+				"(O)474": { //Cauliflower Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Cauliflower Seeds
-				"(O)475": {
+				}, 
+				"(O)475": { //Potato Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Potato Seeds
-				"(O)427": {
+				}, 
+				"(O)427": { //Tulip Bulb
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Tulip Bulb
-				"(O)477": {
+				}, 
+				"(O)477": { //Kale Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Kale Seeds
-				"(O)429": {
+				}, 
+				"(O)429": { //Jazz Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Jazz Seeds
-				"(O)479": {
+				}, 
+				"(O)479": { //Melon Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Melon Seeds
-				"(O)480": {
+				}, 
+				"(O)480": { //Tomato Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Tomato Seeds
-				"(O)482": {
+				}, 
+				"(O)482": { //Pepper Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Pepper Seeds
-				"WheatSeeds_Summer": {
+				}, 
+				"WheatSeeds_Summer": { //Wheat Seats Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Wheat Seats Summer
-				"WheatSeeds_Fall": {
+				}, 
+				"WheatSeeds_Fall": { //Wheat Seats Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Wheat Seats Fall
-				"(O)484": {
+				}, 
+				"(O)484": { //Radish Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Radish Seeds
-				"(O)453": {
+				}, 
+				"(O)453": { //Poppy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Poppy Seeds
-				"(O)455": {
+				}, 
+				"(O)455": { //Spangle Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Spangle Seeds
-				"(O)302": {
+				}, 
+				"(O)302": { //Hops Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Hops Starter
-				"(O)487": {
+				}, 
+				"(O)487": { //Corn Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Corn Seeds
-				"SunflowerSeeds_Summer": {
+				}, 
+				"SunflowerSeeds_Summer": { //Sunflower Seeds Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Sunflower Seeds Summer
-				"SunflowerSeeds_Fall": {
+				}, 
+				"SunflowerSeeds_Fall": { //Sunflower Seeds Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Sunflower Seeds Fall
-				"(O)488": {
+				}, 
+				"(O)488": { //Eggplant Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Eggplant Seeds
-				"(O)490": {
+				}, 
+				"(O)490": { //Pumpkin Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Pumpkin Seeds
-				"(O)491": {
+				}, 
+				"(O)491": { //Bok Choy Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Bok Choy Seeds
-				"(O)492": {
+				}, 
+				"(O)492": { //Yam Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Yam Seeds
-				"(O)493": {
+				}, 
+				"(O)493": { //Cranberry Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, //Cranberry Seeds
-				"(O)425": {
+				}, 
+				"(O)425": { //Fairy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Fairy Seeds
-				"(O)299": {
+				}, 
+				"(O)299": { //Amaranth Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, //Amaranth Seeds
-				"(O)301": {
+				}, 
+				"(O)301": { //Grape Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				} //Grape Starter
+				} 
 			},
 			"When": {
 				"Limited Seed Supply": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		//Quality of Life
-		{
+		{	//Merchants Buy More Items
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"Fields": {
@@ -1260,16 +1259,16 @@
 			"Target": "Data/Tools",
 			"Fields": {
 				"BambooPole": {
-					"SalePrice": "400"
+					"SalePrice": "250"
 				},
 				"TrainingRod": {
-					"SalePrice": "20"
+					"SalePrice": "15"
 				},
 				"FiberglassRod": {
-					"SalePrice": "1600"
+					"SalePrice": "900"
 				},
 				"IridiumRod": {
-					"SalePrice": "6000"
+					"SalePrice": "3750"
 				},
 				"MilkPail": {
 					"SalePrice": "500"
@@ -1282,7 +1281,7 @@
 				"Merchants Buy More Items": true
 			}
 		},
-		{
+		{	//Marnie Sells Auto-Petter
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1301,7 +1300,7 @@
 				"Marnie Sells Auto-Petter": true
 			}
 		},
-		{
+		{	//Harvey's Clinic Sells Life Elixirs (Limited)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1316,14 +1315,14 @@
 					"AvailableStock": "2",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true
-				} //Add Life Elixir (Limited)
+				} 
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,
 				"Limited Item Supply": true
 			}
 		},
-		{
+		{	//Harvey's Clinic Sells Life Elixirs (Unlimited)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1336,7 +1335,7 @@
 					"ItemId": "(O)773",
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				} //Add Life Elixir (Unlimited)
+				} 
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,

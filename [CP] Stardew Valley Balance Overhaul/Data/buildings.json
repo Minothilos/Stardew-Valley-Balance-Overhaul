@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{
+		{	//Buildings
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Fields": {
@@ -8,225 +8,225 @@
 					"BuildCost": "3000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "250"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "100"
-						} //Stone
+						}
 					]
 				},
 				"Big Coop": {
 					"BuildCost": "15000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "300"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "125"
-						} //Stone
+						}
 					]
 				},
 				"Deluxe Coop": {
 					"BuildCost": "30000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "350"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "150"
-						} //Stone
+						}
 					]
 				},
 				"Barn": {
 					"BuildCost": "4000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "250"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "100"
-						} //Stone
+						}
 					]
 				},
 				"Big Barn": {
 					"BuildCost": "20000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "300"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "125"
-						} //Stone
+						}
 					]
 				},
 				"Deluxe Barn": {
 					"BuildCost": "35000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "350"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "150"
-						} //Stone
+						}
 					]
 				},
 				"Silo": {
 					"BuildCost": "1000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "100"
-						}, //Stone
+						},
 						{
-							"ItemId": "(O)330",
+							"ItemId": "(O)330", //Clay
 							"Amount": "10"
-						}, //Clay
+						},
 						{
-							"ItemId": "(O)334",
+							"ItemId": "(O)334", //Copper Bar
 							"Amount": "5"
-						} //Copper Bar
+						}
 					]
 				},
 				"Mill": {
 					"BuildCost": "5000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "150"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "100"
-						}, //Stone
+						},
 						{
-							"ItemId": "(O)709",
+							"ItemId": "(O)709", //Hardwood
 							"Amount": "20"
-						} //Hardwood
+						}
 					]
 				},
 				"Stable": {
 					"BuildCost": "10000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)709",
+							"ItemId": "(O)709", //Hardwood
 							"Amount": "100"
-						}, //Hardwood
+						},
 						{
-							"ItemId": "(O)335",
+							"ItemId": "(O)335", //Iron Bar
 							"Amount": "10"
-						} //Iron Bar
+						}
 					]
 				},
 				"Well": {
 					"BuildCost": "500",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "50"
-						} //Stone
+						}
 					]
 				},
 				"Shipping Bin": {
 					"BuildCost": "250",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "100"
-						} //Wood
+						}
 					]
 				},
 				"Pet Bowl": {
 					"BuildCost": "2500",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)709",
+							"ItemId": "(O)709", //Hardwood
 							"Amount": "10"
-						} //Hardwood
+						}
 					]
 				},
 				"Slime Hutch": {
 					"BuildCost": "10000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "300"
-						}, //Stone
+						},
 						{
-							"ItemId": "(O)338",
+							"ItemId": "(O)338", //Refined Quartz
 							"Amount": "10"
-						}, //Refined Quartz
+						},
 						{
-							"ItemId": "(O)336",
+							"ItemId": "(O)336", //Gold Bar
 							"Amount": "5"
-						} //Gold Bar
+						}
 					]
 				},
 				"Shed": {
 					"BuildCost": "15000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "250"
-						} //Wood
+						}
 					]
 				},
 				"Big Shed": {
 					"BuildCost": "20000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)388",
+							"ItemId": "(O)388", //Wood
 							"Amount": "500"
-						}, //Wood
+						},
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "200"
-						} //Stone
+						}
 					]
 				},
 				"Fish Pond": {
 					"BuildCost": "5000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "150"
-						}, //Stone
+						},
 						{
-							"ItemId": "(O)152",
+							"ItemId": "(O)152", //Seaweed
 							"Amount": "5"
-						}, //Seaweed
+						},
 						{
-							"ItemId": "(O)153",
+							"ItemId": "(O)153", //Green Algae
 							"Amount": "5"
-						} //Green Algae
+						}
 					]
 				},
 				"Junimo Hut": {
 					"BuildCost": "30000",
 					"BuildMaterials": [
 						{
-							"ItemId": "(O)390",
+							"ItemId": "(O)390", //Stone
 							"Amount": "200"
-						}, //Stone
+						},
 						{
-							"ItemId": "(O)268",
+							"ItemId": "(O)268", //Starfruit
 							"Amount": "20"
-						}, //Starfruit
+						},
 						{
-							"ItemId": "(O)771",
+							"ItemId": "(O)771", //Fiber
 							"Amount": "100"
-						} //Fiber
+						}
 					]
 				}
 			},
@@ -234,7 +234,7 @@
 				"Buildings": true
 			}
 		},
-		{
+		{	//Increased Silo Size
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Fields": {
@@ -246,7 +246,7 @@
 				"Increased Silo Size": true
 			}
 		},
-		{
+		{	//Increased Silo Size - TV Description
 			"Action": "EditData",
 			"Target": "Data/TV/TipChannel",
 			"Entries": {
