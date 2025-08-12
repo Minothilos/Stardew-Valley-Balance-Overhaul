@@ -5,28 +5,28 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Rafseazz.RSVCP_Cherry_Pluot": {
-					"Price": "120"
+					"Price": "100"
 				},
 				"Rafseazz.RSVCP_Highland_Jostaberry": {
-					"Price": "130"
+					"Price": "110"
 				},
 				"Rafseazz.RSVCP_Mountain_Plumcot": {
-					"Price": "130"
+					"Price": "110"
 				},
 				"Rafseazz.RSVCP_Northern_Limequat": {
-					"Price": "120"
+					"Price": "100"
 				},
 				"Rafseazz.RSVCP_Paradise_Rangpur": {
-					"Price": "125"
+					"Price": "105"
 				},
 				"Rafseazz.RSVCP_Tropi_Ugli_Fruit": {
-					"Price": "120"
+					"Price": "100"
 				},
 				"Rafseazz.RSVCP_Desert_Tangelo": {
-					"Price": "130"
+					"Price": "110"
 				},
 				"Rafseazz.RSVCP_Ember_Blood_Lime": {
-					"Price": "125"
+					"Price": "105"
 				},
 				"Rafseazz.RSVCP_Cherry_Pluot_Sapling": {
 					"Price": "550"
