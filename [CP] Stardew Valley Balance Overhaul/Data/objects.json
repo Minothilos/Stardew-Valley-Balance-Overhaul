@@ -288,9 +288,9 @@
 				"693": { "Price": "100" }, //Treasure Hunter
 				"874": { "Price": "50" }, //Bug Steak
 				"403": { "Price": "20" }, //Field Snack
-				"812": { "Price": "100" }, //Roe
-				"447": { "Price": "200" }, //Aged Roe
-				"445": { "Price": "500" }, //Caviar
+				"812": { "Price": "50" }, //Roe
+				"447": { "Price": "100" }, //Aged Roe
+				"445": { "Price": "300" }, //Caviar
 				"245": { "Price": "30" }, //Sugar
 				"246": { "Price": "50" }, //Wheat Flour
 				"423": { "Price": "100" }, //Rice
@@ -409,7 +409,7 @@
 				"226": { "Price": "170" }, //Spicy Eel
 				"227": { "Price": "70" }, //Sashimi
 				"228": { "Price": "220" }, //Maki Roll
-				"229": { "Price": "75" }, //Tortilla
+				"229": { "Price": "70" }, //Tortilla
 				"230": { "Price": "325" }, //Red Plate
 				"231": { "Price": "175" }, //Eggplant Parmesan
 				"232": { "Price": "225" }, //Rice Pudding
@@ -421,7 +421,7 @@
 				"238": { "Price": "90" }, //Cranberry Sauce
 				"239": { "Price": "220" }, //Stuffing
 				"240": { "Price": "240" }, //Farmer's Lunch
-				"241": { "Price": "210" }, //Survival Burger
+				"241": { "Price": "220" }, //Survival Burger
 				"242": { "Price": "360" }, //Dish O' The Sea
 				"243": { "Price": "280" }, //Miner's Treat
 				"244": { "Price": "155" }, //Roots Platter
@@ -446,7 +446,7 @@
 			    "728": { "Price": "340" }, //Fish Stew
 				"729": { "Price": "205" }, //Escargot
 				"730": { "Price": "260" }, //Lobster Bisque
-				"731": { "Price": "285" }, //Maple Bar
+				"731": { "Price": "320" }, //Maple Bar
 				"732": { "Price": "400" }, //Crab Cakes
 				"733": { "Price": "265" }, //Shrimp Cocktail
 				"903": { "Price": "130" }, //Ginger Ale
