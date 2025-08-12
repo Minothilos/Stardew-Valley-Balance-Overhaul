@@ -1,9 +1,11 @@
 {
 	"Changes": [
+		//Prices
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
+				//Crops
 				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": { "Price": "120" },
 				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": { "Price": "6200" },
 				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": { "Price": "400" },
@@ -16,15 +18,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": { "Price": "185" },
 				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato": { "Price": "220" },
 				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": { "Price": "750" }
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Fruit Trees
 				"FlashShifter.StardewValleyExpandedCP_Pear": { "Price": "130" },
 				"FlashShifter.StardewValleyExpandedCP_Nectarine": { "Price": "130" },
 				"FlashShifter.StardewValleyExpandedCP_Persimmon": { "Price": "130" },
@@ -33,15 +27,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": { "Price": "600" },
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": { "Price": "600" },
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": { "Price": "600" },
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Animals
 				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": { "Price": "330" },
 				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": { "Price": "2000" },
 				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": { "Price": "340" },
@@ -49,36 +35,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": { "Price": "660" },
 				"FlashShifter.StardewValleyExpandedCP_Yarn": { "Price": "680" },
 				"FlashShifter.StardewValleyExpandedCP_Butter": { "Price": "100" }
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Goose": {
-					"PurchasePrice": "3000",
-					"SellPrice": "6000"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Camel": {
-					"PurchasePrice": "5000",
-					"SellPrice": "10000"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Bear": {
-					"PurchasePrice": "6000",
-					"SellPrice": "12000"
-				}
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Forage
 				"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": { "Price": "90" },
 				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": { "Price": "150" },
 				"FlashShifter.StardewValleyExpandedCP_Big_Conch": { "Price": "100" },
@@ -96,27 +53,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": { "Price": "110" },
 				"FlashShifter.StardewValleyExpandedCP_Shark_Tooth": { "Price": "175" },
 				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": { "Price": "90" }
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": { "Price": "250" },
-				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Price": "400" }
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Fish
 				"FlashShifter.StardewValleyExpandedCP_Alligator": { "Price": "155" },
 				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": { "Price": "190" },
 				"FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo": { "Price": "65" },
@@ -161,15 +98,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Void_Eel": { "Price": "210" },
 				"FlashShifter.StardewValleyExpandedCP_Water_Grub": { "Price": "95" },
 				"FlashShifter.StardewValleyExpandedCP_Wolf_Snapper": { "Price": "3000" }
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Food
 				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": { "Price": "805" },
 				"FlashShifter.StardewValleyExpandedCP_Baked_Potato": { "Price": "215" },
 				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": { "Price": "350" },
@@ -195,15 +124,7 @@
 				"FlashShifter.StardewValleyExpandedCP_Vegan_Cone": { "Price": "145" },
 				"FlashShifter.StardewValleyExpandedCP_Void_Delight": { "Price": "4840" },
 				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": { "Price": "600" }
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
+				//Mines
 				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": { "Price": "300" }, // Void Pebble
 				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { "Price": "150" }, // Birch Water
 				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { "Price": "350" }, // Fir Wax
@@ -222,26 +143,6 @@
 				"FlashShifter.StardewValleyExpandedCP_Birch_Seed": { "Price": "10" }, // Birch Seed
 				"FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest": { "Price": "10000" }, // Ornate Treasure Chest
 				"FlashShifter.StardewValleyExpandedCP_Seed_Cookie": { "Price": "35" } // Seed Cookie
-			},
-			"When": {
-				"Sell Prices": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { "Price": "2000" } // Mega Purple Mushroom
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=Cornucopia.ArtisanMachines": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Amber": { "Price": "250" },
 				"FlashShifter.StardewValleyExpandedCP_Boomerang": { "Price": "150" },
 				"FlashShifter.StardewValleyExpandedCP_Faded_Button": { "Price": "70" },
@@ -252,6 +153,50 @@
 			},
 			"When": {
 				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Goose": {
+					"PurchasePrice": "3000",
+					"SellPrice": "6000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Camel": {
+					"PurchasePrice": "5000",
+					"SellPrice": "10000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Bear": {
+					"PurchasePrice": "6000",
+					"SellPrice": "12000"
+				}
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": { "Price": "250" },
+				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { "Price": "400" }
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { "Price": "2000" }
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
 		{
@@ -396,15 +341,15 @@
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, // Pear Sapling
+				},
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				}, // Nectarine Sapling
+				},
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
 					"Price": "3000",
 					"IgnoreShopPriceModifiers": true
-				} // Persimmon Sapling
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -719,6 +664,7 @@
 				"Sell Prices": true
 			}
 		},
+		//Crafting Recipes
 		{
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
@@ -961,20 +907,21 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
+		//Yarn Spooler (WOL)
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler", "OutputRules", "FlashShifter.StardewValleyExpandedCP_YarnRulesId", "OutputItem", "#0"], // Yarn Spooler
+			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler", "OutputRules", "FlashShifter.StardewValleyExpandedCP_YarnRulesId", "OutputItem", "#0"],
 			"Entries": {
 				"CopyQuality": false
 			},
 			"When": { "Machine Processing|contains=Off": "false", "HasMod|contains=DaLion.Professions": true }
-		},
-		//On with WoL
+		},	
+		//Yarn Spooler
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler", "OutputRules", "FlashShifter.StardewValleyExpandedCP_YarnRulesId", "OutputItem", "#0"], //Yarn Spooler
+			"TargetField": ["(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler", "OutputRules", "FlashShifter.StardewValleyExpandedCP_YarnRulesId", "OutputItem", "#0"],
 			"Entries": {
 				"Quality": "0",
 				"CopyQuality": false,
