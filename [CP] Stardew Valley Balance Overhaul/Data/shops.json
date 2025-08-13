@@ -656,7 +656,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Valcano Shop (Limited Item Supply)
+		{	// Volcano Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1182,27 +1182,27 @@
 			],
 			"Fields": {
 				"(O)629": { // Apricot Sapling
-					"Price": "2300",
+					"Price": "1600",
 					"IgnoreShopPriceModifiers": true
 				},
 				"(O)628": { // Cherry Sapling
-					"Price": "2200",
+					"Price": "1800",
 					"IgnoreShopPriceModifiers": true
 				},
 				"(O)630": { // Orange Sapling
-					"Price": "1900",
+					"Price": "1600",
 					"IgnoreShopPriceModifiers": true
 				},
 				"(O)631": { // Peach Sapling
-					"Price": "2000",
+					"Price": "1800",
 					"IgnoreShopPriceModifiers": true
 				},
 				"(O)633": { // Apple Sapling
-					"Price": "2000",
+					"Price": "1700",
 					"IgnoreShopPriceModifiers": true
 				},
 				"(O)632": { // Pomegranate Sapling
-					"Price": "2200",
+					"Price": "1800",
 					"IgnoreShopPriceModifiers": true
 				}
 			},

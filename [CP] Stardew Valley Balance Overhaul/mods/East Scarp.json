@@ -17,7 +17,7 @@
 					"Price": "600"
 				},
 				"EastScarp_Golden_Trout": {
-					"Price": "150"
+					"Price": "155"
 				},
 				"EastScarp_Kokanee_Salmon": {
 					"Price": "135"
@@ -26,13 +26,13 @@
 					"Price": "115"
 				},
 				"EastScarp_Ornate_Nudibranch": {
-					"Price": "150"
+					"Price": "155"
 				},
 				"EastScarp_Sea_Bunny_Nudibranch": {
-					"Price": "150"
+					"Price": "155"
 				},
 				"EastScarp_Sunset_Nudibranch": {
-					"Price": "160"
+					"Price": "165"
 				},
 				"EastScarp_Red_Herring": {
 					"Price": "100"
@@ -41,10 +41,10 @@
 					"Price": "135"
 				},
 				"EastScarp_Obsidian_Maw": {
-					"Price": "150"
+					"Price": "155"
 				},
 				"EastScarp_Slime_Barbel": {
-					"Price": "150"
+					"Price": "155"
 				}
 			},
 			"When": {

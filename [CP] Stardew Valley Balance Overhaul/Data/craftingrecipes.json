@@ -31,6 +31,9 @@
 				"Cask": {
 					"0": "388 20 709 1 726 1"
 				},
+				"Crystalarium": {
+					"0": "390 100 336 5 337 2 787 1"
+				},
 				"Mushroom Log": {
 					"0": "709 20 Moss 15 770 2"
 				},
@@ -225,7 +228,7 @@
 					"0": "709 20 335 3 SeaJelly 3 RiverJelly 3 CaveJelly 2"
 				},
 				"Heavy Furnace": {
-					"0": "(BC)13 4 335 4 390 70"
+					"0": "(BC)13 4 335 5 390 70"
 				},
 				"Recycling Machine": {
 					"0": "335 2 388 35 390 35"
@@ -280,13 +283,13 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Preserves Jar": {
-					"0": "388 40 390 30 709 10 726 2"
+					"0": "388 40 390 30 709 8 726 2"
 				},
 				"Keg": {
-					"0": "388 30 334 2 335 2 725 2"
+					"0": "388 30 334 2 335 1 725 2"
 				},
 				"Cask": {
-					"0": "388 25 709 2 726 1"
+					"0": "388 20 709 1 726 1"
 				}
 			},
 			"When": {
@@ -300,13 +303,13 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Preserves Jar": {
-					"0": "388 50 390 40 709 15 726 3"
+					"0": "388 50 390 40 709 10 726 3"
 				},
 				"Keg": {
-					"0": "388 40 334 3 335 3 725 3"
+					"0": "388 40 334 2 335 2 725 3"
 				},
 				"Cask": {
-					"0": "388 35 709 2 726 2"
+					"0": "388 30 709 2 726 2"
 				}
 			},
 			"When": {
@@ -335,7 +338,7 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Cask": {
-					"0": "388 25 709 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 1"
+					"0": "388 20 709 1 FlashShifter.StardewValleyExpandedCP_Birch_Water 1"
 				}
 			},
 			"When": {
@@ -350,7 +353,7 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Cask": {
-					"0": "388 35 709 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 2"
+					"0": "388 30 709 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 2"
 				}
 			},
 			"When": {

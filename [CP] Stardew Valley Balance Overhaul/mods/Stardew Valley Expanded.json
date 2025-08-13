@@ -8,7 +8,7 @@
 					"Price": "120"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": {
-					"Price": "6200"
+					"Price": "630"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {
 					"Price": "400"
@@ -82,62 +82,8 @@
 				"FlashShifter.StardewValleyExpandedCP_Yarn": {
 					"Price": "680"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Butter": {
-					"Price": "100"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {
-					"Price": "90"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {
-					"Price": "150"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Big_Conch": {
-					"Price": "100"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Bearberrys": {
-					"Price": "60"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": {
-					"Price": "65"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Red_Baneberry": {
-					"Price": "25"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": {
-					"Price": "130"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Thistle": {
-					"Price": "120"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Goldenrod": {
-					"Price": "140"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": {
-					"Price": "150"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": {
-					"Price": "200"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": {
-					"Price": "200"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": {
-					"Price": "300"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": {
-					"Price": "500"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": {
-					"Price": "110"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Shark_Tooth": {
-					"Price": "175"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": {
-					"Price": "90"
-				},
 				"FlashShifter.StardewValleyExpandedCP_Alligator": {
-					"Price": "155"
+					"Price": "135"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Arrowhead_Shark": {
 					"Price": "190"
@@ -146,10 +92,10 @@
 					"Price": "65"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Barred_Knifejaw": {
-					"Price": "110"
+					"Price": "100"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Blue_Tang": {
-					"Price": "65"
+					"Price": "55"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Bonefish": {
 					"Price": "140"
@@ -167,13 +113,13 @@
 					"Price": "85"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {
-					"Price": "240"
+					"Price": "200"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {
 					"Price": "35"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Fiber_Goby": {
-					"Price": "150"
+					"Price": "110"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Frog": {
 					"Price": "115"
@@ -184,17 +130,17 @@
 				"FlashShifter.StardewValleyExpandedCP_Gemfish": {
 					"Price": "315"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {
-					"Price": "145"
-				},
 				"FlashShifter.StardewValleyExpandedCP_Goldfish": {
 					"Price": "55"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Goldenfish": {
+					"Price": "145"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Grass_Carp": {
 					"Price": "165"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {
-					"Price": "125"
+					"Price": "75"
 				},
 				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {
 					"Price": "155"
@@ -242,13 +188,13 @@
 					"Price": "135"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Swamp_Crab": {
-					"Price": "115"
+					"Price": "60"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Tadpole": {
 					"Price": "50"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {
-					"Price": "145"
+					"Price": "125"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Turretfish": {
 					"Price": "3000"
@@ -257,7 +203,7 @@
 					"Price": "165"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {
-					"Price": "155"
+					"Price": "210"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {
 					"Price": "210"
@@ -269,133 +215,79 @@
 					"Price": "3000"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": {
-					"Price": "805"
+					"Price": "825"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Baked_Potato": {
 					"Price": "215"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {
-					"Price": "350"
+					"Price": "365"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Birch_Syrup": {
-					"Price": "630"
+					"Price": "635"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Candy": {
-					"Price": "890"
+					"Price": "895"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie": {
-					"Price": "710"
+					"Price": "670"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar": {
-					"Price": "420"
+					"Price": "450"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": {
-					"Price": "695"
+					"Price": "705"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Frog_Legs": {
-					"Price": "290"
+					"Price": "305"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Gingerbread_Man": {
-					"Price": "185"
+					"Price": "200"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {
-					"Price": "510"
+					"Price": "535"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": {
-					"Price": "300"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": {
-					"Price": "610"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": {
 					"Price": "320"
 				},
+				"FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": {
+					"Price": "390"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": {
+					"Price": "330"
+				},
 				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {
-					"Price": "260"
+					"Price": "365"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": {
 					"Price": "665"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": {
-					"Price": "130"
+					"Price": "215"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": {
-					"Price": "385"
+					"Price": "415"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Prismatic_Pop": {
 					"Price": "1765"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Ramen": {
-					"Price": "270"
+					"Price": "285"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": {
 					"Price": "265"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": {
-					"Price": "510"
+					"Price": "545"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Vegan_Cone": {
 					"Price": "145"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Delight": {
-					"Price": "4840"
+					"Price": "4850"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": {
-					"Price": "600"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": { // Void Pebble
-					"Price": "300"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { // Birch Water
-					"Price": "150"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { // Fir Wax
-					"Price": "350"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Gold_Slime_Egg": { // Gold Slime Egg
-					"Price": "4500"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Green_Mushroom": { // Green Mushroom
-					"Price": "400"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Magic_Lamp": { // Magic Lamp
-					"Price": "5000"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { // Mega Purple Mushroom
-					"Price": "3000"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Rusty_Blade": { // Rusty Blade
-					"Price": "200"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Sludge": { // Sludge
-					"Price": "60"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Supernatural_Goo": { // Supernatural Goo
-					"Price": "200"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Swamp_Essence": { // Swamp Essence
-					"Price": "80"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Swirl_Stone": { // Swirl Stone
-					"Price": "1500"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Void_Shard": { // Void Shard
-					"Price": "5000"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Void_Soul": { // Void Soul
-					"Price": "150"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Fir_Cone": { // Fir Cone
-					"Price": "10"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Birch_Seed": { // Birch Seed
-					"Price": "10"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest": { // Ornate Treasure Chest
-					"Price": "10000"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Seed_Cookie": { // Seed Cookie
-					"Price": "35"
+					"Price": "570"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Amber": {
 					"Price": "250"
@@ -417,6 +309,114 @@
 				},
 				"FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba": {
 					"Price": "1000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Mushroom_Colony": {
+					"Price": "90"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia": {
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Big_Conch": {
+					"Price": "100"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Bearberrys": {
+					"Price": "60"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Poison_Mushroom": {
+					"Price": "65"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Red_Baneberry": {
+					"Price": "25"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Rusty_Blade": { // Rusty Blade
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": {
+					"Price": "110"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Shark_Tooth": {
+					"Price": "175"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Sludge": { // Sludge
+					"Price": "60"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Supernatural_Goo": { // Supernatural Goo
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Essence": { // Swamp Essence
+					"Price": "80"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": {
+					"Price": "90"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Swirl_Stone": { // Swirl Stone
+					"Price": "1500"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": {
+					"Price": "130"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { // Fir Wax
+					"Price": "350"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Thistle": {
+					"Price": "120"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Goldenrod": {
+					"Price": "140"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Green_Mushroom": { // Green Mushroom
+					"Price": "400"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Magic_Lamp": { // Magic Lamp
+					"Price": "5000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { // Mega Purple Mushroom
+					"Price": "3000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": {
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": {
+					"Price": "300"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": {
+					"Price": "200"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Gold_Slime_Egg": { // Gold Slime Egg
+					"Price": "4500"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { // Golden Ocean FLower
+					"Price": "500"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": { // Void Pebble
+					"Price": "300"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Void_Shard": { // Void Shard
+					"Price": "5000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Void_Soul": { // Void Soul
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Butter": { // Butter
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { // Birch Water
+					"Price": "150"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Fir_Cone": { // Fir Cone
+					"Price": "10"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Birch_Seed": { // Birch Seed
+					"Price": "10"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest": { // Ornate Treasure Chest
+					"Price": "10000"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Seed_Cookie": { // Seed Cookie
+					"Price": "35"
 				}
 			},
 			"When": {
@@ -1319,7 +1319,7 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Butter Churner": {
-					"0": "388 25 390 25 84 1 FlashShifter.StardewValleyExpandedCP__Fir_Wax 1"
+					"0": "388 25 390 25 84 2 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1"
 				},
 				"Yarn Spooler": {
 					"0": "709 35 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1 787 1"
@@ -1385,25 +1385,25 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Goose_Egg": {
-					"Price": "325"
+					"Price": "360"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg": {
-					"Price": "1100"
+					"Price": "2200"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": {
-					"Price": "325"
+					"Price": "370"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Honey_Jar": {
-					"Price": "550"
+					"Price": "340"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Goose_Mayonnaise": {
-					"Price": "690"
+					"Price": "725"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Yarn": {
-					"Price": "700"
+					"Price": "745"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Butter": {
-					"Price": "110"
+					"Price": "165"
 				}
 			},
 			"When": {

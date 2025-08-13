@@ -1,118 +1,118 @@
 {
 	"Changes": [
 		{
-			// Food prices (base, no Cornucopia)
+			// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"blueberry.LoveOfCooking_admiralpie": {
+				"blueberry.LoveOfCooking_admiralpie": { // Admiral Pie
 					"Price": "290"
-				}, // Admiral Pie
-				"blueberry.LoveOfCooking_applepie": {
-					"Price": "365"
-				}, // Apple Pie
-				"blueberry.LoveOfCooking_arancini": {
+				},
+				"blueberry.LoveOfCooking_applepie": { // Apple Pie
+					"Price": "330"
+				},
+				"blueberry.LoveOfCooking_arancini": { // Arancini
 					"Price": "125"
-				}, // Arancini
-				"blueberry.LoveOfCooking_bakedpotato": {
+				},
+				"blueberry.LoveOfCooking_bakedpotato": { // Baked Potato
 					"Price": "270"
-				}, // Baked Potato
-				"blueberry.LoveOfCooking_breakfast": {
+				},
+				"blueberry.LoveOfCooking_breakfast": { // Quick Breakfast
 					"Price": "325"
-				}, // Quick Breakfast
-				"blueberry.LoveOfCooking_burger": {
+				},
+				"blueberry.LoveOfCooking_burger": { // Beet Burger
 					"Price": "380"
-				}, // Beet Burger
-				"blueberry.LoveOfCooking_burrito": {
+				},
+				"blueberry.LoveOfCooking_burrito": { // Burrito
 					"Price": "230"
-				}, // Burrito
-				"blueberry.LoveOfCooking_carrotcake": {
+				},
+				"blueberry.LoveOfCooking_carrotcake": { // Carrot Cake
 					"Price": "325"
-				}, // Carrot Cake
-				"blueberry.LoveOfCooking_cherrypie": {
+				},
+				"blueberry.LoveOfCooking_cherrypie": { // Cherry Pie
 					"Price": "405"
-				}, // Cherry Pie
-				"blueberry.LoveOfCooking_chocoflan": {
+				},
+				"blueberry.LoveOfCooking_chocoflan": { // Hazelnut Bakewell
 					"Price": "470"
-				}, // Hazelnut Bakewell
-				"blueberry.LoveOfCooking_cocococktail": {
+				},
+				"blueberry.LoveOfCooking_cocococktail": { // Coconut Cocktail
 					"Price": "145"
-				}, // Coconut Cocktail
-				"blueberry.LoveOfCooking_craymornay": {
+				},
+				"blueberry.LoveOfCooking_craymornay": { // Cray Mornay Cauliflower
 					"Price": "395"
-				}, // Cray Mornay Cauliflower
-				"blueberry.LoveOfCooking_crepes": {
-					"Price": "385"
-				}, // Crepes Suzette
-				"blueberry.LoveOfCooking_curry": {
+				},
+				"blueberry.LoveOfCooking_crepes": { // Crepes Suzette
+					"Price": "395"
+				},
+				"blueberry.LoveOfCooking_curry": { // Curry Diablo
 					"Price": "400"
-				}, // Curry Diablo
-				"blueberry.LoveOfCooking_eggsando": {
+				},
+				"blueberry.LoveOfCooking_eggsando": { // Egg Sandwich
 					"Price": "290"
-				}, // Egg Sandwich
-				"blueberry.LoveOfCooking_fruity": {
+				},
+				"blueberry.LoveOfCooking_fruity": { // Sherry Syllabub
 					"Price": "290"
-				}, // Sherry Syllabub
-				"blueberry.LoveOfCooking_hotcocoa": {
+				},
+				"blueberry.LoveOfCooking_hotcocoa": { // Hot Cocoa
 					"Price": "305"
-				}, // Hot Cocoa
-				"blueberry.LoveOfCooking_hunters": {
+				},
+				"blueberry.LoveOfCooking_hunters": { // Hunter's Plate
 					"Price": "275"
-				}, // Hunter's Plate
-				"blueberry.LoveOfCooking_kebab": {
+				},
+				"blueberry.LoveOfCooking_kebab": { // Kebab
 					"Price": "295"
-				}, // Kebab
-				"blueberry.LoveOfCooking_lasagna": {
+				},
+				"blueberry.LoveOfCooking_lasagna": { // Lasagna Ricotta
 					"Price": "570"
-				}, // Lasagna Ricotta
-				"blueberry.LoveOfCooking_leeks": {
+				},
+				"blueberry.LoveOfCooking_leeks": { // Braised Leeks
 					"Price": "340"
-				}, // Braised Leeks
-				"blueberry.LoveOfCooking_lobster": {
+				},
+				"blueberry.LoveOfCooking_lobster": { // Baked Lobster
 					"Price": "270"
-				}, // Baked Lobster
-				"blueberry.LoveOfCooking_nigiri": {
-					"Price": "260"
-				}, // Roe Roll
-				"blueberry.LoveOfCooking_oceanplatter": {
-					"Price": "775"
-				}, // Ocean Platter
-				"blueberry.LoveOfCooking_paella": {
-					"Price": "415"
-				}, // Paella
-				"blueberry.LoveOfCooking_parfait": {
+				},
+				"blueberry.LoveOfCooking_nigiri": { // Roe Roll
 					"Price": "205"
-				}, // Plum Parfait
-				"blueberry.LoveOfCooking_pilaf": {
-					"Price": "395"
-				}, // Mushroom Pilaf
-				"blueberry.LoveOfCooking_profiteroles": {
+				},
+				"blueberry.LoveOfCooking_oceanplatter": { // Ocean Platter
+					"Price": "775"
+				},
+				"blueberry.LoveOfCooking_paella": { // Paella
+					"Price": "415"
+				},
+				"blueberry.LoveOfCooking_parfait": { // Plum Parfait
+					"Price": "205"
+				},
+				"blueberry.LoveOfCooking_pilaf": { // Mushroom Pilaf
+					"Price": "400"
+				},
+				"blueberry.LoveOfCooking_profiteroles": { // Profiteroles
 					"Price": "320"
-				}, // Profiteroles
-				"blueberry.LoveOfCooking_quiche": {
+				},
+				"blueberry.LoveOfCooking_quiche": { // Quiche Provencale
 					"Price": "420"
-				}, // Quiche Provencale
-				"blueberry.LoveOfCooking_roast": {
+				},
+				"blueberry.LoveOfCooking_roast": { // Hot Pot Roast
 					"Price": "585"
-				}, // Hot Pot Roast
-				"blueberry.LoveOfCooking_saladsando": {
+				},
+				"blueberry.LoveOfCooking_saladsando": { // Salad Sandwich
 					"Price": "440"
-				}, // Salad Sandwich
-				"blueberry.LoveOfCooking_seafoodsando": {
+				},
+				"blueberry.LoveOfCooking_seafoodsando": { // Seafood Sandwich
 					"Price": "380"
-				}, // Seafood Sandwich
-				"blueberry.LoveOfCooking_summersalad": {
+				},
+				"blueberry.LoveOfCooking_summersalad": { // Summer Salad
 					"Price": "390"
-				}, // Summer Salad
-				"blueberry.LoveOfCooking_unagi": {
+				},
+				"blueberry.LoveOfCooking_unagi": { // Eel Sushi
 					"Price": "275"
-				}, // Eel Sushi
-				"blueberry.LoveOfCooking_waffles": {
+				},
+				"blueberry.LoveOfCooking_waffles": { // Berry Waffles
 					"Price": "305"
-				}, // Berry Waffles
-				"blueberry.LoveOfCooking_chocolate": {
+				},
+				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
 					"Price": "200"
-				} // Cooking Chocolate
+				}
 			},
 			"When": {
 				"Sell Prices": true
