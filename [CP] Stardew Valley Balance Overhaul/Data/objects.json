@@ -2555,7 +2555,7 @@
 				"395": { // Coffee
 					"Buffs": [
 						{
-							"Duration": "600",
+							"Duration": "{{Query: 200 * {{Spiderbuttons.ButtonsExtraBooksCore/ConfigCoffeeMultiplier}}}}",
 							"IsDebuff": false,
 							"CustomAttributes": {
 								"Speed": "1"
@@ -2566,7 +2566,7 @@
 				"253": { // Triple Shot Espresso
 					"Buffs": [
 						{
-							"Duration": "1800",
+							"Duration": "{{Query: 600 * {{Spiderbuttons.ButtonsExtraBooksCore/ConfigCoffeeMultiplier}}}}",
 							"IsDebuff": false,
 							"CustomAttributes": {
 								"Speed": "1"
