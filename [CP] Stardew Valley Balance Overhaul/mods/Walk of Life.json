@@ -23,7 +23,7 @@
 					"Price": "2000"
 				},
 				"DaLion.Professions_GoldenMayo": { // Golden Mayonnaise
-					"Price": "600"
+					"Price": "500"
 				}
 			},
 			"When": {
@@ -39,7 +39,7 @@
 					"Price": "2200"
 				},
 				"DaLion.Professions_GoldenMayo": { // Golden Mayonnaise
-					"Price": "650"
+					"Price": "550"
 				}
 			},
 			"When": {

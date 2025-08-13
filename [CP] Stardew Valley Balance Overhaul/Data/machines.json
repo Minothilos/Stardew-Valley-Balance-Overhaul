@@ -854,7 +854,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Cheese Press - Large Goat Milk
+		{	// Cheese Press - Large Goat Milk (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -893,7 +893,48 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
+		},
+		{	// Cheese Press - Large Goat Milk (WoL)
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeGoatMilk",
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": true
 			}
 		},
 		{	// Cheese Press - Milk
@@ -929,7 +970,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Cheese Press - Large Milk
+		{	// Cheese Press - Large Milk (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -968,7 +1009,48 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
+		},
+		{	// Cheese Press - Large Milk (WoL)
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"Default_LargeMilk",
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": true
 			}
 		},
 		{	// Oil Maker - Corn
@@ -1235,7 +1317,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Mayonnaise Machine - Large Egg
+		{	// Mayonnaise Machine - Large Egg (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1274,7 +1356,48 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": false
+			}
+		},
+		{	// Mayonnaise Machine - Large Egg (WoL)
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)24",
+				"OutputRules",
+				"Default_LargeEgg",
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Machine Processing": "On",
+				"HasMod|contains=DaLion.Professions": true
 			}
 		},
 		{	// Mayonnaise Machine - Egg
@@ -1647,21 +1770,28 @@
 				"StackModifiers": [
 					{
 						"Id": "AddQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.15\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
 						"Id": "AddQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.15\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
 						"Id": "AddQuality3",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.15\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
@@ -1686,21 +1816,28 @@
 				"StackModifiers": [
 					{
 						"Id": "AddQuality1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.15\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.10\" \"ITEM_QUALITY Input 2 2, RANDOM 0.20\" \"ITEM_QUALITY Input 4 4, RANDOM 0.40\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
 						"Id": "AddQuality2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.15\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
 					},
 					{
 						"Id": "AddQuality3",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.15\"",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
 						"Modification": "Add",
 						"Amount": "1",
 						"RandomAmount": null
