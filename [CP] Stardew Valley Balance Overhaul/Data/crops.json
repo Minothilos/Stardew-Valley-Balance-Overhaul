@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {   // Ancient Fruit
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Fields": {
+                "499": { // Ancient Fruit
+                    "RegrowDays": 8
+                }
+            },
+            "When": {
+                "Sell Prices": true
+            }
+        }
+    ]
+}

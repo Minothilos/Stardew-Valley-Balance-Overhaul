@@ -160,7 +160,7 @@
 	"Changes": [
 		{
 			"Action": "Include",
-			"FromFile": "Data/buildings.json, Data/craftingrecipes.json, Data/farmanimals.json, Data/machines.json, Data/monsters.json, Data/museumrewards.json, Data/objects.json, Data/shops.json, Data/bundles.json"
+			"FromFile": "Data/buildings.json, Data/craftingrecipes.json, Data/farmanimals.json, Data/machines.json, Data/monsters.json, Data/museumrewards.json, Data/objects.json, Data/shops.json, Data/bundles.json, Data/crops.json"
 		},
 		{
 			"Action": "Include",

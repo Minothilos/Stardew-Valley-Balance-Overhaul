@@ -5,22 +5,22 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Ancient_Fiber": {
-					"Price": "120"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": {
-					"Price": "630"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {
-					"Price": "400"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": {
-					"Price": "40"
-				},
-				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": {
 					"Price": "90"
 				},
+				"FlashShifter.StardewValleyExpandedCP_Monster_Fruit": {
+					"Price": "500"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Monster_Mushroom": {
+					"Price": "290"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Salal_Berry": {
+					"Price": "25"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Slime_Berry": {
+					"Price": "55"
+				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Root": {
-					"Price": "240"
+					"Price": "180"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Joja_Berry": {
 					"Price": "250"

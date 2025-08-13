@@ -32,7 +32,7 @@
 					"Price": "6"
 				},
 				"454": { // Ancient Fruit
-					"Price": "300"
+					"Price": "250"
 				},
 				"90": { // Cactus Fruit
 					"Price": "75"
@@ -116,7 +116,7 @@
 					"Price": "105"
 				},
 				"417": { // Sweet Gem Berry
-					"Price": "2000"
+					"Price": "1500"
 				},
 				"271": { // Unmilled Rice
 					"Price": "80"
@@ -1618,7 +1618,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"417", // Sweet Berry Gem
+				"417", // Sweet Gem Berry
 				"ContextTags"
 			], 
 			"Entries": {
