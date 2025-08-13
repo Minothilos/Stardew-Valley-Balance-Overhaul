@@ -734,7 +734,7 @@
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Cauliflower_Seeds, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay": {
+				"FlashShifter.StardewValleyExpandedCP_Cauliflower_Seeds": {
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
@@ -742,7 +742,7 @@
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Jazz_Seeds, !IS_PASSIVE_FESTIVAL_TODAY FlashShifter.StardewValleyExpandedCP_JojaDay": {
+				"FlashShifter.StardewValleyExpandedCP_Jazz_Seeds": {
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
