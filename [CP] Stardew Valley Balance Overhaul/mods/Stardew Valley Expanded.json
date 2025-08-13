@@ -50,7 +50,7 @@
 					"Price": "110"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Money_Bag": {
-					"Price": "200"
+					"Price": "150"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Tree_Coin": {
 					"Price": "2500"
@@ -1319,7 +1319,7 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Butter Churner": {
-					"0": "388 25 390 25 84 1 FlashShifter.StardewValleyExpandedCP_Birch_Water 1"
+					"0": "388 25 390 25 84 1 FlashShifter.StardewValleyExpandedCP__Fir_Wax 1"
 				},
 				"Yarn Spooler": {
 					"0": "709 35 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 726 1 787 1"
@@ -1334,7 +1334,7 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Butter Churner": {
-					"0": "388 30 390 30 84 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2"
+					"0": "388 30 390 30 84 3 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2"
 				},
 				"Yarn Spooler": {
 					"0": "709 40 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 1 787 1"
@@ -1349,7 +1349,7 @@
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"Butter Churner": {
-					"0": "388 35 390 35 84 4 FlashShifter.StardewValleyExpandedCP_Birch_Water 3"
+					"0": "388 35 390 35 84 4 FlashShifter.StardewValleyExpandedCP_Fir_Wax 3"
 				},
 				"Yarn Spooler": {
 					"0": "709 45 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 726 2 787 2"
