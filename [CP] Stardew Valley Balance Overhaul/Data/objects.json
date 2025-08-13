@@ -2548,27 +2548,31 @@
 				"Food Buffs": true
 			}
 		},
-		{	// Coffee - NOT WORKING
+		{	// Button's Extra Books Patch
 			"Action": "EditData",
-            "Target": "Data/Objects",
-			"TargetField": [ "395", "Buffs" ],
-            "Fields": {
-				"Drink": {
-					"Duration": "600"
-				}
-			},
-			"When": {
-				"Spiderbuttons.ButtonsExtraBooksCore/HasCoffeePower": true,
-				"HasMod|contains=Spiderbuttons.ButtonsExtraBooksCore": true
-			}
-		},
-		{	// Triple Shot Espresso - NOT WORKING
-			"Action": "EditData",
-            "Target": "Data/Objects",
-			"TargetField": [ "253", "Buffs" ],
-            "Fields": {
-				"Drink": {
-					"Duration": "1800"
+			"Target": "Data/Objects",
+			"Fields": {
+				"395": { // Coffee
+					"Buffs": [
+						{
+							"Duration": "600",
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"Speed": "1"
+							}
+						}
+					]
+				},
+				"253": { // Triple Shot Espresso
+					"Buffs": [
+						{
+							"Duration": "1800",
+							"IsDebuff": false,
+							"CustomAttributes": {
+								"Speed": "1"
+							}
+						}
+					]
 				}
 			},
 			"When": {
