@@ -331,10 +331,10 @@
 				"FlashShifter.StardewValleyExpandedCP_Rusty_Blade": { // Rusty Blade
 					"Price": "200"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": {
+				"FlashShifter.StardewValleyExpandedCP_Dried_Sand_Dollar": { // Sand Dollar
 					"Price": "110"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Shark_Tooth": {
+				"FlashShifter.StardewValleyExpandedCP_Shark_Tooth": { // Sharp Tooth
 					"Price": "175"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Sludge": { // Sludge
@@ -346,22 +346,22 @@
 				"FlashShifter.StardewValleyExpandedCP_Swamp_Essence": { // Swamp Essence
 					"Price": "80"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": {
+				"FlashShifter.StardewValleyExpandedCP_Swamp_Flower": { // Swamp Flower
 					"Price": "90"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Swirl_Stone": { // Swirl Stone
 					"Price": "1500"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": {
+				"FlashShifter.StardewValleyExpandedCP_Ferngill_Primrose": { //Ferngill Primrose
 					"Price": "130"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Fir_Wax": { // Fir Wax
 					"Price": "350"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Thistle": {
+				"FlashShifter.StardewValleyExpandedCP_Thistle": { // Thistle
 					"Price": "120"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Goldenrod": {
+				"FlashShifter.StardewValleyExpandedCP_Goldenrod": { // Goldenrod
 					"Price": "140"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Green_Mushroom": { // Green Mushroom
@@ -373,16 +373,16 @@
 				"FlashShifter.StardewValleyExpandedCP_Mega_Purple_Mushroom": { // Mega Purple Mushroom
 					"Price": "3000"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": {
+				"FlashShifter.StardewValleyExpandedCP_Winter_Star_Rose": { // Winter Star Rose
 					"Price": "150"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": {
+				"FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry": { // Dewdrop Berry
 					"Price": "200"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": {
+				"FlashShifter.StardewValleyExpandedCP_Diamond_Flower": { // Diamond Flower
 					"Price": "300"
 				},
-				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": {
+				"FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover": { // Lucky Four Leaf Clover
 					"Price": "200"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Gold_Slime_Egg": { // Gold Slime Egg

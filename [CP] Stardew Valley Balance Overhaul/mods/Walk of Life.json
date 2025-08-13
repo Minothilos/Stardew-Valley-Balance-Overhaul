@@ -15,7 +15,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Sell Prices (Blue Egg)
+		{	// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {

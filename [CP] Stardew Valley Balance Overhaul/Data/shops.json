@@ -869,7 +869,7 @@
 			],
 			"Fields": {
 				"(O)802": { // Cactus Seeds
-					"AvailableStock": "25",
+					"AvailableStock": "10",
 					"AvailableStockLimit": "Player"
 				},
 				"(O)478": { // Rhubarb Seeds

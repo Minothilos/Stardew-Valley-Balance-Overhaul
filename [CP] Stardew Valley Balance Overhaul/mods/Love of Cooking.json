@@ -119,16 +119,16 @@
 			}
 		},
 		{
-			// Food prices (Cornucopia Artisan Machines)
+			// Sell Prices (Cornucopia Artisan Machines)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"blueberry.LoveOfCooking_burrito": {
+				"blueberry.LoveOfCooking_burrito": { // Burrito
 					"Price": "215"
-				}, // Burrito
-				"blueberry.LoveOfCooking_kebab": {
+				},
+				"blueberry.LoveOfCooking_kebab": { // Kebab
 					"Price": "270"
-				} // Kebab
+				}
 			},
 			"When": {
 				"Sell Prices": true,
@@ -136,11 +136,11 @@
 			}
 		},
 		{
-			// Food buffs
+			// Food Buffs
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"blueberry.LoveOfCooking_admiralpie": {
+				"blueberry.LoveOfCooking_admiralpie": { // Admiral Pie
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -151,8 +151,8 @@
 							}
 						}
 					]
-				}, // Admiral Pie
-				"blueberry.LoveOfCooking_applepie": {
+				},
+				"blueberry.LoveOfCooking_applepie": { // Apple Pie
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -163,8 +163,8 @@
 							}
 						}
 					]
-				}, // Apple Pie
-				"blueberry.LoveOfCooking_arancini": {
+				},
+				"blueberry.LoveOfCooking_arancini": { // Arancini
 					"Buffs": [
 						{
 							"Duration": 400,
@@ -174,8 +174,8 @@
 							}
 						}
 					]
-				}, // Arancini
-				"blueberry.LoveOfCooking_breakfast": {
+				},
+				"blueberry.LoveOfCooking_breakfast": { // Quick Breakfast
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -186,8 +186,8 @@
 							}
 						}
 					]
-				}, // Quick Breakfast
-				"blueberry.LoveOfCooking_burger": {
+				},
+				"blueberry.LoveOfCooking_burger": { // Beet Burger
 					"Buffs": [
 						{
 							"Duration": 600,
@@ -198,8 +198,8 @@
 							}
 						}
 					]
-				}, // Beet Burger
-				"blueberry.LoveOfCooking_carrotcake": {
+				},
+				"blueberry.LoveOfCooking_carrotcake": { // Carrot Cake
 					"Buffs": [
 						{
 							"Duration": 600,
@@ -209,8 +209,8 @@
 							}
 						}
 					]
-				}, // Carrot Cake
-				"blueberry.LoveOfCooking_cherrypie": {
+				},
+				"blueberry.LoveOfCooking_cherrypie": { // Cherry Pie
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -221,8 +221,8 @@
 							}
 						}
 					]
-				}, // Cherry Pie
-				"blueberry.LoveOfCooking_chocoflan": {
+				},
+				"blueberry.LoveOfCooking_chocoflan": { // Hazelnut Bakewell
 					"Buffs": [
 						{
 							"Duration": 800,
@@ -233,8 +233,8 @@
 							}
 						}
 					]
-				}, // Hazelnut Bakewell
-				"blueberry.LoveOfCooking_cocococktail": {
+				},
+				"blueberry.LoveOfCooking_cocococktail": { // Coconut Cocktail
 					"Buffs": [
 						{
 							"Duration": 400,
@@ -249,8 +249,8 @@
 							"BuffId": "17"
 						}
 					]
-				}, // Coconut Cocktail
-				"blueberry.LoveOfCooking_craymornay": {
+				},
+				"blueberry.LoveOfCooking_craymornay": { // Cray Mornay
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -260,8 +260,8 @@
 							}
 						}
 					]
-				}, // Cray Mornay
-				"blueberry.LoveOfCooking_crepes": {
+				},
+				"blueberry.LoveOfCooking_crepes": { // Crepes Suzette
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -276,8 +276,8 @@
 							"BuffId": "17"
 						}
 					]
-				}, // Crepes Suzette
-				"blueberry.LoveOfCooking_fruity": {
+				},
+				"blueberry.LoveOfCooking_fruity": { // Sherry Syllabub
 					"Buffs": [
 						{
 							"Duration": 400,
@@ -291,8 +291,8 @@
 							"BuffId": "17"
 						}
 					]
-				}, // Sherry Syllabub
-				"blueberry.LoveOfCooking_hunters": {
+				},
+				"blueberry.LoveOfCooking_hunters": { // Hunter's Plate
 					"Buffs": [
 						{
 							"Duration": 600,
@@ -303,8 +303,8 @@
 							}
 						}
 					]
-				}, // Hunter's Plate
-				"blueberry.LoveOfCooking_lobster": {
+				},
+				"blueberry.LoveOfCooking_lobster": { // Baked Lobster
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -315,8 +315,8 @@
 							}
 						}
 					]
-				}, // Baked Lobster
-				"blueberry.LoveOfCooking_nigiri": {
+				},
+				"blueberry.LoveOfCooking_nigiri": { // Roe Roll
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -328,8 +328,8 @@
 							}
 						}
 					]
-				}, // Roe Roll
-				"blueberry.LoveOfCooking_oceanplatter": {
+				},
+				"blueberry.LoveOfCooking_oceanplatter": { // Ocean Platter
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -339,8 +339,8 @@
 							}
 						}
 					]
-				}, // Ocean Platter
-				"blueberry.LoveOfCooking_parfait": {
+				},
+				"blueberry.LoveOfCooking_parfait": { // Plum Parfait
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -350,8 +350,8 @@
 							}
 						}
 					]
-				}, // Plum Parfait
-				"blueberry.LoveOfCooking_roast": {
+				},
+				"blueberry.LoveOfCooking_roast": { // Hot Pot Roast
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -370,8 +370,8 @@
 							}
 						}
 					]
-				}, // Hot Pot Roast
-				"blueberry.LoveOfCooking_summersalad": {
+				},
+				"blueberry.LoveOfCooking_summersalad": { // Summer Salad
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -383,8 +383,8 @@
 							}
 						}
 					]
-				}, // Summer Salad
-				"blueberry.LoveOfCooking_unagi": {
+				},
+				"blueberry.LoveOfCooking_unagi": { // Eel Sushi
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -395,8 +395,8 @@
 							}
 						}
 					]
-				}, // Eel Sushi
-				"blueberry.LoveOfCooking_waffles": {
+				},
+				"blueberry.LoveOfCooking_waffles": { // Berry Waffles
 					"Buffs": [
 						{
 							"Duration": 500,
@@ -409,14 +409,14 @@
 							}
 						}
 					]
-				} // Berry Waffles
+				}
 			},
 			"When": {
 				"Food Buffs": true
 			}
 		},
 		{
-			// Chocolate is cooking with Cornucopia More Crops
+			// Chocolate is Cooking (Cornucopia More Crops)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -430,7 +430,7 @@
 			}
 		},
 		{
-			// Make chocolate with Cornucopia Cocoa Pod
+			// Make Chocolate (Cornucopia Cocoa Pod)
 			"Action": "EditData",
 			"Target": "Data/CookingRecipes",
 			"Entries": {
