@@ -39,6 +39,27 @@
                 }
             }
         },
+		{	// Lantana Love Shop
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"PolyamorySweet.LantanaLoveShop",
+				"Items"
+			],
+			"Fields": {
+				"ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
         {   // Shops - NEEDS LOOKED AT. EDITING FIELDS.
             "Action": "EditData",
             "Target": "Data/Shops",
