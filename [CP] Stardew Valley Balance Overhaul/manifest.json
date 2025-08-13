@@ -32,10 +32,6 @@
 			"IsRequired": false
 		},
 		{
-			"UniqueID": "Lumisteria.GlimmeringClumpsNodes",
-			"IsRequired": false
-		},
-		{
 			"UniqueID": "Cornucopia.MoreCrops",
 			"IsRequired": false
 		},
@@ -101,6 +97,10 @@
 		},
 		{
 			"UniqueID": "ZoeyHoshi.SVEForageCrops",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Spiderbuttons.ButtonsExtraBooksCore",
 			"IsRequired": false
 		}
 	]

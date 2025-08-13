@@ -117,24 +117,7 @@
 				"Amount": "5000"
 			},
 			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": false
-			}
-		},
-		{	
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)21", // Diamond (Lumisteria)
-				"ReadyTimeModifiers",
-				"Diamond"
-			],
-			"Entries": {
-				"Amount": "3000"
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
+				"Sell Prices": true
 			}
 		},
 		{

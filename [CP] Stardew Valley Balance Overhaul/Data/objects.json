@@ -1524,20 +1524,6 @@
 				"HasMod|contains=Cornucopia.GrowableForage": true
 			}
 		},
-		{	// Diamond Adjustment (Lumisteria)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"72": { // Diamond
-					"Price": "300"
-				} 
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
-				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
-			}
-		},
 		{	// Chocolate Cake Adjustment (Cornucopia More Crops)
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -2560,6 +2546,34 @@
 			},
 			"When": {
 				"Food Buffs": true
+			}
+		},
+		{	// Coffee - NOT WORKING
+			"Action": "EditData",
+            "Target": "Data/Objects",
+			"TargetField": [ "395", "Buffs" ],
+            "Fields": {
+				"Drink": {
+					"Duration": "600"
+				}
+			},
+			"When": {
+				"Spiderbuttons.ButtonsExtraBooksCore/HasCoffeePower": true,
+				"HasMod|contains=Spiderbuttons.ButtonsExtraBooksCore": true
+			}
+		},
+		{	// Triple Shot Espresso - NOT WORKING
+			"Action": "EditData",
+            "Target": "Data/Objects",
+			"TargetField": [ "253", "Buffs" ],
+            "Fields": {
+				"Drink": {
+					"Duration": "1800"
+				}
+			},
+			"When": {
+				"Spiderbuttons.ButtonsExtraBooksCore/HasCoffeePower": true,
+				"HasMod|contains=Spiderbuttons.ButtonsExtraBooksCore": true
 			}
 		}
 	]
