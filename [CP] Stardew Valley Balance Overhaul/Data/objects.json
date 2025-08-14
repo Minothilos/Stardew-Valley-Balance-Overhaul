@@ -1106,7 +1106,7 @@
 					"Price": "375"
 				},
 				"198": { // Baked Fish
-					"Price": "195"
+					"Price": "180"
 				},
 				"199": { // Parsnip Soup
 					"Price": "265"
@@ -1115,22 +1115,22 @@
 					"Price": "170"
 				},
 				"201": { // Complete Breakfast
-					"Price": "585"
+					"Price": "570"
 				},
 				"202": { // Fried Calamari
-					"Price": "325"
+					"Price": "315"
 				},
 				"203": { // Strange Bun
-					"Price": "420"
+					"Price": "405"
 				},
 				"204": { // Lucky Lunch
-					"Price": "305"
+					"Price": "310"
 				},
 				"205": { // Fried Mushroom
 					"Price": "315"
 				},
 				"206": { // Pizza
-					"Price": "310"
+					"Price": "295"
 				},
 				"207": { // Bean Hotpot
 					"Price": "145"
@@ -1145,7 +1145,7 @@
 					"Price": "215"
 				},
 				"211": { // Pancakes
-					"Price": "170"
+					"Price": "160"
 				},
 				"212": { // Salmon Dinner
 					"Price": "390"
@@ -1154,13 +1154,13 @@
 					"Price": "560"
 				},
 				"214": { // Crispy Bass
-					"Price": "270"
+					"Price": "260"
 				},
 				"215": { // Pepper Poppers
 					"Price": "210"
 				},
 				"216": { // Bread
-					"Price": "65"
+					"Price": "55"
 				},
 				"218": { // Tom Kha Soup
 					"Price": "290"
@@ -1169,19 +1169,19 @@
 					"Price": "110"
 				},
 				"220": { // Chocolate Cake
-					"Price": "170"
+					"Price": "160"
 				},
 				"221": { // Pink Cake
-					"Price": "430"
+					"Price": "420"
 				},
 				"222": { // Rhubarb Pie
-					"Price": "345"
+					"Price": "335"
 				},
 				"223": { // Cookie
-					"Price": "170"
+					"Price": "160"
 				},
 				"224": { // Spaghetti
-					"Price": "145"
+					"Price": "130"
 				},
 				"225": { // Fried Eel
 					"Price": "235"
@@ -1211,7 +1211,7 @@
 					"Price": "115"
 				},
 				"234": { // Blueberry Tart
-					"Price": "205"
+					"Price": "195"
 				},
 				"235": { // Autumn's Bounty
 					"Price": "415"
@@ -1226,13 +1226,13 @@
 					"Price": "90"
 				},
 				"239": { // Stuffing
-					"Price": "220"
+					"Price": "210"
 				},
 				"240": { // Farmer's Lunch
 					"Price": "240"
 				},
 				"241": { // Survival Burger
-					"Price": "220"
+					"Price": "210"
 				},
 				"242": { // Dish O' The Sea
 					"Price": "360"
@@ -1256,34 +1256,34 @@
 					"Price": "90"
 				},
 				"604": { // Plum Pudding
-					"Price": "285"
+					"Price": "275"
 				},
 				"605": { // Artichoke Dip
 					"Price": "215"
 				},
 				"606": { // Stir Fry
-					"Price": "400"
+					"Price": "405"
 				},
 				"607": { // Roasted Hazelnuts
 					"Price": "280"
 				},
 				"608": { // Pumpkin Pie
-					"Price": "425"
+					"Price": "415"
 				},
 				"609": { // Radish Salad
-					"Price": "340"
+					"Price": "330"
 				},
 				"610": { // Fruit Salad
-					"Price": "365"
+					"Price": "350"
 				},
 				"611": { // Blackberry Cobbler
-					"Price": "155"
+					"Price": "145"
 				},
 				"612": { // Cranberry Candy
-					"Price": "220"
+					"Price": "205"
 				},
 				"618": { // Bruschetta
-					"Price": "260"
+					"Price": "250"
 				},
 				"648": { // Coleslaw
 					"Price": "470"
@@ -1292,7 +1292,7 @@
 					"Price": "325"
 				},
 				"651": { // Poppyseed Muffin
-					"Price": "255"
+					"Price": "250"
 				},
 				"727": { // Chowder
 					"Price": "160"
@@ -1307,10 +1307,10 @@
 					"Price": "260"
 				},
 				"731": { // Maple Bar
-					"Price": "320"
+					"Price": "310"
 				},
 				"732": { // Crab Cakes
-					"Price": "400"
+					"Price": "390"
 				},
 				"733": { // Shrimp Cocktail
 					"Price": "265"
@@ -1319,10 +1319,10 @@
 					"Price": "130"
 				},
 				"904": { // Banana Pudding
-					"Price": "260"
+					"Price": "235"
 				},
 				"905": { // Mango Sticky Rice
-					"Price": "350"
+					"Price": "335"
 				},
 				"906": { // Poi
 					"Price": "570"
@@ -1331,7 +1331,7 @@
 					"Price": "360"
 				},
 				"921": { // Squid Ink Ravioli
-					"Price": "210"
+					"Price": "200"
 				},
 				"773": { // Life Elixir
 					"Price": "490"

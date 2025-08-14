@@ -6,10 +6,10 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"blueberry.LoveOfCooking_admiralpie": { // Admiral Pie
-					"Price": "290"
+					"Price": "280"
 				},
 				"blueberry.LoveOfCooking_applepie": { // Apple Pie
-					"Price": "330"
+					"Price": "320"
 				},
 				"blueberry.LoveOfCooking_arancini": { // Arancini
 					"Price": "125"
@@ -21,19 +21,19 @@
 					"Price": "325"
 				},
 				"blueberry.LoveOfCooking_burger": { // Beet Burger
-					"Price": "380"
+					"Price": "370"
 				},
 				"blueberry.LoveOfCooking_burrito": { // Burrito
 					"Price": "230"
 				},
 				"blueberry.LoveOfCooking_carrotcake": { // Carrot Cake
-					"Price": "325"
+					"Price": "305"
 				},
 				"blueberry.LoveOfCooking_cherrypie": { // Cherry Pie
-					"Price": "405"
+					"Price": "385"
 				},
 				"blueberry.LoveOfCooking_chocoflan": { // Hazelnut Bakewell
-					"Price": "470"
+					"Price": "445"
 				},
 				"blueberry.LoveOfCooking_cocococktail": { // Coconut Cocktail
 					"Price": "145"
@@ -42,13 +42,13 @@
 					"Price": "395"
 				},
 				"blueberry.LoveOfCooking_crepes": { // Crepes Suzette
-					"Price": "395"
+					"Price": "385"
 				},
 				"blueberry.LoveOfCooking_curry": { // Curry Diablo
 					"Price": "400"
 				},
 				"blueberry.LoveOfCooking_eggsando": { // Egg Sandwich
-					"Price": "290"
+					"Price": "280"
 				},
 				"blueberry.LoveOfCooking_fruity": { // Sherry Syllabub
 					"Price": "290"
@@ -75,7 +75,7 @@
 					"Price": "205"
 				},
 				"blueberry.LoveOfCooking_oceanplatter": { // Ocean Platter
-					"Price": "775"
+					"Price": "760"
 				},
 				"blueberry.LoveOfCooking_paella": { // Paella
 					"Price": "415"
@@ -87,19 +87,19 @@
 					"Price": "400"
 				},
 				"blueberry.LoveOfCooking_profiteroles": { // Profiteroles
-					"Price": "320"
+					"Price": "310"
 				},
 				"blueberry.LoveOfCooking_quiche": { // Quiche Provencale
 					"Price": "420"
 				},
 				"blueberry.LoveOfCooking_roast": { // Hot Pot Roast
-					"Price": "585"
+					"Price": "570"
 				},
 				"blueberry.LoveOfCooking_saladsando": { // Salad Sandwich
-					"Price": "440"
+					"Price": "430"
 				},
 				"blueberry.LoveOfCooking_seafoodsando": { // Seafood Sandwich
-					"Price": "380"
+					"Price": "370"
 				},
 				"blueberry.LoveOfCooking_summersalad": { // Summer Salad
 					"Price": "390"
@@ -108,7 +108,7 @@
 					"Price": "275"
 				},
 				"blueberry.LoveOfCooking_waffles": { // Berry Waffles
-					"Price": "305"
+					"Price": "270"
 				},
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
 					"Price": "200"

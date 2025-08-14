@@ -18,7 +18,7 @@
 		},
 		"Sell Prices": {
 			"AllowValues": "false, true",
-			"Default": "false",
+			"Default": "true",
 			"Section": "Balance Changes"
 		},
 		"Food Buffs": {

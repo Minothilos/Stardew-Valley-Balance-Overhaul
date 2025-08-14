@@ -215,13 +215,13 @@
 					"Price": "3000"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Baked_Berry_Oatmeal": {
-					"Price": "825"
+					"Price": "805"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Baked_Potato": {
-					"Price": "215"
+					"Price": "270"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {
-					"Price": "365"
+					"Price": "350"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Birch_Syrup": {
 					"Price": "635"
@@ -230,64 +230,64 @@
 					"Price": "895"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie": {
-					"Price": "670"
+					"Price": "715"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar": {
 					"Price": "450"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": {
-					"Price": "705"
+					"Price": "695"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Frog_Legs": {
-					"Price": "305"
+					"Price": "290"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Gingerbread_Man": {
-					"Price": "200"
+					"Price": "185"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {
-					"Price": "535"
+					"Price": "510"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": {
-					"Price": "320"
+					"Price": "365"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": {
-					"Price": "390"
+					"Price": "435"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": {
 					"Price": "330"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {
-					"Price": "365"
+					"Price": "335"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": {
 					"Price": "665"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Fruit_Bread": {
-					"Price": "215"
+					"Price": "205"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": {
-					"Price": "415"
+					"Price": "455"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Prismatic_Pop": {
 					"Price": "1765"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Ramen": {
-					"Price": "285"
+					"Price": "275"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Seaweed_Salad": {
 					"Price": "265"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": {
-					"Price": "545"
+					"Price": "580"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Vegan_Cone": {
 					"Price": "145"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Delight": {
-					"Price": "4850"
+					"Price": "4950"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi": {
-					"Price": "570"
+					"Price": "580"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Amber": {
 					"Price": "250"
@@ -639,7 +639,7 @@
 				"Items"
 			],
 			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { // Cucumber See 
+				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { // Cucumber Seed 
 					"Price": "220",
 					"IgnoreShopPriceModifiers": true
 				},
