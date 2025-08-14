@@ -619,7 +619,7 @@
 					"0": "390 100"
 				}
 			},
-			"When": { "Miscellaneous Recipes": true }
+			"When": { "Miscellaneous": true }
 		},
 		{
 			"Action": "EditData",
