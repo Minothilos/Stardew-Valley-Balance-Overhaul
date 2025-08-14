@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	// Sell Prices
+		{ // Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -285,7 +285,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Weapons
+		{ // Weapons
 			"Action": "EditData",
 			"Target": "Data/Weapons",
 			"Fields": {
@@ -605,7 +605,7 @@
 				}
 			}
 		},
-		{	// Food Buffs
+		{ // Food Buffs
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1105,7 +1105,7 @@
 				"Food Buffs": true
 			}
 		},
-		{	// Fruit Tree Shop
+		{ // Fruit Tree Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1150,7 +1150,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Warp Totem Crafting Recipe
+		{ // Warp Totem Crafting Recipe
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {

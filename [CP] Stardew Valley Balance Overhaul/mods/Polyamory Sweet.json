@@ -1,6 +1,6 @@
 {
     "Changes": [
-        {   // Sell Prices
+        { // Sell Prices
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
@@ -21,7 +21,7 @@
                 "Sell Prices": true
             }
         },
-        {   // Flower Bugfix
+        { // Flower Bugfix
             "Action": "EditData",
             "Target": "Data/Objects",
             "Fields": {
@@ -39,28 +39,28 @@
                 }
             }
         },
-		{	// Lantana Love Shop
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"PolyamorySweet.LantanaLoveShop",
-				"Items"
-			],
-			"Fields": {
-				"ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
-					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
-				},
-				"ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
-					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
-				}
-			},
-			"When": {
-				"Limited Seed Supply": true
-			}
-		},
-        {   // Shops - NEEDS LOOKED AT. EDITING FIELDS.
+        { // Lantana Love Shop
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "PolyamorySweet.LantanaLoveShop",
+                "Items"
+            ],
+            "Fields": {
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+                    "AvailableStock": "50",
+                    "AvailableStockLimit": "Player"
+                },
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
+                    "AvailableStock": "50",
+                    "AvailableStockLimit": "Player"
+                }
+            },
+            "When": {
+                "Limited Seed Supply": true
+            }
+        },
+        { // Shops - NEEDS LOOKED AT. EDITING FIELDS.
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -94,7 +94,7 @@
                 "Sell Prices": true
             }
         },
-        {   // Limit Seed Supply
+        { // Limit Seed Supply
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [

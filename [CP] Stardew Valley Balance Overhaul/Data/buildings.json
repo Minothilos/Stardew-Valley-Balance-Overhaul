@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	// Buildings
+		{ // Buildings
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Fields": {
@@ -234,7 +234,7 @@
 				"Buildings": true
 			}
 		},
-		{	// Increased Silo Size
+		{ // Increased Silo Size
 			"Action": "EditData",
 			"Target": "Data/Buildings",
 			"Fields": {
@@ -246,7 +246,7 @@
 				"Increased Silo Size": true
 			}
 		},
-		{	// Increased Silo Size - TV Description
+		{ // Increased Silo Size - TV Description
 			"Action": "EditData",
 			"Target": "Data/TV/TipChannel",
 			"Entries": {

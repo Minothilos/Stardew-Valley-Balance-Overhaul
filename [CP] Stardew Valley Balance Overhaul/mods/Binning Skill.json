@@ -1,12 +1,12 @@
 {
 	"Changes": [
-		{	// Sell Prices
+		{ // Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"drbirbdev.BinningSkill_GrilledCheese": { // Grilled Cheese
 					"Price": "235"
-				}, 
+				},
 				"drbirbdev.BinningSkill_FishCasserole": { // Fish Casserole
 					"Price": "215"
 				}
@@ -15,13 +15,13 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Machine Crafting Recipes (Hard)
+		{ // Machine Crafting Recipes (Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
 				"drbirbdev.BinningSkill_TrashCan": { // Trashcan
 					"0": "335 3 390 40"
-				}, 
+				},
 				"drbirbdev.BinningSkill_Composter": { // Composter
 					"0": "388 80 92 25 771 30 330 2"
 				},
@@ -36,17 +36,17 @@
 				"Machines": "Hard"
 			}
 		},
-		{	// Machine Crafting Recipes (Very Hard)
+		{ // Machine Crafting Recipes (Very Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"drbirbdev.BinningSkill_TrashCan": {  // Trashcan
+				"drbirbdev.BinningSkill_TrashCan": { // Trashcan
 					"0": "335 4 390 50"
 				},
-				"drbirbdev.BinningSkill_Composter": {  // Composter
+				"drbirbdev.BinningSkill_Composter": { // Composter
 					"0": "388 90 92 30 771 35 330 3"
 				},
-				"drbirbdev.BinningSkill_RecyclingBin": {  // Recycling Bin
+				"drbirbdev.BinningSkill_RecyclingBin": { // Recycling Bin
 					"0": "335 5 336 4 771 20"
 				},
 				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": { // Advanced Recycling Machine
@@ -57,7 +57,7 @@
 				"Machines": "Very Hard"
 			}
 		},
-		{	// Machine Crafting Recipes (With Perk - Hard)
+		{ // Machine Crafting Recipes (With Perk - Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Priority": "Late",
@@ -74,17 +74,17 @@
 				"HasProfession": "478510818"
 			}
 		},
-		{	// Machine Crafting Recipes (With Perk - Very Hard)
+		{ // Machine Crafting Recipes (With Perk - Very Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Priority": "Late",
 			"Fields": {
-				"Recycling Machine": {  // Recycling Machine
+				"Recycling Machine": { // Recycling Machine
 					"0": "334 2 388 25 390 25"
 				},
 				"drbirbdev.BinningSkill_AdvancedRecyclingMachine": { // Advanced Recycling Machine
 					"0": "337 5 787 2 338 15"
-				} 
+				}
 			},
 			"When": {
 				"Machines": "Very Hard",

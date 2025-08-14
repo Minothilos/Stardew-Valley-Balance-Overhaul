@@ -29,11 +29,13 @@
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": {
 					"Price": "10"
 				}, // Winter Root Seeds
-				"ZoeyHoshi.ForageCrops_WildPlumSapling": { 
-					"Price": "1000" 
+				"ZoeyHoshi.ForageCrops_WildPlumSapling": {
+					"Price": "1000"
 				} // Wild Plum Sapling
 			},
-			"When": {"Sell Prices": true}
+			"When": {
+				"Sell Prices": true
+			}
 		},
 		{
 			"Action": "EditData",

@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	// The Stardrop Saloon
+		{ // The Stardrop Saloon
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -37,7 +37,7 @@
 				"Shops": true
 			}
 		},
-		{	// Pierre's General Store
+		{ // Pierre's General Store
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -82,7 +82,7 @@
 				"Shops": true
 			}
 		},
-		{	// Willy's Shop
+		{ // Willy's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -143,7 +143,7 @@
 				"Shops": true
 			}
 		},
-		{	// Clint's Shop
+		{ // Clint's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -188,7 +188,7 @@
 				"Shops": true
 			}
 		},
-		{	// Harvey's Clinic
+		{ // Harvey's Clinic
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -209,7 +209,7 @@
 				"Shops": true
 			}
 		},
-		{	// Adventure's Guild
+		{ // Adventure's Guild
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -302,7 +302,7 @@
 				"Shops": true
 			}
 		},
-		{	// Dwarf's Shop
+		{ // Dwarf's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -339,7 +339,7 @@
 				"Shops": true
 			}
 		},
-		{	// Volcano Shop
+		{ // Volcano Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -368,7 +368,7 @@
 				"Shops": true
 			}
 		},
-		{	// Resort Bar
+		{ // Resort Bar
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -405,7 +405,7 @@
 				"Shops": true
 			}
 		},
-		{	// Traveling Merchant
+		{ // Traveling Merchant
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -422,7 +422,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// JojaMart
+		{ // JojaMart
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -445,7 +445,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		{	// Island Trader
+		{ // Island Trader
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -466,7 +466,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// The Stardrop Saloon (Limited Item Supply)
+		{ // The Stardrop Saloon (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -503,7 +503,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Willy's Shop (Limited Item Supply)
+		{ // Willy's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -532,7 +532,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Clint's Shop (Limited Item Supply)
+		{ // Clint's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -577,7 +577,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Carpenter's Shop (Limited Item Supply)
+		{ // Carpenter's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -598,7 +598,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Harvey's Clinic (Limited Item Supply)
+		{ // Harvey's Clinic (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -619,7 +619,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Dwarf's Shop (Limited Item Supply)
+		{ // Dwarf's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -656,7 +656,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Volcano Shop (Limited Item Supply)
+		{ // Volcano Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -685,7 +685,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Resort Bar (Limited Item Supply)
+		{ // Resort Bar (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -722,7 +722,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Desert Trader (Limited Item Supply)
+		{ // Desert Trader (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -755,7 +755,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Desert Festival - Egg Shop (Limited Item Supply)
+		{ // Desert Festival - Egg Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -784,7 +784,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Desert Festival - Pam's Shop (Limited Item Supply)
+		{ // Desert Festival - Pam's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -809,7 +809,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Krobus Shop
+		{ // Krobus Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -826,7 +826,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Casino
+		{ // Casino
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -843,7 +843,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Ice Cream Stand
+		{ // Ice Cream Stand
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -860,7 +860,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Oasis (Limited Seed Supply)
+		{ // Oasis (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -889,7 +889,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{	// Egg Festival - Pierre's Shop (Limited Seed Supply)
+		{ // Egg Festival - Pierre's Shop (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -906,7 +906,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{	// Pierre's Shop (Limited Seed Supply)
+		{ // Pierre's Shop (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -949,109 +949,109 @@
 				"(O)273": { // Rice Shoot
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)479": { // Melon Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)480": { // Tomato Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)481": { // Blueberry Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)482": { // Pepper Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"WheatSeeds_Summer": { // Wheat Seeds Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"WheatSeeds_Fall": { // Wheat Seeds Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)484": { // Radish Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)453": { // Poppy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)455": { // Spangle Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)302": { // Hops Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"CornSeeds_Summer": { // Corn Seeds Summer
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"CornSeeds_Fall": { // Corn Seeds Fall
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"SunflowerSeeds_Summer": { // Sunflower Seeds Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"SunflowerSeeds_Fall": { // Sunflower Seeds Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)485": { // Red Cabbage Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)488": { // Eggplant Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)490": { // Pumpkin Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)491": { // Bok Choy Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)492": { // Yam Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)493": { // Cranberry Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)425": { // Fairy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)299": { // Amaranth Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)301": { // Grape Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)489": { // Artichoke Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				} 
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true
 			}
 		},
-		{	// JojaMart (Limited Seed Supply)
+		{ // JojaMart (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1062,118 +1062,118 @@
 				"(O)472": { // Parsnip Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)473": { // Bean Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)474": { // Cauliflower Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)475": { // Potato Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)427": { // Tulip Bulb
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)477": { // Kale Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)429": { // Jazz Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)479": { // Melon Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)480": { // Tomato Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)482": { // Pepper Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"WheatSeeds_Summer": { // Wheat Seats Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"WheatSeeds_Fall": { // Wheat Seats Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)484": { // Radish Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)453": { // Poppy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)455": { // Spangle Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)302": { // Hops Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)487": { // Corn Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"SunflowerSeeds_Summer": { // Sunflower Seeds Summer
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"SunflowerSeeds_Fall": { // Sunflower Seeds Fall
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)488": { // Eggplant Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)490": { // Pumpkin Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)491": { // Bok Choy Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)492": { // Yam Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)493": { // Cranberry Seeds
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)425": { // Fairy Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)299": { // Amaranth Seeds
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
-				}, 
+				},
 				"(O)301": { // Grape Starter
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
-				} 
+				}
 			},
 			"When": {
 				"Limited Seed Supply": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
-		{	// Pierre's Store - Fruit Trees Saplings
+		{ // Pierre's Store - Fruit Trees Saplings
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1210,7 +1210,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Merchants Buy More Items
+		{ // Merchants Buy More Items
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"Fields": {
@@ -1252,7 +1252,7 @@
 				"Merchants Buy More Items": true
 			}
 		},
-		{	// Merchants Buy More Items - Make Rods Sellable
+		{ // Merchants Buy More Items - Make Rods Sellable
 			"Action": "EditData",
 			"Target": "Data/Tools",
 			"Fields": {
@@ -1279,7 +1279,7 @@
 				"Merchants Buy More Items": true
 			}
 		},
-		{	// Marnie Sells Auto-Petter
+		{ // Marnie Sells Auto-Petter
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1298,7 +1298,7 @@
 				"Marnie Sells Auto-Petter": true
 			}
 		},
-		{	// Harvey's Clinic Sells Life Elixirs (Limited)
+		{ // Harvey's Clinic Sells Life Elixirs (Limited)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1313,14 +1313,14 @@
 					"AvailableStock": "2",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true
-				} 
+				}
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,
 				"Limited Item Supply": true
 			}
 		},
-		{	// Harvey's Clinic Sells Life Elixirs (Unlimited)
+		{ // Harvey's Clinic Sells Life Elixirs (Unlimited)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1333,7 +1333,7 @@
 					"ItemId": "(O)773",
 					"Price": "1000",
 					"IgnoreShopPriceModifiers": true
-				} 
+				}
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,

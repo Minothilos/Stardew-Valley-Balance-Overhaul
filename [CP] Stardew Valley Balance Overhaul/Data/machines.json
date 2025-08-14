@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	// Crystalarium
+		{ // Crystalarium
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -165,14 +165,14 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Keg Processing Time (Flavored Meads)
+		{ // Keg Processing Time (Flavored Meads)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
 				"(BC)12",
 				"OutputRules",
 				"Default_Honey"
-			], 
+			],
 			"Entries": {
 				"MinutesUntilReady": "6000"
 			},
@@ -181,7 +181,7 @@
 				"HasMod|contains=selph.FlavoredMead": true
 			}
 		},
-		{	// Flavored Meads (SHOULD THIS HAVE FLAVORED MEADS AS A REQUIRED MOD???)
+		{ // Flavored Meads (SHOULD THIS HAVE FLAVORED MEADS AS A REQUIRED MOD???)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -207,7 +207,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Cask - Cheese
+		{ // Cask - Cheese
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -216,7 +216,7 @@
 				"Cheese",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "4"
@@ -227,7 +227,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	// Cask - Goat Cheese
+		{ // Cask - Goat Cheese
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -236,7 +236,7 @@
 				"GoatCheese",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.66"
@@ -247,7 +247,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	// Cask - Wine
+		{ // Cask - Wine
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -267,7 +267,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	// Cask - Mead
+		{ // Cask - Mead
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -276,7 +276,7 @@
 				"Mead",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "2.66"
@@ -287,7 +287,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	// Cask - Mead (Flavored Mead)
+		{ // Cask - Mead (Flavored Mead)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -308,7 +308,7 @@
 				"HasMod|contains=selph.FlavoredMead": true
 			}
 		},
-		{	// Cask - Pale Ale
+		{ // Cask - Pale Ale
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -317,7 +317,7 @@
 				"PaleAle",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "5.7"
@@ -328,7 +328,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	// Cask - Beer
+		{ // Cask - Beer
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -337,7 +337,7 @@
 				"Beer",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"CustomData": {
 					"AgingMultiplier": "3.5"
@@ -348,7 +348,7 @@
 				"Cask Aging": true
 			}
 		},
-		{	// Cheese Press - Large Goat Milk (Large Animal Products Only)
+		{ // Cheese Press - Large Goat Milk (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -368,7 +368,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	// Cheese Press - Large Milk (Large Animal Products Only)
+		{ // Cheese Press - Large Milk (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -377,7 +377,7 @@
 				"Default_LargeMilk",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -388,7 +388,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	// Mayonnaise Machine - Large Egg (Large Animal Products Only)
+		{ // Mayonnaise Machine - Large Egg (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -408,7 +408,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	// Keg - Wheat
+		{ // Keg - Wheat
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -417,7 +417,7 @@
 				"Default_Wheat",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -441,7 +441,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Keg - Hops
+		{ // Keg - Hops
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -450,7 +450,7 @@
 				"Default_Hops",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -474,7 +474,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Keg - Tea Leaves
+		{ // Keg - Tea Leaves
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -483,7 +483,7 @@
 				"Default_TeaLeaves",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -507,7 +507,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Keg - Coffee Beans
+		{ // Keg - Coffee Beans
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -516,7 +516,7 @@
 				"Default_CoffeeBeans",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -540,7 +540,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Keg - Honey
+		{ // Keg - Honey
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -549,7 +549,7 @@
 				"Default_Honey",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -573,7 +573,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Keg - Rice
+		{ // Keg - Rice
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -582,7 +582,7 @@
 				"Default_Rice",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -606,7 +606,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Keg - Juice
+		{ // Keg - Juice
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -615,7 +615,7 @@
 				"Default_Juice",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -639,7 +639,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Keg - Wine
+		{ // Keg - Wine
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -648,7 +648,7 @@
 				"Default_Wine",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -672,7 +672,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Preserves Jar - Sturgeon Roe
+		{ // Preserves Jar - Sturgeon Roe
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -681,7 +681,7 @@
 				"Default_SturgeonRoe",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -705,7 +705,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Preserves Jar - Roe
+		{ // Preserves Jar - Roe
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -714,7 +714,7 @@
 				"Default_Roe",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -738,7 +738,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Preserves Jar - Pickles
+		{ // Preserves Jar - Pickles
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -747,7 +747,7 @@
 				"Default_Pickled",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -771,7 +771,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Preserves Jar - Jelly
+		{ // Preserves Jar - Jelly
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -780,7 +780,7 @@
 				"Default_Jelly",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -804,7 +804,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Cheese Press - Goat Milk
+		{ // Cheese Press - Goat Milk
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -813,7 +813,7 @@
 				"Default_GoatMilk",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -837,7 +837,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Cheese Press - Large Goat Milk (No WoL)
+		{ // Cheese Press - Large Goat Milk (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -846,7 +846,7 @@
 				"Default_LargeGoatMilk",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -880,7 +880,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	// Cheese Press - Large Goat Milk (WoL)
+		{ // Cheese Press - Large Goat Milk (WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -889,7 +889,7 @@
 				"Default_LargeGoatMilk",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"StackModifiers": [
 					{
@@ -920,7 +920,7 @@
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{	// Cheese Press - Milk
+		{ // Cheese Press - Milk
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -929,7 +929,7 @@
 				"Default_Milk",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -953,7 +953,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Cheese Press - Large Milk (No WoL)
+		{ // Cheese Press - Large Milk (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -962,7 +962,7 @@
 				"Default_LargeMilk",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -996,7 +996,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	// Cheese Press - Large Milk (WoL)
+		{ // Cheese Press - Large Milk (WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1005,7 +1005,7 @@
 				"Default_LargeMilk",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"StackModifiers": [
 					{
@@ -1036,7 +1036,7 @@
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{	// Oil Maker - Corn
+		{ // Oil Maker - Corn
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1045,7 +1045,7 @@
 				"Default_Corn",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1069,7 +1069,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Oil Maker - Sunflower
+		{ // Oil Maker - Sunflower
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1078,7 +1078,7 @@
 				"Default_Sunflower",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1102,7 +1102,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Oil Maker - Sunflower Seeds
+		{ // Oil Maker - Sunflower Seeds
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1111,7 +1111,7 @@
 				"Default_SunflowerSeeds",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1135,7 +1135,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Oil Maker - Truffle
+		{ // Oil Maker - Truffle
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1144,7 +1144,7 @@
 				"Default_Truffle",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1168,7 +1168,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Mayonnaise Machine - Ostrich Egg
+		{ // Mayonnaise Machine - Ostrich Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1177,7 +1177,7 @@
 				"Default_OstrichEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1201,7 +1201,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Mayonnaise Machine - Duck Egg
+		{ // Mayonnaise Machine - Duck Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1210,7 +1210,7 @@
 				"Default_DuckEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1234,7 +1234,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Mayonnaise Machine - Void Egg
+		{ // Mayonnaise Machine - Void Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1243,7 +1243,7 @@
 				"Default_VoidEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1267,7 +1267,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Mayonnaise Machine - Dinosaur Egg
+		{ // Mayonnaise Machine - Dinosaur Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1276,7 +1276,7 @@
 				"Default_DinosaurEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1300,7 +1300,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Mayonnaise Machine - Large Egg (No WoL)
+		{ // Mayonnaise Machine - Large Egg (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1309,7 +1309,7 @@
 				"Default_LargeEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"MinStack": "2",
 				"MaxStack": "2",
@@ -1343,7 +1343,7 @@
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
-		{	// Mayonnaise Machine - Large Egg (WoL)
+		{ // Mayonnaise Machine - Large Egg (WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1352,7 +1352,7 @@
 				"Default_LargeEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"StackModifiers": [
 					{
@@ -1383,7 +1383,7 @@
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{	// Mayonnaise Machine - Egg
+		{ // Mayonnaise Machine - Egg
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1392,7 +1392,7 @@
 				"Default_Egg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1416,7 +1416,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Dehydrator - Raisins
+		{ // Dehydrator - Raisins
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1425,7 +1425,7 @@
 				"Raisins",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1449,7 +1449,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Dehydrator - Dried Fruit
+		{ // Dehydrator - Dried Fruit
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1458,7 +1458,7 @@
 				"DriedFruit",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1482,7 +1482,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Dehydrator - Dried Mushrooms
+		{ // Dehydrator - Dried Mushrooms
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1491,7 +1491,7 @@
 				"DriedMushrooms",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1515,7 +1515,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Loom - Wool
+		{ // Loom - Wool
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1524,7 +1524,7 @@
 				"Default",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -1548,7 +1548,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Mayonnaise Machine - Ostrich Egg (No WoL)
+		{ // Mayonnaise Machine - Ostrich Egg (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1557,7 +1557,7 @@
 				"Default_OstrichEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"MinStack": "15",
 				"Quality": "0",
@@ -1689,7 +1689,7 @@
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		{	// Mayonnaise Machine - Golden Mayo (No WoL)
+		{ // Mayonnaise Machine - Golden Mayo (No WoL)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1698,7 +1698,7 @@
 				"Default_GoldenEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"MinStack": "3",
 				"Quality": "2",
@@ -1739,7 +1739,7 @@
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		{	// Increase Bait Maker Output
+		{ // Increase Bait Maker Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1748,7 +1748,7 @@
 				"Default",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"StackModifiers": [
 					{
@@ -1785,7 +1785,7 @@
 				"Bait Maker Output": true
 			}
 		},
-		{	// Increased Seed Maker Output
+		{ // Increased Seed Maker Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [

@@ -1,59 +1,59 @@
 {
     "Changes": [
-        {   // Existing Museum Rewards
+        { // Existing Museum Rewards
             "Action": "EditData",
             "Target": "Data/MuseumRewards",
             "Fields": {
-                "museum5": {    
+                "museum5": {
                     "RewardItemId": "(O)474", // Cauliflower Seeds
                     "RewardItemCount": "9"
-                }, 
-                "museum10": {   
+                },
+                "museum10": {
                     "RewardItemId": "(O)681", // Rain Totem
                     "RewardItemCount": "2"
-                }, 
-                "museum15": {   
+                },
+                "museum15": {
                     "RewardItemId": "(O)479", // Melon Seeds
                     "RewardItemCount": "9"
-                }, 
-                "museum20": {   
+                },
+                "museum20": {
                     "RewardItemId": "(O)486", // Starfruit Seeds
                     "RewardItemCount": "5"
-                }, 
-                "museum25": {   
+                },
+                "museum25": {
                     "RewardItemId": "(F)1541", // A Night On Eco-Hill Painting  
                     "RewardItemCount": "1"
-                },             
-                "museum30": {   
+                },
+                "museum30": {
                     "RewardItemId": "(O)490", // Pumpkin Seeds
                     "RewardItemCount": "9"
-                }, 
-                "museum35": {   
+                },
+                "museum35": {
                     "RewardItemId": "(O)253", // Triple Shot Espresso
                     "RewardItemCount": "10"
-                }, 
-                "museum60": {   
+                },
+                "museum60": {
                     "RewardItemId": "(O)797", // Pearl
                     "RewardItemCount": "1"
-                }, 
-                "museum70": {   
+                },
+                "museum70": {
                     "RewardItemId": "(O)MysteryBox", // Mystery Box
                     "RewardItemCount": "5"
-                }, 
-                "museum80": {   
+                },
+                "museum80": {
                     "RewardItemId": "(F)1669", // Lg. Futan Bear
                     "RewardItemCount": "1"
-                }, 
-                "museum90": {   
+                },
+                "museum90": {
                     "RewardItemId": "(O)279", // Magic Rock Candy
                     "RewardItemCount": "1"
-                } 
+                }
             },
             "When": {
                 "Museum Rewards": true
             }
         },
-        {   // Added Museum Rewards
+        { // Added Museum Rewards
             "Action": "EditData",
             "Target": "Data/MuseumRewards",
             "Entries": {

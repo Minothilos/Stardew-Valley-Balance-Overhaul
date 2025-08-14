@@ -1,15 +1,15 @@
 {
 	"Changes": [
-		{	// Sell Prices
+		{ // Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"190": { // Cauliflower
 					"Price": "190"
-				}, 
+				},
 				"248": { // Garlic
 					"Price": "85"
-				}, 
+				},
 				"188": { // Green Bean
 					"Price": "65"
 				},
@@ -267,7 +267,7 @@
 				},
 				"628": { // Cherry Sapling
 					"Price": "600"
-				}, 
+				},
 				"69": { // Banana Sapling
 					"Price": "600"
 				},
@@ -600,7 +600,7 @@
 				},
 				"550": { // Kyanite
 					"Price": "250"
-				}, 
+				},
 				"551": { // Lunarite
 					"Price": "300"
 				},
@@ -642,7 +642,7 @@
 				},
 				"554": { // Lemon Stone
 					"Price": "300"
-				}, 
+				},
 				"563": { // Jasper
 					"Price": "225"
 				},
@@ -663,7 +663,7 @@
 				},
 				"16": { // Wild Horseradish
 					"Price": "70"
-				}, 
+				},
 				"18": { // Daffodil
 					"Price": "50"
 				},
@@ -724,13 +724,13 @@
 				"422": { // Purple Mushroom
 					"Price": "130"
 				},
-				"257": {// Morel
+				"257": { // Morel
 					"Price": "120"
-				}, 
+				},
 				"88": { // Coconut
 					"Price": "100"
-				}, 
-				"791": {  // Golden Coconut
+				},
+				"791": { // Golden Coconut
 					"Price": "200"
 				},
 				"388": { // Wood
@@ -1338,19 +1338,19 @@
 				},
 				"772": { // Oil of Garlic
 					"Price": "1045"
-				} 
+				}
 			},
 			"When": {
 				"Sell Prices": true
 			}
 		},
-		{	// Offset Tapper Aging (Walk of Life)
+		{ // Offset Tapper Aging (Walk of Life)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"724": { // Maple Syrup
 					"Price": "150"
-				}, 
+				},
 				"725": { // Oak Resin
 					"Price": "110"
 				},
@@ -1363,13 +1363,13 @@
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{	// Apples Event (SVE)
+		{ // Apples Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"268": { // Starfruit
 					"Price": "240"
-				} 
+				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=7776009": true,
@@ -1377,13 +1377,13 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{	// Sofia Event (SVE)
+		{ // Sofia Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"398": { // Grape
 					"Price": "75"
-				} 
+				}
 			},
 			"When": {
 				"Spouse": "Sophia",
@@ -1392,13 +1392,13 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{	// Andy Special Order (SVE)
+		{ // Andy Special Order (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"400": { // Strawberry
 					"Price": "90"
-				} 
+				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407915": true,
@@ -1406,7 +1406,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{	// Morgan Event (SVE)
+		{ // Morgan Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1492,7 +1492,7 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{	// Susan Special Order (SVE)
+		{ // Susan Special Order (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1512,11 +1512,11 @@
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{	// Susan Special Order (SVE + Cornucopia)
+		{ // Susan Special Order (SVE + Cornucopia)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"303": {  // Pale Ale
+				"303": { // Pale Ale
 					"Price": "180"
 				}
 			},
@@ -1527,7 +1527,7 @@
 				"HasMod|contains=Cornucopia.GrowableForage": true
 			}
 		},
-		{	// Chocolate Cake Adjustment (Cornucopia More Crops)
+		{ // Chocolate Cake Adjustment (Cornucopia More Crops)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1539,19 +1539,19 @@
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		{	// Food Adjustment (Cornucopia Artisan Machines)
+		{ // Food Adjustment (Cornucopia Artisan Machines)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"213": { // Fish Taco
 					"Price": "555"
-				}, 
+				},
 				"204": { // Lucky Lunch
 					"Price": "285"
-				}, 
+				},
 				"905": { // Mango Sticky Rice
 					"Price": "575"
-				}, 
+				},
 				"224": { // Spaghetti
 					"Price": "280"
 				},
@@ -1576,13 +1576,13 @@
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		{	// Bobber Sell Prices
+		{ // Bobber Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"686": { // Spinner
 					"Price": "150"
-				}, 
+				},
 				"694": { // Trap Bobber
 					"Price": "150"
 				},
@@ -1603,13 +1603,13 @@
 				"Merge: {{Shops}}, {{Sell Prices}}": true
 			}
 		},
-		{	// Stricter Seed Maker
+		{ // Stricter Seed Maker
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
 				"417", // Sweet Gem Berry
 				"ContextTags"
-			], 
+			],
 			"Entries": {
 				"#-1": "seedmaker_banned"
 			},
@@ -1623,7 +1623,7 @@
 			"TargetField": [
 				"454", // Ancient Fruit
 				"ContextTags"
-			], 
+			],
 			"Entries": {
 				"#-1": "seedmaker_banned"
 			},
@@ -1631,7 +1631,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Food Buffs
+		{ // Food Buffs
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -2551,7 +2551,7 @@
 				"Food Buffs": true
 			}
 		},
-		{	// Button's Extra Books Patch
+		{ // Button's Extra Books Patch
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {

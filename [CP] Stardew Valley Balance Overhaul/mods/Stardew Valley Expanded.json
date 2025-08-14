@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	// Sell Prices
+		{ // Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -423,7 +423,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Offset Tapper Aging (Walk of Life)
+		{ // Offset Tapper Aging (Walk of Life)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -440,7 +440,7 @@
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{	// Animals
+		{ // Animals
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"Fields": {
@@ -461,7 +461,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Sell Price Adjustment (Cornucopia)
+		{ // Sell Price Adjustment (Cornucopia)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -480,7 +480,7 @@
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		{	// Food Buffs
+		{ // Food Buffs
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -631,7 +631,7 @@
 				"Food Buffs": true
 			}
 		},
-		{	// Pierre's Shop
+		{ // Pierre's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -660,7 +660,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Joja's Shop
+		{ // Joja's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -679,7 +679,7 @@
 					"Price": "220",
 					"IgnoreShopPriceModifiers": true
 				},
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": {  // Cucumber Seed 
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": { // Cucumber Seed 
 					"Price": "220",
 					"IgnoreShopPriceModifiers": true
 				}
@@ -688,7 +688,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Hospital
+		{ // Hospital
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -705,7 +705,7 @@
 				"Shops": true
 			}
 		},
-		{	// Pierre's Shop (Limit Seed Supply)
+		{ // Pierre's Shop (Limit Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -730,7 +730,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{	// Joja's Shop (Limit Seed Supply)
+		{ // Joja's Shop (Limit Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1083,7 +1083,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{	// Saloon Shop
+		{ // Saloon Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1112,7 +1112,7 @@
 				"Shops": true
 			}
 		},
-		{	// Saloon Shop (Limit Item Supply)
+		{ // Saloon Shop (Limit Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1141,7 +1141,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Yellow Junimo Shop
+		{ // Yellow Junimo Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1160,7 +1160,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Yellow Junimo Shop (Limit Item Supply)
+		{ // Yellow Junimo Shop (Limit Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1176,7 +1176,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Zoey Shop
+		{ // Zoey Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1192,7 +1192,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Zoey Shop (Limit Item Supply)
+		{ // Zoey Shop (Limit Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1208,7 +1208,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{	// Seed Maker Restrictions
+		{ // Seed Maker Restrictions
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
@@ -1320,7 +1320,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Crafting Recipes
+		{ // Crafting Recipes
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -1330,7 +1330,7 @@
 				}
 			}
 		},
-		{	// Crafting Recipes (Normal)
+		{ // Crafting Recipes (Normal)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -1345,7 +1345,7 @@
 				"Machines": "Normal"
 			}
 		},
-		{	// Crafting Recipes (Hard)
+		{ // Crafting Recipes (Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -1360,7 +1360,7 @@
 				"Machines": "Hard"
 			}
 		},
-		{	// Crafting Recipes (Very Hard)
+		{ // Crafting Recipes (Very Hard)
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
@@ -1375,7 +1375,7 @@
 				"Machines": "Very Hard"
 			}
 		},
-		{	// Susan Special Order - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
+		{ // Susan Special Order - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1396,7 +1396,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Morgan Event
+		{ // Morgan Event
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1427,7 +1427,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Morgan Event with Mizu - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
+		{ // Morgan Event with Mizu - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1447,7 +1447,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Morgan Event with Mizu - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
+		{ // Morgan Event with Mizu - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1467,7 +1467,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Morgan Event with Cornucopia - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
+		{ // Morgan Event with Cornucopia - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1481,7 +1481,7 @@
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		{	// Sofia Event - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
+		{ // Sofia Event - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -1500,7 +1500,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
-		{	// Butter Churner - Goat Milk Input (Large Animal Products Only)
+		{ // Butter Churner - Goat Milk Input (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1518,7 +1518,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		{	// Butter Churner - Goat Milk Output (Large Animal Products Only)
+		{ // Butter Churner - Goat Milk Output (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1538,7 +1538,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		{	// Butter Churner - Large Goat Milk Input (Large Animal Products Only)
+		{ // Butter Churner - Large Goat Milk Input (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1556,7 +1556,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		{	// Butter Churner - Large Goat Milk Output (Large Animal Products Only)
+		{ // Butter Churner - Large Goat Milk Output (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1576,7 +1576,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		{	// Butter Churner - Large Milk Input (Large Animal Products Only)
+		{ // Butter Churner - Large Milk Input (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1596,7 +1596,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		{	// Butter Churner - Large Milk Output (Large Animal Products Only)
+		{ // Butter Churner - Large Milk Output (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1616,7 +1616,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		{	// Butter Churner - Milk Input (Large Animal Products Only)
+		{ // Butter Churner - Milk Input (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1636,7 +1636,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		{	// Butter Churner - Milk Output (Large Animal Products Only)
+		{ // Butter Churner - Milk Output (Large Animal Products Only)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1657,7 +1657,7 @@
 			}
 		},
 		// Artisan Goods Gain Quantity
-		{	// Yarn Spooler
+		{ // Yarn Spooler
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1684,7 +1684,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Goat Milk Input
+		{ // Butter Churner - Goat Milk Input
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1702,7 +1702,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Goat Milk Output
+		{ // Butter Churner - Goat Milk Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1736,7 +1736,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Large Goat Milk Input
+		{ // Butter Churner - Large Goat Milk Input
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1754,7 +1754,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Large Goat Milk Output
+		{ // Butter Churner - Large Goat Milk Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1803,7 +1803,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Large Milk Input
+		{ // Butter Churner - Large Milk Input
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1823,7 +1823,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Large Milk Output
+		{ // Butter Churner - Large Milk Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1857,7 +1857,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Milk Input
+		{ // Butter Churner - Milk Input
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1877,7 +1877,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Butter Churner - Milk Output
+		{ // Butter Churner - Milk Output
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1903,7 +1903,7 @@
 				"Machine Processing": "On"
 			}
 		},
-		{	// Remove Unused Entries
+		{ // Remove Unused Entries
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [

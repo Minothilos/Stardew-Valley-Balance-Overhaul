@@ -1,6 +1,6 @@
 {
     "Changes": [
-        {   // Ancient Fruit
+        { // Ancient Fruit
             "Action": "EditData",
             "Target": "Data/Crops",
             "Fields": {

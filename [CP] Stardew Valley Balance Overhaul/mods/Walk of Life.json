@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		{	// Sell Prices
+		{ // Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -15,7 +15,7 @@
 				"Sell Prices": true
 			}
 		},
-		{	// Sell Prices
+		{ // Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -31,7 +31,7 @@
 				"HasMod|contains=6480.blueegg": false
 			}
 		},
-		{	// Morgan Event (SVE)
+		{ // Morgan Event (SVE)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -49,7 +49,7 @@
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{	// Price Adjust (Cornucopia)
+		{ // Price Adjust (Cornucopia)
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -63,7 +63,7 @@
 			}
 		},
 		// Artisan Goods Gain Quantity
-		{	// Mayonnaise Machine - Ostrich Mayo (Blue Egg)
+		{ // Mayonnaise Machine - Ostrich Mayo (Blue Egg)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -72,7 +72,7 @@
 				"Default_OstrichEgg",
 				"OutputItem",
 				"#0"
-			], 
+			],
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -93,11 +93,11 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"/*,
+				"Machine Processing": "On" /*,
 				"HasMod|contains=6480.blueegg": false*/
 			}
 		},
-		{	 // Mayonnaise Machine - Golden Mayo (Blue Egg)
+		{ // Mayonnaise Machine - Golden Mayo (Blue Egg)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -127,7 +127,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"/*,
+				"Machine Processing": "On" /*,
 				"HasMod|contains=6480.blueegg": false*/
 			}
 		}
