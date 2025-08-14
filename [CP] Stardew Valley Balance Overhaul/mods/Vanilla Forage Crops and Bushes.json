@@ -6,7 +6,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"ZoeyHoshi.ForageCrops_CaveCarrotSeeds": {
-					"Price": "20"
+					"Price": "15"
 				}, // Cave Carrot Seed
 				"ZoeyHoshi.ForageCrops_DaffodilSeeds": {
 					"Price": "5"
@@ -18,21 +18,22 @@
 					"Price": "25"
 				}, // Fiddlehead Fern Seeds
 				"ZoeyHoshi.ForageCrops_LeekSeeds": {
-					"Price": "20"
-				}, // Cave Carrot Seeds
+					"Price": "15"
+				}, // Leeks Seeds
 				"ZoeyHoshi.ForageCrops_SnowYamSeeds": {
 					"Price": "5"
 				}, // Snow Yam Seeds
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": {
-					"Price": "15"
+					"Price": "10"
 				}, // Wild Horseradish Seeds
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": {
-					"Price": "15"
-				} // Winter Root Seeds
+					"Price": "10"
+				}, // Winter Root Seeds
+				"ZoeyHoshi.ForageCrops_WildPlumSapling": { 
+					"Price": "1000" 
+				} // Wild Plum Sapling
 			},
-			"When": {
-				"Sell Prices": true
-			}
+			"When": {"Sell Prices": true}
 		},
 		{
 			"Action": "EditData",

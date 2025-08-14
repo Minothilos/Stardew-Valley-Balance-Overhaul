@@ -32,10 +32,10 @@
 					"Price": "25"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash": {
-					"Price": "185"
+					"Price": "180"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato": {
-					"Price": "220"
+					"Price": "210"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Gold_Carrot": {
 					"Price": "750"
@@ -98,7 +98,7 @@
 					"Price": "55"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Bonefish": {
-					"Price": "140"
+					"Price": "190"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Bull_Trout": {
 					"Price": "70"
@@ -110,10 +110,10 @@
 					"Price": "75"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Daggerfish": {
-					"Price": "85"
+					"Price": "90"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Diamond_Carp": {
-					"Price": "200"
+					"Price": "225"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed": {
 					"Price": "35"
@@ -128,7 +128,7 @@
 					"Price": "165"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Gemfish": {
-					"Price": "315"
+					"Price": "1000"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Goldfish": {
 					"Price": "55"
@@ -140,7 +140,7 @@
 					"Price": "165"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Highlands_Bass": {
-					"Price": "75"
+					"Price": "160"
 				},
 				"FlashShifter.StardewValleyExpandedCP_King_Salmon": {
 					"Price": "155"
@@ -194,19 +194,19 @@
 					"Price": "50"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Torpedo_Trout": {
-					"Price": "125"
+					"Price": "135"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Turretfish": {
 					"Price": "3000"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Undeadfish": {
-					"Price": "165"
+					"Price": "240"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Viper_Eel": {
 					"Price": "210"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Eel": {
-					"Price": "210"
+					"Price": "300"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Water_Grub": {
 					"Price": "95"
@@ -389,7 +389,7 @@
 					"Price": "4500"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower": { // Golden Ocean FLower
-					"Price": "500"
+					"Price": "350"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Void_Pebble": { // Void Pebble
 					"Price": "300"
@@ -639,6 +639,10 @@
 				"Items"
 			],
 			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { // Cucumber See 
+					"Price": "220",
+					"IgnoreShopPriceModifiers": true
+				},
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
 					"Price": "1600",
 					"IgnoreShopPriceModifiers": true
@@ -666,7 +670,19 @@
 			"Fields": {
 				"(BC)272": { // Auto-Petter
 					"Price": "75000"
-				} 
+				},
+				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { // Cucumber Seed
+					"Price": "220",
+					"IgnoreShopPriceModifiers": true
+				},
+				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cucumber_Seed": { // Cucumber Seed 
+					"Price": "220",
+					"IgnoreShopPriceModifiers": true
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": {  // Cucumber Seed 
+					"Price": "220",
+					"IgnoreShopPriceModifiers": true
+				}
 			},
 			"When": {
 				"Sell Prices": true
@@ -1640,6 +1656,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
+		// Artisan Goods Gain Quantity
 		{	// Yarn Spooler
 			"Action": "EditData",
 			"Target": "Data/Machines",

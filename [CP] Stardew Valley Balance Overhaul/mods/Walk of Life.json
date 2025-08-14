@@ -62,6 +62,7 @@
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
+		// Artisan Goods Gain Quantity
 		{	// Mayonnaise Machine - Ostrich Mayo (Blue Egg)
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -92,8 +93,8 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=6480.blueegg": false
+				"Machine Processing": "On"/*,
+				"HasMod|contains=6480.blueegg": false*/
 			}
 		},
 		{	 // Mayonnaise Machine - Golden Mayo (Blue Egg)
@@ -126,8 +127,8 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=6480.blueegg": false
+				"Machine Processing": "On"/*,
+				"HasMod|contains=6480.blueegg": false*/
 			}
 		}
 	]

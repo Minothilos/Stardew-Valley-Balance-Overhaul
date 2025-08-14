@@ -5,14 +5,14 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Quail_QuailEgg": {
+				"Mizu.Quail_QuailEgg": { // Small Quail Egg
 					"Price": "40",
 					"Edibility": "5"
-				}, // Small Quail Egg
-				"Mizu.Quail_LargeQuailEgg": {
+				},
+				"Mizu.Quail_LargeQuailEgg": { // Large Quail Egg
 					"Price": "80",
 					"Edibility": "10"
-				}, // Large Quail Egg
+				},
 				"Mizu.Quail_QuailMayonnaise": {
 					"Price": "120",
 					"Edibility": "20"
@@ -84,7 +84,7 @@
 				"Machine Processing": "Large Animal Products Only"
 			}
 		},
-		// On with WoL
+		// Artisan Goods Gain Quantity
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -158,84 +158,6 @@
 			},
 			"When": {
 				"Machine Processing": "On"
-			}
-		},
-		// On without WoL
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"QuailMayonnaise",
-				"OutputItem",
-				"#0"
-			], // Mayonnaise Machine - Quail Mayonnaise
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "QualityScale",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"QuailMayonnaiseQuailty",
-				"OutputItem",
-				"#0"
-			], // Mayonnaise Machine - Quail Mayonnaise Large
-			"Entries": {
-				"MinStack": "2",
-				"MaxStack": "2",
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "QualityScale1",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "QualityScale2",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
 			}
 		},
 		// Animal Husbandry Mod
@@ -247,10 +169,10 @@
 					"Price": "250"
 				}, // Quail Meat
 				"Mizu.Quail_SpatchcockedQuailandGreens": {
-					"Price": "985"
+					"Price": "765"
 				}, // Spatchcocked Quail and Greens
 				"Mizu.Quail_StuffedQuail": {
-					"Price": "840"
+					"Price": "830"
 				} // Stuffed Quail
 			},
 			"When": {
@@ -263,7 +185,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Mizu.Quail_SpatchcockedQuailandGreens": {
-					"Price": "880"
+					"Price": "665"
 				} // Spatchcocked Quail and Greens with Cornucopia
 			},
 			"When": {
@@ -277,7 +199,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Mizu.Quail_StuffedQuail": {
-					"Price": "1100"
+					"Price": "860"
 				} // Stuffed Quail with Extended Trees
 			},
 			"When": {
@@ -300,7 +222,7 @@
 							"CustomAttributes": {
 								"Speed": "2",
 								"MagneticRadius": "32",
-								"Attack": "4"
+								"Farming": "4"
 							}
 						}
 					],

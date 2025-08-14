@@ -211,21 +211,11 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_EucalyptusLeaves": {
-					"Price": "225"
-				}, // Eucalyptus Leaves
-				"Cornucopia_MelaleucaLeaves": {
-					"Price": "215"
-				}, // Melaleuca Leaves
-				"Cornucopia_Nutmeg": {
-					"Price": "215"
-				}, // Nutmeg
-				"Cornucopia_CamphorLeaves": {
-					"Price": "215"
-				}, // Camphor Leaves
-				"Cornucopia_CinnamonSticks": {
-					"Price": "230"
-				} // Cinnamon Sticks
+				"Cornucopia_EucalyptusLeaves": { "Price": "215" }, // Eucalyptus Leaves
+				"Cornucopia_MelaleucaLeaves": { "Price": "200" }, // Melaleuca Leaves
+				"Cornucopia_Nutmeg": { "Price": "200" }, // Nutmeg
+				"Cornucopia_CamphorLeaves": { "Price": "200" }, // Camphor Leaves
+				"Cornucopia_CinnamonSticks": { "Price": "220" } // Cinnamon Sticks
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -237,69 +227,25 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Breadfruit": {
-					"Price": "230"
-				}, // Breadfruit
-				"Cornucopia_Lemon": {
-					"Price": "120"
-				}, // Lemon
-				"Cornucopia_Lime": {
-					"Price": "120"
-				}, // Lime
-				"Cornucopia_DragonFruit": {
-					"Price": "200"
-				}, // Dragon Fruit
-				"Cornucopia_Durian": {
-					"Price": "240"
-				}, // Durian
-				"Cornucopia_Lychee": {
-					"Price": "200"
-				}, // Lychee
-				"Cornucopia_Nectarine": {
-					"Price": "215"
-				}, // Nectarine
-				"Cornucopia_Papaya": {
-					"Price": "235"
-				}, // Papaya
-				"Cornucopia_Plantain": {
-					"Price": "200"
-				}, // Plantain
-				"Cornucopia_Ume": {
-					"Price": "120"
-				}, // Ume
-				"Cornucopia_Almond": {
-					"Price": "185"
-				}, // Almond
-				"Cornucopia_Cashew": {
-					"Price": "195"
-				}, // Cashew
-				"Cornucopia_Grapefruit": {
-					"Price": "215"
-				}, // Grapefruit
-				"Cornucopia_Pecan": {
-					"Price": "205"
-				}, // Pecan
-				"Cornucopia_Walnut": {
-					"Price": "185"
-				}, // Walnut
-				"Cornucopia_Fig": {
-					"Price": "190"
-				}, // Fig
-				"Cornucopia_Persimmon": {
-					"Price": "225"
-				}, // Persimmon
-				"Cornucopia_Pomelo": {
-					"Price": "175"
-				}, // Pomelo
-				"Cornucopia_Yuzu": {
-					"Price": "120"
-				}, // Yuzu
-				"Cornucopia_Sapodilla": {
-					"Price": "40"
-				}, // Sapodilla
-				"Cornucopia_ChicleRubber": {
-					"Price": "275"
-				} // Chicle Rubber
+				"Cornucopia_Breadfruit": { "Price": "230" }, // Breadfruit
+				"Cornucopia_Lemon": { "Price": "120" }, // Lemon
+				"Cornucopia_Lime": { "Price": "120" }, // Lime
+				"Cornucopia_DragonFruit": { "Price": "200" }, // Dragon Fruit
+				"Cornucopia_Durian": { "Price": "240" }, // Durian
+				"Cornucopia_Lychee": { "Price": "200" }, // Lychee
+				"Cornucopia_Nectarine": { "Price": "215" }, // Nectarine
+				"Cornucopia_Papaya": { "Price": "205" }, // Papaya
+				"Cornucopia_Plantain": { "Price": "200" }, // Plantain
+				"Cornucopia_Ume": { "Price": "120" }, // Ume
+				"Cornucopia_Almond": { "Price": "185" }, // Almond
+				"Cornucopia_Cashew": { "Price": "195" }, // Cashew
+				"Cornucopia_Grapefruit": { "Price": "215" }, // Grapefruit
+				"Cornucopia_Pecan": { "Price": "205" }, // Pecan
+				"Cornucopia_Walnut": { "Price": "185" }, // Walnut
+				"Cornucopia_Fig": { "Price": "190" }, // Fig
+				"Cornucopia_Persimmon": { "Price": "225" }, // Persimmon
+				"Cornucopia_Pomelo": { "Price": "175" }, // Pomelo
+				"Cornucopia_Yuzu": { "Price": "120" } // Yuzu
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -324,7 +270,7 @@
 					"IgnoreShopPriceModifiers": true
 				}, // Papaya Sapling
 				"Cornucopia_PlantainSapling": {
-					"TradeItemAmount": "5",
+					"TradeItemAmount": "10",
 					"IgnoreShopPriceModifiers": true
 				} // Plantain Sapling
 			},
@@ -338,36 +284,16 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_Magnolia": {
-					"Price": "190"
-				}, // Magnolia
-				"Cornucopia_Wisteria": {
-					"Price": "190"
-				}, // Wisteria
-				"Cornucopia_Hibiscus": {
-					"Price": "175"
-				}, // Hibiscus
-				"Cornucopia_YlangYlang": {
-					"Price": "175"
-				}, // Ylang Ylang
-				"Cornucopia_Jasmine": {
-					"Price": "190"
-				}, // Jasmine
-				"Cornucopia_MagnoliaSapling": {
-					"Price": "750"
-				}, // Magnolia Sapling
-				"Cornucopia_WisteriaSapling": {
-					"Price": "750"
-				}, // Wisteria Sapling
-				"Cornucopia_HibiscusSapling": {
-					"Price": "625"
-				}, // Hibiscus Sapling
-				"Cornucopia_YlangYlangSapling": {
-					"Price": "625"
-				}, // Ylang Ylang Sapling
-				"Cornucopia_JasmineSapling": {
-					"Price": "750"
-				} // Jasmine Sapling
+				"Cornucopia_Magnolia": { "Price": "175" }, // Magnolia
+				"Cornucopia_Wisteria": { "Price": "175" }, // Wisteria
+				"Cornucopia_Hibiscus": { "Price": "160" }, // Hibiscus
+				"Cornucopia_YlangYlang": { "Price": "160" }, // Ylang Ylang
+				"Cornucopia_Jasmine": { "Price": "175" }, // Jasmine
+				"Cornucopia_MagnoliaSapling": { "Price": "750" }, // Magnolia Sapling
+				"Cornucopia_WisteriaSapling": { "Price": "750" }, // Wisteria Sapling
+				"Cornucopia_HibiscusSapling": { "Price": "625" }, // Hibiscus Sapling
+				"Cornucopia_YlangYlangSapling": { "Price": "625" }, // Ylang Ylang Sapling
+				"Cornucopia_JasmineSapling": { "Price": "750" } // Jasmine Sapling
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreFlowers": true,

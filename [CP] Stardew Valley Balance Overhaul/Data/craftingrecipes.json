@@ -619,9 +619,17 @@
 					"0": "390 100"
 				}
 			},
-			"When": {
-				"Miscellaneous": true
-			}
+			"When": { "Miscellaneous Recipes": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"minothilos.SVBO_WhiteEggSplit": "174 1//176 2/false/Farming 4",
+				"minothilos.SVBO_BrownEggSplit": "182 1//180 2/false/Farming 4",
+				"minothilos.SVBO_MilkSplit": "186 1//184 2/false/Farming 4"
+			},
+			"When": { "Split Large Animal Products": true }
 		}
 	]
 }

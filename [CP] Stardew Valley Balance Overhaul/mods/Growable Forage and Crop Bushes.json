@@ -5,18 +5,12 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Cornucopia_SpringOnionSeeds": {
-					"Price": "5"
-				}, // Spring Onion Seeds
-				"399": {
-					"Price": "10"
-				}, // Spring Onion
-				"Cornucopia_CrocusSeeds": {
-					"Price": "10"
-				}, // Crocus Seeds
-				"Cornucopia_SweetPeaSeeds": {
-					"Price": "5"
-				} // Sweet Pea Seeds
+				"Cornucopia_SpringOnionSeeds": { "Price": "5" }, //Spring Onion Seeds
+				"399": { "Price": "10" }, //Spring Onion
+				"Cornucopia_CrocusSeeds": { "Price": "5" }, //Crocus Seeds
+				"Cornucopia_SweetPeaSeeds": { "Price": "5" }, //Sweet Pea Seeds
+				"Cornucopia_HazelnutSapling": { "Price": "1000" }, //Hazelnut Sapling
+				"Cornucopia_CoconutSapling": { "Price": "1250" } //Coconut Sapling
 			},
 			"When": {
 				"Sell Prices": true
@@ -43,8 +37,8 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+				"Forage": true,
+				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
 		{
@@ -59,8 +53,8 @@
 				} // Hops Planter
 			},
 			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+				"Crops": true,
+				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
 		{
@@ -79,10 +73,21 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
-				"Cask Aging": true
+				"Crops": true,
+				"HasMod|contains=furyx639.CustomBush": true,
+				"Cask Aging": "true"
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "furyx639.CustomBush/Data",
+			"TargetField": ["(O)481", "ItemsProduced", "#0"],
+			"When": {
+				"HasMod": "furyx639.CustomBush"
+			},
+			"Entries": { "MinStack": "3", "MaxStack": "5" }
+		},
+		// Shop Edits
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",

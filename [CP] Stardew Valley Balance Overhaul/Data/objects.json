@@ -68,7 +68,7 @@
 					"Price": "70"
 				},
 				"262": { // Wheat
-					"Price": "55"
+					"Price": "45"
 				},
 				"830": { // Taro Root
 					"Price": "130"
@@ -120,6 +120,9 @@
 				},
 				"271": { // Unmilled Rice
 					"Price": "80"
+				},
+				"482": { // Pepper Seeds
+					"Price": "15"
 				},
 				"486": { // Starfruit Seeds
 					"Price": "50"
@@ -701,7 +704,7 @@
 					"Price": "80"
 				},
 				"416": { // Snow Yam
-					"Price": "60"
+					"Price": "70"
 				},
 				"418": { // Crocus
 					"Price": "55"
@@ -986,13 +989,13 @@
 					"Price": "85"
 				},
 				"734": { // Woodskip
-					"Price": "85"
+					"Price": "110"
 				},
 				"795": { // Void Salmon
-					"Price": "155"
+					"Price": "160"
 				},
 				"796": { // Slimejack
-					"Price": "90"
+					"Price": "100"
 				},
 				"836": { // Stingray
 					"Price": "155"

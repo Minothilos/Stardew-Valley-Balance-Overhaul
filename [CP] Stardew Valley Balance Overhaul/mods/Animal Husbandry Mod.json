@@ -36,54 +36,33 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"666": {
-					"Price": "140"
-				}, // Bacon
-				"652": {
-					"Price": "715"
-				}, // Meatloaf
-				"653": {
-					"Price": "510"
-				}, // Orange Chicken
-				"654": {
-					"Price": "865"
-				}, // Monte Cristo
-				"655": {
-					"Price": "615"
-				}, // Bacon Cheeseburger
-				"656": {
-					"Price": "880"
-				}, // Roast Duck
-				"657": {
-					"Price": "1580"
-				}, // Rabbit au Vin
-				"658": {
-					"Price": "815"
-				}, // Steak Fajitas
-				"659": {
-					"Price": "1080"
-				}, // Glazed Ham
-				"660": {
-					"Price": "690"
-				}, // Summer Sausage
-				"661": {
-					"Price": "805"
-				}, // Sweet and Sour Pork
-				"662": {
-					"Price": "1445"
-				}, // Rabbit Stew
-				"663": {
-					"Price": "1195"
-				}, // Winter Duck
-				"664": {
-					"Price": "1150"
-				}, // Steak with Mushrooms
-				"665": {
-					"Price": "1020"
-				} // Cowboy Dinner
+				"666": { "Price": "140" }, // Bacon
+				"652": { "Price": "700" }, // Meatloaf
+				"653": { "Price": "545" }, // Orange Chicken
+				"654": { "Price": "845" }, // Monte Cristo
+				"655": { "Price": "600" }, // Bacon Cheeseburger
+				"656": { "Price": "880" }, // Roast Duck
+				"657": { "Price": "1450" }, // Rabbit au Vin
+				"658": { "Price": "750" }, // Steak Fajitas
+				"659": { "Price": "1080" }, // Glazed Ham
+				"660": { "Price": "690" }, // Summer Sausage
+				"661": { "Price": "805" }, // Sweet and Sour Pork
+				"662": { "Price": "1450" }, // Rabbit Stew
+				"663": { "Price": "1245" }, // Winter Duck
+				"664": { "Price": "1175" }, // Steak with Mushrooms
+				"665": { "Price": "995" } // Cowboy Dinner
+			},
+			"When": { "Food": true }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"658": { "Price": "730" } // Steak Fajitas
 			},
 			"When": {
-				"Sell Prices": true
+				"Food": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		}
 	]

@@ -18,7 +18,7 @@
 		},
 		"Sell Prices": {
 			"AllowValues": "false, true",
-			"Default": "true",
+			"Default": "false",
 			"Section": "Balance Changes"
 		},
 		"Food Buffs": {
@@ -145,6 +145,11 @@
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Quality of Life"
+		},
+		"Split Large Animal Products": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Quality of Life Changes"
 		},
 		"Remove Seeds from Shops": {
 			"AllowValues": "false, true",
