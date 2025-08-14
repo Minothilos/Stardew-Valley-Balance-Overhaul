@@ -208,28 +208,28 @@
 					"Price": "100"
 				}, // Magnolia
 				"Cornucopia_Wisteria": {
-					"Price": "90"
+					"Price": "105"
 				}, // Wisteria
 				"Cornucopia_Hibiscus": {
 					"Price": "100"
 				}, // Hibiscus
 				"Cornucopia_YlangYlang": {
-					"Price": "90"
+					"Price": "105"
 				}, // Ylang Ylang
 				"Cornucopia_Jasmine": {
-					"Price": "100"
+					"Price": "110"
 				}, // Jasmine
 				"Cornucopia_MagnoliaSapling": {
-					"Price": "425"
+					"Price": "375"
 				}, // Magnolia Sapling
 				"Cornucopia_WisteriaSapling": {
-					"Price": "350"
+					"Price": "400"
 				}, // Wisteria Sapling
 				"Cornucopia_HibiscusSapling": {
-					"Price": "425"
+					"Price": "375"
 				}, // Hibiscus Sapling
 				"Cornucopia_YlangYlangSapling": {
-					"Price": "350"
+					"Price": "400"
 				}, // Ylang Ylang Sapling
 				"Cornucopia_JasmineSapling": {
 					"Price": "425"
