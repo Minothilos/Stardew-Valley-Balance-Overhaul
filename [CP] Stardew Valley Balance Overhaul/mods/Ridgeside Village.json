@@ -1150,6 +1150,51 @@
 				"Sell Prices": true
 			}
 		},
+		{ // Fruit Tree Shop (Limited Seed Supply)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"RSVKimpoiShop",
+				"Items"
+			],
+			"Fields": {
+				"Rafseazz.RSVCP.KimpoiShopItem1": { // Cherry Pluot
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem2": { // Highland Jostaberry
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem3": { // Mountain Plumcot
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem4": { // Northern Limequat
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem5": { // Paradise Rangpur
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem6": { // Tropi Ugli Fruit
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem7": { // Desert Tangelo
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Rafseazz.RSVCP.KimpoiShopItem8": { // Ember Blood Lime
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
 		{ // Warp Totem Crafting Recipe
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",

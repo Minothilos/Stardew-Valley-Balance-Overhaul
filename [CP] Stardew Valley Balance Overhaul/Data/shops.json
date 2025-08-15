@@ -441,8 +441,7 @@
 				}
 			},
 			"When": {
-				"Shops": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+				"Shops": true
 			}
 		},
 		{ // Island Trader
@@ -464,6 +463,27 @@
 			},
 			"When": {
 				"Sell Prices": true
+			}
+		},
+		{ // Island Trader (Item Seed Supply)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"IslandTrade",
+				"Items"
+			],
+			"Fields": {
+				"(O)69": { // Banana Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"(O)835": { // Mango Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
 			}
 		},
 		{ // The Stardrop Saloon (Limited Item Supply)
@@ -1051,6 +1071,23 @@
 				"Limited Seed Supply": true
 			}
 		},
+		{ // JojaMart (Limited Item Supply)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
+			"Fields": {
+				"(O)167": { // Jola Cola
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Item Supply": true
+			}
+		},
 		{ // JojaMart (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1169,8 +1206,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
+				"Limited Seed Supply": true
 			}
 		},
 		{ // Pierre's Store - Fruit Trees Saplings

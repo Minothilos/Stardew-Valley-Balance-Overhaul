@@ -660,6 +660,31 @@
 				"Sell Prices": true
 			}
 		},
+			{ // Pierre's Shop (Limited Seed Supply)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
 		{ // Joja's Shop
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -668,9 +693,6 @@
 				"Items"
 			],
 			"Fields": {
-				"(BC)272": { // Auto-Petter
-					"Price": "75000"
-				},
 				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { // Cucumber Seed
 					"Price": "220",
 					"IgnoreShopPriceModifiers": true
@@ -728,6 +750,23 @@
 			},
 			"When": {
 				"Limited Seed Supply": true
+			}
+		},
+		{ // Joja's Shop (Limit Item Supply)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
+			"Fields": {
+				"(O)167": {
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Item Supply": true
 			}
 		},
 		{ // Joja's Shop (Limit Seed Supply)
@@ -806,6 +845,10 @@
 					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
 				},
+				"FlashShifter.StardewValleyExpandedCP_Poppy_Seeds": {
+					"AvailableStock": "25",
+					"AvailableStockLimit": "Player"
+				},
 				"FlashShifter.StardewValleyExpandedCP_Spangle_Seeds": {
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
@@ -879,7 +922,7 @@
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Bean_Starter": {
-					"AvailableStock": "50",
+					"AvailableStock": "25",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Butternut_Squash_Seed": {
@@ -967,115 +1010,119 @@
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Parsnip_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Potato_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cauliflower_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tulip_Bulb": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Jazz_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Kale_Seeds": {
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player"
+				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Bean_Starter": {
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Butternut_Squash_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Melon_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tomato_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Blueberry_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pepper_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Wheat_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Radish_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Corn_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Poppy_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Spangle_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sunflower_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sweet_Potato_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pumpkin_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Eggplant_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Bok_Choy": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Amaranth_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Yam_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "100",
 					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cranberry_Seeds": {
-					"AvailableStock": "25",
-					"AvailableStockLimit": "Player"
-				},
-				"FlashShifter.StardewValleyExpandedCP_JojaDay_Fairy_Seeds": {
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				},
+				"FlashShifter.StardewValleyExpandedCP_JojaDay_Fairy_Seeds": {
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player"
+				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player"
 				}
 			},
