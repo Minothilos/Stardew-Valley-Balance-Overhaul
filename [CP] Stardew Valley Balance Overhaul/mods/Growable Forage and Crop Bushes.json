@@ -159,30 +159,198 @@
 			"Fields": {
 				"(O)302": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Hops Planter
 				"(O)301": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Grape Starter
 				"(O)481": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Blueberry Planter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },*/
 				"Cornucopia_HollySeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_BlackberrySeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_SalmonberrySeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -216,11 +384,67 @@
 			"Fields": {
 				"(O)302": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Hops Planter
 				"(O)301": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				} // Grape Starter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
@@ -242,27 +466,195 @@
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Hops Planter
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Hops Planter
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Hops Planter
 				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Grape Planter
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}, // Grape Starter
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				} // Grape Planter
 				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
 				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
@@ -300,15 +692,99 @@
 			"Fields": {
 				"Cornucopia_CommonMushroomSeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_ChanterelleSeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_MorelSeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {

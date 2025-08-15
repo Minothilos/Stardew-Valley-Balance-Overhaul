@@ -1570,7 +1570,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1599,7 +1627,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1628,7 +1684,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1657,7 +1741,36 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+					
 				}
 			},
 			"MoveEntries": [
@@ -1686,7 +1799,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1715,7 +1856,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1744,7 +1913,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1773,7 +1970,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1802,7 +2027,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1831,7 +2084,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1860,7 +2141,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1889,7 +2198,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1918,7 +2255,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1947,7 +2312,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -1976,7 +2369,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -2005,7 +2426,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -2031,7 +2480,36 @@
 					"ItemId": "ALL_ITEMS (O)",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
 					"AvailableStock": 10,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -2055,7 +2533,36 @@
 					"Condition": "SEASON Fall",
 					"Price": "350",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.cottonboll": {
 					"Id": "minothilos.cottonboll",
@@ -2063,7 +2570,36 @@
 					"Condition": "SEASON Summer Fall, YEAR 2",
 					"Price": "200",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.bellpepper": {
 					"Id": "minothilos.bellpepper",
@@ -2071,7 +2607,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "130",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.cucumber": {
 					"Id": "minothilos.cucumber",
@@ -2079,7 +2644,36 @@
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "100",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -2119,7 +2713,36 @@
 					"Condition": "SEASON Spring, YEAR 2",
 					"Price": "300",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.pintobeans": {
 					"Id": "minothilos.pintobeans",
@@ -2127,7 +2750,36 @@
 					"Condition": "SEASON Spring, YEAR 2",
 					"Price": "80",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.adzukibeans": {
 					"Id": "minothilos.adzukibeans",
@@ -2135,7 +2787,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "100",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.butternut": {
 					"Id": "minothilos.butternut",
@@ -2143,7 +2824,36 @@
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "180",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.chickpea": {
 					"Id": "minothilos.chickpea",
@@ -2151,7 +2861,36 @@
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "200",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.greenpeas": {
 					"Id": "minothilos.greenpeas",
@@ -2159,7 +2898,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "40",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.groundcherries": {
 					"Id": "minothilos.groundcherries",
@@ -2167,7 +2935,36 @@
 					"Condition": "SEASON Summer Fall",
 					"Price": "230",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.navybeans": {
 					"Id": "minothilos.navybeans",
@@ -2175,7 +2972,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "80",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.okra": {
 					"Id": "minothilos.okra",
@@ -2183,7 +3009,36 @@
 					"Condition": "SEASON Summer Fall, YEAR 2",
 					"Price": "180",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.blackbeans": {
 					"Id": "minothilos.blackbeans",
@@ -2191,7 +3046,36 @@
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "60",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.kidneybeans": {
 					"Id": "minothilos.kidneybeans",
@@ -2199,7 +3083,36 @@
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "180",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"MoveEntries": [
@@ -2296,7 +3209,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2319,7 +3260,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2342,7 +3311,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2365,7 +3362,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2388,7 +3413,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2411,7 +3464,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2434,7 +3515,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2457,7 +3566,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2480,7 +3617,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2503,7 +3668,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2526,7 +3719,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2549,7 +3770,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2572,7 +3821,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2595,7 +3872,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2618,7 +3923,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 50,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2641,7 +3974,35 @@
 					"AvoidRepeat": true,
 					"AvailableStock": 25,
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2662,7 +4023,36 @@
 					"Condition": "SEASON Fall",
 					"Price": "350",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.cottonboll": {
 					"Id": "minothilos.cottonboll",
@@ -2670,7 +4060,36 @@
 					"Condition": "SEASON Summer Fall, YEAR 2",
 					"Price": "200",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.bellpepper": {
 					"Id": "minothilos.bellpepper",
@@ -2678,7 +4097,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "130",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.cucumber": {
 					"Id": "minothilos.cucumber",
@@ -2686,7 +4134,36 @@
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "100",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2708,7 +4185,36 @@
 					"Condition": "SEASON Spring, YEAR 2",
 					"Price": "300",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.pintobeans": {
 					"Id": "minothilos.pintobeans",
@@ -2716,7 +4222,36 @@
 					"Condition": "SEASON Spring, YEAR 2",
 					"Price": "80",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.adzukibeans": {
 					"Id": "minothilos.adzukibeans",
@@ -2724,7 +4259,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "100",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.butternut": {
 					"Id": "minothilos.butternut",
@@ -2732,7 +4296,36 @@
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "180",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.chickpea": {
 					"Id": "minothilos.chickpea",
@@ -2740,7 +4333,36 @@
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "200",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.greenpeas": {
 					"Id": "minothilos.greenpeas",
@@ -2748,7 +4370,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "40",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.groundcherries": {
 					"Id": "minothilos.groundcherries",
@@ -2756,7 +4407,36 @@
 					"Condition": "SEASON Summer Fall",
 					"Price": "230",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.navybeans": {
 					"Id": "minothilos.navybeans",
@@ -2764,7 +4444,36 @@
 					"Condition": "SEASON Summer",
 					"Price": "80",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.okra": {
 					"Id": "minothilos.okra",
@@ -2772,7 +4481,36 @@
 					"Condition": "SEASON Summer Fall, YEAR 2",
 					"Price": "180",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.blackbeans": {
 					"Id": "minothilos.blackbeans",
@@ -2780,7 +4518,36 @@
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "60",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"minothilos.kidneybeans": {
 					"Id": "minothilos.kidneybeans",
@@ -2788,7 +4555,36 @@
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "180",
 					"AvailableStock": 25,
-					"IgnoreShopPriceModifiers": true
+					"AvailableStockLimit": "Player",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2828,7 +4624,35 @@
 			"Fields": {
 				"Cornucopia_SugarcaneSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2845,15 +4669,99 @@
 			"Fields": {
 				"Cornucopia_AgaveSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_BlueAgaveSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_BambooSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2871,15 +4779,99 @@
 			"Fields": {
 				"Cornucopia_AloeSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_CuminSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_LemongrassSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2898,7 +4890,35 @@
 			"Fields": {
 				"Cornucopia_CatnipSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2917,15 +4937,99 @@
 			"Fields": {
 				"Cornucopia_GinsengSeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_ChickenoftheWoodsSeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_ShiitakeSeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2943,11 +5047,67 @@
 			"Fields": {
 				"Cornucopia_LicoriceRootSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_WormwoodSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2966,7 +5126,35 @@
 			"Fields": {
 				"Cornucopia_WasabiRootSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -2983,11 +5171,67 @@
 			"Fields": {
 				"Cornucopia_KiwiSeeds": {
 					"AvailableStock": "25",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				},
 				"Cornucopia_WatermelonSeeds": {
 					"AvailableStock": "50",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
@@ -3004,7 +5248,35 @@
 			"Fields": {
 				"Cornucopia_JuniperBerriesSeeds": {
 					"AvailableStock": "10",
-					"AvailableStockLimit": "Player"
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
 				}
 			},
 			"When": {
