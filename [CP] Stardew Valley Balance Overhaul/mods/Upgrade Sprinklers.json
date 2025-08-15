@@ -4,32 +4,33 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Sprinkler to Quality": "599 1 336 1 335 1/Home/621/false/Farming 6" // Changed from refined quartz to iron bar
+                "Sprinkler to Quality": "599 1 336 1 335 1/Home/621/false/Farming 6",
+                "Quality to Iridium": "621 1 336 1 337 1 787 1/Home/645/false/Farming 9"
             },
             "When": {
-                "Machines": "Normal"
+                "Sprinklers": "Normal"
             }
         },
         {
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Sprinkler to Quality": "599 1 336 2 335 2/Home/621/false/Farming 6", // Changed from refined quartz to iron bar
-                "Quality to Iridium": "621 1 337 2 787 1/Home/645/false/Farming 9" // Now requires 2 iridium bars
+                "Sprinkler to Quality": "599 1 336 2 335 1/Home/621/false/Farming 6", 
+                "Quality to Iridium": "621 1 336 2 337 1 787 1/Home/645/false/Farming 9"
             },
             "When": {
-                "Machines": "Hard"
+                "Sprinklers": "Hard"
             }
         },
         {
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Sprinkler to Quality": "599 1 336 2 335 3/Home/621/false/Farming 6", // Changed from refined quartz to iron bar
-                "Quality to Iridium": "621 1 336 1 337 2 787 1/Home/645/false/Farming 9" // Now requires 2 iridium bars and one gold bar
+                "Sprinkler to Quality": "599 1 336 2 335 2/Home/621/false/Farming 6",
+                "Quality to Iridium": "621 1 336 2 337 2 787 1/Home/645/false/Farming 9"
             },
             "When": {
-                "Machines": "Very Hard"
+                "Sprinklers": "Very Hard"
             }
         }
     ]
