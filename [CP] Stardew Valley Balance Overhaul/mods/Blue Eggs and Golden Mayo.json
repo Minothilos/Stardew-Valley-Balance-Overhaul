@@ -11,7 +11,7 @@
 					"Price": "260"
 				}, // Blue Mayonnaise
 				"6480.blueegg_GoldenMayo": {
-					"Price": "600"
+					"Price": "500"
 				}, // Golden Mayonnaise
 				"6480.blueegg_OstrichMayo": {
 					"Price": "2000"
@@ -27,13 +27,13 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"6480.blueegg_BlueEgg": {
-					"Price": "135"
+					"Price": "140"
 				}, // Blue Egg
 				"6480.blueegg_BlueMayo": {
 					"Price": "280"
 				}, // Blue Mayonnaise
 				"6480.blueegg_GoldenMayo": {
-					"Price": "650"
+					"Price": "550"
 				}, // Golden Mayonnaise
 				"6480.blueegg_OstrichMayo": {
 					"Price": "2200"
