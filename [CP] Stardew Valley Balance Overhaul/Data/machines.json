@@ -209,6 +209,32 @@
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
+				{ // Flower Honey Reduced Multiplier (100 + 1.5x)
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Modification": "Multiply",
+						"Amount": 0.75
+					},
+					{
+						"Modification": "Subtract",
+						"Amount": 50
+					}
+				]
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
 		{ // Cask - Cheese
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -301,7 +327,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "1.166"
+					"AgingMultiplier": "1.4"
 				}
 			},
 			"When": {
