@@ -1546,8 +1546,8 @@
 				"Cornucopia.MoreCrops_CropSeedsSummerRare": null,
 				"Cornucopia.MoreCrops_CropSeedsFallRare": null,
 				"Cornucopia.MoreCrops_CropSeedsWinterRare": null,
-				"Cornucopia.MoreCrops_BushSeeds": null
-				// "Cornucopia.MoreCrops_FruitTreeSaplings": null
+				"Cornucopia.MoreCrops_BushSeeds": null,
+				"Cornucopia.MoreCrops_FruitTreeSaplings": null
 			},
 			"When": {
 				"Limited Seed Supply": true
@@ -2039,7 +2039,36 @@
 					"Id": "minothilos.MoreCrops_BushSeeds",
 					"BeforeId": "(O)628"
 				}
-			]
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Entries": {
+				"minothilos.MoreCrops_FruitTreeSaplings": {
+					"Id": "minothilos.MoreCrops_FruitTreeSaplings",
+					"ItemId": "ALL_ITEMS (O)",
+					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_fruittree_sapling, ITEM_CONTEXT_TAG Target modid_cornucopia.morecrops, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
+					"AvailableStock": 2,
+					"IgnoreShopPriceModifiers": true
+				}
+			},
+			"MoveEntries": [
+				{
+					"Id": "minothilos.MoreCrops_FruitTreeSaplings",
+					"BeforeId": "(O)628"
+				}
+			],
+			"When": {
+				"Limited Seed Supply": true
+			}
 		},
 		{
 			"Action": "EditData",
@@ -2271,8 +2300,7 @@
 				"Cornucopia.MoreCrops_CropSeedsSpringRare": null,
 				"Cornucopia.MoreCrops_CropSeedsSummerRare": null,
 				"Cornucopia.MoreCrops_CropSeedsFallRare": null,
-				"Cornucopia.MoreCrops_CropSeedsWinterRare": null,
-				"Cornucopia.MoreCrops_BushSeeds": null
+				"Cornucopia.MoreCrops_CropSeedsWinterRare": null
 				// "Cornucopia.MoreCrops_FruitTreeSaplings": null
 			},
 			"When": {
@@ -2887,6 +2915,32 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
 		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
+			"Fields": {
+				"Cornucopia_BreadfruitSapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_DragonFruitSapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_LycheeSapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
+			}
+		},
 		// Limited Seed Supply Marnies
 		{
 			"Action": "EditData",
@@ -2898,6 +2952,10 @@
 			"Fields": {
 				"Cornucopia_CatnipSeeds": {
 					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"Cornucopia_MelaleucaLeavesSapling": {
+					"AvailableStock": "2",
 					"AvailableStockLimit": "Player"
 				}
 			},

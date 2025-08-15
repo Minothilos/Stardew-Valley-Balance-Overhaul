@@ -95,6 +95,23 @@
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Fields": {
+				"ZoeyHoshi.ForageCrops_WildPlumSapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
 				"Joja",
 				"Items"
 			],
