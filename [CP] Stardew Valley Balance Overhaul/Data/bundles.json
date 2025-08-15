@@ -34,7 +34,7 @@
 				"Bulletin Board/33": "Enchanter's/O 879 3/725 3 0 348 3 0 637 3 0 446 1 0/1",
 				"Bulletin Board/34": "Dye/BO 25 2/420 3 0 397 3 0 421 3 0 62 3 0 266 3 0 444 2 0/6",
 				"Bulletin Board/35": "Fodder/BO 24 2/178 50 0 262 20 0 157 5 0 613 3 0/3",
-				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 10 2 795 3 2 348 1 2 445 3 0 807 2 0 74 1 0/1/5"
+				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 5 2 445 5 0 795 3 2 807 2 0 348 1 2 74 1 0/1/5"
 			},
 			"When": {
 				"Community Center Bundles": "SVBO"
@@ -74,7 +74,7 @@
 				"Bulletin Board/33": "Enchanter's/O 879 3/725 3 0 348 3 0 637 3 0 446 1 0 FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover 1 0/1",
 				"Bulletin Board/34": "Dye/BO 25 2/420 3 0 397 3 0 421 3 0 62 3 0 266 3 0 444 2 0 FlashShifter.StardewValleyExpandedCP_Persimmon 2 0/6",
 				"Bulletin Board/35": "Fodder/BO 24 2/178 50 0 262 20 0 157 5 0 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed 5 0 613 3 0/3",
-				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 10 2 795 3 2 348 1 2 445 3 0 807 2 0 74 1 0 FlashShifter.StardewValleyExpandedCP_Shark 1 0/1/6"
+				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 5 2 445 5 0 795 3 2 807 2 0 348 1 2 FlashShifter.StardewValleyExpandedCP_Shark 1 2 74 1 0/1/6"
 			},
 			"When": {
 				"Community Center Bundles": "SVBO/SVE"
@@ -114,7 +114,7 @@
 				"Bulletin Board/33": "Enchanter's/O 879 3/725 3 0 348 3 0 637 3 0 446 1 0/1",
 				"Bulletin Board/34": "Dye/BO 25 2/420 3 0 397 3 0 421 3 0 62 3 0 266 3 0 444 2 0/6",
 				"Bulletin Board/35": "Fodder/BO 24 2/178 50 0 262 20 0 157 5 0 613 3 0/3",
-				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 10 2 795 3 2 348 1 2 445 3 0 807 2 0 74 1 0/1/5"
+				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 5 2 445 5 0 795 3 2 807 2 0 348 1 2 74 1 0/1/5"
 			},
 			"When": {
 				"Community Center Bundles": "SVBO/RSV"
@@ -154,7 +154,7 @@
 				"Bulletin Board/33": "Enchanter's/O 879 3/725 3 0 348 3 0 637 3 0 446 1 0 FlashShifter.StardewValleyExpandedCP_Lucky_Four_Leaf_Clover 1 0/1",
 				"Bulletin Board/34": "Dye/BO 25 2/420 3 0 397 3 0 421 3 0 62 3 0 266 3 0 444 2 0 FlashShifter.StardewValleyExpandedCP_Persimmon 2 0/6",
 				"Bulletin Board/35": "Fodder/BO 24 2/178 50 0 262 20 0 157 5 0 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed 5 0 613 3 0/3",
-				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 10 2 795 3 2 348 1 2 445 3 0 807 2 0 74 1 0 FlashShifter.StardewValleyExpandedCP_Shark 1 0/1/6"
+				"Abandoned Joja Mart/36": "The Missing/O 645 2/454 5 2 445 5 0 795 3 2 807 2 0 348 1 2 FlashShifter.StardewValleyExpandedCP_Shark 1 2 74 1 0/1/6"
 			},
 			"When": {
 				"Community Center Bundles": "SVBO/SVE/RSV"
