@@ -1,5 +1,5 @@
 {
-	"config.Sell Prices.description": "Changes the sell prices of most items.",
+	"config.Sell Prices.description": "Changes the sell prices of most items. Also changes the processing time of Bee Houses and Crystalariums.",
 	"config.Machines.description": "Changes machine crafting recipes.",
 	"config.Sprinklers.description": "Changes sprinkler crafting recipes.",
 	"config.Fertilizers.description": "Changes fertilizer crafting recipes.",

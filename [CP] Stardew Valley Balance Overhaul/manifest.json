@@ -102,6 +102,14 @@
 		{
 			"UniqueID": "Spiderbuttons.ButtonsExtraBooksCore",
 			"IsRequired": false
+		},
+		{
+			"UniqueID": "NCarigon.BetterHoneyMeadCP",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "selph.FlavoredMead",
+			"IsRequired": false
 		}
 	]
 }

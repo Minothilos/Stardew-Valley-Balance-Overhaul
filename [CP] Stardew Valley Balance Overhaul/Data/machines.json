@@ -178,10 +178,10 @@
 			},
 			"When": {
 				"Sell Prices": true,
-				"HasMod|contains=selph.FlavoredMead": true
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
-		{ // Flavored Meads (SHOULD THIS HAVE FLAVORED MEADS AS A REQUIRED MOD???)
+		{ // Mead Formula (Flavored Meads)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -192,6 +192,7 @@
 				"(O)459"
 			],
 			"Entries": {
+				"CopyQuality": false,
 				"PriceModifiers": [
 					{
 						"Modification": "Multiply",
@@ -204,7 +205,8 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices": true,
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
 		{ // Cask - Cheese
