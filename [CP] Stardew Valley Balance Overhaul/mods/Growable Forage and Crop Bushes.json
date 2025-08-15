@@ -157,6 +157,23 @@
 				"Items"
 			],
 			"Fields": {
+				"Cornucopia_HazelnutSapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				} // Hazelnut Sapling
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Fields": {
 				"(O)302": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player",
@@ -253,9 +270,6 @@
 						}
 					]
 				}, // Blueberry Planter
-				/*	"Cornucopia_SpringOnionSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"Cornucopia_SweetPeaSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },
-				"Cornucopia_CrocusSeeds": { "AvailableStock": "50", "AvailableStockLimit": "Player" },*/
 				"Cornucopia_HollySeeds": {
 					"AvailableStock": "10",
 					"AvailableStockLimit": "Player",
@@ -790,6 +804,23 @@
 			"When": {
 				"Limited Seed Supply": true,
 				"HasMod|contains=furyx639.CustomBush": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Sandy",
+				"Items"
+			],
+			"Fields": {
+				"Cornucopia_CoconutSapling": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				} // Coconut Sapling
+			},
+			"When": {
+				"Limited Seed Supply": true
 			}
 		}
 	]
