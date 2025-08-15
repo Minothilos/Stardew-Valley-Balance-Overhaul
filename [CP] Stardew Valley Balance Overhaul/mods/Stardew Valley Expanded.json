@@ -727,7 +727,7 @@
 				"Shops": true
 			}
 		},
-		{ // Pierre's Shop (Limit Seed Supply)
+		{ // Pierre's Shop (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -752,7 +752,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{ // Joja's Shop (Limit Item Supply)
+		{ // Joja's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -769,7 +769,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{ // Joja's Shop (Limit Seed Supply)
+		{ // Joja's Shop (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1159,7 +1159,7 @@
 				"Shops": true
 			}
 		},
-		{ // Saloon Shop (Limit Item Supply)
+		{ // Saloon Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1207,7 +1207,7 @@
 				"Sell Prices": true
 			}
 		},
-		{ // Yellow Junimo Shop (Limit Item Supply)
+		{ // Yellow Junimo Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1239,7 +1239,7 @@
 				"Sell Prices": true
 			}
 		},
-		{ // Zoey Shop (Limit Item Supply)
+		{ // Zoey Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [

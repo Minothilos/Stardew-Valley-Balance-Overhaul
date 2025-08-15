@@ -465,7 +465,7 @@
 				"Sell Prices": true
 			}
 		},
-		{ // Island Trader (Item Seed Supply)
+		{ // Island Trader (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1064,6 +1064,30 @@
 				},
 				"(O)489": { // Artichoke Seeds
 					"AvailableStock": "50",
+					"AvailableStockLimit": "Player"
+				},
+				"(O)629": { // Apricot Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"(O)628": { // Cherry Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"(O)630": { // Orange Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"(O)631": { // Peach Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"(O)633": { // Apple Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
+				},
+				"(O)632": { // Pomegranate Sapling
+					"AvailableStock": "2",
 					"AvailableStockLimit": "Player"
 				}
 			},
