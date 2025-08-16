@@ -1770,7 +1770,6 @@
 							]
 						}
 					]
-					
 				}
 			},
 			"MoveEntries": [
@@ -2522,7 +2521,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-				{
+		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -4651,7 +4650,7 @@
 			],
 			"Fields": {
 				"Cornucopia_SugarcaneSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -4696,7 +4695,7 @@
 			],
 			"Fields": {
 				"Cornucopia_AgaveSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -4728,7 +4727,7 @@
 					]
 				},
 				"Cornucopia_BlueAgaveSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -4760,7 +4759,7 @@
 					]
 				},
 				"Cornucopia_BambooSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -4806,7 +4805,7 @@
 			],
 			"Fields": {
 				"Cornucopia_AloeSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -4838,7 +4837,7 @@
 					]
 				},
 				"Cornucopia_CuminSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -4870,7 +4869,7 @@
 					]
 				},
 				"Cornucopia_LemongrassSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -4907,7 +4906,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
 		},
-				{
+		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -4917,99 +4916,15 @@
 			"Fields": {
 				"Cornucopia_BreadfruitSapling": {
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Cornucopia_DragonFruitSapling": {
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Cornucopia_LycheeSapling": {
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -5027,7 +4942,7 @@
 			],
 			"Fields": {
 				"Cornucopia_CatnipSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -5060,35 +4975,7 @@
 				},
 				"Cornucopia_MelaleucaLeavesSapling": {
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -5216,7 +5103,7 @@
 			],
 			"Fields": {
 				"Cornucopia_LicoriceRootSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -5248,7 +5135,7 @@
 					]
 				},
 				"Cornucopia_WormwoodSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -5295,7 +5182,7 @@
 			],
 			"Fields": {
 				"Cornucopia_WasabiRootSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -5340,7 +5227,7 @@
 			],
 			"Fields": {
 				"Cornucopia_KiwiSeeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -5372,7 +5259,7 @@
 					]
 				},
 				"Cornucopia_WatermelonSeeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{

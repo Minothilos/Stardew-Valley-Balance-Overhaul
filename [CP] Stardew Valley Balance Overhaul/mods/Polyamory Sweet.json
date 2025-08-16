@@ -100,7 +100,7 @@
             ],
             "Fields": {
                 "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
-                    "AvailableStock": "50",
+                    "AvailableStock": "40",
                     "AvailableStockLimit": "Player",
                     "AvailableStockModifiers": [
                         {
@@ -132,7 +132,7 @@
                     ]
                 },
                 "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
-                    "AvailableStock": "50",
+                    "AvailableStock": "40",
                     "AvailableStockLimit": "Player",
                     "AvailableStockModifiers": [
                         {
@@ -220,7 +220,7 @@
             ],
             "Fields": {
                 "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
-                    "AvailableStock": "50",
+                    "AvailableStock": "40",
                     "AvailableStockLimit": "Player",
                     "AvailableStockModifiers": [
                         {
@@ -252,7 +252,7 @@
                     ]
                 },
                 "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
-                    "AvailableStock": "50",
+                    "AvailableStock": "40",
                     "AvailableStockLimit": "Player",
                     "AvailableStockModifiers": [
                         {

@@ -1150,6 +1150,99 @@
 				"Sell Prices": true
 			}
 		},
+		{ // Heap's Store (Limited Item Supply)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"RSVHeapsStore",
+				"Items"
+			],
+			"Fields": {
+				"Rafseazz.RSVCP.HeapsItem2": { // Sugar
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem3": { // Wheat Flour
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem4": { // Rice
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem5": { // Oil
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem6": { // Vinegar
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem1": { // Grass Starter
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem8": { // Basic Fertilizer
+					"Price": "50",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem14": { // Basic Fertilizer
+					"Price": "50",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem13": { // Quality Fertilizer
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem19": { // Quality Fertilizer
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2"
+				},
+				"Rafseazz.RSVCP.HeapsItem7": { // Quality Fertilizer
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2"
+				},
+				"Rafseazz.RSVCP.HeapsItem9": { // Basic Retaining Soil
+					"Price": "30",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem15": { // Basic Retaining Soil
+					"Price": "30",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem10": { // Quality Retaining Soil
+					"Price": "70",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem16": { // Quality Retaining Soil
+					"Price": "70",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem11": { // Speed-Gro
+					"Price": "50",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem17": { // Speed-Gro
+					"Price": "50",
+					"IgnoreShopPriceModifiers": true
+				},
+				"Rafseazz.RSVCP.HeapsItem12": { // Deluxe Speed-Gro
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2"
+				},
+				"Rafseazz.RSVCP.HeapsItem18": { // Deluxe Speed-Gro
+					"Price": "100",
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2"
+				}
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
 		{ // Fruit Tree Shop (Limited Seed Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -1160,259 +1253,35 @@
 			"Fields": {
 				"Rafseazz.RSVCP.KimpoiShopItem1": { // Cherry Pluot
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem2": { // Highland Jostaberry
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem3": { // Mountain Plumcot
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem4": { // Northern Limequat
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem5": { // Paradise Rangpur
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem6": { // Tropi Ugli Fruit
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem7": { // Desert Tangelo
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"Rafseazz.RSVCP.KimpoiShopItem8": { // Ember Blood Lime
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -1428,7 +1297,7 @@
 			],
 			"Fields": {
 				"Rafseazz.RSVCP.HeapsItem2": { // Sugar
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1460,7 +1329,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem3": { // Wheat Flour
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1492,7 +1361,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem4": { // Rice
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1524,7 +1393,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem5": { // Oil
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1556,7 +1425,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem6": { // Vinegar
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1588,7 +1457,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem1": { // Grass Starter
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1620,7 +1489,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem8": { // Basic Fertilizer
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1652,7 +1521,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem14": { // Basic Fertilizer
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1684,7 +1553,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem13": { // Quality Fertilizer
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1716,7 +1585,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem19": { // Quality Fertilizer
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1748,7 +1617,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem7": { // Quality Fertilizer
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1780,7 +1649,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem9": { // Basic Retaining Soil
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1812,7 +1681,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem15": { // Basic Retaining Soil
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1844,7 +1713,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem10": { // Quality Retaining Soil
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1876,7 +1745,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem16": { // Quality Retaining Soil
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1908,7 +1777,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem11": { // Speed-Gro
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1940,7 +1809,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem17": { // Speed-Gro
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1972,7 +1841,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem12": { // Deluxe Speed-Gro
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2004,7 +1873,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem18": { // Deluxe Speed-Gro
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{

@@ -714,9 +714,16 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -746,9 +753,16 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -778,9 +792,16 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -811,211 +832,15 @@
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Nectarine_Sapling": {
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Persimmon_Sapling": {
 					"AvailableStock": "2",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
-				}
-			},
-			"When": {
-				"Limited Seed Supply": true
-			}
-		},
-		{ // Pierre's Shop (Limited Seed Supply - CC Completed)
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Fields": {
-				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": {
-					"AvailableStock": "50",
-					"AvailableStockLimit": "Player",
-					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
-				},
-				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": {
-					"AvailableStock": "100",
-					"AvailableStockLimit": "Player",
-					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
-				},
-				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": {
-					"AvailableStock": "100",
-					"AvailableStockLimit": "Player",
-					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -1031,7 +856,7 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1063,7 +888,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Parsnip_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1095,7 +920,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Potato_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1127,7 +952,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Cauliflower_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1159,7 +984,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Tulip_Bulb": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1191,7 +1016,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Jazz_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1223,7 +1048,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Kale_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1255,7 +1080,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Bean_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1287,7 +1112,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Butternut_Squash_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1319,7 +1144,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Melon_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1351,7 +1176,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Tomato_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1383,7 +1208,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Blueberry_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1415,7 +1240,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pepper_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1447,7 +1272,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Wheat_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1479,7 +1304,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Radish_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1511,7 +1336,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Corn_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1543,7 +1368,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1575,7 +1400,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Poppy_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1607,7 +1432,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Spangle_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1639,7 +1464,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Sunflower_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1671,7 +1496,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Sweet_Potato_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1703,7 +1528,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pumpkin_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1735,7 +1560,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Eggplant_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1767,7 +1592,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Bok_Choy": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1799,7 +1624,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Amaranth_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1831,7 +1656,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Yam_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1863,7 +1688,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Cranberry_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1895,7 +1720,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Fairy_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1927,7 +1752,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1959,7 +1784,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cucumber_Seed": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1991,7 +1816,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Parsnip_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2023,7 +1848,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Potato_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2055,7 +1880,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cauliflower_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2087,7 +1912,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Tulip_Bulb": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2119,7 +1944,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Jazz_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2151,7 +1976,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Kale_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2183,7 +2008,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Bean_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2215,7 +2040,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Butternut_Squash_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2247,7 +2072,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Melon_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2279,7 +2104,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Tomato_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2311,7 +2136,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Blueberry_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2343,7 +2168,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Pepper_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2375,7 +2200,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Wheat_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2407,7 +2232,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Radish_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2439,7 +2264,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Corn_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2471,7 +2296,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2503,7 +2328,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Poppy_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2535,7 +2360,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Spangle_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2567,7 +2392,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Sunflower_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2599,7 +2424,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Sweet_Potato_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2631,7 +2456,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Pumpkin_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2663,7 +2488,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Eggplant_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2695,7 +2520,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Bok_Choy": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2727,7 +2552,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Amaranth_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2759,7 +2584,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Yam_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2791,7 +2616,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cranberry_Seeds": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2823,7 +2648,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Fairy_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2855,7 +2680,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": {
-					"AvailableStock": "25",
+					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2887,7 +2712,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2919,7 +2744,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Parsnip_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2951,7 +2776,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Potato_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2983,7 +2808,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cauliflower_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3015,7 +2840,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tulip_Bulb": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3047,7 +2872,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Jazz_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3079,7 +2904,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Kale_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3111,7 +2936,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Bean_Starter": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3143,7 +2968,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Butternut_Squash_Seed": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3175,7 +3000,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Melon_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3207,7 +3032,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Tomato_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3239,7 +3064,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Blueberry_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3271,7 +3096,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pepper_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3303,7 +3128,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Wheat_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3335,7 +3160,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Radish_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3367,7 +3192,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Corn_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3399,7 +3224,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3431,7 +3256,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Poppy_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3463,7 +3288,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Spangle_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3495,7 +3320,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sunflower_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3527,7 +3352,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Sweet_Potato_Seed": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3559,7 +3384,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Pumpkin_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3591,7 +3416,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Eggplant_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3623,7 +3448,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Bok_Choy": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3655,7 +3480,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Amaranth_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3687,7 +3512,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Yam_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3719,7 +3544,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cranberry_Seeds": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3751,7 +3576,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Fairy_Seeds": {
-					"AvailableStock": "100",
+					"AvailableStock": "80",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3783,7 +3608,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": {
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -3858,131 +3683,19 @@
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": {
 					"AvailableStock": "3",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {
 					"AvailableStock": "1",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {
 					"AvailableStock": "1",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": {
 					"AvailableStock": "1",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -3999,67 +3712,11 @@
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Ancient_Seeds": {
 					"AvailableStock": "1",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Rare_Seed": {
 					"AvailableStock": "1",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -4092,35 +3749,7 @@
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Rare_Seed": {
 					"AvailableStock": "1",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.5,
-								1.45,
-								1.4,
-								1.35,
-								1.3,
-								1.25,
-								1.2,
-								1.15,
-								1.1,
-								1.05,
-								1.0,
-								0.95,
-								0.9,
-								0.85,
-								0.8,
-								0.75,
-								0.7,
-								0.65,
-								0.6,
-								0.55,
-								0.5
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {

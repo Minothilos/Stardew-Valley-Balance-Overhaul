@@ -209,7 +209,7 @@
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
-				{ // Flower Honey Reduced Multiplier (100 + 1.5x)
+		{ // Flower Honey Reduced Multiplier (100 + 1.5x)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [

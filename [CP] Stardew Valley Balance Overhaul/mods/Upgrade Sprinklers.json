@@ -15,7 +15,7 @@
             "Action": "EditData",
             "Target": "Data/CraftingRecipes",
             "Entries": {
-                "Sprinkler to Quality": "599 1 336 2 335 1/Home/621/false/Farming 6", 
+                "Sprinkler to Quality": "599 1 336 2 335 1/Home/621/false/Farming 6",
                 "Quality to Iridium": "621 1 336 2 337 1 787 1/Home/645/false/Farming 9"
             },
             "When": {

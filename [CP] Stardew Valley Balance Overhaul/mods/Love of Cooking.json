@@ -424,7 +424,7 @@
 			],
 			"Fields": {
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -454,7 +454,7 @@
 							]
 						}
 					]
-				}		
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
@@ -469,7 +469,7 @@
 			],
 			"Fields": {
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
-					"AvailableStock": "50",
+					"AvailableStock": "40",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -499,7 +499,7 @@
 							]
 						}
 					]
-				}		
+				}
 			},
 			"When": {
 				"Limited Item Supply": true
