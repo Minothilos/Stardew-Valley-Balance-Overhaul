@@ -1192,7 +1192,8 @@
 				},
 				"Rafseazz.RSVCP.HeapsItem13": { // Quality Fertilizer
 					"Price": "100",
-					"IgnoreShopPriceModifiers": true
+					"IgnoreShopPriceModifiers": true,
+					"Condition": "YEAR 2"
 				},
 				"Rafseazz.RSVCP.HeapsItem19": { // Quality Fertilizer
 					"Price": "100",

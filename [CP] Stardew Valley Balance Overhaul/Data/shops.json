@@ -1076,7 +1076,7 @@
 					"AvailableStockLimit": "Player"
 				},
 				"(O)243": { // Miner's Treat
-					"AvailableStock": "1",
+					"AvailableStock": "2",
 					"AvailableStockLimit": "Player"
 				},
 				"(O)286": { // Cherry Bomb
@@ -2066,7 +2066,7 @@
 			],
 			"Fields": {
 				"(O)745": { // Strawberry Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "50",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
