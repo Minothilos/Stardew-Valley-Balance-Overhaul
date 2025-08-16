@@ -12,6 +12,10 @@
 	},
 	"Dependencies": [
 		{
+			"UniqueID": "Spiderbuttons.CMCT",
+			"IsRequired": true
+		},
+		{
 			"UniqueID": "6480.blueegg",
 			"IsRequired": false
 		},
