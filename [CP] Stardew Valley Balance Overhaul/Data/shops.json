@@ -2606,7 +2606,7 @@
 				"Limited Seed Supply": true
 			}
 		},
-		{ // Pierre's Store (Limited Item Supply)
+		{ // Pierre's Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2745,6 +2745,442 @@
 				"(O)419": { // Vinegar
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"GrassStarter": { // Grass Starter
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)368": { // Basic Fertilizer
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)369": { // Quality Fertilizer
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)370": { // Basic Retaining Soil
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)371": { // Quality Retaining Soil
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)465": { // Speed-Gro
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)466": { // Deluxe Speed-Gro
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				}
+			},
+			"When": {
+				"Limited Item Supply": true
+			}
+		},
+		{ // Pierre's Shop (Limited Item Supply - CC Completed)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Fields": {
+				"(O)245": { // Sugar
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)246": { // Wheat Flour
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)423": { // Rice
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)247": { // Oil
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)419": { // Vinegar
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"GrassStarter": { // Grass Starter
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
 					"AvailableStockModifiers": [
 						{
 							"Modification": "Multiply",
@@ -4080,6 +4516,38 @@
 						}
 					]
 				},
+				"(O)297": { // Grass Starter
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
 				"(O)245": { // Sugar
 					"AvailableStock": "50",
 					"AvailableStockLimit": "Player",
@@ -4239,7 +4707,1538 @@
 							]
 						}
 					]
-				}			
+				}
+			},
+			"When": {
+				"Limited Item Supply": true
+			}
+		},
+		{ // Pierre's Shop (Limited Seed Supply - CC Completed)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"SeedShop",
+				"Items"
+			],
+			"Fields": {
+				"(O)472": { // Parsnip Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)473": { // Bean Starter
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)474": { // Cauliflower Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)475": { // Potato Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)427": { // Tulip Bulb
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)477": { // Kale Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)429": { // Jazz Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)476": { // Garlic Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)273": { // Rice Shoot
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)479": { // Melon Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)480": { // Tomato Seeds
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)481": { // Blueberry Seeds
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)482": { // Pepper Seeds
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"WheatSeeds_Summer": { // Wheat Seeds Summer
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"WheatSeeds_Fall": { // Wheat Seeds Fall
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)484": { // Radish Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)453": { // Poppy Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)455": { // Spangle Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)302": { // Hops Starter
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"CornSeeds_Summer": { // Corn Seeds Summer
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"CornSeeds_Fall": { // Corn Seeds Fall
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"SunflowerSeeds_Summer": { // Sunflower Seeds Summer
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"SunflowerSeeds_Fall": { // Sunflower Seeds Fall
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)485": { // Red Cabbage Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)488": { // Eggplant Seeds
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)490": { // Pumpkin Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)491": { // Bok Choy Seeds
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)492": { // Yam Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)493": { // Cranberry Seeds
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)425": { // Fairy Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)299": { // Amaranth Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)301": { // Grape Starter
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)489": { // Artichoke Seeds
+					"AvailableStock": "100",
+					"AvailableStockLimit": "Player",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)629": { // Apricot Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)628": { // Cherry Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)630": { // Orange Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)631": { // Peach Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)633": { // Apple Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)632": { // Pomegranate Sapling
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				}
+			},
+			"When": {
+				"Limited Seed Supply": true
+			}
+		},
+		{ // JojaMart (Limited Item Supply)
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Joja",
+				"Items"
+			],
+			"Fields": {
+				"(O)167": { // Jola Cola
+					"AvailableStock": "10",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)297": { // Grass Starter
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)245": { // Sugar
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)246": { // Wheat Flour
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)423": { // Rice
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)247": { // Oil
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				},
+				"(O)419": { // Vinegar
+					"AvailableStock": "50",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5,
+								1.45,
+								1.4,
+								1.35,
+								1.3,
+								1.25,
+								1.2,
+								1.15,
+								1.1,
+								1.05,
+								1.0,
+								0.95,
+								0.9,
+								0.85,
+								0.8,
+								0.75,
+								0.7,
+								0.65,
+								0.6,
+								0.55,
+								0.5
+							]
+						}
+					]
+				}
 			},
 			"When": {
 				"Limited Item Supply": true

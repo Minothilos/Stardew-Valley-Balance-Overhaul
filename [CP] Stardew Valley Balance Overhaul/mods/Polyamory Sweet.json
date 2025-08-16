@@ -47,6 +47,58 @@
                 "Items"
             ],
             "Fields": {
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { // Aine Flower Seed
+                    "Price": "80",
+                    "IgnoreShopPriceModifiers": true
+                },
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": { // Aphrodite Flower Seed
+                    "Price": "60",
+                    "IgnoreShopPriceModifiers": true
+                }
+            },
+            "When": {
+                "Sell Prices": true,
+                "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
+            }
+        },
+        { // Lantana Love Shop (Limited Item Supply)
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "PolyamorySweet.LantanaLoveShop",
+                "Items"
+            ],
+            "Fields": {
+                "ApryllForever.CPPolyamorySweet_AineFlower": {
+                    "AvailableStock": "1",
+                    "AvailableStockLimit": "Player"
+                },
+                "ApryllForever.CPPolyamorySweet_AphroditeFlower": {
+                    "AvailableStock": "1",
+                    "AvailableStockLimit": "Player"
+                },
+                "ApryllForever.CPPolyamorySweet_LilithToken": {
+                    "AvailableStock": "1",
+                    "AvailableStockLimit": "Player"
+                },
+                "ApryllForever.CPPolyamorySweet_MermaidBouquet": {
+                    "AvailableStock": "1",
+                    "AvailableStockLimit": "Player"
+                }
+            },
+            "When": {
+                "Limited Item Supply": true,
+                "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
+            }
+        },
+        { // Lantana Love Shop (Limited Seed Supply)
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "PolyamorySweet.LantanaLoveShop",
+                "Items"
+            ],
+            "Fields": {
                 "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
                     "AvailableStock": "50",
                     "AvailableStockLimit": "Player",
@@ -117,7 +169,7 @@
                 "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
             }
         },
-        { // Shops
+        { // Pierre's General Store
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -138,7 +190,7 @@
                 "Sell Prices": true
             }
         },
-        { // Limit Seed Supply
+        { // Pierre's General Store (Limited Item Supply)
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -146,7 +198,60 @@
                 "Items"
             ],
             "Fields": {
-                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": { // Aine Flower Seed
+                "ApryllForever.CPPolyamorySweet_AineFlower": {
+                    "AvailableStock": "1",
+                    "AvailableStockLimit": "Player"
+                },
+                "ApryllForever.CPPolyamorySweet_AphroditeFlower": {
+                    "AvailableStock": "1",
+                    "AvailableStockLimit": "Player"
+                }
+            },
+            "When": {
+                "Limited Item Supply": true
+            }
+        },
+        { // Pierre's General Store (Limited Seed Supply)
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+            "Fields": {
+                "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+                    "AvailableStock": "50",
+                    "AvailableStockLimit": "Player",
+                    "AvailableStockModifiers": [
+                        {
+                            "Modification": "Multiply",
+                            "RandomAmount": [
+                                1.5,
+                                1.45,
+                                1.4,
+                                1.35,
+                                1.3,
+                                1.25,
+                                1.2,
+                                1.15,
+                                1.1,
+                                1.05,
+                                1.0,
+                                0.95,
+                                0.9,
+                                0.85,
+                                0.8,
+                                0.75,
+                                0.7,
+                                0.65,
+                                0.6,
+                                0.55,
+                                0.5
+                            ]
+                        }
+                    ]
+                },
+                "ApryllForever.CPPolyamorySweet_AphroditeFlowerSeeds": {
                     "AvailableStock": "50",
                     "AvailableStockLimit": "Player",
                     "AvailableStockModifiers": [
