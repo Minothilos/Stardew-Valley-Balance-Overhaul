@@ -4,57 +4,57 @@
 		"Community Center Bundles": {
 			"AllowValues": "Off, SVBO, SVBO/SVE, SVBO/RSV, SVBO/SVE/RSV",
 			"Default": "SVBO",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Machine Processing": {
 			"AllowValues": "Off, On, Large Animal Products Only",
 			"Default": "On",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Monster Strength": {
 			"AllowValues": "Off, Normal, Hard, Very Hard",
 			"Default": "Normal",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Sell Prices": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Food Buffs": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Buildings": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Museum Rewards": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Monster Eradication Goals": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Cask Aging": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Seed Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance Changes"
+			"Section": "Balance"
 		},
 		"Machines": {
 			"AllowValues": "Off, Normal, Hard, Very Hard",
@@ -126,6 +126,11 @@
 			"Default": "true",
 			"Section": "Shops"
 		},
+		"Split Large Animal Products": {
+			"AllowValues": "Off, Hand Crafting, Recycling Machine",
+			"Default": "Hand Crafting",
+			"Section": "Quality of Life"
+		},
 		"Merchants Buy More Items": {
 			"AllowValues": "false, true",
 			"Default": "true",
@@ -145,11 +150,6 @@
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Quality of Life"
-		},
-		"Split Large Animal Products": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Quality of Life Changes"
 		},
 		"Remove Seeds from Shops": {
 			"AllowValues": "false, true",

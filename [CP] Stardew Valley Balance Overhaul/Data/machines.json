@@ -1858,6 +1858,195 @@
 			"When": {
 				"Seed Maker Output": true
 			}
+		},
+		{ // Recycling Machine - Brown Eggs
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)20",
+				"OutputRules"
+			],
+			"Entries": {
+				"SVBO_BrownEggSplit": {
+					"Id": "SVBO_BrownEggSplit",
+					"Triggers": [
+						{
+							"Id": "ItemPlacedInMachine",
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)182",
+							"RequiredTags": null,
+							"RequiredCount": 1,
+							"Condition": null
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"CustomData": null,
+							"OutputMethod": null,
+							"CopyColor": false,
+							"CopyPrice": false,
+							"CopyQuality": false,
+							"PreserveType": null,
+							"PreserveId": null,
+							"IncrementMachineParentSheetIndex": 0,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"Condition": null,
+							"Id": "(O)180",
+							"ItemId": "(O)180",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					],
+					"MinutesUntilReady": 20,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+			},
+			"When": {
+				"Split Large Animal Products": "Recycling Machine"
+			}
+		},
+		{ // Recycling Machine - White Eggs
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)20",
+				"OutputRules"
+			],
+			"Entries": {
+				"SVBO_WhiteEggSplit": {
+					"Id": "SVBO_WhiteEggSplit",
+					"Triggers": [
+						{
+							"Id": "ItemPlacedInMachine",
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)174",
+							"RequiredTags": null,
+							"RequiredCount": 1,
+							"Condition": null
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"CustomData": null,
+							"OutputMethod": null,
+							"CopyColor": false,
+							"CopyPrice": false,
+							"CopyQuality": false,
+							"PreserveType": null,
+							"PreserveId": null,
+							"IncrementMachineParentSheetIndex": 0,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"Condition": null,
+							"Id": "(O)176",
+							"ItemId": "(O)176",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					],
+					"MinutesUntilReady": 20,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+			},
+			"When": {
+				"Split Large Animal Products": "Recycling Machine"
+			}
+		},
+		{ // Recycling Machine - Milk
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)20",
+				"OutputRules"
+			],
+			"Entries": {
+				"SVBO_MilkSplit": {
+					"Id": "SVBO_MilkSplit",
+					"Triggers": [
+						{
+							"Id": "ItemPlacedInMachine",
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "(O)186",
+							"RequiredTags": null,
+							"RequiredCount": 1,
+							"Condition": null
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"CustomData": null,
+							"OutputMethod": null,
+							"CopyColor": false,
+							"CopyPrice": false,
+							"CopyQuality": false,
+							"PreserveType": null,
+							"PreserveId": null,
+							"IncrementMachineParentSheetIndex": 0,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"Condition": null,
+							"Id": "(O)184",
+							"ItemId": "(O)184",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					],
+					"MinutesUntilReady": 20,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+			},
+			"When": {
+				"Split Large Animal Products": "Recycling Machine"
+			}
 		}
 	]
 }
