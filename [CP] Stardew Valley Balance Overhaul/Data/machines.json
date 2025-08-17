@@ -165,7 +165,29 @@
 				"Sell Prices": true
 			}
 		},
-		{ // Keg Processing Time (Flavored Meads)
+		{ // Honey Reduced Multiplier (100 + 1.5x)
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)10",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Modification": "Multiply",
+						"Amount": 0.60
+					}
+				]
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{ // Vanilla Mead Processing Time
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -174,7 +196,24 @@
 				"Default_Honey"
 			],
 			"Entries": {
-				"MinutesUntilReady": "6000"
+				"MinutesUntilReady": "10000"
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=selph.FlavoredMead": false,
+				"HasMod|contains=BetterHoneyMeadCP": false
+			}
+		},
+		{ // Flavored Mead Processing Time
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"Default_Honey"
+			],
+			"Entries": {
+				"MinutesUntilReady": "5000"
 			},
 			"When": {
 				"Sell Prices": true,
@@ -207,28 +246,6 @@
 			"When": {
 				"Sell Prices": true,
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
-			}
-		},
-		{ // Honey Reduced Multiplier (100 + 1.5x)
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)10",
-				"OutputRules",
-				"Default",
-				"OutputItem",
-				"#0"
-			],
-			"Entries": {
-				"PriceModifiers": [
-					{
-						"Modification": "Multiply",
-						"Amount": 0.60
-					}
-				]
-			},
-			"When": {
-				"Sell Prices": true
 			}
 		},
 		{ // Cask - Cheese

@@ -784,9 +784,6 @@
 				"340": { // Honey
 					"Price": "250" //Proccesses to 150g
 				},
-				"459": { // Mead
-					"Price": "300"
-				},
 				"724": { // Maple Syrup
 					"Price": "200"
 				},
@@ -1336,6 +1333,33 @@
 			},
 			"When": {
 				"Sell Prices": true
+			}
+		},
+		{ // Vanilla Mead
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"459": { // Mead
+					"Price": "450"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=selph.FlavoredMead": false,
+				"HasMod|contains=BetterHoneyMeadCP": false
+			}
+		},
+		{ // Flavor Mead
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"459": { // Mead
+					"Price": "300"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
 		{ // Vanilla Pigs
