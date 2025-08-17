@@ -1412,12 +1412,12 @@
 				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
 			}
 		},
-		{ // Golden Animal Cracker Description Fix
+		{ // Golden Animal Cracker Description
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
 				"GoldenAnimalCracker": { // Golden Animal Cracker
-					"Description": "Give this to a farm animal to permanently double its produce yield."
+					"Description": "{{i18n:GoldenAnimalCracker}}"
 				}
 			},
 			"When": {

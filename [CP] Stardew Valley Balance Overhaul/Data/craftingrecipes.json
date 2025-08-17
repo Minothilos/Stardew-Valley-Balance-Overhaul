@@ -632,6 +632,16 @@
 				"SVBO_MilkSplit": "186 1//184 2/false/Farming 4"
 			},
 			"When": {
+				"Split Large Animal Products": "Hand Crafting, Hand Crafting (No Goat Milk)"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"SVBO_GoatMilkSplit": "438 1//436 2/false/Farming 4"
+			},
+			"When": {
 				"Split Large Animal Products": "Hand Crafting"
 			}
 		}
