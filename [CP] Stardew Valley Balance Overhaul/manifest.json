@@ -114,6 +114,10 @@
 		{
 			"UniqueID": "selph.FlavoredMead",
 			"IsRequired": false
+		},
+		{
+			"UniqueID": "MindMeltMax.WinterPigs",
+			"IsRequired": false
 		}
 	]
 }

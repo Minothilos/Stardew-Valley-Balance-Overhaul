@@ -190,9 +190,6 @@
 				"436": { // Goat Milk
 					"Price": "150"
 				},
-				"430": { // Truffle
-					"Price": "220"
-				},
 				"289": { // Ostrich Egg
 					"Price": "1000"
 				},
@@ -234,9 +231,6 @@
 				},
 				"426": { // Goat Cheese
 					"Price": "300"
-				},
-				"432": { // Truffle Oil
-					"Price": "440"
 				},
 				"634": { // Apricot
 					"Price": "100"
@@ -1344,6 +1338,56 @@
 				"Sell Prices": true
 			}
 		},
+		{ // Vanilla Pigs
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "270"
+				},
+				"432": { // Truffle Oil
+					"Price": "540"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=MindMeltMax.WinterPigs": false
+			}
+		},
+		{ // Better Pigs (Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "160"
+				},
+				"432": { // Truffle Oil
+					"Price": "320"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=MindMeltMax.WinterPigs": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
+			}
+		},
+		{ // Better Pigs (No Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "80"
+				},
+				"432": { // Truffle Oil
+					"Price": "160"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=MindMeltMax.WinterPigs": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
+			}
+		},
 		{ // Offset Tapper Aging (Walk of Life)
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1423,7 +1467,7 @@
 					"Price": "265"
 				},
 				"440": { // Wool
-					"Price": "470"
+					"Price": "480"
 				},
 				"107": { // Dinosaur Egg
 					"Price": "900"
@@ -1436,9 +1480,6 @@
 				},
 				"436": { // Goat Milk
 					"Price": "160"
-				},
-				"430": { // Truffle
-					"Price": "230"
 				},
 				"289": { // Ostrich Egg
 					"Price": "1100"
@@ -1468,10 +1509,10 @@
 					"Price": "280"
 				},
 				"307": { // Duck Mayonnaise
-					"Price": "540"
+					"Price": "530"
 				},
 				"428": { // Cloth
-					"Price": "950"
+					"Price": "960"
 				},
 				"807": { // Dinosaur Mayonnaise
 					"Price": "1800"
@@ -1481,15 +1522,68 @@
 				},
 				"426": { // Goat Cheese
 					"Price": "320"
-				},
-				"432": { // Truffle Oil
-					"Price": "460"
 				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{ // Vanilla Pigs - Morgan Event (SVE)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "280"
+				},
+				"432": { // Truffle Oil
+					"Price": "560"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=MindMeltMax.WinterPigs": false
+			}
+		},
+		{ // Better Pigs - Morgan Event (SVE, Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "170"
+				},
+				"432": { // Truffle Oil
+					"Price": "340"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=MindMeltMax.WinterPigs": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
+			}
+		},
+		{ // Better Pigs - Morgan Event (SVE, No Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "85"
+				},
+				"432": { // Truffle Oil
+					"Price": "170"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=MindMeltMax.WinterPigs": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
 			}
 		},
 		{ // Susan Special Order (SVE)
