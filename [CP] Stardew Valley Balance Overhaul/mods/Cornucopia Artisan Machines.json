@@ -4786,7 +4786,7 @@
 				"#0"
 			],
 			"Entries": {
-				"RequiredItemId": null, // Large Milk
+				"RequiredItemId": "!goat_milk_item", // Large Goat Milk
 				"RequiredTags": [
 					"large_milk_item"
 				]

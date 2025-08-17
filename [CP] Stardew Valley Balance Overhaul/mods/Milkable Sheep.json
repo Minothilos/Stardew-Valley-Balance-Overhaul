@@ -24,6 +24,20 @@
 				"Sell Prices": true
 			}
 		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [
+				"radm.milkdasheep_LargeSheepMilk",
+				"ContextTags"
+			], // Large Sheep Milk is large milk item 
+			"Entries": {
+				"#-1": "large_milk_item"
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
 		{
 			"Logname": "Modify sheep produce!!",
 			"Action": "EditData",
