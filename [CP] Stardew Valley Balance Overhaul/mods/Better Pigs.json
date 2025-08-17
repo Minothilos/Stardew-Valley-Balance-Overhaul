@@ -1,0 +1,84 @@
+{
+	"Changes": [
+		{ // Better Pigs (Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "160"
+				},
+				"432": { // Truffle Oil
+					"Price": "320"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
+			}
+		},
+		{ // Better Pigs (No Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "80"
+				},
+				"432": { // Truffle Oil
+					"Price": "160"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
+			}
+		},
+		{ // Golden Animal Cracker Description
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"GoldenAnimalCracker": { // Golden Animal Cracker
+					"Description": "{{i18n:GoldenAnimalCracker}}"
+				}
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{ // Better Pigs - Morgan Event (SVE, Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "170"
+				},
+				"432": { // Truffle Oil
+					"Price": "340"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
+			}
+		},
+		{ // Better Pigs - Morgan Event (SVE, No Truffle Limit)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"430": { // Truffle
+					"Price": "85"
+				},
+				"432": { // Truffle Oil
+					"Price": "170"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
+			}
+		}
+	]
+}

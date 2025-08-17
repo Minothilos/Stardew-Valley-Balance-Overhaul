@@ -337,6 +337,13 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "mods/Better Pigs.json",
+			"When": {
+				"HasMod": "MindMeltMax.WinterPigs"
+			}
+		},
+		{
+			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
 				"Minothilos Tweaks": true

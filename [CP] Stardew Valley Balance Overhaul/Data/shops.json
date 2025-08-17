@@ -1101,7 +1101,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{ // Krobus Shop
+		{ // Krobus Shop (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1126,7 +1126,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{ // Casino
+		{ // Casino (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1151,7 +1151,7 @@
 				"Limited Item Supply": true
 			}
 		},
-		{ // Ice Cream Stand
+		{ // Ice Cream Stand (Limited Item Supply)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [

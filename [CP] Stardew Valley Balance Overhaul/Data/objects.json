@@ -223,6 +223,12 @@
 				"428": { // Cloth
 					"Price": "920"
 				},
+				"430": { // Truffle
+					"Price": "270"
+				},
+				"432": { // Truffle Oil
+					"Price": "540"
+				},
 				"807": { // Dinosaur Mayonnaise
 					"Price": "1750"
 				},
@@ -1362,69 +1368,6 @@
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
-		{ // Vanilla Pigs
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"430": { // Truffle
-					"Price": "270"
-				},
-				"432": { // Truffle Oil
-					"Price": "540"
-				}
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=MindMeltMax.WinterPigs": false
-			}
-		},
-		{ // Better Pigs (Truffle Limit)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"430": { // Truffle
-					"Price": "160"
-				},
-				"432": { // Truffle Oil
-					"Price": "320"
-				}
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=MindMeltMax.WinterPigs": true,
-				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
-			}
-		},
-		{ // Better Pigs (No Truffle Limit)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"430": { // Truffle
-					"Price": "80"
-				},
-				"432": { // Truffle Oil
-					"Price": "160"
-				}
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=MindMeltMax.WinterPigs": true,
-				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
-			}
-		},
-		{ // Golden Animal Cracker Description
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"GoldenAnimalCracker": { // Golden Animal Cracker
-					"Description": "{{i18n:GoldenAnimalCracker}}"
-				}
-			},
-			"When": {
-				"Sell Prices": true,
-				"HasMod|contains=MindMeltMax.WinterPigs": true
-			}
-		},
 		{ // Offset Tapper Aging (Walk of Life)
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1551,6 +1494,12 @@
 				"428": { // Cloth
 					"Price": "960"
 				},
+				"430": { // Truffle
+					"Price": "280"
+				},
+				"432": { // Truffle Oil
+					"Price": "560"
+				},
 				"807": { // Dinosaur Mayonnaise
 					"Price": "1800"
 				},
@@ -1565,62 +1514,6 @@
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{ // Vanilla Pigs - Morgan Event (SVE)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"430": { // Truffle
-					"Price": "280"
-				},
-				"432": { // Truffle Oil
-					"Price": "560"
-				}
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasMod|contains=MindMeltMax.WinterPigs": false
-			}
-		},
-		{ // Better Pigs - Morgan Event (SVE, Truffle Limit)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"430": { // Truffle
-					"Price": "170"
-				},
-				"432": { // Truffle Oil
-					"Price": "340"
-				}
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasMod|contains=MindMeltMax.WinterPigs": true,
-				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
-			}
-		},
-		{ // Better Pigs - Morgan Event (SVE, No Truffle Limit)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"430": { // Truffle
-					"Price": "85"
-				},
-				"432": { // Truffle Oil
-					"Price": "170"
-				}
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasMod|contains=MindMeltMax.WinterPigs": true,
-				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
 			}
 		},
 		{ // Susan Special Order (SVE)
