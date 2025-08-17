@@ -1411,6 +1411,13 @@
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
 						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
+						{
 							"Modification": "Multiply",
 							"RandomAmount": [
 								1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5
@@ -1448,6 +1455,13 @@
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
 						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
+						{
 							"Modification": "Multiply",
 							"RandomAmount": [
 								1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5
@@ -1464,6 +1478,13 @@
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
+						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -1482,6 +1503,13 @@
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
 						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
+						{
 							"Modification": "Multiply",
 							"RandomAmount": [
 								1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5
@@ -1499,6 +1527,13 @@
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
 						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
+						{
 							"Modification": "Multiply",
 							"RandomAmount": [
 								1.5,1.45,1.4,1.35,1.3,1.25,1.2,1.15,1.1,1.05,1.0,0.95,0.9,0.85,0.8,0.75,0.7,0.65,0.6,0.55,0.5
@@ -1515,6 +1550,13 @@
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
+						{
+							"Condition": "IS_COMMUNITY_CENTER_COMPLETE",
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2.0
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -1570,7 +1612,6 @@
 				"Cornucopia.MoreFlowers_CropSeedsSummerRare": null,
 				"Cornucopia.MoreFlowers_CropSeedsFallRare": null,
 				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null
-				// "Cornucopia.MoreFlowers_FruitTreeSaplings": null
 			},
 			"When": {
 				"Limited Seed Supply": true
@@ -2201,26 +2242,6 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Sell Prices": true,
-				"Limited Seed Supply": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Joja",
-				"Items"
-			],
-			"Entries": {
-				"minothilos.MoreFlowers_BushSeeds": {
-					"Id": "minothilos.MoreFlowers_BushSeeds",
-					"ItemId": "ALL_ITEMS (O)",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
-					"AvailableStock": 10,
-					"IgnoreShopPriceModifiers": true
-				}
-			},
-			"When": {
 				"Limited Seed Supply": true
 			}
 		},
