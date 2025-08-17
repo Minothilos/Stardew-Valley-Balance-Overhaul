@@ -782,7 +782,7 @@
 					"Price": "75"
 				},
 				"340": { // Honey
-					"Price": "150"
+					"Price": "250" //Proccesses to 150g
 				},
 				"459": { // Mead
 					"Price": "300"
