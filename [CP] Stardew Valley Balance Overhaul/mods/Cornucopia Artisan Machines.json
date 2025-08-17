@@ -1072,7 +1072,7 @@
 			], // Cask - Stinky Tofu
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "1.75"
+					"AgingMultiplier": "2"
 				}
 			},
 			"When": {
