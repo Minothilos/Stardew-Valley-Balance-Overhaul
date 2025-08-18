@@ -40,7 +40,7 @@
 				} // Ostrich Mayonnaise
 			},
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP, 6480.blueegg",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true
 			}
