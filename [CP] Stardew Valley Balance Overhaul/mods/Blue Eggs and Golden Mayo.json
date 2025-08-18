@@ -9,16 +9,37 @@
 				}, // Blue Egg
 				"6480.blueegg_BlueMayo": {
 					"Price": "260"
-				}, // Blue Mayonnaise
+				} // Blue Mayonnaise
+			},
+			"When": {
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Blue Mayo": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
 				"6480.blueegg_GoldenMayo": {
 					"Price": "500"
-				}, // Golden Mayonnaise
+				} // Golden Mayonnaise
+			},
+			"When": {
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Golden Mayo": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
 				"6480.blueegg_OstrichMayo": {
 					"Price": "2000"
 				} // Ostrich Mayo
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Ostrich Mayo": true
 			}
 		},
 		// Morgan Event (SVE)
@@ -31,123 +52,46 @@
 				}, // Blue Egg
 				"6480.blueegg_BlueMayo": {
 					"Price": "280"
-				}, // Blue Mayonnaise
+				} // Blue Mayonnaise
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Blue Mayo": true
+			}
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
 				"6480.blueegg_GoldenMayo": {
 					"Price": "600"
-				}, // Golden Mayonnaise
+				} // Golden Mayonnaise
+			},
+			"When": {
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
+				"HasSeenEvent: anyPlayer| contains=5978939": true,
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Golden Mayo": true
+			}
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
 				"6480.blueegg_OstrichMayo": {
 					"Price": "2200"
 				} // Ostrich Mayonnaise
 			},
 			"When": {
-				"HasMod": "FlashShifter.StardewValleyExpandedCP, 6480.blueegg",
+				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true
+				"Sell Prices": true,
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Ostrich Mayo": true
 			}
 		},
 		// Machine Processing
-		// On with WoL
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_OstrichEgg",
-				"OutputItem",
-				"#0"
-			], // Mayonnaise Machine - Ostrich Egg
-			"Entries": {
-				"Quality": "0",
-				"CopyQuality": "false",
-				"StackModifiers": [
-					{
-						"Id": "QualityScale",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_BlueEgg",
-				"OutputItem",
-				"#0"
-			], // Mayonnaise Machine - Blue Eggs
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "QualityScale",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)24",
-				"OutputRules",
-				"6480.blueegg_GoldenEgg",
-				"OutputItem",
-				"#0"
-			], // Mayonnaise Machine - Golden Eggs
-			"Entries": {
-				"Quality": "0",
-				"StackModifiers": [
-					{
-						"Id": "QualityScale",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					},
-					{
-						"Id": "CritChance",
-						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
-						"Modification": "Add",
-						"Amount": "1",
-						"RandomAmount": null
-					}
-				]
-			},
-			"When": {
-				"Machine Processing": "On"
-			}
-		},
-		// On without WoL
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -180,7 +124,7 @@
 			},
 			"When": {
 				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Ostrich Mayo": true
 			}
 		},
 		{
@@ -214,7 +158,7 @@
 			},
 			"When": {
 				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Blue Mayo": true
 			}
 		},
 		{
@@ -248,7 +192,7 @@
 			},
 			"When": {
 				"Machine Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
+				"Spiderbuttons.CMCT/Config: 6480.blueegg, Golden Mayo": true
 			}
 		}
 	]
