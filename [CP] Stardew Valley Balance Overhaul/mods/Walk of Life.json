@@ -28,7 +28,7 @@
 			},
 			"When": {
 				"Sell Prices": true,
-				"HasMod|contains=6480.blueegg": false
+				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
 		},
 		{ // Morgan Event (SVE)
@@ -46,7 +46,7 @@
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"Sell Prices": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasMod|contains=DaLion.Professions": true
+				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
 		},
 		{ // Price Adjust (Cornucopia)
@@ -63,7 +63,7 @@
 			}
 		},
 		// Artisan Goods Gain Quantity
-		{ // Mayonnaise Machine - Ostrich Mayo (Blue Egg)
+		{ // Mayonnaise Machine - Ostrich Mayo
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -93,11 +93,11 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On" /*,
-				"HasMod|contains=6480.blueegg": false*/
+				"Machine Processing": "On",
+				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
 		},
-		{ // Mayonnaise Machine - Golden Mayo (Blue Egg)
+		{ // Mayonnaise Machine - Golden Mayo
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -127,8 +127,8 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On" /*,
-				"HasMod|contains=6480.blueegg": false*/
+				"Machine Processing": "On",
+				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
 		}
 	]

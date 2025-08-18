@@ -382,12 +382,6 @@
 				},
 				"Cornucopia_YogurtJar": {
 					"0": "390 30 338 2 335 1"
-				},
-				"Cornucopia_VinegarKeg": {
-					"0": "335 1 725 1 388 20"
-				},
-				"Cornucopia_Juicer": {
-					"0": "335 2 390 20 724 1"
 				}
 			},
 			"When": {
@@ -398,16 +392,55 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
+				"Cornucopia_VinegarKeg": {
+					"0": "335 1 725 1 388 20"
+				}
+			},
+			"When": {	//Vinegar Keg Enabled
+				"Machines": "Normal",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"Cornucopia_Juicer": {
+					"0": "335 2 390 20 724 1"
+				}
+			},
+			"When": {	//Juicer Enabled
+				"Machines": "Normal",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Juicer": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
 				"Cornucopia_WaxBarrel": {
 					"0": "709 5 771 20 FlashShifter.StardewValleyExpandedCP_Fir_Wax 1 Cornucopia_Beeswax 5"
-				},
-				"Cornucopia_VinegarKeg": {
-					"0": "335 1 FlashShifter.StardewValleyExpandedCP_Birch_Water 1 388 20"
 				}
 			},
 			"When": {
 				"Machines": "Normal",
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Craft with Modded Items": true
+			}
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"Cornucopia_VinegarKeg": {
+					"0": "335 1 FlashShifter.StardewValleyExpandedCP_Birch_Water 1 388 20"
+				}
+			},
+			"When": {	//Vinegar Keg Enabled
+				"Machines": "Normal",
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true,
+				"Craft with Modded Items": true
 			}
 		},
 		{
@@ -440,16 +473,36 @@
 				},
 				"Cornucopia_YogurtJar": {
 					"0": "390 40 338 3 335 2"
-				},
-				"Cornucopia_VinegarKeg": {
-					"0": "335 2 725 1 388 30"
-				},
-				"Cornucopia_Juicer": {
-					"0": "335 3 390 30 724 2"
 				}
 			},
 			"When": {
 				"Machines": "Hard"
+			}
+		},
+				{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"Cornucopia_VinegarKeg": {
+					"0": "335 2 725 1 388 30"
+				}
+			},
+			"When": {	//Vinegar Keg Enabled
+				"Machines": "Hard",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"Cornucopia_Juicer": {
+					"0": "335 3 390 30 724 2"
+				}
+			},
+			"When": {	//Juicer Enabled
+				"Machines": "Hard",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Juicer": true
 			}
 		},
 		{
@@ -458,14 +511,27 @@
 			"Fields": {
 				"Cornucopia_WaxBarrel": {
 					"0": "709 10 771 25 FlashShifter.StardewValleyExpandedCP_Fir_Wax 2 Cornucopia_Beeswax 5"
-				},
-				"Cornucopia_VinegarKeg": {
-					"0": "335 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 1 388 30"
 				}
 			},
 			"When": {
 				"Machines": "Hard",
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Craft with Modded Items": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"Cornucopia_VinegarKeg": {
+					"0": "335 2 FlashShifter.StardewValleyExpandedCP_Birch_Water 1 388 30"
+				}
+			},
+			"When": {	//Vinegar Keg Enabled
+				"Machines": "Hard",
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true,
+				"Craft with Modded Items": true
 			}
 		},
 		{
@@ -498,12 +564,6 @@
 				},
 				"Cornucopia_YogurtJar": {
 					"0": "390 50 338 4 335 3"
-				},
-				"Cornucopia_VinegarKeg": {
-					"0": "335 3 725 2 388 40"
-				},
-				"Cornucopia_Juicer": {
-					"0": "335 4 390 40 724 3"
 				}
 			},
 			"When": {
@@ -514,16 +574,55 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
+				"Cornucopia_VinegarKeg": {
+					"0": "335 3 725 2 388 40"
+				}
+			},
+			"When": {	//Vinegar Keg Enabled
+				"Machines": "Very Hard",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"Cornucopia_Juicer": {
+					"0": "335 4 390 40 724 3"
+				}
+			},
+			"When": {	//Juicer Enabled
+				"Machines": "Very Hard",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Juicer": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
 				"Cornucopia_WaxBarrel": {
 					"0": "709 15 771 30 FlashShifter.StardewValleyExpandedCP_Fir_Wax 3 Cornucopia_Beeswax 5"
-				},
-				"Cornucopia_VinegarKeg": {
-					"0": "335 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2 388 40"
 				}
 			},
 			"When": {
 				"Machines": "Very Hard",
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Craft with Modded Items": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"Cornucopia_VinegarKeg": {
+					"0": "335 3 FlashShifter.StardewValleyExpandedCP_Birch_Water 2 388 40"
+				}
+			},
+			"When": {	//Vinegar Keg Enabled
+				"Machines": "Very Hard",
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true,
+				"Craft with Modded Items": true
 			}
 		},
 		// -----------------------------------------------------------------------------------------
@@ -2991,7 +3090,8 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Machine Processing": "On",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Juicer": true
 			}
 		},
 		{
@@ -4409,8 +4509,9 @@
 					}
 				]
 			},
-			"When": {
-				"Machine Processing": "On"
+			"When": {	//Vinegar Keg Enabled
+				"Machine Processing": "On",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true
 			}
 		},
 		{
@@ -4442,8 +4543,9 @@
 					}
 				]
 			},
-			"When": {
-				"Machine Processing": "On"
+			"When": {	//Vinegar Keg Enabled
+				"Machine Processing": "On",
+				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true
 			}
 		},
 		{
