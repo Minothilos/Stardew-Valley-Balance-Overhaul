@@ -1440,42 +1440,6 @@
 				"Machine Processing|contains=Off": "false"
 			}
 		},
-		// Deluxe Smoker - Smoked Egg Copy Quality
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_DeluxeSmoker",
-				"OutputRules",
-				"Cornucopia_SmokedEggChickenSmall",
-				"OutputItem",
-				"#0"
-			],
-			"Entries": {
-				"CopyQuality": true
-			},
-			"When": {
-				"Machine Processing|contains=Off": "false"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_DeluxeSmoker",
-				"OutputRules",
-				"Cornucopia_SmokedEggChickenLarge",
-				"OutputItem",
-				"#0"
-			],
-			"Entries": {
-				"MaxStack": "2",
-				"CopyQuality": true
-			},
-			"When": {
-				"Machine Processing|contains=Off": "false"
-			}
-		},
 		// Artisan Goods Gain Quantity
 		{
 			"Action": "EditData",
@@ -4982,21 +4946,6 @@
 			"Entries": {
 				"Cornucopia_PickledEggsGold": null,
 				"Cornucopia_PickledEggsOstrich": null
-			},
-			"When": {
-				"Machine Processing|contains=Off": "false"
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)Cornucopia_DeluxeSmoker",
-				"OutputRules"
-			], // Deluxe Smoker - Remove Smoked Gold and Ostrich
-			"Entries": {
-				"Cornucopia_SmokedEggOstrich": null,
-				"Cornucopia_SmokedEggsOstrich": null
 			},
 			"When": {
 				"Machine Processing|contains=Off": "false"
