@@ -59,7 +59,8 @@
 			},
 			"When": {
 				"Sell Prices": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
 		},
 		// Artisan Goods Gain Quantity
