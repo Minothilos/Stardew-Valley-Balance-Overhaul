@@ -2233,7 +2233,7 @@
 			},
 			"When": {
 				"Limited Seed Supply": true,
-				"HasMod": "FlashShifter.StardewValleyExpandedCP"
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
 		{ // JojaMart (Limited Seed Supply)

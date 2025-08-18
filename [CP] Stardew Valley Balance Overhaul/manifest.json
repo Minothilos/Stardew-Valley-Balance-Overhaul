@@ -118,6 +118,10 @@
 		{
 			"UniqueID": "MindMeltMax.WinterPigs",
 			"IsRequired": false
+		},
+		{
+			"UniqueID": "Lumisteria.GlimmeringClumpsNodes",
+			"IsRequired": false
 		}
 	]
 }

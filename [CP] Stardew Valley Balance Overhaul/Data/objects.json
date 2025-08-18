@@ -1341,6 +1341,37 @@
 				"Sell Prices": true
 			}
 		},
+		{ // Gems (Lumisteria Glimmering Clumps and Nodes)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"72": { // Diamond
+					"Price": "250"
+				},
+				"70": { // Jade
+					"Price": "100"
+				},
+				"68": { // Topaz
+					"Price": "75"
+				},
+				"66": { // Amethyst
+					"Price": "75"
+				},
+				"64": { // Ruby
+					"Price": "125"
+				},
+				"62": { // Aquamarine
+					"Price": "100"
+				},
+				"60": { // Emerald
+					"Price": "125"
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
+			}
+		},
 		{ // Vanilla Mead
 			"Action": "EditData",
 			"Target": "Data/Objects",

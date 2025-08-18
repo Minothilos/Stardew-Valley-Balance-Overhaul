@@ -165,6 +165,112 @@
 				"Sell Prices": true
 			}
 		},
+		{ // Crystalarium (Lumisteria Glimmering Clumps and Nodes)
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21", // Emerald
+				"ReadyTimeModifiers",
+				"Emerald"
+			],
+			"Entries": {
+				"Amount": "1250"
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21", // Topaz
+				"ReadyTimeModifiers",
+				"Topaz"
+			],
+			"Entries": {
+				"Amount": "750"
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21", // Jade
+				"ReadyTimeModifiers",
+				"Jade"
+			],
+			"Entries": {
+				"Amount": "1000"
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21", // Ruby
+				"ReadyTimeModifiers",
+				"Ruby"
+			],
+			"Entries": {
+				"Amount": "1250"
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21", // Aquamarine
+				"ReadyTimeModifiers",
+				"Aquamarine"
+			],
+			"Entries": {
+				"Amount": "1000"
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21", // Amethyst
+				"ReadyTimeModifiers",
+				"Amethyst"
+			],
+			"Entries": {
+				"Amount": "750"
+			},
+			"When": {
+				"Sell Prices": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)21", // Diamond
+				"ReadyTimeModifiers",
+				"Diamond"
+			],
+			"Entries": {
+				"Amount": "2500"
+			},
+			"When": {
+				"Sell Prices": true,
+				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
+			}
+		},
 		{ // Honey Reduced Multiplier (100 + 1.5x)
 			"Action": "EditData",
 			"Target": "Data/Machines",
