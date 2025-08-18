@@ -24,7 +24,7 @@
 				"Sell Prices": true
 			}
 		},
-				{
+		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
