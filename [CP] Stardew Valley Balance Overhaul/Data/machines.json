@@ -271,7 +271,7 @@
 				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
 			}
 		},
-		{ // Honey Reduced Multiplier (100 + 1.5x)
+		{ // Honey Reduced Multiplier (x0.6)
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -352,6 +352,38 @@
 			"When": {
 				"Sell Prices": true,
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
+			}
+		},
+		{ // Cask - Honey (added)
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)163",
+				"OutputRules"
+			],
+			"Entries": {
+				"minothilos_AgedHoney": {
+					"Id": "minothilos_AgedHoney",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)340"
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
+								"CustomData": {
+									"AgingMultiplier": "1.6"
+								}
+							}
+						]
+				}
+			},
+			"When": {
+				"Sell Prices": true,
+				"Cask Aging": true
 			}
 		},
 		{ // Cask - Cheese
@@ -446,7 +478,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "1.4"
+					"AgingMultiplier": "1.3333"
 				}
 			},
 			"When": {
