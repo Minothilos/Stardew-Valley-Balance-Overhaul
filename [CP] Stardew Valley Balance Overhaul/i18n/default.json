@@ -21,7 +21,7 @@
 	"config.Shops.description": "Changes shop prices and inventories. Keep this enabled if you use Limited Item/Seed Supply.",
 	"config.Bait Maker Output.description": "Changes Bait Maker output based on ingredient quality.",
 	"config.Seed Maker Output.description": "Changes Seed Maker output based on ingredient quality.",
-	"config.Cask Aging.description": "Changes the duration of aging to be more balanced.",
+	"config.Cask Aging.description": "Changes the duration of aging to be more balanced and allows some additional items to be aged in casks.",
 	"config.Limited Item Supply.description": "Changes daily purchase amount of some items sold by shops.",
 	"config.Limited Seed Supply.description": "Changes daily purchase amount of some seeds sold by shops.",
 	"config.Machine Processing.description": "Changes artisan goods to have a chance to increase in quantity based on ingredient quality.",
