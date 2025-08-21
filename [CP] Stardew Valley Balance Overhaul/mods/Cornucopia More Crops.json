@@ -3871,7 +3871,8 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Supply": true,
+				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
 		{
