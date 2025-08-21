@@ -5,53 +5,53 @@
             "Target": "Data/FarmAnimals",
             "Fields": {
                 "White Chicken": {
+                    "PurchasePrice": "750",
+                    "SellPrice": "1500"
+                },
+                "Brown Chicken": {
+                    "SellPrice": "750"
+                },
+                "Blue Chicken": {
+                    "SellPrice": "1500"
+                },
+                "Void Chicken": {
+                    "SellPrice": "1500"
+                },
+                "Golden Chicken": {
+                    "SellPrice": "8000"
+                },
+                "Duck": {
+                    "PurchasePrice": "1000",
+                    "SellPrice": "2000"
+                },
+                "Rabbit": {
+                    "PurchasePrice": "2500",
+                    "SellPrice": "5000"
+                },
+                "Dinosaur": {
+                    "SellPrice": "7000"
+                },
+                "White Cow": {
+                    "PurchasePrice": "1000",
+                    "SellPrice": "2000"
+                },
+                "Brown Cow": {
+                    "SellPrice": "2000"
+                },
+                "Goat": {
                     "PurchasePrice": "1500",
                     "SellPrice": "3000"
                 },
-                "Brown Chicken": {
-                    "SellPrice": "3000"
-                },
-                "Blue Chicken": {
-                    "SellPrice": "3000"
-                },
-                "Void Chicken": {
-                    "SellPrice": "3000"
-                },
-                "Golden Chicken": {
-                    "SellPrice": "16000"
-                },
-                "Duck": {
-                    "PurchasePrice": "2000",
-                    "SellPrice": "4000"
-                },
-                "Rabbit": {
-                    "PurchasePrice": "5000",
-                    "SellPrice": "10000"
-                },
-                "Dinosaur": {
-                    "SellPrice": "14000"
-                },
-                "White Cow": {
-                    "PurchasePrice": "2000",
-                    "SellPrice": "4000"
-                },
-                "Brown Cow": {
-                    "SellPrice": "4000"
-                },
-                "Goat": {
-                    "PurchasePrice": "3000",
-                    "SellPrice": "6000"
-                },
                 "Sheep": {
-                    "PurchasePrice": "5000",
-                    "SellPrice": "10000"
+                    "PurchasePrice": "2500",
+                    "SellPrice": "5000"
                 },
                 "Pig": {
-                    "PurchasePrice": "7000",
-                    "SellPrice": "14000"
+                    "PurchasePrice": "3500",
+                    "SellPrice": "7000"
                 },
                 "Ostrich": {
-                    "SellPrice": "14000"
+                    "SellPrice": "7000"
                 }
             },
             "When": {
