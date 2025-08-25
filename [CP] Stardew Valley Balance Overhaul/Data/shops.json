@@ -2691,7 +2691,8 @@
 				"theoddon.AutoPetter": {
 					"Id": "theoddon.AutoPetter",
 					"ItemId": "(BC)272",
-					"Price": "100000"
+					"Price": "100000",
+					"Condition": "IS_COMMUNITY_CENTER_COMPLETE"
 				}
 			},
 			"When": {
