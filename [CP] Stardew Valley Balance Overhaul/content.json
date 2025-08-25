@@ -128,7 +128,7 @@
 		},
 		"Split Large Animal Products": {
 			"AllowValues": "Off, Hand Crafting, Hand Crafting (No Goat Milk), Recycling Machine, Recycling Machine (No Goat Milk)",
-			"Default": "Recycling Machine",
+			"Default": "Hand Crafting",
 			"Section": "Quality of Life"
 		},
 		"Merchants Buy More Items": {

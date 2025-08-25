@@ -2010,7 +2010,7 @@
 				"Seed Maker Output": true
 			}
 		},
-		{ // Recycling Machine - Brown Eggs
+	/*	{ // Recycling Machine - Brown Eggs
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2261,6 +2261,6 @@
 			"When": {
 				"Split Large Animal Products": "Recycling Machine"
 			}
-		}
+		}*/
 	]
 }
