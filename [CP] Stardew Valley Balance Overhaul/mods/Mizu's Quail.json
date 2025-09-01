@@ -19,7 +19,7 @@
 				} // Quail Mayonnaise
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -33,7 +33,7 @@
 				"#-1": "item_egg"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 				"#-1": "item_large_egg"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -60,10 +60,10 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
-		// Machine Processing
+		// Artisan Goods Processing
 		// Large Animal Products Only
 		{
 			"Action": "EditData",
@@ -81,7 +81,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		// Artisan Goods Gain Quantity
@@ -115,7 +115,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		// Animal Husbandry Mod
@@ -176,7 +176,7 @@
 				} // Stuffed Quail
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
 		},
@@ -189,7 +189,7 @@
 				} // Spatchcocked Quail and Greens with Cornucopia
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
@@ -203,7 +203,7 @@
 				} // Stuffed Quail with Extended Trees
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true

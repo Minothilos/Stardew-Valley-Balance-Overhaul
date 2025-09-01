@@ -1338,7 +1338,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Gems (Lumisteria Glimmering Clumps and Nodes)
@@ -1368,7 +1368,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
 			}
 		},
@@ -1381,7 +1381,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=selph.FlavoredMead": false,
 				"HasMod|contains=BetterHoneyMeadCP": false
 			}
@@ -1395,7 +1395,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
@@ -1414,7 +1414,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1428,7 +1428,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=7776009": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
@@ -1443,7 +1443,7 @@
 			"When": {
 				"Spouse": "Sophia",
 				"HasSeenEvent: anyPlayer| contains=8185300": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
@@ -1457,7 +1457,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407915": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
@@ -1543,7 +1543,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
@@ -1563,7 +1563,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
@@ -1577,7 +1577,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasMod|contains=Cornucopia.GrowableForage": true
 			}
@@ -1627,7 +1627,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
@@ -1655,7 +1655,7 @@
 				}
 			},
 			"When": {
-				"Merge: {{Shops}}, {{Sell Prices}}": true
+				"Merge: {{Prices & Inventories}}, {{Sell Prices & Adjustments}}": true
 			}
 		},
 		{ // Stricter Seed Maker
@@ -1669,7 +1669,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -1683,7 +1683,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Food Buffs

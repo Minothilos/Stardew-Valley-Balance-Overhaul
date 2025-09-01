@@ -115,7 +115,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -131,7 +131,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},

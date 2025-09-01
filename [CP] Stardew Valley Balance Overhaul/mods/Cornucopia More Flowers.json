@@ -49,7 +49,7 @@
 				} // Orchid Seeds
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -182,7 +182,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		//Stricter Seed Maker
@@ -197,7 +197,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Shops
@@ -265,7 +265,7 @@
 			],
 			"When": {
 				"Remove Seeds from Shops": false,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -286,7 +286,7 @@
 			},
 			"When": {
 				"Remove Seeds from Shops": false,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -300,7 +300,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -372,7 +372,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Remove Seeds from Shops": false,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -422,7 +422,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Remove Seeds from Shops": false,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -437,7 +437,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -452,7 +452,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -467,7 +467,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -482,7 +482,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -497,7 +497,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -515,7 +515,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Limited Seed Supply
@@ -1425,7 +1425,7 @@
 				}
 			],
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -1582,7 +1582,7 @@
 			],
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -2133,7 +2133,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -2233,7 +2233,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Limited Seed Supply": true
 			}
 		},

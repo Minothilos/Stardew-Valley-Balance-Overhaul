@@ -34,7 +34,7 @@
 				} // Wild Plum Sapling
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 				} // Seaweed Seeds
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=selph.CustomTapperFramework": true
 			}
 		},

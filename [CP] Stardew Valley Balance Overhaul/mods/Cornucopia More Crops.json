@@ -91,7 +91,7 @@
 				} //Molasses
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -108,7 +108,7 @@
 				"RequiredCount": "12"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -123,7 +123,7 @@
 				"InvalidCountMessage": "{{i18n: LoomInvalidCount_Cotton_12}}"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -140,7 +140,7 @@
 				"RequiredCount": "8"
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=radm.milkdasheep": true
 			}
 		},
@@ -156,7 +156,7 @@
 				"InvalidCountMessage": "{{i18n: LoomInvalidCount_Cotton_8}}"
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=radm.milkdasheep": true
 			}
 		},
@@ -190,7 +190,7 @@
 				} // Pear Sapling
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -415,7 +415,7 @@
 				} // Molasses
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -497,7 +497,7 @@
 				} // Perilla Leaves Seeds
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
 		},
@@ -538,7 +538,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -561,7 +561,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -682,7 +682,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Shops
@@ -742,7 +742,7 @@
 				}
 			],
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Remove Seeds from Shops": false,
 				"Limited Seed Supply": false
 			}
@@ -785,7 +785,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Remove Seeds from Shops": false,
 				"Limited Seed Supply": false
 			}
@@ -923,7 +923,7 @@
 				}
 			],
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Remove Seeds from Shops": false,
 				"Limited Seed Supply": false
@@ -1016,7 +1016,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Remove Seeds from Shops": false,
 				"Limited Seed Supply": false
@@ -1033,7 +1033,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -1047,7 +1047,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -1061,7 +1061,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -1075,7 +1075,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -1089,7 +1089,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1104,7 +1104,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1119,7 +1119,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1134,7 +1134,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1149,7 +1149,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1164,7 +1164,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1179,7 +1179,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1194,7 +1194,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1209,7 +1209,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1224,7 +1224,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1239,7 +1239,7 @@
 				"cornucopia_shop_pierre": null
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -1257,7 +1257,7 @@
 				} // Bamboo Shoots shop price change
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
@@ -2443,7 +2443,7 @@
 				}
 			],
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -2767,7 +2767,7 @@
 				}
 			],
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
 			}
@@ -3370,7 +3370,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Limited Seed Supply": true
 			}
 		},
@@ -3571,7 +3571,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Limited Seed Supply": true
 			}
@@ -3938,7 +3938,7 @@
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
 		},
-		// Machine Processing
+		// Artisan Goods Processing
 		// Cask Aging Multiplier
 		{
 			"Action": "EditData",
@@ -3956,7 +3956,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": true
 			}
@@ -3977,7 +3977,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": true
 			}
@@ -3998,7 +3998,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": true
 			}
@@ -4019,7 +4019,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": true
 			}
@@ -4055,8 +4055,8 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true,
-				"Machine Processing": "On"
+				"Sell Prices & Adjustments": true,
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4089,9 +4089,9 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4124,9 +4124,9 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4159,9 +4159,9 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4194,9 +4194,9 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		}
 	]

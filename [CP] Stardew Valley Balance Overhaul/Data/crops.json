@@ -9,7 +9,7 @@
                 }
             },
             "When": {
-                "Sell Prices": true
+                "Sell Prices & Adjustments": true
             }
         }
     ]

@@ -21,7 +21,7 @@
 				} // Rabbit's Foot
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -35,7 +35,7 @@
 				"#-1": "large_milk_item"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -76,7 +76,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -89,10 +89,10 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
-		// Machine Processing
+		// Artisan Goods Processing
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -109,7 +109,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			},
 			"Priority": "Late +1"
@@ -131,7 +131,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -164,7 +164,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -205,7 +205,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		}
 	]

@@ -12,7 +12,7 @@
 				"Amount": "500"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 				"Amount": "2500"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -42,7 +42,7 @@
 				"Amount": "1500"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 				"Amount": "2000"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -72,7 +72,7 @@
 				"Amount": "2500"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 				"Amount": "2000"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -102,7 +102,7 @@
 				"Amount": "1500"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 				"Amount": "5000"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -132,7 +132,7 @@
 				"Amount": "1500"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 				"Amount": "1000"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -162,7 +162,7 @@
 				"Amount": "1200"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Crystalarium (Lumisteria Glimmering Clumps and Nodes)
@@ -177,7 +177,7 @@
 				"Amount": "1250"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -192,7 +192,7 @@
 				"Amount": "750"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 				"Amount": "1000"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -222,7 +222,7 @@
 				"Amount": "1250"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 				"Amount": "1000"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -252,7 +252,7 @@
 				"Amount": "750"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -267,7 +267,7 @@
 				"Amount": "2500"
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Lumisteria.GlimmeringClumpsNodes": true
 			}
 		},
@@ -290,7 +290,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Vanilla Mead Processing Time
@@ -305,7 +305,7 @@
 				"MinutesUntilReady": "10000"
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=selph.FlavoredMead": false,
 				"HasMod|contains=BetterHoneyMeadCP": false
 			}
@@ -322,7 +322,7 @@
 				"MinutesUntilReady": "5000"
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
@@ -350,7 +350,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
@@ -382,7 +382,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -402,7 +402,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -422,7 +422,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -442,7 +442,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -462,7 +462,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -482,7 +482,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true,
 				"HasMod|contains=selph.FlavoredMead": true
 			}
@@ -503,7 +503,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -523,7 +523,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -543,7 +543,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -563,7 +563,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -583,7 +583,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -617,7 +617,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Keg - Hops
@@ -650,7 +650,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Keg - Tea Leaves
@@ -683,7 +683,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Keg - Coffee Beans
@@ -716,7 +716,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Keg - Honey
@@ -749,7 +749,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Keg - Rice
@@ -782,7 +782,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Keg - Juice
@@ -815,7 +815,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Keg - Wine
@@ -848,7 +848,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Preserves Jar - Sturgeon Roe
@@ -881,7 +881,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Preserves Jar - Roe
@@ -914,7 +914,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Preserves Jar - Pickles
@@ -947,7 +947,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Preserves Jar - Jelly
@@ -980,7 +980,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Cheese Press - Goat Milk
@@ -1013,7 +1013,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Cheese Press - Large Goat Milk (No WoL)
@@ -1055,7 +1055,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1095,7 +1095,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1129,7 +1129,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Cheese Press - Large Milk (No WoL)
@@ -1171,7 +1171,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1211,7 +1211,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1245,7 +1245,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Oil Maker - Sunflower
@@ -1278,7 +1278,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Oil Maker - Sunflower Seeds
@@ -1311,7 +1311,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Oil Maker - Truffle
@@ -1344,7 +1344,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Mayonnaise Machine - Ostrich Egg
@@ -1377,7 +1377,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Mayonnaise Machine - Duck Egg
@@ -1410,7 +1410,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Mayonnaise Machine - Void Egg
@@ -1443,7 +1443,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Mayonnaise Machine - Dinosaur Egg
@@ -1476,7 +1476,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Mayonnaise Machine - Large Egg (No WoL)
@@ -1518,7 +1518,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1558,7 +1558,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1592,7 +1592,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Dehydrator - Raisins
@@ -1625,7 +1625,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Dehydrator - Dried Fruit
@@ -1658,7 +1658,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Dehydrator - Dried Mushrooms
@@ -1691,7 +1691,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Loom - Wool
@@ -1724,7 +1724,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Mayonnaise Machine - Ostrich Egg (No WoL)
@@ -1863,7 +1863,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=6480.blueegg": false
 			}
@@ -1913,7 +1913,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": false,
 				"HasMod|contains=6480.blueegg": false
 			}
@@ -1961,7 +1961,7 @@
 				]
 			},
 			"When": {
-				"Bait Maker Output": true
+				"Seed & Bait Maker Output": true
 			}
 		},
 		{ // Increased Seed Maker Output
@@ -2007,7 +2007,7 @@
 				]
 			},
 			"When": {
-				"Seed Maker Output": true
+				"Seed & Bait Maker Output": true
 			}
 		},
 	/*	{ // Recycling Machine - Brown Eggs

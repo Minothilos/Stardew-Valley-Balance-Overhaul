@@ -18,7 +18,7 @@
                 }
             },
             "When": {
-                "Sell Prices": true
+                "Sell Prices & Adjustments": true
             }
         },
         { // Flower Bugfix
@@ -57,7 +57,7 @@
                 }
             },
             "When": {
-                "Sell Prices": true,
+                "Sell Prices & Adjustments": true,
                 "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
             }
         },
@@ -187,7 +187,7 @@
                 }
             },
             "When": {
-                "Sell Prices": true
+                "Sell Prices & Adjustments": true
             }
         },
         { // Pierre's General Store (Limited Item Supply)

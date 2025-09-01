@@ -55,7 +55,7 @@
                 }
             },
             "When": {
-                "Sell Prices": true
+                "Sell Prices & Adjustments": true
             }
         },
         { // Consistent Sheep Production
@@ -68,7 +68,7 @@
                 }
             },
             "When": {
-                "Sell Prices": true
+                "Sell Prices & Adjustments": true
             }
         }
     ]

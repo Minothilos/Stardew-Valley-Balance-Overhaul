@@ -12,7 +12,7 @@
 				} // Blue Mayonnaise
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Blue Mayo": true
 			}
 		},
@@ -25,7 +25,7 @@
 				} // Golden Mayonnaise
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Golden Mayo": true
 			}
 		},
@@ -38,7 +38,7 @@
 				} // Ostrich Mayo
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Ostrich Mayo": true
 			}
 		},
@@ -57,7 +57,7 @@
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Blue Mayo": true
 			}
 		},
@@ -72,7 +72,7 @@
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Golden Mayo": true
 			}
 		},
@@ -87,11 +87,11 @@
 			"When": {
 				"HasMod": "FlashShifter.StardewValleyExpandedCP",
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Ostrich Mayo": true
 			}
 		},
-		// Machine Processing
+		// Artisan Goods Processing
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -123,7 +123,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Ostrich Mayo": true
 			}
 		},
@@ -157,7 +157,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Blue Mayo": true
 			}
 		},
@@ -191,7 +191,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: 6480.blueegg, Golden Mayo": true
 			}
 		}

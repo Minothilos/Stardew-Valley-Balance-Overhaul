@@ -6,7 +6,7 @@
 			"Default": "SVBO",
 			"Section": "Balance"
 		},
-		"Machine Processing": {
+		"Artisan Goods Processing": {
 			"AllowValues": "Off, On, Large Animal Products Only",
 			"Default": "On",
 			"Section": "Balance"
@@ -16,7 +16,7 @@
 			"Default": "Normal",
 			"Section": "Balance"
 		},
-		"Sell Prices": {
+		"Sell Prices & Adjustments": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Balance"
@@ -46,12 +46,7 @@
 			"Default": "true",
 			"Section": "Balance"
 		},
-		"Bait Maker Output": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Balance"
-		},
-		"Seed Maker Output": {
+		"Seed & Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Balance"
@@ -111,7 +106,7 @@
 			"Default": "true",
 			"Section": "Crafting Recipes"
 		},
-		"Shops": {
+		"Prices & Inventories": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Shops"

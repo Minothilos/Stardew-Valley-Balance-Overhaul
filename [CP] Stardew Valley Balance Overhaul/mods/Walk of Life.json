@@ -12,7 +12,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Sell Prices
@@ -27,7 +27,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
 		},
@@ -44,7 +44,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
@@ -58,7 +58,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -94,7 +94,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
 		},
@@ -128,7 +128,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, EnableGoldenOstrichMayo": true
 			}
 		}

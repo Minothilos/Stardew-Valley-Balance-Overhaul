@@ -282,7 +282,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Weapons
@@ -1147,7 +1147,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Heap's Store (Limited Item Supply)
@@ -1241,7 +1241,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Fruit Tree Shop (Limited Seed Supply)

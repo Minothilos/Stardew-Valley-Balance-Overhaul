@@ -34,7 +34,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=selph.CustomTapperFramework": true
 			}
 		},
@@ -71,7 +71,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -103,7 +103,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: ZoeyHoshi.SVEForageCrops, EnableMegaPurpleMushroom": true
 			}
@@ -121,7 +121,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasVisitedLocation": "Custom_EnchantedGrove",
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: ZoeyHoshi.SVEForageCrops, EnableDewdropBerry": true

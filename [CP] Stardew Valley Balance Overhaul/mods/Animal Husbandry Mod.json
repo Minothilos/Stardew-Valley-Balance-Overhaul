@@ -28,7 +28,7 @@
 				} // Ostrich
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Food Prices
@@ -83,7 +83,7 @@
 				} // Cowboy Dinner
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -95,7 +95,7 @@
 				} // Steak Fajitas
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		}

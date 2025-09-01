@@ -59,7 +59,7 @@
 				} // Starmite
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -86,7 +86,7 @@
 				} // Garum
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 				} // Plain Yogurt
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -122,7 +122,7 @@
 				} // Gelling Powder
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -143,7 +143,7 @@
 				} // Coconut Oil
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -164,7 +164,7 @@
 				} // Beeswax
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -176,7 +176,7 @@
 				} // Maple Butter
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -192,7 +192,7 @@
 				} // Applesauce
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Essential Crops Goods
@@ -236,7 +236,7 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -255,7 +255,7 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Extended Crops Goods
@@ -279,7 +279,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Extended Trees Goods
@@ -303,7 +303,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -315,7 +315,7 @@
 				} // Chewing Gum
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 				"HasMod|contains=DaLion.Professions": true
 			}
@@ -335,7 +335,7 @@
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -347,7 +347,7 @@
 				} // Snack Cheese
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// ------------------------------------------------------------------------------------------
@@ -626,7 +626,7 @@
 			}
 		},
 		// -----------------------------------------------------------------------------------------
-		// Machine processing
+		// Artisan Goods Processing
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -663,7 +663,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -689,7 +689,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -715,7 +715,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -743,7 +743,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -771,7 +771,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -799,7 +799,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -827,7 +827,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -855,7 +855,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -884,7 +884,7 @@
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -910,7 +910,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -936,7 +936,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -951,7 +951,7 @@
 				"MinutesUntilReady": "2250"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -966,7 +966,7 @@
 				"MinutesUntilReady": "2250"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -992,7 +992,7 @@
 				]
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
 		},
@@ -1095,7 +1095,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Cask Aging": true
 			}
 		},
@@ -1153,7 +1153,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": true
@@ -1175,7 +1175,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"Cask Aging": true
@@ -1199,7 +1199,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1219,7 +1219,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -1238,7 +1238,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1258,7 +1258,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1279,7 +1279,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -1298,7 +1298,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -1317,7 +1317,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{
@@ -1336,7 +1336,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1356,7 +1356,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1376,7 +1376,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -1396,7 +1396,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -1417,7 +1417,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -1437,7 +1437,7 @@
 				"CopyQuality": true
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		// Artisan Goods Gain Quantity
@@ -1471,7 +1471,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1504,7 +1504,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1537,7 +1537,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1579,7 +1579,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1622,7 +1622,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1665,7 +1665,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1721,7 +1721,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
@@ -1778,7 +1778,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -1812,7 +1812,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1845,7 +1845,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1878,7 +1878,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1911,7 +1911,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1944,7 +1944,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -1977,7 +1977,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2010,7 +2010,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2044,7 +2044,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2078,7 +2078,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2112,7 +2112,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2145,7 +2145,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2178,7 +2178,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2211,7 +2211,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2244,7 +2244,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2277,7 +2277,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2310,7 +2310,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2343,7 +2343,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2376,7 +2376,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2409,7 +2409,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2442,7 +2442,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2476,7 +2476,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2510,7 +2510,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2544,7 +2544,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -2579,7 +2579,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -2614,7 +2614,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -2649,7 +2649,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2682,7 +2682,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2715,7 +2715,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2748,7 +2748,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2781,7 +2781,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2814,7 +2814,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2847,7 +2847,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -2880,7 +2880,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -2914,7 +2914,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2949,7 +2949,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2984,7 +2984,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -3019,7 +3019,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -3054,7 +3054,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Juicer": true
 			}
 		},
@@ -3088,7 +3088,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3121,7 +3121,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3163,7 +3163,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3196,7 +3196,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3238,7 +3238,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3271,7 +3271,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3313,7 +3313,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3346,7 +3346,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3388,7 +3388,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3422,7 +3422,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3465,7 +3465,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3499,7 +3499,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3542,7 +3542,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3576,7 +3576,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3619,7 +3619,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -3654,7 +3654,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true
 			}
@@ -3691,7 +3691,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -3726,7 +3726,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -3761,7 +3761,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3794,7 +3794,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3827,7 +3827,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3860,7 +3860,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -3894,7 +3894,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3927,7 +3927,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3960,7 +3960,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -3993,7 +3993,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4034,7 +4034,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4067,7 +4067,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4085,7 +4085,7 @@
 				"Quality": "0"
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only",
+				"Artisan Goods Processing": "Large Animal Products Only",
 				"HasMod|contains=DaLion.Professions": false
 			}
 		},
@@ -4119,7 +4119,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4152,7 +4152,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4185,7 +4185,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4218,7 +4218,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -4252,7 +4252,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -4286,7 +4286,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -4320,7 +4320,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -4362,7 +4362,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -4397,7 +4397,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -4439,7 +4439,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true
 			}
@@ -4474,7 +4474,7 @@
 				]
 			},
 			"When": {	//Vinegar Keg Enabled
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true
 			}
 		},
@@ -4508,7 +4508,7 @@
 				]
 			},
 			"When": {	//Vinegar Keg Enabled
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"Spiderbuttons.CMCT/Config: Cornucopia.ArtisanMachines, Enable Vinegar Keg": true
 			}
 		},
@@ -4542,7 +4542,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4575,7 +4575,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4608,7 +4608,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4641,7 +4641,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4674,7 +4674,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4707,7 +4707,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{
@@ -4740,7 +4740,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On",
+				"Artisan Goods Processing": "On",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
@@ -4783,7 +4783,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -4838,7 +4838,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -4858,7 +4858,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -4899,7 +4899,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -4932,7 +4932,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		// Remove unused entries
@@ -4948,7 +4948,7 @@
 				"Cornucopia_PickledEggsOstrich": null
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -4966,7 +4966,7 @@
 				"Cornucopia_FlavoredYogurtSilver": null
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -4984,7 +4984,7 @@
 				"Cornucopia_FlavoredYogurtSilver": null
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -5002,7 +5002,7 @@
 				"Cornucopia_FlavoredYogurtSilver": null
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
 		{
@@ -5020,7 +5020,7 @@
 				"Cornucopia_FlavoredYogurtSilver": null
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false",
+				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		}

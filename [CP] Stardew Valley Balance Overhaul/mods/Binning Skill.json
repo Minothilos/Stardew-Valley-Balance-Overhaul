@@ -12,7 +12,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Machine Crafting Recipes (Hard)

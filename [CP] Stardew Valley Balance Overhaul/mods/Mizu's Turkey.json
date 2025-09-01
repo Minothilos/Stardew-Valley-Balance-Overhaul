@@ -18,7 +18,7 @@
 				} // Turkey Mayonnaise
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -32,7 +32,7 @@
 				"#-1": "item_large_egg"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -45,7 +45,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		// Artisan Goods Gain Quantity
@@ -79,7 +79,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		// Animal Husbandry Mod
@@ -104,7 +104,7 @@
 				} // Turkey Leg
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
 		},
@@ -117,7 +117,7 @@
 				} // Roast Turkey with Herbs Pack
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_HerbsPackEnabled": true

@@ -34,7 +34,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Pierre's General Store
@@ -79,7 +79,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Willy's Shop
@@ -140,7 +140,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Clint's Shop
@@ -185,7 +185,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Harvey's Clinic
@@ -206,7 +206,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Adventure's Guild
@@ -299,7 +299,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Dwarf's Shop
@@ -336,7 +336,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Volcano Shop
@@ -365,7 +365,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Resort Bar
@@ -402,7 +402,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Traveling Merchant
@@ -419,7 +419,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // JojaMart
@@ -441,7 +441,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Island Trader
@@ -462,7 +462,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Island Trader (Limited Seed Supply)
@@ -2608,7 +2608,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Merchants Buy More Items

@@ -12,7 +12,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
 			}
 		},
@@ -28,7 +28,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
 			}
 		},
@@ -41,7 +41,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Better Pigs - Morgan Event (SVE, Truffle Limit)
@@ -57,7 +57,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": false
 			}
@@ -75,7 +75,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"Spiderbuttons.CMCT/Config: MindMeltMax.WinterPigs, NoTruffleLimit": true
 			}

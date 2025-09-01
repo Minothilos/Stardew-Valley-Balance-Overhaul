@@ -423,7 +423,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Offset Tapper Aging (Walk of Life)
@@ -438,7 +438,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
 				"HasMod|contains=DaLion.Professions": true
 			}
@@ -461,7 +461,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Sell Price Adjustment (Cornucopia)
@@ -479,7 +479,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
@@ -660,7 +660,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // JojaMart
@@ -685,7 +685,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Hospital
@@ -702,7 +702,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Pierre's Shop (Limited Seed Supply)
@@ -1870,7 +1870,7 @@
 				}
 			},
 			"When": {
-				"Shops": true
+				"Prices & Inventories": true
 			}
 		},
 		{ // Saloon Shop (Limited Item Supply)
@@ -1920,7 +1920,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Yellow Junimo Shop (Limited Item Supply)
@@ -1953,7 +1953,7 @@
 				}
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Zoey Shop (Limited Item Supply)
@@ -1983,7 +1983,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -1997,7 +1997,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -2011,7 +2011,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -2025,7 +2025,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -2039,7 +2039,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -2053,7 +2053,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -2067,7 +2067,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{
@@ -2081,7 +2081,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Crafting Recipes
@@ -2157,7 +2157,7 @@
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Morgan Event
@@ -2188,7 +2188,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Morgan Event with Mizu - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
@@ -2208,7 +2208,7 @@
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"HasMod|contains=Mizu.Quail": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Morgan Event with Mizu - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
@@ -2228,7 +2228,7 @@
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
 				"HasMod|contains=Mizu.Turkey": true,
-				"Sell Prices": true
+				"Sell Prices & Adjustments": true
 			}
 		},
 		{ // Morgan Event with Cornucopia - THESE PRICES NEEDED TO BE VERIFIED AND MOVED OVER BEFORE 3.0
@@ -2241,7 +2241,7 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5978939": true,
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
@@ -2259,7 +2259,7 @@
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=8185300": true,
 				"Spouse": "Sophia",
-				"Sell Prices": true,
+				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true
 			}
@@ -2279,7 +2279,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{ // Butter Churner - Goat Milk Output (Large Animal Products Only)
@@ -2299,7 +2299,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{ // Butter Churner - Large Goat Milk Input (Large Animal Products Only)
@@ -2317,7 +2317,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{ // Butter Churner - Large Goat Milk Output (Large Animal Products Only)
@@ -2337,7 +2337,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{ // Butter Churner - Large Milk Input (Large Animal Products Only)
@@ -2357,7 +2357,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{ // Butter Churner - Large Milk Output (Large Animal Products Only)
@@ -2377,7 +2377,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{ // Butter Churner - Milk Input (Large Animal Products Only)
@@ -2397,7 +2397,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		{ // Butter Churner - Milk Output (Large Animal Products Only)
@@ -2417,7 +2417,7 @@
 				"StackModifierMode": null
 			},
 			"When": {
-				"Machine Processing": "Large Animal Products Only"
+				"Artisan Goods Processing": "Large Animal Products Only"
 			}
 		},
 		// Artisan Goods Gain Quantity
@@ -2445,7 +2445,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Goat Milk Input
@@ -2463,7 +2463,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Goat Milk Output
@@ -2497,7 +2497,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Large Goat Milk Input
@@ -2515,7 +2515,7 @@
 				"RequiredTags": null
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Large Goat Milk Output
@@ -2564,7 +2564,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Large Milk Input
@@ -2584,7 +2584,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Large Milk Output
@@ -2618,7 +2618,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Milk Input
@@ -2638,7 +2638,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Butter Churner - Milk Output
@@ -2664,7 +2664,7 @@
 				]
 			},
 			"When": {
-				"Machine Processing": "On"
+				"Artisan Goods Processing": "On"
 			}
 		},
 		{ // Remove Unused Entries
@@ -2681,7 +2681,7 @@
 				"FlashShifter.StardewValleyExpandedCP_ChurnerRulesId_LargeMilk_IridiumQuality": null
 			},
 			"When": {
-				"Machine Processing|contains=Off": "false"
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		}
 	]
