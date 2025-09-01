@@ -121,7 +121,7 @@
 				}
 			},
 			"When": {
-				"Food Buffs": true
+				"Food": true
 			}
 		}
 	]

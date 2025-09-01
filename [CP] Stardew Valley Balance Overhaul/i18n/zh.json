@@ -22,7 +22,7 @@
 	"config.Monster Strength.description": "调整怪物的强度。(SLIGHTLY CHANGED)",
 	"config.Monster Eradication Goals.description": "减少冒险家工会里为完成怪物击杀目标所需要的怪物击杀数量。",
 	"config.Item Categories.description": "调整物品的类别（加工产品，动物产品等等）。(SLIGHTLY CHANGED)",
-	"config.Food Buffs.description": "改变食物的buff、持续时间和食用属性。",
+	"config.Food.description": "改变食物的buff、持续时间和食用属性。",
 	"config.Buildings.description": "直接影响利润的建筑成本更高，而其他建筑成本更低。",
 	"config.Museum Rewards.description": "优化博物馆的奖励顺序，使其更有回报。",
 	"config.Shops.description": "更改商店所售物的价格、库存，并限制某些商品的数量。",

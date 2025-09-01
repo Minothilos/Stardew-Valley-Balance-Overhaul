@@ -136,7 +136,7 @@
 			}
 		},
 		{
-			// Food Buffs
+			// Food
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -412,7 +412,7 @@
 				}
 			},
 			"When": {
-				"Food Buffs": true
+				"Food": true
 			}
 		},
 		{ // JojaMart (Limited Item Supply)

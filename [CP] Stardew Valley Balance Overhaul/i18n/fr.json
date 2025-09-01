@@ -22,7 +22,7 @@
 	"config.Monster Strength.description": "Change la puissance des monstres.(SLIGHTLY CHANGED)",
 	"config.Monster Eradication Goals.description": "Change les objectifs d’éradication de monstres pour demander moins de morts.",
 	"config.Item Categories.description": "Change les catégorie d’objets (produits d’artisans, produits animaliers, etc.).(SLIGHTLY CHANGED)",
-	"config.Food Buffs.description": "Change les buffs, la durée et la consommabilité (Vie/Endurance) des nourritures.",
+	"config.Food.description": "Change les buffs, la durée et la consommabilité (Vie/Endurance) des nourritures.",
 	"config.Buildings.description": "Les bâtiments qui affectent directement les profits coûtent plus, les autres coûtent moins.",
 	"config.Museum Rewards.description": "Change les récompenses du musées pour un meilleur ordre et de meilleurs récompenses.",
 	"config.Shops.description": "Change les prix, inventaires et limite de quantité de certains objets dans les boutiques.",

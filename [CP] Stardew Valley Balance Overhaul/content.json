@@ -21,7 +21,7 @@
 			"Default": "true",
 			"Section": "Balance"
 		},
-		"Food Buffs": {
+		"Food": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Balance"

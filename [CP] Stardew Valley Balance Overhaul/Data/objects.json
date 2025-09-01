@@ -812,19 +812,22 @@
 					"Price": "50"
 				},
 				"686": { // Spinner
-					"Price": "100"
-				},
-				"687": { // Dressed Spinner
 					"Price": "150"
 				},
 				"694": { // Trap Bobber
-					"Price": "100"
-				},
-				"695": { // Cork Bobber
-					"Price": "100"
+					"Price": "150"
 				},
 				"693": { // Treasure Hunter
-					"Price": "100"
+					"Price": "250"
+				},
+				"695": { // Cork Bobber
+					"Price": "200"
+				},
+				"691": { // Barbed Hook
+					"Price": "200"
+				},
+				"687": { // Dressed Spinner
+					"Price": "150"
 				},
 				"874": { // Bug Steak
 					"Price": "50"
@@ -1631,33 +1634,6 @@
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		{ // Bobber Sell Prices
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"686": { // Spinner
-					"Price": "150"
-				},
-				"694": { // Trap Bobber
-					"Price": "150"
-				},
-				"693": { // Treasure Hunter
-					"Price": "250"
-				},
-				"695": { // Cork Bobber
-					"Price": "200"
-				},
-				"691": { // Barbed Hook
-					"Price": "200"
-				},
-				"687": { // Dressed Spinner
-					"Price": "150"
-				}
-			},
-			"When": {
-				"Merge: {{Prices & Inventories}}, {{Sell Prices & Adjustments}}": true
-			}
-		},
 		{ // Stricter Seed Maker
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1686,7 +1662,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Food Buffs
+		{ // Food
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
@@ -2603,7 +2579,7 @@
 				}
 			},
 			"When": {
-				"Food Buffs": true
+				"Food": true
 			}
 		},
 		{ // Button's Extra Books Patch

@@ -22,7 +22,7 @@
   "config.Monster Strength.description": "モンスターの強さを変更する。難易度が高いほどモンスターの体力がわずかに増え、プレイヤーに与えるダメージが大幅に増加する。ノーマルでは、モンスターの体力は比較的低いがプレイヤーに与えるダメージは高め。",
   "config.Monster Eradication Goals.description": "モンスター討伐目標の必要討伐数を減らす。",
   "config.Item Categories.description": "一部のアイテムのカテゴリーを変更する。加工品のほとんどが魚や動物生産品に分類され、職人スキルの影響を弱める。",
-  "config.Food Buffs.description": "食べ物のバフ、持続時間、回復量を変更する。",
+  "config.Food.description": "食べ物のバフ、持続時間、回復量を変更する。",
   "config.Buildings.description": "利益に直接影響のある建物の建設コストが高くなり、それ以外の建物のコストは低くなる",
   "config.Museum Rewards.description": "博物館の報酬の順番を改善し、より労力に見合った報酬になる。",
   "config.Shops.description": "店頭価格と品揃えを変更する。",

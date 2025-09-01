@@ -190,7 +190,7 @@
 			},
 			"When": {
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
-				"Food Buffs": true
+				"Food": true
 			}
 		}
 	]

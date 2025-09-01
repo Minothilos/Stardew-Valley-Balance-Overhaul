@@ -15,7 +15,7 @@
 	"config.Community Center Bundles.description": "Changes the community center bundles. NOTE: Changing this requires a new saved game to take affect.",
 	"config.Monster Strength.description": "Changes the strength of monsters.",
 	"config.Monster Eradication Goals.description": "Changes monster eradication goals to require less kills.",
-	"config.Food Buffs.description": "Changes food buffs, durations, and edibility.",
+	"config.Food.description": "Changes Food, durations, and edibility.",
 	"config.Buildings.description": "Changes building costs.",
 	"config.Museum Rewards.description": "Changes museum rewards to be in a better order and more rewarding.",
 	"config.Prices & Inventories.description": "Changes shop prices and inventories. Must be enabled if you use Limited Item/Seed Supply.",
