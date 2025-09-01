@@ -18,7 +18,7 @@
 	"config.Food.description": "Changes Food, durations, and edibility.",
 	"config.Buildings.description": "Changes building costs.",
 	"config.Museum Rewards.description": "Changes museum rewards to be in a better order and more rewarding.",
-	"config.Prices & Inventories.description": "Changes shop prices and inventories. Must be enabled if you use Limited Item/Seed Supply.",
+	"config.Prices & Inventories.description": "Changes shop prices and inventories. Should be enabled if you use Limited Item/Seed Supply.",
 	"config.Seed & Bait Maker Output.description": "Changes Seed & Bait Maker output based on ingredient quality.",
 	"config.Cask Aging.description": "Changes the duration of aging to be more balanced and allows some additional items to be aged in casks.",
 	"config.Limited Item Supply.description": "Changes daily purchase amount of some items sold by shops.",

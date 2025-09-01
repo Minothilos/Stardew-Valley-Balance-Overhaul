@@ -2009,7 +2009,7 @@
 			"When": {
 				"Seed & Bait Maker Output": true
 			}
-		},
+		}
 	/*	{ // Recycling Machine - Brown Eggs
 			"Action": "EditData",
 			"Target": "Data/Machines",

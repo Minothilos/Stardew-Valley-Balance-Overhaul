@@ -811,24 +811,6 @@
 				"251": { // Tea Sapling
 					"Price": "50"
 				},
-				"686": { // Spinner
-					"Price": "150"
-				},
-				"694": { // Trap Bobber
-					"Price": "150"
-				},
-				"693": { // Treasure Hunter
-					"Price": "250"
-				},
-				"695": { // Cork Bobber
-					"Price": "200"
-				},
-				"691": { // Barbed Hook
-					"Price": "200"
-				},
-				"687": { // Dressed Spinner
-					"Price": "150"
-				},
 				"874": { // Bug Steak
 					"Price": "50"
 				},
@@ -1632,6 +1614,33 @@
 			"When": {
 				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{ // Bobber Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"686": { // Spinner
+					"Price": "150"
+				},
+				"694": { // Trap Bobber
+					"Price": "150"
+				},
+				"693": { // Treasure Hunter
+					"Price": "250"
+				},
+				"695": { // Cork Bobber
+					"Price": "200"
+				},
+				"691": { // Barbed Hook
+					"Price": "200"
+				},
+				"687": { // Dressed Spinner
+					"Price": "150"
+				}
+			},
+			"When": {
+				"Merge: {{Prices & Inventories}}, {{Sell Prices & Adjustments}}": true
 			}
 		},
 		{ // Stricter Seed Maker
