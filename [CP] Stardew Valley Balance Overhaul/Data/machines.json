@@ -2009,8 +2009,8 @@
 			"When": {
 				"Seed & Bait Maker Output": true
 			}
-		}
-	/*	{ // Recycling Machine - Brown Eggs
+		},
+		{ // Recycling Machine - Brown Eggs
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2050,7 +2050,7 @@
 							"MaxItems": null,
 							"MinStack": 2,
 							"MaxStack": 2,
-							"Quality": -1,
+							"Quality": 0,
 							"ObjectInternalName": null,
 							"ObjectDisplayName": null,
 							"ToolUpgradeLevel": -1,
@@ -2113,7 +2113,7 @@
 							"MaxItems": null,
 							"MinStack": 2,
 							"MaxStack": 2,
-							"Quality": -1,
+							"Quality": 0,
 							"ObjectInternalName": null,
 							"ObjectDisplayName": null,
 							"ToolUpgradeLevel": -1,
@@ -2176,7 +2176,7 @@
 							"MaxItems": null,
 							"MinStack": 2,
 							"MaxStack": 2,
-							"Quality": -1,
+							"Quality": 0,
 							"ObjectInternalName": null,
 							"ObjectDisplayName": null,
 							"ToolUpgradeLevel": -1,
@@ -2239,7 +2239,7 @@
 							"MaxItems": null,
 							"MinStack": 2,
 							"MaxStack": 2,
-							"Quality": -1,
+							"Quality": 0,
 							"ObjectInternalName": null,
 							"ObjectDisplayName": null,
 							"ToolUpgradeLevel": -1,
@@ -2261,6 +2261,6 @@
 			"When": {
 				"Split Large Animal Products": "Recycling Machine"
 			}
-		}*/
+		}
 	]
 }
