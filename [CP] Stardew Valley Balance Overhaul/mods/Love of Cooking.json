@@ -415,7 +415,7 @@
 				"Food": true
 			}
 		},
-		{ // JojaMart (Limited Item Supply)
+		{ // JojaMart (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -424,7 +424,7 @@
 			],
 			"Fields": {
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -437,10 +437,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Pierre's General Store (Limited Item Supply)
+		{ // Pierre's General Store (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -449,7 +449,7 @@
 			],
 			"Fields": {
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -462,7 +462,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
 		{

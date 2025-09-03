@@ -66,7 +66,7 @@
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -78,7 +78,7 @@
 			],
 			"Fields": {
 				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -90,7 +90,7 @@
 					]
 				},
 				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -103,7 +103,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
@@ -121,7 +121,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -138,7 +138,7 @@
 				"ZoeyHoshi.ForageCrops_SnowYamSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -152,7 +152,7 @@
 				"ZoeyHoshi.ForageCrops_SeaweedSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=selph.CustomTapperFramework": true
 			}
 		},
@@ -167,7 +167,7 @@
 				"ZoeyHoshi.ForageCrops_CaveCarrotSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -181,7 +181,7 @@
 				"ZoeyHoshi.ForageCrops_WinterRootSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -193,7 +193,7 @@
 			],
 			"Fields": {
 				"ZoeyHoshi.ForageCrops_RedMushroomSeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -205,7 +205,7 @@
 					]
 				},
 				"ZoeyHoshi.ForageCrops_PurpleMushroomSeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -218,7 +218,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
@@ -236,7 +236,7 @@
 				"ZoeyHoshi.ForageCrops_WildHorseradishSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -250,7 +250,7 @@
 				"ZoeyHoshi.ForageCrops_FiddleheadFernSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		}
 	]

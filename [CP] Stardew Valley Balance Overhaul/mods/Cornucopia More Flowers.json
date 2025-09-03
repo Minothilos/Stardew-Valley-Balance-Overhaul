@@ -518,7 +518,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		// Limited Seed Supply
+		// Limited Seed Stock
 		// Add regrow context tag to regrowable flowers - Essential Flowers
 		{
 			"Action": "EditData",
@@ -531,7 +531,7 @@
 				"#-1": "cornucopia_regrow_seed"
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		// Add regrow context tag to regrowable flowers - Extended Flowers
@@ -547,7 +547,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -562,7 +562,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -577,7 +577,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -592,7 +592,7 @@
 			},
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		// Nullify existing Cornucopia pierre shop entries
@@ -616,7 +616,7 @@
 				"Cornucopia.MoreFlowers_FruitTreeSaplings": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		// Add seeds back in limited quantity Pierre
@@ -634,7 +634,7 @@
 					"Condition": "SEASON spring, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -661,7 +661,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -678,7 +678,7 @@
 					"Condition": "SEASON spring, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -705,7 +705,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -722,7 +722,7 @@
 					"Condition": "SEASON summer, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -749,7 +749,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -766,7 +766,7 @@
 					"Condition": "SEASON summer, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -793,7 +793,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -810,7 +810,7 @@
 					"Condition": "SEASON fall, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -837,7 +837,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -854,7 +854,7 @@
 					"Condition": "SEASON fall, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -881,7 +881,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -898,7 +898,7 @@
 					"Condition": "SEASON winter, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -925,7 +925,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -942,7 +942,7 @@
 					"Condition": "SEASON winter, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -969,7 +969,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -986,7 +986,7 @@
 					"Condition": "SEASON spring, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1013,7 +1013,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1030,7 +1030,7 @@
 					"Condition": "SEASON spring, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1057,7 +1057,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1074,7 +1074,7 @@
 					"Condition": "SEASON summer, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1101,7 +1101,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1118,7 +1118,7 @@
 					"Condition": "SEASON summer, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1145,7 +1145,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1162,7 +1162,7 @@
 					"Condition": "SEASON fall, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1189,7 +1189,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1206,7 +1206,7 @@
 					"Condition": "SEASON fall, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1233,7 +1233,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1250,7 +1250,7 @@
 					"Condition": "SEASON winter, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1277,7 +1277,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1294,7 +1294,7 @@
 					"Condition": "SEASON winter, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1321,7 +1321,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1336,7 +1336,7 @@
 					"Id": "minothilos.MoreFlowers_BushSeeds",
 					"ItemId": "ALL_ITEMS (O)",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
-					"AvailableStock": 10,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1356,7 +1356,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1382,7 +1382,7 @@
 				}
 			],
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1398,7 +1398,7 @@
 					"ItemId": "Cornucopia_MorningGlorySeeds",
 					"Condition": "SEASON Spring",
 					"Price": "240",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1426,7 +1426,7 @@
 			],
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1442,7 +1442,7 @@
 					"ItemId": "Cornucopia_RoseSpringSeeds",
 					"Condition": "SEASON Spring, YEAR 2",
 					"Price": "310",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1466,7 +1466,7 @@
 					"ItemId": "Cornucopia_RoseSummerSeeds",
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "300",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1490,7 +1490,7 @@
 					"ItemId": "Cornucopia_ClematisSeeds",
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "90",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1514,7 +1514,7 @@
 					"ItemId": "Cornucopia_RoseFallSeeds",
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "280",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1538,7 +1538,7 @@
 					"ItemId": "Cornucopia_RoseWinterSeeds",
 					"Condition": "SEASON Winter, YEAR 2",
 					"Price": "340",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1583,7 +1583,7 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Sell Prices & Adjustments": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		// Nullify existing Cornucopia joja shop entries
@@ -1606,7 +1606,7 @@
 				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		// Add seeds back in limited quantity Joja
@@ -1624,7 +1624,7 @@
 					"Condition": "SEASON spring, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1638,7 +1638,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1655,7 +1655,7 @@
 					"Condition": "SEASON spring, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1669,7 +1669,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1686,7 +1686,7 @@
 					"Condition": "SEASON summer, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1700,7 +1700,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1717,7 +1717,7 @@
 					"Condition": "SEASON summer, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1731,7 +1731,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1748,7 +1748,7 @@
 					"Condition": "SEASON fall, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1762,7 +1762,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1779,7 +1779,7 @@
 					"Condition": "SEASON fall, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1793,7 +1793,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1810,7 +1810,7 @@
 					"Condition": "SEASON winter, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1824,7 +1824,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1841,7 +1841,7 @@
 					"Condition": "SEASON winter, YEAR 1 1",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_rarity_common, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1855,7 +1855,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1872,7 +1872,7 @@
 					"Condition": "SEASON spring, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1886,7 +1886,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1903,7 +1903,7 @@
 					"Condition": "SEASON spring, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_spring, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1917,7 +1917,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1934,7 +1934,7 @@
 					"Condition": "SEASON summer, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1948,7 +1948,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1965,7 +1965,7 @@
 					"Condition": "SEASON summer, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_summer, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -1979,7 +1979,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -1996,7 +1996,7 @@
 					"Condition": "SEASON fall, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2010,7 +2010,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -2027,7 +2027,7 @@
 					"Condition": "SEASON fall, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_fall, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2041,7 +2041,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -2058,7 +2058,7 @@
 					"Condition": "SEASON winter, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, !ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 50,
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2072,7 +2072,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -2089,7 +2089,7 @@
 					"Condition": "SEASON winter, YEAR 2",
 					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_season_winter, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned, ITEM_CONTEXT_TAG Target cornucopia_regrow_seed",
 					"AvoidRepeat": true,
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2103,7 +2103,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -2119,7 +2119,7 @@
 					"ItemId": "Cornucopia_MorningGlorySeeds",
 					"Condition": "SEASON Spring",
 					"Price": "240",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2134,7 +2134,7 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -2150,7 +2150,7 @@
 					"ItemId": "Cornucopia_RoseSpringSeeds",
 					"Condition": "SEASON Spring, YEAR 2",
 					"Price": "310",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2167,7 +2167,7 @@
 					"ItemId": "Cornucopia_RoseSummerSeeds",
 					"Condition": "SEASON Summer, YEAR 2",
 					"Price": "300",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2184,7 +2184,7 @@
 					"ItemId": "Cornucopia_ClematisSeeds",
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "90",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2201,7 +2201,7 @@
 					"ItemId": "Cornucopia_RoseFallSeeds",
 					"Condition": "SEASON Fall, YEAR 2",
 					"Price": "280",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2218,7 +2218,7 @@
 					"ItemId": "Cornucopia_RoseWinterSeeds",
 					"Condition": "SEASON Winter, YEAR 2",
 					"Price": "340",
-					"AvailableStock": 25,
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
@@ -2234,10 +2234,10 @@
 			"When": {
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true,
 				"Sell Prices & Adjustments": true,
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
-		// Limited Seed Supply Sandy
+		// Limited Seed Stock Sandy
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2247,7 +2247,7 @@
 			],
 			"Fields": {
 				"Cornucopia_LotusSeeds": {
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2260,7 +2260,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -2272,7 +2272,7 @@
 			],
 			"Fields": {
 				"Cornucopia_CalicoRoseSeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2284,7 +2284,7 @@
 					]
 				},
 				"Cornucopia_FairyDusterSeeds": {
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2305,11 +2305,11 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
 			}
 		},
-		// Limited Seed Supply Marnies
+		// Limited Seed Stock Marnies
 		{
 			"Action": "EditData",
 			"Target": "Data/Shops",
@@ -2319,7 +2319,7 @@
 			],
 			"Fields": {
 				"Cornucopia_PinkCatSeeds": {
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2332,7 +2332,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -2344,7 +2344,7 @@
 			],
 			"Fields": {
 				"Cornucopia_BeeBalmSeeds": {
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2356,7 +2356,7 @@
 					]
 				},
 				"Cornucopia_ButtercupSeeds": {
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2368,7 +2368,7 @@
 					]
 				},
 				"Cornucopia_HoneysuckleSeeds": {
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2380,7 +2380,7 @@
 					]
 				},
 				"Cornucopia_WolfsbaneSeeds": {
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2393,7 +2393,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasReadLetter |contains=Cornucopia.MoreFlowers_ExtendedFlowersPackEnabled": true
 			}
 		}

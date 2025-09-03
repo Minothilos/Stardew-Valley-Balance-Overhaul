@@ -1150,7 +1150,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Heap's Store (Limited Item Supply)
+		{ // Heap's Store (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1244,7 +1244,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Fruit Tree Shop (Limited Seed Supply)
+		{ // Fruit Tree Shop (Limited Seed Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1286,10 +1286,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
-		{ // Heap's Store (Limited Item Supply)
+		{ // Heap's Store (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1298,7 +1298,7 @@
 			],
 			"Fields": {
 				"Rafseazz.RSVCP.HeapsItem2": { // Sugar
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1310,7 +1310,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem3": { // Wheat Flour
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1322,7 +1322,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem4": { // Rice
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1334,7 +1334,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem5": { // Oil
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1346,7 +1346,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem6": { // Vinegar
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1358,7 +1358,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem1": { // Grass Starter
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1370,7 +1370,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem8": { // Basic Fertilizer
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1382,7 +1382,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem14": { // Basic Fertilizer
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1394,7 +1394,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem13": { // Quality Fertilizer
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1406,7 +1406,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem19": { // Quality Fertilizer
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1418,7 +1418,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem7": { // Quality Fertilizer
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1430,7 +1430,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem9": { // Basic Retaining Soil
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1442,7 +1442,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem15": { // Basic Retaining Soil
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1454,7 +1454,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem10": { // Quality Retaining Soil
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1466,7 +1466,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem16": { // Quality Retaining Soil
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1478,7 +1478,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem11": { // Speed-Gro
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1490,7 +1490,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem17": { // Speed-Gro
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1502,7 +1502,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem12": { // Deluxe Speed-Gro
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1514,7 +1514,7 @@
 					]
 				},
 				"Rafseazz.RSVCP.HeapsItem18": { // Deluxe Speed-Gro
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1527,7 +1527,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
 		{ // Warp Totem Crafting Recipe

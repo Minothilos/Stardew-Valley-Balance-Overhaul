@@ -111,14 +111,46 @@
 			"Default": "true",
 			"Section": "Shops"
 		},
-		"Limited Item Supply": {
+		"Limited Item Stock": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Shops"
 		},
-		"Limited Seed Supply": {
+		"Bomb Stock": {
+			"Default": "20",
+			"Section": "Shops"
+		},
+		"Ore & Coal Stock": {
+			"Default": "20",
+			"Section": "Shops"
+		},
+		"Wood & Stone Stock": {
+			"Default": "200",
+			"Section": "Shops"
+		},
+		"Fertilizer Stock": {
+			"Default": "80",
+			"Section": "Shops"
+		},
+		"Cooking Ingredients Stock": {
+			"Default": "80",
+			"Section": "Shops"
+		},
+		"Bait Stock": {
+			"Default": "30",
+			"Section": "Shops"
+		},
+		"Limited Seed Stock": {
 			"AllowValues": "false, true",
 			"Default": "true",
+			"Section": "Shops"
+		},
+		"Normal Seeds Stock": {
+			"Default": "40",
+			"Section": "Shops"
+		},
+		"Regrowing Seeds Stock": {
+			"Default": "20",
 			"Section": "Shops"
 		},
 		"Split Large Animal Products": {

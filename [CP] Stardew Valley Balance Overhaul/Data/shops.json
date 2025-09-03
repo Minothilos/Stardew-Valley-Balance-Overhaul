@@ -465,7 +465,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Island Trader (Limited Seed Supply)
+		{ // Island Trader (Limited Seed Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -483,10 +483,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
-		{ // The Stardrop Saloon (Limited Item Supply)
+		{ // The Stardrop Saloon (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -544,10 +544,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Willy's Shop (Limited Item Supply)
+		{ // Willy's Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -560,7 +560,7 @@
 					"AvailableStockLimit": "Player"
 				},
 				"(O)685": { // Bait
-					"AvailableStock": "30",
+					"AvailableStock": "{{Bait Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -572,7 +572,7 @@
 					]
 				},
 				"(O)DeluxeBait": { // Deluxe Bait
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bait Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -589,10 +589,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Clint's Shop (Limited Item Supply)
+		{ // Clint's Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -601,7 +601,7 @@
 			],
 			"Fields": {
 				"CopperOre_YearOne": { // Copper Ore Year 1
-					"AvailableStock": "20",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -613,7 +613,7 @@
 					]
 				},
 				"IronOre_YearOne": { // Iron Ore Year 1
-					"AvailableStock": "20",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -625,7 +625,7 @@
 					]
 				},
 				"Coal_YearOne": { // Coal Year 1
-					"AvailableStock": "10",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -637,7 +637,7 @@
 					]
 				},
 				"GoldOre_YearOne": { // Gold Ore Year 1
-					"AvailableStock": "20",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -649,9 +649,15 @@
 					]
 				},
 				"CopperOre_AfterYearOne": { // Copper Ore Year 2
-					"AvailableStock": "30",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -661,9 +667,15 @@
 					]
 				},
 				"IronOre_AfterYearOne": { // Iron Ore Year 2
-					"AvailableStock": "30",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -673,9 +685,15 @@
 					]
 				},
 				"Coal_AfterYearOne": { // Coal Year 2
-					"AvailableStock": "15",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -685,9 +703,15 @@
 					]
 				},
 				"GoldOre_AfterYearOne": { // Gold Ore Year 2
-					"AvailableStock": "30",
+					"AvailableStock": "{{Ore & Coal Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -698,10 +722,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Carpenter's Shop (Limited Item Supply)
+		{ // Carpenter's Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -710,7 +734,7 @@
 			],
 			"Fields": {
 				"(O)388": { // Wood
-					"AvailableStock": "200",
+					"AvailableStock": "{{Wood & Stone Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -722,7 +746,7 @@
 					]
 				},
 				"(O)390": { // Stone
-					"AvailableStock": "200",
+					"AvailableStock": "{{Wood & Stone Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -735,10 +759,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Harvey's Clinic (Limited Item Supply)
+		{ // Harvey's Clinic (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -756,10 +780,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Dwarf's Shop (Limited Item Supply)
+		{ // Dwarf's Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -780,7 +804,7 @@
 					"AvailableStockLimit": "Player"
 				},
 				"(O)286": { // Cherry Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -792,7 +816,7 @@
 					]
 				},
 				"(O)287": { // Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -804,7 +828,7 @@
 					]
 				},
 				"(O)288": { // Mega Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -817,10 +841,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Volcano Shop (Limited Item Supply)
+		{ // Volcano Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -833,7 +857,7 @@
 					"AvailableStockLimit": "Player"
 				},
 				"(O)286": { // Cherry Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -845,7 +869,7 @@
 					]
 				},
 				"(O)287": { // Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -857,7 +881,7 @@
 					]
 				},
 				"(O)288": { // Mega Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -870,10 +894,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Resort Bar (Limited Item Supply)
+		{ // Resort Bar (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -931,10 +955,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Desert Trader (Limited Item Supply)
+		{ // Desert Trader (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -959,7 +983,7 @@
 					"AvailableStockLimit": "Player"
 				},
 				"(O)288": { // Mega Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -971,7 +995,7 @@
 					]
 				},
 				"(O)287": { // Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -996,10 +1020,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Desert Festival - Egg Shop (Limited Item Supply)
+		{ // Desert Festival - Egg Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1008,7 +1032,7 @@
 			],
 			"Fields": {
 				"(O)288": { // Mega Bomb
-					"AvailableStock": "20",
+					"AvailableStock": "{{Bomb Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1020,9 +1044,15 @@
 					]
 				},
 				"StrawberrySeeds_Monday": { // Starberry Seeds
-					"AvailableStock": "30",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -1032,9 +1062,15 @@
 					]
 				},
 				"StrawberrySeeds_Wednesday": { // Starberry Seeds
-					"AvailableStock": "30",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.5
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -1049,10 +1085,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Desert Festival - Pam's Shop (Limited Item Supply)
+		{ // Desert Festival - Pam's Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1098,10 +1134,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Krobus Shop (Limited Item Supply)
+		{ // Krobus Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1123,10 +1159,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Casino (Limited Item Supply)
+		{ // Casino (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1148,10 +1184,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Ice Cream Stand (Limited Item Supply)
+		{ // Ice Cream Stand (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1173,10 +1209,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Oasis (Limited Seed Supply)
+		{ // Oasis (Limited Seed Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1185,7 +1221,7 @@
 			],
 			"Fields": {
 				"(O)802": { // Cactus Seeds
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1197,7 +1233,7 @@
 					]
 				},
 				"(O)478": { // Rhubarb Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1209,7 +1245,7 @@
 					]
 				},
 				"(O)486": { // Starfruit Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1221,7 +1257,7 @@
 					]
 				},
 				"(O)494": { // Beet Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1234,10 +1270,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
-		{ // Egg Festival - Pierre's Shop (Limited Seed Supply)
+		{ // Egg Festival - Pierre's Shop (Limited Seed Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1246,9 +1282,15 @@
 			],
 			"Fields": {
 				"(O)745": { // Strawberry Seeds
-					"AvailableStock": "50",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								2
+							]
+						},
 						{
 							"Modification": "Multiply",
 							"RandomAmount": [
@@ -1259,10 +1301,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
-		{ // Pierre's Shop (Limited Item Supply)
+		{ // Pierre's Shop (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1271,7 +1313,7 @@
 			],
 			"Fields": {
 				"(O)245": { // Sugar
-					"AvailableStock": "40",
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1290,7 +1332,7 @@
 					]
 				},
 				"(O)246": { // Wheat Flour
-					"AvailableStock": "40",
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1309,7 +1351,7 @@
 					]
 				},
 				"(O)423": { // Rice
-					"AvailableStock": "40",
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1328,7 +1370,7 @@
 					]
 				},
 				"(O)247": { // Oil
-					"AvailableStock": "40",
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1347,7 +1389,7 @@
 					]
 				},
 				"(O)419": { // Vinegar
-					"AvailableStock": "40",
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1366,7 +1408,7 @@
 					]
 				},
 				"GrassStarter": { // Grass Starter
-					"AvailableStock": "80",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1385,7 +1427,7 @@
 					]
 				},
 				"(O)368": { // Basic Fertilizer
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1397,7 +1439,7 @@
 					]
 				},
 				"(O)369": { // Quality Fertilizer
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1409,7 +1451,7 @@
 					]
 				},
 				"(O)370": { // Basic Retaining Soil
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1421,7 +1463,7 @@
 					]
 				},
 				"(O)371": { // Quality Retaining Soil
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1433,7 +1475,7 @@
 					]
 				},
 				"(O)465": { // Speed-Gro
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1445,7 +1487,7 @@
 					]
 				},
 				"(O)466": { // Deluxe Speed-Gro
-					"AvailableStock": "80",
+					"AvailableStock": "{{Fertilizer Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1458,10 +1500,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // Pierre's Shop (Limited Seed Supply)
+		{ // Pierre's Shop (Limited Seed Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1470,7 +1512,7 @@
 			],
 			"Fields": {
 				"(O)472": { // Parsnip Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1489,7 +1531,7 @@
 					]
 				},
 				"(O)473": { // Bean Starter
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1508,7 +1550,7 @@
 					]
 				},
 				"(O)474": { // Cauliflower Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1527,7 +1569,7 @@
 					]
 				},
 				"(O)475": { // Potato Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1546,7 +1588,7 @@
 					]
 				},
 				"(O)427": { // Tulip Bulb
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1565,7 +1607,7 @@
 					]
 				},
 				"(O)477": { // Kale Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1584,7 +1626,7 @@
 					]
 				},
 				"(O)429": { // Jazz Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1603,7 +1645,7 @@
 					]
 				},
 				"(O)476": { // Garlic Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1622,7 +1664,7 @@
 					]
 				},
 				"(O)273": { // Rice Shoot
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1641,7 +1683,7 @@
 					]
 				},
 				"(O)479": { // Melon Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1660,7 +1702,7 @@
 					]
 				},
 				"(O)480": { // Tomato Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1679,7 +1721,7 @@
 					]
 				},
 				"(O)481": { // Blueberry Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1698,7 +1740,7 @@
 					]
 				},
 				"(O)482": { // Pepper Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1717,7 +1759,7 @@
 					]
 				},
 				"WheatSeeds_Summer": { // Wheat Seeds Summer
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1736,7 +1778,7 @@
 					]
 				},
 				"WheatSeeds_Fall": { // Wheat Seeds Fall
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1755,7 +1797,7 @@
 					]
 				},
 				"(O)484": { // Radish Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1774,7 +1816,7 @@
 					]
 				},
 				"(O)453": { // Poppy Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1793,7 +1835,7 @@
 					]
 				},
 				"(O)455": { // Spangle Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1812,7 +1854,7 @@
 					]
 				},
 				"(O)302": { // Hops Starter
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1831,7 +1873,7 @@
 					]
 				},
 				"CornSeeds_Summer": { // Corn Seeds Summer
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1850,7 +1892,7 @@
 					]
 				},
 				"CornSeeds_Fall": { // Corn Seeds Fall
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1869,7 +1911,7 @@
 					]
 				},
 				"SunflowerSeeds_Summer": { // Sunflower Seeds Summer
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1888,7 +1930,7 @@
 					]
 				},
 				"SunflowerSeeds_Fall": { // Sunflower Seeds Fall
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1907,7 +1949,7 @@
 					]
 				},
 				"(O)485": { // Red Cabbage Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1926,7 +1968,7 @@
 					]
 				},
 				"(O)488": { // Eggplant Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1945,7 +1987,7 @@
 					]
 				},
 				"(O)490": { // Pumpkin Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1964,7 +2006,7 @@
 					]
 				},
 				"(O)491": { // Bok Choy Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -1983,7 +2025,7 @@
 					]
 				},
 				"(O)492": { // Yam Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2002,7 +2044,7 @@
 					]
 				},
 				"(O)493": { // Cranberry Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2021,7 +2063,7 @@
 					]
 				},
 				"(O)425": { // Fairy Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2040,7 +2082,7 @@
 					]
 				},
 				"(O)299": { // Amaranth Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2059,7 +2101,7 @@
 					]
 				},
 				"(O)301": { // Grape Starter
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2078,7 +2120,7 @@
 					]
 				},
 				"(O)489": { // Artichoke Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2122,10 +2164,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
-		{ // JojaMart (Limited Item Supply)
+		{ // JojaMart (Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2146,7 +2188,7 @@
 					]
 				},
 				"(O)297": { // Grass Starter
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2158,7 +2200,7 @@
 					]
 				},
 				"(O)245": { // Sugar
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2170,7 +2212,7 @@
 					]
 				},
 				"(O)246": { // Wheat Flour
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2182,7 +2224,7 @@
 					]
 				},
 				"(O)423": { // Rice
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2195,10 +2237,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
-		{ // JojaMart (SVE - Limited Item Supply)
+		{ // JojaMart (SVE - Limited Item Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2207,7 +2249,7 @@
 			],
 			"Fields": {
 				"(O)247": { // Oil
-					"AvailableStock": "40",
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2219,7 +2261,7 @@
 					]
 				},
 				"(O)419": { // Vinegar
-					"AvailableStock": "40",
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2232,11 +2274,11 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
 		},
-		{ // JojaMart (Limited Seed Supply)
+		{ // JojaMart (Limited Seed Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2245,7 +2287,7 @@
 			],
 			"Fields": {
 				"(O)472": { // Parsnip Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2257,7 +2299,7 @@
 					]
 				},
 				"(O)473": { // Bean Starter
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2269,7 +2311,7 @@
 					]
 				},
 				"(O)474": { // Cauliflower Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2281,7 +2323,7 @@
 					]
 				},
 				"(O)475": { // Potato Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2293,7 +2335,7 @@
 					]
 				},
 				"(O)427": { // Tulip Bulb
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2305,7 +2347,7 @@
 					]
 				},
 				"(O)477": { // Kale Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2317,7 +2359,7 @@
 					]
 				},
 				"(O)429": { // Jazz Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2329,7 +2371,7 @@
 					]
 				},
 				"(O)479": { // Melon Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2341,7 +2383,7 @@
 					]
 				},
 				"(O)480": { // Tomato Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2353,7 +2395,7 @@
 					]
 				},
 				"(O)482": { // Pepper Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2365,7 +2407,7 @@
 					]
 				},
 				"WheatSeeds_Summer": { // Wheat Seats Summer
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2377,7 +2419,7 @@
 					]
 				},
 				"WheatSeeds_Fall": { // Wheat Seats Fall
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2389,7 +2431,7 @@
 					]
 				},
 				"(O)484": { // Radish Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2401,7 +2443,7 @@
 					]
 				},
 				"(O)453": { // Poppy Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2413,7 +2455,7 @@
 					]
 				},
 				"(O)455": { // Spangle Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2425,7 +2467,7 @@
 					]
 				},
 				"(O)302": { // Hops Starter
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2437,7 +2479,7 @@
 					]
 				},
 				"(O)487": { // Corn Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2449,7 +2491,7 @@
 					]
 				},
 				"SunflowerSeeds_Summer": { // Sunflower Seeds Summer
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2461,7 +2503,7 @@
 					]
 				},
 				"SunflowerSeeds_Fall": { // Sunflower Seeds Fall
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2473,7 +2515,7 @@
 					]
 				},
 				"(O)488": { // Eggplant Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2485,7 +2527,7 @@
 					]
 				},
 				"(O)490": { // Pumpkin Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2497,7 +2539,7 @@
 					]
 				},
 				"(O)491": { // Bok Choy Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2509,7 +2551,7 @@
 					]
 				},
 				"(O)492": { // Yam Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2521,7 +2563,7 @@
 					]
 				},
 				"(O)493": { // Cranberry Seeds
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2533,7 +2575,7 @@
 					]
 				},
 				"(O)425": { // Fairy Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2545,7 +2587,7 @@
 					]
 				},
 				"(O)299": { // Amaranth Seeds
-					"AvailableStock": "40",
+					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2557,7 +2599,7 @@
 					]
 				},
 				"(O)301": { // Grape Starter
-					"AvailableStock": "20",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -2570,7 +2612,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
@@ -2718,7 +2760,7 @@
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,
-				"Limited Item Supply": true
+				"Limited Item Stock": true
 			}
 		},
 		{ // Harvey's Clinic Sells Life Elixirs (Unlimited)
@@ -2738,7 +2780,7 @@
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,
-				"Limited Item Supply": false
+				"Limited Item Stock": false
 			}
 		}
 	]

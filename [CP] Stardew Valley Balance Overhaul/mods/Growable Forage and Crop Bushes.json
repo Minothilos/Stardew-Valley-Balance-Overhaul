@@ -125,7 +125,7 @@
 				} // Grape Starter
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
@@ -146,7 +146,7 @@
 				} // Grape Planter
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
 			}
@@ -165,7 +165,7 @@
 				} // Hazelnut Sapling
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			],
 			"Fields": {
 				"Cornucopia_HollySeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -189,7 +189,7 @@
 					]
 				},
 				"Cornucopia_BlackberrySeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -201,7 +201,7 @@
 					]
 				},
 				"Cornucopia_SalmonberrySeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -214,7 +214,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
@@ -227,7 +227,7 @@
 			],
 			"Fields": {
 				"(O)302": { // Hops Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -240,7 +240,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Hops Bush": true
 			}
@@ -254,7 +254,7 @@
 			],
 			"Fields": {
 				"(O)301": { // Grape Starter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -267,7 +267,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Grapes Bush": true
 			}
@@ -281,7 +281,7 @@
 			],
 			"Fields": {
 				"(O)481": { // Blueberry Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -294,7 +294,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Blueberry Bush": true
 			}
@@ -312,7 +312,7 @@
 				"Cornucopia_CrocusSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -324,7 +324,7 @@
 			],
 			"Fields": {
 				"(O)302": { // Hops Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -337,7 +337,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Hops Bush": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
@@ -352,7 +352,7 @@
 			],
 			"Fields": {
 				"(O)301": { // Grape Starter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -365,7 +365,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Grapes Bush": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
@@ -380,7 +380,7 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": { // Hops Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -392,7 +392,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": { // Hops Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -404,7 +404,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": { // Hops Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -417,7 +417,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Hops Bush": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
@@ -432,7 +432,7 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": { // Grape Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -444,7 +444,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": { // Grape Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -456,7 +456,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": { // Grape Planter
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -469,7 +469,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Grapes Bush": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
@@ -488,7 +488,7 @@
 				"Cornucopia_CrocusSeeds": null
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		},
 		{
@@ -500,7 +500,7 @@
 			],
 			"Fields": {
 				"Cornucopia_CommonMushroomSeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -512,7 +512,7 @@
 					]
 				},
 				"Cornucopia_ChanterelleSeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -524,7 +524,7 @@
 					]
 				},
 				"Cornucopia_MorelSeeds": {
-					"AvailableStock": "10",
+					"AvailableStock": "{{Regrowing Seeds Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -537,7 +537,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Supply": true,
+				"Limited Seed Stock": true,
 				"HasMod|contains=furyx639.CustomBush": true
 			}
 		},
@@ -555,7 +555,7 @@
 				} // Coconut Sapling
 			},
 			"When": {
-				"Limited Seed Supply": true
+				"Limited Seed Stock": true
 			}
 		}
 	]
