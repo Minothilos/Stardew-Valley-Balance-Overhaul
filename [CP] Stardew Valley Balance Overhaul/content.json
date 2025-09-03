@@ -4,52 +4,52 @@
 		"Community Center Bundles": {
 			"AllowValues": "Off, SVBO, SVBO/SVE, SVBO/RSV, SVBO/SVE/RSV",
 			"Default": "SVBO",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Artisan Goods Processing": {
 			"AllowValues": "Off, On, Large Animal Products Only",
 			"Default": "On",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Monster Strength": {
 			"AllowValues": "Off, Normal, Hard, Very Hard",
 			"Default": "Normal",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Sell Prices & Adjustments": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Food": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Buildings": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Museum Rewards": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Monster Eradication Goals": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Cask Aging": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Seed & Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
-			"Section": "Balance"
+			"Section": "General"
 		},
 		"Machines": {
 			"AllowValues": "Off, Normal, Hard, Very Hard",
