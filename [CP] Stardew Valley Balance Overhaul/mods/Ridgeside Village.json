@@ -603,6 +603,9 @@
 					"MaxDamage": "120",
 					"CritChance": ".10"
 				}
+			},
+			"When": {
+				"Weapons": true
 			}
 		},
 		{ // Food

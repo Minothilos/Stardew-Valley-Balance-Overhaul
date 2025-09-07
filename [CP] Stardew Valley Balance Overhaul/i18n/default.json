@@ -17,6 +17,7 @@
 	"config.Monster Eradication Goals.description": "Changes monster eradication goals to require less kills.",
 	"config.Food.description": "Changes Food, durations, and edibility.",
 	"config.Buildings.description": "Changes building costs.",
+	"config.Weapons.description": "Changes weapon damage. Currently only nerfs Ridgeside Village weapons.",
 	"config.Museum Rewards.description": "Changes museum rewards to be in a better order and more rewarding.",
 	"config.Prices & Inventories.description": "Changes shop prices and inventories. Should be enabled if you use Limited Item/Seed Stock.",
 	"config.Seed & Bait Maker Output.description": "Changes Seed & Bait Maker output based on ingredient quality.",

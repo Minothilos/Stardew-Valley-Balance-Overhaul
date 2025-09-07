@@ -2106,7 +2106,8 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_BlueGrassStarter": {
-					"AvailableStock": "5"
+					"AvailableStock": "5",
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -2139,7 +2140,8 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_BlueGrassStarter": {
-					"AvailableStock": "5"
+					"AvailableStock": "5",
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {

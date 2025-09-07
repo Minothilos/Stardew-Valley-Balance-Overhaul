@@ -496,15 +496,7 @@
 			"Fields": {
 				"(O)346": { // Beer
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)196": { // Salad
 					"AvailableStock": "3",
@@ -512,15 +504,7 @@
 				},
 				"(O)216": { // Bread
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)224": { // Spaghetti
 					"AvailableStock": "3",
@@ -532,15 +516,7 @@
 				},
 				"(O)395": { // Coffee
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -911,39 +887,15 @@
 				},
 				"(O)346": { // Beer
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)303": { // Pale Ale
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)459": { // Mead
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)612": { // Cranberry Candy
 					"AvailableStock": "3",
@@ -968,15 +920,7 @@
 			"Fields": {
 				"(O)253": { // Triple Shot Espresso
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)226": { // Spicy Eel
 					"AvailableStock": "3",
@@ -1098,39 +1042,15 @@
 			"Fields": {
 				"(O)346": { // Beer
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)459": { // Mead
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				},
 				"(O)303": { // Pale Ale
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -1147,15 +1067,7 @@
 			"Fields": {
 				"(O)770": { // Mixed Seeds
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -1172,15 +1084,7 @@
 			"Fields": {
 				"(O)688": { // Warp Totem: Farm
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {
@@ -1197,15 +1101,7 @@
 			"Fields": {
 				"(O)233": { // Ice Cream
 					"AvailableStock": "5",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
+					"AvailableStockLimit": "Player"
 				}
 			},
 			"When": {

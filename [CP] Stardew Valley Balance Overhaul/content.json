@@ -31,6 +31,11 @@
 			"Default": "true",
 			"Section": "General"
 		},
+		"Weapons": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
 		"Museum Rewards": {
 			"AllowValues": "false, true",
 			"Default": "true",
@@ -117,11 +122,11 @@
 			"Section": "Shops"
 		},
 		"Bomb Stock": {
-			"Default": "20",
+			"Default": "25",
 			"Section": "Shops"
 		},
 		"Ore & Coal Stock": {
-			"Default": "20",
+			"Default": "25",
 			"Section": "Shops"
 		},
 		"Wood & Stone Stock": {
@@ -129,15 +134,15 @@
 			"Section": "Shops"
 		},
 		"Fertilizer Stock": {
-			"Default": "80",
+			"Default": "100",
 			"Section": "Shops"
 		},
 		"Cooking Ingredients Stock": {
-			"Default": "80",
+			"Default": "50",
 			"Section": "Shops"
 		},
 		"Bait Stock": {
-			"Default": "30",
+			"Default": "25",
 			"Section": "Shops"
 		},
 		"Limited Seed Stock": {
@@ -146,11 +151,11 @@
 			"Section": "Shops"
 		},
 		"Normal Seeds Stock": {
-			"Default": "40",
+			"Default": "50",
 			"Section": "Shops"
 		},
 		"Regrowing Seeds Stock": {
-			"Default": "20",
+			"Default": "25",
 			"Section": "Shops"
 		},
 		"Split Large Animal Products": {

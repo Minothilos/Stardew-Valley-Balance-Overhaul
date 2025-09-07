@@ -61,36 +61,6 @@
                 "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
             }
         },
-        { // Lantana Love Shop (Limited Item Stock)
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [
-                "PolyamorySweet.LantanaLoveShop",
-                "Items"
-            ],
-            "Fields": {
-                "ApryllForever.CPPolyamorySweet_AineFlower": {
-                    "AvailableStock": "1",
-                    "AvailableStockLimit": "Player"
-                },
-                "ApryllForever.CPPolyamorySweet_AphroditeFlower": {
-                    "AvailableStock": "1",
-                    "AvailableStockLimit": "Player"
-                },
-                "ApryllForever.CPPolyamorySweet_LilithToken": {
-                    "AvailableStock": "1",
-                    "AvailableStockLimit": "Player"
-                },
-                "ApryllForever.CPPolyamorySweet_MermaidBouquet": {
-                    "AvailableStock": "1",
-                    "AvailableStockLimit": "Player"
-                }
-            },
-            "When": {
-                "Limited Item Stock": true,
-                "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
-            }
-        },
         { // Lantana Love Shop (Limited Seed Stock)
             "Action": "EditData",
             "Target": "Data/Shops",
@@ -148,27 +118,6 @@
             },
             "When": {
                 "Sell Prices & Adjustments": true
-            }
-        },
-        { // Pierre's General Store (Limited Item Stock)
-            "Action": "EditData",
-            "Target": "Data/Shops",
-            "TargetField": [
-                "SeedShop",
-                "Items"
-            ],
-            "Fields": {
-                "ApryllForever.CPPolyamorySweet_AineFlower": {
-                    "AvailableStock": "1",
-                    "AvailableStockLimit": "Player"
-                },
-                "ApryllForever.CPPolyamorySweet_AphroditeFlower": {
-                    "AvailableStock": "1",
-                    "AvailableStockLimit": "Player"
-                }
-            },
-            "When": {
-                "Limited Item Stock": true
             }
         },
         { // Pierre's General Store (Limited Seed Stock)
