@@ -24,7 +24,7 @@
 	"config.Limited Item Stock.description": "Changes daily purchase amount of some items sold by shops. Change specific amounts with the following settings.",
 	"config.Bomb Stock.description": "Changes daily purchase amount of bombs. Limited Item Stock must be enabled.",
 	"config.Ore & Coal Stock.description": "Changes daily purchase amount of ore & coal. Limited Item Stock must be enabled.",
-	"config.Wood & Stone Stock.description": "Changes daily purchase amount of wood & coal. Limited Item Stock must be enabled.",
+	"config.Wood & Stone Stock.description": "Changes daily purchase amount of wood & stone. Limited Item Stock must be enabled.",
 	"config.Fertilizer Stock.description": "Changes daily purchase amount of fertilizer. Limited Item Stock must be enabled.",
 	"config.Cooking Ingredients Stock.description": "Changes daily purchase amount of cooking ingredients. Limited Item Stock must be enabled.",
 	"config.Bait Stock.description": "Changes daily purchase amount of bait. Limited Item Stock must be enabled.",
