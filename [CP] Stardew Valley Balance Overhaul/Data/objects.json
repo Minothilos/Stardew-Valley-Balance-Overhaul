@@ -1541,15 +1541,43 @@
 				},
 				"346": { // Beer
 					"Price": "180"
-				},
-				"459": { // Mead
-					"Price": "250"
 				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
 				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{ // Vanilla Mead - Susan Special Order (SVE)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"459": { // Mead
+					"Price": "500"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5407917": true,
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=selph.FlavoredMead": false,
+				"HasMod|contains=BetterHoneyMeadCP": false
+			}
+		},
+		{ // Flavored Mead - Susan Special Order (SVE)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"459": { // Mead
+					"Price": "330"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5407917": true,
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
 		{ // Susan Special Order (SVE + Cornucopia)

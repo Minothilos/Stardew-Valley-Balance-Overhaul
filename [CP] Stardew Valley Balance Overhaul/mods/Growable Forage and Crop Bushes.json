@@ -57,7 +57,7 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"399": {
+				"303": {
 					"Price": "150"
 				}, // Pale Ale
 				"302": {
