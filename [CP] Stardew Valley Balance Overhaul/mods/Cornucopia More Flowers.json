@@ -197,7 +197,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices & Adjustments": true
+				"Strict Seed Maker": true
 			}
 		},
 		{

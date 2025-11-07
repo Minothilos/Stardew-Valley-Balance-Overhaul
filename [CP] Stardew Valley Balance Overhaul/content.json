@@ -51,6 +51,16 @@
 			"Default": "true",
 			"Section": "General"
 		},
+		"Better Giant Crops": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
+		"Strict Seed Maker": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
 		"Seed & Bait Maker Output": {
 			"AllowValues": "false, true",
 			"Default": "true",
