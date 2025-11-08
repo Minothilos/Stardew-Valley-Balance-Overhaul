@@ -5,13 +5,58 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"EastScarp_Azure_Chrysanthemum": {
-					"Price": "160"
+					"Price": "60"
 				},
 				"EastScarp_Bird_Of_Paradise": {
-					"Price": "150"
+					"Price": "95"
 				},
 				"EastScarp_Serruria": {
-					"Price": "170"
+					"Price": "80"
+				},
+				"EastScarp_PuckerWort": {
+					"Price": "60"
+				},
+				"EastScarp_BiteBackMelon": {
+					"Price": "45"
+				},
+				"EastScarp_FrostBerry": {
+					"Price": "20"
+				},
+				"Lemurkat.EastScarp_GiggleFit": {
+					"Price": "175"
+				},
+				"Lemurkat.EastScarp_ButterTuff": {
+					"Price": "70"
+				},
+				"Lemurkat.EastScarp_FairyCap": {
+					"Price": "100"
+				},
+				"Lemurkat.EastScarp_Paneeki": {
+					"Price": "140"
+				},
+				"EastScarp_Cuccaroot": {
+					"Price": "70"
+				},
+				"Lemurkat.EastScarp_ZinfazuFruit": {
+					"Price": "600"
+				},
+				"Lemurkat.EastScarp_YohoFruit": {
+					"Price": "50"
+				},
+				"Lemurkat.EastScarp_DeepCaveFruit": {
+					"Price": "175"
+				},
+				"Lemurkat.EastScarp_CaveFlower": {
+					"Price": "95"
+				},
+				"Lemurkat.EastScarp_FirePepper": {
+					"Price": "105"
+				},
+				"Lemurkat.EastScarp_ChocoFruit": {
+					"Price": "40"
+				},
+				"Lemurkat.EastScarp_ButtonFruit": {
+					"Price": "50"
 				},
 				"Lemurkat_Heirloom_Cherry_Tree": {
 					"Price": "600"
