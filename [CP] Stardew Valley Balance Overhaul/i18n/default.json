@@ -22,7 +22,7 @@
 	"config.Buildings.description": "Changes building costs.",
 	"config.Weapons.description": "Changes weapon damage. Currently only nerfs Ridgeside Village weapons.",
 	"config.Museum Rewards.description": "Changes museum rewards to be in a better order and more rewarding.",
-	"config.Prices & Inventories.description": "Changes shop prices and inventories. Should be enabled if you use Limited Item/Seed Stock.",
+	"config.Prices & Inventories.description": "Changes shop prices and inventories. Should be enabled if you use Limited Stock.",
 	"config.Improved Seed & Bait Maker.description": "Changes Seed & Bait Maker output based on ingredient quality.",
 	"config.Cask Aging.description": "Changes the duration of aging to be more balanced and allows some additional items to be aged in casks.",
 	"config.Limited Stock.description": "Changes daily purchase amount of some items sold by shops. Exact amounts can be customized below.",
