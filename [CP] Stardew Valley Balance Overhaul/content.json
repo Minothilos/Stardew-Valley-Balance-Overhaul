@@ -131,12 +131,7 @@
 			"Default": "true",
 			"Section": "Shops"
 		},
-		"Limited Seed Stock": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Shops"
-		},
-		"Limited Item Stock": {
+		"Limited Stock": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "Shops"

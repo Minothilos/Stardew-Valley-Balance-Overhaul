@@ -96,7 +96,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Jessie Seed Shop (Limited Seed Stock)
+		{ // Jessie Seed Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -283,20 +283,7 @@
 							]
 						}
 					]
-				}
-			},
-			"When": {
-				"Limited Seed Stock": true
-			}
-		},
-		{ // Jessie Seed Shop (Limited Item Stock)
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Lemurkat.EastScarp_JessieSeedShop",
-				"Items"
-			],
-			"Fields": {
+				},
 				"Lemurkat.EastScarp_Jessie4": { //Life Elixir
 					"AvailableStock": "1",
 					"AvailableStockLimit": "Player"
@@ -367,10 +354,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Aideen Flower Shop (Limited Seed Stock)
+		{ // Aideen Flower Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -461,20 +448,7 @@
 							]
 						}
 					]
-				}
-			},
-			"When": {
-				"Limited Seed Stock": true
-			}
-		},
-		{ // Aideen Flower Shop (Limited Item Stock)
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Lemurkat.EastScarp_AideenFlowerShop",
-				"Items"
-			],
-			"Fields": {
+				},
 				"Lemurkat.EastScarp_Aideen1": { //Blue Jazz
 					"AvailableStock": "20",
 					"AvailableStockLimit": "Player",
@@ -609,7 +583,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		}
 	]

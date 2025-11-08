@@ -705,7 +705,7 @@
 				"Prices & Inventories": true
 			}
 		},
-		{ // Pierre's Shop (Limited Seed Stock)
+		{ // Pierre's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -784,10 +784,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // JojaMart (Limited Seed Stock)
+		{ // JojaMart (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2012,10 +2012,34 @@
 							]
 						}
 					]
+				},
+				"(O)247": { // Oil
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
+							]
+						}
+					]
+				},
+				"(O)419": { // Vinegar
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
+					"AvailableStockLimit": "Player",
+					"AvailableStockModifiers": [
+						{
+							"Modification": "Multiply",
+							"RandomAmount": [
+								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
+							]
+						}
+					]
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
 		{ // Saloon Shop
@@ -2047,7 +2071,7 @@
 				"Prices & Inventories": true
 			}
 		},
-		{ // Saloon Shop (Limited Item Stock)
+		{ // Saloon Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2073,7 +2097,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
 		{ // Yellow Junimo Shop
@@ -2097,7 +2121,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Yellow Junimo Shop (Limited Item Stock)
+		{ // Yellow Junimo Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2111,7 +2135,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
 		{ // Zoey Shop
@@ -2131,7 +2155,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Zoey Shop (Limited Item Stock)
+		{ // Zoey Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2145,7 +2169,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
 		{ // Seed Maker Restrictions
