@@ -36,6 +36,11 @@
 			"Default": "true",
 			"Section": "General"
 		},
+		"Monster Drops": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
 		"Museum Rewards": {
 			"AllowValues": "false, true",
 			"Default": "true",
@@ -51,22 +56,17 @@
 			"Default": "true",
 			"Section": "General"
 		},
-		"Better Giant Crops": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "General"
-		},
 		"Strict Seed Maker": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "General"
 		},
-		"Seed & Bait Maker Output": {
+		"Improved Giant Crops": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "General"
 		},
-		"Monster Drops": {
+		"Improved Seed & Bait Maker": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "General"
@@ -131,9 +131,22 @@
 			"Default": "true",
 			"Section": "Shops"
 		},
+		"Limited Seed Stock": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Shops"
+		},
 		"Limited Item Stock": {
 			"AllowValues": "false, true",
 			"Default": "true",
+			"Section": "Shops"
+		},
+		"Normal Seeds Stock": {
+			"Default": "50",
+			"Section": "Shops"
+		},
+		"Regrowing Seeds Stock": {
+			"Default": "25",
 			"Section": "Shops"
 		},
 		"Bomb Stock": {
@@ -157,19 +170,6 @@
 			"Section": "Shops"
 		},
 		"Bait Stock": {
-			"Default": "25",
-			"Section": "Shops"
-		},
-		"Limited Seed Stock": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Shops"
-		},
-		"Normal Seeds Stock": {
-			"Default": "50",
-			"Section": "Shops"
-		},
-		"Regrowing Seeds Stock": {
 			"Default": "25",
 			"Section": "Shops"
 		},
