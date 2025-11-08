@@ -2,6 +2,7 @@
 	"config.Sell Prices & Adjustments.description": "Changes the sell prices of most items and makes various other adjustments to balance the game around them.",
 	"config.Better Giant Crops.description": "Changes giant crops to scale with farming level.",
 	"config.Strict Seed Maker.description": "Changes seed maker to not allow certain crops. WARNING: Turning this off will make those crops unbalanced!",
+	"config.Monster Drops.description": "Changes monster drops.",
 	"config.Machines.description": "Changes machine crafting recipes.",
 	"config.Sprinklers.description": "Changes sprinkler crafting recipes.",
 	"config.Fertilizers.description": "Changes fertilizer crafting recipes.",

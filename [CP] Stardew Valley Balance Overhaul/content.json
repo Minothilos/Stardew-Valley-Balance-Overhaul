@@ -66,6 +66,11 @@
 			"Default": "true",
 			"Section": "General"
 		},
+		"Monster Drops": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
 		"Machines": {
 			"AllowValues": "Off, Normal, Hard, Very Hard",
 			"Default": "Normal",
