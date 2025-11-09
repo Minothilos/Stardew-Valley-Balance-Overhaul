@@ -120,6 +120,14 @@
 			"IsRequired": false
 		},
 		{
+			"UniqueID": "selph.CoopFeed",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "bb.moreTea",
+			"IsRequired": false
+		},
+		{
 			"UniqueID": "Lumisteria.GlimmeringClumpsNodes",
 			"IsRequired": false
 		}

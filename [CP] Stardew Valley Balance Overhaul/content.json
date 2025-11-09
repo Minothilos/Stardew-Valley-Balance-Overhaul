@@ -376,6 +376,20 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "mods/Simple Tea Expansion.json",
+			"When": {
+				"HasMod": "bb.moreTea"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Chicken Feed.json",
+			"When": {
+				"HasMod": "selph.CoopFeed"
+			}
+		},
+		{
+			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
 				"Minothilos Tweaks": true

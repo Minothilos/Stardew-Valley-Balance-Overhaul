@@ -1,0 +1,31 @@
+{
+	"Changes": [
+		{ // Increased Silo Size
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+            "TargetField": [
+                "Silo"
+            ],
+        "Entries": {
+            "HayCapacity": "500"
+            },
+            "When": {
+				"Increased Silo Size": true
+		    }
+		},
+		{ // Increased Silo Size
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+            "TargetField": [
+                "Silo",
+                "CustomFields"
+            ],
+        "Entries": {
+            "selph.ExtraAnimalConfig.SiloCapacity.(O)selph.CoopFeed.ChickenFeed": "500"
+            },
+            "When": {
+				"Increased Silo Size": true
+		    }
+		}
+	]
+}
