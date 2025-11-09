@@ -390,6 +390,13 @@
 			"When": {
 				"Minothilos Tweaks": true
 			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Central Station.json",
+			"When": {
+				"HasMod": "Pathoschild.CentralStation.Content"
+			}
 		}
 	]
 }
