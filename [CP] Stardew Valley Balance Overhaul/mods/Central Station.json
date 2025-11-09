@@ -1,0 +1,113 @@
+{
+	"Changes": [
+		{ // Food Court Shop
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [
+				"Pathoschild.CentralStation_FoodCourt",
+				"Items"
+			],
+			"Fields": {
+				"AppleJuice": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"OrangeJuice": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"Coffee": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"TripleShotEspresso": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"FriedEgg": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"Tortilla": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"FriedMushroom": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"Salad": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"SurvivalBurger": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"Pizza": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"FruitSalad": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"Apple": { 
+					"AvailableStock": "1",
+					"AvailableStockLimit": "Player",
+                    "Price": 700
+				},
+				"Banana": { 
+					"AvailableStock": "1",
+					"AvailableStockLimit": "Player",
+                    "Price": 1000
+				},
+				"Orange": { 
+					"AvailableStock": "1",
+					"AvailableStockLimit": "Player",
+                    "Price": 1100
+				},
+				"Pineapple": { 
+					"AvailableStock": "1",
+					"AvailableStockLimit": "Player",
+                    "Price": 1200
+				},
+				"MapleSyrup": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"Raisins": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"IceCream": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"Cookie": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"CranberryCandy": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"BananaPudding": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"ChocolateCake": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				},
+				"BlackberryCobbler": { 
+					"AvailableStock": "3",
+					"AvailableStockLimit": "Player"
+				}
+			},
+			"When": {
+				"Limited Stock": true
+			}
+		}
+	]
+}

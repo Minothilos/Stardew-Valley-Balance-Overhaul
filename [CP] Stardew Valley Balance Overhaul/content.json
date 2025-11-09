@@ -36,6 +36,11 @@
 			"Default": "true",
 			"Section": "General"
 		},
+		"Monster Drops": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
 		"Museum Rewards": {
 			"AllowValues": "false, true",
 			"Default": "true",
@@ -51,7 +56,17 @@
 			"Default": "true",
 			"Section": "General"
 		},
-		"Seed & Bait Maker Output": {
+		"Strict Seed Maker": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
+		"Improved Giant Crops": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "General"
+		},
+		"Improved Seed & Bait Maker": {
 			"AllowValues": "false, true",
 			"Default": "true",
 			"Section": "General"
@@ -116,9 +131,17 @@
 			"Default": "true",
 			"Section": "Shops"
 		},
-		"Limited Item Stock": {
+		"Limited Stock": {
 			"AllowValues": "false, true",
 			"Default": "true",
+			"Section": "Shops"
+		},
+		"Normal Seeds Stock": {
+			"Default": "50",
+			"Section": "Shops"
+		},
+		"Regrowing Seeds Stock": {
+			"Default": "25",
 			"Section": "Shops"
 		},
 		"Bomb Stock": {
@@ -142,19 +165,6 @@
 			"Section": "Shops"
 		},
 		"Bait Stock": {
-			"Default": "25",
-			"Section": "Shops"
-		},
-		"Limited Seed Stock": {
-			"AllowValues": "false, true",
-			"Default": "true",
-			"Section": "Shops"
-		},
-		"Normal Seeds Stock": {
-			"Default": "50",
-			"Section": "Shops"
-		},
-		"Regrowing Seeds Stock": {
 			"Default": "25",
 			"Section": "Shops"
 		},
@@ -393,6 +403,13 @@
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
 				"Minothilos Tweaks": true
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Central Station.json",
+			"When": {
+				"HasMod": "Pathoschild.CentralStation.Content"
 			}
 		}
 	]

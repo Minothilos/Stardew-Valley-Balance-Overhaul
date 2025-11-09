@@ -61,7 +61,7 @@
                 "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
             }
         },
-        { // Lantana Love Shop (Limited Seed Stock)
+        { // Lantana Love Shop (Limited Stock)
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -95,7 +95,7 @@
                 }
             },
             "When": {
-                "Limited Seed Stock": true,
+                "Limited Stock": true,
                 "Spiderbuttons.CMCT/Config: ApryllForever.CPPolyamorySweet, Lantana_Disable": false
             }
         },
@@ -120,7 +120,7 @@
                 "Sell Prices & Adjustments": true
             }
         },
-        { // Pierre's General Store (Limited Seed Stock)
+        { // Pierre's General Store (Limited Stock)
             "Action": "EditData",
             "Target": "Data/Shops",
             "TargetField": [
@@ -154,7 +154,7 @@
                 }
             },
             "When": {
-                "Limited Seed Stock": true
+                "Limited Stock": true
             }
         }
     ]

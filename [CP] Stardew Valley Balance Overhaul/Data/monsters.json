@@ -635,6 +635,714 @@
             "When": {
                 "Monster Eradication Goals": true
             }
+        },
+        { // Monsters Drops
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Green Slime", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dust Spirit", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Bat", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Frost Bat", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lava Bat", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Iridium Bat", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Stone Golem", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Wilderness Golem", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Iridium Golem", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": [ "Fields", "Grub", "6" ],
+                    "Search": "114 .005",
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": [ "Fields", "Fly", "6" ],
+                    "Search": "114 .005",
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Frost Jelly", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Sludge", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shadow Guy", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Ghost", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Carbon Ghost", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Duggy", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Rock Crab", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Truffle Crab", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lava Crab", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Iridium Crab", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Squid Kid", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Skeleton Warrior", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shadow Brute", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shadow Shaman", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Skeleton", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Skeleton Mage", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Metal Head", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Spiker", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "ReplaceDelimited",
+                    "Target": [ "Fields", "Bug", "6" ],
+                    "Search": "114 .005",
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Mummy", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Big Slime", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Serpent", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Pepper Rex", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Tiger Slime", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Lava Lurk", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Hot Head", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Magma Sprite", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Magma Duggy", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Magma Sparker", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "False Magma Cap", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Dwarvish Sentry", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Putrid Ghost", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Shadow Sniper", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Spider", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Royal Serpent", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Monsters",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [ "Fields", "Blue Squid", "6" ],
+                    "Value": "114 .001",
+                    "Delimiter": " "
+                }
+            ],
+            "When": {
+                "Monster Drops": true
+            }
         }
     ]
 }

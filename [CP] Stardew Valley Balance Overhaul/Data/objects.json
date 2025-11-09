@@ -1326,6 +1326,328 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
+		{	// Giant Crops
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"TargetField": [
+				"Cauliflower",
+				"HarvestItems"
+			],
+			"Entries": {
+				"Theoddon.BalanceOverhaul_GiantSeeds": {
+					"Id": "Theoddon.BalanceOverhaul_GiantSeeds",
+					"ItemId": "(O)474",
+					"MinStack": 5,
+					"MaxStack": 10
+				},
+				"Theoddon.BalanceOverhaul_Farming2": {
+					"Id": "Theoddon.BalanceOverhaul_Farming2",
+					"ItemId": "(O)190",
+					"Condition": "PLAYER_FARMING_LEVEL Current 2",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming4": {
+					"Id": "Theoddon.BalanceOverhaul_Farming4",
+					"ItemId": "(O)190",
+					"Condition": "PLAYER_FARMING_LEVEL Current 4",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming6": {
+					"Id": "Theoddon.BalanceOverhaul_Farming6",
+					"ItemId": "(O)190",
+					"Condition": "PLAYER_FARMING_LEVEL Current 6",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming8": {
+					"Id": "Theoddon.BalanceOverhaul_Farming8",
+					"ItemId": "(O)190",
+					"Condition": "PLAYER_FARMING_LEVEL Current 8",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming10": {
+					"Id": "Theoddon.BalanceOverhaul_Farming10",
+					"ItemId": "(O)190",
+					"Condition": "PLAYER_FARMING_LEVEL Current 10",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming12": {
+					"Id": "Theoddon.BalanceOverhaul_Farming12",
+					"ItemId": "(O)190",
+					"Condition": "PLAYER_FARMING_LEVEL Current 12",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming14": {
+					"Id": "Theoddon.BalanceOverhaul_Farming14",
+					"ItemId": "(O)190",
+					"Condition": "PLAYER_FARMING_LEVEL Current 14",
+					"MinStack": 2,
+					"MaxStack": 4
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"TargetField": [
+				"Melon",
+				"HarvestItems"
+			],
+			"Entries": {
+				"Theoddon.BalanceOverhaul_GiantSeeds": {
+					"Id": "Theoddon.BalanceOverhaul_GiantSeeds",
+					"ItemId": "(O)479",
+					"MinStack": 5,
+					"MaxStack": 10
+				},
+				"Theoddon.BalanceOverhaul_Farming2": {
+					"Id": "Theoddon.BalanceOverhaul_Farming2",
+					"ItemId": "(O)254",
+					"Condition": "PLAYER_FARMING_LEVEL Current 2",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming4": {
+					"Id": "Theoddon.BalanceOverhaul_Farming4",
+					"ItemId": "(O)254",
+					"Condition": "PLAYER_FARMING_LEVEL Current 4",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming6": {
+					"Id": "Theoddon.BalanceOverhaul_Farming6",
+					"ItemId": "(O)254",
+					"Condition": "PLAYER_FARMING_LEVEL Current 6",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming8": {
+					"Id": "Theoddon.BalanceOverhaul_Farming8",
+					"ItemId": "(O)254",
+					"Condition": "PLAYER_FARMING_LEVEL Current 8",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming10": {
+					"Id": "Theoddon.BalanceOverhaul_Farming10",
+					"ItemId": "(O)254",
+					"Condition": "PLAYER_FARMING_LEVEL Current 10",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming12": {
+					"Id": "Theoddon.BalanceOverhaul_Farming12",
+					"ItemId": "(O)254",
+					"Condition": "PLAYER_FARMING_LEVEL Current 12",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming14": {
+					"Id": "Theoddon.BalanceOverhaul_Farming14",
+					"ItemId": "(O)254",
+					"Condition": "PLAYER_FARMING_LEVEL Current 14",
+					"MinStack": 2,
+					"MaxStack": 4
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"TargetField": [
+				"Pumpkin",
+				"HarvestItems"
+			],
+			"Entries": {
+				"Theoddon.BalanceOverhaul_GiantSeeds": {
+					"Id": "Theoddon.BalanceOverhaul_GiantSeeds",
+					"ItemId": "(O)490",
+					"MinStack": 5,
+					"MaxStack": 10
+				},
+				"Theoddon.BalanceOverhaul_Farming2": {
+					"Id": "Theoddon.BalanceOverhaul_Farming2",
+					"ItemId": "(O)276",
+					"Condition": "PLAYER_FARMING_LEVEL Current 2",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming4": {
+					"Id": "Theoddon.BalanceOverhaul_Farming4",
+					"ItemId": "(O)276",
+					"Condition": "PLAYER_FARMING_LEVEL Current 4",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming6": {
+					"Id": "Theoddon.BalanceOverhaul_Farming6",
+					"ItemId": "(O)276",
+					"Condition": "PLAYER_FARMING_LEVEL Current 6",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming8": {
+					"Id": "Theoddon.BalanceOverhaul_Farming8",
+					"ItemId": "(O)276",
+					"Condition": "PLAYER_FARMING_LEVEL Current 8",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming10": {
+					"Id": "Theoddon.BalanceOverhaul_Farming10",
+					"ItemId": "(O)276",
+					"Condition": "PLAYER_FARMING_LEVEL Current 10",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming12": {
+					"Id": "Theoddon.BalanceOverhaul_Farming12",
+					"ItemId": "(O)276",
+					"Condition": "PLAYER_FARMING_LEVEL Current 12",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming14": {
+					"Id": "Theoddon.BalanceOverhaul_Farming14",
+					"ItemId": "(O)276",
+					"Condition": "PLAYER_FARMING_LEVEL Current 14",
+					"MinStack": 2,
+					"MaxStack": 4
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"TargetField": [
+				"Powdermelon",
+				"HarvestItems"
+			],
+			"Entries": {
+				"Theoddon.BalanceOverhaul_GiantSeeds": {
+					"Id": "Theoddon.BalanceOverhaul_GiantSeeds",
+					"ItemId": "(O)PowdermelonSeeds",
+					"MinStack": 5,
+					"MaxStack": 10
+				},
+				"Theoddon.BalanceOverhaul_Farming2": {
+					"Id": "Theoddon.BalanceOverhaul_Farming2",
+					"ItemId": "(O)Powdermelon",
+					"Condition": "PLAYER_FARMING_LEVEL Current 2",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming4": {
+					"Id": "Theoddon.BalanceOverhaul_Farming4",
+					"ItemId": "(O)Powdermelon",
+					"Condition": "PLAYER_FARMING_LEVEL Current 4",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming6": {
+					"Id": "Theoddon.BalanceOverhaul_Farming6",
+					"ItemId": "(O)Powdermelon",
+					"Condition": "PLAYER_FARMING_LEVEL Current 6",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming8": {
+					"Id": "Theoddon.BalanceOverhaul_Farming8",
+					"ItemId": "(O)Powdermelon",
+					"Condition": "PLAYER_FARMING_LEVEL Current 8",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming10": {
+					"Id": "Theoddon.BalanceOverhaul_Farming10",
+					"ItemId": "(O)Powdermelon",
+					"Condition": "PLAYER_FARMING_LEVEL Current 10",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming12": {
+					"Id": "Theoddon.BalanceOverhaul_Farming12",
+					"ItemId": "(O)Powdermelon",
+					"Condition": "PLAYER_FARMING_LEVEL Current 12",
+					"MinStack": 2,
+					"MaxStack": 4
+				},
+				"Theoddon.BalanceOverhaul_Farming14": {
+					"Id": "Theoddon.BalanceOverhaul_Farming14",
+					"ItemId": "(O)Powdermelon",
+					"Condition": "PLAYER_FARMING_LEVEL Current 14",
+					"MinStack": 2,
+					"MaxStack": 4
+				}
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"TargetField": [
+				"QiFruit",
+				"HarvestItems"
+			],
+			"Entries": {
+				"Theoddon.BalanceOverhaul_Farming2": {
+					"Id": "Theoddon.BalanceOverhaul_Farming2",
+					"ItemId": "(O)QiFruit",
+					"Condition": "PLAYER_FARMING_LEVEL Current 2",
+					"MinStack": 1,
+					"MaxStack": 2
+				},
+				"Theoddon.BalanceOverhaul_Farming4": {
+					"Id": "Theoddon.BalanceOverhaul_Farming4",
+					"ItemId": "(O)QiFruit",
+					"Condition": "PLAYER_FARMING_LEVEL Current 4",
+					"MinStack": 1,
+					"MaxStack": 2
+				},
+				"Theoddon.BalanceOverhaul_Farming6": {
+					"Id": "Theoddon.BalanceOverhaul_Farming6",
+					"ItemId": "(O)QiFruit",
+					"Condition": "PLAYER_FARMING_LEVEL Current 6",
+					"MinStack": 1,
+					"MaxStack": 2
+				},
+				"Theoddon.BalanceOverhaul_Farming8": {
+					"Id": "Theoddon.BalanceOverhaul_Farming8",
+					"ItemId": "(O)QiFruit",
+					"Condition": "PLAYER_FARMING_LEVEL Current 8",
+					"MinStack": 1,
+					"MaxStack": 2
+				},
+				"Theoddon.BalanceOverhaul_Farming10": {
+					"Id": "Theoddon.BalanceOverhaul_Farming10",
+					"ItemId": "(O)QiFruit",
+					"Condition": "PLAYER_FARMING_LEVEL Current 10",
+					"MinStack": 1,
+					"MaxStack": 2
+				},
+				"Theoddon.BalanceOverhaul_Farming12": {
+					"Id": "Theoddon.BalanceOverhaul_Farming12",
+					"ItemId": "(O)QiFruit",
+					"Condition": "PLAYER_FARMING_LEVEL Current 12",
+					"MinStack": 1,
+					"MaxStack": 2
+				},
+				"Theoddon.BalanceOverhaul_Farming14": {
+					"Id": "Theoddon.BalanceOverhaul_Farming14",
+					"ItemId": "(O)QiFruit",
+					"Condition": "PLAYER_FARMING_LEVEL Current 14",
+					"MinStack": 1,
+					"MaxStack": 2
+				}
+			},
+			"When": {
+				"Improved Giant Crops": true
+			}
+		},
 		{ // Gems (Lumisteria Glimmering Clumps and Nodes)
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -1541,15 +1863,43 @@
 				},
 				"346": { // Beer
 					"Price": "180"
-				},
-				"459": { // Mead
-					"Price": "250"
 				}
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer| contains=5407917": true,
 				"Sell Prices & Adjustments": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{ // Vanilla Mead - Susan Special Order (SVE)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"459": { // Mead
+					"Price": "500"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5407917": true,
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod|contains=selph.FlavoredMead": false,
+				"HasMod|contains=BetterHoneyMeadCP": false
+			}
+		},
+		{ // Flavored Mead - Susan Special Order (SVE)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"459": { // Mead
+					"Price": "330"
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer| contains=5407917": true,
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
 			}
 		},
 		{ // Susan Special Order (SVE + Cornucopia)
@@ -1643,7 +1993,7 @@
 				"Merge: {{Prices & Inventories}}, {{Sell Prices & Adjustments}}": true
 			}
 		},
-		{ // Stricter Seed Maker
+		{ // Strict Seed Maker
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
@@ -1654,7 +2004,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices & Adjustments": true
+				"Strict Seed Maker": true
 			}
 		},
 		{
@@ -1668,7 +2018,7 @@
 				"#-1": "seedmaker_banned"
 			},
 			"When": {
-				"Sell Prices & Adjustments": true
+				"Strict Seed Maker": true
 			}
 		},
 		{ // Food

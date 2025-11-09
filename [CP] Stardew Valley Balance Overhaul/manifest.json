@@ -1,7 +1,7 @@
 {
 	"Name": "Stardew Valley Balance Overhaul",
 	"Author": "Theoddon & Minothilos",
-	"Version": "3.0.6-beta",
+	"Version": "3.0.13",
 	"Description": "Rebalances just about everything.",
 	"UniqueID": "Theoddon.BalanceOverhaul",
 	"UpdateKeys": [
@@ -129,6 +129,10 @@
 		},
 		{
 			"UniqueID": "Lumisteria.GlimmeringClumpsNodes",
+			"IsRequired": false
+		},
+		{
+			"UniqueID": "Pathoschild.CentralStation.Content",
 			"IsRequired": false
 		}
 	]

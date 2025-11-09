@@ -1961,7 +1961,7 @@
 				]
 			},
 			"When": {
-				"Seed & Bait Maker Output": true
+				"Improved Seed & Bait Maker": true
 			}
 		},
 		{ // Increased Seed Maker Output
@@ -2007,7 +2007,7 @@
 				]
 			},
 			"When": {
-				"Seed & Bait Maker Output": true
+				"Improved Seed & Bait Maker": true
 			}
 		},
 		{ // Recycling Machine - Brown Eggs

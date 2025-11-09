@@ -465,7 +465,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Island Trader (Limited Seed Stock)
+		{ // Island Trader (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -483,10 +483,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // The Stardrop Saloon (Limited Item Stock)
+		{ // The Stardrop Saloon (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -520,10 +520,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Willy's Shop (Limited Item Stock)
+		{ // Willy's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -565,10 +565,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Clint's Shop (Limited Item Stock)
+		{ // Clint's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -698,10 +698,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Carpenter's Shop (Limited Item Stock)
+		{ // Carpenter's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -735,10 +735,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Harvey's Clinic (Limited Item Stock)
+		{ // Harvey's Clinic (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -756,10 +756,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Dwarf's Shop (Limited Item Stock)
+		{ // Dwarf's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -817,10 +817,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Volcano Shop (Limited Item Stock)
+		{ // Volcano Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -870,10 +870,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Resort Bar (Limited Item Stock)
+		{ // Resort Bar (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -907,10 +907,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Desert Trader (Limited Item Stock)
+		{ // Desert Trader (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -964,10 +964,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Desert Festival - Egg Shop (Limited Item Stock)
+		{ // Desert Festival - Egg Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1029,10 +1029,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Desert Festival - Pam's Shop (Limited Item Stock)
+		{ // Desert Festival - Pam's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1054,10 +1054,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Krobus Shop (Limited Item Stock)
+		{ // Krobus Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1071,10 +1071,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Casino (Limited Item Stock)
+		{ // Casino (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1088,10 +1088,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Ice Cream Stand (Limited Item Stock)
+		{ // Ice Cream Stand (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1105,10 +1105,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Oasis (Limited Seed Stock)
+		{ // Oasis (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1166,10 +1166,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Egg Festival - Pierre's Shop (Limited Seed Stock)
+		{ // Egg Festival - Pierre's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1197,10 +1197,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Pierre's Shop (Limited Item Stock)
+		{ // Pierre's Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1393,20 +1393,7 @@
 							]
 						}
 					]
-				}
-			},
-			"When": {
-				"Limited Item Stock": true
-			}
-		},
-		{ // Pierre's Shop (Limited Seed Stock)
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"SeedShop",
-				"Items"
-			],
-			"Fields": {
+				},
 				"(O)472": { // Parsnip Seeds
 					"AvailableStock": "{{Normal Seeds Stock}}",
 					"AvailableStockLimit": "Player",
@@ -2060,10 +2047,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // JojaMart (Limited Item Stock)
+		{ // JojaMart (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2133,48 +2120,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // JojaMart (SVE - Limited Item Stock)
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [
-				"Joja",
-				"Items"
-			],
-			"Fields": {
-				"(O)247": { // Oil
-					"AvailableStock": "{{Cooking Ingredients Stock}}",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
-				},
-				"(O)419": { // Vinegar
-					"AvailableStock": "{{Cooking Ingredients Stock}}",
-					"AvailableStockLimit": "Player",
-					"AvailableStockModifiers": [
-						{
-							"Modification": "Multiply",
-							"RandomAmount": [
-								1.30, 1.27, 1.24, 1.21, 1.18, 1.15, 1.12, 1.09, 1.06, 1.03, 1.0, 0.97, 0.94, 0.91, 0.88, 0.85, 0.82, 0.79, 0.76, 0.73, 0.70
-							]
-						}
-					]
-				}
-			},
-			"When": {
-				"Limited Seed Stock": true,
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true
-			}
-		},
-		{ // JojaMart (Limited Seed Stock)
+		{ // JojaMart (No SVE - Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -2508,7 +2457,7 @@
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true,
+				"Limited Stock": true,
 				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": false
 			}
 		},
@@ -2656,7 +2605,7 @@
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
 		{ // Harvey's Clinic Sells Life Elixirs (Unlimited)
@@ -2676,7 +2625,7 @@
 			},
 			"When": {
 				"Harvey's Clinic Sells Life Elixirs": true,
-				"Limited Item Stock": false
+				"Limited Stock": false
 			}
 		}
 	]

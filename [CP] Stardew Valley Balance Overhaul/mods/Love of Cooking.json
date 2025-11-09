@@ -415,7 +415,7 @@
 				"Food": true
 			}
 		},
-		{ // JojaMart (Limited Item Stock)
+		{ // JojaMart (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -437,10 +437,10 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Pierre's General Store (Limited Item Stock)
+		{ // Pierre's General Store (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -462,7 +462,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
 		{

@@ -82,7 +82,7 @@
 				"Items"
 			],
 			"Fields": {
-				"(BC)ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": {
+				"ZoeyHoshi.SVEForageCrops_GreenMushroomPlanter": {
 					"Price": "6000"
 				}
 			},
@@ -140,7 +140,7 @@
 				"ZoeyHoshi.SVEForageCrops_WinterStarRoseSeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
 		{
@@ -154,7 +154,7 @@
 				"ZoeyHoshi.SVEForageCrops_DulseSeaweedSeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true,
+				"Limited Stock": true,
 				"HasMod|contains=selph.CustomTapperFramework": true
 			}
 		},
@@ -169,7 +169,7 @@
 				"ZoeyHoshi.SVEForageCrops_ThistleSeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
 		{
@@ -186,7 +186,7 @@
 				"ZoeyHoshi.SVEForageCrops_RedBaneberrySeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
 		{
@@ -200,7 +200,7 @@
 				"ZoeyHoshi.SVEForageCrops_SwampFlowerSeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
 		{
@@ -214,7 +214,7 @@
 				"ZoeyHoshi.SVEForageCrops_FerngillPrimroseSeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
 		{
@@ -230,7 +230,7 @@
 				"ZoeyHoshi.SVEForageCrops_PoisonMushroomSeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
 		{
@@ -246,7 +246,7 @@
 				"ZoeyHoshi.SVEForageCrops_PoisonMushroomSeeds": null
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		}
 	]

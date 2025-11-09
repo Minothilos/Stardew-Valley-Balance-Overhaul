@@ -1153,7 +1153,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Heap's Store (Limited Item Stock)
+		{ // Heap's Store
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1247,7 +1247,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{ // Fruit Tree Shop (Limited Seed Stock)
+		{ // Fruit Tree Shop (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1289,10 +1289,10 @@
 				}
 			},
 			"When": {
-				"Limited Seed Stock": true
+				"Limited Stock": true
 			}
 		},
-		{ // Heap's Store (Limited Item Stock)
+		{ // Heap's Store (Limited Stock)
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [
@@ -1530,7 +1530,7 @@
 				}
 			},
 			"When": {
-				"Limited Item Stock": true
+				"Limited Stock": true
 			}
 		},
 		{ // Warp Totem Crafting Recipe
