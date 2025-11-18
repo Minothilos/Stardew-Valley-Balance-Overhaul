@@ -134,6 +134,10 @@
 		{
 			"UniqueID": "Pathoschild.CentralStation.Content",
 			"IsRequired": false
-		}
+		},
+		{
+			"UniqueID": "Cornucopia.CookingRecipes",
+			"IsRequired": false
+		},
 	]
 }

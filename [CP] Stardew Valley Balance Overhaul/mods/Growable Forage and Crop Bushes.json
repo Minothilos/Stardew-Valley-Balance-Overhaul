@@ -177,7 +177,7 @@
 			],
 			"Fields": {
 				"Cornucopia_HollySeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -189,7 +189,7 @@
 					]
 				},
 				"Cornucopia_BlackberrySeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -201,7 +201,7 @@
 					]
 				},
 				"Cornucopia_SalmonberrySeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -227,7 +227,7 @@
 			],
 			"Fields": {
 				"(O)302": { // Hops Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -254,7 +254,7 @@
 			],
 			"Fields": {
 				"(O)301": { // Grape Starter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -281,7 +281,7 @@
 			],
 			"Fields": {
 				"(O)481": { // Blueberry Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -324,7 +324,7 @@
 			],
 			"Fields": {
 				"(O)302": { // Hops Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -352,7 +352,7 @@
 			],
 			"Fields": {
 				"(O)301": { // Grape Starter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -380,7 +380,7 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Hops_Starter": { // Hops Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -392,7 +392,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Hops_Starter": { // Hops Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -404,7 +404,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Hops_Starter": { // Hops Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -432,7 +432,7 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Grape_Starter": { // Grape Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -444,7 +444,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Grape_Starter": { // Grape Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -456,7 +456,7 @@
 					]
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Grape_Starter": { // Grape Planter
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -500,7 +500,7 @@
 			],
 			"Fields": {
 				"Cornucopia_CommonMushroomSeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -512,7 +512,7 @@
 					]
 				},
 				"Cornucopia_ChanterelleSeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -524,7 +524,7 @@
 					]
 				},
 				"Cornucopia_MorelSeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{

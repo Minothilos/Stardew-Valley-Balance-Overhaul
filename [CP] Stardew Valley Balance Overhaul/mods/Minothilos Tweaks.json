@@ -537,6 +537,21 @@
 				"Sell Prices & Adjustments": true,
 				"HasMod|contains=blueberry.LoveOfCooking": true
 			}
-		}
+		},
+	/*	{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_FruitNectar",
+				"IngredientConfigs", "category_fruits"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},*/
 	]
 }

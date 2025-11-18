@@ -611,9 +611,9 @@
 				"Cornucopia.MoreFlowers_CropSeedsSpringRare": null,
 				"Cornucopia.MoreFlowers_CropSeedsSummerRare": null,
 				"Cornucopia.MoreFlowers_CropSeedsFallRare": null,
-				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null,
-				"Cornucopia.MoreFlowers_BushSeeds": null,
-				"Cornucopia.MoreFlowers_FruitTreeSaplings": null
+				"Cornucopia.MoreFlowers_CropSeedsWinterRare": null
+				//"Cornucopia.MoreFlowers_BushSeeds": null,
+				//"Cornucopia.MoreFlowers_FruitTreeSaplings": null
 			},
 			"When": {
 				"Limited Stock": true
@@ -1331,14 +1331,10 @@
 				"SeedShop",
 				"Items"
 			],
-			"Entries": {
-				"minothilos.MoreFlowers_BushSeeds": {
-					"Id": "minothilos.MoreFlowers_BushSeeds",
-					"ItemId": "ALL_ITEMS (O)",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_bush_seed, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+			"Fields": {
+				"Cornucopia.MoreFlowers_BushSeeds": {
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
-					"IgnoreShopPriceModifiers": true,
 					"AvailableStockModifiers": [
 						{
 							"Modification": "Multiply",
@@ -1349,12 +1345,6 @@
 					]
 				}
 			},
-			"MoveEntries": [
-				{
-					"Id": "minothilos.MoreFlowers_BushSeeds",
-					"BeforeId": "(O)628"
-				}
-			],
 			"When": {
 				"Limited Stock": true
 			}
@@ -1366,21 +1356,12 @@
 				"SeedShop",
 				"Items"
 			],
-			"Entries": {
-				"minothilos.MoreFlowers_FruitTreeSaplings": {
-					"Id": "minothilos.MoreFlowers_FruitTreeSaplings",
-					"ItemId": "ALL_ITEMS (O)",
-					"PerItemCondition": "ITEM_CONTEXT_TAG Target cornucopia_shop_pierre, ITEM_CONTEXT_TAG Target cornucopia_fruittree_sapling, ITEM_CONTEXT_TAG Target modid_cornucopia.moreflowers, !ITEM_CONTEXT_TAG Target cornucopia_shop_pierre_generic_banned",
-					"AvailableStock": 2,
-					"IgnoreShopPriceModifiers": true
+			"Fields": {
+				"Cornucopia.MoreFlowers_FruitTreeSaplings": {
+					"AvailableStock": "2",
+					"AvailableStockLimit": "Player"
 				}
 			},
-			"MoveEntries": [
-				{
-					"Id": "minothilos.MoreFlowers_FruitTreeSaplings",
-					"BeforeId": "(O)628"
-				}
-			],
 			"When": {
 				"Limited Stock": true
 			}
@@ -2272,7 +2253,7 @@
 			],
 			"Fields": {
 				"Cornucopia_CalicoRoseSeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{

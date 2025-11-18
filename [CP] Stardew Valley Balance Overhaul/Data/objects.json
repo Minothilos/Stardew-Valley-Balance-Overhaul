@@ -1922,7 +1922,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"220": {
-					"Price": "265"
+					"Price": "275"
 				} // Chocolate Cake
 			},
 			"When": {
@@ -1934,31 +1934,31 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"213": { // Fish Taco
-					"Price": "555"
+					"Price": "545"
 				},
 				"204": { // Lucky Lunch
-					"Price": "285"
+					"Price": "290"
 				},
 				"905": { // Mango Sticky Rice
-					"Price": "575"
+					"Price": "570"
 				},
 				"224": { // Spaghetti
-					"Price": "280"
+					"Price": "240"
 				},
 				"226": { // Spicy Eel
 					"Price": "170"
 				},
 				"921": { // Squid Ink Ravioli
-					"Price": "455"
+					"Price": "325"
 				},
 				"218": { // Tom Kha Soup
-					"Price": "540"
+					"Price": "510"
 				},
 				"229": { // Tortilla
 					"Price": "55"
 				},
 				"907": { // Tropical Curry
-					"Price": "590"
+					"Price": "580"
 				}
 			},
 			"When": {

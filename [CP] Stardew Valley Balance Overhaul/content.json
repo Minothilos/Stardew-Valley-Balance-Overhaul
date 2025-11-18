@@ -400,6 +400,13 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "mods/Cornucopia Cooking Recipes.json",
+			"When": {
+				"HasMod": "Cornucopia.CookingRecipes"
+			}
+		},
+		{
+			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
 				"Minothilos Tweaks": true

@@ -78,7 +78,7 @@
 			],
 			"Fields": {
 				"ZoeyHoshi.ForageCrops_CrystalFruitSeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -90,7 +90,7 @@
 					]
 				},
 				"ZoeyHoshi.ForageCrops_SpiceBerrySeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -193,7 +193,7 @@
 			],
 			"Fields": {
 				"ZoeyHoshi.ForageCrops_RedMushroomSeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -205,7 +205,7 @@
 					]
 				},
 				"ZoeyHoshi.ForageCrops_PurpleMushroomSeeds": {
-					"AvailableStock": "{{Regrowing Seeds Stock}}",
+					"AvailableStock": "5",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{

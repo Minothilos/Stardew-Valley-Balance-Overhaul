@@ -1,0 +1,1898 @@
+{
+	"Changes": [
+		{
+			// Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_FruitNectar": {
+					"Price": "250"
+				},
+				"Cornucopia_FruitSmoothie": {
+					"Price": "250"
+				},
+				"Cornucopia_AnchovyPizza": {
+					"Price": "250"
+				},
+				"Cornucopia_AppleCider": {
+					"Price": "250"
+				},
+				"Cornucopia_BreadPudding": {
+					"Price": "250"
+				},
+				"Cornucopia_BroccoliandCheese": {
+					"Price": "250"
+				},
+				"Cornucopia_CandyApple": {
+					"Price": "250"
+				},
+                "Cornucopia_SpicedCarrotCake": {
+					"Price": "250"
+				},
+				"Cornucopia_CoffeeCake": {
+					"Price": "250"
+				},
+				"Cornucopia_Cornbread": {
+					"Price": "250"
+				},
+				"Cornucopia_CrabRangoons": {
+					"Price": "250"
+				},
+				"Cornucopia_CreamCheese": {
+					"Price": "250"
+				},
+				"Cornucopia_CreamPuff": {
+					"Price": "250"
+				},
+				"Cornucopia_FancySushiPlatter": {
+					"Price": "250"
+				},
+				"Cornucopia_FishnChips": {
+					"Price": "250"
+				},
+				"Cornucopia_Fruitcake": {
+					"Price": "250"
+				},
+				"Cornucopia_Gingersnaps": {
+					"Price": "250"
+				},
+				"Cornucopia_GrilledCheese": {
+					"Price": "250"
+				},
+				"Cornucopia_Ketchup": {
+					"Price": "250"
+				},
+				"Cornucopia_Ladyfingers": {
+					"Price": "250"
+				},
+				"Cornucopia_LeekSoup": {
+					"Price": "250"
+				},
+                "Cornucopia_MacandCheese": {
+					"Price": "250"
+				},
+				"Cornucopia_MangoChutney": {
+					"Price": "250"
+				},
+				"Cornucopia_Mochi": {
+					"Price": "250"
+				},
+				"Cornucopia_NachosandCheese": {
+					"Price": "250"
+				},
+				"Cornucopia_Omurice": {
+					"Price": "250"
+				},
+				"Cornucopia_PineapplePizza": {
+					"Price": "250"
+				},
+				"Cornucopia_PlowmansPlatter": {
+					"Price": "250"
+				},
+				"Cornucopia_PokeBowl": {
+					"Price": "250"
+				},
+				"Cornucopia_PotatoFries": {
+					"Price": "250"
+				},
+				"Cornucopia_RainbowCake": {
+					"Price": "250"
+				},
+				"Cornucopia_SaltGrilledFish": {
+					"Price": "250"
+				},
+				"Cornucopia_ScallionPancake": {
+					"Price": "250"
+				},
+				"Cornucopia_SeaweedChips": {
+					"Price": "250"
+				},
+				"Cornucopia_SoftPretzel": {
+					"Price": "250"
+				},
+                "Cornucopia_Steckerlfisch": {
+					"Price": "250"
+				},
+				"Cornucopia_Takoyaki": {
+					"Price": "250"
+				},
+				"Cornucopia_Tiramisu": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+        {
+			// Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_MeatSatay": {
+					"Price": "250"
+				},
+				"Cornucopia_AutumnMuffin": {
+					"Price": "250"
+				},
+				"Cornucopia_AvocadoToast": {
+					"Price": "250"
+				},
+				"Cornucopia_BakedPotato": {
+					"Price": "250"
+				},
+				"Cornucopia_Baklava": {
+					"Price": "250"
+				},
+				"Cornucopia_BananaBread": {
+					"Price": "250"
+				},
+				"Cornucopia_BanhMi": {
+					"Price": "250"
+				},
+                "Cornucopia_BouquetCrepe": {
+					"Price": "250"
+				},
+				"Cornucopia_BreakfastScramble": {
+					"Price": "250"
+				},
+				"Cornucopia_BrownSugar": {
+					"Price": "250"
+				},
+				"Cornucopia_Brownie": {
+					"Price": "250"
+				},
+				"Cornucopia_CapraeSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_Caramel": {
+					"Price": "250"
+				},
+				"Cornucopia_CaramelApple": {
+					"Price": "250"
+				},
+				"Cornucopia_CaramelEgg": {
+					"Price": "250"
+				},
+				"Cornucopia_ChefSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_Chocolate": {
+					"Price": "250"
+				},
+				"Cornucopia_ChocolatePudding": {
+					"Price": "250"
+				},
+				"Cornucopia_CrabDip": {
+					"Price": "250"
+				},
+				"Cornucopia_CremeBrulee": {
+					"Price": "250"
+				},
+				"Cornucopia_Dango": {
+					"Price": "250"
+				},
+                "Cornucopia_DragonRoll": {
+					"Price": "250"
+				},
+				"Cornucopia_Edamame": {
+					"Price": "250"
+				},
+				"Cornucopia_GroundnutStew": {
+					"Price": "250"
+				},
+				"Cornucopia_HoneyCake": {
+					"Price": "250"
+				},
+				"Cornucopia_HotChocolate": {
+					"Price": "250"
+				},
+				"Cornucopia_PoachedPear": {
+					"Price": "250"
+				},
+				"Cornucopia_SpinachQuiche": {
+					"Price": "250"
+				},
+				"Cornucopia_Ratatouille": {
+					"Price": "250"
+				},
+				"Cornucopia_SaltandVinegarChips": {
+					"Price": "250"
+				},
+				"Cornucopia_SandwichCookies": {
+					"Price": "250"
+				},
+				"Cornucopia_Shakshouka": {
+					"Price": "250"
+				},
+				"Cornucopia_StuffedPeppers": {
+					"Price": "250"
+				},
+				"Cornucopia_SugarcaneShake": {
+					"Price": "250"
+				},
+				"Cornucopia_Udon": {
+					"Price": "250"
+				},
+                "Cornucopia_VanillaPudding": {
+					"Price": "250"
+				},
+				"Cornucopia_ZucchiniFritters": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+        {
+			// Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_NutButterCups": {
+					"Price": "250"
+				},
+				"Cornucopia_AncientWonder": {
+					"Price": "250"
+				},
+				"Cornucopia_ArmoredTurnips": {
+					"Price": "250"
+				},
+				"Cornucopia_AsparagusDelight": {
+					"Price": "250"
+				},
+				"Cornucopia_AutumnCasserole": {
+					"Price": "250"
+				},
+				"Cornucopia_BakedApple": {
+					"Price": "250"
+				},
+				"Cornucopia_BeanBurger": {
+					"Price": "250"
+				},
+                "Cornucopia_BeanQuesadilla": {
+					"Price": "250"
+				},
+				"Cornucopia_Broth": {
+					"Price": "250"
+				},
+				"Cornucopia_ButternutSquashSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_Cinderdoodles": {
+					"Price": "250"
+				},
+				"Cornucopia_CinnamonRoll": {
+					"Price": "250"
+				},
+				"Cornucopia_FarmersRamen": {
+					"Price": "250"
+				},
+				"Cornucopia_FettuccineAlfredo": {
+					"Price": "250"
+				},
+				"Cornucopia_FigToast": {
+					"Price": "250"
+				},
+				"Cornucopia_Flan": {
+					"Price": "250"
+				},
+				"Cornucopia_Fondue": {
+					"Price": "250"
+				},
+				"Cornucopia_FriedLotusRoot": {
+					"Price": "250"
+				},
+				"Cornucopia_FriedPickles": {
+					"Price": "250"
+				},
+				"Cornucopia_FriedRice": {
+					"Price": "250"
+				},
+				"Cornucopia_GrahamCracker": {
+					"Price": "250"
+				},
+                "Cornucopia_Gumbo": {
+					"Price": "250"
+				},
+				"Cornucopia_HomemadePopcorn": {
+					"Price": "250"
+				},
+				"Cornucopia_JellO": {
+					"Price": "250"
+				},
+				"Cornucopia_JellyBeans": {
+					"Price": "250"
+				},
+				"Cornucopia_KeyLimePie": {
+					"Price": "250"
+				},
+				"Cornucopia_LoxandaSchmear": {
+					"Price": "250"
+				},
+				"Cornucopia_LumberjacksBun": {
+					"Price": "250"
+				},
+				"Cornucopia_Macarons": {
+					"Price": "250"
+				},
+				"Cornucopia_Marshmallow": {
+					"Price": "250"
+				},
+				"Cornucopia_MashedPotatoes": {
+					"Price": "250"
+				},
+				"Cornucopia_MisoSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_MushroomBurger": {
+					"Price": "250"
+				},
+				"Cornucopia_Oatmeal": {
+					"Price": "250"
+				},
+				"Cornucopia_OkraSoup": {
+					"Price": "250"
+				},
+                "Cornucopia_PadPrinat": {
+					"Price": "250"
+				},
+				"Cornucopia_PalmNutSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_PBJSandwich": {
+					"Price": "250"
+				},
+				"Cornucopia_PenneallArrabbiatta": {
+					"Price": "250"
+				},
+				"Cornucopia_PinkDrink": {
+					"Price": "250"
+				},
+				"Cornucopia_RoyalHoneyToast": {
+					"Price": "250"
+				},
+				"Cornucopia_Smore": {
+					"Price": "250"
+				},
+				"Cornucopia_SaladRolls": {
+					"Price": "250"
+				},
+				"Cornucopia_SpinachDip": {
+					"Price": "250"
+				},
+				"Cornucopia_SpringSalmagundi": {
+					"Price": "250"
+				},
+				"Cornucopia_SunriseToast": {
+					"Price": "250"
+				},
+				"Cornucopia_TilapiaandZoodles": {
+					"Price": "250"
+				},
+                "Cornucopia_Waffles": {
+					"Price": "250"
+				},
+				"Cornucopia_YucaFries": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+        {
+			// Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_GrainPorridge": {
+					"Price": "250"
+				},
+				"Cornucopia_NigiriSushi": {
+					"Price": "250"
+				},
+				"Cornucopia_VegetablePotPie": {
+					"Price": "250"
+				},
+				"Cornucopia_AcornBread": {
+					"Price": "250"
+				},
+				"Cornucopia_Bacalaitos": {
+					"Price": "250"
+				},
+				"Cornucopia_BananaCurry": {
+					"Price": "250"
+				},
+				"Cornucopia_BlackSoup": {
+					"Price": "250"
+				},
+                "Cornucopia_CaldodeCamaron": {
+					"Price": "250"
+				},
+				"Cornucopia_CandiedCherries": {
+					"Price": "250"
+				},
+				"Cornucopia_Cassata": {
+					"Price": "250"
+				},
+				"Cornucopia_CheeseFries": {
+					"Price": "250"
+				},
+				"Cornucopia_CheeseRamen": {
+					"Price": "250"
+				},
+				"Cornucopia_Cheesecake": {
+					"Price": "250"
+				},
+				"Cornucopia_SourCherryPie": {
+					"Price": "250"
+				},
+				"Cornucopia_ChipaGuasu": {
+					"Price": "250"
+				},
+				"Cornucopia_CoastalFeast": {
+					"Price": "250"
+				},
+				"Cornucopia_CoconutFish": {
+					"Price": "250"
+				},
+				"Cornucopia_CoconutShrimp": {
+					"Price": "250"
+				},
+				"Cornucopia_CottageBreakfast": {
+					"Price": "250"
+				},
+				"Cornucopia_CottonCandy": {
+					"Price": "250"
+				},
+				"Cornucopia_CreamStew": {
+					"Price": "250"
+				},
+                "Cornucopia_CreamedCorn": {
+					"Price": "250"
+				},
+				"Cornucopia_CritterFritter": {
+					"Price": "250"
+				},
+				"Cornucopia_Croquette": {
+					"Price": "250"
+				},
+				"Cornucopia_EelPie": {
+					"Price": "250"
+				},
+				"Cornucopia_FluffyEggSandwich": {
+					"Price": "250"
+				},
+				"Cornucopia_FriedCheeseCurds": {
+					"Price": "250"
+				},
+				"Cornucopia_FruitBar": {
+					"Price": "250"
+				},
+				"Cornucopia_GarlicNaan": {
+					"Price": "250"
+				},
+				"Cornucopia_GoatCheeseSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_GoldenStrands": {
+					"Price": "250"
+				},
+				"Cornucopia_GrapeDumplings": {
+					"Price": "250"
+				},
+				"Cornucopia_Haleem": {
+					"Price": "250"
+				},
+				"Cornucopia_Halloumi": {
+					"Price": "250"
+				},
+				"Cornucopia_HardCandies": {
+					"Price": "250"
+				},
+                "Cornucopia_HotSauce": {
+					"Price": "250"
+				},
+				"Cornucopia_Khachapuri": {
+					"Price": "250"
+				},
+				"Cornucopia_LobsterRoll": {
+					"Price": "250"
+				},
+				"Cornucopia_LoftyPopover": {
+					"Price": "250"
+				},
+				"Cornucopia_MacandFishBake": {
+					"Price": "250"
+				},
+				"Cornucopia_Malasada": {
+					"Price": "250"
+				},
+				"Cornucopia_MalvaPudding": {
+					"Price": "250"
+				},
+				"Cornucopia_MechouiaSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_Melonpan": {
+					"Price": "250"
+				},
+				"Cornucopia_Meringues": {
+					"Price": "250"
+				},
+				"Cornucopia_PantaBhat": {
+					"Price": "250"
+				},
+				"Cornucopia_Papanasi": {
+					"Price": "250"
+				},
+                "Cornucopia_PeachCrisp": {
+					"Price": "250"
+				},
+				"Cornucopia_Pierogi": {
+					"Price": "250"
+				},
+				"Cornucopia_PineappleUpsideDownCake": {
+					"Price": "250"
+				},
+				"Cornucopia_PizzaRolls": {
+					"Price": "250"
+				},
+				"Cornucopia_PotatoBread": {
+					"Price": "250"
+				},
+				"Cornucopia_PotatoSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_PotatoesauGratin": {
+					"Price": "250"
+				},
+				"Cornucopia_PoundedYam": {
+					"Price": "250"
+				},
+				"Cornucopia_Pupusas": {
+					"Price": "250"
+				},
+                "Cornucopia_RizGras": {
+					"Price": "250"
+				},
+				"Cornucopia_Saimin": {
+					"Price": "250"
+				},
+				"Cornucopia_Scone": {
+					"Price": "250"
+				},
+				"Cornucopia_ScorchedRice": {
+					"Price": "250"
+				},
+				"Cornucopia_SeafoodBoil": {
+					"Price": "250"
+				},
+				"Cornucopia_ShrimpFriedRice": {
+					"Price": "250"
+				},
+				"Cornucopia_ShrimpTempura": {
+					"Price": "250"
+				},
+				"Cornucopia_SourFishSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_Spatzle": {
+					"Price": "250"
+				},
+				"Cornucopia_StuffedMushrooms": {
+					"Price": "250"
+				},
+				"Cornucopia_SweetCrepes": {
+					"Price": "250"
+				},
+				"Cornucopia_Switchel": {
+					"Price": "250"
+				},
+                "Cornucopia_Taffy": {
+					"Price": "250"
+				},
+				"Cornucopia_TaterTots": {
+					"Price": "250"
+				},
+				"Cornucopia_TeaEggs": {
+					"Price": "250"
+				},
+				"Cornucopia_Tteokbokki": {
+					"Price": "250"
+				},
+				"Cornucopia_Vinaigrette": {
+					"Price": "250"
+				},
+				"Cornucopia_Wojapi": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true
+			}
+		},
+        {
+			// Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_AnimalCrackers": {
+					"Price": "250"
+				},
+				"Cornucopia_Arepas": {
+					"Price": "250"
+				},
+				"Cornucopia_BoiledPeanuts": {
+					"Price": "250"
+				},
+				"Cornucopia_BreadSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_BreakfastCereal": {
+					"Price": "250"
+				},
+				"Cornucopia_Butterscotch": {
+					"Price": "250"
+				},
+                "Cornucopia_CakePops": {
+					"Price": "250"
+				},
+				"Cornucopia_CandiedPineapple": {
+					"Price": "250"
+				},
+				"Cornucopia_CaramelizedOnions": {
+					"Price": "250"
+				},
+				"Cornucopia_Castella": {
+					"Price": "250"
+				},
+				"Cornucopia_CheeseBoard": {
+					"Price": "250"
+				},
+				"Cornucopia_ChocolateBanana": {
+					"Price": "250"
+				},
+				"Cornucopia_ChocolateCoveredStrawberry": {
+					"Price": "250"
+				},
+				"Cornucopia_CrabRoll": {
+					"Price": "250"
+				},
+				"Cornucopia_CrispyRiceBowl": {
+					"Price": "250"
+				},
+				"Cornucopia_CucumberKimchi": {
+					"Price": "250"
+				},
+				"Cornucopia_CucumberRoll": {
+					"Price": "250"
+				},
+				"Cornucopia_CucumberSandwich": {
+					"Price": "250"
+				},
+				"Cornucopia_Cupcakes": {
+					"Price": "250"
+				},
+				"Cornucopia_EgusiSoup": {
+					"Price": "250"
+				},
+                "Cornucopia_FriedTofu": {
+					"Price": "250"
+				},
+				"Cornucopia_Fudge": {
+					"Price": "250"
+				},
+				"Cornucopia_Gazpacho": {
+					"Price": "250"
+				},
+				"Cornucopia_GingerbreadPeople": {
+					"Price": "250"
+				},
+				"Cornucopia_GreenBeanCasserole": {
+					"Price": "250"
+				},
+				"Cornucopia_Hardtack": {
+					"Price": "250"
+				},
+				"Cornucopia_HeartySautee": {
+					"Price": "250"
+				},
+				"Cornucopia_HoriatikiSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_Jammies": {
+					"Price": "250"
+				},
+				"Cornucopia_Johnnycakes": {
+					"Price": "250"
+				},
+				"Cornucopia_KitsuneUdon": {
+					"Price": "250"
+				},
+				"Cornucopia_MagmaMole": {
+					"Price": "250"
+				},
+				"Cornucopia_MoltenCustardBun": {
+					"Price": "250"
+				},
+				"Cornucopia_Mousse": {
+					"Price": "250"
+				},
+                "Cornucopia_Natto": {
+					"Price": "250"
+				},
+				"Cornucopia_OnionRings": {
+					"Price": "250"
+				},
+				"Cornucopia_OysterSauce": {
+					"Price": "250"
+				},
+				"Cornucopia_OysterSauceCrab": {
+					"Price": "250"
+				},
+				"Cornucopia_Pavlova": {
+					"Price": "250"
+				},
+				"Cornucopia_PickledRind": {
+					"Price": "250"
+				},
+				"Cornucopia_Pita": {
+					"Price": "250"
+				},
+				"Cornucopia_Polenta": {
+					"Price": "250"
+				},
+				"Cornucopia_RiceandBeans": {
+					"Price": "250"
+				},
+				"Cornucopia_RiceCakes": {
+					"Price": "250"
+				},
+				"Cornucopia_Scarpaccia": {
+					"Price": "250"
+				},
+				"Cornucopia_StrawberryDrink": {
+					"Price": "250"
+				},
+                "Cornucopia_StrawberryShortcake": {
+					"Price": "250"
+				},
+				"Cornucopia_Stroganina": {
+					"Price": "250"
+				},
+				"Cornucopia_TemakiRoll": {
+					"Price": "250"
+				},
+				"Cornucopia_Toffee": {
+					"Price": "250"
+				},
+				"Cornucopia_TunaSteak": {
+					"Price": "250"
+				},
+				"Cornucopia_WedgeSalad": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true
+			}
+		},
+        {
+			// Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_Otai": {
+					"Price": "250"
+				},
+				"Cornucopia_FruitTurnover": {
+					"Price": "250"
+				},
+				"Cornucopia_Acorda": {
+					"Price": "250"
+				},
+				"Cornucopia_Akara": {
+					"Price": "250"
+				},
+				"Cornucopia_Alegria": {
+					"Price": "250"
+				},
+				"Cornucopia_Alfajores": {
+					"Price": "250"
+				},
+				"Cornucopia_AloeCooler": {
+					"Price": "250"
+				},
+                "Cornucopia_Ambrosia": {
+					"Price": "250"
+				},
+				"Cornucopia_AntsonaLog": {
+					"Price": "250"
+				},
+				"Cornucopia_CinnamonApplePie": {
+					"Price": "250"
+				},
+				"Cornucopia_Atole": {
+					"Price": "250"
+				},
+				"Cornucopia_BabaGhanoush": {
+					"Price": "250"
+				},
+				"Cornucopia_BakedBeans": {
+					"Price": "250"
+				},
+				"Cornucopia_BakedSweetPotato": {
+					"Price": "250"
+				},
+				"Cornucopia_BangaRice": {
+					"Price": "250"
+				},
+				"Cornucopia_Bannock": {
+					"Price": "250"
+				},
+				"Cornucopia_BanoffeePie": {
+					"Price": "250"
+				},
+				"Cornucopia_Baumkuchen": {
+					"Price": "250"
+				},
+				"Cornucopia_Bazin": {
+					"Price": "250"
+				},
+				"Cornucopia_BeanChili": {
+					"Price": "250"
+				},
+				"Cornucopia_BearCandy": {
+					"Price": "250"
+				},
+                "Cornucopia_Beyaynetu": {
+					"Price": "250"
+				},
+				"Cornucopia_Bibimbap": {
+					"Price": "250"
+				},
+				"Cornucopia_Biscotti": {
+					"Price": "250"
+				},
+				"Cornucopia_Biscuit": {
+					"Price": "250"
+				},
+				"Cornucopia_BlackenedFish": {
+					"Price": "250"
+				},
+				"Cornucopia_Blini": {
+					"Price": "250"
+				},
+				"Cornucopia_Borek": {
+					"Price": "250"
+				},
+				"Cornucopia_Borsch": {
+					"Price": "250"
+				},
+				"Cornucopia_Bouillabaisse": {
+					"Price": "250"
+				},
+				"Cornucopia_BroccoliCheeseSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_ButterCake": {
+					"Price": "250"
+				},
+				"Cornucopia_ButtermilkSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_CabbageRoll": {
+					"Price": "250"
+				},
+				"Cornucopia_CacioePepe": {
+					"Price": "250"
+				},
+                "Cornucopia_CalicoBar": {
+					"Price": "250"
+				},
+				"Cornucopia_CandiedAlmonds": {
+					"Price": "250"
+				},
+				"Cornucopia_CandiedOrangePeel": {
+					"Price": "250"
+				},
+				"Cornucopia_CandyCorn": {
+					"Price": "250"
+				},
+				"Cornucopia_Cannoli": {
+					"Price": "250"
+				},
+				"Cornucopia_Caponata": {
+					"Price": "250"
+				},
+				"Cornucopia_CaramelizedBananas": {
+					"Price": "250"
+				},
+				"Cornucopia_Carpaccio": {
+					"Price": "250"
+				},
+				"Cornucopia_CassavaCake": {
+					"Price": "250"
+				},
+				"Cornucopia_CenturyCongee": {
+					"Price": "250"
+				},
+				"Cornucopia_Ceviche": {
+					"Price": "250"
+				},
+				"Cornucopia_Champurrado": {
+					"Price": "250"
+				},
+                "Cornucopia_CheezieCurlz": {
+					"Price": "250"
+				},
+				"Cornucopia_ChilledTofu": {
+					"Price": "250"
+				},
+				"Cornucopia_ChipsandGuacamole": {
+					"Price": "250"
+				},
+				"Cornucopia_ChipsandSalsa": {
+					"Price": "250"
+				},
+				"Cornucopia_ChocolateLavaCake": {
+					"Price": "250"
+				},
+				"Cornucopia_ChocolateTruffles": {
+					"Price": "250"
+				},
+				"Cornucopia_RustiChorba": {
+					"Price": "250"
+				},
+				"Cornucopia_Churros": {
+					"Price": "250"
+				},
+				"Cornucopia_Clafoutis": {
+					"Price": "250"
+				},
+                "Cornucopia_ClayPotNoodles": {
+					"Price": "250"
+				},
+				"Cornucopia_Colcannon": {
+					"Price": "250"
+				},
+				"Cornucopia_CornMush": {
+					"Price": "250"
+				},
+				"Cornucopia_Couscous": {
+					"Price": "250"
+				},
+				"Cornucopia_CrabandCallaloo": {
+					"Price": "250"
+				},
+				"Cornucopia_Croissant": {
+					"Price": "250"
+				},
+				"Cornucopia_CrumbCake": {
+					"Price": "250"
+				},
+				"Cornucopia_CurryPowder": {
+					"Price": "250"
+				},
+				"Cornucopia_Daifuku": {
+					"Price": "250"
+				},
+				"Cornucopia_DalTadka": {
+					"Price": "250"
+				},
+				"Cornucopia_DeviledEggs": {
+					"Price": "250"
+				},
+				"Cornucopia_Dolmas": {
+					"Price": "250"
+				},
+                "Cornucopia_DrunkardsNoodles": {
+					"Price": "250"
+				},
+				"Cornucopia_DurianCrispies": {
+					"Price": "250"
+				},
+				"Cornucopia_Eclair": {
+					"Price": "250"
+				},
+				"Cornucopia_EelBowl": {
+					"Price": "250"
+				},
+				"Cornucopia_EggFooYoung": {
+					"Price": "250"
+				},
+				"Cornucopia_EggSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_EggTarts": {
+					"Price": "250"
+				},
+				"Cornucopia_Eggnog": {
+					"Price": "250"
+				},
+				"Cornucopia_EggyCurry": {
+					"Price": "250"
+				},
+				"Cornucopia_Enchiladas": {
+					"Price": "250"
+				},
+				"Cornucopia_Etouffee": {
+					"Price": "250"
+				},
+				"Cornucopia_EverythingBagel": {
+					"Price": "250"
+				},
+				"Cornucopia_Falafel": {
+					"Price": "250"
+				},
+                "Cornucopia_Farofa": {
+					"Price": "250"
+				},
+				"Cornucopia_FernSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_FigCookies": {
+					"Price": "250"
+				},
+				"Cornucopia_FishAmok": {
+					"Price": "250"
+				},
+				"Cornucopia_FishHeadCurry": {
+					"Price": "250"
+				},
+				"Cornucopia_FishStock": {
+					"Price": "250"
+				},
+				"Cornucopia_FlatbreadPizza": {
+					"Price": "250"
+				},
+				"Cornucopia_FlowerHotpot": {
+					"Price": "250"
+				},
+				"Cornucopia_Fluffernutter": {
+					"Price": "250"
+				},
+				"Cornucopia_FriedOkra": {
+					"Price": "250"
+				},
+				"Cornucopia_FriedPlantains": {
+					"Price": "250"
+				},
+				"Cornucopia_FrostedGrapes": {
+					"Price": "250"
+				},
+				"Cornucopia_FruitLeather": {
+					"Price": "250"
+				},
+				"Cornucopia_FryBread": {
+					"Price": "250"
+				},
+                "Cornucopia_Fufu": {
+					"Price": "250"
+				},
+				"Cornucopia_Fungee": {
+					"Price": "250"
+				},
+				"Cornucopia_GalloPinto": {
+					"Price": "250"
+				},
+				"Cornucopia_GarlicBread": {
+					"Price": "250"
+				},
+				"Cornucopia_GnocchialTartufo": {
+					"Price": "250"
+				},
+				"Cornucopia_GooseberryCrumble": {
+					"Price": "250"
+				},
+				"Cornucopia_GotoroCream": {
+					"Price": "250"
+				},
+				"Cornucopia_GranolaBowl": {
+					"Price": "250"
+				},
+				"Cornucopia_Gravlax": {
+					"Price": "250"
+				},
+				"Cornucopia_GreenCurry": {
+					"Price": "250"
+				},
+				"Cornucopia_GreenFigandSaltfish": {
+					"Price": "250"
+				},
+				"Cornucopia_GreenMachine": {
+					"Price": "250"
+				},
+				"Cornucopia_GreenPilaf": {
+					"Price": "250"
+				},
+				"Cornucopia_GrilledZucchini": {
+					"Price": "250"
+				},
+                "Cornucopia_GulabJamun": {
+					"Price": "250"
+				},
+				"Cornucopia_Gumdrops": {
+					"Price": "250"
+				},
+				"Cornucopia_Halva": {
+					"Price": "250"
+				},
+				"Cornucopia_HarGow": {
+					"Price": "250"
+				},
+				"Cornucopia_HasselbackPotatoes": {
+					"Price": "250"
+				},
+				"Cornucopia_HerbCheese": {
+					"Price": "250"
+				},
+				"Cornucopia_HoneyWalnutShrimp": {
+					"Price": "250"
+				},
+				"Cornucopia_Horchata": {
+					"Price": "250"
+				},
+				"Cornucopia_HotandSourSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_Hummus": {
+					"Price": "250"
+				},
+				"Cornucopia_Inarizushi": {
+					"Price": "250"
+				},
+				"Cornucopia_Injera": {
+					"Price": "250"
+				},
+                "Cornucopia_JalapenoLoaf": {
+					"Price": "250"
+				},
+				"Cornucopia_Jalebi": {
+					"Price": "250"
+				},
+				"Cornucopia_Japchae": {
+					"Price": "250"
+				},
+				"Cornucopia_JelliedCompote": {
+					"Price": "250"
+				},
+				"Cornucopia_JeweledRice": {
+					"Price": "250"
+				},
+				"Cornucopia_Jjigae": {
+					"Price": "250"
+				},
+				"Cornucopia_Kanuchi": {
+					"Price": "250"
+				},
+				"Cornucopia_Kapustnica": {
+					"Price": "250"
+				},
+				"Cornucopia_Karantika": {
+					"Price": "250"
+				},
+                "Cornucopia_KayaToast": {
+					"Price": "250"
+				},
+				"Cornucopia_Kheer": {
+					"Price": "250"
+				},
+				"Cornucopia_KimchiRamen": {
+					"Price": "250"
+				},
+				"Cornucopia_KingCake": {
+					"Price": "250"
+				},
+				"Cornucopia_Knafeh": {
+					"Price": "250"
+				},
+				"Cornucopia_Kokoda": {
+					"Price": "250"
+				},
+				"Cornucopia_Koshary": {
+					"Price": "250"
+				},
+				"Cornucopia_Laghman": {
+					"Price": "250"
+				},
+				"Cornucopia_Lalab": {
+					"Price": "250"
+				},
+				"Cornucopia_Lamington": {
+					"Price": "250"
+				},
+				"Cornucopia_Laplap": {
+					"Price": "250"
+				},
+				"Cornucopia_LechedeLeon": {
+					"Price": "250"
+				},
+				"Cornucopia_LemonSquare": {
+					"Price": "250"
+				},
+				"Cornucopia_Licorice": {
+					"Price": "250"
+				},
+                "Cornucopia_Lokum": {
+					"Price": "250"
+				},
+				"Cornucopia_LotusWrappedStickyRice": {
+					"Price": "250"
+				},
+				"Cornucopia_LukChup": {
+					"Price": "250"
+				},
+				"Cornucopia_Lutefisk": {
+					"Price": "250"
+				},
+				"Cornucopia_MacaroniSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_Madeleines": {
+					"Price": "250"
+				},
+				"Cornucopia_Magrood": {
+					"Price": "250"
+				},
+				"Cornucopia_Mangu": {
+					"Price": "250"
+				},
+				"Cornucopia_MapoTofu": {
+					"Price": "250"
+				},
+				"Cornucopia_Marmalade": {
+					"Price": "250"
+				},
+				"Cornucopia_MarshmallowAnimals": {
+					"Price": "250"
+				},
+				"Cornucopia_MarshmallowSquares": {
+					"Price": "250"
+				},
+				"Cornucopia_Marzipan": {
+					"Price": "250"
+				},
+				"Cornucopia_MascarponeLuxury": {
+					"Price": "250"
+				},
+                "Cornucopia_MassamanCurry": {
+					"Price": "250"
+				},
+				"Cornucopia_MelonSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_Meuniere": {
+					"Price": "250"
+				},
+				"Cornucopia_MieGoreng": {
+					"Price": "250"
+				},
+				"Cornucopia_MilkSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_Millefeuille": {
+					"Price": "250"
+				},
+				"Cornucopia_Minestrone": {
+					"Price": "250"
+				},
+				"Cornucopia_MintChutney": {
+					"Price": "250"
+				},
+				"Cornucopia_MisoRamen": {
+					"Price": "250"
+				},
+				"Cornucopia_Mohinga": {
+					"Price": "250"
+				},
+                "Cornucopia_MoinMoin": {
+					"Price": "250"
+				},
+				"Cornucopia_Mooncake": {
+					"Price": "250"
+				},
+				"Cornucopia_MotleyMushrooms": {
+					"Price": "250"
+				},
+				"Cornucopia_MudPie": {
+					"Price": "250"
+				},
+				"Cornucopia_Muhammara": {
+					"Price": "250"
+				},
+				"Cornucopia_MushroomSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_Mustard": {
+					"Price": "250"
+				},
+				"Cornucopia_Namul": {
+					"Price": "250"
+				},
+				"Cornucopia_NasiGoreng": {
+					"Price": "250"
+				},
+				"Cornucopia_Nougat": {
+					"Price": "250"
+				},
+				"Cornucopia_OctopusCurry": {
+					"Price": "250"
+				},
+				"Cornucopia_OdenHotpot": {
+					"Price": "250"
+				},
+				"Cornucopia_OliveRice": {
+					"Price": "250"
+				},
+				"Cornucopia_OneManThousand": {
+					"Price": "250"
+				},
+                "Cornucopia_Onigiri": {
+					"Price": "250"
+				},
+				"Cornucopia_OystersMignonette": {
+					"Price": "250"
+				},
+				"Cornucopia_PalakPaneer": {
+					"Price": "250"
+				},
+				"Cornucopia_PaniPopo": {
+					"Price": "250"
+				},
+				"Cornucopia_PanikiStew": {
+					"Price": "250"
+				},
+				"Cornucopia_Panipuri": {
+					"Price": "250"
+				},
+				"Cornucopia_PannaCotta": {
+					"Price": "250"
+				},
+				"Cornucopia_Papadzules": {
+					"Price": "250"
+				},
+				"Cornucopia_PastaPrimavera": {
+					"Price": "250"
+				},
+				"Cornucopia_PecanBrittle": {
+					"Price": "250"
+				},
+				"Cornucopia_PecanPie": {
+					"Price": "250"
+				},
+				"Cornucopia_PepperSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_PeppermintCandy": {
+					"Price": "250"
+				},
+				"Cornucopia_PerillaKimchi": {
+					"Price": "250"
+				},
+                "Cornucopia_Pesto": {
+					"Price": "250"
+				},
+				"Cornucopia_PineappleCake": {
+					"Price": "250"
+				},
+				"Cornucopia_PitaChips": {
+					"Price": "250"
+				},
+				"Cornucopia_PotatoPancakes": {
+					"Price": "250"
+				},
+				"Cornucopia_PowderShake": {
+					"Price": "250"
+				},
+				"Cornucopia_PrincessCake": {
+					"Price": "250"
+				},
+				"Cornucopia_PumpkinBite": {
+					"Price": "250"
+				},
+				"Cornucopia_Qurutob": {
+					"Price": "250"
+				},
+				"Cornucopia_RaccoonSoba": {
+					"Price": "250"
+				},
+				"Cornucopia_RadishCake": {
+					"Price": "250"
+				},
+				"Cornucopia_RaisinBread": {
+					"Price": "250"
+				},
+				"Cornucopia_RedRed": {
+					"Price": "250"
+				},
+                "Cornucopia_RefriedBeans": {
+					"Price": "250"
+				},
+				"Cornucopia_RiversHarvest": {
+					"Price": "250"
+				},
+				"Cornucopia_RoastedBreadfruit": {
+					"Price": "250"
+				},
+				"Cornucopia_RockCandyFruit": {
+					"Price": "250"
+				},
+				"Cornucopia_RollCake": {
+					"Price": "250"
+				},
+				"Cornucopia_RootBeer": {
+					"Price": "250"
+				},
+				"Cornucopia_RoseDrink": {
+					"Price": "250"
+				},
+				"Cornucopia_RoseWater": {
+					"Price": "250"
+				},
+				"Cornucopia_Sachertorte": {
+					"Price": "250"
+				},
+				"Cornucopia_SalmonBearnaise": {
+					"Price": "250"
+				},
+				"Cornucopia_SalmonChowder": {
+					"Price": "250"
+				},
+				"Cornucopia_Samosas": {
+					"Price": "250"
+				},
+				"Cornucopia_SeafoodPaella": {
+					"Price": "250"
+				},
+                "Cornucopia_SearedSunflower": {
+					"Price": "250"
+				},
+				"Cornucopia_SesameCrackers": {
+					"Price": "250"
+				},
+				"Cornucopia_ShortbreadCookies": {
+					"Price": "250"
+				},
+				"Cornucopia_ShrimpandGrits": {
+					"Price": "250"
+				},
+				"Cornucopia_Skyr": {
+					"Price": "250"
+				},
+				"Cornucopia_SmotheredWaffles": {
+					"Price": "250"
+				},
+				"Cornucopia_SnailNoodles": {
+					"Price": "250"
+				},
+				"Cornucopia_Sopapillas": {
+					"Price": "250"
+				},
+				"Cornucopia_Souffle": {
+					"Price": "250"
+				},
+				"Cornucopia_SoupCurry": {
+					"Price": "250"
+				},
+				"Cornucopia_SourShchi": {
+					"Price": "250"
+				},
+				"Cornucopia_SpicyFruitSpear": {
+					"Price": "250"
+				},
+				"Cornucopia_SpicyPapayaSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_SpinachTortellini": {
+					"Price": "250"
+				},
+                "Cornucopia_SplitPeaSoup": {
+					"Price": "250"
+				},
+				"Cornucopia_SpringRolls": {
+					"Price": "250"
+				},
+				"Cornucopia_SpringSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_StarmiteToast": {
+					"Price": "250"
+				},
+				"Cornucopia_SteamedBambooShoots": {
+					"Price": "250"
+				},
+				"Cornucopia_StickyToffeePudding": {
+					"Price": "250"
+				},
+				"Cornucopia_StreetCorn": {
+					"Price": "250"
+				},
+				"Cornucopia_Strudel": {
+					"Price": "250"
+				},
+				"Cornucopia_Succotash": {
+					"Price": "250"
+				},
+				"Cornucopia_SugaredGrapefruit": {
+					"Price": "250"
+				},
+				"Cornucopia_SweetPilaf": {
+					"Price": "250"
+				},
+				"Cornucopia_SweetPotatoCasserole": {
+					"Price": "250"
+				},
+				"Cornucopia_SweetPotatoFries": {
+					"Price": "250"
+				},
+				"Cornucopia_Tabbouleh": {
+					"Price": "250"
+				},
+                "Cornucopia_Tahini": {
+					"Price": "250"
+				},
+				"Cornucopia_Taiyaki": {
+					"Price": "250"
+				},
+				"Cornucopia_TapiocaPudding": {
+					"Price": "250"
+				},
+				"Cornucopia_Tarkhuna": {
+					"Price": "250"
+				},
+				"Cornucopia_ThreeSistersSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_TortillaRollUps": {
+					"Price": "250"
+				},
+				"Cornucopia_TortillaSoup": {
+					"Price": "250"
+				},
+                "Cornucopia_TrailMix": {
+					"Price": "250"
+				},
+				"Cornucopia_TreacleTart": {
+					"Price": "250"
+				},
+				"Cornucopia_TrenettealPesto": {
+					"Price": "250"
+				},
+				"Cornucopia_TresLechesCake": {
+					"Price": "250"
+				},
+				"Cornucopia_Trifle": {
+					"Price": "250"
+				},
+				"Cornucopia_TropicalToss": {
+					"Price": "250"
+				},
+				"Cornucopia_TunaSalad": {
+					"Price": "250"
+				},
+				"Cornucopia_Tzatziki": {
+					"Price": "250"
+				},
+                "Cornucopia_UbeCake": {
+					"Price": "250"
+				},
+				"Cornucopia_UbeHalaya": {
+					"Price": "250"
+				},
+				"Cornucopia_VegetableKorma": {
+					"Price": "250"
+				},
+				"Cornucopia_VegetableTempura": {
+					"Price": "250"
+				},
+				"Cornucopia_WasabiPeas": {
+					"Price": "250"
+				},
+				"Cornucopia_WhiteChocolate": {
+					"Price": "250"
+				},
+				"Cornucopia_Yatsuhashi": {
+					"Price": "250"
+				},
+				"Cornucopia_YellowRice": {
+					"Price": "250"
+				},
+                "Cornucopia_Zarusoba": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		// Flavored Recipes dynamic price
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_FruitNectar": {
+					"Price": "250"
+				},
+				"Cornucopia_FruitSmoothie": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_FruitNectar",
+				"IngredientConfigs", "category_fruits"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_FruitSmoothie",
+				"IngredientConfigs", "category_fruits"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_MeatSatay": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_MeatSatay",
+				"IngredientConfigs", "meat_item"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_NutButterCups": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_NutButterCups",
+				"IngredientConfigs", "nut_butter_item"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_GrainPorridge": {
+					"Price": "250"
+				},
+				"Cornucopia_NigiriSushi": {
+					"Price": "250"
+				},
+				"Cornucopia_VegetablePotPie": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_GrainPorridge",
+				"IngredientConfigs", "grain_item"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_NigiriSushi",
+				"IngredientConfigs", "category_fish"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_VegetablePotPie",
+				"IngredientConfigs", "root_vegetable_item"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"Cornucopia_FruitTurnover": {
+					"Price": "250"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
+			"TargetField": [
+				"Cornucopia_FruitTurnover",
+				"IngredientConfigs", "category_fruits"
+			],
+			"Entries": {
+				"OutputPriceMultiplier":  "1.1"
+				
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
+				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
+				"HasMod|contains=Cornucopia.MoreFlowers": true,
+				"HasMod|contains=Cornucopia.ArtisanMachines": true,
+				"HasMod|contains=selph.ExtraMachineConfig": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
+			}
+		}
+	]
+}

@@ -26,25 +26,11 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"Mizu.Quail_QuailEgg",
-				"ContextTags"
-			], // Quail Eggs are egg items
-			"Entries": {
-				"#-1": "item_egg"
-			},
-			"When": {
-				"Sell Prices & Adjustments": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
 				"Mizu.Quail_LargeQuailEgg",
 				"ContextTags"
-			], // Large Quail Eggs are large egg items
+			], // Large Quail Eggs are egg items (equal to small eggs)
 			"Entries": {
-				"#-1": "item_large_egg"
+				"#-1": "item_egg"
 			},
 			"When": {
 				"Sell Prices & Adjustments": true
@@ -63,7 +49,80 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"SVBO_QuailEggSplit": "Mizu.Quail_LargeQuailEgg 1//Mizu.Quail_QuailEgg 2/false/Farming 4"
+			},
+			"When": {
+				"Split Large Animal Products": "Hand Crafting, Hand Crafting (No Goat Milk)"
+			}
+		},
 		// Artisan Goods Processing
+		{ // Recycling Machine - Brown Eggs
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)20",
+				"OutputRules"
+			],
+			"Entries": {
+				"SVBO_BrownEggSplit": {
+					"Id": "SVBO_QuailEggSplit",
+					"Triggers": [
+						{
+							"Id": "ItemPlacedInMachine",
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "Mizu.Quail_LargeQuailEgg",
+							"RequiredTags": null,
+							"RequiredCount": 1,
+							"Condition": null
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"CustomData": null,
+							"OutputMethod": null,
+							"CopyColor": false,
+							"CopyPrice": false,
+							"CopyQuality": false,
+							"PreserveType": null,
+							"PreserveId": null,
+							"IncrementMachineParentSheetIndex": 0,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"Condition": null,
+							"Id": "Mizu.Quail_QuailEgg",
+							"ItemId": "Mizu.Quail_QuailEgg",
+							"RandomItemId": null,
+							"MaxItems": null,
+							"MinStack": 2,
+							"MaxStack": 2,
+							"Quality": 0,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}
+					],
+					"MinutesUntilReady": 20,
+					"DaysUntilReady": -1,
+					"InvalidCountMessage": null,
+					"RecalculateOnCollect": false
+				}
+			},
+			"When": {
+				"Split Large Animal Products": "Recycling Machine, Recycling Machine (No Goat Milk)"
+			}
+		},
 		// Large Animal Products Only
 		{
 			"Action": "EditData",
