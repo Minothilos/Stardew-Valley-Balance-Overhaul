@@ -5,7 +5,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"drbirbdev.BinningSkill_GrilledCheese": { // Grilled Cheese
-					"Price": "235"
+					"Price": "225"
 				},
 				"drbirbdev.BinningSkill_FishCasserole": { // Fish Casserole
 					"Price": "215"

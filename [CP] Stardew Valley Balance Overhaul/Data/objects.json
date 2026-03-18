@@ -23,7 +23,7 @@
 					"Price": "95"
 				},
 				"252": { // Rhubarb
-					"Price": "225"
+					"Price": "220"
 				},
 				"400": { // Strawberry
 					"Price": "80"
@@ -62,7 +62,7 @@
 					"Price": "195"
 				},
 				"268": { // Starfruit
-					"Price": "220"
+					"Price": "230"
 				},
 				"256": { // Tomato
 					"Price": "70"
@@ -125,7 +125,7 @@
 					"Price": "15"
 				},
 				"486": { // Starfruit Seeds
-					"Price": "50"
+					"Price": "55"
 				},
 				"597": { // Blue Jazz
 					"Price": "145"
@@ -791,13 +791,13 @@
 					"Price": "250" //Proccesses to 150g
 				},
 				"724": { // Maple Syrup
-					"Price": "200"
+					"Price": "300"
 				},
 				"725": { // Oak Resin
-					"Price": "150"
+					"Price": "250"
 				},
 				"726": { // Pine Tar
-					"Price": "100"
+					"Price": "200"
 				},
 				"MysticSyrup": { // Mystic Syrup
 					"Price": "500"
@@ -1006,6 +1006,9 @@
 				"800": { // Blobfish
 					"Price": "250"
 				},
+				"Goby": { // Goby
+					"Price": "125"
+				},
 				"159": { // Crimsonfish
 					"Price": "2000"
 				},
@@ -1157,7 +1160,7 @@
 					"Price": "420"
 				},
 				"222": { // Rhubarb Pie
-					"Price": "335"
+					"Price": "330"
 				},
 				"223": { // Cookie
 					"Price": "160"
@@ -1226,7 +1229,7 @@
 					"Price": "155"
 				},
 				"253": { // Triple Shot Espresso
-					"Price": "460"
+					"Price": "440"
 				},
 				"265": { // Seafoam Pudding
 					"Price": "280"
@@ -1711,13 +1714,13 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"724": { // Maple Syrup
-					"Price": "150"
+					"Price": "225"
 				},
 				"725": { // Oak Resin
-					"Price": "110"
+					"Price": "190"
 				},
 				"726": { // Pine Tar
-					"Price": "75"
+					"Price": "150"
 				}
 			},
 			"When": {
@@ -1922,7 +1925,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"220": {
-					"Price": "275"
+					"Price": "290"
 				} // Chocolate Cake
 			},
 			"When": {
@@ -1940,13 +1943,10 @@
 					"Price": "290"
 				},
 				"905": { // Mango Sticky Rice
-					"Price": "570"
+					"Price": "555"
 				},
 				"224": { // Spaghetti
-					"Price": "240"
-				},
-				"226": { // Spicy Eel
-					"Price": "170"
+					"Price": "185"
 				},
 				"921": { // Squid Ink Ravioli
 					"Price": "325"
@@ -1964,6 +1964,20 @@
 			"When": {
 				"Sell Prices & Adjustments": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{ // Chocolate Cake Adjustment (Cornucopia Cooking Recipes)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"220": {
+					"Price": "435"
+				} // Chocolate Cake
+			},
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=Cornucopia.CookingRecipes": true,
+				"Query: '{{Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Vanilla Recipe Changes}}' = 'true'": true
 			}
 		},
 		{ // Bobber Sell Prices

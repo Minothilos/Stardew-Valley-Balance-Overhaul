@@ -205,11 +205,10 @@
 				]
 			},
 			"When": {
-				"Artisan Goods Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
+				"Artisan Goods Processing": "On"
 			}
-		},
-		{
+		}
+		/*{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -294,6 +293,6 @@
 				"HasMod|contains=DaLion.Professions": true,
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, ImmersiveDairyYield": false
 			}
-		}
+		}*/
 	]
 }

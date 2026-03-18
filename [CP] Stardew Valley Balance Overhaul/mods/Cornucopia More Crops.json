@@ -14,6 +14,9 @@
 				"Cornucopia_Onion": {
 					"Price": "140"
 				}, //Onion
+				"Cornucopia_SesameSeeds": {
+					"Price": "30"
+				}, //Sesame Seeds
 				"Cornucopia_Kiwi": {
 					"Price": "100"
 				}, //Kiwi
@@ -88,7 +91,10 @@
 				}, //Olive Oil
 				"Cornucopia_Molasses": {
 					"Price": "25"
-				} //Molasses
+				}, //Molasses
+				"Cornucopia_SesameOil": {
+					"Price": "90"
+				} //Sesame Oil
 			},
 			"When": {
 				"Sell Prices & Adjustments": true
@@ -165,7 +171,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Cornucopia_CocoaPod": {
-					"Price": "105"
+					"Price": "120"
 				}, // Cocoa Pod
 				"Cornucopia_Avocado": {
 					"Price": "110"
@@ -177,7 +183,7 @@
 					"Price": "100"
 				}, // Pear
 				"Cornucopia_CocoaPodSapling": {
-					"Price": "425"
+					"Price": "500"
 				}, // Cocoa Pod Sapling
 				"Cornucopia_AvocadoSapling": {
 					"Price": "450"
@@ -412,7 +418,22 @@
 				}, // Whole Grain Flour
 				"Cornucopia_Molasses": {
 					"Price": "25"
-				} // Molasses
+				}, // Molasses
+				"Cornucopia_Lentils": {
+					"Price": "20"
+				}, //Lentils
+				"Cornucopia_LentilsSeeds": {
+					"Price": "10"
+				}, // Lentils Seeds
+				"Cornucopia_Ube": {
+					"Price": "150"
+				}, // Molasses
+				"Cornucopia_BeanSprouts": {
+					"Price": "30"
+				}, // Bean Sprouts
+				"Cornucopia_MungBeans": {
+					"Price": "25"
+				} // Mung Beans
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -460,7 +481,7 @@
 					"Price": "50"
 				}, // Cilantro
 				"Cornucopia_CuminSeeds": {
-					"Price": "100"
+					"Price": "70"
 				}, // Cumin Seeds
 				"Cornucopia_Fennel": {
 					"Price": "80"
@@ -492,6 +513,9 @@
 				"Cornucopia_DillSeeds": {
 					"Price": "15"
 				}, // Dill Seeds
+				"Cornucopia_MustardGreens": {
+					"Price": "35"
+				}, // Mustard Greens
 				"Cornucopia_PerillaLeavesSeeds": {
 					"Price": "10"
 				} // Perilla Leaves Seeds
@@ -506,34 +530,34 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Cornucopia_EucalyptusLeaves": {
-					"Price": "100"
+					"Price": "90"
 				}, // Eucalyptus Leaves
 				"Cornucopia_MelaleucaLeaves": {
-					"Price": "110"
+					"Price": "90"
 				}, // Melaleuca Leaves
 				"Cornucopia_Nutmeg": {
-					"Price": "105"
+					"Price": "95"
 				}, // Nutmeg
 				"Cornucopia_CamphorLeaves": {
-					"Price": "100"
+					"Price": "90"
 				}, // Camphor Leaves
 				"Cornucopia_CinnamonSticks": {
-					"Price": "105"
+					"Price": "95"
 				}, // Cinnamon Sticks
 				"Cornucopia_EucalyptusLeavesSapling": {
-					"Price": "400"
+					"Price": "350"
 				}, // Eucalyptus Leaves Sapling
 				"Cornucopia_MelaleucaLeavesSapling": {
-					"Price": "450"
+					"Price": "350"
 				}, // Melaleuca Leaves Sapling
 				"Cornucopia_NutmegSapling": {
-					"Price": "425"
+					"Price": "375"
 				}, // Nutmeg Sapling
 				"Cornucopia_CamphorLeavesSapling": {
-					"Price": "400"
+					"Price": "350"
 				}, // Camphor Leaves Sapling
 				"Cornucopia_CinnamonSticksSapling": {
-					"Price": "425"
+					"Price": "375"
 				} // Cinnamon Sticks Sapling
 			},
 			"When": {
@@ -630,6 +654,15 @@
 				}, // Sapodilla
 				"Cornucopia_ChicleRubber": {
 					"Price": "275"
+				}, // Chicle Rubber
+				"Cornucopia_Date": {
+					"Price": "50"
+				}, // Yuzu
+				"Cornucopia_PalmNut": {
+					"Price": "20"
+				}, // Sapodilla
+				"Cornucopia_PalmOil": {
+					"Price": "150"
 				}, // Chicle Rubber
 				"Cornucopia_BreadfruitSapling": {
 					"Price": "475"

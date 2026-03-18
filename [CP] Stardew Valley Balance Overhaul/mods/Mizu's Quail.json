@@ -231,7 +231,7 @@
 					"Price": "765"
 				}, // Spatchcocked Quail and Greens
 				"Mizu.Quail_StuffedQuail": {
-					"Price": "830"
+					"Price": "815"
 				} // Stuffed Quail
 			},
 			"When": {
@@ -258,7 +258,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Mizu.Quail_StuffedQuail": {
-					"Price": "860"
+					"Price": "830"
 				} // Stuffed Quail with Extended Trees
 			},
 			"When": {

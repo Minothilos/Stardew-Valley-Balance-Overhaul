@@ -386,13 +386,6 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Simple Tea Expansion.json",
-			"When": {
-				"HasMod": "bb.moreTea"
-			}
-		},
-		{
-			"Action": "Include",
 			"FromFile": "mods/Chicken Feed.json",
 			"When": {
 				"HasMod": "selph.CoopFeed"

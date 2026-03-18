@@ -7,20 +7,50 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Cornucopia_PrismaticEssence": {
-					"Price": "2500"
+					"Price": "2000"
 				}, // Prismatic Essence
+				"Cornucopia_Butter": {
+					"Price": "100"
+				}, // Butter
 				"Cornucopia_CoconutButter": {
-					"Price": "200"
+					"Price": "175"
 				}, // Coconut Butter
 				"Cornucopia_CookieButter": {
 					"Price": "250"
 				}, // Cookie Butter
+				"Cornucopia_HoneyButter": {
+					"Price": "280"
+				}, // Honey Butter
+				"Cornucopia_MapleButter": {
+					"Price": "400"
+				}, // Maple Butter
 				"Cornucopia_Margarine": {
 					"Price": "175"
 				}, // Margarine
+				"Cornucopia_Applesauce": {
+					"Price": "180"
+				}, // Applesauce
 				"Cornucopia_ChiliPowder": {
 					"Price": "100"
 				}, // ChiliPowder
+				"Cornucopia_GellingPowder": {
+					"Price": "150"
+				}, // Gelling Powder
+				"Cornucopia_OrangeZest": {
+					"Price": "150"
+				}, // Orange Zest
+				"Cornucopia_PineNuts": {
+					"Price": "200"
+				}, // Pine Nuts
+				"Cornucopia_Saffron": {
+					"Price": "250"
+				}, // Saffron
+				"Cornucopia_Salt": {
+					"Price": "60"
+				}, // Salt
+				"Cornucopia_ShrimpPaste": {
+					"Price": "210"
+				}, // Shrimp Paste
 				"Cornucopia_RoastedGarlic": {
 					"Price": "200"
 				}, // Roasted Garlic
@@ -30,6 +60,12 @@
 				"Cornucopia_RoastedSunflowerSeeds": {
 					"Price": "175"
 				}, // Roasted Sunflower Seeds
+				"Cornucopia_SmokedSalmon": {
+					"Price": "200"
+				}, // Smoked Salmon
+				"Cornucopia_DriedSquid": {
+					"Price": "300"
+				}, // Dried Sqiud
 				"Cornucopia_GlassNoodles": {
 					"Price": "200"
 				}, // Glass Noodles
@@ -37,131 +73,53 @@
 					"Price": "200"
 				}, // Rice Noodles
 				"Cornucopia_WheatNoodles": {
-					"Price": "150"
+					"Price": "100"
 				}, // Wheat Noodles
+				"Cornucopia_CoconutMilk": {
+					"Price": "300"
+				}, // Coconut Milk
 				"Cornucopia_GarlicMayonnaise": {
-					"Price": "285"
+					"Price": "290"
 				}, // Garlic Mayonnaise
 				"Cornucopia_SpicyMayonnaise": {
 					"Price": "240"
 				}, // Spicy Mayonnaise
+				"Cornucopia_TruffleMayonnaise": {
+					"Price": "500"
+				}, // Truffle Mayonnaise
 				"Cornucopia_CornFlour": {
 					"Price": "50"
 				}, // Corn Flour
 				"Cornucopia_ChiliOil": {
-					"Price": "250"
-				}, // Chili Oil
-				"Cornucopia_Sauerkraut": {
-					"Price": "320"
-				}, // Sauerkraut
-				"Cornucopia_Starmite": {
-					"Price": "250"
-				} // Starmite
-			},
-			"When": {
-				"Sell Prices & Adjustments": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_ShrimpPaste": {
-					"Price": "210"
-				}, // Shrimp Paste
-				"Cornucopia_SmokedSalmon": {
 					"Price": "200"
-				}, // Smoked Salmon
-				"Cornucopia_DriedSquid": {
-					"Price": "275"
-				}, // Dried Sqiud
+				}, // Chili Oil
+				"Cornucopia_CoconutOil": {
+					"Price": "250"
+				}, // Coconut Oil
 				"Cornucopia_FishOil": {
 					"Price": "250"
 				}, // Fish Oil
-				"Cornucopia_FishSauce": {
-					"Price": "550"
-				}, // Fish Sauce
-				"Cornucopia_Garum": {
-					"Price": "550"
-				} // Garum
-			},
-			"When": {
-				"Sell Prices & Adjustments": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_Butter": {
-					"Price": "100"
-				}, // Butter
-				"Cornucopia_TruffleMayonnaise": {
-					"Price": "465"
-				}, // Truffle Mayonnaise
 				"Cornucopia_CenturyEgg": {
 					"Price": "390"
 				}, // Century Egg
+				"Cornucopia_FishSauce": {
+					"Price": "500"
+				}, // Fish Sauce
+				"Cornucopia_Garum": {
+					"Price": "500"
+				}, // Garum
+				"Cornucopia_Sauerkraut": {
+					"Price": "220"
+				}, // Sauerkraut
+				"Cornucopia_Starmite": {
+					"Price": "250"
+				}, // Starmite
+				"Cornucopia_Beeswax": {
+					"Price": "200"
+				}, // Beeswax
 				"Cornucopia_PlainYogurt": {
 					"Price": "100"
 				} // Plain Yogurt
-			},
-			"When": {
-				"Sell Prices & Adjustments": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_PrismaticEssence": {
-					"Price": "2000"
-				}, // Prismatic Essence
-				"Cornucopia_GellingPowder": {
-					"Price": "175"
-				} // Gelling Powder
-			},
-			"When": {
-				"Sell Prices & Adjustments": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_Saffron": {
-					"Price": "300"
-				}, // Saffron
-				"Cornucopia_Salt": {
-					"Price": "60"
-				}, // Salt
-				"Cornucopia_CoconutMilk": {
-					"Price": "325"
-				}, // Coconut Milk
-				"Cornucopia_CoconutOil": {
-					"Price": "250"
-				} // Coconut Oil
-			},
-			"When": {
-				"Sell Prices & Adjustments": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_HoneyButter": {
-					"Price": "280"
-				}, // Honey Butter
-				"Cornucopia_MapleButter": {
-					"Price": "400"
-				}, // Maple Butter
-				"Cornucopia_PineNuts": {
-					"Price": "200"
-				}, // Pine Nuts
-				"Cornucopia_Beeswax": {
-					"Price": "200"
-				} // Beeswax
 			},
 			"When": {
 				"Sell Prices & Adjustments": true
@@ -180,26 +138,14 @@
 				"HasMod|contains=DaLion.Professions": true
 			}
 		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_OrangeZest": {
-					"Price": "180"
-				}, // Orange Zest
-				"Cornucopia_Applesauce": {
-					"Price": "210"
-				} // Applesauce
-			},
-			"When": {
-				"Sell Prices & Adjustments": true
-			}
-		},
 		// Essential Crops Goods
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
+				"Cornucopia_CocoaButter": {
+					"Price": "210"
+				}, // Cocoa Butter
 				"Cornucopia_PeanutButter": {
 					"Price": "125"
 				}, // Peanut Butter
@@ -212,12 +158,18 @@
 				"Cornucopia_Zoodles": {
 					"Price": "100"
 				}, // Zoodles
+				"Cornucopia_AvocadoMayonnaise": {
+					"Price": "310"
+				}, // Avocado Mayonnaise
 				"Cornucopia_BlackPepperMayonnaise": {
-					"Price": "275"
+					"Price": "270"
 				}, // Black Pepper Mayonnaise
 				"Cornucopia_OliveOilMayonnaise": {
-					"Price": "375"
+					"Price": "380"
 				}, // Olive Oil Mayonnaise
+				"Cornucopia_AvocadoOil": {
+					"Price": "300"
+				}, // Avocado Oil
 				"Cornucopia_BrinedOlives": {
 					"Price": "200"
 				}, // Brined Olives
@@ -231,27 +183,8 @@
 					"Price": "275"
 				}, // Soy Sauce
 				"Cornucopia_StinkyTofu": {
-					"Price": "400"
+					"Price": "350"
 				} // Stinky Tofu
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Sell Prices & Adjustments": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"Cornucopia_CocoaButter": {
-					"Price": "230"
-				}, // Cocoa Butter
-				"Cornucopia_AvocadoMayonnaise": {
-					"Price": "315"
-				}, // Avocado Mayonnaise
-				"Cornucopia_AvocadoOil": {
-					"Price": "315"
-				} // Avocado Oil
 			},
 			"When": {
 				"HasMod|contains=Cornucopia.MoreCrops": true,
@@ -263,17 +196,20 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
+				"Cornucopia_EgglessEgg": {
+					"Price": "65"
+				}, // Eggless Egg
 				"Cornucopia_BuckwheatNoodles": {
-					"Price": "150"
+					"Price": "100"
 				}, // Buckwheat Noodles
 				"Cornucopia_SemolinaNoodles": {
-					"Price": "215"
+					"Price": "150"
 				}, // Semolina Noodles
 				"Cornucopia_WholeGrainNoodles": {
-					"Price": "170"
+					"Price": "110"
 				}, // Whole Grain Noodles
 				"Cornucopia_WasabiMayonnaise": {
-					"Price": "400"
+					"Price": "410"
 				} // Wasabi Mayonnaise
 			},
 			"When": {
@@ -288,10 +224,10 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Cornucopia_LemonZest": {
-					"Price": "180"
+					"Price": "150"
 				}, // Lemon Zest
 				"Cornucopia_LimeZest": {
-					"Price": "180"
+					"Price": "150"
 				}, // Lime Zest
 				"Cornucopia_ChewingGum": {
 					"Price": "525"
@@ -326,10 +262,10 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Cornucopia_AloeGel": {
-					"Price": "280"
+					"Price": "275"
 				}, // Aloe Gel
 				"Cornucopia_DillMayonnaise": {
-					"Price": "305"
+					"Price": "310"
 				} // Dill Mayonnaise
 			},
 			"When": {
@@ -1063,41 +999,11 @@
 				"(BC)Cornucopia_WaxBarrel",
 				"OutputRules",
 				"Cornucopia_Candles",
-				"Triggers"
+				"Triggers", "#7"
 			], // Wax Barrel - Remove RequiredItemId Triggers
 			"Entries": {
-				"#7": null,
-				"#6": null
-			},
-			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"614",
-				"ContextTags"
-			], // Add context tag Candle Flavor to Green Tea
-			"Entries": {
-				"#-1": "candle_flavor"
-			},
-			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"TargetField": [
-				"395",
-				"ContextTags"
-			], // Add context tag Candle Flavor to Coffee
-			"Entries": {
-				"#-1": "candle_flavor"
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_614" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
@@ -1111,12 +1017,11 @@
 				"(BC)Cornucopia_WaxBarrel",
 				"OutputRules",
 				"Cornucopia_Candles",
-				"Triggers"
-			], // Waxbarrel - Add candle_flavor items to RequiredTags
+				"Triggers", "#6"
+			], // Wax Barrel - Remove RequiredItemId Triggers
 			"Entries": {
-				"CandleFlavor": {
-					"RequiredTags": [ "candle_flavor" ]
-				}
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_395" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
@@ -1134,7 +1039,7 @@
 			], // Wax Barrel - Remove RequiredItemId Triggers
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": [ "item_cornucopia_essentialoil" ]
+				"RequiredTags": [ "id_o_cornucopia_essentialoil" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
@@ -1152,7 +1057,7 @@
 			], // Yogurt Jar - Remove RequiredItemId Triggers
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": [ "item_cornucopia_cocoapod" ]
+				"RequiredTags": [ "id_o_cornucopia_cocoapod" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
@@ -1171,7 +1076,7 @@
 			], // Yogurt Jar - Remove RequiredItemId Triggers
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": [ "item_cornucopia_vanilla" ]
+				"RequiredTags": [ "id_o_cornucopia_vanilla" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
@@ -1219,28 +1124,10 @@
 				"OutputRules",
 				"Cornucopia_NutCheese_NutMilk",
 				"Triggers", "#0"
-			], // Wax Barrel - Remove RequiredItemId Triggers
-			"Entries": {
-				"RequiredItemId": null,
-				"RequiredTags": [ "item_cornucopia_cocoapod" ]
-			},
-			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"TargetField": [
-				"(BC)16",
-				"OutputRules",
-				"Cornucopia_NutCheese_NutMilk",
-				"Triggers", "#0"
 			], // Yogurt Jar - Remove RequiredItemId Triggers
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": [ "item_cornucopia_nutmilk" ]
+				"RequiredTags": [ "id_o_cornucopia_nutmilk" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
@@ -1258,7 +1145,7 @@
 			], // Wax Barrel - Remove RequiredItemId Triggers
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": [ "item_cornucopia_soybeans" ]
+				"RequiredTags": [ "id_o_cornucopia_soybeans" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
@@ -1277,33 +1164,13 @@
 			], // Wax Barrel - Remove RequiredItemId Triggers
 			"Entries": {
 				"RequiredItemId": null,
-				"RequiredTags": [ "item_cornucopia_oats" ]
+				"RequiredTags": [ "id_o_cornucopia_oats" ]
 			},
 			"When": {
 				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"HasMod|contains=paulsteele.fse": true
-			}
-		},
-		{
-			"Action": "EditData",
-			"Target": "Data/Machines",
-			"Priority": "Late +1",
-			"TargetField": [
-				"(BC)15",
-				"OutputRules",
-				"Cornucopia_PickleSpears",
-				"Triggers",
-				"#1"
-			],
-			"Entries": {
-				"RequiredCount": 3
-			},
-			"When": {
-				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"Sell Prices & Adjustments": true
 			}
 		},
 		// Cask Aging Multiplier
@@ -1842,11 +1709,10 @@
 				]
 			},
 			"When": {
-				"Artisan Goods Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
+				"Artisan Goods Processing": "On"
 			}
 		},
-		{
+		/*{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -1931,7 +1797,7 @@
 				"HasMod|contains=DaLion.Professions": true,
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, ImmersiveDairyYield": true
 			}
-		},
+		},*/
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -2027,11 +1893,10 @@
 				]
 			},
 			"When": {
-				"Artisan Goods Processing": "On",
-				"HasMod|contains=DaLion.Professions": false
+				"Artisan Goods Processing": "On"
 			}
 		},
-		{
+		/*{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -2146,7 +2011,7 @@
 				"HasMod|contains=DaLion.Professions": true,
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, ImmersiveDairyYield": false
 			}
-		},
+		},*/
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -5264,11 +5129,10 @@
 				]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=DaLion.Professions": false
+				"Artisan Goods Processing|contains=Off": "false"
 			}
 		},
-		{
+	/*	{
 			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
@@ -5353,7 +5217,7 @@
 				"HasMod|contains=DaLion.Professions": true,
 				"Spiderbuttons.CMCT/Config: DaLion.Professions, ImmersiveDairyYield": true
 			}
-		},
+		},*/
 		{
 			"Action": "EditData",
 			"Target": "Data/Machines",

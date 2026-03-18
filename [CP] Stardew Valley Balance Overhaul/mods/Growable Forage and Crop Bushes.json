@@ -72,6 +72,22 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"303": {
+					"Price": "165"
+				} // Pale Ale
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=furyx639.CustomBush": true,
+				"Spiderbuttons.CMCT/Config: Cornucopia.GrowableForage, Hops Bush": true,
+				"HasMod|contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent: anyPlayer| contains=5407917": true
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Data/Machines",
 			"TargetField": [
 				"(BC)163",

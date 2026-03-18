@@ -33,16 +33,16 @@
 					"Price": "385"
 				},
 				"blueberry.LoveOfCooking_chocoflan": { // Hazelnut Bakewell
-					"Price": "445"
+					"Price": "735"
 				},
 				"blueberry.LoveOfCooking_cocococktail": { // Coconut Cocktail
 					"Price": "145"
 				},
-				"blueberry.LoveOfCooking_craymornay": { // Cray Mornay Cauliflower
+				"blueberry.LoveOfCooking_craymornay": { // Cray Mornay
 					"Price": "395"
 				},
 				"blueberry.LoveOfCooking_crepes": { // Crepes Suzette
-					"Price": "385"
+					"Price": "495"
 				},
 				"blueberry.LoveOfCooking_curry": { // Curry Diablo
 					"Price": "400"
@@ -54,7 +54,7 @@
 					"Price": "290"
 				},
 				"blueberry.LoveOfCooking_hotcocoa": { // Hot Cocoa
-					"Price": "305"
+					"Price": "360"
 				},
 				"blueberry.LoveOfCooking_hunters": { // Hunter's Plate
 					"Price": "275"
@@ -75,10 +75,10 @@
 					"Price": "205"
 				},
 				"blueberry.LoveOfCooking_oceanplatter": { // Ocean Platter
-					"Price": "760"
+					"Price": "770"
 				},
 				"blueberry.LoveOfCooking_paella": { // Paella
-					"Price": "415"
+					"Price": "380"
 				},
 				"blueberry.LoveOfCooking_parfait": { // Plum Parfait
 					"Price": "205"
@@ -87,10 +87,10 @@
 					"Price": "400"
 				},
 				"blueberry.LoveOfCooking_profiteroles": { // Profiteroles
-					"Price": "310"
+					"Price": "365"
 				},
 				"blueberry.LoveOfCooking_quiche": { // Quiche Provencale
-					"Price": "420"
+					"Price": "375"
 				},
 				"blueberry.LoveOfCooking_roast": { // Hot Pot Roast
 					"Price": "570"
@@ -111,7 +111,7 @@
 					"Price": "270"
 				},
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
-					"Price": "200"
+					"Price": "250"
 				}
 			},
 			"When": {
@@ -127,7 +127,7 @@
 					"Price": "215"
 				},
 				"blueberry.LoveOfCooking_kebab": { // Kebab
-					"Price": "270"
+					"Price": "280"
 				}
 			},
 			"When": {
@@ -424,7 +424,9 @@
 			],
 			"Fields": {
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
-					"AvailableStock": "{{Normal Seeds Stock}}",
+					"Price": "300",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -449,7 +451,9 @@
 			],
 			"Fields": {
 				"blueberry.LoveOfCooking_chocolate": { // Cooking Chocolate
-					"AvailableStock": "{{Normal Seeds Stock}}",
+					"Price": "300",
+					"IgnoreShopPriceModifiers": true,
+					"AvailableStock": "{{Cooking Ingredients Stock}}",
 					"AvailableStockLimit": "Player",
 					"AvailableStockModifiers": [
 						{
@@ -463,31 +467,6 @@
 			},
 			"When": {
 				"Limited Stock": true
-			}
-		},
-		{
-			// Chocolate is Cooking (Cornucopia More Crops)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"blueberry.LoveOfCooking_chocolate": {
-					"Type": "Cooking",
-					"Category": -7
-				}
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true
-			}
-		},
-		{
-			// Make Chocolate (Cornucopia Cocoa Pod)
-			"Action": "EditData",
-			"Target": "Data/CookingRecipes",
-			"Entries": {
-				"minothilos.BalanceOverhaulContinuedCP_chocolate": "Cornucopia_CocoaPod 1// blueberry.LoveOfCooking_chocolate/blueberry.LoveOfCooking.CookingSkill 1"
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		}
 	]

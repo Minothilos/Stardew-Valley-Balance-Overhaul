@@ -221,7 +221,7 @@
 					"Price": "805"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Baked_Potato": {
-					"Price": "270"
+					"Price": "235"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger": {
 					"Price": "350"
@@ -233,10 +233,10 @@
 					"Price": "895"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Cheese_Charcuterie": {
-					"Price": "715"
+					"Price": "680"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Chocolate_Truffle_Bar": {
-					"Price": "385"
+					"Price": "505"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Flower_Cookie": {
 					"Price": "695"
@@ -251,16 +251,16 @@
 					"Price": "510"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Glazed_Pear": {
-					"Price": "365"
+					"Price": "330"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Grilled_Cheese_Sandwich": {
-					"Price": "435"
+					"Price": "605"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Ice_Cream_Sundae": {
 					"Price": "330"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie": {
-					"Price": "335"
+					"Price": "295"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Mushroom_Berry_Rice": {
 					"Price": "665"
@@ -269,7 +269,7 @@
 					"Price": "205"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pineapple_Custard_Crepe": {
-					"Price": "455"
+					"Price": "425"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Prismatic_Pop": {
 					"Price": "1765"
@@ -281,7 +281,7 @@
 					"Price": "265"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Stuffed_Persimmon": {
-					"Price": "580"
+					"Price": "545"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Vegan_Cone": {
 					"Price": "145"
@@ -404,7 +404,7 @@
 					"Price": "150"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Butter": { // Butter
-					"Price": "150"
+					"Price": "120"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Birch_Water": { // Birch Water
 					"Price": "150"
@@ -643,7 +643,7 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { // Cucumber Seed 
-					"Price": "220",
+					"Price": "100",
 					"IgnoreShopPriceModifiers": true
 				},
 				"FlashShifter.StardewValleyExpandedCP_Pear_Sapling": {
@@ -672,15 +672,15 @@
 			],
 			"Fields": {
 				"FlashShifter.StardewValleyExpandedCP_Cucumber_Seed": { // Cucumber Seed
-					"Price": "220",
+					"Price": "100",
 					"IgnoreShopPriceModifiers": true
 				},
 				"FlashShifter.StardewValleyExpandedCP_Warehouse_Cucumber_Seed": { // Cucumber Seed 
-					"Price": "220",
+					"Price": "100",
 					"IgnoreShopPriceModifiers": true
 				},
 				"FlashShifter.StardewValleyExpandedCP_JojaDay_Cucumber_Seed": { // Cucumber Seed 
-					"Price": "220",
+					"Price": "100",
 					"IgnoreShopPriceModifiers": true
 				}
 			},
@@ -2383,7 +2383,7 @@
 					"Price": "745"
 				},
 				"FlashShifter.StardewValleyExpandedCP_Butter": {
-					"Price": "160"
+					"Price": "130"
 				}
 			},
 			"When": {
@@ -2436,7 +2436,7 @@
 			"Target": "Data/Objects",
 			"Fields": {
 				"Cornucopia_Butter": { // Butter
-					"Price": "110"
+					"Price": "130"
 				}
 			},
 			"When": {

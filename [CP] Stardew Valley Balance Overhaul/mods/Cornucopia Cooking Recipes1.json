@@ -26,7 +26,7 @@
 				"Cornucopia_CandyApple": {
 					"Price": "150"
 				},
-				"Cornucopia_SpicedCarrotCake": {
+                "Cornucopia_SpicedCarrotCake": {
 					"Price": "295"
 				},
 				"Cornucopia_CoffeeCake": {
@@ -68,7 +68,7 @@
 				"Cornucopia_LeekSoup": {
 					"Price": "540"
 				},
-				"Cornucopia_MacandCheese": {
+                "Cornucopia_MacandCheese": {
 					"Price": "275"
 				},
 				"Cornucopia_MangoChutney": {
@@ -110,7 +110,7 @@
 				"Cornucopia_SoftPretzel": {
 					"Price": "120"
 				},
-				"Cornucopia_Steckerlfisch": {
+                "Cornucopia_Steckerlfisch": {
 					"Price": "75"
 				},
 				"Cornucopia_Takoyaki": {
@@ -124,7 +124,7 @@
 				"Sell Prices & Adjustments": true
 			}
 		},
-		{
+        {
 			// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -150,7 +150,7 @@
 				"Cornucopia_BanhMi": {
 					"Price": "405"
 				},
-				"Cornucopia_BouquetCrepe": {
+                "Cornucopia_BouquetCrepe": {
 					"Price": "510"
 				},
 				"Cornucopia_BreakfastScramble": {
@@ -192,7 +192,7 @@
 				"Cornucopia_Dango": {
 					"Price": "160"
 				},
-				"Cornucopia_DragonRoll": {
+                "Cornucopia_DragonRoll": {
 					"Price": "700"
 				},
 				"Cornucopia_Edamame": {
@@ -234,7 +234,7 @@
 				"Cornucopia_Udon": {
 					"Price": "165"
 				},
-				"Cornucopia_VanillaPudding": {
+                "Cornucopia_VanillaPudding": {
 					"Price": "195"
 				},
 				"Cornucopia_ZucchiniFritters": {
@@ -243,10 +243,10 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true
+                "HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		{
+        {
 			// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -272,7 +272,7 @@
 				"Cornucopia_BeanBurger": {
 					"Price": "450"
 				},
-				"Cornucopia_BeanQuesadilla": {
+                "Cornucopia_BeanQuesadilla": {
 					"Price": "400"
 				},
 				"Cornucopia_Broth": {
@@ -314,7 +314,7 @@
 				"Cornucopia_GrahamCracker": {
 					"Price": "220"
 				},
-				"Cornucopia_Gumbo": {
+                "Cornucopia_Gumbo": {
 					"Price": "910"
 				},
 				"Cornucopia_HomemadePopcorn": {
@@ -356,7 +356,7 @@
 				"Cornucopia_OkraSoup": {
 					"Price": "375"
 				},
-				"Cornucopia_PadPrinat": {
+                "Cornucopia_PadPrinat": {
 					"Price": "1145"
 				},
 				"Cornucopia_PalmNutSoup": {
@@ -392,7 +392,7 @@
 				"Cornucopia_TilapiaandZoodles": {
 					"Price": "425"
 				},
-				"Cornucopia_Waffles": {
+                "Cornucopia_Waffles": {
 					"Price": "260"
 				},
 				"Cornucopia_YucaFries": {
@@ -401,15 +401,15 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
+                "HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		{
+        {
 			// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -435,7 +435,7 @@
 				"Cornucopia_BlackSoup": {
 					"Price": "505"
 				},
-				"Cornucopia_CaldodeCamaron": {
+                "Cornucopia_CaldodeCamaron": {
 					"Price": "210"
 				},
 				"Cornucopia_CandiedCherries": {
@@ -477,7 +477,7 @@
 				"Cornucopia_CreamStew": {
 					"Price": "265"
 				},
-				"Cornucopia_CreamedCorn": {
+                "Cornucopia_CreamedCorn": {
 					"Price": "215"
 				},
 				"Cornucopia_CritterFritter": {
@@ -519,7 +519,7 @@
 				"Cornucopia_HardCandies": {
 					"Price": "35"
 				},
-				"Cornucopia_HotSauce": {
+                "Cornucopia_HotSauce": {
 					"Price": "290"
 				},
 				"Cornucopia_Khachapuri": {
@@ -555,7 +555,7 @@
 				"Cornucopia_Papanasi": {
 					"Price": "690"
 				},
-				"Cornucopia_PeachCrisp": {
+                "Cornucopia_PeachCrisp": {
 					"Price": "210"
 				},
 				"Cornucopia_Pierogi": {
@@ -582,7 +582,7 @@
 				"Cornucopia_Pupusas": {
 					"Price": "250"
 				},
-				"Cornucopia_RizGras": {
+                "Cornucopia_RizGras": {
 					"Price": "450"
 				},
 				"Cornucopia_Saimin": {
@@ -618,7 +618,7 @@
 				"Cornucopia_Switchel": {
 					"Price": "540"
 				},
-				"Cornucopia_Taffy": {
+                "Cornucopia_Taffy": {
 					"Price": "65"
 				},
 				"Cornucopia_TaterTots": {
@@ -639,10 +639,10 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true
+                "Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true
 			}
 		},
-		{
+        {
 			// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -662,7 +662,10 @@
 				"Cornucopia_BreakfastCereal": {
 					"Price": "580"
 				},
-				"Cornucopia_CakePops": {
+				"Cornucopia_Butterscotch": {
+					"Price": "200"
+				},
+                "Cornucopia_CakePops": {
 					"Price": "1160"
 				},
 				"Cornucopia_CandiedPineapple": {
@@ -704,8 +707,11 @@
 				"Cornucopia_EgusiSoup": {
 					"Price": "235"
 				},
-				"Cornucopia_FriedTofu": {
+                "Cornucopia_FriedTofu": {
 					"Price": "330"
+				},
+				"Cornucopia_Fudge": {
+					"Price": "440"
 				},
 				"Cornucopia_Gazpacho": {
 					"Price": "205"
@@ -743,7 +749,7 @@
 				"Cornucopia_Mousse": {
 					"Price": "380"
 				},
-				"Cornucopia_Natto": {
+                "Cornucopia_Natto": {
 					"Price": "285"
 				},
 				"Cornucopia_OnionRings": {
@@ -755,6 +761,9 @@
 				"Cornucopia_OysterSauceCrab": {
 					"Price": "320"
 				},
+				"Cornucopia_Pavlova": {
+					"Price": "315"
+				},
 				"Cornucopia_PickledRind": {
 					"Price": "385"
 				},
@@ -763,6 +772,9 @@
 				},
 				"Cornucopia_Polenta": {
 					"Price": "195"
+				},
+				"Cornucopia_RiceandBeans": {
+					"Price": "255"
 				},
 				"Cornucopia_RiceCakes": {
 					"Price": "110"
@@ -773,7 +785,7 @@
 				"Cornucopia_StrawberryDrink": {
 					"Price": "470"
 				},
-				"Cornucopia_StrawberryShortcake": {
+                "Cornucopia_StrawberryShortcake": {
 					"Price": "335"
 				},
 				"Cornucopia_Stroganina": {
@@ -794,11 +806,11 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true
+                "Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true
 			}
 		},
-		{
+        {
 			// Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -824,7 +836,7 @@
 				"Cornucopia_AloeCooler": {
 					"Price": "325"
 				},
-				"Cornucopia_Ambrosia": {
+                "Cornucopia_Ambrosia": {
 					"Price": "670"
 				},
 				"Cornucopia_AntsonaLog": {
@@ -866,7 +878,7 @@
 				"Cornucopia_BearCandy": {
 					"Price": "505"
 				},
-				"Cornucopia_Beyaynetu": {
+                "Cornucopia_Beyaynetu": {
 					"Price": "175"
 				},
 				"Cornucopia_Bibimbap": {
@@ -902,16 +914,13 @@
 				"Cornucopia_ButtermilkSoup": {
 					"Price": "260"
 				},
-				"Cornucopia_Butterscotch": {
-					"Price": "200"
-				},
 				"Cornucopia_CabbageRoll": {
 					"Price": "225"
 				},
 				"Cornucopia_CacioePepe": {
 					"Price": "415"
 				},
-				"Cornucopia_CalicoBar": {
+                "Cornucopia_CalicoBar": {
 					"Price": "500"
 				},
 				"Cornucopia_CandiedAlmonds": {
@@ -947,7 +956,7 @@
 				"Cornucopia_Champurrado": {
 					"Price": "350"
 				},
-				"Cornucopia_CheezieCurlz": {
+                "Cornucopia_CheezieCurlz": {
 					"Price": "220"
 				},
 				"Cornucopia_ChilledTofu": {
@@ -974,7 +983,7 @@
 				"Cornucopia_Clafoutis": {
 					"Price": "255"
 				},
-				"Cornucopia_ClayPotNoodles": {
+                "Cornucopia_ClayPotNoodles": {
 					"Price": "690"
 				},
 				"Cornucopia_Colcannon": {
@@ -1010,7 +1019,7 @@
 				"Cornucopia_Dolmas": {
 					"Price": "640"
 				},
-				"Cornucopia_DrunkardsNoodles": {
+                "Cornucopia_DrunkardsNoodles": {
 					"Price": "555"
 				},
 				"Cornucopia_DurianCrispies": {
@@ -1049,7 +1058,7 @@
 				"Cornucopia_Falafel": {
 					"Price": "220"
 				},
-				"Cornucopia_Farofa": {
+                "Cornucopia_Farofa": {
 					"Price": "675"
 				},
 				"Cornucopia_FernSalad": {
@@ -1091,10 +1100,7 @@
 				"Cornucopia_FryBread": {
 					"Price": "165"
 				},
-				"Cornucopia_Fudge": {
-					"Price": "440"
-				},
-				"Cornucopia_Fufu": {
+                "Cornucopia_Fufu": {
 					"Price": "105"
 				},
 				"Cornucopia_Fungee": {
@@ -1136,7 +1142,7 @@
 				"Cornucopia_GrilledZucchini": {
 					"Price": "165"
 				},
-				"Cornucopia_GulabJamun": {
+                "Cornucopia_GulabJamun": {
 					"Price": "505"
 				},
 				"Cornucopia_Gumdrops": {
@@ -1172,7 +1178,7 @@
 				"Cornucopia_Injera": {
 					"Price": "55"
 				},
-				"Cornucopia_JalapenoLoaf": {
+                "Cornucopia_JalapenoLoaf": {
 					"Price": "185"
 				},
 				"Cornucopia_Jalebi": {
@@ -1199,7 +1205,7 @@
 				"Cornucopia_Karantika": {
 					"Price": "315"
 				},
-				"Cornucopia_KayaToast": {
+                "Cornucopia_KayaToast": {
 					"Price": "305"
 				},
 				"Cornucopia_Kheer": {
@@ -1241,7 +1247,7 @@
 				"Cornucopia_Licorice": {
 					"Price": "510"
 				},
-				"Cornucopia_Lokum": {
+                "Cornucopia_Lokum": {
 					"Price": "500"
 				},
 				"Cornucopia_LotusWrappedStickyRice": {
@@ -1283,7 +1289,7 @@
 				"Cornucopia_MascarponeLuxury": {
 					"Price": "235"
 				},
-				"Cornucopia_MassamanCurry": {
+                "Cornucopia_MassamanCurry": {
 					"Price": "920"
 				},
 				"Cornucopia_MelonSalad": {
@@ -1313,7 +1319,7 @@
 				"Cornucopia_Mohinga": {
 					"Price": "1085"
 				},
-				"Cornucopia_MoinMoin": {
+                "Cornucopia_MoinMoin": {
 					"Price": "430"
 				},
 				"Cornucopia_Mooncake": {
@@ -1355,7 +1361,7 @@
 				"Cornucopia_OneManThousand": {
 					"Price": "870"
 				},
-				"Cornucopia_Onigiri": {
+                "Cornucopia_Onigiri": {
 					"Price": "535"
 				},
 				"Cornucopia_OystersMignonette": {
@@ -1382,9 +1388,6 @@
 				"Cornucopia_PastaPrimavera": {
 					"Price": "640"
 				},
-				"Cornucopia_Pavlova": {
-					"Price": "315"
-				},
 				"Cornucopia_PecanBrittle": {
 					"Price": "265"
 				},
@@ -1400,7 +1403,7 @@
 				"Cornucopia_PerillaKimchi": {
 					"Price": "210"
 				},
-				"Cornucopia_Pesto": {
+                "Cornucopia_Pesto": {
 					"Price": "980"
 				},
 				"Cornucopia_PineappleCake": {
@@ -1436,11 +1439,8 @@
 				"Cornucopia_RedRed": {
 					"Price": "430"
 				},
-				"Cornucopia_RefriedBeans": {
+                "Cornucopia_RefriedBeans": {
 					"Price": "210"
-				},
-				"Cornucopia_RiceandBeans": {
-					"Price": "255"
 				},
 				"Cornucopia_RiversHarvest": {
 					"Price": "475"
@@ -1478,7 +1478,7 @@
 				"Cornucopia_SeafoodPaella": {
 					"Price": "625"
 				},
-				"Cornucopia_SearedSunflower": {
+                "Cornucopia_SearedSunflower": {
 					"Price": "310"
 				},
 				"Cornucopia_SesameCrackers": {
@@ -1520,7 +1520,7 @@
 				"Cornucopia_SpinachTortellini": {
 					"Price": "275"
 				},
-				"Cornucopia_SplitPeaSoup": {
+                "Cornucopia_SplitPeaSoup": {
 					"Price": "345"
 				},
 				"Cornucopia_SpringRolls": {
@@ -1562,7 +1562,7 @@
 				"Cornucopia_Tabbouleh": {
 					"Price": "390"
 				},
-				"Cornucopia_Tahini": {
+                "Cornucopia_Tahini": {
 					"Price": "100"
 				},
 				"Cornucopia_Taiyaki": {
@@ -1583,7 +1583,7 @@
 				"Cornucopia_TortillaSoup": {
 					"Price": "295"
 				},
-				"Cornucopia_TrailMix": {
+                "Cornucopia_TrailMix": {
 					"Price": "1285"
 				},
 				"Cornucopia_TreacleTart": {
@@ -1599,7 +1599,7 @@
 					"Price": "595"
 				},
 				"Cornucopia_TropicalToss": {
-					"Price": "650"
+					"Price": "660"
 				},
 				"Cornucopia_TunaSalad": {
 					"Price": "350"
@@ -1607,7 +1607,7 @@
 				"Cornucopia_Tzatziki": {
 					"Price": "270"
 				},
-				"Cornucopia_UbeCake": {
+                "Cornucopia_UbeCake": {
 					"Price": "325"
 				},
 				"Cornucopia_UbeHalaya": {
@@ -1631,13 +1631,13 @@
 				"Cornucopia_YellowRice": {
 					"Price": "910"
 				},
-				"Cornucopia_Zarusoba": {
+                "Cornucopia_Zarusoba": {
 					"Price": "450"
 				}
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
+                "Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
@@ -1669,11 +1669,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_FruitNectar",
-				"IngredientConfigs",
-				"category_fruits"
+				"IngredientConfigs", "category_fruits"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "1.1"
+				"OutputPriceMultiplier":  "1.1"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -1686,11 +1686,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_FruitSmoothie",
-				"IngredientConfigs",
-				"category_fruits"
+				"IngredientConfigs", "category_fruits"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "1.1"
+				"OutputPriceMultiplier":  "1.1"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -1708,7 +1708,7 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasMod|contains=selph.ExtraMachineConfig": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Flavored Recipes": true
 			}
@@ -1718,11 +1718,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_MeatSatay",
-				"IngredientConfigs",
-				"meat_item"
+				"IngredientConfigs", "meat_item"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "1.1"
+				"OutputPriceMultiplier":  "1.1"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -1741,7 +1741,7 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
@@ -1756,11 +1756,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_NutButterCups",
-				"IngredientConfigs",
-				"Nut Butter"
+				"IngredientConfigs", "Nut Butter"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "1.1"
+				"OutputPriceMultiplier":  "1.1"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -1800,11 +1800,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_GrainPorridge",
-				"IngredientConfigs",
-				"grain_item"
+				"IngredientConfigs", "grain_item"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "3.3"
+				"OutputPriceMultiplier":  "3.3"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -1818,11 +1818,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_NigiriSushi",
-				"IngredientConfigs",
-				"category_fish"
+				"IngredientConfigs", "category_fish"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "1.1"
+				"OutputPriceMultiplier":  "1.1"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -1836,11 +1836,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_VegetablePotPie",
-				"IngredientConfigs",
-				"root vegetable"
+				"IngredientConfigs", "root vegetable"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "3.3"
+				"OutputPriceMultiplier":  "3.3"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
@@ -1860,7 +1860,7 @@
 			"When": {
 				"Sell Prices & Adjustments": true,
 				"Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, World Traveler": true,
-				"HasMod|contains=Cornucopia.MoreCrops": true,
+                "HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_ExtendedTreesPackEnabled": true,
 				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
@@ -1875,11 +1875,11 @@
 			"Target": "selph.ExtraMachineConfig/ExtraCraftingConfig",
 			"TargetField": [
 				"Cornucopia_FruitTurnover",
-				"IngredientConfigs",
-				"category_fruits"
+				"IngredientConfigs", "category_fruits"
 			],
 			"Entries": {
-				"OutputPriceMultiplier": "2.2"
+				"OutputPriceMultiplier":  "2.2"
+				
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
