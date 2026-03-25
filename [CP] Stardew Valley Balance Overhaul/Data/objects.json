@@ -1966,20 +1966,6 @@
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
 			}
 		},
-		{ // Chocolate Cake Adjustment (Cornucopia Cooking Recipes)
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"220": {
-					"Price": "435"
-				} // Chocolate Cake
-			},
-			"When": {
-				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasMod|contains=Cornucopia.CookingRecipes": true,
-				"Query: '{{Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Vanilla Recipe Changes}}' = 'true'": true
-			}
-		},
 		{ // Bobber Sell Prices
 			"Action": "EditData",
 			"Target": "Data/Objects",

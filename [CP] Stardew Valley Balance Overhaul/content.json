@@ -400,6 +400,13 @@
 		},
 		{
 			"Action": "Include",
+			"FromFile": "mods/Camelus.json",
+			"When": {
+				"HasMod": "ZoeyHoshi.Camelus"
+			}
+		},
+		{
+			"Action": "Include",
 			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
 				"Minothilos Tweaks": true

@@ -30,7 +30,7 @@
 					"Price": "295"
 				},
 				"Cornucopia_CoffeeCake": {
-					"Price": "315502"
+					"Price": "315"
 				},
 				"Cornucopia_Cornbread": {
 					"Price": "55"
@@ -1644,6 +1644,20 @@
 				"HasReadLetter|contains=Cornucopia.MoreCrops_HerbsPackEnabled": true,
 				"HasMod|contains=Cornucopia.MoreFlowers": true,
 				"HasMod|contains=Cornucopia.ArtisanMachines": true
+			}
+		},
+		{ // Chocolate Cake Adjustment (Enable Vanilla Recipe Changes)
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"220": {
+					"Price": "435"
+				} // Chocolate Cake
+			},
+			"When": {
+				"HasMod|contains=Cornucopia.MoreCrops": true,
+				"HasMod|contains=Cornucopia.CookingRecipes": true,
+				"Query: '{{Spiderbuttons.CMCT/Config: Cornucopia.CookingRecipes, Enable Vanilla Recipe Changes}}' = 'true'": true
 			}
 		},
 		// Flavored Recipes dynamic price

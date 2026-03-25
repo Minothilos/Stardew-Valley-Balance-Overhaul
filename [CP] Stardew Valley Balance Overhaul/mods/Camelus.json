@@ -1,0 +1,889 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.Camelus_CamelMilk": {
+					"Price": "175"
+				},
+				"ZoeyHoshi.Camelus_LargeCamelMilk": {
+					"Price": "350"
+				},
+				"ZoeyHoshi.Camelus_CamelCheese": {
+					"Price": "350"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Camel_Wool": {
+					"Price": "300"
+				},
+				"FlashShifter.StardewValleyExpandedCP_Yarn": {
+					"Price": "600"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.Camelus_VoidCamelMilk": {
+					"Price": "140"
+				},
+				"ZoeyHoshi.Camelus_LargeVoidCamelMilk": {
+					"Price": "280"
+				},
+				"ZoeyHoshi.Camelus_VoidCamelCheese": {
+					"Price": "280"
+				},
+                "ZoeyHoshi.Camelus_CamelHair_Void": {
+					"Price": "400"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_Void": {
+					"Price": "800"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.Camelus_CamelMeat": {
+					"Price": "150"
+				},
+				"ZoeyHoshi.Camelus_CamelSteak": {
+					"Price": "300"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.Camelus_LargeCamelCheese": {
+					"Price": "700"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "LargeCheese"
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.Camelus_LargeVoidCamelCheese": {
+					"Price": "560"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "LargeCheese",
+                "Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"ZoeyHoshi.Camelus_CamelHair_Albino": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_Albino": {
+					"Price": "600"
+				},
+				"ZoeyHoshi.Camelus_CamelHair_Ash": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_Ash": {
+					"Price": "600"
+				},
+				"ZoeyHoshi.Camelus_CamelHair_Black": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_Black": {
+					"Price": "600"
+				},
+                "ZoeyHoshi.Camelus_CamelHair_BlackPiedbald": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_BlackPiedbald": {
+					"Price": "600"
+				},
+				"ZoeyHoshi.Camelus_CamelHair_Blonde": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_Blonde": {
+					"Price": "600"
+				},
+				"ZoeyHoshi.Camelus_CamelHair_BrownPiedbald": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_BrownPiedbald": {
+					"Price": "600"
+				},
+                "ZoeyHoshi.Camelus_CamelHair_Chestnut": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_Chestnut": {
+					"Price": "600"
+				},
+				"ZoeyHoshi.Camelus_CamelHair_Cinnamon": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_Cinnamon": {
+					"Price": "600"
+				},
+                "ZoeyHoshi.Camelus_CamelHair_White": {
+					"Price": "300"
+				},
+				"ZoeyHoshi.Camelus_CamelHairYarn_White": {
+					"Price": "600"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+                "Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Logname": "Camels produce every other day",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+				"FlashShifter.StardewValleyExpandedCP_Camel": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_Albino": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_Ash": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_Black": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_BlackPiedbald": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_Blonde": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_BrownPiedbald": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_Chestnut": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_Cinnamon": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				},
+				"ZoeyHoshi.Camelus_White": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{
+			"Logname": "Void Camels produce every other day",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+				"ZoeyHoshi.Camelus_Void": {
+					"SellPrice": 10000,
+					"DaysToProduce": 2
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false
+			}
+		},
+		// Artisan Goods Processing
+		// Cask Aging
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cask - Camel Cheese
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "2,33" // 24 days
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Cask Aging": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_LargeCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cask - Large Camel Cheese
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "1,14" // 49 days
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Cask Aging": true,
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "LargeCheese"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_VoidCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cask - Void Camel Cheese
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "2,66" // 21 days
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Cask Aging": true,
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)163",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_LargeVoidCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cask - Large Void Camel Cheese
+			"Entries": {
+				"CustomData": {
+					"AgingMultiplier": "1,33" // 42 days
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Cask Aging": true,
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "LargeCheese",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false
+			}
+		},
+		/*
+		// Large Animal Products Only
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_DoubleCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Large Camel Milk
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Artisan Goods Processing": "Large Animal Products Only",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "WOL"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_DoubleVoidCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Large Void Camel Milk
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0"
+			},
+			"When": {
+				"Artisan Goods Processing": "Large Animal Products Only",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false,
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "WOL"
+			}
+		},*/
+		//Machine Processing On
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Camel Milk
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_DoubleCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Large Camel Milk
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "WOL"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_LargeCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Large Camel Milk, Large Cheese
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "LargeCheese"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_VoidCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Void Camel Milk
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_DoubleVoidCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Large Void Camel Milk
+			"Entries": {
+				"MinStack": "2",
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false,
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "WOL"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)16",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_DoubleVoidCamelCheese",
+				"OutputItem",
+				"#0"
+			], // Cheese Press - Large Camel Milk, Large Cheese
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, LargeMilkResult": "LargeCheese"
+			}
+		},
+		// Yarn
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_Albino",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Albino Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_Ash",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Ash Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_BlackPiedbald",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Black Piedbald Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_Blonde",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Blonde Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_BrownPiedbald",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Brown Piedbald Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_Chestnut",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Chestnut Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_Cinnamon",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Cinnamon Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_Void",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - Void Camel Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, DisableVoidCamel": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)FlashShifter.StardewValleyExpandedCP_Yarn_Spooler",
+				"OutputRules",
+				"ZoeyHoshi.Camelus_CamelHairYarn_White",
+				"OutputItem",
+				"#0"
+			], // Yarn Spooler - White Yarn
+			"Entries": {
+				"Quality": "0",
+				"CopyQuality": false,
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: ZoeyHoshi.Camelus, MatchingProductColours": true
+			}
+		}
+	]
+}

@@ -26,6 +26,73 @@
             "When": {
 				"Increased Silo Size": true
 		    }
+		},
+        { // Increased Silo Size
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+            "Priority": "Late",
+            "TargetField": [
+                "Mill", 
+                "ItemConversions", 
+                "Cornucopia_CornFlour", 
+                "ProducedItems"
+            ],
+        "Fields": {
+              "(O)Cornucopia_CornFlour": {
+                "MinStack": 1
+              },
+              "(O)selph.CoopFeed.ChickenFeed": {
+                "MinStack": 2,
+                "MaxStack": 4
+              }
+            },
+            "When": {
+                "HasMod |contains=Cornucopia.ArtisanMachines": "true"
+		    }
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.CoopFeed.HandMill",
+				"OutputRules",
+				"selph.CoopFeed.SeedToFeed",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"MinStack": 3
+			}
+		},
+        {
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_CompactMill",
+				"OutputRules"
+			],
+			"Entries": {
+                "SVBOCornucopia_CornFlour": {
+					"Id": "SVBOCornucopia_CornFlour",
+					"Triggers": 
+						[
+							{
+								"RequiredItemId": "(O)270"
+							}
+						],
+					"OutputItem":
+						[
+							{
+								"ItemId": "(O)Cornucopia_CornFlour",
+                                "MinStack": 2
+							}
+						],
+					"MinutesUntilReady": 180
+				}
+			},
+			"When": {
+                "HasMod |contains=Cornucopia.ArtisanMachines": "true"
+			}
 		}
 	]
 }

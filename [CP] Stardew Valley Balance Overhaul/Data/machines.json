@@ -394,7 +394,7 @@
 							{
 								"OutputMethod": "StardewValley.Objects.Cask, Stardew Valley: OutputCask",
 								"CustomData": {
-									"AgingMultiplier": "1.6"
+									"AgingMultiplier": "1.6" // 35 days
 								}
 							}
 						]
@@ -417,7 +417,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "4"
+					"AgingMultiplier": "4" // 14 days
 				}
 			},
 			"When": {
@@ -437,7 +437,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "2.66"
+					"AgingMultiplier": "2.66" // 21 days
 				}
 			},
 			"When": {
@@ -457,7 +457,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "1.33"
+					"AgingMultiplier": "1.166" // 48 days
 				}
 			},
 			"When": {
@@ -477,7 +477,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "2.66"
+					"AgingMultiplier": "1.6" // 35 days
 				}
 			},
 			"When": {
@@ -497,7 +497,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "1.3333"
+					"AgingMultiplier": "1.3333" // 42 days
 				}
 			},
 			"When": {
@@ -518,7 +518,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "5.7"
+					"AgingMultiplier": "5.7" // 10 days
 				}
 			},
 			"When": {
@@ -538,7 +538,7 @@
 			],
 			"Entries": {
 				"CustomData": {
-					"AgingMultiplier": "3.5"
+					"AgingMultiplier": "3.5" // 16 days
 				}
 			},
 			"When": {
