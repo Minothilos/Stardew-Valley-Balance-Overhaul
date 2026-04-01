@@ -323,7 +323,7 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP, selph.SimpleFlowerMeadS"
 			}
 		},
 		{ // Mead Formula (Flavored Meads)
@@ -351,7 +351,7 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP, selph.SimpleFlowerMead"
 			}
 		},
 		{
