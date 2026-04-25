@@ -1,0 +1,960 @@
+	{
+    "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"EFANDF.Checkerberry": {
+					"Price": "20"
+				}, // Checkerberry
+				"EFANDF.CheckerberryOil": {
+					"Price": "110"
+				}, // Checkerberry Oil
+				"EFANDF.YeastGrains": {
+					"Price": "30"
+				} // Yeast Grains
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"EFANDF.Cider": {
+					"Price": "550"
+				} // Cider
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Cider": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"EFANDF.RootBeer": {
+					"Price": "600"
+				} // Cider
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Root Beer": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"EFANDF.Prunes": {
+					"Price": "720"
+				} // Prunes
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Prunes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"EFANDF.Kefir": {
+					"Price": "300"
+				} // Prunes
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Kefir": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"EFANDF.Amazake": {
+					"Price": "300"
+				} // Amazake
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Amazake": true
+			}
+		},
+        { // Checkerberry Sapling
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Fields": {
+                "EFANDF.CheckerberrySapling": { 
+                    "HarvestMinStack": 2 // Increase yield to balance foraging vs planting
+                }
+            },
+            "When": {
+                "Sell Prices & Adjustments": true
+            }
+        },
+		// New Machine Processing Rules
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"EFANDF.Cordial",
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"PreserveId": "DROP_IN_PRESERVE",
+				"ObjectDisplayName": "%PRESERVED_DISPLAY_NAME {{Spiderbuttons.CMCT/Translation: appleseed.EFANDF, EFANDF.Cordial.Name}}",
+				"CustomData": {
+					"selph.ExtraMachineConfig.RequirementId.1": "-79",
+					"selph.ExtraMachineConfig.RequirementCount.1": "3",
+					"selph.ExtraMachineConfig.RequirementId.2": "(O)245",
+					"selph.ExtraMachineConfig.RequirementCount.2": "3",
+					"selph.ExtraMachineConfig.RequirementId.3": "(O)EFANDF.YeastGrains"
+            	},
+					"PriceModifiers": [
+					{
+						"Id": "Wine Multiplier",
+						"Modification": "Multiply",
+						"Amount": 1.5
+					},
+					{
+						"Id": "Base Price",
+						"Modification": "Add",
+						"Amount": 500
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Cordial": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.MimoletteCC", // Default Cow Mimolette
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"PreserveId": "DROP_IN",
+				"ObjectDisplayName": "{{Spiderbuttons.CMCT/Translation: appleseed.EFANDF, EFANDF.Mimolette.Name}}",
+					"PriceModifiers": [
+					{
+						"Id": "Cheese Multiplier",
+						"Modification": "Multiply",
+						"Amount": 3
+					},
+					{
+						"Id": "Base Price",
+						"Modification": "Add",
+						"Amount": 75
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Mimolette": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules"
+			], 
+			"Entries": 
+			{
+				"EFANDF.MimoletteGC": null
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Mimolette": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.MimoletteAC", // All Cheese
+				"OutputItem"
+			], 
+			"Entries": {
+				"#0": {
+					"ItemId": "(O)EFANDF.Mimolette",
+					"ObjectInternalName": "{0}Mimolette",
+					"CopyPrice": true,
+					"PreserveId": "DROP_IN",
+					"ObjectDisplayName": "%PRESERVED_DISPLAY_NAME {{Spiderbuttons.CMCT/Translation: appleseed.EFANDF, EFANDF.Mimolette.Name}}",
+					"Condition": "!ITEM_CONTEXT_TAG Input nut_cheese_item",
+					"PriceModifiers": 
+				[
+					{
+						"Modification": "Multiply",
+						"Amount": 2.25
+					},
+					{
+						"Modification": "Add",
+						"Amount": 50
+					}
+				],
+				  "CustomData":
+			{
+			  "selph.ExtraMachineConfig.RequirementId.1": "(O)EFANDF.YeastGrains"
+			}
+			},
+			"#1": {
+					"ItemId": "(O)EFANDF.Mimolette",
+					"ObjectInternalName": "{0}Mimolette",
+					"CopyPrice": true,
+					"PreserveId": "DROP_IN_PRESERVE",
+					"ObjectDisplayName": "%PRESERVED_DISPLAY_NAME {{Spiderbuttons.CMCT/Translation: appleseed.EFANDF, EFANDF.Mimolette.Name}}",
+					"Condition": "ITEM_CONTEXT_TAG Input nut_cheese_item",
+					"PriceModifiers": 
+				[
+					{
+						"Modification": "Multiply",
+						"Amount": 2.25
+					},
+					{
+						"Modification": "Add",
+						"Amount": 50
+					}
+				],
+				  "CustomData":
+			{
+			  "selph.ExtraMachineConfig.RequirementId.1": "(O)EFANDF.YeastGrains"
+			}
+			}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Mimolette": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"EFANDF.Cider", // Cider
+				"Triggers",
+				"#0"
+			], 
+			"Entries": {
+				"RequiredCount": 1
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Cider": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"EFANDF.Cider", // Cider
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"CopyPrice": false,
+				"PriceModifiers": null
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Cider": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		/*{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"EFANDF.RootBeer", // Root Beer
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"CopyPrice": false,
+				"PriceModifiers": null
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Root Beer": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},*/
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"EFANDF.Prunes", // Prunes
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"CopyPrice": false,
+				"PriceModifiers": null
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Prunes": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Kombucha",
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"CustomData": {
+					"selph.ExtraMachineConfig.RequirementId.1": "(O)396",
+					"selph.ExtraMachineConfig.RequirementCount.1": 3,
+					"selph.ExtraMachineConfig.RequirementId.2": "(O)EFANDF.YeastGrains",
+					"selph.ExtraMachineConfig.RequirementId.3": "(O)245"
+            	},
+				"CopyPrice": false,
+				"PriceModifiers": null
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Kombucha": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Kefir",
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"CopyPrice": false,
+				"PriceModifiers": null,
+				"Condition":"!ITEM_CONTEXT_TAG Input large_milk_item"
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Kefir": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Kefir", // Kefir Large Milk
+				"OutputItem"
+			], 
+			"Entries": {
+			"#1": {
+					"ItemId": "(O)EFANDF.Kefir",
+					"ObjectInternalName": "{0}Kefir",
+					"Condition": "ITEM_CONTEXT_TAG Input large_milk_item",
+					"MinStack": 2,
+				  "CustomData":
+			{
+			  "selph.ExtraMachineConfig.RequirementId.1": "(O)EFANDF.YeastGrains"
+			}
+			}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Kefir": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Amazake", // Amazake
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"CopyPrice": false,
+				"PriceModifiers": null
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Amazake": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.TeaEggChicken",
+				"OutputItem",
+				"#0"
+			], 
+			"Entries": {
+				"PreserveId": "DROP_IN",
+				"ObjectDisplayName": "[LocalizedText Strings\\Objects:GreenTea_Name] %PRESERVED_DISPLAY_NAME",
+				"CustomData": {
+					"selph.ExtraMachineConfig.RequirementId.1": "(O)EFANDF.YeastGrains",
+			  "selph.ExtraMachineConfig.RequirementId.2": "(O)815"
+            	},
+					"PriceModifiers": [
+					{
+						"Id": "Wine Multiplier",
+						"Modification": "Multiply",
+						"Amount": 2
+					},
+					{
+						"Id": "Base Price",
+						"Modification": "Add",
+						"Amount": 50
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Tea Egg": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		// Artisan Goods Processing
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"EFANDF.Cordial",
+				"OutputItem",
+				"#0"
+			], // Keg - Cordial
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Cordial": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.MimoletteCC",
+				"OutputItem",
+				"#0"
+			], // Preserves Jar - Mimolette
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Mimolette": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.MimoletteAC",
+				"OutputItem",
+				"#0"
+			], // Preserves Jar - Mimolette
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Mimolette": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.MimoletteAC",
+				"OutputItem",
+				"#1"
+			], // Preserves Jar - Mimolette
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Mimolette": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"EFANDF.Cider",
+				"OutputItem",
+				"#0"
+			], // Keg - Cider
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Cider": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)12",
+				"OutputRules",
+				"EFANDF.RootBeer",
+				"OutputItem",
+				"#0"
+			], // Keg - Root Beer
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Root Beer": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Dehydrator",
+				"OutputRules",
+				"EFANDF.Prunes",
+				"OutputItem",
+				"#0"
+			], // Dehydrator - Prunes
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Prunes": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Kombucha",
+				"OutputItem",
+				"#0"
+			], // Preserves Jar - Kombucha
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Kombucha": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Kefir",
+				"OutputItem",
+				"#0"
+			], // Preserves Jar - Kefir
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Kefir": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Kefir",
+				"OutputItem",
+				"#1"
+			], // Preserves Jar - Kefir Large Milk
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Kefir": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)19",
+				"OutputRules",
+				"EFANDF.CheckerberryOil",
+				"OutputItem",
+				"#0"
+			], // Oil Maker - Checkerberry Oil
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.Amazake",
+				"OutputItem",
+				"#0"
+			], // Preserves Jar - Amazake
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Amazake": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.TeaEggChicken",
+				"OutputItem",
+				"#0"
+			], // Preserves Jar - Tea Egg
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale3",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Tea Egg": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false
+			}
+		},
+		//-------------------------------------------------------------
+		// FSE Compat
+		// Remove RequiredItemId Triggers
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)15",
+				"OutputRules",
+				"EFANDF.MimoletteCC", 
+				"Triggers", 
+				"#0"
+			], 
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_424" ]
+			},
+			"When": {
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Enable Mimolette": true,
+				"Spiderbuttons.CMCT/Config: appleseed.EFANDF, Crock": false,
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+	]
+}

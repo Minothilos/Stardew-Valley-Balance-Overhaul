@@ -5,17 +5,17 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Turkey_TurkeyEgg": {
-					"Price": "300",
+				"Mizu.Peafowl_PeafowlEgg": {
+					"Price": "675",
 					"Edibility": "15"
-				}, // Turkey Egg
-				"Mizu.Turkey_TurkeyFeather": {
-					"Price": "750"
-				}, // Turkey Feather
-				"Mizu.Turkey_TurkeyMayonnaise": {
-					"Price": "700",
+				}, // Peafowl Egg
+				"Mizu.Peafowl_PeacockFeather": {
+					"Price": "1400"
+				}, // Peacock Feather
+				"Mizu.Peafowl_PeafowlMayonnaise": {
+					"Price": "1350",
 					"Edibility": "35"
-				} // Turkey Mayonnaise
+				} // Peafowl Mayonnaise
 			},
 			"When": {
 				"Sell Prices & Adjustments": true
@@ -25,9 +25,9 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"TargetField": [
-				"Mizu.Turkey_TurkeyEgg",
+				"Mizu.Peafowl_PeafowlEgg",
 				"ContextTags"
-			], // Turkey Eggs Eggs are large egg items
+			], // Peafowl Eggs Eggs are large egg items
 			"Entries": {
 				"#-1": "item_large_egg"
 			},
@@ -39,9 +39,8 @@
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"Fields": {
-				"Mizu.Turkey_Turkey": {
-					"PurchasePrice": "1000",
-					"SellPrice": "2000"
+				"Mizu.Peafowl_Peafowl": {
+					"SellPrice": "5000"
 				}
 			},
 			"When": {
@@ -55,10 +54,10 @@
 			"TargetField": [
 				"(BC)24",
 				"OutputRules",
-				"TurkeyMayonnaise",
+				"PeafowlMayonnaise",
 				"OutputItem",
 				"#0"
-			], // Mayonnaise Machine - Turkey Mayonnaise
+			], // Mayonnaise Machine - Peafowl Mayonnaise
 			"Entries": {
 				"Quality": "0",
 				"StackModifiers": [
@@ -87,27 +86,15 @@
 			"Action": "EditData",
 			"Target": "Data/Objects",
 			"Fields": {
-				"Mizu.Turkey_TurkeyMeat": {
-					"Price": "400"
-				}, // Turkey Meat
-				"Mizu.Turkey_TurkeyRice": {
-					"Price": "770"
-				}, // Turkey Rice
-				"Mizu.Turkey_RoastTurkey": {
-					"Price": "1110"
-				}, // Roast Turkey
-				"Mizu.Turkey_Turducken": {
-					"Price": "2685"
-				}, // Turducken
-				"Mizu.Turkey_TurkeyLeg": {
-					"Price": "550"
-				} // Turkey Leg
+				"Mizu.Peafowl_PeafowlMeat": {
+					"Price": "500"
+				} // Peafowl Meat
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true
 			}
-		},
+		}/*,
 		{
 			"Action": "EditData",
 			"Target": "Data/Objects",
@@ -192,6 +179,6 @@
 				"HasMod|contains=DIGUS.ANIMALHUSBANDRYMOD": true,
 				"Food": true
 			}
-		}
+		}*/
 	]
 }

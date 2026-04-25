@@ -368,9 +368,9 @@
 				"RequiredTags": [ "id_o_340" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=paulsteele.fse": true,
-				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP"
+				"Ferngill Simple Economy Changes": true,
+				"HasMod": "selph.FlavoredMead, NCarigon.BetterHoneyMeadCP, selph.SimpleFlowerMead"
 			}
 		},
 		{ // Cask - Honey (added)

@@ -1,0 +1,3407 @@
+{
+	"Changes": [
+		{
+			// Sell Prices
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"428": {
+					"Price": "450"
+				},
+				"selph.TextileExpansion_Yarn": {
+					"Price": "425"
+				},
+				"selph.TextileExpansion_Flax": {
+					"Price": "110"
+				},
+				"selph.TextileExpansion_FlaxSeeds": {
+					"Price": "80"
+				},
+				"selph.TextileExpansion_Hemp": {
+					"Price": "75"
+				},
+				"selph.TextileExpansion_HempSeeds": {
+					"Price": "50"
+				},
+				"selph.TextileExpansion_MadderRoots": {
+					"Price": "130"
+				},
+				"selph.TextileExpansion_MadderRootsSeeds": {
+					"Price": "30"
+				},
+				"selph.TextileExpansion_Safflower": {
+					"Price": "140"
+				},
+				"selph.TextileExpansion_SafflowerSeeds": {
+					"Price": "40"
+				},
+				"selph.TextileExpansion_Indigo": {
+					"Price": "70"
+				},
+				"selph.TextileExpansion_IndigoSeeds": {
+					"Price": "125"
+				},
+				"selph.TextileExpansion_Nettle": {
+					"Price": "100"
+				},
+				"selph.TextileExpansion_NettleRoots": {
+					"Price": "40"
+				},
+				"selph.TextileExpansion_Brazilwood": {
+					"Price": "30"
+				},
+				"selph.TextileExpansion_BrazilwoodSeed": {
+					"Price": "50"
+				},
+				"selph.TextileExpansion_Logwood": {
+					"Price": "100"
+				},
+				"selph.TextileExpansion_LogwoodSeed": {
+					"Price": "75"
+				},
+				"selph.TextileExpansion_GreenSap": {
+					"Price": "600"
+				},
+				"selph.TextileExpansion_Mulberry": {
+					"Price": "70"
+				},
+				"selph.TextileExpansion_MulberryLeaves": {
+					"Price": "5"
+				},
+				"selph.TextileExpansion_MulberrySapling": {
+					"Price": "2250"
+				},
+				"selph.TextileExpansion_SilkCocoon": {
+					"Price": "200"
+				},
+				"selph.TextileExpansion_Silkworm": {
+					"Price": "300"
+				},
+				"selph.TextileExpansion_Cashmere": {
+					"Price": "450"
+				},
+				"selph.TextileExpansion_CochinealBeetle": {
+					"Price": "150"
+				},
+				"selph.TextileExpansion_MurexSnail": {
+					"Price": "160"
+				},
+				"selph.TextileExpansion_LinseedOil": {
+					"Price": "100"
+				},
+				"selph.TextileExpansion_Leather": {
+					"Price": "400"
+				}
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		// Craftong Recipes
+		//-----------------------------------------------------------------
+		{ // Machine Crafting Recipes (Normal)
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"selph.TextileExpansion_YarnSpinner": { // Yarn Spinner
+					"0": "771 30 726 1 388 60 334 2"
+				},
+				"selph.TextileExpansion_DyePot": { // Dye Pot
+					"0": "335 2 766 30 390 50 787 1"
+				},
+				"selph.TextileExpansion_SilkwormRack": { // Silkworm Rack
+					"0": "335 1 selph.TextileExpansion_Silkworm 1 388 60 709 30"
+				}
+			},
+			"When": {
+				"Machines": "Normal"
+			}
+		},
+		{ // Machine Crafting Recipes (Harn)
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"selph.TextileExpansion_YarnSpinner": { // Yarn Spinner
+					"0": "771 40 726 2 388 70 334 3"
+				},
+				"selph.TextileExpansion_DyePot": { // Dye Pot
+					"0": "335 3 766 40 390 70 787 2"
+				},
+				"selph.TextileExpansion_SilkwormRack": { // Silkworm Rack
+					"0": "335 2 selph.TextileExpansion_Silkworm 1 388 80 709 40"
+				}
+			},
+			"When": {
+				"Machines": "Hard"
+			}
+		},
+		{ // Machine Crafting Recipes (Very Harn)
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Fields": {
+				"selph.TextileExpansion_YarnSpinner": { // Yarn Spinner
+					"0": "771 50 726 3 388 80 334 4"
+				},
+				"selph.TextileExpansion_DyePot": { // Dye Pot
+					"0": "335 4 766 50 390 80 787 3"
+				},
+				"selph.TextileExpansion_SilkwormRack": { // Silkworm Rack
+					"0": "335 3 selph.TextileExpansion_Silkworm 2 388 90 709 45"
+				}
+			},
+			"When": {
+				"Machines": "Very Hard"
+			}
+		},
+		// Buildings
+		//-----------------------------------------------------------------
+		 { 
+			"Action": "EditData",
+			"Target": "Data/Buildings",
+            "TargetField": [
+                "Mill", 
+                "ItemConversions", 
+                "selph.TextileExpansion_GreenSap", 
+                "ProducedItems" // Higher yield per sap
+            ],
+        "Fields": {
+              "(O)selph.TextileExpansion_DyeVerdantGreen": {
+                "MinStack": 3
+              }
+            },
+            "When": {
+                "Sell Prices & Adjustments": true
+		    }
+		},
+		// Machine Processing
+		//-----------------------------------------------------------------
+		// Lower Mulberry Leaf production
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_LeafBasket",
+				"OutputRules",
+				"Leaves",
+				"OutputItem", 
+				"MulberryLeaves" // Reduce stack of Mulberry Leaves produced
+			],
+			"Entries": {
+				"MinStack": 5,
+            	"MaxStack": 9
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		// Cloth Price changes
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Default",
+				"OutputItem", 
+				"#0" // Wool Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "WoolModifier",
+						"Modification": "Set",
+						"Amount": 760
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=radm.milkdasheep": false
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Default",
+				"OutputItem", 
+				"#0" // Wool Cloth Price Change (With Milkable Sheep)
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "WoolModifier",
+						"Modification": "Set",
+						"Amount": 520
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=radm.milkdasheep": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Cornucopia_CottonCloth",
+				"OutputItem", 
+				"#0" // Cotton Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "FlazModifier",
+						"Modification": "Set",
+						"Amount": 220
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Flax",
+				"OutputItem", 
+				"#0" // Linen Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "FlaxModifier",
+						"Modification": "Set",
+						"Amount": 320
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Hemp",
+				"OutputItem", 
+				"#0" // Hemp Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "HempModifier",
+						"Modification": "Set",
+						"Amount": 210
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Nettle",
+				"OutputItem", 
+				"#0" // Nettle Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "NettleModifier",
+						"Modification": "Set",
+						"Amount": 200
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Cashmere",
+				"OutputItem", 
+				"#0" // Cashmere Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "CashmereModifier",
+						"Modification": "Set",
+						"Amount": 900
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Silk",
+				"OutputItem", 
+				"#0" // Silk Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "SilkModifier",
+						"Modification": "Set",
+						"Amount": 1400
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Angora",
+				"OutputItem", 
+				"#0" // Angora Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "AngoraModifier",
+						"Modification": "Set",
+						"Amount": 1200
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: selph.TextileExpansion, ReskinRabbitsFoot": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_Renderer",
+				"OutputRules",
+				"Meat",
+				"OutputItem", 
+				"#0" // Leather Cloth Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "LeatherModifier",
+						"Modification": "Set",
+						"Amount": 400
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		// Yarn Price changes
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Wool",
+				"OutputItem", 
+				"#0" // Wool Yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "WoolModifier",
+						"Modification": "Set",
+						"Amount": 380
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=radm.milkdasheep": false
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Wool",
+				"OutputItem", 
+				"#0" // Wool Yarn Price Change (With Milkable Sheep)
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "WoolModifier",
+						"Modification": "Set",
+						"Amount": 260
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=radm.milkdasheep": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Cotton",
+				"OutputItem", 
+				"#0" // Cotton yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "FlazModifier",
+						"Modification": "Set",
+						"Amount": 110
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Flax",
+				"OutputItem", 
+				"#0" // Linen Yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "FlaxModifier",
+						"Modification": "Set",
+						"Amount": 160
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Hemp",
+				"OutputItem", 
+				"#0" // Hemp Yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "HempModifier",
+						"Modification": "Set",
+						"Amount": 105
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Nettle",
+				"OutputItem", 
+				"#0" // Nettle Yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "NettleModifier",
+						"Modification": "Set",
+						"Amount": 100
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Cashmere",
+				"OutputItem", 
+				"#0" // Cashmere Yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "CashmereModifier",
+						"Modification": "Set",
+						"Amount": 450
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Silk",
+				"OutputItem", 
+				"#0" // Silk Yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "SilkModifier",
+						"Modification": "Set",
+						"Amount": 700
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Angora",
+				"OutputItem", 
+				"#0" // Angora Yarn Price Change
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "AngoraModifier",
+						"Modification": "Set",
+						"Amount": 600
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true,
+				"Spiderbuttons.CMCT/Config: selph.TextileExpansion, ReskinRabbitsFoot": true
+			}
+		},
+		// Dye Price Multiplier Change
+		// Cloth Color Multipliers
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#0" // Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#1" // Orange Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.21
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#2" // Yellow Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.18
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#3" // Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#4" // Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.28
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#5" // Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.25
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#6" // Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#7" // White Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.16
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#8" // Pink Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.2
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#9" // Brown Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.23
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#10" // Cyan Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.27
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#11" // Gray Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#12" // Crimson Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#13" // Verdant Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#14" // Mystery Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#15" // Royal Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"OutputItem", 
+				"#16" // Pitch Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		// Yarn Color Multipliers
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#0" // Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#1" // Orange Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.21
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#2" // Yellow Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.18
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#3" // Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#4" // Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.28
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#5" // Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.25
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#6" // Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#7" // White Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.16
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#8" // Pink Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.2
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#9" // Brown Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.23
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#10" // Cyan Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.27
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#11" // Gray Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#12" // Crimson Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#13" // Verdant Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#14" // Mystery Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#15" // Royal Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"OutputItem", 
+				"#16" // Pitch Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		// Modded Cloth & Yarn Color Multipliers
+		// Modded Cloth Color Multipliers
+{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#0" // Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#1" // Orange Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.21
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#2" // Yellow Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.18
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#3" // Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#4" // Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.28
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#5" // Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.25
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#6" // Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#7" // White Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.16
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#8" // Pink Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.2
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#9" // Brown Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.23
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#10" // Cyan Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.27
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#11" // Gray Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#12" // Crimson Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#13" // Verdant Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#14" // Mystery Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#15" // Royal Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedCloth",
+				"OutputItem", 
+				"#16" // Pitch Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		// ModdedYarn Color Multipliers
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#0" // Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#1" // Orange Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.21
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#2" // Yellow Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.18
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#3" // Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#4" // Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.28
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#5" // Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.25
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#6" // Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.24
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#7" // White Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.16
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#8" // Pink Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.2
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#9" // Brown Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.23
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#10" // Cyan Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.27
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#11" // Gray Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.22
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#12" // Crimson Red Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#13" // Verdant Green Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#14" // Mystery Blue Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#15" // Royal Purple Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 1.7
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"ModdedYarn",
+				"OutputItem", 
+				"#16" // Pitch Black Dye
+			],
+			"Entries": {
+				"PriceModifiers": [
+					{
+						"Id": "Color",
+						"Modification": "Multiply",
+						"Amount": 2.0
+					}
+				]
+			},
+			"When": {
+				"Sell Prices & Adjustments": true
+			}
+		},
+		//-----------------------------------------------------------
+		// Loom Scale With Quality
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Default",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Cornucopia_CottonCloth",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Flax",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Hemp",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Nettle",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Cashmere",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Silk",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Angora",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: selph.TextileExpansion, ReskinRabbitsFoot": true
+			}
+		},
+		// Yarn Spinner Scale With Quality
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Wool",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Cotton",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Flax",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Hemp",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Nettle",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Cashmere",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Silk",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Angora",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"Quality": "0",
+				"StackModifiers": [
+					{
+						"Id": "QualityScale1",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "QualityScale2",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.05\" \"ITEM_QUALITY Input 2 2, RANDOM 0.10\" \"ITEM_QUALITY Input 4 4, RANDOM 0.20\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+						"Id": "CritChance",
+						"Condition": "ANY \"ITEM_QUALITY Input 1 1, RANDOM 0.01\" \"ITEM_QUALITY Input 2 2, RANDOM 0.03\" \"ITEM_QUALITY Input 4 4, RANDOM 0.05\"",
+						"Modification": "Add",
+						"Amount": "1",
+						"RandomAmount": null
+					},
+					{
+                		"Id": "selph.TextileExpansion_Weaver",
+                		"Condition": "selph.TextileExpansionCode_HAS_WEAVER Target, RANDOM 0.25",
+                		"Modification": "Add",
+                		"Amount": 1.0,
+                		"RandomAmount": null
+              		}
+				]
+			},
+			"When": {
+				"Artisan Goods Processing": "On",
+				"Spiderbuttons.CMCT/Config: selph.TextileExpansion, ReskinRabbitsFoot": true
+			}
+		},
+	//---------------------------------------------------------------------------
+	// Edits to make Fergill Simple Economy work as intended
+		// Remove RequiredItemID Triggers
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Default",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_440" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"Cornucopia_CottonCloth",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_cornucopia_cottonboll" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Flax",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_flax" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Hemp",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_hemp" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Nettle",
+				"Triggers", 
+				"#0"
+			], 
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_nettle" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Cashmere",
+				"Triggers", 
+				"#0"
+			], 
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_cashmere" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Silk",
+				"Triggers", 
+				"#0"
+			], 
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_silkcocoon" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)17",
+				"OutputRules",
+				"selph.TextileExpansion_Angora",
+				"Triggers", 
+				"#0"
+			], 
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_446" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true,
+				"Spiderbuttons.CMCT/Config: selph.TextileExpansion, ReskinRabbitsFoot": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Wool",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_440" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Cotton",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_cornucopia_cottonboll" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Flax",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_flax" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Hemp",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_hemp" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Nettle",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_nettle" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Cashmere",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_cashmere" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+        { 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Silk",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_silkcocoon" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_YarnSpinner",
+				"OutputRules",
+				"selph.TextileExpansion_Angora",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_446" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true,
+				"Spiderbuttons.CMCT/Config: selph.TextileExpansion, ReskinRabbitsFoot": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Cloth",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_428" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.TextileExpansion_DyePot",
+				"OutputRules",
+				"Yarn",
+				"Triggers", 
+				"#0"
+			],
+			"Entries": {
+				"RequiredItemId": null,
+				"RequiredTags": [ "id_o_selph.textileexpansion_yarn" ]
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{ 
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"selph.TextileExpansion_Cotton": {
+				"Type": "Basic",
+				"Category": "-26",
+				"Price": "220",
+				"Texture": "selph.TextileExpansion/Objects2",
+				"SpriteIndex": 23,
+				"ExcludeFromShippingCollection": true
+			},
+				"selph.TextileExpansion_Silk":  {
+				"Type": "Basic",
+				"Category": "-26",
+				"Price": "1400",
+				"Texture": "selph.TextileExpansion/Objects2",
+				"ExcludeFromShippingCollection": true
+			},
+				"selph.TextileExpansion_Leather": {
+				"Category": -26,
+				"Type": "Basic",
+				"Price": "400",
+				"Texture": "selph.TextileExpansion/Objects",
+          		"SpriteIndex": 5,
+				"ExcludeFromShippingCollection": true
+            },
+				"selph.TextileExpansion_Linen":  {
+				"Type": "Basic",
+				"Category": "-26",
+				"Price": "320",
+				"Texture": "selph.TextileExpansion/Objects",
+				"SpriteIndex": 23,
+				"ExcludeFromShippingCollection": true
+			}
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{ 
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [
+			"(BC)selph.TextileExpansion_YarnSpinner",
+			"OutputRules"
+			],
+			"Entries": {
+	    "FSESC&C.Linen":
+	      {
+		"Id": "FSESC&C.Linen",
+		"Triggers":
+		  [
+		    {
+		    "Id": "ItemPlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+			"RequiredItemId": "(O)selph.TextileExpansion_Flax",
+		    "RequiredCount": 1
+		    }
+		  ],
+		"OutputItem": 
+		  [
+		    {
+		      "ItemId": "(O)selph.TextileExpansion_Linen",
+			  "Condition": "!ITEM_ID Input (O)selph.TextileExpansion_Flax",
+		    }
+		  ],
+		"MinutesUntilReady": 3000
+	      }
+	  		},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{ 
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [
+			"(BC)selph.TextileExpansion_YarnSpinner",
+			"OutputRules"
+			],
+			"Entries": {
+	    "FSESC&C.Silk":
+	      {
+		"Id": "FSESC&C.Silk",
+		"Triggers":
+		  [
+		    {
+		    "Id": "ItemPlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+			"RequiredItemId": "(O)selph.TextileExpansion_SilkCocoon",
+		    "RequiredCount": 1
+		    }
+		  ],
+		"OutputItem": 
+		  [
+		    {
+		      "ItemId": "(O)selph.TextileExpansion_Silk",
+			  "Condition": "!ITEM_ID Input (O)selph.TextileExpansion_SilkCocoon",
+		    }
+		  ],
+		"MinutesUntilReady": 3000
+	      }
+	  		},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{ 
+		"Action": "EditData",
+		"Target": "Data/Machines",
+		"TargetField": [
+			"(BC)selph.TextileExpansion_YarnSpinner",
+			"OutputRules"
+			],
+			"Entries": {
+	    "FSESC&C.Cotton":
+	      {
+		"Id": "FSESC&C.Cotton",
+		"Triggers":
+		  [
+		    {
+		    "Id": "ItemPlacedInMachine",
+            "Trigger": "ItemPlacedInMachine",
+			"RequiredItemId": "(O)Cornucopia_CottonBoll",
+		    "RequiredCount": 1
+		    }
+		  ],
+		"OutputItem": 
+		  [
+		    {
+		      "ItemId": "(O)selph.TextileExpansion_Cotton",
+			  "Condition": "!ITEM_ID Input (O)Cornucopia_CottonBoll",
+		    }
+		  ],
+		"MinutesUntilReady": 3000
+	      }
+	  		},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+	]
+}

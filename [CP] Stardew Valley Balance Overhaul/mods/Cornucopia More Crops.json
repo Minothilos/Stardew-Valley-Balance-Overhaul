@@ -114,7 +114,8 @@
 				"RequiredCount": "12"
 			},
 			"When": {
-				"Sell Prices & Adjustments": true
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=selph.TextileExpansion": false
 			}
 		},
 		{
@@ -129,7 +130,8 @@
 				"InvalidCountMessage": "{{i18n: LoomInvalidCount_Cotton_12}}"
 			},
 			"When": {
-				"Sell Prices & Adjustments": true
+				"Sell Prices & Adjustments": true,
+				"HasMod|contains=selph.TextileExpansion": false
 			}
 		},
 		{
@@ -147,7 +149,8 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod|contains=radm.milkdasheep": true
+				"HasMod|contains=radm.milkdasheep": true,
+				"HasMod|contains=selph.TextileExpansion": false
 			}
 		},
 		{
@@ -163,7 +166,8 @@
 			},
 			"When": {
 				"Sell Prices & Adjustments": true,
-				"HasMod|contains=radm.milkdasheep": true
+				"HasMod|contains=radm.milkdasheep": true,
+				"HasMod|contains=selph.TextileExpansion": false
 			}
 		},
 		{

@@ -895,8 +895,8 @@
 				
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -914,9 +914,9 @@
 				
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -934,8 +934,8 @@
 				
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -952,8 +952,8 @@
 				"#0": null
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -971,8 +971,8 @@
 				
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -988,8 +988,8 @@
 				"#1": null
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1006,8 +1006,8 @@
 				"RequiredTags": [ "id_o_614" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1024,8 +1024,8 @@
 				"RequiredTags": [ "id_o_395" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1042,8 +1042,8 @@
 				"RequiredTags": [ "id_o_cornucopia_essentialoil" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1060,9 +1060,9 @@
 				"RequiredTags": [ "id_o_cornucopia_cocoapod" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1079,9 +1079,9 @@
 				"RequiredTags": [ "id_o_cornucopia_vanilla" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1097,8 +1097,8 @@
 				"#1": null
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1112,8 +1112,8 @@
 				"#-1": "cornucopia_yogurtjar_flavoredyogurt"
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1130,8 +1130,8 @@
 				"RequiredTags": [ "id_o_cornucopia_nutmilk" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1148,9 +1148,9 @@
 				"RequiredTags": [ "id_o_cornucopia_soybeans" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		{
@@ -1167,10 +1167,27 @@
 				"RequiredTags": [ "id_o_cornucopia_oats" ]
 			},
 			"When": {
-				"Artisan Goods Processing|contains=Off": "false",
 				"HasMod|contains=Cornucopia.MoreCrops": true,
 				"HasReadLetter |contains=Cornucopia.MoreCrops_ExtendedCropsPackEnabled": true,
-				"HasMod|contains=paulsteele.fse": true
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)Cornucopia_DeluxeSmoker",
+				"OutputRules",
+				"Cornucopia_SmokedCheese"
+			],
+			"Entries": 
+			{
+			"UseFirstValidOutput": true	
+			},
+			"When": {
+				"HasMod|contains=paulsteele.fse": true,
+				"Ferngill Simple Economy Changes": true
 			}
 		},
 		// Cask Aging Multiplier

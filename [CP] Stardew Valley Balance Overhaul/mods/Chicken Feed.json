@@ -27,7 +27,7 @@
 				"Increased Silo Size": true
 		    }
 		},
-        { // Increased Silo Size
+        { 
 			"Action": "EditData",
 			"Target": "Data/Buildings",
             "Priority": "Late",
@@ -62,6 +62,20 @@
 			],
 			"Entries": {
 				"MinStack": 3
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)selph.CoopFeed.HandMill",
+				"OutputRules",
+				"selph.CoopFeed.CornToFeed",
+				"OutputItem",
+				"#0"
+			],
+			"Entries": {
+				"MinStack": 5
 			}
 		},
         {

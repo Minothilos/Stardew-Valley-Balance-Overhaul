@@ -41,6 +41,7 @@
 	"config.Increased Silo Size.description": "Increases silo size to 1000 hay.",
 	"config.Split Large Animal Products.description": "Allows players to turn large animal products into two smaller animal products using hand crafting or recycling machine. Handcrafting requires Level 4 Farming.",
 	"config.Remove Seeds from Shops.description": "If Cornucopia More Crops or Flowers is installed new seed entries will be added to shops. Enabling this will prevent that. Should stay disabled unless other mods are used that remove all seeds from shops.",
+	"config.Ferngill Simple Economy Changes": "Allows SVBO to make changes to Object Data and Machine processing to allow for better Ferngill Simple Economy balance. Does nothing if Ferngill Simple Economy isn't installed.",
 	"config.Minothilos Tweaks.description": "Personal tweaks to the mod made by the co-developer of SVBO. This should usually be left disabled.",
 	"Sheep": "Adults can be shorn for wool every couple days. A pair of shears is required to harvest the wool. Lives in the Barn.",
 	"GoldenAnimalCracker": "Give this to a farm animal to permanently double its produce yield.",

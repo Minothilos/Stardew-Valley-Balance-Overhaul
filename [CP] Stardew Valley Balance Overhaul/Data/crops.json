@@ -294,49 +294,49 @@
 			"Entries": {
 				"Theoddon.BalanceOverhaul_Farming2": {
 					"Id": "Theoddon.BalanceOverhaul_Farming2",
-					"ItemId": "(O)QiFruit",
+					"ItemId": "(O)889",
 					"Condition": "PLAYER_FARMING_LEVEL Current 2",
 					"MinStack": 1,
 					"MaxStack": 2
 				},
 				"Theoddon.BalanceOverhaul_Farming4": {
 					"Id": "Theoddon.BalanceOverhaul_Farming4",
-					"ItemId": "(O)QiFruit",
+					"ItemId": "(O)889",
 					"Condition": "PLAYER_FARMING_LEVEL Current 4",
 					"MinStack": 1,
 					"MaxStack": 2
 				},
 				"Theoddon.BalanceOverhaul_Farming6": {
 					"Id": "Theoddon.BalanceOverhaul_Farming6",
-					"ItemId": "(O)QiFruit",
+					"ItemId": "(O)889",
 					"Condition": "PLAYER_FARMING_LEVEL Current 6",
 					"MinStack": 1,
 					"MaxStack": 2
 				},
 				"Theoddon.BalanceOverhaul_Farming8": {
 					"Id": "Theoddon.BalanceOverhaul_Farming8",
-					"ItemId": "(O)QiFruit",
+					"ItemId": "(O)889",
 					"Condition": "PLAYER_FARMING_LEVEL Current 8",
 					"MinStack": 1,
 					"MaxStack": 2
 				},
 				"Theoddon.BalanceOverhaul_Farming10": {
 					"Id": "Theoddon.BalanceOverhaul_Farming10",
-					"ItemId": "(O)QiFruit",
+					"ItemId": "(O)889",
 					"Condition": "PLAYER_FARMING_LEVEL Current 10",
 					"MinStack": 1,
 					"MaxStack": 2
 				},
 				"Theoddon.BalanceOverhaul_Farming12": {
 					"Id": "Theoddon.BalanceOverhaul_Farming12",
-					"ItemId": "(O)QiFruit",
+					"ItemId": "(O)889",
 					"Condition": "PLAYER_FARMING_LEVEL Current 12",
 					"MinStack": 1,
 					"MaxStack": 2
 				},
 				"Theoddon.BalanceOverhaul_Farming14": {
 					"Id": "Theoddon.BalanceOverhaul_Farming14",
-					"ItemId": "(O)QiFruit",
+					"ItemId": "(O)889",
 					"Condition": "PLAYER_FARMING_LEVEL Current 14",
 					"MinStack": 1,
 					"MaxStack": 2

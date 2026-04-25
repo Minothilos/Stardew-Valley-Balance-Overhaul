@@ -40,7 +40,7 @@
 			"Action": "EditData",
 			"Target": "Data/FarmAnimals",
 			"Fields": {
-				"Mizu.Quail_PlumedQuail": {
+				"Mizu.Quail_Quail": {
 					"PurchasePrice": "500",
 					"SellPrice": "1000"
 				}
@@ -68,7 +68,7 @@
 				"OutputRules"
 			],
 			"Entries": {
-				"SVBO_BrownEggSplit": {
+				"SVBO_QuailEggSplit": {
 					"Id": "SVBO_QuailEggSplit",
 					"Triggers": [
 						{

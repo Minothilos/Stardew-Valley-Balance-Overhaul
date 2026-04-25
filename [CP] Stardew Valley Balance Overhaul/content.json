@@ -198,6 +198,11 @@
 			"Default": "false",
 			"Section": "Cornucopia"
 		},
+		"Ferngill Simple Economy Changes": {
+			"AllowValues": "false, true",
+			"Default": "true",
+			"Section": "Miscellaneous"
+		},
 		"Minothilos Tweaks": {
 			"AllowValues": "false, true",
 			"Default": "false",
@@ -270,6 +275,13 @@
 			"FromFile": "mods/Mizu's Turkey.json",
 			"When": {
 				"HasMod": "Mizu.Turkey"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "mods/Mizu's Peafowl.json",
+			"When": {
+				"HasMod": "Mizu.Peafowl"
 			}
 		},
 		{
@@ -407,16 +419,30 @@
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Minothilos Tweaks.json",
+			"FromFile": "mods/Central Station.json",
 			"When": {
-				"Minothilos Tweaks": true
+				"HasMod": "Pathoschild.CentralStation.Content"
+			}
+		},
+		/*{
+			"Action": "Include",
+			"FromFile": "mods/Extra Forage and Fermentation.json",
+			"When": {
+				"HasMod": "appleseed.EFANDF"
+			}
+		},*/
+		{
+			"Action": "Include",
+			"FromFile": "mods/Cloths&Colors.json",
+			"When": {
+				"HasMod": "selph.TextileExpansion"
 			}
 		},
 		{
 			"Action": "Include",
-			"FromFile": "mods/Central Station.json",
+			"FromFile": "mods/Minothilos Tweaks.json",
 			"When": {
-				"HasMod": "Pathoschild.CentralStation.Content"
+				"Minothilos Tweaks": true
 			}
 		}
 	]
